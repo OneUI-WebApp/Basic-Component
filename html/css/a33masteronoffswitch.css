@@ -8,7 +8,7 @@
   width: 1680px;
 }
 .a33masteronoffswitch .background-0UAVni {
-  background-color: rgba(71,71,71,1.0);
+  background-color: var(--gravel);
   height: 22px;
   left: 0px;
   position: absolute;
@@ -24,7 +24,7 @@
   width: 206px;
 }
 .a33masteronoffswitch .background-E9oY6c {
-  background-color: rgba(71,71,71,1.0);
+  background-color: var(--gravel);
   height: 22px;
   left: 0px;
   position: absolute;
@@ -32,7 +32,7 @@
   width: 145px;
 }
 .a33masteronoffswitch .background-FusZ6D {
-  background-color: rgba(71,71,71,1.0);
+  background-color: var(--gravel);
   height: 22px;
   left: 0px;
   position: absolute;
@@ -48,7 +48,7 @@
   width: 206px;
 }
 .a33masteronoffswitch .background-b8uY3u {
-  background-color: rgba(71,71,71,1.0);
+  background-color: var(--gravel);
   height: 22px;
   left: 0px;
   position: absolute;
@@ -72,7 +72,7 @@
   width: 145px;
 }
 .a33masteronoffswitch .background-rJKhRt {
-  background-color: rgba(71,71,71,1.0);
+  background-color: var(--gravel);
   height: 22px;
   left: 0px;
   position: absolute;
@@ -80,7 +80,7 @@
   width: 212px;
 }
 .a33masteronoffswitch .background-vp3AGf {
-  background-color: rgba(71,71,71,1.0);
+  background-color: var(--gravel);
   height: 22px;
   left: 0px;
   position: absolute;
@@ -103,7 +103,7 @@
 }
 .a33masteronoffswitch .basic-component-gui-tuZlmD {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 20px;
   height: auto;
   left: 0px;
@@ -147,7 +147,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .comment-0vyVxG {
   background-color: transparent;
-  color: rgba(145,145,145,1.0);
+  color: var(--gray);
   font-size: 18px;
   height: auto;
   left: 101px;
@@ -160,7 +160,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .comment-4e9jyG {
   background-color: transparent;
-  color: rgba(145,145,145,1.0);
+  color: var(--gray);
   font-size: 18px;
   height: auto;
   left: 101px;
@@ -173,7 +173,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .comment-9flS8p {
   background-color: transparent;
-  color: rgba(145,145,145,1.0);
+  color: var(--gray);
   font-size: 18px;
   height: auto;
   left: 101px;
@@ -186,7 +186,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .comment-HGqdID {
   background-color: transparent;
-  color: rgba(145,145,145,1.0);
+  color: var(--gray);
   font-size: 18px;
   height: auto;
   left: 127px;
@@ -199,7 +199,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .comment-IebieZ {
   background-color: transparent;
-  color: rgba(145,145,145,1.0);
+  color: var(--gray);
   font-size: 18px;
   height: auto;
   left: 264px;
@@ -212,7 +212,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .comment-K06YoD {
   background-color: transparent;
-  color: rgba(145,145,145,1.0);
+  color: var(--gray);
   font-size: 18px;
   height: auto;
   left: 203px;
@@ -225,7 +225,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .comment-NEdbvC {
   background-color: transparent;
-  color: rgba(145,145,145,1.0);
+  color: var(--gray);
   font-size: 18px;
   height: auto;
   left: 203px;
@@ -238,7 +238,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .comment-YjdAp8 {
   background-color: transparent;
-  color: rgba(145,145,145,1.0);
+  color: var(--gray);
   font-size: 18px;
   height: auto;
   left: 127px;
@@ -251,7 +251,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .comment-bw0xrm {
   background-color: transparent;
-  color: rgba(145,145,145,1.0);
+  color: var(--gray);
   font-size: 18px;
   height: auto;
   left: 264px;
@@ -264,7 +264,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .comment-fZQxdY {
   background-color: transparent;
-  color: rgba(145,145,145,1.0);
+  color: var(--gray);
   font-size: 18px;
   height: auto;
   left: 101px;
@@ -277,7 +277,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .comment-ouIYH5 {
   background-color: transparent;
-  color: rgba(145,145,145,1.0);
+  color: var(--gray);
   font-size: 18px;
   height: auto;
   left: 264px;
@@ -290,7 +290,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .comment-p74hrO {
   background-color: transparent;
-  color: rgba(145,145,145,1.0);
+  color: var(--gray);
   font-size: 18px;
   height: auto;
   left: 264px;
@@ -314,7 +314,7 @@ transform: scale(0.98);
   height: 119px;
   left: 20px;
   position: absolute;
-  top: 365px;
+  top: 363px;
   width: 465px;
 }
 .a33masteronoffswitch .dark-theme-wvOevm {
@@ -336,7 +336,7 @@ transform: scale(0.98);
 .a33masteronoffswitch .document-b-x-contents-7qIJSp {
   background-color: var(--white);
   border: 1px solid var(--ebb);
-  height: 142px;
+  height: 140px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -372,7 +372,7 @@ transform: scale(0.98);
 .a33masteronoffswitch .document-b-x-contents-cQNe9n {
   background-color: var(--white);
   border: 1px solid var(--ebb);
-  height: 517px;
+  height: 512px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -415,7 +415,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .fn-0UAVni {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -441,7 +441,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .fn-E9oY6c {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -454,7 +454,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .fn-FusZ6D {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -480,7 +480,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .fn-b8uY3u {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -519,7 +519,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .fn-rJKhRt {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -532,7 +532,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .fn-vp3AGf {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -548,7 +548,7 @@ transform: scale(0.98);
   height: 28px;
   left: 20px;
   position: absolute;
-  top: 84px;
+  top: 82px;
   width: 465px;
 }
 .a33masteronoffswitch .general-OxEYc6 {
@@ -564,7 +564,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 84px;
+  top: 82px;
   width: 465px;
 }
 .a33masteronoffswitch .general-wvOevm {
@@ -1240,7 +1240,7 @@ transform: scale(0.98);
   width: 203px;
 }
 .a33masteronoffswitch .group-4e9jyG {
-  background-color: rgba(71,71,71,1.0);
+  background-color: var(--gravel);
   height: 22px;
   left: 67px;
   position: absolute;
@@ -1264,7 +1264,7 @@ transform: scale(0.98);
   width: 164px;
 }
 .a33masteronoffswitch .group-9flS8p {
-  background-color: rgba(71,71,71,1.0);
+  background-color: var(--gravel);
   height: 22px;
   left: 67px;
   position: absolute;
@@ -1328,7 +1328,7 @@ transform: scale(0.98);
   width: 246px;
 }
 .a33masteronoffswitch .group-UVYbK5 {
-  background-color: rgba(71,71,71,1.0);
+  background-color: var(--gravel);
   height: 22px;
   left: 67px;
   position: absolute;
@@ -1360,7 +1360,7 @@ transform: scale(0.98);
   width: 26px;
 }
 .a33masteronoffswitch .group-mWxuS7 {
-  background-color: rgba(71,71,71,1.0);
+  background-color: var(--gravel);
   height: 22px;
   left: 67px;
   position: absolute;
@@ -1836,7 +1836,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .guide-meas-e-vertical-RVEe4B {
   background-color: transparent;
-  background-image: url(../img/3-3-master-onoff-switch-line-4F9A8F9A-5F4E-4974-AB87-EA8A6887CDAA@2x.png);
+  background-image: url(../img/3-3-master-onoff-switch-line-04658395-AC82-4F0C-AF2F-C5155EBD8E0D@2x.png);
   background-size: 100% 100%;
   height: 30px;
   left: 0px;
@@ -1846,7 +1846,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .guide-meas-e-vertical-f9lBa2 {
   background-color: transparent;
-  background-image: url(../img/3-3-master-onoff-switch-line-4F9A8F9A-5F4E-4974-AB87-EA8A6887CDAA@2x.png);
+  background-image: url(../img/3-3-master-onoff-switch-line-04658395-AC82-4F0C-AF2F-C5155EBD8E0D@2x.png);
   background-size: 100% 100%;
   height: 30px;
   left: 35px;
@@ -1856,7 +1856,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .guide-meas-e-vertical-j9L9ol {
   background-color: transparent;
-  background-image: url(../img/3-3-master-onoff-switch-line-4F9A8F9A-5F4E-4974-AB87-EA8A6887CDAA@2x.png);
+  background-image: url(../img/3-3-master-onoff-switch-line-04658395-AC82-4F0C-AF2F-C5155EBD8E0D@2x.png);
   background-size: 100% 100%;
   height: 30px;
   left: 35px;
@@ -1866,7 +1866,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .guide-meas-e-vertical-wjtPqr {
   background-color: transparent;
-  background-image: url(../img/3-3-master-onoff-switch-line-4F9A8F9A-5F4E-4974-AB87-EA8A6887CDAA@2x.png);
+  background-image: url(../img/3-3-master-onoff-switch-line-04658395-AC82-4F0C-AF2F-C5155EBD8E0D@2x.png);
   background-size: 100% 100%;
   height: 30px;
   left: 0px;
@@ -1909,7 +1909,7 @@ transform: scale(0.98);
   width: 540px;
 }
 .a33masteronoffswitch .guide-measure-area-RVEe4B {
-  background-color: var(--azure-radiance-2);
+  background-color: rgba(0,153,255,0.37);
   height: 95px;
   left: 0px;
   position: absolute;
@@ -1917,7 +1917,7 @@ transform: scale(0.98);
   width: 36px;
 }
 .a33masteronoffswitch .guide-measure-area-wjtPqr {
-  background-color: var(--azure-radiance-2);
+  background-color: rgba(0,153,255,0.37);
   height: 95px;
   left: 0px;
   position: absolute;
@@ -1926,7 +1926,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .guide-numb-ring-shape-5TtQRw {
   background-color: transparent;
-  background-image: url(../img/3-4-onoff-switch-oval-9AFFB896-E62B-4428-8964-7BC0C84626A1@2x.png);
+  background-image: url(../img/3-3-master-onoff-switch-oval-8EF8A727-6A1B-47CC-9F79-C7E00774A9C2@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 34px;
@@ -1936,7 +1936,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .guide-numb-ring-shape-MxozcD {
   background-color: transparent;
-  background-image: url(../img/3-4-onoff-switch-oval-9AFFB896-E62B-4428-8964-7BC0C84626A1@2x.png);
+  background-image: url(../img/3-3-master-onoff-switch-oval-8EF8A727-6A1B-47CC-9F79-C7E00774A9C2@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1946,7 +1946,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .guide-numb-ring-shape-gxtUO0 {
   background-color: transparent;
-  background-image: url(../img/3-4-onoff-switch-oval-9AFFB896-E62B-4428-8964-7BC0C84626A1@2x.png);
+  background-image: url(../img/3-3-master-onoff-switch-oval-8EF8A727-6A1B-47CC-9F79-C7E00774A9C2@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 466px;
@@ -1956,7 +1956,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .guide-numbering-icon-Pb2qyO {
   background-color: transparent;
-  background-image: url(../img/3-4-onoff-switch-oval-9AFFB896-E62B-4428-8964-7BC0C84626A1@2x.png);
+  background-image: url(../img/3-3-master-onoff-switch-oval-8EF8A727-6A1B-47CC-9F79-C7E00774A9C2@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1966,7 +1966,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .guide-numbering-icon-nt8ldM {
   background-color: transparent;
-  background-image: url(../img/3-4-onoff-switch-oval-9AFFB896-E62B-4428-8964-7BC0C84626A1@2x.png);
+  background-image: url(../img/3-3-master-onoff-switch-oval-8EF8A727-6A1B-47CC-9F79-C7E00774A9C2@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1976,7 +1976,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .guide-numbering-icon-ugRRzt {
   background-color: transparent;
-  background-image: url(../img/3-4-onoff-switch-oval-9AFFB896-E62B-4428-8964-7BC0C84626A1@2x.png);
+  background-image: url(../img/3-3-master-onoff-switch-oval-8EF8A727-6A1B-47CC-9F79-C7E00774A9C2@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1986,7 +1986,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .guide-numbering-type-5TtQRw {
   background-color: transparent;
-  background-image: url(../img/3-3-master-onoff-switch-oval-F95E6432-4BB0-4F9A-8E4A-843AE6FB3253@2x.png);
+  background-image: url(../img/3-3-master-onoff-switch-oval-DE84973C-D602-474C-8C55-CBA3C0A1F73E@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 52px;
@@ -1996,7 +1996,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .guide-numbering-type-Bz05TB {
   background-color: transparent;
-  background-image: url(../img/3-3-master-onoff-switch-oval-F95E6432-4BB0-4F9A-8E4A-843AE6FB3253@2x.png);
+  background-image: url(../img/3-3-master-onoff-switch-oval-DE84973C-D602-474C-8C55-CBA3C0A1F73E@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2006,7 +2006,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .guide-numbering-type-MxozcD {
   background-color: transparent;
-  background-image: url(../img/3-3-master-onoff-switch-oval-F95E6432-4BB0-4F9A-8E4A-843AE6FB3253@2x.png);
+  background-image: url(../img/3-3-master-onoff-switch-oval-DE84973C-D602-474C-8C55-CBA3C0A1F73E@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 15px;
@@ -2016,7 +2016,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .guide-numbering-type-vEddK5 {
   background-color: transparent;
-  background-image: url(../img/3-3-master-onoff-switch-oval-F95E6432-4BB0-4F9A-8E4A-843AE6FB3253@2x.png);
+  background-image: url(../img/3-3-master-onoff-switch-oval-DE84973C-D602-474C-8C55-CBA3C0A1F73E@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2099,7 +2099,7 @@ transform: scale(0.98);
   height: 26px;
   left: 20px;
   position: absolute;
-  top: 32px;
+  top: 30px;
   width: 135px;
 }
 .a33masteronoffswitch .guide-subject-shape-wvOevm {
@@ -2131,7 +2131,7 @@ transform: scale(0.98);
   height: 26px;
   left: 20px;
   position: absolute;
-  top: 32px;
+  top: 30px;
   width: 121px;
 }
 .a33masteronoffswitch .guide-zUixHA {
@@ -2177,7 +2177,7 @@ transform: scale(0.98);
   height: 119px;
   left: 20px;
   position: absolute;
-  top: 218px;
+  top: 216px;
   width: 465px;
 }
 .a33masteronoffswitch .light-theme-wvOevm {
@@ -2238,7 +2238,7 @@ transform: scale(0.98);
   width: 540px;
 }
 .a33masteronoffswitch .mobile-lig-nswitchoff-FxO9gV {
-  background-color: rgba(250,250,250,1.0);
+  background-color: var(--alabaster);
   border-radius: 39px;
   height: 96px;
   left: 0px;
@@ -2248,10 +2248,14 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .off-Ws7EJc {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
   font-size: 27px;
+  font-style: normal;
+  font-weight: 500;
   height: 32px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 32px;
   position: absolute;
   text-align: left;
@@ -2290,9 +2294,13 @@ transform: scale(0.98);
 .a33masteronoffswitch .on-dU04b7 {
   background-color: transparent;
   color: rgba(0,114,222,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
   font-size: 27px;
+  font-style: normal;
+  font-weight: 500;
   height: 32px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 32px;
   position: absolute;
   text-align: left;
@@ -2730,7 +2738,7 @@ transform: scale(0.98);
   width: auto;
 }
 .a33masteronoffswitch .rectangle-5trhYn {
-  background-color: var(--azure-radiance);
+  background-color: rgba(0,153,255,1.0);
   height: 9px;
   left: 0px;
   position: absolute;
@@ -2746,7 +2754,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a33masteronoffswitch .rectangle-9z9xxw {
-  background-color: var(--razzle-dazzle-rose);
+  background-color: rgba(255,51,255,1.0);
   height: 125px;
   left: 6px;
   position: absolute;
@@ -2754,7 +2762,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a33masteronoffswitch .rectangle-HCSaOX {
-  background-color: var(--azure-radiance);
+  background-color: rgba(0,153,255,1.0);
   height: 9px;
   left: 0px;
   position: absolute;
@@ -2762,7 +2770,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a33masteronoffswitch .rectangle-McsmKA {
-  background-color: var(--razzle-dazzle-rose);
+  background-color: rgba(255,51,255,1.0);
   height: 1px;
   left: 0px;
   position: absolute;
@@ -2770,7 +2778,7 @@ transform: scale(0.98);
   width: 540px;
 }
 .a33masteronoffswitch .rectangle-SRxN7x {
-  background-color: var(--razzle-dazzle-rose);
+  background-color: rgba(255,51,255,1.0);
   height: 9px;
   left: 539px;
   position: absolute;
@@ -2786,7 +2794,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a33masteronoffswitch .rectangle-WXgxfs {
-  background-color: var(--azure-radiance);
+  background-color: rgba(0,153,255,1.0);
   height: 1px;
   left: 0px;
   position: absolute;
@@ -2794,7 +2802,7 @@ transform: scale(0.98);
   width: 36px;
 }
 .a33masteronoffswitch .rectangle-YoPNsk {
-  background-color: var(--razzle-dazzle-rose);
+  background-color: rgba(255,51,255,1.0);
   height: 1px;
   left: 2px;
   position: absolute;
@@ -2818,7 +2826,7 @@ transform: scale(0.98);
   width: 320px;
 }
 .a33masteronoffswitch .rectangle-lRoigh {
-  background-color: var(--azure-radiance);
+  background-color: rgba(0,153,255,1.0);
   height: 9px;
   left: 35px;
   position: absolute;
@@ -2826,7 +2834,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a33masteronoffswitch .rectangle-nhIdoN {
-  background-color: var(--razzle-dazzle-rose);
+  background-color: rgba(255,51,255,1.0);
   height: 9px;
   left: 0px;
   position: absolute;
@@ -2834,7 +2842,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a33masteronoffswitch .rectangle-w6A1xr {
-  background-color: var(--razzle-dazzle-rose);
+  background-color: rgba(255,51,255,1.0);
   height: 1px;
   left: 2px;
   position: absolute;
@@ -2842,7 +2850,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a33masteronoffswitch .rectangle-x9GnYB {
-  background-color: var(--azure-radiance);
+  background-color: rgba(0,153,255,1.0);
   height: 9px;
   left: 35px;
   position: absolute;
@@ -2850,7 +2858,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a33masteronoffswitch .rectangle-xN7PL2 {
-  background-color: var(--azure-radiance);
+  background-color: rgba(0,153,255,1.0);
   height: 1px;
   left: 0px;
   position: absolute;
@@ -2867,10 +2875,10 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .shape-ri4jeA {
   background-color: transparent;
-  height: 142px;
+  height: 140px;
   left: 735px;
   position: absolute;
-  top: 1033px;
+  top: 1035px;
   width: 505px;
 }
 .a33masteronoffswitch .shape-zUixHA {
@@ -3329,10 +3337,10 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .type-VyzZeT {
   background-color: transparent;
-  height: 517px;
+  height: 512px;
   left: 735px;
   position: absolute;
-  top: 496px;
+  top: 498px;
   width: 505px;
 }
 .a33masteronoffswitch .type-zUixHA {
@@ -3358,7 +3366,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .value-0S2gVM {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
+  color: var(--periwinkle);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -3371,7 +3379,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .value-0UAVni {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
+  color: var(--periwinkle);
   font-size: 18px;
   height: auto;
   left: 32px;
@@ -3431,7 +3439,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .value-E9oY6c {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
+  color: var(--periwinkle);
   font-size: 18px;
   height: auto;
   left: 32px;
@@ -3444,7 +3452,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .value-FusZ6D {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
+  color: var(--periwinkle);
   font-size: 18px;
   height: auto;
   left: 32px;
@@ -3593,7 +3601,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .value-aA8hNk {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
+  color: var(--periwinkle);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -3606,7 +3614,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .value-b8uY3u {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
+  color: var(--periwinkle);
   font-size: 18px;
   height: auto;
   left: 32px;
@@ -3648,7 +3656,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .value-dVVKVs {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
+  color: var(--periwinkle);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -3729,7 +3737,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .value-nwBtYG {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
+  color: var(--periwinkle);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -3758,7 +3766,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .value-rJKhRt {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
+  color: var(--periwinkle);
   font-size: 18px;
   height: auto;
   left: 32px;
@@ -3818,7 +3826,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .value-vp3AGf {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
+  color: var(--periwinkle);
   font-size: 18px;
   height: auto;
   left: 32px;
@@ -3865,8 +3873,13 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .web-app-tuZlmD {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3915,7 +3928,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .x-46kX0j {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 200px;
@@ -3941,7 +3954,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .x-4ibECZ {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 206px;
@@ -3967,7 +3980,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .x-7zJtc9 {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 200px;
@@ -4032,7 +4045,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .x-EbN5jt {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -4071,7 +4084,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .x-I3Fw53 {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -4175,7 +4188,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .x-UeyOfi {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -4292,7 +4305,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .x-isTAF2 {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -4344,7 +4357,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .x-onmqlY {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -4357,7 +4370,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .x-qiaCou {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -4435,7 +4448,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .x-vrzxr5 {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -4500,7 +4513,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .x-ybgWGB {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -4513,7 +4526,7 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .x-yy159z {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -4920,8 +4933,13 @@ transform: scale(0.98);
 }
 .a33masteronoffswitch .x3-3-main-onoff-sw-C61RwL {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
   height: auto;
   left: 380px;
+  letter-spacing: 0.00px;
+  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -5027,68 +5045,27 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.border-class-1 {
-  border: 1px solid rgba(237,237,237,1.0);
-}
-.border-class-2 {
-  border: 1px solid rgba(221,221,221,1.0);
-}
-.border-class-3 {
-  border: 1px solid rgba(135,135,135,1.0);
-}
-.border-class-4 {
-  border: 0.5px solid var(--black);
-}
-.border-class-5 {
-  border: 0.5px solid var(--white);
-}
-.border-class-6 {
-  border: 3px solid rgba(143,143,143,1.0);
-}
 .font-class-1 {
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
 }
 .font-class-2 {
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-}
-.font-class-3 {
   font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
+.font-class-3 {
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+}
 .font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
-.font-class-5 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-}
-.font-class-6 {
-  color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
-  line-height: 84px;
-}
-.font-class-7 {
-  color: var(--black);
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size: 15px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
-}
-.font-class-8 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 500;
 }
 :root {
-  --azure-radiance: rgba(0,153,255,1.0);
-  --azure-radiance-2: rgba(0,153,255,0.37);
+  --alabaster: rgba(250,250,250,1.0);
   --black: rgba(0,0,0,1.0);
   --concrete: rgba(242,242,242,1.0);
   --ebb: rgba(227,227,227,1.0);
+  --gravel: rgba(71,71,71,1.0);
+  --gray: rgba(145,145,145,1.0);
   --masala: rgba(59,59,59,1.0);
-  --razzle-dazzle-rose: rgba(255,51,255,1.0);
+  --periwinkle: rgba(193,206,254,1.0);
   --royal-blue: rgba(75,99,250,1.0);
-  --shark: rgba(37,37,37,1.0);
   --white: rgba(255,255,255,1.0);
 }
