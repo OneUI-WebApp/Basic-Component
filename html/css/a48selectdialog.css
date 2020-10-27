@@ -1,0 +1,1931 @@
+/* screen - a48selectdialog */
+
+.a48selectdialog {
+  background-color: rgba(245,246,247,1.0);
+  height: 1385px;
+  overflow: hidden;
+  position: relative;
+  width: 1680px;
+}
+.a48selectdialog .basic-8toWLI {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a48selectdialog .basic-component-gui-OB1SiY {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: justify;
+  top: 21px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .btn-mwblLs {
+  background-color: rgba(3,129,254,1.0);
+  border-radius: 22.5px;
+  height: 45px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 274px;
+}
+.a48selectdialog .btn-mwblLs:hover {
+
+transform: scale(0.98);
+}
+.a48selectdialog .btn-zOzqsC {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 148px;
+}
+.a48selectdialog .btn-zOzqsC:hover {
+
+transform: scale(0.98);
+}
+.a48selectdialog .dialog-header-mRHvVv {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 20px;
+  height: 24px;
+  left: 0px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 312px;
+}
+.a48selectdialog .document-b-x-contents-Uixoni {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 379px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a48selectdialog .document-b-x-contents-V6KZ2v {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 587px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a48selectdialog .document-button-C61RwL {
+  background-color: transparent;
+  height: 45px;
+  left: 863px;
+  position: absolute;
+  top: 1260px;
+  width: 274px;
+}
+.a48selectdialog .gnb-bar04-dialogs-C61RwL {
+  background-color: var(--white);
+  height: 1810px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnb-logo-IFpddr {
+  background-color: transparent;
+  height: 89px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu-h-ory-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 91px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu0--iew-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 134px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu1--bar-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 177px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu10-rch-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1467px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu11-ast-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1510px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu12-lds-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1553px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu13-ols-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1596px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu14-ion-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1639px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu15-dge-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1682px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu16-ail-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1725px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu17-ste-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1768px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu2--ons-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 220px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu3--ers-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 263px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu4--s-selected-F6tyJc {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu4--s-selected-IFpddr {
+  background-color: transparent;
+  height: 945px;
+  left: 0px;
+  position: absolute;
+  top: 306px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu5--ers-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1252px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu6--sts-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1295px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu7--ems-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1338px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu8--ess-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1381px;
+  width: 320px;
+}
+.a48selectdialog .gnb-menu9--ing-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1424px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-3vlxr7 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 172px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-541Yax {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 774px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-6eO6cv {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 43px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-6wLP0c {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 516px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-CkATrQ {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 860px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-DpBjZd {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 817px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-F6tyJc {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 903px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-MZMfPh {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 301px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-QjhZ3h {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 645px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-Rw4FJv {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 559px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-VF7y5n {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 215px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-aOGTeF {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 258px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-askrDc {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 344px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-dIgc7X {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 731px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-eTYwEa {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 688px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-fJP733 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 387px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-htvqUJ {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 430px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-jRf21I {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 602px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-nC7AnL {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 129px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-ogS940 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 473px;
+  width: 320px;
+}
+.a48selectdialog .gnb-submenu-normal-p7x7de {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 86px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-8iDxRt {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-A7XsLT {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-FYqcjZ {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-Kyb74v {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-MMc3iM {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-PAywWV {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-bZCNXc {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-gL2JAx {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-hzcOuP {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-iVJDrt {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-lLJ8dQ {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-n846FE {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-pfsUJP {
+  background-color: rgba(224,224,224,1.0);
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-qO9QRU {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-qscMSY {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-tNPiEI {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-voSg9E {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-x362av {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbmenu-xLcVXS {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-6gDKcU {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-BeK4oU {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-C0LORr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-DzkxYx {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-IwJ2RN {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-JXnXN8 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-MYwqko {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-SKWdZ3 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-XwXC0Q {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-YKT2Zb {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-aTQfXv {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-cmHiKF {
+  background-color: rgba(224,224,224,1.0);
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-cqDLeq {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-d9exKB {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-f9rB8b {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-fI7jXe {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-lnvuEa {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-o0x4FS {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-o6GxFw {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-ueY5m4 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gnbsubmenu-vqlAnH {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .gotohome-KS0c9L {
+  background-color: transparent;
+  height: 89px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .group-gBrDRH {
+  background-color: transparent;
+  height: 45px;
+  left: 30px;
+  position: relative;
+  top: 22px;
+  width: 260px;
+}
+.a48selectdialog .guide-C61RwL {
+  background-color: transparent;
+  height: 379px;
+  left: 380px;
+  position: absolute;
+  top: 801px;
+  width: 1240px;
+}
+.a48selectdialog .guide-meas--spacing-1-Z2dG95 {
+  background-color: transparent;
+  height: 24px;
+  left: 338px;
+  position: absolute;
+  top: 0px;
+  width: 97px;
+}
+.a48selectdialog .guide-meas--spacing-1-wzKlPT {
+  background-color: transparent;
+  height: 19px;
+  left: 338px;
+  position: absolute;
+  top: 0px;
+  width: 91px;
+}
+.a48selectdialog .guide-meas--spacing-2-Ebopx9 {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 213px;
+  width: 24px;
+}
+.a48selectdialog .guide-meas--spacing-2-TWHiup {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 213px;
+  width: 24px;
+}
+.a48selectdialog .guide-meas-horizontal-82wtX8 {
+  background-color: transparent;
+  background-image: url(../img/4-10-multi-choice-dialog-line-C47F711D-253C-45E4-A036-AA79C5C6DB14.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 56px;
+  width: 360px;
+}
+.a48selectdialog .guide-meas-horizontal-lR7UFm {
+  background-color: transparent;
+  background-image: url(../img/4-10-multi-choice-dialog-line-C47F711D-253C-45E4-A036-AA79C5C6DB14.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 360px;
+}
+.a48selectdialog .guide-measure-area-Ebopx9 {
+  background-color: rgba(0,153,255,0.37);
+  height: 211px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+.a48selectdialog .guide-measure-area-TWHiup {
+  background-color: rgba(0,153,255,0.37);
+  height: 211px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+.a48selectdialog .guide-measure-area-Z2dG95 {
+  background-color: rgba(51,204,0,0.37);
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 312px;
+}
+.a48selectdialog .guide-measure-area-wzKlPT {
+  background-color: rgba(51,204,0,0.37);
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 312px;
+}
+.a48selectdialog .history-lZqxZq {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .keyscreen-C61RwL {
+  background-color: transparent;
+  height: 587px;
+  left: 380px;
+  position: absolute;
+  top: 194px;
+  width: 1240px;
+}
+.a48selectdialog .line-naFgBF {
+  background-color: transparent;
+  height: 57px;
+  left: 0px;
+  position: absolute;
+  top: 75px;
+  width: 360px;
+}
+.a48selectdialog .main-text-1-line-4bjm6X {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 18px;
+  height: 21px;
+  left: 0px;
+  line-height: 21px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 312px;
+}
+.a48selectdialog .main-text-1-line-niM87f {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 18px;
+  height: 21px;
+  left: 0px;
+  line-height: 21px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 312px;
+}
+.a48selectdialog .main-text-1-line-tOwN8A {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 18px;
+  height: 21px;
+  left: 0px;
+  line-height: 21px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 312px;
+}
+.a48selectdialog .measure-Uixoni {
+  background-color: transparent;
+  height: 249px;
+  left: 421px;
+  position: absolute;
+  top: 90px;
+  width: 459px;
+}
+.a48selectdialog .mobile-lig-basic1line-aZ9Kqz {
+  background-color: transparent;
+  height: 21px;
+  left: 24px;
+  position: absolute;
+  top: 86px;
+  width: 312px;
+}
+.a48selectdialog .mobile-lig-basic1line-qx3Py0 {
+  background-color: transparent;
+  height: 21px;
+  left: 24px;
+  position: absolute;
+  top: 142px;
+  width: 312px;
+}
+.a48selectdialog .mobile-lig-basic1line-xYVxoE {
+  background-color: transparent;
+  height: 21px;
+  left: 24px;
+  position: absolute;
+  top: 198px;
+  width: 312px;
+}
+.a48selectdialog .mobile-lig-line-nobtn-JyFj4a {
+  background-color: transparent;
+  height: 261px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 360px;
+}
+.a48selectdialog .mobile-lig-mmon-dimbg-JyFj4a {
+  background-color: rgba(0,0,0,0.35);
+  height: 261px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 360px;
+}
+.a48selectdialog .mobile-lig-mon-header-xYVxoE {
+  background-color: transparent;
+  height: 24px;
+  left: 24px;
+  position: absolute;
+  top: 26px;
+  width: 312px;
+}
+.a48selectdialog .mobile-lig-n-dialogbg-xYVxoE {
+  background-color: rgba(252,252,252,1.0);
+  border-radius: 26px;
+  height: 261px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 360px;
+}
+.a48selectdialog .page-name-8toWLI {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 48px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a48selectdialog .rectangle-7m5jHV {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a48selectdialog .rectangle-9mOrtI {
+  background-color: var(--harlequin);
+  height: 24px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a48selectdialog .rectangle-Bl5dFX {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 23px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a48selectdialog .rectangle-Na6BR1 {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 18px;
+  width: 9px;
+}
+.a48selectdialog .rectangle-QqhD5V {
+  background-color: var(--harlequin);
+  height: 19px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a48selectdialog .rectangle-S40Iai {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a48selectdialog .rectangle-Vh3Boh {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a48selectdialog .rectangle-gAc8pB {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 24px;
+}
+.a48selectdialog .rectangle-j4GAKO {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 24px;
+}
+.a48selectdialog .rectangle-pMlKkO {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 23px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a48selectdialog .rectangle-s4kYIT {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 23px;
+  width: 9px;
+}
+.a48selectdialog .rectangle-xbIOJD {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a48selectdialog .rectangle-xfeUbS {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a48selectdialog .spacing-1oxqWP {
+  background-color: transparent;
+  height: 19px;
+  left: 24px;
+  position: absolute;
+  top: 0px;
+  width: 429px;
+}
+.a48selectdialog .spacing-RB12NC {
+  background-color: transparent;
+  height: 24px;
+  left: 24px;
+  position: absolute;
+  top: 187px;
+  width: 435px;
+}
+.a48selectdialog .spacing-g12F2t {
+  background-color: transparent;
+  height: 249px;
+  left: 336px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+.a48selectdialog .spacing-naFgBF {
+  background-color: transparent;
+  height: 249px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+.a48selectdialog .symbol-Uixoni {
+  background-color: transparent;
+  height: 249px;
+  left: 421px;
+  position: absolute;
+  top: 40px;
+  width: 360px;
+}
+.a48selectdialog .tag-refer-V6KZ2v {
+  background-color: transparent;
+  height: 29px;
+  left: 885px;
+  position: absolute;
+  top: 406px;
+  width: 148px;
+}
+.a48selectdialog .text-2csiWw {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-2lOLH2 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-6uCC6P {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-AWDxxq {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-Cbf5Ak {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-IO2tex {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-OMlONZ {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-U20oLU {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-UMYCxX {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-VOdO0e {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-WARxJW {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-WZpIBy {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-WvbxKh {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 18px;
+  height: auto;
+  left: 31px;
+  line-height: 28.6px;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+  width: auto;
+}
+.a48selectdialog .text-cwWTW2 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-i6zolW {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-ioVmyo {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-jGLpQR {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-mLjtxZ {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-rgBiVC {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-xY88zE {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-xZDVfu {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .text-zLkuOD {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a48selectdialog .title-dhuJnV {
+  background-color: transparent;
+  height: 21px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 312px;
+}
+.a48selectdialog .title-kFWQUG {
+  background-color: transparent;
+  height: 21px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 312px;
+}
+.a48selectdialog .title-xG348R {
+  background-color: transparent;
+  height: 21px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 312px;
+}
+.a48selectdialog .value-xbIOJD {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 0px;
+  width: 79px;
+}
+.a48selectdialog .value-xfeUbS {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 3px;
+  width: 85px;
+}
+.a48selectdialog .web-app-OB1SiY {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x0-2ipOLE {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a48selectdialog .x0-7m5jHV {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 3px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a48selectdialog .x0-S40Iai {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 3px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a48selectdialog .x0-overview-A0NNx1 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x0-xVGKgh {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a48selectdialog .x1-app-bar-mSO44p {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x10-search-ys4Eef {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x11-toast-ZxS0T9 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x12-text-fields-vgc3Vu {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x13-view-controls-94MaWS {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x14-description-Vh3Boh {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x15-notification-bad-AmUiok {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x16-thumbnail-7oeGf9 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x17-copy-paste-HD1MSG {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x2-buttons-Rhulji {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x3-controllers-XGvGsa {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x4-08-keysc-lectdialog-V6KZ2v {
+  background-color: transparent;
+  height: 508px;
+  left: 370px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a48selectdialog .x4-08-keysc-lectdialog-YbJGjS {
+  background-color: transparent;
+  height: 508px;
+  left: 630px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a48selectdialog .x4-08-measu-lectdialog-1i0IH5 {
+  background-color: rgba(242,242,242,1.0);
+  height: 261px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 360px;
+}
+.a48selectdialog .x4-8-select-dialog-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 380px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 50px;
+  white-space: nowrap;
+  width: auto;
+}
+.a48selectdialog .x4-dialogs-XfJia9 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x5-dividers-jYs5wP {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x6-lists-CY9yOk {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x7-no-item-6wC6Jq {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x8-progress-TIxFq4 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a48selectdialog .x9-scrolling-QBf695 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.border-class-1 {
+  border: 1px solid rgba(237,237,237,1.0);
+}
+.border-class-2 {
+  border: 1px solid rgba(135,135,135,1.0);
+}
+.font-class-1 {
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+}
+.font-class-2 {
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+}
+.font-class-3 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-4 {
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+}
+.font-class-5 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
+}
+.font-class-6 {
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+}
+.font-class-7 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
+  line-height: 84px;
+}
+.font-class-8 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
+}
+:root {
+  --azure-radiance: rgba(0,153,255,1.0);
+  --black: rgba(0,0,0,1.0);
+  --ebb: rgba(227,227,227,1.0);
+  --harlequin: rgba(51,204,0,1.0);
+  --masala: rgba(59,59,59,1.0);
+  --razzle-dazzle-rose: rgba(255,51,255,1.0);
+  --royal-blue: rgba(75,99,250,1.0);
+  --science-blue: rgba(0,114,222,1.0);
+  --tundora: rgba(69,69,69,1.0);
+  --white: rgba(255,255,255,1.0);
+}

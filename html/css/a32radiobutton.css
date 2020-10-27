@@ -1,0 +1,3501 @@
+/* screen - a32radiobutton */
+
+.a32radiobutton {
+  background-color: rgba(245,246,247,1.0);
+  height: 1744px;
+  overflow: hidden;
+  position: relative;
+  width: 1680px;
+}
+.a32radiobutton .basic-8toWLI {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .basic-component-gui-tuZlmD {
+  background-color: transparent;
+  color: var(--shark);
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: justify;
+  top: 21px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .bg-2OPqs4 {
+  background-color: var(--white);
+  height: 118px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+}
+.a32radiobutton .bg-9mscDq {
+  background-color: var(--white);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+}
+.a32radiobutton .bg-KbZbl7 {
+  background-color: var(--white);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+}
+.a32radiobutton .bg-TQnx1L {
+  background-color: var(--white);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 170px;
+}
+.a32radiobutton .bg-kdS8sd {
+  background-color: var(--white);
+  height: 118px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 170px;
+}
+.a32radiobutton .bg-nKxtzj {
+  background-color: var(--white);
+  height: 118px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+}
+.a32radiobutton .bg-qd9MBu {
+  background-color: var(--white);
+  height: 118px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+}
+.a32radiobutton .bg-yIRMc6 {
+  background-color: var(--white);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+}
+.a32radiobutton .bg-yLQwKt {
+  background-color: var(--white);
+  height: 118px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+}
+.a32radiobutton .bg-yaZYAd {
+  background-color: var(--white);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+}
+.a32radiobutton .btn-mwblLs {
+  background-color: rgba(3,129,254,1.0);
+  border-radius: 22.5px;
+  height: 45px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 274px;
+}
+.a32radiobutton .btn-mwblLs:hover {
+
+transform: scale(0.98);
+}
+.a32radiobutton .btn-zOzqsC {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 148px;
+}
+.a32radiobutton .btn-zOzqsC:hover {
+
+transform: scale(0.98);
+}
+.a32radiobutton .cell-1JTV4m {
+  background-color: transparent;
+  height: 118px;
+  left: 168px;
+  position: absolute;
+  top: 96px;
+  width: 270px;
+}
+.a32radiobutton .cell-4LiTbD {
+  background-color: transparent;
+  height: 118px;
+  left: 972px;
+  position: absolute;
+  top: 96px;
+  width: 270px;
+}
+.a32radiobutton .cell-AxYLCT {
+  background-color: transparent;
+  height: 118px;
+  left: 704px;
+  position: absolute;
+  top: 96px;
+  width: 270px;
+}
+.a32radiobutton .cell-S1TrFF {
+  background-color: transparent;
+  height: 118px;
+  left: 436px;
+  position: absolute;
+  top: 96px;
+  width: 270px;
+}
+.a32radiobutton .color-table-1JTV4m {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 1px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 1240px;
+}
+.a32radiobutton .content-2OPqs4 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: 26px;
+  left: 21px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 46px;
+  white-space: nowrap;
+  width: 228px;
+}
+.a32radiobutton .content-TQnx1L {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: 26px;
+  left: 21px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 29px;
+  white-space: nowrap;
+  width: 128px;
+}
+.a32radiobutton .content-kdS8sd {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: 26px;
+  left: 21px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 46px;
+  white-space: nowrap;
+  width: 128px;
+}
+.a32radiobutton .content-nKxtzj {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: 26px;
+  left: 21px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 46px;
+  white-space: nowrap;
+  width: 228px;
+}
+.a32radiobutton .content-qd9MBu {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: 26px;
+  left: 21px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 46px;
+  white-space: nowrap;
+  width: 228px;
+}
+.a32radiobutton .content-yLQwKt {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: 26px;
+  left: 21px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 46px;
+  white-space: nowrap;
+  width: 228px;
+}
+.a32radiobutton .document-b-x-contents-PHONBE {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 315px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 505px;
+}
+.a32radiobutton .document-b-x-contents-V6KZ2v {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 587px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a32radiobutton .document-b-x-contents-hh1Mvx {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 383px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 715px;
+}
+.a32radiobutton .document-button-C61RwL {
+  background-color: transparent;
+  height: 45px;
+  left: 863px;
+  position: absolute;
+  top: 1619px;
+  width: 274px;
+}
+.a32radiobutton .dot-line-XjX2Of {
+  background-color: transparent;
+  height: 115px;
+  left: 178px;
+  position: absolute;
+  top: 94px;
+  width: 360px;
+}
+.a32radiobutton .fn-HVeDz2 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .fn-LoYUBJ {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .fn-xGoq8o {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .general-PHONBE {
+  background-color: transparent;
+  height: 135px;
+  left: 20px;
+  position: absolute;
+  top: 150px;
+  width: 465px;
+}
+.a32radiobutton .gnb-bar03--ontrollers-C61RwL {
+  background-color: var(--white);
+  height: 1294px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnb-logo-NbnoCk {
+  background-color: transparent;
+  height: 89px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu-h-ory-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 91px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu0--iew-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 134px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu1--bar-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 177px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu10-rch-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 951px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu11-ast-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 994px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu12-lds-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1123px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu13-ols-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1037px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu14-ion-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1080px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu15-dge-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1166px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu16-ail-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1209px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu17-ste-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1252px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu2--ons-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 220px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu3--s-selected-NbnoCk {
+  background-color: transparent;
+  height: 429px;
+  left: 0px;
+  position: absolute;
+  top: 263px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu3--s-selected-c2BPJy {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu4--ogs-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 693px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu5--ers-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 736px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu6--sts-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 779px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu7--ems-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 822px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu8--ess-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 865px;
+  width: 320px;
+}
+.a32radiobutton .gnb-menu9--ing-normal-NbnoCk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 908px;
+  width: 320px;
+}
+.a32radiobutton .gnb-submenu-normal-22nAqY {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 301px;
+  width: 320px;
+}
+.a32radiobutton .gnb-submenu-normal-2Y2Fo3 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 172px;
+  width: 320px;
+}
+.a32radiobutton .gnb-submenu-normal-3I6u9Z {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 215px;
+  width: 320px;
+}
+.a32radiobutton .gnb-submenu-normal-AIW97J {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 129px;
+  width: 320px;
+}
+.a32radiobutton .gnb-submenu-normal-Bxmhx5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 344px;
+  width: 320px;
+}
+.a32radiobutton .gnb-submenu-normal-G6tpYU {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 43px;
+  width: 320px;
+}
+.a32radiobutton .gnb-submenu-normal-c2BPJy {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 387px;
+  width: 320px;
+}
+.a32radiobutton .gnb-submenu-normal-cIkWst {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 86px;
+  width: 320px;
+}
+.a32radiobutton .gnb-submenu-normal-sbFKuZ {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 258px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-ArHdpE {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-G2xthX {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-GeTSeo {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-IEOo1r {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-LhaEpo {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-Olo6Us {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-QqLETx {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-TNxIZZ {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-TXAYVP {
+  background-color: rgba(224,224,224,1.0);
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-WPBFkJ {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-dDgZSm {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-dlcNFs {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-jGZFxG {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-lHaaux {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-lZCScQ {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-m6ShXT {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-sUvvMD {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-uv5wJV {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbmenu-yAOpZF {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbsubmenu-5RPEn8 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbsubmenu-IHHLuM {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbsubmenu-LW5zWA {
+  background-color: rgba(224,224,224,1.0);
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbsubmenu-N7eWHI {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbsubmenu-hUCUmS {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbsubmenu-ky4KEh {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbsubmenu-rAQcei {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbsubmenu-wpMLN0 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gnbsubmenu-y4pmDi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .gotohome-9739sT {
+  background-color: transparent;
+  height: 89px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .group-2-9mscDq {
+  background-color: transparent;
+  height: 26px;
+  left: 21px;
+  position: absolute;
+  top: 29px;
+  width: 223px;
+}
+.a32radiobutton .group-2-KbZbl7 {
+  background-color: transparent;
+  height: 52px;
+  left: 21px;
+  position: absolute;
+  top: 16px;
+  width: 223px;
+}
+.a32radiobutton .group-2-wtlyfG {
+  background-color: transparent;
+  height: 44px;
+  left: 104px;
+  position: absolute;
+  top: 0px;
+  width: 271px;
+}
+.a32radiobutton .group-2-yIRMc6 {
+  background-color: transparent;
+  height: 52px;
+  left: 21px;
+  position: absolute;
+  top: 16px;
+  width: 88px;
+}
+.a32radiobutton .group-2-yaZYAd {
+  background-color: transparent;
+  height: 52px;
+  left: 21px;
+  position: absolute;
+  top: 16px;
+  width: 88px;
+}
+.a32radiobutton .group-2iNoOs {
+  background-color: transparent;
+  height: 26px;
+  left: 28px;
+  position: absolute;
+  top: 0px;
+  width: 55px;
+}
+.a32radiobutton .group-3-diyIen {
+  background-color: transparent;
+  height: 22px;
+  left: 6px;
+  position: absolute;
+  top: 22px;
+  width: 135px;
+}
+.a32radiobutton .group-3N7tYt {
+  background-color: transparent;
+  height: 26px;
+  left: 60px;
+  position: absolute;
+  top: 0px;
+  width: 23px;
+}
+.a32radiobutton .group-4-gO0bTo {
+  background-color: transparent;
+  height: 44px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 375px;
+}
+.a32radiobutton .group-9rhlf8 {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100px;
+}
+.a32radiobutton .group-C61RwL {
+  background-color: transparent;
+  height: 383px;
+  left: 380px;
+  position: absolute;
+  top: 801px;
+  width: 1240px;
+}
+.a32radiobutton .group-LoYUBJ {
+  background-color: transparent;
+  height: 44px;
+  left: 23px;
+  position: absolute;
+  top: 0px;
+  width: 248px;
+}
+.a32radiobutton .group-NEhn4T {
+  background-color: transparent;
+  height: 26px;
+  left: 60px;
+  position: absolute;
+  top: 0px;
+  width: 23px;
+}
+.a32radiobutton .group-VQsoaz {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 106px;
+}
+.a32radiobutton .group-XcPs5d {
+  background-color: transparent;
+  height: 26px;
+  left: 28px;
+  position: absolute;
+  top: 0px;
+  width: 55px;
+}
+.a32radiobutton .group-fpaxNj {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 178px;
+}
+.a32radiobutton .group-wX20mz {
+  background-color: transparent;
+  height: 45px;
+  left: 30px;
+  position: relative;
+  top: 22px;
+  width: 260px;
+}
+.a32radiobutton .group-xB4xLl {
+  background-color: transparent;
+  height: 26px;
+  left: 60px;
+  position: absolute;
+  top: 0px;
+  width: 23px;
+}
+.a32radiobutton .guide-NOXmfT {
+  background-color: transparent;
+  height: 383px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 715px;
+}
+.a32radiobutton .guide-form-ction2line-SeyJsU {
+  background-color: transparent;
+  height: 44px;
+  left: 32px;
+  position: absolute;
+  top: 3px;
+  width: 375px;
+}
+.a32radiobutton .guide-form-me-imagebg-LKekKi {
+  background-color: rgba(255,102,255,1.0);
+  height: 48px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 48px;
+}
+.a32radiobutton .guide-form-me-imagebg-si7MSv {
+  background-color: rgba(255,102,255,1.0);
+  height: 48px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 48px;
+}
+.a32radiobutton .guide-form-ormal1line-SeyJsU {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 113px;
+  width: 106px;
+}
+.a32radiobutton .guide-form-ormal1line-WNdNs3 {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 85px;
+  width: 100px;
+}
+.a32radiobutton .guide-form-ormal1line-chLwC4 {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 57px;
+  width: 178px;
+}
+.a32radiobutton .guide-meas--spacing-2-HZAI7N {
+  background-color: transparent;
+  height: 38px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 227px;
+  width: 18px;
+}
+.a32radiobutton .guide-meas--spacing-2-UxBows {
+  background-color: transparent;
+  height: 38px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 227px;
+  width: 18px;
+}
+.a32radiobutton .guide-meas--spacing-2-uhib2b {
+  background-color: transparent;
+  height: 38px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 227px;
+  width: 24px;
+}
+.a32radiobutton .guide-meas-e-vertical-THm08Q {
+  background-color: transparent;
+  background-image: url(../img/3-1-checkbox-line-383474FE-0CA4-495A-BD9D-96FCAB76F8C2@2x.png);
+  background-size: 100% 100%;
+  height: 10px;
+  left: 56px;
+  position: absolute;
+  top: 38px;
+  width: 1px;
+}
+.a32radiobutton .guide-meas-e-vertical-rixyUT {
+  background-color: transparent;
+  background-image: url(../img/3-1-checkbox-line-383474FE-0CA4-495A-BD9D-96FCAB76F8C2@2x.png);
+  background-size: 100% 100%;
+  height: 10px;
+  left: 87px;
+  position: absolute;
+  top: 38px;
+  width: 1px;
+}
+.a32radiobutton .guide-meas-eft-size-1-rixyUT {
+  background-color: transparent;
+  height: 32px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 50px;
+  width: 38px;
+}
+.a32radiobutton .guide-meas-horizontal-AwQiiK {
+  background-color: transparent;
+  background-image: url(../img/3-1-checkbox-line-6B9BC03D-1D81-47ED-8FF2-2785357856D5.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 57px;
+  width: 360px;
+}
+.a32radiobutton .guide-meas-horizontal-Fx9gwz {
+  background-color: transparent;
+  background-image: url(../img/3-1-checkbox-line-6B9BC03D-1D81-47ED-8FF2-2785357856D5.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 114px;
+  width: 360px;
+}
+.a32radiobutton .guide-meas-horizontal-MvzifR {
+  background-color: transparent;
+  background-image: url(../img/3-1-checkbox-line-6B9BC03D-1D81-47ED-8FF2-2785357856D5.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 360px;
+}
+.a32radiobutton .guide-meas-horizontal-THm08Q {
+  background-color: transparent;
+  background-image: url(../img/3-2-radio-button-line-F505B247-CBC3-40FA-903F-D6109B57132C@2x.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 38px;
+  position: absolute;
+  top: 81px;
+  width: 18px;
+}
+.a32radiobutton .guide-meas-horizontal-rixyUT {
+  background-color: transparent;
+  background-image: url(../img/3-2-radio-button-line-F505B247-CBC3-40FA-903F-D6109B57132C@2x.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 38px;
+  position: absolute;
+  top: 50px;
+  width: 18px;
+}
+.a32radiobutton .guide-meas-top-size-1-rixyUT {
+  background-color: transparent;
+  height: 38px;
+  left: 56px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 32px;
+}
+.a32radiobutton .guide-measure-area-HZAI7N {
+  background-color: var(--azure-radiance-2);
+  height: 227px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a32radiobutton .guide-measure-area-PBbvTm {
+  background-color: rgba(255,51,255,0.37);
+  height: 32px;
+  left: 56px;
+  position: absolute;
+  top: 164px;
+  width: 32px;
+}
+.a32radiobutton .guide-measure-area-THm08Q {
+  background-color: rgba(255,51,255,0.37);
+  height: 32px;
+  left: 56px;
+  position: absolute;
+  top: 107px;
+  width: 32px;
+}
+.a32radiobutton .guide-measure-area-UxBows {
+  background-color: var(--azure-radiance-2);
+  height: 227px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a32radiobutton .guide-measure-area-lo42t6 {
+  background-color: rgba(255,51,255,0.37);
+  height: 32px;
+  left: 56px;
+  position: absolute;
+  top: 221px;
+  width: 32px;
+}
+.a32radiobutton .guide-measure-area-rixyUT {
+  background-color: rgba(255,51,255,0.37);
+  height: 32px;
+  left: 56px;
+  position: absolute;
+  top: 50px;
+  width: 32px;
+}
+.a32radiobutton .guide-measure-area-uhib2b {
+  background-color: var(--azure-radiance-2);
+  height: 227px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+.a32radiobutton .guide-numb-ring-image-XjX2Of {
+  background-color: transparent;
+  background-image: url(../img/3-7-adddelete-button-oval-9CB2AEA2-A27D-46A9-93E3-CD44A791BDA1@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 185px;
+  position: absolute;
+  top: 96px;
+  width: 22px;
+}
+.a32radiobutton .guide-numb-ring-image-xUDzDj {
+  background-color: transparent;
+  background-image: url(../img/3-7-adddelete-button-oval-9CB2AEA2-A27D-46A9-93E3-CD44A791BDA1@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 185px;
+  position: absolute;
+  top: 39px;
+  width: 22px;
+}
+.a32radiobutton .guide-numbering-icon-mctxnR {
+  background-color: transparent;
+  background-image: url(../img/3-7-adddelete-button-oval-9CB2AEA2-A27D-46A9-93E3-CD44A791BDA1@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 2px;
+  width: 22px;
+}
+.a32radiobutton .guide-property-mctxnR {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 32px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .guide-subject-image-PHONBE {
+  background-color: transparent;
+  height: 26px;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+  width: 135px;
+}
+.a32radiobutton .history-2LdC2w {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .image-NOXmfT {
+  background-color: transparent;
+  height: 315px;
+  left: 735px;
+  position: absolute;
+  top: 2px;
+  width: 505px;
+}
+.a32radiobutton .keyscreen-C61RwL {
+  background-color: transparent;
+  height: 587px;
+  left: 380px;
+  position: absolute;
+  top: 194px;
+  width: 1240px;
+}
+.a32radiobutton .list-1k8ZDQ {
+  background-color: transparent;
+  height: 227px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 360px;
+}
+.a32radiobutton .measure-hh1Mvx {
+  background-color: transparent;
+  height: 303px;
+  left: 89px;
+  position: absolute;
+  top: 40px;
+  width: 538px;
+}
+.a32radiobutton .mobile-lig--radiolist-AkC7jj {
+  background-color: transparent;
+  height: 32px;
+  left: 18px;
+  position: absolute;
+  top: 12px;
+  width: 318px;
+}
+.a32radiobutton .mobile-lig--radiolist-UPRLuK {
+  background-color: transparent;
+  height: 32px;
+  left: 18px;
+  position: absolute;
+  top: 183px;
+  width: 318px;
+}
+.a32radiobutton .mobile-lig--radiolist-W4V3l6 {
+  background-color: transparent;
+  height: 32px;
+  left: 18px;
+  position: absolute;
+  top: 69px;
+  width: 318px;
+}
+.a32radiobutton .mobile-lig--radiolist-t4wZQJ {
+  background-color: transparent;
+  height: 32px;
+  left: 18px;
+  position: absolute;
+  top: 126px;
+  width: 318px;
+}
+.a32radiobutton .mobile-lig-adiooffdim-ixrxUC {
+  background-color: transparent;
+  height: 96px;
+  left: 11px;
+  overflow: hidden;
+  position: absolute;
+  top: 11px;
+  width: 96px;
+}
+.a32radiobutton .mobile-lig-ckbox-text-UPRLuK {
+  background-color: rgba(230,230,230,1.0);
+  height: 1px;
+  left: 68px;
+  position: absolute;
+  top: 170px;
+  width: 272px;
+}
+.a32radiobutton .mobile-lig-ckbox-text-W4V3l6 {
+  background-color: rgba(230,230,230,1.0);
+  height: 1px;
+  left: 68px;
+  position: absolute;
+  top: 56px;
+  width: 272px;
+}
+.a32radiobutton .mobile-lig-ckbox-text-t4wZQJ {
+  background-color: rgba(230,230,230,1.0);
+  height: 1px;
+  left: 68px;
+  position: absolute;
+  top: 113px;
+  width: 272px;
+}
+.a32radiobutton .mobile-lig-io-radioon-R0M4PB {
+  background-color: transparent;
+  height: 32px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 32px;
+}
+.a32radiobutton .mobile-lig-io-radioon-lUx4CB {
+  background-color: transparent;
+  height: 32px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 32px;
+}
+.a32radiobutton .mobile-lig-io-radioon-qq1rJt {
+  background-color: transparent;
+  height: 96px;
+  left: 11px;
+  overflow: hidden;
+  position: absolute;
+  top: 11px;
+  width: 96px;
+}
+.a32radiobutton .mobile-lig-io-radioon-xqxDaI {
+  background-color: transparent;
+  height: 32px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 32px;
+}
+.a32radiobutton .mobile-lig-io-radioon-zIdD9A {
+  background-color: transparent;
+  height: 32px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 32px;
+}
+.a32radiobutton .mobile-lig-o-radiooff-frzo1I {
+  background-color: transparent;
+  height: 96px;
+  left: 11px;
+  overflow: hidden;
+  position: absolute;
+  top: 11px;
+  width: 96px;
+}
+.a32radiobutton .mobile-lig-radioondim-PI4ypo {
+  background-color: transparent;
+  height: 96px;
+  left: 11px;
+  overflow: hidden;
+  position: absolute;
+  top: 11px;
+  width: 96px;
+}
+.a32radiobutton .mobile-lig-rouplistbg-UPRLuK {
+  background-color: rgba(252,252,252,1.0);
+  border-radius: 26px;
+  height: 227px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 360px;
+}
+.a32radiobutton .page-name-8toWLI {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 48px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .path-YNdDC6 {
+  background-color: transparent;
+  height: 17px;
+  left: 7px;
+  position: absolute;
+  top: 7px;
+  width: 17px;
+}
+.a32radiobutton .property-0eC2VC {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .property-10cxLn {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .property-2iNoOs {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .property-3N7tYt {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .property-4m3vDF {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .property-7C7wNK {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .property-Hgc456 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .property-NEhn4T {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .property-XcPs5d {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .property-wtlyfG {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .property-xB4xLl {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .radio-3py1FX {
+  background-color: transparent;
+  height: 22px;
+  left: 5px;
+  opacity: 0.8;
+  position: absolute;
+  top: 5px;
+  width: 22px;
+}
+.a32radiobutton .radio-50rs0i {
+  background-color: transparent;
+  height: 22px;
+  left: 5px;
+  opacity: 0.4;
+  position: relative;
+  top: 5px;
+  width: 22px;
+}
+.a32radiobutton .radio-7b6ceE {
+  background-color: transparent;
+  height: 22px;
+  left: 5px;
+  opacity: 0.4;
+  position: absolute;
+  top: 5px;
+  width: 22px;
+}
+.a32radiobutton .radio-OLfy3i {
+  background-color: transparent;
+  height: 62px;
+  left: 17px;
+  opacity: 0.4;
+  position: relative;
+  top: 17px;
+  width: 62px;
+}
+.a32radiobutton .radio-ig4GoT {
+  background-color: transparent;
+  height: 62px;
+  left: 17px;
+  opacity: 0.8;
+  position: absolute;
+  top: 17px;
+  width: 62px;
+}
+.a32radiobutton .radio-off-dim-xkZ4OV {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 159px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .radio-off-xkZ4OV {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 53px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .radio-on-R0M4PB {
+  background-color: transparent;
+  color: var(--shark);
+  font-size: 18px;
+  height: 21px;
+  left: 50px;
+  line-height: 21px;
+  position: absolute;
+  text-align: left;
+  top: 5px;
+  white-space: nowrap;
+  width: 268px;
+}
+.a32radiobutton .radio-on-dim-xkZ4OV {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 106px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .radio-on-lUx4CB {
+  background-color: transparent;
+  color: var(--shark);
+  font-size: 18px;
+  height: 21px;
+  left: 50px;
+  line-height: 21px;
+  position: absolute;
+  text-align: left;
+  top: 5px;
+  white-space: nowrap;
+  width: 268px;
+}
+.a32radiobutton .radio-on-xkZ4OV {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .radio-on-xqxDaI {
+  background-color: transparent;
+  color: var(--shark);
+  font-size: 18px;
+  height: 21px;
+  left: 50px;
+  line-height: 21px;
+  position: absolute;
+  text-align: left;
+  top: 5px;
+  white-space: nowrap;
+  width: 268px;
+}
+.a32radiobutton .radio-on-zIdD9A {
+  background-color: transparent;
+  color: var(--shark);
+  font-size: 18px;
+  height: 21px;
+  left: 50px;
+  line-height: 21px;
+  position: absolute;
+  text-align: left;
+  top: 5px;
+  white-space: nowrap;
+  width: 268px;
+}
+.a32radiobutton .radio-w8B8wO {
+  background-color: transparent;
+  height: 62px;
+  left: 17px;
+  opacity: 0.4;
+  position: absolute;
+  top: 17px;
+  width: 62px;
+}
+.a32radiobutton .radioborder-SdANXX {
+  background-color: transparent;
+  height: 62px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 62px;
+}
+.a32radiobutton .radioborder-eHljky {
+  background-color: transparent;
+  height: 62px;
+  left: 17px;
+  position: absolute;
+  top: 17px;
+  width: 62px;
+}
+.a32radiobutton .radioborder-sfx4rl {
+  background-color: transparent;
+  height: 22px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 22px;
+}
+.a32radiobutton .radioborder-vhKUsr {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 22px;
+}
+.a32radiobutton .radiofill-SdANXX {
+  background-color: transparent;
+  height: 35px;
+  left: 14px;
+  position: absolute;
+  top: 14px;
+  width: 35px;
+}
+.a32radiobutton .radiofill-eHljky {
+  background-color: transparent;
+  height: 35px;
+  left: 31px;
+  position: absolute;
+  top: 31px;
+  width: 35px;
+}
+.a32radiobutton .radiofill-sfx4rl {
+  background-color: transparent;
+  height: 12px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 12px;
+}
+.a32radiobutton .radiofill-vhKUsr {
+  background-color: transparent;
+  height: 12px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 12px;
+}
+.a32radiobutton .rectangle-2JsCBJ {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 2px;
+  width: 1px;
+}
+.a32radiobutton .rectangle-2OPqs4 {
+  background-color: var(--white);
+  height: 116px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 268px;
+}
+.a32radiobutton .rectangle-2sPh6o {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 6px;
+  width: 18px;
+}
+.a32radiobutton .rectangle-71GUGx {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 31px;
+  width: 32px;
+}
+.a32radiobutton .rectangle-9mscDq {
+  background-color: var(--white);
+  height: 82px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 268px;
+}
+.a32radiobutton .rectangle-DCViej {
+  background-color: var(--razzle-dazzle-rose);
+  height: 31px;
+  left: 31px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a32radiobutton .rectangle-H8h5Db {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 17px;
+  position: absolute;
+  top: 2px;
+  width: 1px;
+}
+.a32radiobutton .rectangle-KbZbl7 {
+  background-color: var(--white);
+  height: 82px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 268px;
+}
+.a32radiobutton .rectangle-NXbUoM {
+  background-color: rgba(132,131,131,1.0);
+  height: 56px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 268px;
+}
+.a32radiobutton .rectangle-NvDUgY {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 27px;
+  position: absolute;
+  top: 31px;
+  width: 9px;
+}
+.a32radiobutton .rectangle-SbikV7 {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 23px;
+  position: absolute;
+  top: 2px;
+  width: 1px;
+}
+.a32radiobutton .rectangle-TQnx1L {
+  background-color: var(--white);
+  height: 82px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 168px;
+}
+.a32radiobutton .rectangle-UJxIvR {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 6px;
+  width: 24px;
+}
+.a32radiobutton .rectangle-USKxMn {
+  background-color: rgba(116,116,116,1.0);
+  height: 58px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+}
+.a32radiobutton .rectangle-WDWiUG {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 31px;
+  position: absolute;
+  top: 27px;
+  width: 1px;
+}
+.a32radiobutton .rectangle-XsEpMp {
+  background-color: rgba(132,131,131,1.0);
+  height: 56px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 268px;
+}
+.a32radiobutton .rectangle-Z5VYOI {
+  background-color: rgba(132,131,131,1.0);
+  height: 56px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 268px;
+}
+.a32radiobutton .rectangle-fgJJAI {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a32radiobutton .rectangle-iV9IVA {
+  background-color: rgba(116,116,116,1.0);
+  height: 58px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+}
+.a32radiobutton .rectangle-jfKRfx {
+  background-color: rgba(132,131,131,1.0);
+  height: 56px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 268px;
+}
+.a32radiobutton .rectangle-kdS8sd {
+  background-color: var(--white);
+  height: 116px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 168px;
+}
+.a32radiobutton .rectangle-n0LPO3 {
+  background-color: rgba(116,116,116,1.0);
+  height: 58px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+}
+.a32radiobutton .rectangle-nKxtzj {
+  background-color: var(--white);
+  height: 116px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 268px;
+}
+.a32radiobutton .rectangle-ovkw0x {
+  background-color: rgba(116,116,116,1.0);
+  height: 58px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+}
+.a32radiobutton .rectangle-pTqVcy {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 2px;
+  width: 1px;
+}
+.a32radiobutton .rectangle-pfqt7r {
+  background-color: rgba(116,116,116,1.0);
+  height: 58px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 170px;
+}
+.a32radiobutton .rectangle-qT14na {
+  background-color: rgba(132,131,131,1.0);
+  height: 56px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 168px;
+}
+.a32radiobutton .rectangle-qd9MBu {
+  background-color: var(--white);
+  height: 116px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 268px;
+}
+.a32radiobutton .rectangle-rLag01 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 27px;
+  width: 1px;
+}
+.a32radiobutton .rectangle-t6MGJg {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 27px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a32radiobutton .rectangle-vliTTm {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 6px;
+  width: 18px;
+}
+.a32radiobutton .rectangle-x3ts6u {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 17px;
+  position: absolute;
+  top: 2px;
+  width: 1px;
+}
+.a32radiobutton .rectangle-xTtMG3 {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 2px;
+  width: 1px;
+}
+.a32radiobutton .rectangle-yIRMc6 {
+  background-color: var(--white);
+  height: 82px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 268px;
+}
+.a32radiobutton .rectangle-yLQwKt {
+  background-color: var(--white);
+  height: 116px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 268px;
+}
+.a32radiobutton .rectangle-yaZYAd {
+  background-color: var(--white);
+  height: 82px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 268px;
+}
+.a32radiobutton .sembtnradi-oonmtrl000-LKekKi {
+  background-color: transparent;
+  background-image: url(../img/3-1-checkbox-shape-10C70DE5-68DF-42AC-B13B-51FD65EC6128@2x.png);
+  background-size: 100% 100%;
+  height: 31px;
+  left: 9px;
+  position: absolute;
+  top: 8px;
+  width: 31px;
+}
+.a32radiobutton .sembtnradi-oonmtrl026-si7MSv {
+  background-color: transparent;
+  background-image: url(../img/3-2-radio-button-shape-B5E41A30-5D03-4FBB-A3A1-09E9CF995221@2x.png);
+  background-size: 100% 100%;
+  height: 31px;
+  left: 9px;
+  position: absolute;
+  top: 8px;
+  width: 31px;
+}
+.a32radiobutton .size-XjX2Of {
+  background-color: transparent;
+  height: 253px;
+  left: 140px;
+  position: absolute;
+  top: 0px;
+  width: 88px;
+}
+.a32radiobutton .spacing-88xegd {
+  background-color: transparent;
+  height: 265px;
+  left: 514px;
+  position: absolute;
+  top: 38px;
+  width: 24px;
+}
+.a32radiobutton .spacing-XjX2Of {
+  background-color: transparent;
+  height: 265px;
+  left: 178px;
+  position: absolute;
+  top: 38px;
+  width: 18px;
+}
+.a32radiobutton .spacing-xUDzDj {
+  background-color: transparent;
+  height: 265px;
+  left: 228px;
+  position: absolute;
+  top: 38px;
+  width: 18px;
+}
+.a32radiobutton .symbol-hh1Mvx {
+  background-color: transparent;
+  height: 227px;
+  left: 267px;
+  position: absolute;
+  top: 78px;
+  width: 360px;
+}
+.a32radiobutton .table-C61RwL {
+  background-color: transparent;
+  height: 296px;
+  left: 379px;
+  position: absolute;
+  top: 1244px;
+  width: 1242px;
+}
+.a32radiobutton .table-gene-ight1style-1JTV4m {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 212px;
+  width: 170px;
+}
+.a32radiobutton .table-gene-ight1style-PI4ypo {
+  background-color: transparent;
+  height: 118px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+}
+.a32radiobutton .table-gene-ight1style-S1TrFF {
+  background-color: transparent;
+  height: 118px;
+  left: 0px;
+  position: absolute;
+  top: 96px;
+  width: 170px;
+}
+.a32radiobutton .table-gene-ight1style-frzo1I {
+  background-color: transparent;
+  height: 118px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+}
+.a32radiobutton .table-gene-ight1style-ixrxUC {
+  background-color: transparent;
+  height: 118px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+}
+.a32radiobutton .table-gene-ight1style-qq1rJt {
+  background-color: transparent;
+  height: 118px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+}
+.a32radiobutton .table-guid-ction1line-1JTV4m {
+  background-color: transparent;
+  height: 84px;
+  left: 168px;
+  position: absolute;
+  top: 212px;
+  width: 270px;
+}
+.a32radiobutton .table-guid-ion-normal-1JTV4m {
+  background-color: transparent;
+  height: 84px;
+  left: 704px;
+  position: absolute;
+  top: 212px;
+  width: 270px;
+}
+.a32radiobutton .table-guid-ormal2line-1JTV4m {
+  background-color: transparent;
+  height: 84px;
+  left: 436px;
+  position: absolute;
+  top: 212px;
+  width: 270px;
+}
+.a32radiobutton .table-guid-ormal2line-S1TrFF {
+  background-color: transparent;
+  height: 84px;
+  left: 972px;
+  position: absolute;
+  top: 212px;
+  width: 270px;
+}
+.a32radiobutton .table-title1line-1JTV4m {
+  background-color: transparent;
+  height: 58px;
+  left: 0px;
+  position: absolute;
+  top: 40px;
+  width: 170px;
+}
+.a32radiobutton .table-title1line-4LiTbD {
+  background-color: transparent;
+  height: 58px;
+  left: 704px;
+  position: absolute;
+  top: 40px;
+  width: 270px;
+}
+.a32radiobutton .table-title1line-AxYLCT {
+  background-color: transparent;
+  height: 58px;
+  left: 436px;
+  position: absolute;
+  top: 40px;
+  width: 270px;
+}
+.a32radiobutton .table-title1line-S1TrFF {
+  background-color: transparent;
+  height: 58px;
+  left: 168px;
+  position: absolute;
+  top: 40px;
+  width: 270px;
+}
+.a32radiobutton .table-title1line-eBKoDw {
+  background-color: transparent;
+  height: 58px;
+  left: 972px;
+  position: absolute;
+  top: 40px;
+  width: 270px;
+}
+.a32radiobutton .tag-refer-V6KZ2v {
+  background-color: transparent;
+  height: 29px;
+  left: 885px;
+  position: absolute;
+  top: 159px;
+  width: 148px;
+}
+.a32radiobutton .text-1kUsAP {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a32radiobutton .text-Uu7Mzk {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a32radiobutton .text-WvbxKh {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 18px;
+  height: auto;
+  left: 31px;
+  line-height: 28.6px;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .text-XjX2Of {
+  background-color: transparent;
+  height: 183px;
+  left: 0px;
+  position: absolute;
+  top: 52px;
+  width: 94px;
+}
+.a32radiobutton .text-ox4YmV {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a32radiobutton .text-rv5ax2 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a32radiobutton .text-vxVzu7 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a32radiobutton .text-wcFco8 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a32radiobutton .text-x8kmvO {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a32radiobutton .text-xccnZw {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a32radiobutton .text-xqVvzv {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a32radiobutton .title-NXbUoM {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 16px;
+  height: 26px;
+  left: 21px;
+  line-height: 26px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+  width: 228px;
+}
+.a32radiobutton .title-XsEpMp {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 16px;
+  height: 26px;
+  left: 21px;
+  line-height: 26px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+  width: 228px;
+}
+.a32radiobutton .title-Z5VYOI {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 16px;
+  height: 26px;
+  left: 21px;
+  line-height: 26px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+  width: 228px;
+}
+.a32radiobutton .title-jfKRfx {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 16px;
+  height: 26px;
+  left: 21px;
+  line-height: 26px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+  width: 228px;
+}
+.a32radiobutton .title-qT14na {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 16px;
+  height: 26px;
+  left: 21px;
+  line-height: 26px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+  width: 128px;
+}
+.a32radiobutton .value-0eC2VC {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 61px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .value-10cxLn {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 55px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .value-1line-diyIen {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 6px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .value-2line-4fE4NH {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .value-2xzxXB {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .value-4m3vDF {
+  background-color: transparent;
+  height: 26px;
+  left: 28px;
+  position: absolute;
+  top: 0px;
+  width: 195px;
+}
+.a32radiobutton .value-7C7wNK {
+  background-color: transparent;
+  height: 26px;
+  left: 28px;
+  position: absolute;
+  top: 0px;
+  width: 195px;
+}
+.a32radiobutton .value-CdywqX {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .value-HVeDz2 {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 16px;
+  height: auto;
+  left: 29px;
+  line-height: 26px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .value-Hgc456 {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 116px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .value-NvDUgY {
+  background-color: transparent;
+  height: 19px;
+  left: 8px;
+  position: absolute;
+  top: 7px;
+  width: 16px;
+}
+.a32radiobutton .value-R4Iq5O {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .value-U62SGD {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .value-W7wRa4 {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .value-rLag01 {
+  background-color: transparent;
+  height: 18px;
+  left: 8px;
+  position: absolute;
+  top: 7px;
+  width: 16px;
+}
+.a32radiobutton .value-xGoq8o {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 16px;
+  height: auto;
+  left: 29px;
+  line-height: 26px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .web-app-tuZlmD {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x-0eC2VC {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 100px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x-10cxLn {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 94px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x-2iNoOs {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 83px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x-3N7tYt {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 83px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x-4fE4NH {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 129px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x-9IpGx3 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 123px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x-DxpAQ7 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 23px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x-GSC4Kd {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 184px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x-HVeDz2 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 190px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x-Hgc456 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 172px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x-NEhn4T {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 83px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x-XcPs5d {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 83px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x-dHyxkS {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 23px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x-diyIen {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x-uhNfFz {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 184px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x-xB4xLl {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 83px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x-xGoq8o {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 190px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x0-2JsCBJ {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x0-kx75ra {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x0-mPxmtz {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -2px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x0-overview-C0NYNd {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x0-pTqVcy {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 3px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x0-xTtMG3 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x1-LGtOaX {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 15px;
+  height: 22px;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a32radiobutton .x1-app-bar-8c9P3x {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x1-cOfhEx {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 15px;
+  height: 22px;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a32radiobutton .x1-xZjPCc {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 15px;
+  height: 22px;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a32radiobutton .x10-search-ytWI9F {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x11-toast-qfulEL {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x12-text-fields-ewrGUe {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x13-view-controls-ckBoFN {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x14-description-fgJJAI {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x15-notification-bad-JAdNZz {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x16-thumbnail-xTZt5M {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x17-copy-paste-lj8FO1 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x1line-Rsvsqf {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 88px;
+}
+.a32radiobutton .x1line-ZCXYIS {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 88px;
+}
+.a32radiobutton .x1line-jnvuXn {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 223px;
+}
+.a32radiobutton .x2-buttons-vJb7j6 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x2line-Rsvsqf {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  position: absolute;
+  top: 26px;
+  width: 88px;
+}
+.a32radiobutton .x2line-ZCXYIS {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  position: absolute;
+  top: 26px;
+  width: 88px;
+}
+.a32radiobutton .x2line-jnvuXn {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  position: absolute;
+  top: 26px;
+  width: 88px;
+}
+.a32radiobutton .x3-02-image-radio001-PHONBE {
+  background-color: transparent;
+  height: 48px;
+  left: 52px;
+  position: absolute;
+  top: 82px;
+  width: 48px;
+}
+.a32radiobutton .x3-02-image-radio026-PHONBE {
+  background-color: transparent;
+  height: 48px;
+  left: 105px;
+  position: absolute;
+  top: 82px;
+  width: 48px;
+}
+.a32radiobutton .x3-02-keysc-adiobutton-V6KZ2v {
+  background-color: transparent;
+  height: 508px;
+  left: 630px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a32radiobutton .x3-02-keysc-adiobutton-YbJGjS {
+  background-color: transparent;
+  height: 508px;
+  left: 370px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a32radiobutton .x3-02-measu-adiobutton-2LAIZG {
+  background-color: var(--concrete);
+  height: 227px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 360px;
+}
+.a32radiobutton .x3-2-radio-button-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 380px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 50px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .x3-controllers-uL5vu7 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x4-dialogs-x8V6XT {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x5-dividers-1Wx1GJ {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x6-lists-olg0va {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x7-no-item-1PU5s0 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x8-progress-O7BMdA {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a32radiobutton .x9-scrolling-xzxYH2 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.border-class-1 {
+  border: 1px solid rgba(237,237,237,1.0);
+}
+.border-class-2 {
+  border: 1px solid rgba(221,221,221,1.0);
+}
+.border-class-3 {
+  border: 1px solid rgba(135,135,135,1.0);
+}
+.border-class-4 {
+  border: 0.5px solid var(--black);
+}
+.border-class-5 {
+  border: 0.5px solid var(--white);
+}
+.border-class-6 {
+  border: 3px solid rgba(143,143,143,1.0);
+}
+.font-class-1 {
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+}
+.font-class-2 {
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+}
+.font-class-3 {
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+}
+.font-class-4 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-5 {
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+}
+.font-class-6 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
+  line-height: 84px;
+}
+.font-class-7 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
+}
+.font-class-8 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
+}
+:root {
+  --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
+  --black: rgba(0,0,0,1.0);
+  --concrete: rgba(242,242,242,1.0);
+  --ebb: rgba(227,227,227,1.0);
+  --masala: rgba(59,59,59,1.0);
+  --razzle-dazzle-rose: rgba(255,51,255,1.0);
+  --royal-blue: rgba(75,99,250,1.0);
+  --shark: rgba(37,37,37,1.0);
+  --white: rgba(255,255,255,1.0);
+}

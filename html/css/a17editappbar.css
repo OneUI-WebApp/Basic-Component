@@ -1,0 +1,4728 @@
+/* screen - a17editappbar */
+
+.a17editappbar {
+  background-color: rgba(245,246,247,1.0);
+  height: 3346px;
+  overflow: hidden;
+  position: relative;
+  width: 1680px;
+}
+.a17editappbar .action-Axfx28 {
+  background-color: transparent;
+  color: rgba(0,114,222,1.0);
+  font-size: 27px;
+  height: 54px;
+  left: 0px;
+  line-height: 54px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 216px;
+}
+.a17editappbar .action-BnShpx {
+  background-color: transparent;
+  color: rgba(0,114,222,1.0);
+  font-size: 27px;
+  height: 54px;
+  left: 0px;
+  line-height: 54px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 216px;
+}
+.a17editappbar .action-sb186r {
+  background-color: transparent;
+  color: rgba(0,114,222,1.0);
+  font-size: 27px;
+  height: 54px;
+  left: 0px;
+  line-height: 54px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 216px;
+}
+.a17editappbar .action-sxlipx {
+  background-color: transparent;
+  color: rgba(0,114,222,1.0);
+  font-size: 27px;
+  height: 54px;
+  left: 0px;
+  line-height: 54px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 216px;
+}
+.a17editappbar .background-5M41yK {
+  background-color: rgba(71,71,71,1.0);
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 145px;
+}
+.a17editappbar .background-ZPcXOd {
+  background-color: rgba(71,71,71,1.0);
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 143px;
+}
+.a17editappbar .background-haDoq8 {
+  background-color: rgba(71,71,71,1.0);
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 206px;
+}
+.a17editappbar .background-lMbloe {
+  background-color: var(--concrete);
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 206px;
+}
+.a17editappbar .background-nw2vwr {
+  background-color: rgba(71,71,71,1.0);
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 206px;
+}
+.a17editappbar .background-x1w63o {
+  background-color: rgba(71,71,71,1.0);
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 145px;
+}
+.a17editappbar .background-xvXAfO {
+  background-color: var(--concrete);
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 206px;
+}
+.a17editappbar .basic-component-gui-ldhYbP {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: justify;
+  top: 21px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .btn-mwblLs {
+  background-color: rgba(3,129,254,1.0);
+  border-radius: 22.5px;
+  height: 45px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 274px;
+}
+.a17editappbar .btn-mwblLs:hover {
+
+transform: scale(0.98);
+}
+.a17editappbar .cancel-JHiPMu {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 27px;
+  height: auto;
+  left: -2px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .canclesave-LnPSKx {
+  background-color: transparent;
+  height: 32px;
+  left: 325px;
+  position: absolute;
+  top: 25px;
+  width: 179px;
+}
+.a17editappbar .comment-CoU8sJ {
+  background-color: transparent;
+  color: rgba(145,145,145,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 101px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .comment-DCF2eJ {
+  background-color: transparent;
+  color: rgba(145,145,145,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 203px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .comment-OPxwmB {
+  background-color: transparent;
+  color: rgba(145,145,145,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 101px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .comment-VIoXKV {
+  background-color: transparent;
+  color: rgba(145,145,145,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 264px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .comment-VWOmxG {
+  background-color: transparent;
+  color: rgba(145,145,145,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 101px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .comment-Z2frdk {
+  background-color: transparent;
+  color: rgba(145,145,145,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 127px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .comment-bMmnA6 {
+  background-color: transparent;
+  color: rgba(145,145,145,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 264px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .comment-gRDxmS {
+  background-color: transparent;
+  color: rgba(145,145,145,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 264px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .comment-gdf1mw {
+  background-color: transparent;
+  color: rgba(145,145,145,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 101px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .comment-k5zAwB {
+  background-color: transparent;
+  color: rgba(145,145,145,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 203px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .comment-nM0dTd {
+  background-color: transparent;
+  color: rgba(145,145,145,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 127px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .comment-wgABVo {
+  background-color: transparent;
+  color: rgba(145,145,145,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 264px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .dark-theme-09MSyE {
+  background-color: transparent;
+  height: 119px;
+  left: 20px;
+  position: absolute;
+  top: 363px;
+  width: 465px;
+}
+.a17editappbar .dark-theme-5LOLQ6 {
+  background-color: transparent;
+  height: 119px;
+  left: 20px;
+  position: absolute;
+  top: 391px;
+  width: 465px;
+}
+.a17editappbar .dark-theme-QwJ3It {
+  background-color: transparent;
+  height: 53px;
+  left: 20px;
+  position: absolute;
+  top: 160px;
+  width: 465px;
+}
+.a17editappbar .document-b-x-contents-09MSyE {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 512px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 505px;
+}
+.a17editappbar .document-b-x-contents-5LOLQ6 {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 540px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 505px;
+}
+.a17editappbar .document-b-x-contents-9ZOaw7 {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 815px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 715px;
+}
+.a17editappbar .document-b-x-contents-AzM39M {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 517px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 715px;
+}
+.a17editappbar .document-b-x-contents-GnwEub {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 587px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a17editappbar .document-b-x-contents-QwJ3It {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 243px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 505px;
+}
+.a17editappbar .document-b-x-contents-Ybggzi {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 580px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a17editappbar .document-button-C61RwL {
+  background-color: transparent;
+  height: 45px;
+  left: 863px;
+  position: absolute;
+  top: 3221px;
+  width: 274px;
+}
+.a17editappbar .fn-5M41yK {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .fn-ZPcXOd {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .fn-haDoq8 {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .fn-lMbloe {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .fn-nw2vwr {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .fn-x1w63o {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .fn-xvXAfO {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .general-09MSyE {
+  background-color: transparent;
+  height: 106px;
+  left: 20px;
+  position: absolute;
+  top: 82px;
+  width: 465px;
+}
+.a17editappbar .general-5LOLQ6 {
+  background-color: transparent;
+  height: 134px;
+  left: 20px;
+  position: absolute;
+  top: 82px;
+  width: 465px;
+}
+.a17editappbar .gnb-bar01-app-bar-C61RwL {
+  background-color: var(--white);
+  height: 1252px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnb-logo-n49lac {
+  background-color: transparent;
+  height: 89px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu-h-ory-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 91px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu0--iew-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 134px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu1--r-selected-MEzfB7 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu1--r-selected-n49lac {
+  background-color: transparent;
+  height: 387px;
+  left: 0px;
+  position: absolute;
+  top: 177px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu10-rch-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 909px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu11-ast-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 952px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu12-lds-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 995px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu13-ols-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1038px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu14-ion-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1081px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu15-dge-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1124px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu16-ail-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1167px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu17-ste-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1210px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu2--ons-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 565px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu3--ers-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 608px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu4--ogs-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 651px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu5--ers-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 694px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu6--sts-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 737px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu7--ems-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 780px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu8--ess-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 823px;
+  width: 320px;
+}
+.a17editappbar .gnb-menu9--ing-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 866px;
+  width: 320px;
+}
+.a17editappbar .gnb-submenu-normal-9bkFVW {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 301px;
+  width: 320px;
+}
+.a17editappbar .gnb-submenu-normal-MEzfB7 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 344px;
+  width: 320px;
+}
+.a17editappbar .gnb-submenu-normal-N0MpAX {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 258px;
+  width: 320px;
+}
+.a17editappbar .gnb-submenu-normal-SjOTU0 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 172px;
+  width: 320px;
+}
+.a17editappbar .gnb-submenu-normal-azkqix {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 86px;
+  width: 320px;
+}
+.a17editappbar .gnb-submenu-normal-em0k7T {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 43px;
+  width: 320px;
+}
+.a17editappbar .gnb-submenu-normal-p8aku3 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 215px;
+  width: 320px;
+}
+.a17editappbar .gnb-submenu-normal-tjiMyq {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 129px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-0y0c3F {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-1xI3Zx {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-2AGxgl {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-C6r5iD {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-CeTAaT {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-EQUPhX {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-N6HvoB {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-Q7xuGz {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-UorLy7 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-X9TZ16 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-YdxT3n {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-aJFUFN {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-gxxT3i {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-m7Rbjn {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-qrx8cd {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-rlzYhw {
+  background-color: rgba(224,224,224,1.0);
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-xCZbpw {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-xEBEPy {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbmenu-xiQpuA {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbsubmenu-62m2i9 {
+  background-color: rgba(224,224,224,1.0);
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbsubmenu-AYLUTp {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbsubmenu-J4zbCJ {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbsubmenu-KhgrxG {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbsubmenu-MxIkxk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbsubmenu-NoVaqI {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbsubmenu-aRTLm5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gnbsubmenu-wL3LmB {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .gotohome-2JDvpS {
+  background-color: transparent;
+  height: 89px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .group-2-2LANSu {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 203px;
+}
+.a17editappbar .group-2-2RAB67 {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 229px;
+}
+.a17editappbar .group-2-4OidsM {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 203px;
+}
+.a17editappbar .group-2-5wXffF {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 253px;
+}
+.a17editappbar .group-2-8sQo8o {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 169px;
+}
+.a17editappbar .group-2-EhZ92D {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 203px;
+}
+.a17editappbar .group-2-G0faiy {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 356px;
+}
+.a17editappbar .group-2-Ga56Xq {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 295px;
+}
+.a17editappbar .group-2-UzAgLx {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 356px;
+}
+.a17editappbar .group-2-V20xWg {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 305px;
+}
+.a17editappbar .group-2-ajo74C {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 366px;
+}
+.a17editappbar .group-2-rzivQd {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 203px;
+}
+.a17editappbar .group-2-t6qj0X {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 366px;
+}
+.a17editappbar .group-2-yaC1VD {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 219px;
+}
+.a17editappbar .group-3BhBT0 {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 143px;
+}
+.a17editappbar .group-3NcqsY {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 146px;
+}
+.a17editappbar .group-3QZ3AJ {
+  background-color: var(--concrete);
+  height: 22px;
+  left: 104px;
+  position: absolute;
+  top: 0px;
+  width: 59px;
+}
+.a17editappbar .group-4xxFNE {
+  background-color: transparent;
+  height: 54px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 468px;
+}
+.a17editappbar .group-6icgtZ {
+  background-color: transparent;
+  height: 517px;
+  left: 0px;
+  position: absolute;
+  top: 724px;
+  width: 1240px;
+}
+.a17editappbar .group-CoU8sJ {
+  background-color: var(--concrete);
+  height: 22px;
+  left: 67px;
+  position: absolute;
+  top: 0px;
+  width: 26px;
+}
+.a17editappbar .group-DbdbYZ {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 248px;
+}
+.a17editappbar .group-HdaCZg {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 124px;
+}
+.a17editappbar .group-OPxwmB {
+  background-color: var(--concrete);
+  height: 22px;
+  left: 67px;
+  position: absolute;
+  top: 0px;
+  width: 26px;
+}
+.a17editappbar .group-RWxBTt {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a17editappbar .group-VWOmxG {
+  background-color: rgba(71,71,71,1.0);
+  height: 22px;
+  left: 67px;
+  position: absolute;
+  top: 0px;
+  width: 26px;
+}
+.a17editappbar .group-Z2frdk {
+  background-color: var(--concrete);
+  height: 22px;
+  left: 50px;
+  position: absolute;
+  top: 0px;
+  width: 69px;
+}
+.a17editappbar .group-bF5HJC {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 248px;
+}
+.a17editappbar .group-gdf1mw {
+  background-color: rgba(71,71,71,1.0);
+  height: 22px;
+  left: 67px;
+  position: absolute;
+  top: 0px;
+  width: 26px;
+}
+.a17editappbar .group-iCKQT5 {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 146px;
+}
+.a17editappbar .group-kxosLh {
+  background-color: transparent;
+  height: 815px;
+  left: 0px;
+  position: absolute;
+  top: 731px;
+  width: 1240px;
+}
+.a17editappbar .group-nM0dTd {
+  background-color: var(--concrete);
+  height: 22px;
+  left: 50px;
+  position: absolute;
+  top: 0px;
+  width: 69px;
+}
+.a17editappbar .group-rBS82Y {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 124px;
+}
+.a17editappbar .group-w6TSjg {
+  background-color: transparent;
+  height: 45px;
+  left: 30px;
+  position: relative;
+  top: 22px;
+  width: 260px;
+}
+.a17editappbar .group-xSXdDF {
+  background-color: transparent;
+  height: 54px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 468px;
+}
+.a17editappbar .guide-7pRh6b {
+  background-color: transparent;
+  height: 815px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 715px;
+}
+.a17editappbar .guide-OCjrF1 {
+  background-color: transparent;
+  height: 517px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 715px;
+}
+.a17editappbar .guide-form--dark1line-2qx80v {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 253px;
+}
+.a17editappbar .guide-form-al-darkcmt-LLTozm {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 97px;
+  width: 203px;
+}
+.a17editappbar .guide-form-al-darkcmt-PlmB9G {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 97px;
+  width: 203px;
+}
+.a17editappbar .guide-form-e-subtitle-2Apkxx {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 87px;
+}
+.a17editappbar .guide-form-e-subtitle-2qx80v {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 84px;
+}
+.a17editappbar .guide-form-e-subtitle-5m8IzS {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 57px;
+}
+.a17editappbar .guide-form-e-subtitle-LLTozm {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 84px;
+}
+.a17editappbar .guide-form-e-subtitle-PlmB9G {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 84px;
+}
+.a17editappbar .guide-form-e-subtitle-U3nNPx {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 87px;
+}
+.a17editappbar .guide-form-e-subtitle-Zep4qI {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 87px;
+}
+.a17editappbar .guide-form-e-subtitle-kWUvzO {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 57px;
+}
+.a17editappbar .guide-form-ht1linecmt-U3nNPx {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 356px;
+}
+.a17editappbar .guide-form-ht1linecmt-X9dxzq {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 69px;
+  width: 366px;
+}
+.a17editappbar .guide-form-l-lightcmt-0NZS3M {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 69px;
+  width: 229px;
+}
+.a17editappbar .guide-form-l-lightcmt-2Apkxx {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 219px;
+}
+.a17editappbar .guide-form-l-lightcmt-L07NwW {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 97px;
+  width: 203px;
+}
+.a17editappbar .guide-form-l-lightcmt-U3nNPx {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 97px;
+  width: 203px;
+}
+.a17editappbar .guide-form-me-divider-2Apkxx {
+  background-color: rgba(0,0,0,0.08);
+  height: 1px;
+  left: 32px;
+  position: absolute;
+  top: 59px;
+  width: 401px;
+}
+.a17editappbar .guide-form-me-divider-LLTozm {
+  background-color: rgba(0,0,0,0.08);
+  height: 1px;
+  left: 32px;
+  position: absolute;
+  top: 59px;
+  width: 401px;
+}
+.a17editappbar .guide-form-me-divider-PlmB9G {
+  background-color: rgba(0,0,0,0.08);
+  height: 1px;
+  left: 32px;
+  position: absolute;
+  top: 59px;
+  width: 401px;
+}
+.a17editappbar .guide-form-me-divider-U3nNPx {
+  background-color: rgba(0,0,0,0.08);
+  height: 1px;
+  left: 32px;
+  position: absolute;
+  top: 59px;
+  width: 401px;
+}
+.a17editappbar .guide-form-ormal1line-5m8IzS {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 248px;
+}
+.a17editappbar .guide-form-ormal1line-EP6N50 {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 56px;
+  width: 124px;
+}
+.a17editappbar .guide-form-ormal1line-GyDghL {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 84px;
+  width: 146px;
+}
+.a17editappbar .guide-form-ormal1line-fLaMk5 {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 84px;
+  width: 146px;
+}
+.a17editappbar .guide-form-ormal1line-gYGFfD {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 56px;
+  width: 124px;
+}
+.a17editappbar .guide-form-ormal1line-kWUvzO {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 248px;
+}
+.a17editappbar .guide-form-ormal1line-xwXgHp {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 112px;
+  width: 143px;
+}
+.a17editappbar .guide-form-rk1linecmt-LLTozm {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 356px;
+}
+.a17editappbar .guide-form-rk1linecmt-PlmB9G {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 295px;
+}
+.a17editappbar .guide-form-rk1linecmt-ZUi4vn {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 69px;
+  width: 305px;
+}
+.a17editappbar .guide-form-rk1linecmt-bAzgR6 {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 69px;
+  width: 366px;
+}
+.a17editappbar .guide-form-rmal-light-Zep4qI {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 169px;
+}
+.a17editappbar .guide-meas--spacing-2-6dluLx {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 98px;
+  width: 36px;
+}
+.a17editappbar .guide-meas--spacing-2-GwRit1 {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 36px;
+}
+.a17editappbar .guide-meas--spacing-2-LQmx18 {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 98px;
+  width: 18px;
+}
+.a17editappbar .guide-meas--spacing-2-Xgeino {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 36px;
+}
+.a17editappbar .guide-meas--spacing-2-ckv4m0 {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 86px;
+  width: 18px;
+}
+.a17editappbar .guide-meas--spacing-2-dOTfCc {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 36px;
+}
+.a17editappbar .guide-meas--spacing-2-vhg4KV {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 98px;
+  width: 18px;
+}
+.a17editappbar .guide-meas--spacing-2-zyPqZN {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 36px;
+}
+.a17editappbar .guide-meas--spacing-3-bNoDoQ {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 86px;
+  width: 18px;
+}
+.a17editappbar .guide-meas--spacing-3-xHBlfx {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 18px;
+}
+.a17editappbar .guide-meas-ght-size-1-xOllo6 {
+  background-color: transparent;
+  height: 84px;
+  left: 542px;
+  position: absolute;
+  top: 38px;
+  width: 29px;
+}
+.a17editappbar .guide-meas-tom-size-1-JjJlj9 {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 86px;
+  width: 234px;
+}
+.a17editappbar .guide-meas-tom-size-1-yAv9Sr {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 86px;
+  width: 234px;
+}
+.a17editappbar .guide-meas-top-size-1-OZyADF {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 234px;
+}
+.a17editappbar .guide-meas-top-size-2-vMzzcU {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 234px;
+}
+.a17editappbar .guide-measure-area-6dluLx {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+.a17editappbar .guide-measure-area-A7cxJf {
+  background-color: rgba(255,204,0,0.37);
+  height: 32px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 83px;
+}
+.a17editappbar .guide-measure-area-GwRit1 {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 36px;
+}
+.a17editappbar .guide-measure-area-JjJlj9 {
+  background-color: rgba(255,51,255,0.37);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 234px;
+}
+.a17editappbar .guide-measure-area-LQmx18 {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a17editappbar .guide-measure-area-OZyADF {
+  background-color: rgba(255,204,0,0.37);
+  height: 54px;
+  left: 0px;
+  position: absolute;
+  top: 53px;
+  width: 216px;
+}
+.a17editappbar .guide-measure-area-TVY8Zh {
+  background-color: rgba(255,204,0,0.37);
+  height: 32px;
+  left: 119px;
+  position: absolute;
+  top: 0px;
+  width: 60px;
+}
+.a17editappbar .guide-measure-area-Xgeino {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 36px;
+}
+.a17editappbar .guide-measure-area-bNoDoQ {
+  background-color: rgba(102,0,255,0.37);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a17editappbar .guide-measure-area-ckv4m0 {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a17editappbar .guide-measure-area-dOTfCc {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 36px;
+}
+.a17editappbar .guide-measure-area-vLYxGS {
+  background-color: rgba(51,204,0,0.37);
+  height: 12px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a17editappbar .guide-measure-area-vMzzcU {
+  background-color: rgba(255,204,0,0.37);
+  height: 54px;
+  left: 18px;
+  position: absolute;
+  top: 53px;
+  width: 216px;
+}
+.a17editappbar .guide-measure-area-vhg4KV {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a17editappbar .guide-measure-area-xHBlfx {
+  background-color: rgba(102,0,255,0.37);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 18px;
+}
+.a17editappbar .guide-measure-area-yAv9Sr {
+  background-color: rgba(255,0,204,0.37);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 234px;
+}
+.a17editappbar .guide-measure-area-zyPqZN {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 36px;
+}
+.a17editappbar .guide-numb-ring-shape-xOllo6 {
+  background-color: transparent;
+  background-image: url(../img/1-8-bottom-bar-oval-930F6715-5765-41E8-9603-278F49FEF8E9@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 22px;
+}
+.a17editappbar .guide-numbering-icon-PWGCMq {
+  background-color: transparent;
+  background-image: url(../img/1-8-bottom-bar-oval-930F6715-5765-41E8-9603-278F49FEF8E9@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 2px;
+  width: 22px;
+}
+.a17editappbar .guide-numbering-type-6PcmWi {
+  background-color: transparent;
+  background-image: url(../img/1-8-bottom-bar-oval-94C99D39-FAC8-4F97-A0DD-9D9831E1C479@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 22px;
+}
+.a17editappbar .guide-numbering-type-9hWu40 {
+  background-color: transparent;
+  background-image: url(../img/1-8-bottom-bar-oval-94C99D39-FAC8-4F97-A0DD-9D9831E1C479@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 22px;
+}
+.a17editappbar .guide-numbering-type-qpBZwo {
+  background-color: transparent;
+  background-image: url(../img/1-8-bottom-bar-oval-94C99D39-FAC8-4F97-A0DD-9D9831E1C479@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 25px;
+  position: absolute;
+  top: 42px;
+  width: 22px;
+}
+.a17editappbar .guide-numbering-type-ynyax6 {
+  background-color: transparent;
+  background-image: url(../img/1-8-bottom-bar-oval-94C99D39-FAC8-4F97-A0DD-9D9831E1C479@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 313px;
+  position: absolute;
+  top: 53px;
+  width: 22px;
+}
+.a17editappbar .guide-property-6PcmWi {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 32px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .guide-property-9hWu40 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 32px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .guide-property-PWGCMq {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 32px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .guide-subject-shape-QwJ3It {
+  background-color: transparent;
+  height: 26px;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+  width: 135px;
+}
+.a17editappbar .guide-subject-type-09MSyE {
+  background-color: transparent;
+  height: 26px;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+  width: 121px;
+}
+.a17editappbar .guide-subject-type-5LOLQ6 {
+  background-color: transparent;
+  height: 26px;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+  width: 121px;
+}
+.a17editappbar .history-JH8G1K {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .keyscreen-6icgtZ {
+  background-color: transparent;
+  height: 580px;
+  left: 0px;
+  position: absolute;
+  top: 124px;
+  width: 1240px;
+}
+.a17editappbar .keyscreen-kxosLh {
+  background-color: transparent;
+  height: 587px;
+  left: 0px;
+  position: absolute;
+  top: 124px;
+  width: 1240px;
+}
+.a17editappbar .landscape-6icgtZ {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 44px;
+  height: auto;
+  left: 0px;
+  line-height: 53px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 1240px;
+}
+.a17editappbar .landscape-C61RwL {
+  background-color: transparent;
+  height: 1241px;
+  left: 380px;
+  position: absolute;
+  top: 1900px;
+  width: 1240px;
+}
+.a17editappbar .light-theme-09MSyE {
+  background-color: transparent;
+  height: 119px;
+  left: 20px;
+  position: absolute;
+  top: 216px;
+  width: 465px;
+}
+.a17editappbar .light-theme-5LOLQ6 {
+  background-color: transparent;
+  height: 119px;
+  left: 20px;
+  position: absolute;
+  top: 244px;
+  width: 465px;
+}
+.a17editappbar .light-theme-QwJ3It {
+  background-color: transparent;
+  height: 50px;
+  left: 20px;
+  position: absolute;
+  top: 82px;
+  width: 465px;
+}
+.a17editappbar .measure-1-9ZOaw7 {
+  background-color: transparent;
+  height: 160px;
+  left: 80px;
+  position: absolute;
+  top: 208px;
+  width: 578px;
+}
+.a17editappbar .measure-2-9ZOaw7 {
+  background-color: transparent;
+  height: 160px;
+  left: 80px;
+  position: absolute;
+  top: 448px;
+  width: 540px;
+}
+.a17editappbar .measure-AzM39M {
+  background-color: transparent;
+  height: 172px;
+  left: 88px;
+  position: absolute;
+  top: 173px;
+  width: 540px;
+}
+.a17editappbar .mobile-lig-dit2button-QHxEgb {
+  background-color: transparent;
+  height: 54px;
+  left: 36px;
+  position: relative;
+  top: 15px;
+  width: 468px;
+}
+.a17editappbar .mobile-lig-dit2button-xpmVi9 {
+  background-color: transparent;
+  height: 54px;
+  left: 36px;
+  position: relative;
+  top: 15px;
+  width: 468px;
+}
+.a17editappbar .mobile-lig-le2buttonl-qE00AN {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a17editappbar .mobile-lig-tionbutton-2FMoGh {
+  background-color: transparent;
+  height: 54px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 216px;
+}
+.a17editappbar .mobile-lig-tionbutton-DKr6O5 {
+  background-color: transparent;
+  height: 54px;
+  left: 252px;
+  position: absolute;
+  top: 0px;
+  width: 216px;
+}
+.a17editappbar .mobile-lig-tionbutton-W9sEv0 {
+  background-color: transparent;
+  height: 54px;
+  left: 252px;
+  position: absolute;
+  top: 0px;
+  width: 216px;
+}
+.a17editappbar .mobile-lig-tionbutton-jbiu58 {
+  background-color: transparent;
+  height: 54px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 216px;
+}
+.a17editappbar .portrait-C61RwL {
+  background-color: transparent;
+  height: 1546px;
+  left: 380px;
+  position: absolute;
+  top: 194px;
+  width: 1240px;
+}
+.a17editappbar .portrait-kxosLh {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 44px;
+  height: auto;
+  left: 0px;
+  line-height: 53px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 1240px;
+}
+.a17editappbar .property-1JfllQ {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-3QZ3AJ {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-41Shgy {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-CoU8sJ {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-DCF2eJ {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-EiwNuq {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-Hymxtp {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-IYaasW {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-OPxwmB {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-VIoXKV {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-VWOmxG {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-Z2frdk {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-bMmnA6 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-gRDxmS {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-gdf1mw {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-k5zAwB {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-nM0dTd {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-sTKtQL {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-wDLbfG {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-wgABVo {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .property-xAx3Ky {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .rectangle-0gVYB0 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a17editappbar .rectangle-0sCuLr {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 35px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a17editappbar .rectangle-3DXfWJ {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a17editappbar .rectangle-3gtRiP {
+  background-color: rgba(102,0,255,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 18px;
+}
+.a17editappbar .rectangle-4JwqjP {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 233px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a17editappbar .rectangle-4xwru5 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a17editappbar .rectangle-69O8C6 {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 36px;
+}
+.a17editappbar .rectangle-6FFcRv {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a17editappbar .rectangle-6bsnkZ {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a17editappbar .rectangle-7m0xEC {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 35px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a17editappbar .rectangle-7rBMlP {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 18px;
+}
+.a17editappbar .rectangle-84rhCW {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 233px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a17editappbar .rectangle-8vjZ5r {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 36px;
+}
+.a17editappbar .rectangle-At138R {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a17editappbar .rectangle-Axw4eh {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 35px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a17editappbar .rectangle-F64KHa {
+  background-color: rgba(102,0,255,1.0);
+  height: 9px;
+  left: 17px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a17editappbar .rectangle-IaVosO {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 36px;
+}
+.a17editappbar .rectangle-Iw5gZ0 {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 18px;
+}
+.a17editappbar .rectangle-LOnPz9 {
+  background-color: rgba(255,0,204,1.0);
+  height: 9px;
+  left: 233px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a17editappbar .rectangle-MIpxVR {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 233px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a17editappbar .rectangle-OL3hIJ {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 83px;
+  width: 9px;
+}
+.a17editappbar .rectangle-OobAnG {
+  background-color: rgba(255,0,204,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 234px;
+}
+.a17editappbar .rectangle-P14t3v {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 17px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a17editappbar .rectangle-Pn9lf7 {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 17px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a17editappbar .rectangle-USHr9u {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 36px;
+}
+.a17editappbar .rectangle-WeiKYx {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 234px;
+}
+.a17editappbar .rectangle-YXmHZj {
+  background-color: rgba(102,0,255,1.0);
+  height: 9px;
+  left: 17px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a17editappbar .rectangle-ZTeEbS {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a17editappbar .rectangle-axRJ1I {
+  background-color: rgba(255,0,204,1.0);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a17editappbar .rectangle-b6cobP {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a17editappbar .rectangle-btNF50 {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 35px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a17editappbar .rectangle-dIe8xp {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 17px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a17editappbar .rectangle-eU90xH {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 36px;
+}
+.a17editappbar .rectangle-ecVLFr {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 234px;
+}
+.a17editappbar .rectangle-eoCPyL {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 18px;
+}
+.a17editappbar .rectangle-et9kKR {
+  background-color: rgba(102,0,255,1.0);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a17editappbar .rectangle-fsNv2d {
+  background-color: rgba(102,0,255,1.0);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a17editappbar .rectangle-g84Nb9 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 234px;
+}
+.a17editappbar .rectangle-mgwMNN {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 35px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a17editappbar .rectangle-nxtBVf {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a17editappbar .rectangle-oJ2x8q {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a17editappbar .rectangle-pmL6pa {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a17editappbar .rectangle-tWsO65 {
+  background-color: rgba(102,0,255,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 18px;
+}
+.a17editappbar .rectangle-vwH9JP {
+  background-color: var(--razzle-dazzle-rose);
+  height: 84px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a17editappbar .rectangle-xjpsxp {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a17editappbar .rectangle-xrnvpY {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a17editappbar .sample-title-BvTJru {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 28px;
+  height: auto;
+  left: 0px;
+  line-height: 33px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 270px;
+}
+.a17editappbar .save-JHiPMu {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 27px;
+  height: auto;
+  left: 118px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .screen-wid-2264-scree-kxosLh {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 83px;
+  white-space: nowrap;
+  width: 1240px;
+}
+.a17editappbar .screen-width-scree-6icgtZ {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 83px;
+  white-space: nowrap;
+  width: 1240px;
+}
+.a17editappbar .shape-7pRh6b {
+  background-color: transparent;
+  height: 243px;
+  left: 735px;
+  position: absolute;
+  top: 2px;
+  width: 505px;
+}
+.a17editappbar .size-OqcxrY {
+  background-color: transparent;
+  height: 122px;
+  left: 270px;
+  position: absolute;
+  top: 38px;
+  width: 234px;
+}
+.a17editappbar .size-qDfxzj {
+  background-color: transparent;
+  height: 107px;
+  left: 270px;
+  position: absolute;
+  top: 0px;
+  width: 234px;
+}
+.a17editappbar .size-qpBZwo {
+  background-color: transparent;
+  height: 107px;
+  left: 36px;
+  position: absolute;
+  top: 0px;
+  width: 234px;
+}
+.a17editappbar .size-xOllo6 {
+  background-color: transparent;
+  height: 122px;
+  left: 36px;
+  position: absolute;
+  top: 38px;
+  width: 234px;
+}
+.a17editappbar .spacing-2vdWPh {
+  background-color: transparent;
+  height: 122px;
+  left: 270px;
+  position: absolute;
+  top: 38px;
+  width: 18px;
+}
+.a17editappbar .spacing-H7Bdni {
+  background-color: transparent;
+  height: 122px;
+  left: 426px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a17editappbar .spacing-JUO427 {
+  background-color: transparent;
+  height: 122px;
+  left: 504px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+.a17editappbar .spacing-KurGm7 {
+  background-color: transparent;
+  height: 134px;
+  left: 504px;
+  position: absolute;
+  top: 38px;
+  width: 36px;
+}
+.a17editappbar .spacing-OqcxrY {
+  background-color: transparent;
+  height: 122px;
+  left: 504px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+.a17editappbar .spacing-TIbjQ1 {
+  background-color: transparent;
+  height: 134px;
+  left: 408px;
+  position: absolute;
+  top: 38px;
+  width: 18px;
+}
+.a17editappbar .spacing-jEactj {
+  background-color: transparent;
+  height: 134px;
+  left: 307px;
+  position: absolute;
+  top: 38px;
+  width: 18px;
+}
+.a17editappbar .spacing-qDfxzj {
+  background-color: transparent;
+  height: 122px;
+  left: 252px;
+  position: absolute;
+  top: 38px;
+  width: 18px;
+}
+.a17editappbar .spacing-qpBZwo {
+  background-color: transparent;
+  height: 122px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+.a17editappbar .spacing-xOllo6 {
+  background-color: transparent;
+  height: 122px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+.a17editappbar .spacing-ynyax6 {
+  background-color: transparent;
+  height: 12px;
+  left: 0px;
+  position: absolute;
+  top: 122px;
+  width: 540px;
+}
+.a17editappbar .symbol-9ZOaw7 {
+  background-color: transparent;
+  height: 324px;
+  left: 80px;
+  position: absolute;
+  top: 246px;
+  width: 540px;
+}
+.a17editappbar .symbol-AzM39M {
+  background-color: transparent;
+  height: 96px;
+  left: 88px;
+  position: absolute;
+  top: 211px;
+  width: 540px;
+}
+.a17editappbar .text-2u3vZ4 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .text-6vtjFx {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .text-LKlJIf {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .text-P2leby {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a17editappbar .text-WvbxKh {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 18px;
+  height: auto;
+  left: 31px;
+  line-height: 28.6px;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .text-X2VOUo {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a17editappbar .text-XwkQxW {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a17editappbar .text-eYHWIG {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .text-fIaL2s {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .text-gDux9T {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .text-jVFqwX {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .text-lxhwOD {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a17editappbar .text-s4QoFE {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a17editappbar .text-sTfeh3 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a17editappbar .text-w7XwJI {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a17editappbar .text-x5SoRQ {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a17editappbar .text-xHBEhL {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .text-ynyax6 {
+  background-color: transparent;
+  height: 32px;
+  left: 325px;
+  position: absolute;
+  top: 63px;
+  width: 179px;
+}
+.a17editappbar .title-LnPSKx {
+  background-color: transparent;
+  height: 33px;
+  left: 36px;
+  position: absolute;
+  top: 24px;
+  width: 270px;
+}
+.a17editappbar .type-7pRh6b {
+  background-color: transparent;
+  height: 540px;
+  left: 735px;
+  position: absolute;
+  top: 272px;
+  width: 505px;
+}
+.a17editappbar .type-OCjrF1 {
+  background-color: transparent;
+  height: 512px;
+  left: 735px;
+  position: absolute;
+  top: 2px;
+  width: 505px;
+}
+.a17editappbar .value-1JfllQ {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 80px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-3DXfWJ {
+  background-color: transparent;
+  height: 18px;
+  left: 9px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a17editappbar .value-41Shgy {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 88px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-5M41yK {
+  background-color: transparent;
+  color: rgba(193,206,254,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 32px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-6bsnkZ {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 33px;
+  width: 17px;
+}
+.a17editappbar .value-At138R {
+  background-color: transparent;
+  height: 18px;
+  left: 9px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a17editappbar .value-DCF2eJ {
+  background-color: transparent;
+  height: 22px;
+  left: 50px;
+  position: absolute;
+  top: 0px;
+  width: 151px;
+}
+.a17editappbar .value-ESTMfq {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-EiwNuq {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 100px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-HM8Kaz {
+  background-color: transparent;
+  color: rgba(193,206,254,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-Hymxtp {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 98px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-IYaasW {
+  background-color: transparent;
+  height: 22px;
+  left: 104px;
+  position: absolute;
+  top: 0px;
+  width: 149px;
+}
+.a17editappbar .value-KQk0yw {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-VIoXKV {
+  background-color: transparent;
+  height: 22px;
+  left: 50px;
+  position: absolute;
+  top: 0px;
+  width: 212px;
+}
+.a17editappbar .value-XlWx5l {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-ZPcXOd {
+  background-color: transparent;
+  color: rgba(193,206,254,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 32px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-axRJ1I {
+  background-color: transparent;
+  height: 18px;
+  left: 102px;
+  position: absolute;
+  top: 0px;
+  width: 30px;
+}
+.a17editappbar .value-b6cobP {
+  background-color: transparent;
+  height: 18px;
+  left: 9px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a17editappbar .value-bMmnA6 {
+  background-color: transparent;
+  height: 22px;
+  left: 50px;
+  position: absolute;
+  top: 0px;
+  width: 212px;
+}
+.a17editappbar .value-et9kKR {
+  background-color: transparent;
+  height: 18px;
+  left: 1px;
+  position: absolute;
+  top: 0px;
+  width: 16px;
+}
+.a17editappbar .value-ex4dvU {
+  background-color: transparent;
+  color: rgba(193,206,254,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-gRDxmS {
+  background-color: transparent;
+  height: 22px;
+  left: 50px;
+  position: absolute;
+  top: 0px;
+  width: 212px;
+}
+.a17editappbar .value-haDoq8 {
+  background-color: transparent;
+  color: rgba(193,206,254,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 32px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-joN7hc {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-k5zAwB {
+  background-color: transparent;
+  height: 22px;
+  left: 50px;
+  position: absolute;
+  top: 0px;
+  width: 151px;
+}
+.a17editappbar .value-kYi9GR {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-lMbloe {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 32px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-nw2vwr {
+  background-color: transparent;
+  color: rgba(193,206,254,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 32px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-oJ2x8q {
+  background-color: transparent;
+  height: 18px;
+  left: 9px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a17editappbar .value-sTKtQL {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 88px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-wDLbfG {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 100px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-wgABVo {
+  background-color: transparent;
+  height: 22px;
+  left: 50px;
+  position: absolute;
+  top: 0px;
+  width: 212px;
+}
+.a17editappbar .value-x1w63o {
+  background-color: transparent;
+  color: rgba(193,206,254,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 32px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-xAx3Ky {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 80px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .value-xjpsxp {
+  background-color: transparent;
+  height: 18px;
+  left: 102px;
+  position: absolute;
+  top: 0px;
+  width: 30px;
+}
+.a17editappbar .value-xvXAfO {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 32px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .web-app-ldhYbP {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x-1Dgwdx {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 200px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-1JfllQ {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 118px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-3QZ3AJ {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 163px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-41Shgy {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 140px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-5M41yK {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 145px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-Cl0lpn {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 26px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-CoU8sJ {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 93px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-CzQful {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 139px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-EiwNuq {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 242px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-GSndLm {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 137px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-Hymxtp {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 137px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-OA56ou {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 26px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-OPxwmB {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 93px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-SuUrWa {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 26px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-VWOmxG {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 93px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-Z2frdk {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 119px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-ZPcXOd {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 143px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-cW1hvp {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 26px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-dAX6Dq {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 26px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-fpEBBT {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 26px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-g0h5xw {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 200px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-gdf1mw {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 93px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-haDoq8 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 206px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-hxbyhu {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 200px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-kZTpam {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 26px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-kxnaCX {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 200px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-lMbloe {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 206px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-nM0dTd {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 119px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-nw2vwr {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 206px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-sTKtQL {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 140px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-wDLbfG {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 242px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-x1w63o {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 145px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-x7J14B {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 139px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-xAx3Ky {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 118px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x-xvXAfO {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 206px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x0-2IetCx {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x0-3HXzwI {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x0-4xwru5 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 102px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x0-6FFcRv {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x0-TyBAor {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x0-UF2NfX {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x0-X3dzyv {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x0-ZTeEbS {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 9px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x0-fsNv2d {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x0-nxtBVf {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x0-overview-F1D8mf {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x0-pmL6pa {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x0-uYO8BB {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x0-wsYEy7 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x0-xHPL3s {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x0-xrnvpY {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 102px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x1-07-keysc-ditappbar1-GnwEub {
+  background-color: transparent;
+  height: 508px;
+  left: 370px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a17editappbar .x1-07-keysc-ditappbar1-XZfyPy {
+  background-color: transparent;
+  height: 534px;
+  left: 630px;
+  position: absolute;
+  top: 14px;
+  width: 240px;
+}
+.a17editappbar .x1-07-keysc-ditappbar2-V6CNxr {
+  background-color: transparent;
+  height: 240px;
+  left: 367px;
+  position: absolute;
+  top: 300px;
+  width: 508px;
+}
+.a17editappbar .x1-07-keysc-ditappbar2-Ybggzi {
+  background-color: transparent;
+  height: 240px;
+  left: 367px;
+  position: absolute;
+  top: 40px;
+  width: 508px;
+}
+.a17editappbar .x1-07-measu-ditappbar1-PquGjY {
+  background-color: var(--concrete);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 540px;
+}
+.a17editappbar .x1-07-measu-ditappbar1-xK4cqW {
+  background-color: var(--concrete);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 240px;
+  width: 540px;
+}
+.a17editappbar .x1-07-measu-ditappbar2-sofxYx {
+  background-color: var(--concrete);
+  height: 96px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a17editappbar .x1-7-edit-app-bar-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 380px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 50px;
+  white-space: nowrap;
+  width: auto;
+}
+.a17editappbar .x1-MJZ555 {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: 22px;
+  left: 0px;
+  line-height: 17px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a17editappbar .x1-app-bar-H4OxoO {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x1-fDTAWC {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 15px;
+  height: 22px;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a17editappbar .x1-fnejxL {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 15px;
+  height: 22px;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a17editappbar .x1-rrcRNr {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: 22px;
+  left: 0px;
+  line-height: 17px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a17editappbar .x1-vldTSq {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: 22px;
+  left: 0px;
+  line-height: 17px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a17editappbar .x1-x5z8EH {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: 22px;
+  left: 0px;
+  line-height: 17px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a17editappbar .x10-search-NNxG7n {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x11-toast-btzW57 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x12-text-fields-HeAxYm {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x13-view-controls-zQ2cQp {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x14-description-0gVYB0 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x15-notification-bad-PxzSYi {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x16-thumbnail-u4LPIm {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x17-copy-paste-mCSYrc {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x2-buttons-m5qrCr {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x3-controllers-dFIj0O {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x4-dialogs-E6vWNu {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x5-dividers-tpx2qA {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x6-lists-evwMFw {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x7-no-item-RNT9bT {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x8-progress-O0jxdc {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a17editappbar .x9-scrolling-0yxMw6 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.border-class-1 {
+  border: 1px solid rgba(237,237,237,1.0);
+}
+.border-class-2 {
+  border: 1px solid rgba(135,135,135,1.0);
+}
+.font-class-1 {
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+}
+.font-class-2 {
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+}
+.font-class-3 {
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+}
+.font-class-4 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-5 {
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+}
+.font-class-6 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
+}
+.font-class-7 {
+  color: rgba(37,37,37,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 300;
+}
+.font-class-8 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
+  line-height: 84px;
+}
+.font-class-9 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
+}
+:root {
+  --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
+  --black: rgba(0,0,0,1.0);
+  --concrete: rgba(242,242,242,1.0);
+  --ebb: rgba(227,227,227,1.0);
+  --harlequin: rgba(51,204,0,1.0);
+  --masala: rgba(59,59,59,1.0);
+  --razzle-dazzle-rose: rgba(255,51,255,1.0);
+  --royal-blue: rgba(75,99,250,1.0);
+  --white: rgba(255,255,255,1.0);
+}

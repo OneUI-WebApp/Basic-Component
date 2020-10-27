@@ -1,0 +1,3057 @@
+/* screen - a16actionbutton */
+
+.a16actionbutton {
+  background-color: rgba(245,246,247,1.0);
+  height: 1682px;
+  overflow: hidden;
+  position: relative;
+  width: 1680px;
+}
+.a16actionbutton .background-xAEfWi {
+  background-color: rgba(71,71,71,1.0);
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 145px;
+}
+.a16actionbutton .basic-component-gui-ldhYbP {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: justify;
+  top: 21px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .btn-BRTFfo {
+  background-color: transparent;
+  height: 36px;
+  left: 278px;
+  position: absolute;
+  top: 24px;
+  width: 233px;
+}
+.a16actionbutton .btn-GgNcFk {
+  background-color: transparent;
+  height: 32px;
+  left: 330px;
+  position: absolute;
+  top: 25px;
+  width: 174px;
+}
+.a16actionbutton .btn-mwblLs {
+  background-color: rgba(3,129,254,1.0);
+  border-radius: 22.5px;
+  height: 45px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 274px;
+}
+.a16actionbutton .btn-mwblLs:hover {
+
+transform: scale(0.98);
+}
+.a16actionbutton .btn-xowe9J {
+  background-color: transparent;
+  height: 36px;
+  left: 383px;
+  position: absolute;
+  top: 24px;
+  width: 128px;
+}
+.a16actionbutton .dark-theme-XIMmxx {
+  background-color: transparent;
+  height: 50px;
+  left: 20px;
+  position: absolute;
+  top: 294px;
+  width: 465px;
+}
+.a16actionbutton .document-b-x-contents-Uixoni {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 676px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 715px;
+}
+.a16actionbutton .document-b-x-contents-V6KZ2v {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 587px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a16actionbutton .document-b-x-contents-XIMmxx {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 374px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 505px;
+}
+.a16actionbutton .document-button-C61RwL {
+  background-color: transparent;
+  height: 45px;
+  left: 863px;
+  position: absolute;
+  top: 1557px;
+  width: 274px;
+}
+.a16actionbutton .fn-xAEfWi {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .general-XIMmxx {
+  background-color: transparent;
+  height: 106px;
+  left: 20px;
+  position: absolute;
+  top: 82px;
+  width: 465px;
+}
+.a16actionbutton .gnb-bar01-app-bar-C61RwL {
+  background-color: var(--white);
+  height: 1252px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnb-logo-n49lac {
+  background-color: transparent;
+  height: 89px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu-h-ory-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 91px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu0--iew-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 134px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu1--r-selected-MEzfB7 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu1--r-selected-n49lac {
+  background-color: transparent;
+  height: 387px;
+  left: 0px;
+  position: absolute;
+  top: 177px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu10-rch-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 909px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu11-ast-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 952px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu12-lds-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 995px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu13-ols-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1038px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu14-ion-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1081px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu15-dge-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1124px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu16-ail-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1167px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu17-ste-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1210px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu2--ons-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 565px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu3--ers-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 608px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu4--ogs-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 651px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu5--ers-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 694px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu6--sts-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 737px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu7--ems-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 780px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu8--ess-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 823px;
+  width: 320px;
+}
+.a16actionbutton .gnb-menu9--ing-normal-n49lac {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 866px;
+  width: 320px;
+}
+.a16actionbutton .gnb-submenu-normal-9bkFVW {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 301px;
+  width: 320px;
+}
+.a16actionbutton .gnb-submenu-normal-MEzfB7 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 344px;
+  width: 320px;
+}
+.a16actionbutton .gnb-submenu-normal-N0MpAX {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 258px;
+  width: 320px;
+}
+.a16actionbutton .gnb-submenu-normal-SjOTU0 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 172px;
+  width: 320px;
+}
+.a16actionbutton .gnb-submenu-normal-azkqix {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 86px;
+  width: 320px;
+}
+.a16actionbutton .gnb-submenu-normal-em0k7T {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 43px;
+  width: 320px;
+}
+.a16actionbutton .gnb-submenu-normal-p8aku3 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 215px;
+  width: 320px;
+}
+.a16actionbutton .gnb-submenu-normal-tjiMyq {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 129px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-0y0c3F {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-1xI3Zx {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-2AGxgl {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-C6r5iD {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-CeTAaT {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-EQUPhX {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-N6HvoB {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-Q7xuGz {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-UorLy7 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-X9TZ16 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-YdxT3n {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-aJFUFN {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-gxxT3i {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-m7Rbjn {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-qrx8cd {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-rlzYhw {
+  background-color: rgba(224,224,224,1.0);
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-xCZbpw {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-xEBEPy {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbmenu-xiQpuA {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbsubmenu-62m2i9 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbsubmenu-AYLUTp {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbsubmenu-J4zbCJ {
+  background-color: rgba(224,224,224,1.0);
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbsubmenu-KhgrxG {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbsubmenu-MxIkxk {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbsubmenu-NoVaqI {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbsubmenu-aRTLm5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gnbsubmenu-wL3LmB {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .gotohome-2JDvpS {
+  background-color: transparent;
+  height: 89px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .group-2-NuNtg8 {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 201px;
+}
+.a16actionbutton .group-2-gzYrau {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 125px;
+}
+.a16actionbutton .group-2wvurm {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 248px;
+}
+.a16actionbutton .group-5wrBx3 {
+  background-color: var(--concrete);
+  height: 22px;
+  left: 50px;
+  position: absolute;
+  top: 0px;
+  width: 69px;
+}
+.a16actionbutton .group-D4E4KO {
+  background-color: var(--concrete);
+  height: 84px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a16actionbutton .group-KdMd6Y {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 124px;
+}
+.a16actionbutton .group-XhnZGS {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 146px;
+}
+.a16actionbutton .group-densri {
+  background-color: var(--concrete);
+  height: 84px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a16actionbutton .group-w6TSjg {
+  background-color: transparent;
+  height: 45px;
+  left: 30px;
+  position: relative;
+  top: 22px;
+  width: 260px;
+}
+.a16actionbutton .group-wYbF41 {
+  background-color: var(--concrete);
+  height: 84px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a16actionbutton .guide-C61RwL {
+  background-color: transparent;
+  height: 676px;
+  left: 380px;
+  position: absolute;
+  top: 801px;
+  width: 715px;
+}
+.a16actionbutton .guide-form--dark1line-Msg5X6 {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 201px;
+}
+.a16actionbutton .guide-form-e-subtitle-Msg5X6 {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 84px;
+}
+.a16actionbutton .guide-form-e-subtitle-lbM3fd {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 57px;
+}
+.a16actionbutton .guide-form-e-subtitle-lwFiTb {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 87px;
+}
+.a16actionbutton .guide-form-ormal1line-Uzvtxx {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 84px;
+  width: 146px;
+}
+.a16actionbutton .guide-form-ormal1line-lFUC7W {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 56px;
+  width: 124px;
+}
+.a16actionbutton .guide-form-ormal1line-lbM3fd {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 248px;
+}
+.a16actionbutton .guide-form-rmal-light-lwFiTb {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 125px;
+}
+.a16actionbutton .guide-meas--spacing-2-4LR6Tz {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 98px;
+  width: 30px;
+}
+.a16actionbutton .guide-meas--spacing-2-5Uc15V {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 98px;
+  width: 18px;
+}
+.a16actionbutton .guide-meas--spacing-2-7FHci9 {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 98px;
+  width: 18px;
+}
+.a16actionbutton .guide-meas--spacing-2-9BfUdl {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 18px;
+}
+.a16actionbutton .guide-meas--spacing-2-A4KCne {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 98px;
+  width: 36px;
+}
+.a16actionbutton .guide-meas--spacing-2-Lt7w53 {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 18px;
+}
+.a16actionbutton .guide-meas--spacing-2-Y40Mqe {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 18px;
+}
+.a16actionbutton .guide-meas--spacing-2-ZoOMs2 {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 18px;
+}
+.a16actionbutton .guide-meas--spacing-2-cHxeUa {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 98px;
+  width: 18px;
+}
+.a16actionbutton .guide-meas--spacing-2-lGJFtZ {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 98px;
+  width: 30px;
+}
+.a16actionbutton .guide-meas--spacing-3-ElaAL3 {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 98px;
+  width: 18px;
+}
+.a16actionbutton .guide-meas--spacing-3-a05GaL {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 98px;
+  width: 10px;
+}
+.a16actionbutton .guide-meas--spacing-3-pmcwkV {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 98px;
+  width: 10px;
+}
+.a16actionbutton .guide-meas--spacing-3-tqY0xa {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 98px;
+  width: 18px;
+}
+.a16actionbutton .guide-meas-e-vertical-3cfXwO {
+  background-color: transparent;
+  background-image: url(../img/1-6-action-button-line-E6BB7659-892C-443A-8496-1EAE924ECD15@2x.png);
+  background-size: 100% 100%;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 1px;
+}
+.a16actionbutton .guide-meas-e-vertical-RZRAtx {
+  background-color: transparent;
+  background-image: url(../img/1-6-action-button-line-E6BB7659-892C-443A-8496-1EAE924ECD15@2x.png);
+  background-size: 100% 100%;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 1px;
+}
+.a16actionbutton .guide-meas-e-vertical-VgxqdT {
+  background-color: transparent;
+  background-image: url(../img/1-6-action-button-line-E6BB7659-892C-443A-8496-1EAE924ECD15@2x.png);
+  background-size: 100% 100%;
+  height: 24px;
+  left: 35px;
+  position: absolute;
+  top: 38px;
+  width: 1px;
+}
+.a16actionbutton .guide-meas-e-vertical-oG2Ige {
+  background-color: transparent;
+  background-image: url(../img/1-6-action-button-line-E6BB7659-892C-443A-8496-1EAE924ECD15@2x.png);
+  background-size: 100% 100%;
+  height: 24px;
+  left: 35px;
+  position: absolute;
+  top: 38px;
+  width: 1px;
+}
+.a16actionbutton .guide-meas-top-size-1-3cfXwO {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 36px;
+}
+.a16actionbutton .guide-meas-top-size-1-RZRAtx {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 36px;
+}
+.a16actionbutton .guide-measure-area-3cfXwO {
+  background-color: rgba(255,51,255,0.37);
+  height: 36px;
+  left: 0px;
+  position: absolute;
+  top: 62px;
+  width: 36px;
+}
+.a16actionbutton .guide-measure-area-4LR6Tz {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 30px;
+}
+.a16actionbutton .guide-measure-area-5Uc15V {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a16actionbutton .guide-measure-area-7FHci9 {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a16actionbutton .guide-measure-area-9BQAlO {
+  background-color: rgba(51,204,0,0.37);
+  height: 12px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a16actionbutton .guide-measure-area-9BfUdl {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 18px;
+}
+.a16actionbutton .guide-measure-area-A4KCne {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+.a16actionbutton .guide-measure-area-ElaAL3 {
+  background-color: rgba(102,0,255,0.37);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a16actionbutton .guide-measure-area-Lt7w53 {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 18px;
+}
+.a16actionbutton .guide-measure-area-OHIf7K {
+  background-color: rgba(255,204,0,0.37);
+  height: 32px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 69px;
+}
+.a16actionbutton .guide-measure-area-RZRAtx {
+  background-color: rgba(255,51,255,0.37);
+  height: 36px;
+  left: 0px;
+  position: absolute;
+  top: 62px;
+  width: 36px;
+}
+.a16actionbutton .guide-measure-area-W5e1rx {
+  background-color: rgba(51,204,0,0.37);
+  height: 12px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a16actionbutton .guide-measure-area-Y40Mqe {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 18px;
+}
+.a16actionbutton .guide-measure-area-ZoOMs2 {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 18px;
+}
+.a16actionbutton .guide-measure-area-a05GaL {
+  background-color: rgba(102,0,255,0.37);
+  height: 84px;
+  left: 3px;
+  position: absolute;
+  top: 0px;
+  width: 5px;
+}
+.a16actionbutton .guide-measure-area-cHxeUa {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a16actionbutton .guide-measure-area-egNJzl {
+  background-color: rgba(255,204,0,0.37);
+  height: 32px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 69px;
+}
+.a16actionbutton .guide-measure-area-gVXRBR {
+  background-color: rgba(51,204,0,0.37);
+  height: 12px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a16actionbutton .guide-measure-area-lGJFtZ {
+  background-color: var(--azure-radiance-2);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 30px;
+}
+.a16actionbutton .guide-measure-area-nTmXw5 {
+  background-color: rgba(255,204,0,0.37);
+  height: 32px;
+  left: 105px;
+  position: absolute;
+  top: 0px;
+  width: 69px;
+}
+.a16actionbutton .guide-measure-area-ofZx5Z {
+  background-color: rgba(255,204,0,0.37);
+  height: 32px;
+  left: 105px;
+  position: absolute;
+  top: 0px;
+  width: 69px;
+}
+.a16actionbutton .guide-measure-area-pmcwkV {
+  background-color: rgba(102,0,255,0.37);
+  height: 84px;
+  left: 3px;
+  position: absolute;
+  top: 0px;
+  width: 5px;
+}
+.a16actionbutton .guide-measure-area-tqY0xa {
+  background-color: rgba(102,0,255,0.37);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a16actionbutton .guide-measure-area-xx0l2H {
+  background-color: rgba(255,204,0,0.37);
+  height: 32px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 69px;
+}
+.a16actionbutton .guide-numbering-type-U4gIgV {
+  background-color: transparent;
+  background-image: url(../img/1-8-bottom-bar-oval-94C99D39-FAC8-4F97-A0DD-9D9831E1C479@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 318px;
+  position: absolute;
+  top: 52px;
+  width: 22px;
+}
+.a16actionbutton .guide-numbering-type-tlMw0d {
+  background-color: transparent;
+  background-image: url(../img/1-8-bottom-bar-oval-94C99D39-FAC8-4F97-A0DD-9D9831E1C479@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 22px;
+}
+.a16actionbutton .guide-property-tlMw0d {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 32px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .guide-subject-type-XIMmxx {
+  background-color: transparent;
+  height: 26px;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+  width: 121px;
+}
+.a16actionbutton .history-JH8G1K {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .keyscreen-C61RwL {
+  background-color: transparent;
+  height: 587px;
+  left: 380px;
+  position: absolute;
+  top: 194px;
+  width: 1240px;
+}
+.a16actionbutton .light-theme-XIMmxx {
+  background-color: transparent;
+  height: 50px;
+  left: 20px;
+  position: absolute;
+  top: 216px;
+  width: 465px;
+}
+.a16actionbutton .measure-1-Uixoni {
+  background-color: transparent;
+  height: 172px;
+  left: 87px;
+  position: absolute;
+  top: 40px;
+  width: 540px;
+}
+.a16actionbutton .measure-2-Uixoni {
+  background-color: transparent;
+  height: 172px;
+  left: 87px;
+  position: absolute;
+  top: 252px;
+  width: 540px;
+}
+.a16actionbutton .measure-3-Uixoni {
+  background-color: transparent;
+  height: 172px;
+  left: 87px;
+  position: absolute;
+  top: 464px;
+  width: 540px;
+}
+.a16actionbutton .menu-6gmxNc {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 27px;
+  height: auto;
+  left: 103px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  top: 1px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .menu-92x0Wd {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 27px;
+  height: auto;
+  left: -2px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .menu-Ixp7Fo {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 27px;
+  height: auto;
+  left: 103px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .menu-PxVeeC {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 27px;
+  height: auto;
+  left: -2px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  top: 1px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .menu-mi5Z5p {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 27px;
+  height: auto;
+  left: -2px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  top: 1px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .mobile-lig-n2btn-back-D599P7 {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a16actionbutton .mobile-lig-n3btn-back-4dX1vu {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a16actionbutton .mobile-lig-t2btn-back-EWrQ3F {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a16actionbutton .mobile-lig-title-back-2AROwZ {
+  background-color: transparent;
+  background-image: url(../img/1-5-more-option-list-mobilelightthemeicon01actionbartitleback-758ACA3E-DC00-4C0F-A534-73DB0681146E@2x.png);
+  background-size: 100% 100%;
+  height: 28px;
+  left: 9px;
+  position: absolute;
+  top: 4px;
+  width: 15px;
+}
+.a16actionbutton .mobile-lig-title-back-DE9sqE {
+  background-color: transparent;
+  background-image: url(../img/1-5-more-option-list-mobilelightthemeicon01actionbartitleback-758ACA3E-DC00-4C0F-A534-73DB0681146E@2x.png);
+  background-size: 100% 100%;
+  height: 28px;
+  left: 9px;
+  position: absolute;
+  top: 4px;
+  width: 15px;
+}
+.a16actionbutton .mobile-lig-title-back-Ivjeeo {
+  background-color: transparent;
+  background-image: url(../img/1-5-more-option-list-mobilelightthemeicon01actionbartitleback-758ACA3E-DC00-4C0F-A534-73DB0681146E@2x.png);
+  background-size: 100% 100%;
+  height: 28px;
+  left: 9px;
+  position: absolute;
+  top: 4px;
+  width: 15px;
+}
+.a16actionbutton .mobile-lig-title-more-6gmxNc {
+  background-color: transparent;
+  background-image: url(../img/1-3-navigate-up-button-mobilelightthemeicon01actionbartitlemore-A3BCE183-E1B5-440C-8AC7-B74972AE83C9@2x.png);
+  background-size: 100% 100%;
+  height: 24px;
+  left: 211px;
+  position: absolute;
+  top: 6px;
+  width: 6px;
+}
+.a16actionbutton .mobile-lig-title-more-PxVeeC {
+  background-color: transparent;
+  background-image: url(../img/1-3-navigate-up-button-mobilelightthemeicon01actionbartitlemore-A3BCE183-E1B5-440C-8AC7-B74972AE83C9@2x.png);
+  background-size: 100% 100%;
+  height: 24px;
+  left: 106px;
+  position: absolute;
+  top: 6px;
+  width: 6px;
+}
+.a16actionbutton .property-5wrBx3 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .property-U1kB12 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .property-UT32qk {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .property-popvzr {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .property-xAtWu5 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .rectangle-0EcUdJ {
+  background-color: rgba(102,0,255,1.0);
+  height: 9px;
+  left: 17px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-0gVYB0 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a16actionbutton .rectangle-2XerOW {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 17px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-2q48Mk {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 36px;
+}
+.a16actionbutton .rectangle-3O8V8X {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-3Zx2P0 {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-5TCnI7 {
+  background-color: rgba(102,0,255,1.0);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-66JANJ {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 17px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-96aGDl {
+  background-color: rgba(102,0,255,1.0);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-9GOhv0 {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 18px;
+}
+.a16actionbutton .rectangle-AlHJTt {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-BvVSzX {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 36px;
+}
+.a16actionbutton .rectangle-DJcj8G {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 17px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-E3Y32l {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 18px;
+}
+.a16actionbutton .rectangle-GDRe8c {
+  background-color: rgba(102,0,255,1.0);
+  height: 9px;
+  left: 6px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-Iu6rwz {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 17px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-JLTZY0 {
+  background-color: rgba(102,0,255,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 18px;
+}
+.a16actionbutton .rectangle-L8EBm5 {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 18px;
+}
+.a16actionbutton .rectangle-LHxCmV {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 35px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-MMs34T {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-Mgp5wo {
+  background-color: rgba(102,0,255,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 18px;
+}
+.a16actionbutton .rectangle-MnfUjR {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-ODXquy {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-PFkbnm {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 36px;
+}
+.a16actionbutton .rectangle-ThwZNG {
+  background-color: rgba(102,0,255,1.0);
+  height: 9px;
+  left: 3px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-WxAdzV {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 29px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-ZxoPSa {
+  background-color: rgba(102,0,255,1.0);
+  height: 9px;
+  left: 17px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-c08233 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-eDBRUy {
+  background-color: rgba(102,0,255,1.0);
+  height: 1px;
+  left: 3px;
+  position: absolute;
+  top: 4px;
+  width: 5px;
+}
+.a16actionbutton .rectangle-eZagLr {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 17px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-fbB9mD {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-flHTxC {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 29px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-gF3UZG {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 30px;
+}
+.a16actionbutton .rectangle-hKMphX {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 17px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-nu8x2Y {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 17px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-q1uxzq {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-qBbOKQ {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 35px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-qXrE8m {
+  background-color: rgba(102,0,255,1.0);
+  height: 9px;
+  left: 3px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-rtVmX9 {
+  background-color: rgba(102,0,255,1.0);
+  height: 1px;
+  left: 3px;
+  position: absolute;
+  top: 4px;
+  width: 5px;
+}
+.a16actionbutton .rectangle-sMMrix {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-w0O9dC {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 18px;
+}
+.a16actionbutton .rectangle-w7h6I2 {
+  background-color: rgba(102,0,255,1.0);
+  height: 9px;
+  left: 6px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-wD9kGl {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-wnEx4F {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 30px;
+}
+.a16actionbutton .rectangle-xVn02e {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 18px;
+}
+.a16actionbutton .rectangle-xhevzx {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 18px;
+}
+.a16actionbutton .rectangle-xkGQRs {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-yfQmHR {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 35px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a16actionbutton .rectangle-zgXqC0 {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 18px;
+}
+.a16actionbutton .sample-title-2AROwZ {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 28px;
+  height: auto;
+  left: 54px;
+  line-height: 33px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 280px;
+}
+.a16actionbutton .sample-title-DE9sqE {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 28px;
+  height: auto;
+  left: 54px;
+  line-height: 33px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 176px;
+}
+.a16actionbutton .sample-title-Ivjeeo {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 28px;
+  height: auto;
+  left: 54px;
+  line-height: 33px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 228px;
+}
+.a16actionbutton .size-L0qIW4 {
+  background-color: transparent;
+  height: 98px;
+  left: 474px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+.a16actionbutton .size-RVkfux {
+  background-color: transparent;
+  height: 98px;
+  left: 474px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+.a16actionbutton .size-U4gIgV {
+  background-color: transparent;
+  height: 12px;
+  left: 0px;
+  position: absolute;
+  top: 122px;
+  width: 540px;
+}
+.a16actionbutton .spacing-61hxG8 {
+  background-color: transparent;
+  height: 134px;
+  left: 365px;
+  position: absolute;
+  top: 38px;
+  width: 18px;
+}
+.a16actionbutton .spacing-869Fke {
+  background-color: transparent;
+  height: 134px;
+  left: 467px;
+  position: absolute;
+  top: 38px;
+  width: 10px;
+}
+.a16actionbutton .spacing-9NGfTA {
+  background-color: transparent;
+  height: 12px;
+  left: 0px;
+  position: absolute;
+  top: 122px;
+  width: 540px;
+}
+.a16actionbutton .spacing-AzKOPw {
+  background-color: transparent;
+  height: 122px;
+  left: 452px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a16actionbutton .spacing-DwG1ew {
+  background-color: transparent;
+  height: 122px;
+  left: 347px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a16actionbutton .spacing-JUinVU {
+  background-color: transparent;
+  height: 134px;
+  left: 260px;
+  position: absolute;
+  top: 38px;
+  width: 18px;
+}
+.a16actionbutton .spacing-L0qIW4 {
+  background-color: transparent;
+  height: 134px;
+  left: 510px;
+  position: absolute;
+  top: 38px;
+  width: 30px;
+}
+.a16actionbutton .spacing-LTTndw {
+  background-color: transparent;
+  height: 122px;
+  left: 452px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a16actionbutton .spacing-RVkfux {
+  background-color: transparent;
+  height: 134px;
+  left: 510px;
+  position: absolute;
+  top: 38px;
+  width: 30px;
+}
+.a16actionbutton .spacing-S6dJLY {
+  background-color: transparent;
+  height: 12px;
+  left: 0px;
+  position: absolute;
+  top: 122px;
+  width: 540px;
+}
+.a16actionbutton .spacing-U4gIgV {
+  background-color: transparent;
+  height: 134px;
+  left: 504px;
+  position: absolute;
+  top: 38px;
+  width: 36px;
+}
+.a16actionbutton .spacing-ZVAZKE {
+  background-color: transparent;
+  height: 134px;
+  left: 365px;
+  position: absolute;
+  top: 38px;
+  width: 18px;
+}
+.a16actionbutton .spacing-eRHoKw {
+  background-color: transparent;
+  height: 134px;
+  left: 312px;
+  position: absolute;
+  top: 38px;
+  width: 18px;
+}
+.a16actionbutton .spacing-hx6MK2 {
+  background-color: transparent;
+  height: 122px;
+  left: 399px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a16actionbutton .spacing-rGx44P {
+  background-color: transparent;
+  height: 134px;
+  left: 417px;
+  position: absolute;
+  top: 38px;
+  width: 18px;
+}
+.a16actionbutton .spacing-sWpT23 {
+  background-color: transparent;
+  height: 134px;
+  left: 467px;
+  position: absolute;
+  top: 38px;
+  width: 10px;
+}
+.a16actionbutton .symbol-Uixoni {
+  background-color: transparent;
+  height: 520px;
+  left: 87px;
+  position: absolute;
+  top: 78px;
+  width: 540px;
+}
+.a16actionbutton .text-8nF9CD {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .text-L0qIW4 {
+  background-color: transparent;
+  height: 32px;
+  left: 383px;
+  position: absolute;
+  top: 63px;
+  width: 69px;
+}
+.a16actionbutton .text-P2leby {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a16actionbutton .text-RBOHkh {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .text-RVkfux {
+  background-color: transparent;
+  height: 32px;
+  left: 278px;
+  position: absolute;
+  top: 63px;
+  width: 174px;
+}
+.a16actionbutton .text-U4gIgV {
+  background-color: transparent;
+  height: 32px;
+  left: 330px;
+  position: absolute;
+  top: 63px;
+  width: 174px;
+}
+.a16actionbutton .text-WvbxKh {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 18px;
+  height: auto;
+  left: 31px;
+  line-height: 28.6px;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .text-X2VOUo {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a16actionbutton .text-XwkQxW {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a16actionbutton .text-eioo2L {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .text-lxhwOD {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a16actionbutton .text-s4QoFE {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a16actionbutton .text-sTfeh3 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a16actionbutton .text-w7XwJI {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a16actionbutton .text-x5SoRQ {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a16actionbutton .title-BRTFfo {
+  background-color: transparent;
+  height: 36px;
+  left: 30px;
+  position: absolute;
+  top: 24px;
+  width: 230px;
+}
+.a16actionbutton .title-GgNcFk {
+  background-color: transparent;
+  height: 36px;
+  left: 30px;
+  position: absolute;
+  top: 24px;
+  width: 282px;
+}
+.a16actionbutton .title-xowe9J {
+  background-color: transparent;
+  height: 36px;
+  left: 30px;
+  position: absolute;
+  top: 24px;
+  width: 335px;
+}
+.a16actionbutton .type-C61RwL {
+  background-color: transparent;
+  height: 374px;
+  left: 1115px;
+  position: absolute;
+  top: 803px;
+  width: 505px;
+}
+.a16actionbutton .value-AlHJTt {
+  background-color: transparent;
+  height: 18px;
+  left: 1px;
+  position: absolute;
+  top: 0px;
+  width: 16px;
+}
+.a16actionbutton .value-MMs34T {
+  background-color: transparent;
+  height: 18px;
+  left: 9px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a16actionbutton .value-MnfUjR {
+  background-color: transparent;
+  height: 18px;
+  left: 1px;
+  position: absolute;
+  top: 0px;
+  width: 16px;
+}
+.a16actionbutton .value-U1kB12 {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 100px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .value-UT32qk {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 80px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .value-c08233 {
+  background-color: transparent;
+  height: 18px;
+  left: 9px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a16actionbutton .value-pm25Sf {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .value-popvzr {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 88px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .value-q1uxzq {
+  background-color: transparent;
+  height: 18px;
+  left: 1px;
+  position: absolute;
+  top: 0px;
+  width: 16px;
+}
+.a16actionbutton .value-wD9kGl {
+  background-color: transparent;
+  height: 18px;
+  left: 1px;
+  position: absolute;
+  top: 0px;
+  width: 16px;
+}
+.a16actionbutton .value-xAEfWi {
+  background-color: transparent;
+  color: rgba(193,206,254,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 32px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .value-xAtWu5 {
+  background-color: transparent;
+  height: 22px;
+  left: 50px;
+  position: absolute;
+  top: 0px;
+  width: 151px;
+}
+.a16actionbutton .web-app-ldhYbP {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x-2N5sot {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 26px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x-5wrBx3 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 119px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x-U1kB12 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 242px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x-UT32qk {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 118px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x-cmmBnj {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 139px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x-popvzr {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 140px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x-xAEfWi {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 145px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x0-3O8V8X {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 6px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x0-3Zx2P0 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x0-5TCnI7 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x0-5oS1zo {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x0-81aits {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x0-96aGDl {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x0-ALIS20 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x0-FCnRi3 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x0-ODXquy {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 9px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x0-QF3SH4 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x0-ThwZNG {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x0-fbB9mD {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x0-overview-F1D8mf {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x0-qXrE8m {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x0-sMMrix {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x0-xjMZo0 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x0-xkGQRs {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 6px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x1-06-keysc-ionbutton1-V6KZ2v {
+  background-color: transparent;
+  height: 508px;
+  left: 370px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a16actionbutton .x1-06-keysc-ionbutton1-YbJGjS {
+  background-color: transparent;
+  height: 508px;
+  left: 630px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a16actionbutton .x1-06-measu-ionbutton1-1i0IH5 {
+  background-color: var(--concrete);
+  height: 96px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 540px;
+}
+.a16actionbutton .x1-06-measu-ionbutton2-1i0IH5 {
+  background-color: var(--concrete);
+  height: 96px;
+  left: 0px;
+  position: absolute;
+  top: 212px;
+  width: 540px;
+}
+.a16actionbutton .x1-06-measu-ionbutton3-1i0IH5 {
+  background-color: var(--concrete);
+  height: 96px;
+  left: 0px;
+  position: absolute;
+  top: 424px;
+  width: 540px;
+}
+.a16actionbutton .x1-3HHgRD {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: 22px;
+  left: 0px;
+  line-height: 17px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a16actionbutton .x1-6-action-button-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 380px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 50px;
+  white-space: nowrap;
+  width: auto;
+}
+.a16actionbutton .x1-aeGSaH {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: 22px;
+  left: 0px;
+  line-height: 17px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a16actionbutton .x1-app-bar-H4OxoO {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x10-search-NNxG7n {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x11-toast-btzW57 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x12-text-fields-HeAxYm {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x13-view-controls-zQ2cQp {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x14-description-0gVYB0 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x15-notification-bad-PxzSYi {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x16-thumbnail-u4LPIm {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x17-copy-paste-mCSYrc {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x2-buttons-m5qrCr {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x3-controllers-dFIj0O {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x4-dialogs-E6vWNu {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x5-dividers-tpx2qA {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x6-lists-evwMFw {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x7-no-item-RNT9bT {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x8-progress-O0jxdc {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a16actionbutton .x9-scrolling-0yxMw6 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.border-class-1 {
+  border: 1px solid rgba(237,237,237,1.0);
+}
+.border-class-2 {
+  border: 1px solid rgba(135,135,135,1.0);
+}
+.font-class-1 {
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+}
+.font-class-2 {
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+}
+.font-class-3 {
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+}
+.font-class-4 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-5 {
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+}
+.font-class-6 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
+}
+.font-class-7 {
+  color: rgba(37,37,37,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 300;
+}
+.font-class-8 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
+  line-height: 84px;
+}
+.font-class-9 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
+}
+:root {
+  --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
+  --black: rgba(0,0,0,1.0);
+  --concrete: rgba(242,242,242,1.0);
+  --ebb: rgba(227,227,227,1.0);
+  --harlequin: rgba(51,204,0,1.0);
+  --masala: rgba(59,59,59,1.0);
+  --razzle-dazzle-rose: rgba(255,51,255,1.0);
+  --royal-blue: rgba(75,99,250,1.0);
+  --white: rgba(255,255,255,1.0);
+}

@@ -1,0 +1,3504 @@
+/* screen - a84progressappbar */
+
+.a84progressappbar {
+  background-color: rgba(245,246,247,1.0);
+  height: 4867px;
+  overflow: hidden;
+  position: relative;
+  width: 1680px;
+}
+.a84progressappbar .app-bar-BmCSwq {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 44px;
+  height: auto;
+  left: 0px;
+  line-height: 53px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 1240px;
+}
+.a84progressappbar .app-bar-C61RwL {
+  background-color: transparent;
+  height: 1867px;
+  left: 380px;
+  position: absolute;
+  top: 194px;
+  width: 1240px;
+}
+.a84progressappbar .basic-3242UJ {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .basic-4VRNdo {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .basic-Evi9kN {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .basic-Jxdahd {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .basic-Lv5jPi {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .basic-RWtQrQ {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .basic-TYzZpE {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .basic-cV3Flv {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .basic-component-gui-GGUEFV {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: justify;
+  top: 21px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .btn-2gSffK {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 213px;
+}
+.a84progressappbar .btn-2gSffK:hover {
+
+transform: scale(0.98);
+}
+.a84progressappbar .btn-CFGJ36 {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 184px;
+}
+.a84progressappbar .btn-CFGJ36:hover {
+
+transform: scale(0.98);
+}
+.a84progressappbar .btn-IkhH1a {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 169px;
+}
+.a84progressappbar .btn-IkhH1a:hover {
+
+transform: scale(0.98);
+}
+.a84progressappbar .btn-LdJxdQ {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 172px;
+}
+.a84progressappbar .btn-LdJxdQ:hover {
+
+transform: scale(0.98);
+}
+.a84progressappbar .btn-N27xSo {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 184px;
+}
+.a84progressappbar .btn-N27xSo:hover {
+
+transform: scale(0.98);
+}
+.a84progressappbar .btn-Uqj8o4 {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 169px;
+}
+.a84progressappbar .btn-Uqj8o4:hover {
+
+transform: scale(0.98);
+}
+.a84progressappbar .btn-cHTdwi {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 211px;
+}
+.a84progressappbar .btn-cHTdwi:hover {
+
+transform: scale(0.98);
+}
+.a84progressappbar .btn-mwblLs {
+  background-color: rgba(3,129,254,1.0);
+  border-radius: 22.5px;
+  height: 45px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 274px;
+}
+.a84progressappbar .btn-mwblLs:hover {
+
+transform: scale(0.98);
+}
+.a84progressappbar .btn-uge7GH {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 213px;
+}
+.a84progressappbar .btn-uge7GH:hover {
+
+transform: scale(0.98);
+}
+.a84progressappbar .document-b-x-contents-EdCigv {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 252px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a84progressappbar .document-b-x-contents-KgD4W4 {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 482px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a84progressappbar .document-b-x-contents-ciKEZN {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 520px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a84progressappbar .document-b-x-contents-f1BdEz {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 587px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a84progressappbar .document-b-x-contents-gSXJlq {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 587px;
+  left: 0px;
+  position: absolute;
+  top: 41px;
+  width: 1240px;
+}
+.a84progressappbar .document-b-x-contents-lIlx22 {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 587px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a84progressappbar .document-b-x-contents-vlcnpb {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 587px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a84progressappbar .document-b-x-contents-xa506F {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 176px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a84progressappbar .document-button-C61RwL {
+  background-color: transparent;
+  height: 45px;
+  left: 863px;
+  position: absolute;
+  top: 4742px;
+  width: 274px;
+}
+.a84progressappbar .expandable-app-bar-7xTh4R {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 44px;
+  height: auto;
+  left: 0px;
+  line-height: 53px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 1240px;
+}
+.a84progressappbar .expandable-app-bar-C61RwL {
+  background-color: transparent;
+  height: 2441px;
+  left: 380px;
+  position: absolute;
+  top: 2221px;
+  width: 1240px;
+}
+.a84progressappbar .gnb-bar08-progress-C61RwL {
+  background-color: var(--white);
+  height: 1251px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnb-logo-RXcaVi {
+  background-color: transparent;
+  height: 89px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu-h-ory-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 91px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu0--iew-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 134px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu1--bar-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 177px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu10-rch-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 908px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu11-ast-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 951px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu12-lds-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 994px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu13-ols-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1037px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu14-ion-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1080px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu15-dge-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1123px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu16-ail-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1166px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu17-ste-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1209px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu2--ons-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 220px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu3--ers-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 263px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu4--s-selected-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 306px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu5--ers-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 349px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu6--sts-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 392px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu7--ems-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 435px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu8--s-selected-OXFtXg {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu8--s-selected-RXcaVi {
+  background-color: transparent;
+  height: 386px;
+  left: 0px;
+  position: absolute;
+  top: 478px;
+  width: 320px;
+}
+.a84progressappbar .gnb-menu9--ing-normal-RXcaVi {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 865px;
+  width: 320px;
+}
+.a84progressappbar .gnb-submenu-normal-6xcrmz {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 86px;
+  width: 320px;
+}
+.a84progressappbar .gnb-submenu-normal-MNglvU {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 215px;
+  width: 320px;
+}
+.a84progressappbar .gnb-submenu-normal-NFJHdH {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 129px;
+  width: 320px;
+}
+.a84progressappbar .gnb-submenu-normal-OXFtXg {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 43px;
+  width: 320px;
+}
+.a84progressappbar .gnb-submenu-normal-TvfzlZ {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 301px;
+  width: 320px;
+}
+.a84progressappbar .gnb-submenu-normal-amiMsq {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 172px;
+  width: 320px;
+}
+.a84progressappbar .gnb-submenu-normal-nNMiH4 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 258px;
+  width: 320px;
+}
+.a84progressappbar .gnb-submenu-normal-xiAcb0 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 344px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-2OpLGO {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-4sRP6W {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-8g1zYV {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-ByOgZF {
+  background-color: rgba(224,224,224,1.0);
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-DjyHMZ {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-EEtf4Z {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-H1aTv0 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-IEez1x {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-OfKxUl {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-dIfHeM {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-dP6Fag {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-dRxoYw {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-eNAmef {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-ioMw99 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-q51pam {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-qLzfvL {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-x9dVxp {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-z1xkQI {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbmenu-zl2oro {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbsubmenu-4HfYO4 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbsubmenu-7oRvSx {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbsubmenu-GX4mMn {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbsubmenu-HPAGrV {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbsubmenu-Iiat4J {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbsubmenu-OOUKjR {
+  background-color: rgba(224,224,224,1.0);
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbsubmenu-fIYn86 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gnbsubmenu-jAegxa {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .gotohome-Kd5xft {
+  background-color: transparent;
+  height: 89px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .group-4UBqqF {
+  background-color: var(--concrete);
+  height: 84px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .group-LF0Won {
+  background-color: transparent;
+  height: 45px;
+  left: 30px;
+  position: relative;
+  top: 22px;
+  width: 260px;
+}
+.a84progressappbar .group-WI2LBD {
+  background-color: var(--concrete);
+  height: 84px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .group-XSeVkm {
+  background-color: var(--concrete);
+  height: 84px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .group-uSmdyq {
+  background-color: var(--concrete);
+  height: 84px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .guide-ToNUtB {
+  background-color: transparent;
+  height: 482px;
+  left: 0px;
+  position: absolute;
+  top: 648px;
+  width: 1240px;
+}
+.a84progressappbar .guide-WMddPU {
+  background-color: transparent;
+  height: 176px;
+  left: 0px;
+  position: absolute;
+  top: 648px;
+  width: 1240px;
+}
+.a84progressappbar .guide-i1CPmp {
+  background-color: transparent;
+  height: 252px;
+  left: 0px;
+  position: absolute;
+  top: 648px;
+  width: 1240px;
+}
+.a84progressappbar .guide-meas--spacing-1-GV4gkI {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 113px;
+}
+.a84progressappbar .guide-meas--spacing-1-QPx4Fz {
+  background-color: transparent;
+  height: 24px;
+  left: 2px;
+  position: absolute;
+  top: 60px;
+  width: 38px;
+}
+.a84progressappbar .guide-meas--spacing-1-gWwuBX {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 113px;
+}
+.a84progressappbar .guide-meas--spacing-1-jqa04n {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 113px;
+}
+.a84progressappbar .guide-meas--spacing-1-sbk0qH {
+  background-color: transparent;
+  height: 24px;
+  left: 2px;
+  position: absolute;
+  top: 0px;
+  width: 38px;
+}
+.a84progressappbar .guide-meas--spacing-1-yXaN1G {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 113px;
+}
+.a84progressappbar .guide-meas--spacing-2-Mq7bXf {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 36px;
+}
+.a84progressappbar .guide-meas--spacing-2-S1VF9p {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 252px;
+}
+.a84progressappbar .guide-meas--spacing-2-bGUt4a {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 252px;
+}
+.a84progressappbar .guide-meas-e-vertical-17KKGd {
+  background-color: transparent;
+  background-image: url(../img/8-4-progressapp-bar-line-3BA5978C-C0B8-468A-B6F5-CD245856B8B5@2x.png);
+  background-size: 100% 100%;
+  height: 36px;
+  left: 35px;
+  position: absolute;
+  top: 36px;
+  width: 1px;
+}
+.a84progressappbar .guide-meas-e-vertical-2tQDbR {
+  background-color: transparent;
+  background-image: url(../img/8-4-progressapp-bar-line-3BA5978C-C0B8-468A-B6F5-CD245856B8B5@2x.png);
+  background-size: 100% 100%;
+  height: 36px;
+  left: 35px;
+  position: absolute;
+  top: 36px;
+  width: 1px;
+}
+.a84progressappbar .guide-meas-e-vertical-FMu2h3 {
+  background-color: transparent;
+  background-image: url(../img/8-4-progressapp-bar-line-3BA5978C-C0B8-468A-B6F5-CD245856B8B5@2x.png);
+  background-size: 100% 100%;
+  height: 36px;
+  left: 0px;
+  position: absolute;
+  top: 36px;
+  width: 1px;
+}
+.a84progressappbar .guide-meas-e-vertical-FXiF70 {
+  background-color: transparent;
+  background-image: url(../img/8-4-progressapp-bar-line-3BA5978C-C0B8-468A-B6F5-CD245856B8B5@2x.png);
+  background-size: 100% 100%;
+  height: 36px;
+  left: 0px;
+  position: absolute;
+  top: 36px;
+  width: 1px;
+}
+.a84progressappbar .guide-meas-eft-size-1-5IEDE0 {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+.a84progressappbar .guide-meas-eft-size-1-6heKlq {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+.a84progressappbar .guide-meas-eft-size-1-JqKoQ8 {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+.a84progressappbar .guide-meas-eft-size-1-UKZxeQ {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+.a84progressappbar .guide-meas-ght-size-2-FMu2h3 {
+  background-color: transparent;
+  height: 36px;
+  left: 74px;
+  position: absolute;
+  top: 0px;
+  width: 29px;
+}
+.a84progressappbar .guide-meas-ght-size-2-FXiF70 {
+  background-color: transparent;
+  height: 36px;
+  left: 290px;
+  position: absolute;
+  top: 0px;
+  width: 29px;
+}
+.a84progressappbar .guide-meas-ght-size-2-l1mjBw {
+  background-color: transparent;
+  height: 19px;
+  left: 542px;
+  position: absolute;
+  top: 0px;
+  width: 21px;
+}
+.a84progressappbar .guide-meas-ght-size-2-lrtRzW {
+  background-color: transparent;
+  height: 19px;
+  left: 542px;
+  position: absolute;
+  top: 0px;
+  width: 21px;
+}
+.a84progressappbar .guide-meas-horizontal-17KKGd {
+  background-color: transparent;
+  background-image: url(../img/8-4-progressapp-bar-line-69CA96DC-D332-476C-8E10-70D481A81BB6@2x.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 36px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+.a84progressappbar .guide-meas-horizontal-2rvYlz {
+  background-color: transparent;
+  background-image: url(../img/8-6-progresslist-line-B2A3E0A7-B040-422B-9FBE-881CD0507717.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 66px;
+  position: absolute;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .guide-meas-horizontal-2tQDbR {
+  background-color: transparent;
+  background-image: url(../img/8-4-progressapp-bar-line-D9667E57-D7D9-43A4-809D-6407AFEEE6A8@2x.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 36px;
+  position: absolute;
+  top: 0px;
+  width: 252px;
+}
+.a84progressappbar .guide-meas-horizontal-5IEDE0 {
+  background-color: transparent;
+  background-image: url(../img/8-6-progresslist-line-B2A3E0A7-B040-422B-9FBE-881CD0507717.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 66px;
+  position: absolute;
+  top: 83px;
+  width: 540px;
+}
+.a84progressappbar .guide-meas-horizontal-5UcHnK {
+  background-color: transparent;
+  background-image: url(../img/8-6-progresslist-line-B2A3E0A7-B040-422B-9FBE-881CD0507717.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 66px;
+  position: absolute;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .guide-meas-horizontal-6heKlq {
+  background-color: transparent;
+  background-image: url(../img/8-6-progresslist-line-B2A3E0A7-B040-422B-9FBE-881CD0507717.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 66px;
+  position: absolute;
+  top: 83px;
+  width: 540px;
+}
+.a84progressappbar .guide-meas-horizontal-FMu2h3 {
+  background-color: transparent;
+  background-image: url(../img/8-4-progressapp-bar-line-69CA96DC-D332-476C-8E10-70D481A81BB6@2x.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 36px;
+  position: absolute;
+  top: 35px;
+  width: 36px;
+}
+.a84progressappbar .guide-meas-horizontal-FXiF70 {
+  background-color: transparent;
+  background-image: url(../img/8-4-progressapp-bar-line-D9667E57-D7D9-43A4-809D-6407AFEEE6A8@2x.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 36px;
+  position: absolute;
+  top: 35px;
+  width: 252px;
+}
+.a84progressappbar .guide-meas-horizontal-JqKoQ8 {
+  background-color: transparent;
+  background-image: url(../img/8-6-progresslist-line-B2A3E0A7-B040-422B-9FBE-881CD0507717.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 66px;
+  position: absolute;
+  top: 83px;
+  width: 540px;
+}
+.a84progressappbar .guide-meas-horizontal-Mxw9do {
+  background-color: transparent;
+  background-image: url(../img/8-6-progresslist-line-B2A3E0A7-B040-422B-9FBE-881CD0507717.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 66px;
+  position: absolute;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .guide-meas-horizontal-UKZxeQ {
+  background-color: transparent;
+  background-image: url(../img/8-6-progresslist-line-B2A3E0A7-B040-422B-9FBE-881CD0507717.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 66px;
+  position: absolute;
+  top: 83px;
+  width: 540px;
+}
+.a84progressappbar .guide-meas-horizontal-bZrhNp {
+  background-color: transparent;
+  background-image: url(../img/8-6-progresslist-line-B2A3E0A7-B040-422B-9FBE-881CD0507717.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 66px;
+  position: absolute;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .guide-meas-tom-size-2-FMu2h3 {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 74px;
+  width: 36px;
+}
+.a84progressappbar .guide-meas-tom-size-2-FXiF70 {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 74px;
+  width: 36px;
+}
+.a84progressappbar .guide-measure-area-FMu2h3 {
+  background-color: rgba(255,0,204,0.37);
+  height: 36px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+.a84progressappbar .guide-measure-area-FXiF70 {
+  background-color: rgba(255,0,204,0.37);
+  height: 36px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+.a84progressappbar .guide-measure-area-GV4gkI {
+  background-color: rgba(51,204,0,0.37);
+  height: 12px;
+  left: 115px;
+  position: absolute;
+  top: 4px;
+  width: 540px;
+}
+.a84progressappbar .guide-measure-area-Mq7bXf {
+  background-color: rgba(0,153,255,0.37);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 36px;
+}
+.a84progressappbar .guide-measure-area-S1VF9p {
+  background-color: rgba(0,153,255,0.37);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 252px;
+}
+.a84progressappbar .guide-measure-area-bGUt4a {
+  background-color: rgba(0,153,255,0.37);
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 252px;
+}
+.a84progressappbar .guide-measure-area-gWwuBX {
+  background-color: rgba(51,204,0,0.37);
+  height: 12px;
+  left: 115px;
+  position: absolute;
+  top: 4px;
+  width: 540px;
+}
+.a84progressappbar .guide-measure-area-jqa04n {
+  background-color: rgba(51,204,0,0.37);
+  height: 7px;
+  left: 115px;
+  position: absolute;
+  top: 9px;
+  width: 540px;
+}
+.a84progressappbar .guide-measure-area-l1mjBw {
+  background-color: rgba(255,0,204,0.37);
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 540px;
+}
+.a84progressappbar .guide-measure-area-lrtRzW {
+  background-color: rgba(255,0,204,0.37);
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 540px;
+}
+.a84progressappbar .guide-measure-area-yXaN1G {
+  background-color: rgba(51,204,0,0.37);
+  height: 7px;
+  left: 115px;
+  position: absolute;
+  top: 9px;
+  width: 540px;
+}
+.a84progressappbar .guide-v14SNh {
+  background-color: transparent;
+  height: 520px;
+  left: 0px;
+  position: absolute;
+  top: 648px;
+  width: 1240px;
+}
+.a84progressappbar .history-vfQm5X {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .keyscreen-ToNUtB {
+  background-color: transparent;
+  height: 628px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a84progressappbar .keyscreen-WMddPU {
+  background-color: transparent;
+  height: 587px;
+  left: 0px;
+  position: absolute;
+  top: 41px;
+  width: 1240px;
+}
+.a84progressappbar .keyscreen-i1CPmp {
+  background-color: transparent;
+  height: 587px;
+  left: 0px;
+  position: absolute;
+  top: 41px;
+  width: 1240px;
+}
+.a84progressappbar .keyscreen-v14SNh {
+  background-color: transparent;
+  height: 587px;
+  left: 0px;
+  position: absolute;
+  top: 41px;
+  width: 1240px;
+}
+.a84progressappbar .measure-EdCigv {
+  background-color: transparent;
+  height: 165px;
+  left: 235px;
+  position: absolute;
+  top: 40px;
+  width: 693px;
+}
+.a84progressappbar .measure-KgD4W4 {
+  background-color: transparent;
+  height: 100px;
+  left: 235px;
+  position: absolute;
+  top: 346px;
+  width: 701px;
+}
+.a84progressappbar .measure-ciKEZN {
+  background-color: transparent;
+  height: 165px;
+  left: 235px;
+  position: absolute;
+  top: 308px;
+  width: 695px;
+}
+.a84progressappbar .measure-xa506F {
+  background-color: transparent;
+  height: 100px;
+  left: 231px;
+  position: absolute;
+  top: 40px;
+  width: 701px;
+}
+.a84progressappbar .mobile-lig-e-icon2btn-SKAASL {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .mobile-lig-e-icon2btn-uUIUtD {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .mobile-lig-fault1line-e5xyow {
+  background-color: var(--concrete);
+  height: 402px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .mobile-lig-fault1line-oc3QhC {
+  background-color: var(--concrete);
+  height: 402px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .mobile-lig-ircle24x24-e5xyow {
+  background-color: transparent;
+  height: 34px;
+  left: 253px;
+  position: absolute;
+  top: 331px;
+  width: 34px;
+}
+.a84progressappbar .mobile-lig-ircle24x24-uUIUtD {
+  background-color: transparent;
+  height: 34px;
+  left: 469px;
+  position: absolute;
+  top: 25px;
+  width: 34px;
+}
+.a84progressappbar .mobile-lig-n2btn-back-PuSiS5 {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 306px;
+  width: 540px;
+}
+.a84progressappbar .mobile-lig-n2btn-back-YC8FVB {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 306px;
+  width: 540px;
+}
+.a84progressappbar .mobile-lig-ogress-bar-07WnOI {
+  background-color: rgba(3,129,254,1.0);
+  border-radius: 2.5px;
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .mobile-lig-ogress-bar-aYYbuo {
+  background-color: rgba(3,129,254,1.0);
+  border-radius: 2.5px;
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .mobile-lig-ogress-bar-rF9F4a {
+  background-color: rgba(3,129,254,1.0);
+  border-radius: 2.5px;
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 255px;
+}
+.a84progressappbar .mobile-lig-ogress-bar-yA8JH7 {
+  background-color: rgba(3,129,254,1.0);
+  border-radius: 2.5px;
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 255px;
+}
+.a84progressappbar .mobile-lig-resscircle-AFHxNy {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .mobile-lig-resscircle-ErP0uE {
+  background-color: transparent;
+  height: 402px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .mobile-lig-rogressbar-d5MNXf {
+  background-color: transparent;
+  height: 402px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .mobile-lig-rogressbar-ts4xEU {
+  background-color: transparent;
+  height: 89px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .page-name-3242UJ {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 48px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .page-name-4VRNdo {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 48px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .page-name-Evi9kN {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 48px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .page-name-Jxdahd {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 48px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .page-name-Lv5jPi {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 48px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .page-name-RWtQrQ {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 48px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .page-name-TYzZpE {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 48px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .page-name-cV3Flv {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 48px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .path-2dyynJ {
+  background-color: transparent;
+  height: 18px;
+  left: 16px;
+  position: absolute;
+  top: 16px;
+  width: 18px;
+}
+.a84progressappbar .path-DEPX81 {
+  background-color: transparent;
+  height: 18px;
+  left: 16px;
+  position: absolute;
+  top: 16px;
+  width: 18px;
+}
+.a84progressappbar .path-NGU5vm {
+  background-color: transparent;
+  height: 18px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a84progressappbar .path-fBROlW {
+  background-color: transparent;
+  height: 18px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a84progressappbar .progress-bar-7xTh4R {
+  background-color: transparent;
+  height: 1130px;
+  left: 0px;
+  position: absolute;
+  top: 83px;
+  width: 1240px;
+}
+.a84progressappbar .progress-bar-BmCSwq {
+  background-color: transparent;
+  height: 824px;
+  left: 0px;
+  position: absolute;
+  top: 83px;
+  width: 1240px;
+}
+.a84progressappbar .progress-bar-SKAASL {
+  background-color: transparent;
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  top: 84px;
+  width: 540px;
+}
+.a84progressappbar .progress-bar-WMddPU {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 1240px;
+}
+.a84progressappbar .progress-bar-gSXJlq {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 1240px;
+}
+.a84progressappbar .progress-bar-oc3QhC {
+  background-color: transparent;
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  top: 390px;
+  width: 540px;
+}
+.a84progressappbar .progress-circle-7xTh4R {
+  background-color: transparent;
+  height: 1168px;
+  left: 0px;
+  position: absolute;
+  top: 1273px;
+  width: 1240px;
+}
+.a84progressappbar .progress-circle-BmCSwq {
+  background-color: transparent;
+  height: 900px;
+  left: 0px;
+  position: absolute;
+  top: 967px;
+  width: 1240px;
+}
+.a84progressappbar .progress-circle-i1CPmp {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 1240px;
+}
+.a84progressappbar .progress-circle-v14SNh {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 1240px;
+}
+.a84progressappbar .rectangle-1nf8AZ {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 104px;
+  position: absolute;
+  top: 15px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-5188GR {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 252px;
+}
+.a84progressappbar .rectangle-61KaTJ {
+  background-color: var(--harlequin);
+  height: 11px;
+  left: 108px;
+  position: absolute;
+  top: 4px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-8UI6SC {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 104px;
+  position: absolute;
+  top: 15px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-APLBIe {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a84progressappbar .rectangle-AoVSNM {
+  background-color: rgba(255,0,204,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 35px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-CUWsfj {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 55px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-CYSrOQ {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 104px;
+  position: absolute;
+  top: 4px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-CbGGJp {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 104px;
+  position: absolute;
+  top: 4px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-Cfp6gL {
+  background-color: rgba(255,0,204,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 36px;
+}
+.a84progressappbar .rectangle-D1634C {
+  background-color: rgba(255,0,204,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 11px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-DW46tr {
+  background-color: rgba(255,0,204,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-DW7Qxz {
+  background-color: rgba(255,0,204,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-FH2xoj {
+  background-color: rgba(255,0,204,1.0);
+  height: 5px;
+  left: 4px;
+  position: absolute;
+  top: 7px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-FKqukq {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 251px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-GnrOal {
+  background-color: rgba(255,0,204,1.0);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-HewVJW {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 251px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-HhHyES {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 23px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-Hpc47v {
+  background-color: rgba(255,0,204,1.0);
+  height: 36px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-IrldCU {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 55px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-KhULSb {
+  background-color: var(--razzle-dazzle-rose);
+  height: 83px;
+  left: 59px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-LEnwfZ {
+  background-color: var(--harlequin);
+  height: 11px;
+  left: 108px;
+  position: absolute;
+  top: 4px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-Lbj1xx {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 104px;
+  position: absolute;
+  top: 15px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-M5yKk6 {
+  background-color: var(--harlequin);
+  height: 24px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-Me6N4h {
+  background-color: var(--harlequin);
+  height: 24px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-MkCPEN {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 104px;
+  position: absolute;
+  top: 4px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-OYZXqA {
+  background-color: var(--razzle-dazzle-rose);
+  height: 83px;
+  left: 59px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-SZnHdH {
+  background-color: var(--razzle-dazzle-rose);
+  height: 83px;
+  left: 59px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-TVs7sA {
+  background-color: rgba(255,0,204,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-U9Hv4k {
+  background-color: var(--razzle-dazzle-rose);
+  height: 83px;
+  left: 59px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-VDtdmb {
+  background-color: rgba(255,0,204,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-XhKiPr {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 35px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-YDYq2U {
+  background-color: var(--harlequin);
+  height: 11px;
+  left: 108px;
+  position: absolute;
+  top: 4px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-YeNxv8 {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 104px;
+  position: absolute;
+  top: 15px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-ZjNpZa {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-aSv1tI {
+  background-color: rgba(255,0,204,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 36px;
+}
+.a84progressappbar .rectangle-fFjG4u {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-fc5Fa6 {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 23px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-gKm0KF {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 55px;
+  position: absolute;
+  top: 83px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-hb0yjN {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 252px;
+}
+.a84progressappbar .rectangle-i1xBQw {
+  background-color: rgba(255,0,204,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 35px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-iXZOLS {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 55px;
+  position: absolute;
+  top: 83px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-ierx2k {
+  background-color: rgba(255,0,204,1.0);
+  height: 36px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-jisddZ {
+  background-color: rgba(255,0,204,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 11px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-kfhzjg {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 55px;
+  position: absolute;
+  top: 83px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-lRTaTe {
+  background-color: var(--harlequin);
+  height: 11px;
+  left: 108px;
+  position: absolute;
+  top: 4px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-mLhnLJ {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 36px;
+}
+.a84progressappbar .rectangle-oiNhGI {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 55px;
+  position: absolute;
+  top: 83px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-pJ7SuV {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-plijA7 {
+  background-color: rgba(255,0,204,1.0);
+  height: 5px;
+  left: 4px;
+  position: absolute;
+  top: 7px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-rQFgz8 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 55px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-sVbd4Z {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-uuH9ND {
+  background-color: rgba(255,0,204,1.0);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-uxS80W {
+  background-color: rgba(255,0,204,1.0);
+  height: 9px;
+  left: 35px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a84progressappbar .rectangle-xnQs6F {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 55px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-xogclT {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 104px;
+  position: absolute;
+  top: 4px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-xxZhH7 {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a84progressappbar .rectangle-yTlpCY {
+  background-color: rgba(255,0,204,1.0);
+  height: 9px;
+  left: 35px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a84progressappbar .sample-title-BDtWqs {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 28px;
+  height: auto;
+  left: 36px;
+  line-height: 33px;
+  position: absolute;
+  text-align: left;
+  top: 24px;
+  white-space: nowrap;
+  width: 357px;
+}
+.a84progressappbar .sample-title-FHEf6W {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 28px;
+  height: auto;
+  left: 84px;
+  line-height: 33px;
+  position: absolute;
+  text-align: left;
+  top: 24px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .sample-title-PuSiS5 {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 300;
+  height: 66px;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: 67px;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  white-space: nowrap;
+  width: 468px;
+}
+.a84progressappbar .sample-title-UHVLzm {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 28px;
+  height: auto;
+  left: 84px;
+  line-height: 33px;
+  position: absolute;
+  text-align: left;
+  top: 24px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .sample-title-YC8FVB {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 300;
+  height: 66px;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: 67px;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  white-space: nowrap;
+  width: 468px;
+}
+.a84progressappbar .sample-title-evz9KO {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 28px;
+  height: auto;
+  left: 36px;
+  line-height: 33px;
+  position: absolute;
+  text-align: left;
+  top: 24px;
+  white-space: nowrap;
+  width: 357px;
+}
+.a84progressappbar .size-DyONbU {
+  background-color: transparent;
+  height: 103px;
+  left: 367px;
+  position: absolute;
+  top: 62px;
+  width: 326px;
+}
+.a84progressappbar .size-MrIAOC {
+  background-color: transparent;
+  height: 19px;
+  left: 115px;
+  position: absolute;
+  top: 77px;
+  width: 586px;
+}
+.a84progressappbar .size-RTetFF {
+  background-color: transparent;
+  height: 84px;
+  left: 49px;
+  position: absolute;
+  top: 0px;
+  width: 606px;
+}
+.a84progressappbar .size-SgmPfG {
+  background-color: transparent;
+  height: 84px;
+  left: 49px;
+  position: absolute;
+  top: 38px;
+  width: 606px;
+}
+.a84progressappbar .size-X6li9d {
+  background-color: transparent;
+  height: 103px;
+  left: 583px;
+  position: absolute;
+  top: 62px;
+  width: 110px;
+}
+.a84progressappbar .size-r669ob {
+  background-color: transparent;
+  height: 19px;
+  left: 115px;
+  position: absolute;
+  top: 77px;
+  width: 586px;
+}
+.a84progressappbar .size-vShSbm {
+  background-color: transparent;
+  height: 84px;
+  left: 49px;
+  position: absolute;
+  top: 38px;
+  width: 606px;
+}
+.a84progressappbar .size-xkx9ys {
+  background-color: transparent;
+  height: 84px;
+  left: 49px;
+  position: absolute;
+  top: 0px;
+  width: 606px;
+}
+.a84progressappbar .spacing-DyONbU {
+  background-color: transparent;
+  height: 122px;
+  left: 115px;
+  position: absolute;
+  top: 0px;
+  width: 252px;
+}
+.a84progressappbar .spacing-MrIAOC {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 80px;
+  width: 655px;
+}
+.a84progressappbar .spacing-SgmPfG {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 118px;
+  width: 655px;
+}
+.a84progressappbar .spacing-X6li9d {
+  background-color: transparent;
+  height: 122px;
+  left: 619px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+.a84progressappbar .spacing-qtSV2X {
+  background-color: transparent;
+  height: 84px;
+  left: 655px;
+  position: absolute;
+  top: 38px;
+  width: 40px;
+}
+.a84progressappbar .spacing-r669ob {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 80px;
+  width: 655px;
+}
+.a84progressappbar .spacing-uVfBre {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 118px;
+  width: 655px;
+}
+.a84progressappbar .spacing-vShSbm {
+  background-color: transparent;
+  height: 122px;
+  left: 403px;
+  position: absolute;
+  top: 0px;
+  width: 252px;
+}
+.a84progressappbar .symbol-EdCigv {
+  background-color: transparent;
+  height: 96px;
+  left: 350px;
+  position: absolute;
+  top: 78px;
+  width: 540px;
+}
+.a84progressappbar .symbol-KgD4W4 {
+  background-color: transparent;
+  height: 402px;
+  left: 350px;
+  position: absolute;
+  top: 40px;
+  width: 540px;
+}
+.a84progressappbar .symbol-ciKEZN {
+  background-color: transparent;
+  height: 402px;
+  left: 350px;
+  position: absolute;
+  top: 40px;
+  width: 540px;
+}
+.a84progressappbar .symbol-xa506F {
+  background-color: transparent;
+  height: 96px;
+  left: 346px;
+  position: absolute;
+  top: 40px;
+  width: 540px;
+}
+.a84progressappbar .tag-refer-CSTlyp {
+  background-color: transparent;
+  height: 29px;
+  left: 885px;
+  position: absolute;
+  top: 261px;
+  width: 169px;
+}
+.a84progressappbar .tag-refer-IYB7Ny {
+  background-color: transparent;
+  height: 29px;
+  left: 885px;
+  position: absolute;
+  top: 49px;
+  width: 172px;
+}
+.a84progressappbar .tag-refer-IxxqAx {
+  background-color: transparent;
+  height: 29px;
+  left: 885px;
+  position: absolute;
+  top: 210px;
+  width: 184px;
+}
+.a84progressappbar .tag-refer-ZA6920 {
+  background-color: transparent;
+  height: 29px;
+  left: 885px;
+  position: absolute;
+  top: 62px;
+  width: 211px;
+}
+.a84progressappbar .tag-refer-f1BdEz {
+  background-color: transparent;
+  height: 29px;
+  left: 885px;
+  position: absolute;
+  top: 93px;
+  width: 169px;
+}
+.a84progressappbar .tag-refer-gSXJlq {
+  background-color: transparent;
+  height: 29px;
+  left: 885px;
+  position: absolute;
+  top: 217px;
+  width: 213px;
+}
+.a84progressappbar .tag-refer-lIlx22 {
+  background-color: transparent;
+  height: 29px;
+  left: 885px;
+  position: absolute;
+  top: 166px;
+  width: 213px;
+}
+.a84progressappbar .tag-refer-vlcnpb {
+  background-color: transparent;
+  height: 29px;
+  left: 885px;
+  position: absolute;
+  top: 106px;
+  width: 184px;
+}
+.a84progressappbar .text-5xwGX0 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a84progressappbar .text-LugM2v {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a84progressappbar .text-Q03UO4 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a84progressappbar .text-WvbxKh {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 18px;
+  height: auto;
+  left: 31px;
+  line-height: 28.6px;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .text-XzHYEI {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a84progressappbar .text-hn7fDE {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a84progressappbar .text-nZqi4I {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a84progressappbar .text-ns96ut {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a84progressappbar .text-wvPFyP {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a84progressappbar .value-1nf8AZ {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 101px;
+}
+.a84progressappbar .value-8UI6SC {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 101px;
+}
+.a84progressappbar .value-DW46tr {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 1px;
+  width: 9px;
+}
+.a84progressappbar .value-DW7Qxz {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a84progressappbar .value-Lbj1xx {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 101px;
+}
+.a84progressappbar .value-TVs7sA {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 9px;
+  width: 17px;
+}
+.a84progressappbar .value-VDtdmb {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 9px;
+  width: 17px;
+}
+.a84progressappbar .value-YeNxv8 {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 101px;
+}
+.a84progressappbar .value-ZjNpZa {
+  background-color: transparent;
+  height: 18px;
+  left: 111px;
+  position: absolute;
+  top: 0px;
+  width: 30px;
+}
+.a84progressappbar .value-fFjG4u {
+  background-color: transparent;
+  height: 18px;
+  left: 111px;
+  position: absolute;
+  top: 0px;
+  width: 30px;
+}
+.a84progressappbar .value-gKm0KF {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 34px;
+  width: 52px;
+}
+.a84progressappbar .value-iXZOLS {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 34px;
+  width: 52px;
+}
+.a84progressappbar .value-kfhzjg {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 34px;
+  width: 52px;
+}
+.a84progressappbar .value-oiNhGI {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 34px;
+  width: 52px;
+}
+.a84progressappbar .value-pJ7SuV {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 3px;
+  width: 26px;
+}
+.a84progressappbar .value-sVbd4Z {
+  background-color: transparent;
+  height: 18px;
+  left: 9px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a84progressappbar .value-xxZhH7 {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 3px;
+  width: 26px;
+}
+.a84progressappbar .web-app-GGUEFV {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x0-39ZTcu {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -2px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-8MODqe {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-E2CrnI {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -2px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-GSXqgv {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-GnrOal {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 9px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-aFcc6C {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -2px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-akvYvU {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -2px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-c9dtDC {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -2px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-eHxxPS {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-geF6t4 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -2px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-i0G93g {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-j7zlCr {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -2px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-jhebYv {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-jmnOCy {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-mOmMpN {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-overview-ySaWBr {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x0-rCTeYH {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-sATXIx {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -2px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-uuH9ND {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 9px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x0-yddZaH {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x1-app-bar-D217x5 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x10-search-909tqK {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x11-toast-X67QKm {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x12-text-fields-D7G6gw {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x13-view-controls-NSlb9H {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x14-description-APLBIe {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x15-notification-bad-fRGouw {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x16-thumbnail-vgZhnl {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x17-copy-paste-h6xD0e {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x2-buttons-rJFMk4 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x3-controllers-AjK9c9 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x4-dialogs-kamJWo {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x5-dividers-9PGoXU {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x6-lists-Ldvsg9 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x7-no-item-A7G5Kr {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x8-04-keysc-essappbar2-ZA6920 {
+  background-color: transparent;
+  height: 508px;
+  left: 630px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a84progressappbar .x8-04-keysc-essappbar2-vlcnpb {
+  background-color: transparent;
+  height: 508px;
+  left: 370px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a84progressappbar .x8-04-keysc-ss-appbar1-IYB7Ny {
+  background-color: transparent;
+  height: 508px;
+  left: 630px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a84progressappbar .x8-04-keysc-ss-appbar1-f1BdEz {
+  background-color: transparent;
+  height: 508px;
+  left: 370px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a84progressappbar .x8-04-measu-dedappbar1-YacI6X {
+  background-color: var(--concrete);
+  height: 402px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .x8-04-measu-dedappbar2-i9nuru {
+  background-color: var(--concrete);
+  height: 402px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .x8-04-measu-essappbar2-RkqL46 {
+  background-color: var(--concrete);
+  height: 96px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .x8-04-measu-ss-appbar1-YYykxg {
+  background-color: var(--concrete);
+  height: 96px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a84progressappbar .x8-05-keysc-bleappbar1-CSTlyp {
+  background-color: transparent;
+  height: 508px;
+  left: 370px;
+  position: absolute;
+  top: 81px;
+  width: 240px;
+}
+.a84progressappbar .x8-05-keysc-bleappbar1-gSXJlq {
+  background-color: transparent;
+  height: 508px;
+  left: 630px;
+  position: absolute;
+  top: 81px;
+  width: 240px;
+}
+.a84progressappbar .x8-05-keysc-bleappbar2-IxxqAx {
+  background-color: transparent;
+  height: 508px;
+  left: 370px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a84progressappbar .x8-05-keysc-bleappbar2-lIlx22 {
+  background-color: transparent;
+  height: 508px;
+  left: 630px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a84progressappbar .x8-4-progress-app-bar-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 380px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 50px;
+  white-space: nowrap;
+  width: auto;
+}
+.a84progressappbar .x8-progress-SI8NPk {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a84progressappbar .x9-scrolling-KnkDrT {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.border-class-1 {
+  border: 1px solid rgba(237,237,237,1.0);
+}
+.border-class-2 {
+  border: 1px solid rgba(135,135,135,1.0);
+}
+.font-class-1 {
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+}
+.font-class-2 {
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+}
+.font-class-3 {
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+}
+.font-class-4 {
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+}
+.font-class-5 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-6 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
+  line-height: 84px;
+}
+.font-class-7 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
+}
+.font-class-8 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
+}
+:root {
+  --azure-radiance: rgba(0,153,255,1.0);
+  --black: rgba(0,0,0,1.0);
+  --concrete: rgba(242,242,242,1.0);
+  --ebb: rgba(227,227,227,1.0);
+  --electric-violet: rgba(102,0,255,1.0);
+  --harlequin: rgba(51,204,0,1.0);
+  --masala: rgba(59,59,59,1.0);
+  --razzle-dazzle-rose: rgba(255,51,255,1.0);
+  --royal-blue: rgba(75,99,250,1.0);
+  --white: rgba(255,255,255,1.0);
+}

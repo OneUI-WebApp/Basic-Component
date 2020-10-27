@@ -1,0 +1,2255 @@
+/* screen - a23floatingactionbutton */
+
+.a23floatingactionbutton {
+  background-color: rgba(245,246,247,1.0);
+  height: 1602px;
+  overflow: hidden;
+  position: relative;
+  width: 1680px;
+}
+.a23floatingactionbutton .basic-component-gui-mK9PxT {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: justify;
+  top: 21px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .btn-mwblLs {
+  background-color: rgba(3,129,254,1.0);
+  border-radius: 22.5px;
+  height: 45px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 274px;
+}
+.a23floatingactionbutton .btn-mwblLs:hover {
+
+transform: scale(0.98);
+}
+.a23floatingactionbutton .comment-5ATXsy {
+  background-color: transparent;
+  color: var(--gray);
+  font-size: 18px;
+  height: auto;
+  left: 125px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .document-b-x-contents-5iy7GR {
+  background-color: var(--white);
+  border: 1px solid rgba(227,227,227,1.0);
+  height: 224px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 505px;
+}
+.a23floatingactionbutton .document-b-x-contents-PHONBE {
+  background-color: var(--white);
+  border: 1px solid rgba(227,227,227,1.0);
+  height: 345px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 421px;
+}
+.a23floatingactionbutton .document-b-x-contents-V6KZ2v {
+  background-color: var(--white);
+  border: 1px solid rgba(227,227,227,1.0);
+  height: 587px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a23floatingactionbutton .document-b-x-contents-hh1Mvx {
+  background-color: var(--white);
+  border: 1px solid rgba(227,227,227,1.0);
+  height: 596px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 715px;
+}
+.a23floatingactionbutton .document-button-C61RwL {
+  background-color: transparent;
+  height: 45px;
+  left: 863px;
+  position: absolute;
+  top: 1477px;
+  width: 274px;
+}
+.a23floatingactionbutton .fn-e74GgQ {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .fn-gxk9iq {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .fn-rRXoVw {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .general-5iy7GR {
+  background-color: transparent;
+  height: 109px;
+  left: 20px;
+  position: absolute;
+  top: 85px;
+  width: 465px;
+}
+.a23floatingactionbutton .gnb-bar02-buttons-C61RwL {
+  background-color: var(--white);
+  height: 1036px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-logo-LzW6K5 {
+  background-color: transparent;
+  height: 89px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu-h-ory-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 91px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu0--iew-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 134px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu1--bar-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 177px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu10-rch-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 693px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu11-ast-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 736px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu12-lds-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 779px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu13-ols-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 822px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu14-ion-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 865px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu15-dge-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 908px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu16-ail-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 951px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu17-ste-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 994px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu2--s-selected-C4jokY {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu2--s-selected-LzW6K5 {
+  background-color: transparent;
+  height: 171px;
+  left: 0px;
+  position: absolute;
+  top: 220px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu3--ers-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 392px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu4--ogs-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 435px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu5--ers-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 478px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu6--sts-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 521px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu7--ems-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 564px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu8--ess-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 607px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-menu9--ing-normal-LzW6K5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 650px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-submenu-normal-C4jokY {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 129px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-submenu-normal-ZBWQ9T {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 43px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnb-submenu-normal-swazGt {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 86px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-0xl5pF {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-6nx8n1 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-FDtCmK {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-FkmYUp {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-L6bc6M {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-Nwas6R {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-Ok5nbz {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-S5FxHu {
+  background-color: rgba(224,224,224,1.0);
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-SNyh98 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-SdM2v0 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-T9Mxkb {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-UlrIiF {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-dPvOAa {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-fU8x2r {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-jRd5IS {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-k9bnqG {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-pcOgP6 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-thsCgx {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbmenu-zzkKTz {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbsubmenu-WhZIV2 {
+  background-color: rgba(224,224,224,1.0);
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbsubmenu-XxJGJ5 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gnbsubmenu-hmbz2g {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .gotohome-Pbwi2q {
+  background-color: transparent;
+  height: 89px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .group-04w2zz {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 106px;
+}
+.a23floatingactionbutton .group-0L9iTm {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 106px;
+}
+.a23floatingactionbutton .group-2-FrfgJ2 {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 349px;
+}
+.a23floatingactionbutton .group-2-MUIcZC {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 200px;
+}
+.a23floatingactionbutton .group-2-sG0EgU {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 273px;
+}
+.a23floatingactionbutton .group-C61RwL {
+  background-color: transparent;
+  height: 596px;
+  left: 380px;
+  position: absolute;
+  top: 801px;
+  width: 1240px;
+}
+.a23floatingactionbutton .group-Px5YAv {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100px;
+}
+.a23floatingactionbutton .group-iA3KEl {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 269px;
+}
+.a23floatingactionbutton .group-iZFnmg {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100px;
+}
+.a23floatingactionbutton .group-mHG0KU {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 178px;
+}
+.a23floatingactionbutton .group-t1YvkM {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 162px;
+}
+.a23floatingactionbutton .group-w42Is4 {
+  background-color: transparent;
+  height: 45px;
+  left: 30px;
+  position: relative;
+  top: 22px;
+  width: 260px;
+}
+.a23floatingactionbutton .guide-NOXmfT {
+  background-color: transparent;
+  height: 596px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 715px;
+}
+.a23floatingactionbutton .guide-form-al1linecmt-PHONBE {
+  background-color: transparent;
+  height: 22px;
+  left: 52px;
+  position: absolute;
+  top: 265px;
+  width: 269px;
+}
+.a23floatingactionbutton .guide-form-ction1line-PHONBE {
+  background-color: transparent;
+  height: 22px;
+  left: 52px;
+  position: absolute;
+  top: 293px;
+  width: 200px;
+}
+.a23floatingactionbutton .guide-form-ction1line-ZtS6O8 {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 84px;
+  width: 273px;
+}
+.a23floatingactionbutton .guide-form-ction1line-fhYGYA {
+  background-color: transparent;
+  height: 22px;
+  left: 52px;
+  position: absolute;
+  top: 153px;
+  width: 349px;
+}
+.a23floatingactionbutton .guide-form-me-imagebg-Gajm0e {
+  background-color: rgba(255,102,255,1.0);
+  height: 48px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 48px;
+}
+.a23floatingactionbutton .guide-form-ormal1line-2fuXJs {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 106px;
+}
+.a23floatingactionbutton .guide-form-ormal1line-MSX7mg {
+  background-color: transparent;
+  height: 22px;
+  left: 52px;
+  position: absolute;
+  top: 237px;
+  width: 178px;
+}
+.a23floatingactionbutton .guide-form-ormal1line-PHONBE {
+  background-color: transparent;
+  height: 22px;
+  left: 52px;
+  position: absolute;
+  top: 181px;
+  width: 100px;
+}
+.a23floatingactionbutton .guide-form-ormal1line-ZCCKQX {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 56px;
+  width: 162px;
+}
+.a23floatingactionbutton .guide-form-ormal1line-ZtS6O8 {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 100px;
+}
+.a23floatingactionbutton .guide-form-ormal1line-fhYGYA {
+  background-color: transparent;
+  height: 22px;
+  left: 52px;
+  position: absolute;
+  top: 209px;
+  width: 106px;
+}
+.a23floatingactionbutton .guide-meas--spacing-1-HZAI7N {
+  background-color: transparent;
+  height: 72px;
+  left: 242px;
+  position: absolute;
+  top: 0px;
+  width: 29px;
+}
+.a23floatingactionbutton .guide-meas--spacing-2-UxBows {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 242px;
+  width: 72px;
+}
+.a23floatingactionbutton .guide-meas-e-vertical-k236Jm {
+  background-color: transparent;
+  background-image: url(../img/2-3-floating-action-button-line-DC6FD9B8-AE89-4657-8B12-46EE95D454BF@2x.png);
+  background-size: 100% 100%;
+  height: 120px;
+  left: 71px;
+  position: absolute;
+  top: 72px;
+  width: 1px;
+}
+.a23floatingactionbutton .guide-meas-e-vertical-pjqr1P {
+  background-color: transparent;
+  background-image: url(../img/2-3-floating-action-button-line-DC6FD9B8-AE89-4657-8B12-46EE95D454BF@2x.png);
+  background-size: 100% 100%;
+  height: 120px;
+  left: 0px;
+  position: absolute;
+  top: 72px;
+  width: 1px;
+}
+.a23floatingactionbutton .guide-meas-eft-size-1-rixyUT {
+  background-color: transparent;
+  height: 168px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 29px;
+}
+.a23floatingactionbutton .guide-meas-ght-size-2-pjqr1P {
+  background-color: transparent;
+  height: 72px;
+  left: 193px;
+  position: absolute;
+  top: 0px;
+  width: 29px;
+}
+.a23floatingactionbutton .guide-meas-horizontal-k236Jm {
+  background-color: transparent;
+  background-image: url(../img/2-3-floating-action-button-line-AF757674-3A27-46DD-99FE-D68700958182@2x.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 72px;
+  position: absolute;
+  top: 71px;
+  width: 119px;
+}
+.a23floatingactionbutton .guide-meas-horizontal-pjqr1P {
+  background-color: transparent;
+  background-image: url(../img/2-3-floating-action-button-line-AF757674-3A27-46DD-99FE-D68700958182@2x.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 72px;
+  position: absolute;
+  top: 0px;
+  width: 119px;
+}
+.a23floatingactionbutton .guide-meas-tom-size-2-pjqr1P {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 194px;
+  width: 72px;
+}
+.a23floatingactionbutton .guide-meas-top-size-1-rixyUT {
+  background-color: transparent;
+  height: 29px;
+  left: 31px;
+  position: absolute;
+  top: 7px;
+  width: 168px;
+}
+.a23floatingactionbutton .guide-measure-area-HZAI7N {
+  background-color: rgba(51,204,0,0.37);
+  height: 72px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 168px;
+}
+.a23floatingactionbutton .guide-measure-area-UxBows {
+  background-color: var(--azure-radiance-2);
+  height: 240px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 72px;
+}
+.a23floatingactionbutton .guide-measure-area-pjqr1P {
+  background-color: rgba(255,0,204,0.37);
+  height: 72px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 72px;
+}
+.a23floatingactionbutton .guide-measure-area-rixyUT {
+  background-color: rgba(255,51,255,0.37);
+  height: 168px;
+  left: 31px;
+  position: absolute;
+  top: 38px;
+  width: 168px;
+}
+.a23floatingactionbutton .guide-numb-ring-image-XjX2Of {
+  background-color: transparent;
+  background-image: url(../img/2-3-floating-action-button-oval-40152735-335C-4FB6-9E70-051E8B04577C@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 80px;
+  position: absolute;
+  top: 86px;
+  width: 22px;
+}
+.a23floatingactionbutton .guide-numb-ring-shape-XjX2Of {
+  background-color: transparent;
+  background-image: url(../img/2-2-contained-button-oval-21D25CC9-4015-4031-B220-AC101703AEA0@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 58px;
+  position: absolute;
+  top: 60px;
+  width: 22px;
+}
+.a23floatingactionbutton .guide-numbering-icon-13N3y0 {
+  background-color: transparent;
+  background-image: url(../img/2-2-contained-button-oval-21D25CC9-4015-4031-B220-AC101703AEA0@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 2px;
+  width: 22px;
+}
+.a23floatingactionbutton .guide-numbering-icon-mctxnR {
+  background-color: transparent;
+  background-image: url(../img/2-3-floating-action-button-oval-40152735-335C-4FB6-9E70-051E8B04577C@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 2px;
+  width: 22px;
+}
+.a23floatingactionbutton .guide-property-13N3y0 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 32px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .guide-property-mctxnR {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 32px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .guide-subject-image-PHONBE {
+  background-color: transparent;
+  height: 26px;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+  width: 135px;
+}
+.a23floatingactionbutton .guide-subject-shape-5iy7GR {
+  background-color: transparent;
+  height: 26px;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+  width: 135px;
+}
+.a23floatingactionbutton .history-k5CNv8 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .image-NOXmfT {
+  background-color: transparent;
+  height: 345px;
+  left: 735px;
+  position: absolute;
+  top: 248px;
+  width: 421px;
+}
+.a23floatingactionbutton .keyscreen-C61RwL {
+  background-color: transparent;
+  height: 587px;
+  left: 380px;
+  position: absolute;
+  top: 194px;
+  width: 1240px;
+}
+.a23floatingactionbutton .measure-hh1Mvx {
+  background-color: transparent;
+  height: 316px;
+  left: 207px;
+  position: absolute;
+  top: 140px;
+  width: 309px;
+}
+.a23floatingactionbutton .mobile-lig--title-add-Gajm0e {
+  background-color: transparent;
+  background-image: url(../img/2-3-floating-action-button-mobilelightthemeicon01actionbartitleadd-B0B97CAF-BDD0-4827-A57E-8C3FECEB2CD2@2x.png);
+  background-size: 100% 100%;
+  height: 38px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 38px;
+}
+.a23floatingactionbutton .mobile-lig--title-add-aossiK {
+  background-color: transparent;
+  background-image: url(../img/2-3-floating-action-button-mobilelightthemeicon01actionbartitleadd-50056DAF-6D73-4037-A2F1-D167D9C7EE12@2x.png);
+  background-size: 100% 100%;
+  height: 56px;
+  left: 56px;
+  position: relative;
+  top: 56px;
+  width: 56px;
+}
+.a23floatingactionbutton .mobile-lig-2buttonfab-WWal9l {
+  background-color: transparent;
+  background-image: url(../img/2-3-floating-action-button-fabbg-326E306F-5C4F-4E77-866D-4096677422BC@2x.png);
+  background-size: 100% 100%;
+  height: 168px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 168px;
+}
+.a23floatingactionbutton .property-2K5nfg {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .property-3Joysz {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .property-5ATXsy {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .property-83rxw2 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .property-8E1LaF {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .property-BC55rZ {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .property-NL4miy {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .property-Xn92O2 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .property-twbdQg {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .property-wE6sko {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .rectangle-71GUGx {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 168px;
+}
+.a23floatingactionbutton .rectangle-DCViej {
+  background-color: var(--razzle-dazzle-rose);
+  height: 167px;
+  left: 24px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a23floatingactionbutton .rectangle-Funbio {
+  background-color: rgba(255,0,204,1.0);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a23floatingactionbutton .rectangle-H8h5Db {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 71px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a23floatingactionbutton .rectangle-NvDUgY {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 20px;
+  position: absolute;
+  top: 167px;
+  width: 9px;
+}
+.a23floatingactionbutton .rectangle-WDWiUG {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 167px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a23floatingactionbutton .rectangle-aI4prv {
+  background-color: rgba(51,204,0,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 71px;
+  width: 9px;
+}
+.a23floatingactionbutton .rectangle-bJVFuc {
+  background-color: rgba(255,0,204,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 72px;
+}
+.a23floatingactionbutton .rectangle-g0xdSP {
+  background-color: rgba(51,204,0,1.0);
+  height: 72px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a23floatingactionbutton .rectangle-hoSvTe {
+  background-color: rgba(255,0,204,1.0);
+  height: 72px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a23floatingactionbutton .rectangle-ln0S8c {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a23floatingactionbutton .rectangle-nDDPtE {
+  background-color: rgba(51,204,0,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a23floatingactionbutton .rectangle-rLag01 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a23floatingactionbutton .rectangle-t6MGJg {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 20px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a23floatingactionbutton .rectangle-vliTTm {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 72px;
+}
+.a23floatingactionbutton .rectangle-wTZ6v1 {
+  background-color: rgba(255,0,204,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a23floatingactionbutton .rectangle-wzml5T {
+  background-color: rgba(255,0,204,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 71px;
+  width: 9px;
+}
+.a23floatingactionbutton .rectangle-xTtMG3 {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a23floatingactionbutton .rectangle-yOfMWs {
+  background-color: rgba(255,0,204,1.0);
+  height: 9px;
+  left: 71px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a23floatingactionbutton .shape-NOXmfT {
+  background-color: transparent;
+  height: 224px;
+  left: 735px;
+  position: absolute;
+  top: 2px;
+  width: 505px;
+}
+.a23floatingactionbutton .size-XjX2Of {
+  background-color: transparent;
+  height: 206px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 199px;
+}
+.a23floatingactionbutton .size-xUDzDj {
+  background-color: transparent;
+  height: 230px;
+  left: 79px;
+  position: absolute;
+  top: 86px;
+  width: 222px;
+}
+.a23floatingactionbutton .spacing-XjX2Of {
+  background-color: transparent;
+  height: 278px;
+  left: 199px;
+  position: absolute;
+  top: 38px;
+  width: 72px;
+}
+.a23floatingactionbutton .spacing-xUDzDj {
+  background-color: transparent;
+  height: 72px;
+  left: 31px;
+  position: absolute;
+  top: 206px;
+  width: 278px;
+}
+.a23floatingactionbutton .symbol-hh1Mvx {
+  background-color: transparent;
+  height: 240px;
+  left: 238px;
+  position: absolute;
+  top: 178px;
+  width: 240px;
+}
+.a23floatingactionbutton .text-94tRfz {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a23floatingactionbutton .text-EEe8Q9 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a23floatingactionbutton .text-Lrpeyl {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a23floatingactionbutton .text-WvbxKh {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 18px;
+  height: auto;
+  left: 31px;
+  line-height: 28.6px;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-2K5nfg {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 61px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-3Joysz {
+  background-color: transparent;
+  height: 22px;
+  left: 104px;
+  position: absolute;
+  top: 0px;
+  width: 245px;
+}
+.a23floatingactionbutton .value-5ATXsy {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 66px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-83rxw2 {
+  background-color: transparent;
+  height: 22px;
+  left: 31px;
+  position: absolute;
+  top: 0px;
+  width: 169px;
+}
+.a23floatingactionbutton .value-8E1LaF {
+  background-color: transparent;
+  height: 22px;
+  left: 104px;
+  position: absolute;
+  top: 0px;
+  width: 169px;
+}
+.a23floatingactionbutton .value-BC55rZ {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 61px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-NL4miy {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 119px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-NvDUgY {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 77px;
+  width: 17px;
+}
+.a23floatingactionbutton .value-Xn92O2 {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 116px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-e74GgQ {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 29px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-gxk9iq {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 32px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-nDDPtE {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 27px;
+  width: 17px;
+}
+.a23floatingactionbutton .value-rLag01 {
+  background-color: transparent;
+  height: 18px;
+  left: 75px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a23floatingactionbutton .value-rRXoVw {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 32px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-twbdQg {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 55px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-wE6sko {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 55px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-wTZ6v1 {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 27px;
+  width: 17px;
+}
+.a23floatingactionbutton .web-app-mK9PxT {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x-2K5nfg {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 100px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-5ATXsy {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 117px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-BC55rZ {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 100px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-GaHrzM {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 26px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-Gp04Iv {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 233px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-LygNNE {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 23px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-NL4miy {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 156px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-TqbkFi {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 157px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-Xn92O2 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 172px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-e74GgQ {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 239px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-gxk9iq {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 163px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-mfNoWj {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 157px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-rRXoVw {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 163px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-twbdQg {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 94px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-vXvIRc {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 26px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-wE6sko {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 94px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x0-8lgNXR {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x0-BY6o98 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x0-Funbio {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 27px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x0-kx75ra {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x0-mPxmtz {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -2px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x0-overview-WS6WQj {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x0-xTtMG3 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 27px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x1-0adN7T {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 15px;
+  height: 22px;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a23floatingactionbutton .x1-LGtOaX {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 15px;
+  height: 22px;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a23floatingactionbutton .x1-app-bar-eLzewR {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x1-cOfhEx {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 15px;
+  height: 22px;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a23floatingactionbutton .x1-waTHvH {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 15px;
+  height: 22px;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a23floatingactionbutton .x10-search-YPkNvM {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x11-toast-xiTBtP {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x12-text-fields-dExET3 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x13-view-controls-MTh05c {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x14-description-ln0S8c {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x15-notification-bad-Nlwdug {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x16-thumbnail-be2hM8 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x17-copy-paste-034OGS {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x2-03-image-icon-add-PHONBE {
+  background-color: transparent;
+  height: 48px;
+  left: 52px;
+  position: absolute;
+  top: 82px;
+  width: 48px;
+}
+.a23floatingactionbutton .x2-03-keysc-tionbutton-V6KZ2v {
+  background-color: transparent;
+  height: 508px;
+  left: 370px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a23floatingactionbutton .x2-03-keysc-tionbutton-YbJGjS {
+  background-color: transparent;
+  height: 508px;
+  left: 630px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a23floatingactionbutton .x2-03-measu-tionbutton-2LAIZG {
+  background-color: rgba(242,242,242,1.0);
+  height: 240px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 240px;
+}
+.a23floatingactionbutton .x2-3-floating-actio-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 380px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 50px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x2-buttons-0lS04a {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x3-controllers-h9KJK1 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x4-dialogs-gagmKd {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x5-dividers-OzTxVf {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x6-lists-4BRmK3 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x7-no-item-sh6abE {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x8-progress-xvOUMU {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a23floatingactionbutton .x9-scrolling-qxqUQ7 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.font-class-1 {
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+}
+.font-class-2 {
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+}
+.font-class-3 {
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+}
+.font-class-4 {
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+}
+.font-class-5 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
+}
+.font-class-6 {
+  color: rgba(37,37,37,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-7 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
+  line-height: 84px;
+}
+.font-class-8 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
+}
+:root {
+  --alabaster: rgba(250,250,250,1.0);
+  --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
+  --black: rgba(0,0,0,1.0);
+  --electric-violet: rgba(102,0,255,1.0);
+  --gray: rgba(145,145,145,1.0);
+  --masala: rgba(59,59,59,1.0);
+  --razzle-dazzle-rose: rgba(255,51,255,1.0);
+  --royal-blue: rgba(75,99,250,1.0);
+  --white: rgba(255,255,255,1.0);
+}

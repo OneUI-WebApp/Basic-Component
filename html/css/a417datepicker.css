@@ -1,0 +1,3853 @@
+/* screen - a417datepicker */
+
+.a417datepicker {
+  background-color: rgba(245,246,247,1.0);
+  height: 2757px;
+  overflow: hidden;
+  position: relative;
+  width: 1680px;
+}
+.a417datepicker .basic-1yO3CZ {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .basic-2x5yae {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .basic-3xgKyE {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .basic-Y6xRSv {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .basic-component-gui-OB1SiY {
+  background-color: transparent;
+  color: rgba(37,37,37,1.0);
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: justify;
+  top: 21px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .basic-gkerMZ {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .basic-xh14Vx {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .btn-7INFWU {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 209px;
+}
+.a417datepicker .btn-7INFWU:hover {
+
+transform: scale(0.98);
+}
+.a417datepicker .btn-BY2F74 {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 159px;
+}
+.a417datepicker .btn-BY2F74:hover {
+
+transform: scale(0.98);
+}
+.a417datepicker .btn-Ea1ZNg {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 159px;
+}
+.a417datepicker .btn-Ea1ZNg:hover {
+
+transform: scale(0.98);
+}
+.a417datepicker .btn-FscE75 {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 209px;
+}
+.a417datepicker .btn-FscE75:hover {
+
+transform: scale(0.98);
+}
+.a417datepicker .btn-KTNhKs {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 222px;
+}
+.a417datepicker .btn-KTNhKs:hover {
+
+transform: scale(0.98);
+}
+.a417datepicker .btn-dsjbvh {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 221px;
+}
+.a417datepicker .btn-dsjbvh:hover {
+
+transform: scale(0.98);
+}
+.a417datepicker .btn-mwblLs {
+  background-color: rgba(3,129,254,1.0);
+  border-radius: 22.5px;
+  height: 45px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 274px;
+}
+.a417datepicker .btn-mwblLs:hover {
+
+transform: scale(0.98);
+}
+.a417datepicker .calendar-view-aXKK7s {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 44px;
+  height: auto;
+  left: 0px;
+  line-height: 53px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .calendarview-C61RwL {
+  background-color: transparent;
+  height: 1151px;
+  left: 380px;
+  position: absolute;
+  top: 194px;
+  width: 1240px;
+}
+.a417datepicker .dec-Fxxfd4 {
+  background-color: transparent;
+  color: var(--science-blue);
+  font-size: 30px;
+  height: 56px;
+  left: 115px;
+  line-height: 56px;
+  position: absolute;
+  text-align: center;
+  top: 54px;
+  white-space: nowrap;
+  width: 101px;
+}
+.a417datepicker .document-b-x-contents-0qOiNF {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 587px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a417datepicker .document-b-x-contents-IOeuCv {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 162px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 505px;
+}
+.a417datepicker .document-b-x-contents-K2XUo0 {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 162px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 505px;
+}
+.a417datepicker .document-b-x-contents-nTh22m {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 587px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a417datepicker .document-b-x-contents-rqSNZx {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 461px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 715px;
+}
+.a417datepicker .document-b-x-contents-xQ8Uf7 {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 357px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 715px;
+}
+.a417datepicker .document-button-C61RwL {
+  background-color: transparent;
+  height: 45px;
+  left: 863px;
+  position: absolute;
+  top: 2632px;
+  width: 274px;
+}
+.a417datepicker .fri-wxfvmx {
+  background-color: transparent;
+  color: rgba(144,144,144,1.0);
+  font-size: 11px;
+  height: 32px;
+  left: 187px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .gnb-bar04-dialogs-C61RwL {
+  background-color: var(--white);
+  height: 1853px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnb-logo-IFpddr {
+  background-color: transparent;
+  height: 89px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu-h-ory-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 91px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu0--iew-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 134px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu1--bar-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 177px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu10-rch-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1467px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu11-ast-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1510px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu12-lds-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1553px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu13-ols-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1596px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu14-ion-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1639px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu15-dge-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1682px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu16-ail-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1725px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu17-ste-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1768px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu2--ons-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 220px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu3--ers-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 263px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu4--s-selected-F6tyJc {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu4--s-selected-IFpddr {
+  background-color: transparent;
+  height: 967px;
+  left: 0px;
+  position: absolute;
+  top: 313px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu5--ers-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1252px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu6--sts-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1295px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu7--ems-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1338px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu8--ess-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1381px;
+  width: 320px;
+}
+.a417datepicker .gnb-menu9--ing-normal-IFpddr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 1424px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-3vlxr7 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 172px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-541Yax {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 774px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-6eO6cv {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 43px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-6wLP0c {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 516px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-CkATrQ {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 860px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-DpBjZd {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 817px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-F6tyJc {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 903px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-MZMfPh {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 301px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-QjhZ3h {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 645px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-Rw4FJv {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 559px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-VF7y5n {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 215px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-aOGTeF {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 258px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-askrDc {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 344px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-dIgc7X {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 731px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-eTYwEa {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 688px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-fJP733 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 387px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-htvqUJ {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 430px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-jRf21I {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 602px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-nC7AnL {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 129px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-ogS940 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 473px;
+  width: 320px;
+}
+.a417datepicker .gnb-submenu-normal-p7x7de {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 86px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-8iDxRt {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-A7XsLT {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-FYqcjZ {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-Kyb74v {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-MMc3iM {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-PAywWV {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-bZCNXc {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-gL2JAx {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-hzcOuP {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-iVJDrt {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-lLJ8dQ {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-n846FE {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-pfsUJP {
+  background-color: rgba(224,224,224,1.0);
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-qO9QRU {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-qscMSY {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-tNPiEI {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-voSg9E {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-x362av {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbmenu-xLcVXS {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-6gDKcU {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-BeK4oU {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-C0LORr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-DzkxYx {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-IwJ2RN {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-JXnXN8 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-MYwqko {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-SKWdZ3 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-XwXC0Q {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-YKT2Zb {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-aTQfXv {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-cmHiKF {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-cqDLeq {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-d9exKB {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-f9rB8b {
+  background-color: rgba(224,224,224,1.0);
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-fI7jXe {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-lnvuEa {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-o0x4FS {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-o6GxFw {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-ueY5m4 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gnbsubmenu-vqlAnH {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .gotohome-KS0c9L {
+  background-color: transparent;
+  height: 89px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .group-AfCoe2 {
+  background-color: transparent;
+  height: 238px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 360px;
+}
+.a417datepicker .group-aXKK7s {
+  background-color: transparent;
+  height: 461px;
+  left: 0px;
+  position: absolute;
+  top: 690px;
+  width: 1240px;
+}
+.a417datepicker .group-cs6LcT {
+  background-color: transparent;
+  height: 357px;
+  left: 1px;
+  position: absolute;
+  top: 691px;
+  width: 1240px;
+}
+.a417datepicker .group-gBrDRH {
+  background-color: transparent;
+  height: 45px;
+  left: 30px;
+  position: relative;
+  top: 22px;
+  width: 260px;
+}
+.a417datepicker .group-gR5zu3 {
+  background-color: transparent;
+  height: 231px;
+  left: 0px;
+  position: absolute;
+  top: 46px;
+  width: 328px;
+}
+.a417datepicker .group-kfBsPu {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 68px;
+}
+.a417datepicker .group-l9FCKT {
+  background-color: transparent;
+  height: 305px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 360px;
+}
+.a417datepicker .group-ylqVlO {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 68px;
+}
+.a417datepicker .guide-7xTl5j {
+  background-color: transparent;
+  height: 357px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 715px;
+}
+.a417datepicker .guide-form-e-subtitle-L4KMVc {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 35px;
+}
+.a417datepicker .guide-form-e-subtitle-iqYnME {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 35px;
+}
+.a417datepicker .guide-form-note-link-L4KMVc {
+  background-color: transparent;
+  height: 22px;
+  left: 100px;
+  position: absolute;
+  top: 28px;
+  width: 333px;
+}
+.a417datepicker .guide-form-note-link-iqYnME {
+  background-color: transparent;
+  height: 22px;
+  left: 100px;
+  position: absolute;
+  top: 28px;
+  width: 333px;
+}
+.a417datepicker .guide-form-te-referto-L4KMVc {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 68px;
+}
+.a417datepicker .guide-form-te-referto-iqYnME {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 68px;
+}
+.a417datepicker .guide-meas--spacing-1-C5t7gx {
+  background-color: transparent;
+  height: 20px;
+  left: 9px;
+  position: absolute;
+  top: 0px;
+  width: 27px;
+}
+.a417datepicker .guide-meas--spacing-1-INy9VM {
+  background-color: transparent;
+  height: 20px;
+  left: 9px;
+  position: absolute;
+  top: 0px;
+  width: 27px;
+}
+.a417datepicker .guide-meas--spacing-1-WJZIuH {
+  background-color: transparent;
+  height: 20px;
+  left: 9px;
+  position: absolute;
+  top: 0px;
+  width: 27px;
+}
+.a417datepicker .guide-meas--spacing-1-ixlCmH {
+  background-color: transparent;
+  height: 20px;
+  left: 9px;
+  position: absolute;
+  top: 0px;
+  width: 27px;
+}
+.a417datepicker .guide-meas--spacing-2-IPPKWp {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 307px;
+  width: 16px;
+}
+.a417datepicker .guide-meas--spacing-2-nQpLZu {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 307px;
+  width: 16px;
+}
+.a417datepicker .guide-meas-ght-size-1-DoAx67 {
+  background-color: transparent;
+  height: 210px;
+  left: 2px;
+  position: relative;
+  top: 0px;
+  width: 36px;
+}
+.a417datepicker .guide-meas-ght-size-1-gai9hq {
+  background-color: transparent;
+  height: 277px;
+  left: 362px;
+  position: absolute;
+  top: 52px;
+  width: 35px;
+}
+.a417datepicker .guide-meas-top-size-1-CUuhsX {
+  background-color: transparent;
+  height: 29px;
+  left: 38px;
+  position: absolute;
+  top: 7px;
+  width: 360px;
+}
+.a417datepicker .guide-meas-top-size-1-gai9hq {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 360px;
+}
+.a417datepicker .guide-measure-area-C5t7gx {
+  background-color: rgba(51,204,0,0.37);
+  height: 14px;
+  left: 38px;
+  position: absolute;
+  top: 3px;
+  width: 360px;
+}
+.a417datepicker .guide-measure-area-INy9VM {
+  background-color: rgba(51,204,0,0.37);
+  height: 14px;
+  left: 54px;
+  position: absolute;
+  top: 3px;
+  width: 328px;
+}
+.a417datepicker .guide-measure-area-IPPKWp {
+  background-color: rgba(0,153,255,0.37);
+  height: 305px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 16px;
+}
+.a417datepicker .guide-measure-area-WJZIuH {
+  background-color: rgba(51,204,0,0.37);
+  height: 14px;
+  left: 38px;
+  position: absolute;
+  top: 3px;
+  width: 360px;
+}
+.a417datepicker .guide-measure-area-ixlCmH {
+  background-color: rgba(51,204,0,0.37);
+  height: 14px;
+  left: 54px;
+  position: absolute;
+  top: 3px;
+  width: 328px;
+}
+.a417datepicker .guide-measure-area-nQpLZu {
+  background-color: rgba(0,153,255,0.37);
+  height: 305px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 16px;
+}
+.a417datepicker .guide-numb-ring-shape-CUuhsX {
+  background-color: transparent;
+  background-image: url(../img/4-18-date--time-picker-oval-E9A4543D-54B6-42CF-A1C9-13291AED55D4@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 376px;
+  position: absolute;
+  top: 38px;
+  width: 22px;
+}
+.a417datepicker .guide-numb-ring-shape-NXNxx8 {
+  background-color: transparent;
+  background-image: url(../img/4-18-date--time-picker-oval-E9A4543D-54B6-42CF-A1C9-13291AED55D4@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 376px;
+  position: absolute;
+  top: 38px;
+  width: 22px;
+}
+.a417datepicker .guide-numbering-icon-SFou18 {
+  background-color: transparent;
+  background-image: url(../img/4-18-date--time-picker-oval-E9A4543D-54B6-42CF-A1C9-13291AED55D4@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 2px;
+  width: 22px;
+}
+.a417datepicker .guide-numbering-icon-TJ1Bv7 {
+  background-color: transparent;
+  background-image: url(../img/4-18-date--time-picker-oval-E9A4543D-54B6-42CF-A1C9-13291AED55D4@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 2px;
+  width: 22px;
+}
+.a417datepicker .guide-property-SFou18 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 32px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .guide-property-TJ1Bv7 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 32px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .guide-subject-shape-IOeuCv {
+  background-color: transparent;
+  height: 26px;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+  width: 135px;
+}
+.a417datepicker .guide-subject-shape-K2XUo0 {
+  background-color: transparent;
+  height: 26px;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+  width: 135px;
+}
+.a417datepicker .guide-xYM0mg {
+  background-color: transparent;
+  height: 461px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 715px;
+}
+.a417datepicker .history-lZqxZq {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .image-7xTl5j {
+  background-color: transparent;
+  height: 162px;
+  left: 735px;
+  position: absolute;
+  top: 2px;
+  width: 505px;
+}
+.a417datepicker .image-xYM0mg {
+  background-color: transparent;
+  height: 162px;
+  left: 735px;
+  position: absolute;
+  top: 2px;
+  width: 505px;
+}
+.a417datepicker .jan-Fxxfd4 {
+  background-color: transparent;
+  color: var(--science-blue);
+  font-size: 30px;
+  height: 54px;
+  left: 115px;
+  line-height: 54px;
+  opacity: 0.1;
+  position: absolute;
+  text-align: center;
+  top: 110px;
+  white-space: nowrap;
+  width: 101px;
+}
+.a417datepicker .keyscreen-aXKK7s {
+  background-color: transparent;
+  height: 587px;
+  left: 0px;
+  position: absolute;
+  top: 83px;
+  width: 1240px;
+}
+.a417datepicker .keyscreen-cs6LcT {
+  background-color: transparent;
+  height: 587px;
+  left: 1px;
+  position: absolute;
+  top: 84px;
+  width: 1240px;
+}
+.a417datepicker .link-to-5J9D3c {
+  background-color: transparent;
+  color: rgba(145,145,145,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  text-decoration: underline;
+  top: 0px;
+  white-space: nowrap;
+  width: 333px;
+}
+.a417datepicker .link-to-PEWKUw {
+  background-color: transparent;
+  color: rgba(145,145,145,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  text-decoration: underline;
+  top: 0px;
+  white-space: nowrap;
+  width: 333px;
+}
+.a417datepicker .measure-rqSNZx {
+  background-color: transparent;
+  height: 381px;
+  left: 140px;
+  position: absolute;
+  top: 40px;
+  width: 435px;
+}
+.a417datepicker .measure-xQ8Uf7 {
+  background-color: transparent;
+  height: 279px;
+  left: 140px;
+  position: absolute;
+  top: 41px;
+  width: 436px;
+}
+.a417datepicker .mobile-lig--unit-date-7GB0dZ {
+  background-color: transparent;
+  height: 164px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 331px;
+}
+.a417datepicker .mobile-lig-erprevious-Iiea1u {
+  background-color: transparent;
+  background-image: url(../img/4-13-date-picker-dialog-1-mobilelightthemeicon04dialogdatepickerprevious-B2EAA3B6-451A-46C6-B72D-B24D215FAE1C@2x.png);
+  background-size: 100% 100%;
+  height: 14px;
+  left: 15px;
+  position: absolute;
+  top: 11px;
+  width: 7px;
+}
+.a417datepicker .mobile-lig-ialog-date-vjQDpo {
+  background-color: transparent;
+  height: 164px;
+  left: 15px;
+  position: absolute;
+  top: 60px;
+  width: 331px;
+}
+.a417datepicker .mobile-lig-n-dialogbg-vjQDpo {
+  background-color: rgba(252,252,252,1.0);
+  border-radius: 26px;
+  height: 238px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 360px;
+}
+.a417datepicker .mobile-lig-pickernext-Iiea1u {
+  background-color: transparent;
+  background-image: url(../img/4-17-date-picker-mobilelightthemeicon04dialogdatepickernext-61A8D1B3-0AFB-48E0-BDD3-307D172A2FC9@2x.png);
+  background-size: 100% 100%;
+  height: 14px;
+  left: 307px;
+  position: absolute;
+  top: 11px;
+  width: 7px;
+}
+.a417datepicker .mobile-lig-rouplistbg-bWnpxF {
+  background-color: rgba(252,252,252,1.0);
+  border-radius: 26px;
+  height: 305px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 360px;
+}
+.a417datepicker .mobile-lig-rouplistbg-iMJk7i {
+  background-color: rgba(252,252,252,1.0);
+  border-radius: 26px;
+  height: 238px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 360px;
+}
+.a417datepicker .mobile-lig-t-calendar-MxOI36 {
+  background-color: transparent;
+  height: 277px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 328px;
+}
+.a417datepicker .mobile-lig-wheel-body-iMJk7i {
+  background-color: transparent;
+  height: 238px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 360px;
+}
+.a417datepicker .mobile-lig-y-calendar-bWnpxF {
+  background-color: transparent;
+  height: 277px;
+  left: 16px;
+  position: absolute;
+  top: 14px;
+  width: 328px;
+}
+.a417datepicker .mon-wxfvmx {
+  background-color: transparent;
+  color: rgba(144,144,144,1.0);
+  font-size: 11px;
+  height: 32px;
+  left: 0px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .note-IOeuCv {
+  background-color: transparent;
+  height: 50px;
+  left: 20px;
+  position: absolute;
+  top: 82px;
+  width: 465px;
+}
+.a417datepicker .note-K2XUo0 {
+  background-color: transparent;
+  height: 50px;
+  left: 20px;
+  position: absolute;
+  top: 82px;
+  width: 465px;
+}
+.a417datepicker .nov-Fxxfd4 {
+  background-color: transparent;
+  color: var(--science-blue);
+  font-size: 30px;
+  height: 54px;
+  left: 115px;
+  line-height: 54px;
+  opacity: 0.1;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 101px;
+}
+.a417datepicker .november-2018-Iiea1u {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 17px;
+  height: 36px;
+  left: 36px;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 256px;
+}
+.a417datepicker .november-2018-vjQDpo {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 17px;
+  height: 36px;
+  left: 16px;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+  white-space: nowrap;
+  width: 328px;
+}
+.a417datepicker .numberline01-KbFLjk {
+  background-color: transparent;
+  height: 32px;
+  left: 0px;
+  position: absolute;
+  top: 39px;
+  width: 328px;
+}
+.a417datepicker .numberline02-KbFLjk {
+  background-color: transparent;
+  height: 32px;
+  left: 0px;
+  position: absolute;
+  top: 71px;
+  width: 328px;
+}
+.a417datepicker .numberline03-KbFLjk {
+  background-color: transparent;
+  height: 32px;
+  left: 0px;
+  position: absolute;
+  top: 103px;
+  width: 328px;
+}
+.a417datepicker .numberline04-KbFLjk {
+  background-color: transparent;
+  height: 32px;
+  left: 0px;
+  position: absolute;
+  top: 135px;
+  width: 328px;
+}
+.a417datepicker .numberline05-KbFLjk {
+  background-color: transparent;
+  height: 32px;
+  left: 0px;
+  position: absolute;
+  top: 167px;
+  width: 328px;
+}
+.a417datepicker .numberline06-KbFLjk {
+  background-color: transparent;
+  height: 32px;
+  left: 0px;
+  position: absolute;
+  top: 199px;
+  width: 328px;
+}
+.a417datepicker .oval-sQ4vj0 {
+  background-color: transparent;
+  height: 28px;
+  left: 10px;
+  position: absolute;
+  top: 2px;
+  width: 28px;
+}
+.a417datepicker .page-name-1yO3CZ {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 48px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .page-name-2x5yae {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 48px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .page-name-3xgKyE {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 48px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .page-name-Y6xRSv {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 48px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .page-name-gkerMZ {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 48px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .page-name-xh14Vx {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 48px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .rectangle-13nfYu {
+  background-color: var(--razzle-dazzle-rose);
+  height: 210px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a417datepicker .rectangle-2OgxRb {
+  background-color: var(--razzle-dazzle-rose);
+  height: 277px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a417datepicker .rectangle-4y5TTx {
+  background-color: var(--harlequin);
+  height: 13px;
+  left: 22px;
+  position: absolute;
+  top: 3px;
+  width: 1px;
+}
+.a417datepicker .rectangle-5N5rkE {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 18px;
+  position: absolute;
+  top: 3px;
+  width: 9px;
+}
+.a417datepicker .rectangle-6tq0CA {
+  background-color: var(--harlequin);
+  height: 13px;
+  left: 22px;
+  position: absolute;
+  top: 3px;
+  width: 1px;
+}
+.a417datepicker .rectangle-DCaN35 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 276px;
+  width: 9px;
+}
+.a417datepicker .rectangle-E6UBAz {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 359px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a417datepicker .rectangle-JnYKxx {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 16px;
+}
+.a417datepicker .rectangle-O2iHV2 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 359px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a417datepicker .rectangle-O7QyA8 {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a417datepicker .rectangle-PLJ2ge {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a417datepicker .rectangle-Q65xln {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 360px;
+}
+.a417datepicker .rectangle-SFKq6U {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a417datepicker .rectangle-Vh3Boh {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
+.a417datepicker .rectangle-WN8Ecq {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 18px;
+  position: absolute;
+  top: 3px;
+  width: 9px;
+}
+.a417datepicker .rectangle-WVTP0e {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 18px;
+  position: absolute;
+  top: 16px;
+  width: 9px;
+}
+.a417datepicker .rectangle-XS8obn {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 15px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a417datepicker .rectangle-YmpyMO {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 18px;
+  position: absolute;
+  top: 3px;
+  width: 9px;
+}
+.a417datepicker .rectangle-Zqe6ks {
+  background-color: var(--harlequin);
+  height: 13px;
+  left: 22px;
+  position: absolute;
+  top: 3px;
+  width: 1px;
+}
+.a417datepicker .rectangle-akDTkA {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 16px;
+}
+.a417datepicker .rectangle-dBxBej {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 209px;
+  width: 9px;
+}
+.a417datepicker .rectangle-dVar3o {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a417datepicker .rectangle-fh7pMn {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 15px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a417datepicker .rectangle-fsBJLh {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 18px;
+  position: absolute;
+  top: 3px;
+  width: 9px;
+}
+.a417datepicker .rectangle-hqVxWF {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a417datepicker .rectangle-n7nCY6 {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 18px;
+  position: absolute;
+  top: 16px;
+  width: 9px;
+}
+.a417datepicker .rectangle-sGUVXs {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a417datepicker .rectangle-ukT7to {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 18px;
+  position: absolute;
+  top: 16px;
+  width: 9px;
+}
+.a417datepicker .rectangle-v4vxto {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 18px;
+  position: absolute;
+  top: 16px;
+  width: 9px;
+}
+.a417datepicker .rectangle-wDvLC5 {
+  background-color: var(--harlequin);
+  height: 13px;
+  left: 22px;
+  position: absolute;
+  top: 3px;
+  width: 1px;
+}
+.a417datepicker .rectangle-zoD2Jq {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 360px;
+}
+.a417datepicker .refer-to-Rw3hIX {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .refer-to-cbrmRO {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .sat-wxfvmx {
+  background-color: transparent;
+  color: rgba(144,144,144,1.0);
+  font-size: 11px;
+  height: 32px;
+  left: 234px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .selectbg-sS4wC7 {
+  background-color: transparent;
+  height: 32px;
+  left: 47px;
+  position: absolute;
+  top: 0px;
+  width: 47px;
+}
+.a417datepicker .size-CUuhsX {
+  background-color: transparent;
+  height: 210px;
+  left: 398px;
+  position: absolute;
+  top: 52px;
+  width: 38px;
+}
+.a417datepicker .size-NXNxx8 {
+  background-color: transparent;
+  height: 329px;
+  left: 38px;
+  position: absolute;
+  top: 0px;
+  width: 397px;
+}
+.a417datepicker .spacing-CUuhsX {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 35px;
+  width: 398px;
+}
+.a417datepicker .spacing-NQGasz {
+  background-color: transparent;
+  height: 343px;
+  left: 38px;
+  position: absolute;
+  top: 38px;
+  width: 16px;
+}
+.a417datepicker .spacing-NXNxx8 {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 35px;
+  width: 382px;
+}
+.a417datepicker .spacing-PTdCt3 {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 326px;
+  width: 382px;
+}
+.a417datepicker .spacing-Q48PoT {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 259px;
+  width: 398px;
+}
+.a417datepicker .spacing-sVucye {
+  background-color: transparent;
+  height: 343px;
+  left: 382px;
+  position: absolute;
+  top: 38px;
+  width: 16px;
+}
+.a417datepicker .sun-wxfvmx {
+  background-color: transparent;
+  color: rgba(215,126,126,1.0);
+  font-size: 11px;
+  height: 32px;
+  left: 281px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .symbol-rqSNZx {
+  background-color: transparent;
+  height: 305px;
+  left: 178px;
+  position: absolute;
+  top: 78px;
+  width: 360px;
+}
+.a417datepicker .symbol-xQ8Uf7 {
+  background-color: transparent;
+  height: 238px;
+  left: 178px;
+  position: absolute;
+  top: 79px;
+  width: 360px;
+}
+.a417datepicker .tag-refer-0qOiNF {
+  background-color: transparent;
+  height: 29px;
+  left: 885px;
+  position: absolute;
+  top: 188px;
+  width: 222px;
+}
+.a417datepicker .tag-refer-RdqET4 {
+  background-color: transparent;
+  height: 29px;
+  left: 885px;
+  position: absolute;
+  top: 146px;
+  width: 209px;
+}
+.a417datepicker .tag-refer-Sg41ki {
+  background-color: transparent;
+  height: 29px;
+  left: 885px;
+  position: absolute;
+  top: 100px;
+  width: 159px;
+}
+.a417datepicker .tag-refer-elhACt {
+  background-color: transparent;
+  height: 29px;
+  left: 885px;
+  position: absolute;
+  top: 100px;
+  width: 159px;
+}
+.a417datepicker .tag-refer-nTh22m {
+  background-color: transparent;
+  height: 29px;
+  left: 885px;
+  position: absolute;
+  top: 192px;
+  width: 221px;
+}
+.a417datepicker .tag-refer-pmwc2K {
+  background-color: transparent;
+  height: 29px;
+  left: 885px;
+  position: absolute;
+  top: 144px;
+  width: 209px;
+}
+.a417datepicker .text-2csiWw {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-2lOLH2 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-6uCC6P {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-6whLwY {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .text-AWDxxq {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-Cbf5Ak {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-IO2tex {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-OMlONZ {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-OenwRz {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .text-U20oLU {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-UMYCxX {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-VOdO0e {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-WARxJW {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-WZpIBy {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-WvbxKh {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 18px;
+  height: auto;
+  left: 31px;
+  line-height: 28.6px;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .text-cwWTW2 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-i6zolW {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-ioVmyo {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-jGLpQR {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-mLjtxZ {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-rgBiVC {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-xY88zE {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-xZDVfu {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .text-zLkuOD {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 72px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 218px;
+}
+.a417datepicker .thu-wxfvmx {
+  background-color: transparent;
+  color: rgba(144,144,144,1.0);
+  font-size: 11px;
+  height: 32px;
+  left: 141px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 46px;
+}
+.a417datepicker .title-gR5zu3 {
+  background-color: transparent;
+  height: 36px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 314px;
+}
+.a417datepicker .tue-wxfvmx {
+  background-color: transparent;
+  color: rgba(144,144,144,1.0);
+  font-size: 11px;
+  height: 32px;
+  left: 47px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .value-PLJ2ge {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 129px;
+  width: 23px;
+}
+.a417datepicker .value-SFKq6U {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 96px;
+  width: 24px;
+}
+.a417datepicker .value-WVTP0e {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 15px;
+}
+.a417datepicker .value-dVar3o {
+  background-color: transparent;
+  height: 18px;
+  left: 147px;
+  position: absolute;
+  top: 0px;
+  width: 66px;
+}
+.a417datepicker .value-n7nCY6 {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 15px;
+}
+.a417datepicker .value-sGUVXs {
+  background-color: transparent;
+  height: 18px;
+  left: 147px;
+  position: absolute;
+  top: 0px;
+  width: 66px;
+}
+.a417datepicker .value-ukT7to {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 15px;
+}
+.a417datepicker .value-v4vxto {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 15px;
+}
+.a417datepicker .web-app-OB1SiY {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .wed-wxfvmx {
+  background-color: transparent;
+  color: rgba(144,144,144,1.0);
+  font-size: 11px;
+  height: 32px;
+  left: 94px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .week-KbFLjk {
+  background-color: transparent;
+  height: 32px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 328px;
+}
+.a417datepicker .wheel-65VF3j {
+  background-color: transparent;
+  height: 164px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 331px;
+}
+.a417datepicker .wheel-view-cs6LcT {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 44px;
+  height: auto;
+  left: 1px;
+  line-height: 53px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 1px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .wheelview-C61RwL {
+  background-color: transparent;
+  height: 1049px;
+  left: 379px;
+  position: absolute;
+  top: 1504px;
+  width: 1242px;
+}
+.a417datepicker .x0-3jrCgh {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -2px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .x0-6XArJf {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .x0-7qSJFl {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -2px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .x0-8G7xqO {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -2px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .x0-DZHQxg {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .x0-O7QyA8 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .x0-WaUdZx {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -2px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .x0-Zu9Wia {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .x0-ba2Bx2 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .x0-hqVxWF {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .x0-overview-A0NNx1 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x1-4vwUs3 {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 15px;
+  height: 22px;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a417datepicker .x1-BMtSrD {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 15px;
+  height: 22px;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a417datepicker .x1-EDmZFK {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 15px;
+  height: 22px;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a417datepicker .x1-J3z4yp {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 234px;
+  line-height: 32px;
+  opacity: 0.1;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x1-app-bar-mSO44p {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x1-knR7Kc {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 15px;
+  height: 22px;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a417datepicker .x1-sGd8j4 {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 47px;
+  line-height: 32px;
+  opacity: 0.3;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x10-Jl9YcI {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 0px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x10-search-ys4Eef {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x11-Jl9YcI {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 47px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x11-toast-ZxS0T9 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x12-Jl9YcI {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 94px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x12-text-fields-vgc3Vu {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x13-Jl9YcI {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 141px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 46px;
+}
+.a417datepicker .x13-view-controls-94MaWS {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x14-Jl9YcI {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 187px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x14-description-Vh3Boh {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x15-Jl9YcI {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 234px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x15-notification-bad-AmUiok {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x16-Jl9YcI {
+  background-color: transparent;
+  color: rgba(201,81,81,1.0);
+  font-size: 15px;
+  height: 32px;
+  left: 281px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x16-thumbnail-7oeGf9 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x17-X37WaY {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 0px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x17-copy-paste-HD1MSG {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x18-X37WaY {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 47px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x19-X37WaY {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 94px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x2-J3z4yp {
+  background-color: transparent;
+  color: rgba(201,81,81,1.0);
+  font-size: 15px;
+  height: 32px;
+  left: 281px;
+  line-height: 32px;
+  opacity: 0.1;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x2-buttons-Rhulji {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x2-sGd8j4 {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 94px;
+  line-height: 32px;
+  opacity: 0.3;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x20-X37WaY {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 141px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 46px;
+}
+.a417datepicker .x2017-Fxxfd4 {
+  background-color: transparent;
+  color: var(--science-blue);
+  font-size: 30px;
+  height: 54px;
+  left: 230px;
+  line-height: 54px;
+  opacity: 0.1;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 101px;
+}
+.a417datepicker .x2018-Fxxfd4 {
+  background-color: transparent;
+  color: var(--science-blue);
+  font-size: 30px;
+  height: 56px;
+  left: 230px;
+  line-height: 56px;
+  position: absolute;
+  text-align: center;
+  top: 54px;
+  white-space: nowrap;
+  width: 101px;
+}
+.a417datepicker .x2019-Fxxfd4 {
+  background-color: transparent;
+  color: var(--science-blue);
+  font-size: 30px;
+  height: 54px;
+  left: 230px;
+  line-height: 54px;
+  opacity: 0.1;
+  position: absolute;
+  text-align: center;
+  top: 110px;
+  white-space: nowrap;
+  width: 101px;
+}
+.a417datepicker .x21-X37WaY {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 187px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x22-X37WaY {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 234px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x23-Fxxfd4 {
+  background-color: transparent;
+  color: var(--science-blue);
+  font-size: 32px;
+  height: 54px;
+  left: 0px;
+  line-height: 54px;
+  opacity: 0.1;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 101px;
+}
+.a417datepicker .x23-X37WaY {
+  background-color: transparent;
+  color: rgba(201,81,81,1.0);
+  font-size: 15px;
+  height: 32px;
+  left: 281px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x24-Fxxfd4 {
+  background-color: transparent;
+  color: var(--science-blue);
+  font-size: 32px;
+  height: 56px;
+  left: 0px;
+  line-height: 56px;
+  position: absolute;
+  text-align: center;
+  top: 54px;
+  white-space: nowrap;
+  width: 101px;
+}
+.a417datepicker .x24-x8I7Lb {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 0px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x25-Fxxfd4 {
+  background-color: transparent;
+  color: var(--science-blue);
+  font-size: 32px;
+  height: 54px;
+  left: 0px;
+  line-height: 54px;
+  opacity: 0.1;
+  position: absolute;
+  text-align: center;
+  top: 110px;
+  white-space: nowrap;
+  width: 101px;
+}
+.a417datepicker .x25-x8I7Lb {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 47px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x26-J3z4yp {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 0px;
+  line-height: 32px;
+  opacity: 0.1;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x26-x8I7Lb {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 94px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x27-J3z4yp {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 47px;
+  line-height: 32px;
+  opacity: 0.1;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x27-x8I7Lb {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 141px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 46px;
+}
+.a417datepicker .x28-J3z4yp {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 94px;
+  line-height: 32px;
+  opacity: 0.1;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x28-x8I7Lb {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 187px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x29-J3z4yp {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 141px;
+  line-height: 32px;
+  opacity: 0.1;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 46px;
+}
+.a417datepicker .x29-x8I7Lb {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 234px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x3-controllers-XGvGsa {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x3-sGd8j4 {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 141px;
+  line-height: 32px;
+  opacity: 0.3;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 46px;
+}
+.a417datepicker .x3-sS4wC7 {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 0px;
+  line-height: 32px;
+  opacity: 0.1;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x30-J3z4yp {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 187px;
+  line-height: 32px;
+  opacity: 0.1;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x30-x8I7Lb {
+  background-color: transparent;
+  color: rgba(201,81,81,1.0);
+  font-size: 15px;
+  height: 32px;
+  left: 281px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x31-sGd8j4 {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 0px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x4-17-date-picker-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 380px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 50px;
+  white-space: nowrap;
+  width: auto;
+}
+.a417datepicker .x4-17-keysc-atepicker1-RdqET4 {
+  background-color: transparent;
+  height: 508px;
+  left: 370px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a417datepicker .x4-17-keysc-atepicker1-nTh22m {
+  background-color: transparent;
+  height: 508px;
+  left: 630px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a417datepicker .x4-17-keysc-atepicker2-0qOiNF {
+  background-color: transparent;
+  height: 508px;
+  left: 630px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a417datepicker .x4-17-keysc-atepicker2-pmwc2K {
+  background-color: transparent;
+  height: 508px;
+  left: 370px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a417datepicker .x4-17-measu-atepicker1-tBlotk {
+  background-color: rgba(242,242,242,1.0);
+  height: 305px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 360px;
+}
+.a417datepicker .x4-17-measu-atepicker2-EcNCMN {
+  background-color: rgba(242,242,242,1.0);
+  height: 238px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 360px;
+}
+.a417datepicker .x4-dialogs-XfJia9 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x4-sGd8j4 {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 187px;
+  line-height: 32px;
+  opacity: 0.3;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x4-sS4wC7 {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 15px;
+  height: 32px;
+  left: 47px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x5-dividers-jYs5wP {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x5-sGd8j4 {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 234px;
+  line-height: 32px;
+  opacity: 0.3;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x5-sS4wC7 {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 94px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x6-lists-CY9yOk {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x6-sGd8j4 {
+  background-color: transparent;
+  color: rgba(201,81,81,1.0);
+  font-size: 15px;
+  height: 32px;
+  left: 281px;
+  line-height: 32px;
+  opacity: 0.4;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x6-sS4wC7 {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 141px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 46px;
+}
+.a417datepicker .x7-no-item-6wC6Jq {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x7-sS4wC7 {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 187px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x8-progress-TIxFq4 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.a417datepicker .x8-sS4wC7 {
+  background-color: transparent;
+  color: var(--tundora);
+  font-size: 15px;
+  height: 32px;
+  left: 234px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x9-sS4wC7 {
+  background-color: transparent;
+  color: rgba(201,81,81,1.0);
+  font-size: 15px;
+  height: 32px;
+  left: 281px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 47px;
+}
+.a417datepicker .x9-scrolling-QBf695 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 30px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: 260px;
+}
+.border-class-1 {
+  border: 1px solid rgba(237,237,237,1.0);
+}
+.border-class-2 {
+  border: 1px solid rgba(135,135,135,1.0);
+}
+.font-class-1 {
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+}
+.font-class-2 {
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+}
+.font-class-3 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-4 {
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+}
+.font-class-5 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
+}
+.font-class-6 {
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+}
+.font-class-7 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
+  line-height: 84px;
+}
+.font-class-8 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
+}
+:root {
+  --azure-radiance: rgba(0,153,255,1.0);
+  --black: rgba(0,0,0,1.0);
+  --ebb: rgba(227,227,227,1.0);
+  --harlequin: rgba(51,204,0,1.0);
+  --masala: rgba(59,59,59,1.0);
+  --razzle-dazzle-rose: rgba(255,51,255,1.0);
+  --royal-blue: rgba(75,99,250,1.0);
+  --science-blue: rgba(0,114,222,1.0);
+  --tundora: rgba(69,69,69,1.0);
+  --white: rgba(255,255,255,1.0);
+}
