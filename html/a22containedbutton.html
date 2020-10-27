@@ -1,0 +1,2105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1680, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link href="../custom/custom.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../custom/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/a22containedbutton.css" />
+    <style>
+      @font-face {
+        font-family: "SamsungOneKorean-600";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 600_0.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-300";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-300_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-700";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-700_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-400";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-400_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-500";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 500_0.ttf")
+          format("truetype");
+      }
+
+      @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(245, 246, 247, 1)">
+    <input type="hidden" id="anPageName" name="page" value="a22containedbutton" />
+    <div class="anima-container-center-horizontal">
+      <div class="a22containedbutton anima-screen">
+        <div class="body-area-2-buttons-C61RwL">
+          <div class="tablet-wdVwiR">
+            <div class="maxwidth-MRIe6x">
+              <div class="guide-pOY9o1">
+                <div class="document-b-x-contents-BdsFKW"></div>
+                <div class="symbol-BdsFKW">
+                  <div class="x2-02-measu-edbutton33-oOQdcI">
+                    <div class="button-xOftnx">
+                      <div class="mobile-lig-buttonbody-m3jMsP">
+                        <div class="button-6VFKxd anima-valign-text-middle font-class-5">Max width</div>
+                      </div>
+                      <div class="mobile-lig-odycolored-m3jMsP">
+                        <div class="button-FOKow3 anima-valign-text-middle font-class-5">Max width</div>
+                      </div>
+                    </div>
+                    <div class="list01-xOftnx">
+                      <div class="mobile-lig-rouplistbg-Rbt9Og"></div>
+                      <div class="mobile-lig-basic1line-Rbt9Og">
+                        <div class="title-HfUSQh">
+                          <div class="main-text-1-line-U5kYsW anima-valign-text-middle font-class-6">List 4</div>
+                        </div>
+                      </div>
+                      <div class="mobile-lig-basic1line-UiRIGh">
+                        <div class="title-U8lfpB">
+                          <div class="main-text-1-line-vt2xx0 anima-valign-text-middle font-class-6">List 5</div>
+                        </div>
+                      </div>
+                      <div class="mobile-lig--list-text-Rbt9Og"></div>
+                      <div class="mobile-lig--list-text-UiRIGh"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="measure-BdsFKW">
+                  <div class="spacing-KqngHL">
+                    <div class="guide-measure-area-i0lEf6"></div>
+                    <div class="guide-measure-area-lZcXQK"></div>
+                  </div>
+                  <div class="spacing-dnZzpY">
+                    <div class="guide-measure-area-AOKm56"></div>
+                    <div class="guide-meas--spacing-2-AOKm56">
+                      <div class="x0-2mRnhR font-class-1">24</div>
+                      <div class="rectangle-2mRnhR"></div>
+                      <div class="rectangle-F5H1Ia"></div>
+                      <div class="rectangle-VwH9jk"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-3YEss7">
+                    <div class="guide-measure-area-0VT7o0"></div>
+                    <div class="guide-meas--spacing-2-0VT7o0">
+                      <div class="x0-Mhn10N font-class-1">24</div>
+                      <div class="rectangle-Mhn10N"></div>
+                      <div class="rectangle-MOLTgt"></div>
+                      <div class="rectangle-cv683y"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-CDxFtK">
+                    <div class="guide-measure-area-2Y1U4G"></div>
+                    <div class="guide-meas--spacing-2-2Y1U4G">
+                      <div class="value-p8TVuP">
+                        <div class="x0-pfhnbp font-class-1">24</div>
+                      </div>
+                      <div class="rectangle-p8TVuP"></div>
+                      <div class="rectangle-Iqf234"></div>
+                      <div class="rectangle-UTBwFn"></div>
+                    </div>
+                  </div>
+                  <div class="size-KqngHL">
+                    <div class="guide-measure-area-475SPX"></div>
+                    <div class="guide-meas-tom-size-1-475SPX">
+                      <div class="x0-x0CuCz font-class-1">W=1</div>
+                      <div class="rectangle-x0CuCz"></div>
+                      <div class="rectangle-yHNxkS"></div>
+                      <div class="rectangle-UxKEVk"></div>
+                    </div>
+                  </div>
+                  <div class="size-dnZzpY">
+                    <div class="guide-measure-area-wKjSNj"></div>
+                    <div class="guide-meas-tom-size-1-wKjSNj">
+                      <div class="x0-FkLScF font-class-1">W=1</div>
+                      <div class="rectangle-FkLScF"></div>
+                      <div class="rectangle-8s1E4q"></div>
+                      <div class="rectangle-1Rpk8N"></div>
+                    </div>
+                  </div>
+                  <div class="size-3YEss7">
+                    <div class="guide-meas-ght-size-1-2Ma41A">
+                      <div class="value-PF6MZQ">
+                        <div class="x0-zldmz5 font-class-1">44</div>
+                      </div>
+                      <div class="rectangle-PF6MZQ"></div>
+                      <div class="rectangle-WlTtBo"></div>
+                      <div class="rectangle-X9eXZp"></div>
+                    </div>
+                    <div class="guide-meas-horizontal-2Ma41A"></div>
+                    <div class="guide-meas-horizontal-nq3RbY"></div>
+                    <div class="guide-meas-eft-size-1-2Ma41A">
+                      <div class="value-cxql8g">
+                        <div class="x0-x8AxnS font-class-1">56</div>
+                      </div>
+                      <div class="rectangle-cxql8g"></div>
+                      <div class="rectangle-KeGFLa"></div>
+                      <div class="rectangle-uO3Lce"></div>
+                    </div>
+                    <div class="guide-meas-top-size-1-2Ma41A">
+                      <div class="value-y08WdM">
+                        <div class="x0-WTwTDa font-class-1">List width</div>
+                      </div>
+                      <div class="rectangle-y08WdM"></div>
+                      <div class="rectangle-z2msQW"></div>
+                      <div class="rectangle-3Gu1Yl"></div>
+                    </div>
+                    <div class="guide-meas-e-vertical-2Ma41A"></div>
+                    <div class="guide-meas-e-vertical-nq3RbY"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="screen-wid-uc774uc0c1-pOY9o1 font-class-1">
+                Screen width: 589 이상이고, Screen height: 411 초과 시 적용
+              </div>
+              <div class="max-width-tablet-pOY9o1 font-class-4">Max width (Tablet)</div>
+            </div>
+            <div class="minwidth-MRIe6x">
+              <div class="guide-b7lr6t">
+                <div class="document-b-x-contents-bhBWwg"></div>
+                <div class="symbol-bhBWwg">
+                  <div class="x2-02-measu-edbutton32-c6CIGT">
+                    <div class="button-NxsxMF">
+                      <div class="mobile-lig-buttonbody-xSogdd">
+                        <div class="button-yMxC7c anima-valign-text-middle font-class-5">Default width</div>
+                      </div>
+                      <div class="mobile-lig-odycolored-xSogdd">
+                        <div class="button-ecjthx anima-valign-text-middle font-class-5">Default width</div>
+                      </div>
+                    </div>
+                    <div class="list01-NxsxMF">
+                      <div class="mobile-lig-rouplistbg-eyd1RW"></div>
+                      <div class="mobile-lig-basic1line-eyd1RW">
+                        <div class="title-REmONC">
+                          <div class="main-text-1-line-K7GPJl anima-valign-text-middle font-class-6">List 4</div>
+                        </div>
+                      </div>
+                      <div class="mobile-lig-basic1line-x1Hf8K">
+                        <div class="title-ZtQqPe">
+                          <div class="main-text-1-line-oZhSfN anima-valign-text-middle font-class-6">List 5</div>
+                        </div>
+                      </div>
+                      <div class="mobile-lig--list-text-eyd1RW"></div>
+                      <div class="mobile-lig--list-text-x1Hf8K"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="measure-bhBWwg">
+                  <div class="spacing-h5N1nm">
+                    <div class="guide-measure-area-UFk38Q"></div>
+                    <div class="guide-measure-area-ip9yGP"></div>
+                  </div>
+                  <div class="spacing-Vv3WLf">
+                    <div class="guide-measure-area-KBPOra"></div>
+                    <div class="guide-meas--spacing-2-KBPOra">
+                      <div class="x0-hODPSU font-class-1">24</div>
+                      <div class="rectangle-hODPSU"></div>
+                      <div class="rectangle-UIO7r8"></div>
+                      <div class="rectangle-KVM5xI"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-G3b236">
+                    <div class="guide-measure-area-M1kXLP"></div>
+                    <div class="guide-meas--spacing-2-M1kXLP">
+                      <div class="x0-IdHZum font-class-1">24</div>
+                      <div class="rectangle-IdHZum"></div>
+                      <div class="rectangle-81uF3C"></div>
+                      <div class="rectangle-xQaFKI"></div>
+                    </div>
+                  </div>
+                  <div class="size-h5N1nm">
+                    <div class="guide-measure-area-hjIfu4"></div>
+                    <div class="guide-meas-tom-size-1-hjIfu4">
+                      <div class="x0-YZ7G5g font-class-1">240</div>
+                      <div class="rectangle-YZ7G5g"></div>
+                      <div class="rectangle-e4ik3o"></div>
+                      <div class="rectangle-BVAowv"></div>
+                    </div>
+                  </div>
+                  <div class="size-Vv3WLf">
+                    <div class="guide-measure-area-yxnWxD"></div>
+                    <div class="guide-meas-tom-size-1-yxnWxD">
+                      <div class="x0-xZXMmj font-class-1">240</div>
+                      <div class="rectangle-xZXMmj"></div>
+                      <div class="rectangle-ykcOZi"></div>
+                      <div class="rectangle-mrbwau"></div>
+                    </div>
+                  </div>
+                  <div class="size-G3b236">
+                    <div class="guide-meas-ght-size-1-DFbugx">
+                      <div class="value-vqWR49">
+                        <div class="x0-4zUPeP font-class-1">44</div>
+                      </div>
+                      <div class="rectangle-vqWR49"></div>
+                      <div class="rectangle-BRpmA9"></div>
+                      <div class="rectangle-hYL6pv"></div>
+                    </div>
+                    <div class="guide-meas-horizontal-DFbugx"></div>
+                    <div class="guide-meas-horizontal-KxHwaI"></div>
+                    <div class="guide-meas-eft-size-1-DFbugx">
+                      <div class="value-F03Hd2">
+                        <div class="x0-GmDxav font-class-1">56</div>
+                      </div>
+                      <div class="rectangle-F03Hd2"></div>
+                      <div class="rectangle-J9r8Sh"></div>
+                      <div class="rectangle-Q1sxh4"></div>
+                    </div>
+                  </div>
+                  <div class="size-fUThcz">
+                    <div class="guide-meas-top-size-1-HN7bnx">
+                      <div class="value-HAz0Rz">
+                        <div class="x0-wbygMa font-class-1">List width</div>
+                      </div>
+                      <div class="rectangle-HAz0Rz"></div>
+                      <div class="rectangle-OMrbC8"></div>
+                      <div class="rectangle-5Q6EuX"></div>
+                    </div>
+                    <div class="guide-meas-e-vertical-HN7bnx"></div>
+                    <div class="guide-meas-e-vertical-nYe3AS"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="screen-wid-uc774uc0c1-b7lr6t font-class-1">
+                Screen width: 589 이상이고, Screen height: 411 초과 시 적용
+              </div>
+              <div class="default-width-table-b7lr6t font-class-4">Default width (Tablet)</div>
+            </div>
+          </div>
+          <div class="mobile-wdVwiR">
+            <div class="group-TQDiaI">
+              <div class="typeface-so3dQ0">
+                <div class="document-b-x-contents-n8NrV0"></div>
+                <div class="general-n8NrV0">
+                  <div class="guide-form-ormal1line-q0oDTC">
+                    <div class="group-Ywhxcx">
+                      <div class="x-ZPxOQ4 font-class-1">;</div>
+                      <div class="value-ZPxOQ4 font-class-1">&#34;Roboto-Medium&#34;</div>
+                      <div class="property-ZPxOQ4 font-class-1">font-family:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-e-subtitle-q0oDTC">
+                    <div class="text-BKghVP font-class-3">General</div>
+                  </div>
+                  <div class="guide-form-ormal1line-b3yO8g">
+                    <div class="group-iUPxmw">
+                      <div class="x-BkxvDU font-class-1">;</div>
+                      <div class="value-BkxvDU font-class-1">17px</div>
+                      <div class="property-BkxvDU font-class-1">font-size:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-ormal1line-8ioeKI">
+                    <div class="group-XUh9u4">
+                      <div class="x-Bxs0sj font-class-1">;</div>
+                      <div class="value-Bxs0sj font-class-1">center</div>
+                      <div class="property-Bxs0sj font-class-1">text-align:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-ction1line-q0oDTC">
+                    <div class="group-2-gjon5A">
+                      <div class="value-f6iRec">
+                        <div class="x-GpV6Id font-class-1">;</div>
+                        <div class="x-DySN7I font-class-1">)</div>
+                        <div class="x-bfxkay font-class-1">(</div>
+                        <div class="value-GpV6Id font-class-1">--white-color</div>
+                        <div class="fn-GpV6Id font-class-1">var</div>
+                      </div>
+                      <div class="property-f6iRec font-class-1">color:</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="general-8wJXGe"></div>
+                <div class="guide-subject-type-n8NrV0">
+                  <div class="guide-numbering-type-g5BcN4">
+                    <div class="x1-2xxw1u anima-valign-text-middle font-class-3">2</div>
+                  </div>
+                  <div class="guide-property-g5BcN4 font-class-3">Type CSS</div>
+                </div>
+              </div>
+              <div class="shape-so3dQ0">
+                <div class="document-b-x-contents-16PBHL"></div>
+                <div class="general-16PBHL">
+                  <div class="guide-form-e-subtitle-7xUtb1">
+                    <div class="text-Wobvfa font-class-3">General</div>
+                  </div>
+                  <div class="guide-form-ormal1line-7xUtb1">
+                    <div class="group-X0CeBB">
+                      <div class="x-zW7qaO font-class-1">;</div>
+                      <div class="value-zW7qaO font-class-1">22px</div>
+                      <div class="property-zW7qaO font-class-1">border-radius:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-on1linecmt-7xUtb1">
+                    <div class="group-2-MjelZi">
+                      <div class="comment-y5JAm7 font-class-1">/*default*/</div>
+                      <div class="value-y5JAm7">
+                        <div class="x-YasVxU font-class-1">;</div>
+                        <div class="x-b8BxG4 font-class-1">)</div>
+                        <div class="x-85Cc6l font-class-1">(</div>
+                        <div class="value-YasVxU font-class-1">--primary-dark-color</div>
+                        <div class="fn-YasVxU font-class-1">var</div>
+                      </div>
+                      <div class="property-y5JAm7 font-class-1">background:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-me-divider-7xUtb1"></div>
+                  <div class="guide-form-me-divider-8u4ZhV"></div>
+                  <div class="guide-form-on1linecmt-8u4ZhV">
+                    <div class="group-2-Tdg1Sd">
+                      <div class="comment-KRxw9J font-class-1">/*disabled*/</div>
+                      <div class="value-KRxw9J">
+                        <div class="x-CGC3KY font-class-1">;</div>
+                        <div class="x-lk0tvY font-class-1">)</div>
+                        <div class="x-gBRLQE font-class-1">(</div>
+                        <div class="value-CGC3KY font-class-1">--primary-dark-color</div>
+                        <div class="fn-CGC3KY font-class-1">var</div>
+                      </div>
+                      <div class="property-KRxw9J font-class-1">background:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-al1linecmt-7xUtb1">
+                    <div class="group-bSTeSk">
+                      <div class="comment-AtmlwI font-class-1">/*disabled*/</div>
+                      <div class="x-AtmlwI font-class-1">;</div>
+                      <div class="value-AtmlwI font-class-1">0.4</div>
+                      <div class="property-AtmlwI font-class-1">opacity:</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="guide-subject-shape-16PBHL">
+                  <div class="guide-numbering-icon-j3aFZz">
+                    <div class="x1-JJG0Dv anima-valign-text-middle font-class-3">1</div>
+                  </div>
+                  <div class="guide-property-j3aFZz font-class-3">Shape CSS</div>
+                </div>
+              </div>
+              <div class="guide-so3dQ0">
+                <div class="document-b-x-contents-PVNDSN"></div>
+                <div class="symbol-PVNDSN">
+                  <div class="x2-02-measu-edbutton32-xfhrql">
+                    <div class="mobile-lig-buttonbody-hRtdYd">
+                      <div class="button-KxVEaz anima-valign-text-middle font-class-5">Button</div>
+                    </div>
+                    <div class="mobile-lig-odycolored-hRtdYd">
+                      <div class="button-tJJDeY anima-valign-text-middle font-class-5">Button</div>
+                    </div>
+                  </div>
+                  <div class="x2-02-measu-edbutton32-xjTkXw">
+                    <div class="mobile-lig-buttonbody-mAkTCe">
+                      <div class="button-k21jdB anima-valign-text-middle font-class-5">Button</div>
+                    </div>
+                    <div class="mobile-lig-odycolored-mAkTCe">
+                      <div class="button-pS5u6X anima-valign-text-middle font-class-5">Button</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="measure-2-PVNDSN">
+                  <div class="spacing-uSbxxm">
+                    <div class="guide-meas--spacing-2-UAUJrD">
+                      <div class="x0-Se2z2t font-class-1">16<br />(min)</div>
+                      <div class="rectangle-Se2z2t"></div>
+                      <div class="rectangle-eXRSfw"></div>
+                      <div class="rectangle-8OUDfC"></div>
+                    </div>
+                    <div class="guide-measure-area-UAUJrD"></div>
+                    <div class="guide-meas-e-vertical-UAUJrD"></div>
+                    <div class="guide-meas-e-vertical-lcItWt"></div>
+                  </div>
+                  <div class="spacing-uXOxnd">
+                    <div class="guide-meas--spacing-2-jxtGMV">
+                      <div class="x0-bhwUdA font-class-1">16<br />(min)</div>
+                      <div class="rectangle-bhwUdA"></div>
+                      <div class="rectangle-J5MN4h"></div>
+                      <div class="rectangle-OXMO3Y"></div>
+                    </div>
+                    <div class="guide-measure-area-jxtGMV"></div>
+                    <div class="guide-meas-e-vertical-jxtGMV"></div>
+                    <div class="guide-meas-e-vertical-Ki0PhN"></div>
+                  </div>
+                  <div class="spacing-QEVPxH">
+                    <div class="guide-meas--spacing-2-mAgzIW">
+                      <div class="x0-uyzksR font-class-1">16<br />(min)</div>
+                      <div class="rectangle-uyzksR"></div>
+                      <div class="rectangle-7Wm3Pz"></div>
+                      <div class="rectangle-rbQEXs"></div>
+                    </div>
+                    <div class="guide-measure-area-mAgzIW"></div>
+                    <div class="guide-meas-e-vertical-mAgzIW"></div>
+                    <div class="guide-meas-e-vertical-3XlFDH"></div>
+                  </div>
+                  <div class="spacing-wDOuh4">
+                    <div class="guide-meas--spacing-2-Oxa3xx">
+                      <div class="x0-ZoEx9a font-class-1">16<br />(min)</div>
+                      <div class="rectangle-ZoEx9a"></div>
+                      <div class="rectangle-fy1HnQ"></div>
+                      <div class="rectangle-lQkOL7"></div>
+                    </div>
+                    <div class="guide-measure-area-Oxa3xx"></div>
+                  </div>
+                  <div class="guide-meas-e-vertical-uSbxxm"></div>
+                  <div class="guide-meas-e-vertical-uXOxnd"></div>
+                  <div class="size-uSbxxm">
+                    <div class="guide-meas-top-size-1-OduDyD">
+                      <div class="value-J9an5l">
+                        <div class="x0-TJEd3d font-class-1">W=1</div>
+                      </div>
+                      <div class="rectangle-J9an5l"></div>
+                      <div class="rectangle-xL4gpO"></div>
+                      <div class="rectangle-6kfHdS"></div>
+                    </div>
+                    <div class="guide-measure-area-OduDyD"></div>
+                    <div class="guide-meas-e-vertical-OduDyD"></div>
+                    <div class="guide-meas-e-vertical-iXLekp"></div>
+                  </div>
+                  <div class="size-uXOxnd">
+                    <div class="guide-meas-top-size-1-tnnjol">
+                      <div class="value-LJHF0I">
+                        <div class="x0-Z6DuLe font-class-1">W=1</div>
+                      </div>
+                      <div class="rectangle-LJHF0I"></div>
+                      <div class="rectangle-AMf4pf"></div>
+                      <div class="rectangle-qZTXS2"></div>
+                    </div>
+                    <div class="guide-measure-area-tnnjol"></div>
+                    <div class="guide-meas-e-vertical-tnnjol"></div>
+                    <div class="guide-meas-e-vertical-JSGdxZ"></div>
+                  </div>
+                  <div class="size-QEVPxH">
+                    <div class="guide-meas-ght-size-1-uR4pQu">
+                      <div class="value-Bt8mEI">
+                        <div class="x0-yfM190 font-class-1">44</div>
+                      </div>
+                      <div class="rectangle-Bt8mEI"></div>
+                      <div class="rectangle-XwY4Zj"></div>
+                      <div class="rectangle-Qr09za"></div>
+                    </div>
+                    <div class="guide-meas-eft-size-1-uR4pQu">
+                      <div class="value-kD4Acj">
+                        <div class="x0-2PY53U font-class-1">56</div>
+                      </div>
+                      <div class="rectangle-kD4Acj"></div>
+                      <div class="rectangle-mjAxGs"></div>
+                      <div class="rectangle-qqpu1l"></div>
+                    </div>
+                    <div class="guide-meas-horizontal-uR4pQu"></div>
+                    <div class="guide-meas-horizontal-eYmTgQ"></div>
+                  </div>
+                  <div class="guide-numbering-type-uSbxxm">
+                    <div class="x1-WsxWbZ anima-valign-text-middle font-class-3">2</div>
+                  </div>
+                </div>
+                <div class="measure-1-PVNDSN">
+                  <div class="size-xJF9iY">
+                    <div class="guide-measure-area-TyrDZ3"></div>
+                    <div class="guide-measure-area-jWClEu"></div>
+                    <div class="guide-meas-eft-size-1-TyrDZ3">
+                      <div class="value-VuIvOS">
+                        <div class="x0-HSWfn8 font-class-1">56</div>
+                      </div>
+                      <div class="rectangle-VuIvOS"></div>
+                      <div class="rectangle-OFvxSE"></div>
+                      <div class="rectangle-nrKUE5"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-xJF9iY">
+                    <div class="guide-meas--spacing-2-9YFSXm">
+                      <div class="value-5oUupv">
+                        <div class="x0-9PM2ML font-class-1">24</div>
+                      </div>
+                      <div class="rectangle-5oUupv"></div>
+                      <div class="rectangle-vPJQIv"></div>
+                      <div class="rectangle-68CExn"></div>
+                    </div>
+                    <div class="guide-measure-area-9YFSXm"></div>
+                  </div>
+                  <div class="spacing-nOyTxc">
+                    <div class="guide-meas--spacing-2-rApWCU">
+                      <div class="value-lX8lmk">
+                        <div class="x0-VE725K font-class-1">24</div>
+                      </div>
+                      <div class="rectangle-lX8lmk"></div>
+                      <div class="rectangle-z9X68c"></div>
+                      <div class="rectangle-GDT2jz"></div>
+                    </div>
+                    <div class="guide-measure-area-rApWCU"></div>
+                  </div>
+                  <div class="spacing-mMagKa">
+                    <div class="guide-measure-area-jYxvDZ"></div>
+                    <div class="guide-meas--spacing-1-jYxvDZ">
+                      <div class="value-YuWPBj">
+                        <div class="x0-gQ6Xlz font-class-1">6</div>
+                      </div>
+                      <div class="rectangle-YuWPBj"></div>
+                      <div class="rectangle-GQcf6U"></div>
+                      <div class="rectangle-IvyrZq"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-Nnqhji">
+                    <div class="guide-measure-area-ZBzmzx"></div>
+                    <div class="guide-meas--spacing-1-ZBzmzx">
+                      <div class="value-rkL6Uj">
+                        <div class="x0-pYMBFz font-class-1">6</div>
+                      </div>
+                      <div class="rectangle-rkL6Uj"></div>
+                      <div class="rectangle-1e8pj6"></div>
+                      <div class="rectangle-dpHDjb"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-rjoXrW">
+                    <div class="guide-meas--spacing-2-ahtQb7">
+                      <div class="value-lRZa62">
+                        <div class="x0-fPiOmU font-class-1">8</div>
+                      </div>
+                      <div class="rectangle-lRZa62"></div>
+                      <div class="rectangle-KbxFm1"></div>
+                      <div class="rectangle-CUw8cs"></div>
+                    </div>
+                    <div class="guide-measure-area-ahtQb7"></div>
+                  </div>
+                  <div class="guide-numb-ring-shape-xJF9iY">
+                    <div class="x1-YwJRZ9 anima-valign-text-middle font-class-3">1</div>
+                  </div>
+                </div>
+              </div>
+              <div class="when-the-button-is-m-so3dQ0 font-class-1">
+                When the button is maximized, the margin between the buttons is 8px.
+              </div>
+              <div class="default-width-so3dQ0 font-class-4">Default width</div>
+            </div>
+            <div class="keyscreen-TQDiaI">
+              <div class="document-b-x-contents-A9aoxY"></div>
+              <img
+                class="x2-02-keysc-edbutton32-A9aoxY"
+                src="img/2-2-contained-button-2-02keyscreenw360mpl022containedbutton32-AD606397-5336-4B78-99E0-EF31FBC974B8@2x.png"
+              />
+              <img
+                class="x2-02-keysc-edbutton32-6Qj0Em"
+                src="img/2-2-contained-button-2-02keyscreenw360mpd022containedbutton32-372A1D68-9DA6-46B2-B251-EA29C8737BD3@2x.png"
+              />
+            </div>
+          </div>
+          <div class="body-area-2-buttons-wdVwiR font-class-1">Body area: 2 buttons</div>
+        </div>
+        <div class="body-area-1-button-C61RwL">
+          <div class="mobile-l3mLy3">
+            <div class="multi-line-ase-tablet-nlnVUM">
+              <div class="guide-09hosR">
+                <div class="document-b-x-contents-rZOiIF"></div>
+                <div class="symbol-rZOiIF"></div>
+                <div class="measure-rZOiIF">
+                  <div class="spacing-oB1Lzt">
+                    <div class="guide-measure-area-pVSEt1"></div>
+                    <div class="guide-meas--spacing-3-pVSEt1">
+                      <div class="x0-nxe2Vx font-class-1">16</div>
+                      <div class="rectangle-nxe2Vx"></div>
+                      <div class="rectangle-8UW8cm"></div>
+                      <div class="rectangle-IwTe9q"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-Cxx0Na">
+                    <div class="guide-measure-area-flZPaw"></div>
+                    <div class="guide-meas--spacing-3-flZPaw">
+                      <div class="x0-JQsXRN font-class-1">16</div>
+                      <div class="rectangle-JQsXRN"></div>
+                      <div class="rectangle-wADOpT"></div>
+                      <div class="rectangle-714NZE"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-DHFHTo">
+                    <div class="guide-measure-area-qpCHxL"></div>
+                    <div class="guide-meas--spacing-2-qpCHxL">
+                      <div class="value-F9KGRC">
+                        <div class="x0-ZKkQ5a font-class-1">W=1</div>
+                      </div>
+                      <div class="rectangle-F9KGRC"></div>
+                      <div class="rectangle-wxQVvO"></div>
+                      <div class="rectangle-5S81vd"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-7MBhMa">
+                    <div class="guide-measure-area-xnxeL2"></div>
+                    <div class="guide-meas--spacing-2-xnxeL2">
+                      <div class="value-s3xdF1">
+                        <div class="x0-9mKB2x font-class-1">W=1</div>
+                      </div>
+                      <div class="rectangle-s3xdF1"></div>
+                      <div class="rectangle-S1ScVR"></div>
+                      <div class="rectangle-N2SHBi"></div>
+                    </div>
+                  </div>
+                  <div class="size-oB1Lzt">
+                    <div class="guide-meas-tom-size-1-MrnsUJ">
+                      <div class="x0-DE8m6m font-class-1">List width</div>
+                      <div class="rectangle-DE8m6m"></div>
+                      <div class="rectangle-wODSxH"></div>
+                      <div class="rectangle-eKhftf"></div>
+                    </div>
+                    <div class="guide-meas-e-vertical-MrnsUJ"></div>
+                    <div class="guide-meas-e-vertical-gbXo0R"></div>
+                  </div>
+                  <div class="size-Cxx0Na">
+                    <div class="guide-meas-top-size-2-LAr2Wv">
+                      <div class="value-c7wsW1">
+                        <div class="x0-TqboTd font-class-1">Max width : 60% of list width</div>
+                      </div>
+                      <div class="rectangle-c7wsW1"></div>
+                      <div class="rectangle-pCNMTD"></div>
+                      <div class="rectangle-CdS2AL"></div>
+                    </div>
+                    <div class="guide-meas-e-vertical-LAr2Wv"></div>
+                    <div class="guide-meas-e-vertical-BG5kti"></div>
+                  </div>
+                  <div class="guide-measure-area-oB1Lzt"></div>
+                </div>
+              </div>
+              <div class="multiline-case-max-09hosR font-class-4">Multiline case : max 2 line (Tablet)</div>
+              <div class="screen-wid-uc774uc0c1-09hosR font-class-1">
+                Screen width: 589 이상이고, Screen height: 411 초과 시 적용<br />텍스트가 Max width 60%를 넘어서면
+                Text는 ... 처리된다.
+              </div>
+            </div>
+            <div class="multi-line-case-nlnVUM">
+              <div class="guide-ebMn0H">
+                <div class="document-b-x-contents-bz3uxC"></div>
+                <div class="symbol-bz3uxC">
+                  <div class="x2-02-measu-dbutton312-Qa4o5U">
+                    <div class="mobile-lig-buttonbody-OuUdFJ">
+                      <div class="button-RNiRMZ anima-valign-text-middle font-class-5">
+                        Lorem ipsum dolor sit amet, <br />conse ctetur adipiscingelit...
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="measure-bz3uxC">
+                  <div class="spacing-JOuBep">
+                    <div class="guide-measure-area-NpbtmJ"></div>
+                    <div class="guide-meas--spacing-3-NpbtmJ">
+                      <div class="x0-xYVUsP font-class-1">16<br />(min)</div>
+                      <div class="rectangle-xYVUsP"></div>
+                      <div class="rectangle-7Ui647"></div>
+                      <div class="rectangle-HHegHC"></div>
+                    </div>
+                  </div>
+                  <div class="text-JOuBep">
+                    <div class="guide-measure-area-1MceZW"></div>
+                  </div>
+                  <div class="spacing-zX8CDf">
+                    <div class="guide-measure-area-ewanmT"></div>
+                    <div class="guide-meas--spacing-2-ewanmT">
+                      <div class="value-eAG2PR">
+                        <div class="x0-CkzfBM font-class-1">W=1</div>
+                      </div>
+                      <div class="rectangle-eAG2PR"></div>
+                      <div class="rectangle-bbGmuf"></div>
+                      <div class="rectangle-vUHoxA"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-l7whEC">
+                    <div class="guide-measure-area-SbOEaL"></div>
+                    <div class="guide-meas--spacing-2-SbOEaL">
+                      <div class="value-o2ZJej">
+                        <div class="x0-poxXAF font-class-1">W=1</div>
+                      </div>
+                      <div class="rectangle-o2ZJej"></div>
+                      <div class="rectangle-ahnafk"></div>
+                      <div class="rectangle-fGDfTC"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-remskG">
+                    <div class="guide-measure-area-8suC7f"></div>
+                    <div class="guide-meas--spacing-3-8suC7f">
+                      <div class="x0-FDIhlk font-class-1">16<br />(min)</div>
+                      <div class="rectangle-FDIhlk"></div>
+                      <div class="rectangle-t6m2tD"></div>
+                      <div class="rectangle-D5vMsL"></div>
+                    </div>
+                  </div>
+                  <div class="size-JOuBep">
+                    <div class="guide-meas-top-size-2-6mBDAv">
+                      <div class="value-iHedYV">
+                        <div class="x0-x27xh8 font-class-1">Max Width : 75% of list width</div>
+                      </div>
+                      <div class="rectangle-iHedYV"></div>
+                      <div class="rectangle-4A8Ivm"></div>
+                      <div class="rectangle-kdRT7T"></div>
+                    </div>
+                    <div class="guide-meas-e-vertical-6mBDAv"></div>
+                    <div class="guide-meas-e-vertical-YvoMCx"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="radius-wid-uc88cuc6b0-ebMn0H font-class-1">
+                Radius, Width, 상하좌우 마진값 유지한 채 높이만 조절한다.
+              </div>
+              <div class="multiline-case-max-ebMn0H font-class-4">Multiline case : max 2 line</div>
+            </div>
+            <div class="max-width-tablet-nlnVUM">
+              <div class="guide-ORnD1x">
+                <div class="document-b-x-contents-g5wJq4"></div>
+                <div class="symbol-g5wJq4"></div>
+                <div class="measure-g5wJq4">
+                  <div class="spacing-VHiQZZ">
+                    <div class="guide-measure-area-niStiO"></div>
+                    <div class="guide-meas--spacing-3-niStiO">
+                      <div class="x0-KB2nnj font-class-1">16</div>
+                      <div class="rectangle-KB2nnj"></div>
+                      <div class="rectangle-05GTp9"></div>
+                      <div class="rectangle-lvqxxp"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-exTnrr">
+                    <div class="guide-measure-area-FAyz6B"></div>
+                    <div class="guide-meas--spacing-3-FAyz6B">
+                      <div class="x0-xBrwst font-class-1">16</div>
+                      <div class="rectangle-xBrwst"></div>
+                      <div class="rectangle-gWiazx"></div>
+                      <div class="rectangle-wWpZ6p"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-1Jfc70">
+                    <div class="guide-measure-area-j6J6Nn"></div>
+                    <div class="guide-meas--spacing-2-j6J6Nn">
+                      <div class="value-hANxs8">
+                        <div class="x0-f41Qns font-class-1">W=1</div>
+                      </div>
+                      <div class="rectangle-hANxs8"></div>
+                      <div class="rectangle-5x5Qhm"></div>
+                      <div class="rectangle-r4rTpr"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-rRwlv6">
+                    <div class="guide-measure-area-VDLxQC"></div>
+                    <div class="guide-meas--spacing-2-VDLxQC">
+                      <div class="value-xxYIxI">
+                        <div class="x0-8fQYru font-class-1">W=1</div>
+                      </div>
+                      <div class="rectangle-xxYIxI"></div>
+                      <div class="rectangle-6tWGQt"></div>
+                      <div class="rectangle-mI7wCU"></div>
+                    </div>
+                  </div>
+                  <div class="text-VHiQZZ">
+                    <div class="guide-measure-area-qhVcfC"></div>
+                  </div>
+                  <div class="size-VHiQZZ">
+                    <div class="guide-meas-tom-size-1-Ty810Y">
+                      <div class="x0-uXLsfV font-class-1">List width</div>
+                      <div class="rectangle-uXLsfV"></div>
+                      <div class="rectangle-jh9A0a"></div>
+                      <div class="rectangle-8eYR6d"></div>
+                    </div>
+                    <div class="guide-meas-e-vertical-Ty810Y"></div>
+                    <div class="guide-meas-e-vertical-XHTR58"></div>
+                  </div>
+                  <div class="size-exTnrr">
+                    <div class="guide-meas-top-size-2-Ct0JYP">
+                      <div class="value-QHXC35">
+                        <div class="x0-INlanq font-class-1">Max width : 60% of list width</div>
+                      </div>
+                      <div class="rectangle-QHXC35"></div>
+                      <div class="rectangle-xhobyF"></div>
+                      <div class="rectangle-XaYbdk"></div>
+                    </div>
+                    <div class="guide-meas-e-vertical-Ct0JYP"></div>
+                    <div class="guide-meas-e-vertical-FKG83Z"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="screen-wid-uc774uc0c1-ORnD1x font-class-1">
+                Screen width: 589 이상이고, Screen height: 411 초과 시 적용<br />화면에서 가장 긴 버튼의 Label에 맞춰
+                최대 List 너비 기준 60% 의 고정 Width로 버튼을 제공한다.
+              </div>
+              <div class="max-width-tablet-ORnD1x font-class-4">Max width (Tablet)</div>
+            </div>
+            <div class="max-width-nlnVUM">
+              <div class="guide-7XKOu4">
+                <div class="document-b-x-contents-L2ylWz"></div>
+                <div class="symbol-L2ylWz">
+                  <div class="x2-02-measu-dbutton311-a20iJj">
+                    <div class="mobile-lig-buttonbody-SQJw10">
+                      <div class="button-KOPFz4 anima-valign-text-middle font-class-5">Max width (w 75%)</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="measure-L2ylWz">
+                  <div class="spacing-51Ic38">
+                    <div class="guide-measure-area-xZqTmR"></div>
+                    <div class="guide-meas--spacing-3-xZqTmR">
+                      <div class="x0-Dyrwj0 font-class-1">16<br />(min)</div>
+                      <div class="rectangle-Dyrwj0"></div>
+                      <div class="rectangle-thl3SX"></div>
+                      <div class="rectangle-nRiO5i"></div>
+                    </div>
+                  </div>
+                  <div class="text-51Ic38">
+                    <div class="guide-measure-area-7DvHya"></div>
+                  </div>
+                  <div class="spacing-vw12cP">
+                    <div class="guide-measure-area-YxQSOU"></div>
+                    <div class="guide-meas--spacing-2-YxQSOU">
+                      <div class="value-r2P5px">
+                        <div class="x0-bm4ggF font-class-1">W=1</div>
+                      </div>
+                      <div class="rectangle-r2P5px"></div>
+                      <div class="rectangle-YjYxxv"></div>
+                      <div class="rectangle-iiKmGa"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-2PZchB">
+                    <div class="guide-measure-area-ycdi8C"></div>
+                    <div class="guide-meas--spacing-2-ycdi8C">
+                      <div class="value-3VetXH">
+                        <div class="x0-GhGxwX font-class-1">W=1</div>
+                      </div>
+                      <div class="rectangle-3VetXH"></div>
+                      <div class="rectangle-dEQLXx"></div>
+                      <div class="rectangle-agJkYk"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-4CjPl2">
+                    <div class="guide-measure-area-HtiTV4"></div>
+                    <div class="guide-meas--spacing-3-HtiTV4">
+                      <div class="x0-2F8R8a font-class-1">16<br />(min)</div>
+                      <div class="rectangle-2F8R8a"></div>
+                      <div class="rectangle-uJ5kJ4"></div>
+                      <div class="rectangle-8rk6xO"></div>
+                    </div>
+                  </div>
+                  <div class="size-51Ic38">
+                    <div class="guide-meas-top-size-2-NF1KYc">
+                      <div class="value-08DUJb">
+                        <div class="x0-on41rM font-class-1">Max Width : 75% of list width</div>
+                      </div>
+                      <div class="rectangle-08DUJb"></div>
+                      <div class="rectangle-bx2oRN"></div>
+                      <div class="rectangle-CkbGNX"></div>
+                    </div>
+                    <div class="guide-meas-e-vertical-NF1KYc"></div>
+                    <div class="guide-meas-e-vertical-GKxlL3"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="ud654uba74-labeluc5d0-7XKOu4 font-class-1">
+                화면에서 가장 긴 버튼의 Label에 맞춰 최대 List 너비 기준 75% 의 Width로 버튼을 제공한다.
+              </div>
+              <div class="max-width-7XKOu4 font-class-4">Max width</div>
+            </div>
+            <div class="default-width-tablet-nlnVUM">
+              <div class="guide-Ue8hje">
+                <div class="document-b-x-contents-YOVf0a"></div>
+                <div class="symbol-YOVf0a"></div>
+                <div class="measure-YOVf0a">
+                  <div class="spacing-uPpuyQ">
+                    <div class="guide-measure-area-dTSoYr"></div>
+                    <div class="guide-meas--spacing-3-dTSoYr">
+                      <div class="x0-eRxOh7 font-class-1">16</div>
+                      <div class="rectangle-eRxOh7"></div>
+                      <div class="rectangle-C3tMJV"></div>
+                      <div class="rectangle-QyNoIt"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-o6eWIi">
+                    <div class="guide-measure-area-VqNRxr"></div>
+                    <div class="guide-meas--spacing-2-VqNRxr">
+                      <div class="value-neNnBO">
+                        <div class="x0-eP42ME font-class-1">W=1</div>
+                      </div>
+                      <div class="rectangle-neNnBO"></div>
+                      <div class="rectangle-XZeFqA"></div>
+                      <div class="rectangle-JKxVQo"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-SdDyJq">
+                    <div class="guide-measure-area-uShj4Y"></div>
+                    <div class="guide-meas--spacing-2-uShj4Y">
+                      <div class="value-Yz2fts">
+                        <div class="x0-xJVJhO font-class-1">W=1</div>
+                      </div>
+                      <div class="rectangle-Yz2fts"></div>
+                      <div class="rectangle-jzzq21"></div>
+                      <div class="rectangle-pNtgtZ"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-bRFFdS">
+                    <div class="guide-measure-area-jADmG7"></div>
+                    <div class="guide-meas--spacing-3-jADmG7">
+                      <div class="x0-4xnvn7 font-class-1">16</div>
+                      <div class="rectangle-4xnvn7"></div>
+                      <div class="rectangle-gN2urx"></div>
+                      <div class="rectangle-UnXhLY"></div>
+                    </div>
+                  </div>
+                  <div class="text-uPpuyQ">
+                    <div class="guide-measure-area-rSMh8X"></div>
+                  </div>
+                  <div class="size-uPpuyQ">
+                    <div class="guide-meas-tom-size-1-RqosVm">
+                      <div class="x0-Gv75tl font-class-1">List width</div>
+                      <div class="rectangle-Gv75tl"></div>
+                      <div class="rectangle-s0NhrA"></div>
+                      <div class="rectangle-5CaGQN"></div>
+                    </div>
+                    <div class="guide-meas-e-vertical-RqosVm"></div>
+                    <div class="guide-meas-e-vertical-uPxfGl"></div>
+                  </div>
+                  <div class="size-o6eWIi">
+                    <div class="guide-meas-top-size-2-CRAk3m">
+                      <div class="value-5a3RwT">
+                        <div class="x0-0VgxYh font-class-1">Min width : 240</div>
+                      </div>
+                      <div class="rectangle-5a3RwT"></div>
+                      <div class="rectangle-Ara5fq"></div>
+                      <div class="rectangle-iWyopp"></div>
+                    </div>
+                    <div class="guide-meas-e-vertical-CRAk3m"></div>
+                    <div class="guide-meas-e-vertical-jlTKEY"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="screen-wid-uc774uc0c1-Ue8hje font-class-1">
+                Screen width: 589 이상이고, Screen height: 411 초과 시 적용
+              </div>
+              <div class="default-width-table-Ue8hje font-class-4">Default width (Tablet)</div>
+            </div>
+            <div class="default-width-nlnVUM">
+              <div class="group-tUw3jX">
+                <div class="typeface-OLxxwe">
+                  <div class="document-b-x-contents-I9jW9q"></div>
+                  <div class="general-I9jW9q">
+                    <div class="guide-form-e-subtitle-2l9W8x">
+                      <div class="text-1BxB6q font-class-3">General</div>
+                    </div>
+                    <div class="guide-form-ormal1line-2l9W8x">
+                      <div class="group-4Pp7XX">
+                        <div class="x-Mw34F5 font-class-1">;</div>
+                        <div class="value-Mw34F5 font-class-1">&#34;Roboto-Medium&#34;</div>
+                        <div class="property-Mw34F5 font-class-1">font-family:</div>
+                      </div>
+                    </div>
+                    <div class="guide-form-ormal1line-CwkxbM">
+                      <div class="group-IdjW02">
+                        <div class="x-pmVgVS font-class-1">;</div>
+                        <div class="value-pmVgVS font-class-1">17px</div>
+                        <div class="property-pmVgVS font-class-1">font-size:</div>
+                      </div>
+                    </div>
+                    <div class="guide-form-ormal1line-9BklyN">
+                      <div class="group-Ff7xze">
+                        <div class="x-ltanVB font-class-1">;</div>
+                        <div class="value-ltanVB font-class-1">center</div>
+                        <div class="property-ltanVB font-class-1">text-align:</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="light-theme-I9jW9q">
+                    <div class="guide-form-e-subtitle-lpYnsh">
+                      <div class="text-NWHRrB font-class-3">Light theme</div>
+                    </div>
+                    <div class="guide-form-l-lightcmt-lpYnsh">
+                      <div class="group-2-6tcG8s">
+                        <div class="comment-NCuep3 font-class-1">/*default*/</div>
+                        <div class="x-NCuep3 font-class-1">;</div>
+                        <div class="group-NCuep3">
+                          <div class="value-cvZTp4 font-class-1">#252525</div>
+                        </div>
+                        <div class="property-NCuep3 font-class-1">color:</div>
+                      </div>
+                    </div>
+                    <div class="guide-form-me-divider-lpYnsh"></div>
+                    <div class="guide-form-l-lightcmt-wFKqrN">
+                      <div class="group-2-6Sb4sD">
+                        <div class="comment-VBMVZz font-class-1">/*disabled*/</div>
+                        <div class="x-VBMVZz font-class-1">;</div>
+                        <div class="group-VBMVZz">
+                          <div class="value-kcjQMb font-class-1">#252525</div>
+                        </div>
+                        <div class="property-VBMVZz font-class-1">color:</div>
+                      </div>
+                    </div>
+                    <div class="guide-form-l-lightcmt-GC8LCy">
+                      <div class="group-2-ay6J41">
+                        <div class="comment-RkaL0p font-class-1">/*disabled*/</div>
+                        <div class="x-RkaL0p font-class-1">;</div>
+                        <div class="group-RkaL0p">
+                          <div class="value-kTPVxX font-class-1">0.4</div>
+                        </div>
+                        <div class="property-RkaL0p font-class-1">opacity:</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dark-theme-I9jW9q">
+                    <div class="guide-form-e-subtitle-KzeiPM">
+                      <div class="text-ixPGZX font-class-3">Dark theme</div>
+                    </div>
+                    <div class="guide-form-rk1linecmt-KzeiPM">
+                      <div class="group-2-1cKyI2">
+                        <div class="comment-sALmLE font-class-1">/*default*/</div>
+                        <div class="value-sALmLE">
+                          <div class="background-1xAWQD"></div>
+                          <div class="x-1xAWQD font-class-1">;</div>
+                          <div class="x-RFbpxM font-class-1">)</div>
+                          <div class="x-gZcn12 font-class-1">(</div>
+                          <div class="value-1xAWQD font-class-1">--white-color</div>
+                          <div class="fn-1xAWQD font-class-1">var</div>
+                        </div>
+                        <div class="property-sALmLE font-class-1">color:</div>
+                      </div>
+                    </div>
+                    <div class="guide-form-me-divider-KzeiPM"></div>
+                    <div class="guide-form-rk1linecmt-kJJ3XL">
+                      <div class="group-2-oUCmYz">
+                        <div class="comment-7DQRMu font-class-1">/*disabled*/</div>
+                        <div class="value-7DQRMu">
+                          <div class="background-u2sHH3"></div>
+                          <div class="x-u2sHH3 font-class-1">;</div>
+                          <div class="x-W9D03M font-class-1">)</div>
+                          <div class="x-t8rirx font-class-1">(</div>
+                          <div class="value-u2sHH3 font-class-1">--white-color</div>
+                          <div class="fn-u2sHH3 font-class-1">var</div>
+                        </div>
+                        <div class="property-7DQRMu font-class-1">color:</div>
+                      </div>
+                    </div>
+                    <div class="guide-form-al-darkcmt-KzeiPM">
+                      <div class="group-2-lbOzEQ">
+                        <div class="comment-MnSXuq font-class-1">/*disabled*/</div>
+                        <div class="x-MnSXuq font-class-1">;</div>
+                        <div class="group-MnSXuq">
+                          <div class="value-fAx7pT font-class-1">0.4</div>
+                        </div>
+                        <div class="property-MnSXuq font-class-1">opacity:</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="guide-subject-type-I9jW9q">
+                    <div class="guide-numbering-type-x1TmZy">
+                      <div class="x1-TVCEHB anima-valign-text-middle font-class-3">2</div>
+                    </div>
+                    <div class="guide-property-x1TmZy font-class-3">Type CSS</div>
+                  </div>
+                </div>
+                <div class="shape-OLxxwe">
+                  <div class="document-b-x-contents-85cEAC"></div>
+                  <div class="general-85cEAC">
+                    <div class="guide-form-e-subtitle-nj3Aft">
+                      <div class="text-ESdDsg font-class-3">General</div>
+                    </div>
+                    <div class="guide-form-ormal1line-nj3Aft">
+                      <div class="group-DBvHBn">
+                        <div class="x-QMFDyl font-class-1">;</div>
+                        <div class="value-QMFDyl font-class-1">22px</div>
+                        <div class="property-QMFDyl font-class-1">border-radius:</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="light-theme-85cEAC">
+                    <div class="guide-form-e-subtitle-LEE9T2">
+                      <div class="text-ksuIRg font-class-3">Light theme</div>
+                    </div>
+                    <div class="guide-form-light1line-LEE9T2">
+                      <div class="group-2-R0bL7R">
+                        <div class="value-rwyvtw">
+                          <div class="background-kkdevU"></div>
+                          <div class="x-kkdevU font-class-1">;</div>
+                          <div class="x-oCbWJR font-class-1">)</div>
+                          <div class="x-8PX1c9 font-class-1">(</div>
+                          <div class="value-kkdevU font-class-1">--black-color</div>
+                          <div class="fn-kkdevU font-class-1">var</div>
+                        </div>
+                        <div class="property-rwyvtw font-class-1">background:</div>
+                      </div>
+                    </div>
+                    <div class="guide-form-rmal-light-LEE9T2">
+                      <div class="group-2-Ed5ocJ">
+                        <div class="x-lnB1px font-class-1">;</div>
+                        <div class="group-lnB1px">
+                          <div class="value-nCIUOt font-class-1">0.06</div>
+                        </div>
+                        <div class="property-lnB1px font-class-1">opacity:</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dark-theme-85cEAC">
+                    <div class="guide-form-e-subtitle-qeCDSx">
+                      <div class="text-AxQYF1 font-class-3">Dark theme</div>
+                    </div>
+                    <div class="guide-form--dark1line-qeCDSx">
+                      <div class="group-2-ehkTwN">
+                        <div class="value-nDZtxz">
+                          <div class="background-eus53X"></div>
+                          <div class="x-eus53X font-class-1">;</div>
+                          <div class="x-x3XrIk font-class-1">)</div>
+                          <div class="x-ke6JIS font-class-1">(</div>
+                          <div class="value-eus53X font-class-1">--white-color</div>
+                          <div class="fn-eus53X font-class-1">var</div>
+                        </div>
+                        <div class="property-nDZtxz font-class-1">background:</div>
+                      </div>
+                    </div>
+                    <div class="guide-form-ormal-dark-qeCDSx">
+                      <div class="group-2-QcDxuW">
+                        <div class="x-IlKteG font-class-1">;</div>
+                        <div class="group-IlKteG">
+                          <div class="value-eBnDZ8 font-class-1">0.17</div>
+                        </div>
+                        <div class="property-IlKteG font-class-1">opacity:</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="guide-subject-shape-85cEAC">
+                    <div class="guide-numbering-icon-tSbidp">
+                      <div class="x1-fhtkun anima-valign-text-middle font-class-3">1</div>
+                    </div>
+                    <div class="guide-property-tSbidp font-class-3">Shape CSS</div>
+                  </div>
+                </div>
+                <div class="guide-OLxxwe">
+                  <div class="document-b-x-contents-YpxXkC"></div>
+                  <div class="symbol-YpxXkC">
+                    <div class="mobile-lig-buttonbody-8quCoL">
+                      <div class="button-4OvRxx anima-valign-text-middle font-class-5">Default width (w 60%)</div>
+                    </div>
+                  </div>
+                  <div class="measure-YpxXkC">
+                    <div class="text-3lcOVf">
+                      <div class="guide-measure-area-lT2kMW"></div>
+                    </div>
+                    <div class="spacing-3lcOVf">
+                      <div class="guide-measure-area-LlxuFB"></div>
+                      <div class="guide-meas--spacing-2-LlxuFB">
+                        <div class="x0-v8EGAj font-class-1">16<br />(min)</div>
+                        <div class="rectangle-v8EGAj"></div>
+                        <div class="rectangle-oZobMu"></div>
+                        <div class="rectangle-PLPzSd"></div>
+                      </div>
+                    </div>
+                    <div class="spacing-xBQvcl">
+                      <div class="guide-measure-area-hGZ8nv"></div>
+                      <div class="guide-meas--spacing-2-hGZ8nv">
+                        <div class="x0-IxSOxx font-class-1">16<br />(min)</div>
+                        <div class="rectangle-IxSOxx"></div>
+                        <div class="rectangle-hy0RLd"></div>
+                        <div class="rectangle-IlJkJn"></div>
+                      </div>
+                    </div>
+                    <div class="spacing-fnKUkx">
+                      <div class="guide-measure-area-eAhiUt"></div>
+                      <div class="guide-meas--spacing-1-eAhiUt">
+                        <div class="value-bqG3YK">
+                          <div class="x0-aDMG6z font-class-1">12</div>
+                        </div>
+                        <div class="rectangle-bqG3YK"></div>
+                        <div class="rectangle-M12vat"></div>
+                        <div class="rectangle-F4BRZC"></div>
+                      </div>
+                    </div>
+                    <div class="spacing-H2qIv3">
+                      <div class="guide-measure-area-p8xExQ"></div>
+                      <div class="guide-meas--spacing-1-p8xExQ">
+                        <div class="value-DkBBfI">
+                          <div class="x0-EI2n2O font-class-1">12</div>
+                        </div>
+                        <div class="rectangle-DkBBfI"></div>
+                        <div class="rectangle-cFiSLO"></div>
+                        <div class="rectangle-rqM2ST"></div>
+                      </div>
+                    </div>
+                    <div class="size-3lcOVf">
+                      <div class="guide-meas-eft-size-1-ZY1B5N">
+                        <div class="value-xDnhxN">
+                          <div class="x0-Ce7UWE font-class-1">44</div>
+                        </div>
+                        <div class="rectangle-xDnhxN"></div>
+                        <div class="rectangle-txeJyY"></div>
+                        <div class="rectangle-UqupxA"></div>
+                      </div>
+                      <div class="guide-meas-top-size-1-ZY1B5N">
+                        <div class="value-2DVcU3">
+                          <div class="x0-P1PBpx font-class-1">Default width : 60% of list width</div>
+                        </div>
+                        <div class="rectangle-2DVcU3"></div>
+                        <div class="rectangle-fhupAH"></div>
+                        <div class="rectangle-bSjTHC"></div>
+                      </div>
+                    </div>
+                    <div class="guide-numb-ring-shape-3lcOVf">
+                      <div class="x1-xwscJ2 anima-valign-text-middle font-class-3">1</div>
+                    </div>
+                    <div class="guide-numbering-type-3lcOVf">
+                      <div class="x1-8YhapR anima-valign-text-middle font-class-3">2</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="list-ub108-uc758-widt-tUw3jX font-class-1">List 너비 기준 60%의 Width로 버튼을 제공한다.</div>
+              <div class="default-width-tUw3jX font-class-4">Default width</div>
+            </div>
+            <div class="keyscreen-nlnVUM">
+              <div class="document-b-x-contents-xTGskI"></div>
+              <img
+                class="x2-02-keysc-edbutton31-xTGskI"
+                src="img/2-2-contained-button-2-02keyscreenw360mpl022containedbutton31-1F2EBE64-821D-42BF-A519-1881BB4CBCE5@2x.png"
+              />
+              <img
+                class="x2-02-keysc-edbutton31-XDa6Jn"
+                src="img/2-2-contained-button-2-02keyscreenw360mpd022containedbutton31-7B5DE45C-5D45-4410-A16E-C25A08EBA146@2x.png"
+              />
+              <a href="a61listwidth.html">
+                <div class="tag-refer-xTGskI">
+                  <div class="btn-WxNK1N anima-smart-layers-pointers">
+                    <div class="basic-x7YbIq font-class-2">Basic</div>
+                    <div class="page-name-x7YbIq font-class-3">(6-1) List_Width</div>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="body-area-1-button-l3mLy3 font-class-1">Body area: 1 button</div>
+        </div>
+        <div class="list-area-C61RwL">
+          <div class="raisedstroke-DzYEXv">
+            <div class="group-Exh1Uy">
+              <div class="shape-Nzzlqd">
+                <div class="document-b-x-contents-4GnsOa"></div>
+                <div class="general-4GnsOa">
+                  <div class="guide-form-e-subtitle-hFYqb9">
+                    <div class="text-YMffJl font-class-3">General</div>
+                  </div>
+                  <div class="guide-form-ormal1line-hFYqb9">
+                    <div class="group-rMk8y9">
+                      <div class="x-YzVtEp font-class-1">;</div>
+                      <div class="value-YzVtEp font-class-1">1px solid #fafafa</div>
+                      <div class="property-YzVtEp font-class-1">border:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-ction1line-hFYqb9">
+                    <div class="group-2-qgNExW">
+                      <div class="value-ECPJHa">
+                        <div class="x-qGltcZ font-class-1">;</div>
+                        <div class="x-kVxdYx font-class-1">)</div>
+                        <div class="x-RB5YMK font-class-1">(</div>
+                        <div class="value-qGltcZ font-class-1">250,250,250,0.2</div>
+                        <div class="fn-qGltcZ font-class-1">rgba</div>
+                      </div>
+                      <div class="property-ECPJHa font-class-1">background:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-ormal1line-zZJIHq">
+                    <div class="group-Vk4r34">
+                      <div class="x-F2TW8i font-class-1">;</div>
+                      <div class="value-F2TW8i font-class-1">border-box</div>
+                      <div class="property-F2TW8i font-class-1">box-sizing:</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="general-cwv61G">
+                  <div class="guide-form-e-subtitle-kuEFR2">
+                    <div class="text-LSrUaG font-class-3">Note</div>
+                  </div>
+                  <div class="guide-form-escription-kuEFR2">
+                    <div class="note-9eAt2k font-class-1">Recommended for use on the opacity/blur bg</div>
+                  </div>
+                </div>
+                <div class="guide-subject-shape-4GnsOa">
+                  <div class="guide-numbering-icon-xsiLM2">
+                    <div class="x1-zx1xI3 anima-valign-text-middle font-class-3">1</div>
+                  </div>
+                  <div class="guide-property-xsiLM2 font-class-3">Shape CSS</div>
+                </div>
+              </div>
+              <div class="guide-Nzzlqd">
+                <div class="document-b-x-contents-IVNWh6"></div>
+                <div class="symbol-IVNWh6">
+                  <div class="x2-02-measu-nedbutton3-gHr8Yj">
+                    <div class="mobile-lig-rokebutton-ukKnzZ">
+                      <div class="button-ixlYVi anima-valign-text-middle font-class-5">Button</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="guide-numb-ring-shape-IVNWh6">
+                  <div class="x1-GUnsqQ anima-valign-text-middle font-class-3">1</div>
+                </div>
+              </div>
+            </div>
+            <div class="raised-stroke-case-Exh1Uy font-class-4">Raised stroke case</div>
+          </div>
+          <div class="listbutton-DzYEXv">
+            <div class="group-4q8yK2">
+              <div class="typeface-MO6xdK">
+                <div class="document-b-x-contents-Rz1z7J"></div>
+                <div class="general-Rz1z7J">
+                  <div class="guide-form-e-subtitle-WEWpXg">
+                    <div class="text-ucTnbf font-class-3">General</div>
+                  </div>
+                  <div class="guide-form-ormal1line-WEWpXg">
+                    <div class="group-pd6WLk">
+                      <div class="x-9cZkiv font-class-1">;</div>
+                      <div class="value-9cZkiv font-class-1">&#34;Roboto-Medium&#34;</div>
+                      <div class="property-9cZkiv font-class-1">font-family:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-ormal1line-5JPsj6">
+                    <div class="group-X3tfEW">
+                      <div class="x-V5zjJi font-class-1">;</div>
+                      <div class="value-V5zjJi font-class-1">15px</div>
+                      <div class="property-V5zjJi font-class-1">font-size:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-ormal1line-yXNI98">
+                    <div class="group-ZXK5xr">
+                      <div class="x-qPIYO8 font-class-1">;</div>
+                      <div class="value-qPIYO8 font-class-1">center</div>
+                      <div class="property-qPIYO8 font-class-1">text-align:</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="light-theme-Rz1z7J">
+                  <div class="guide-form-e-subtitle-bqiphq">
+                    <div class="text-OZZsYI font-class-3">Light theme</div>
+                  </div>
+                  <div class="guide-form-l-lightcmt-bqiphq">
+                    <div class="group-2-yPheAx">
+                      <div class="comment-qr2ZYy font-class-1">/*default*/</div>
+                      <div class="x-qr2ZYy font-class-1">;</div>
+                      <div class="group-qr2ZYy">
+                        <div class="value-eN3QOd font-class-1">#252525</div>
+                      </div>
+                      <div class="property-qr2ZYy font-class-1">color:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-me-divider-bqiphq"></div>
+                  <div class="guide-form-l-lightcmt-7tbSwY">
+                    <div class="group-2-FkwZkx">
+                      <div class="comment-nqXgqO font-class-1">/*disabled*/</div>
+                      <div class="x-nqXgqO font-class-1">;</div>
+                      <div class="group-nqXgqO">
+                        <div class="value-soTUZ3 font-class-1">#252525</div>
+                      </div>
+                      <div class="property-nqXgqO font-class-1">color:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-l-lightcmt-HpAkEo">
+                    <div class="group-2-lgzAVG">
+                      <div class="comment-J2jO8L font-class-1">/*disabled*/</div>
+                      <div class="x-J2jO8L font-class-1">;</div>
+                      <div class="group-J2jO8L">
+                        <div class="value-yLW63O font-class-1">0.4</div>
+                      </div>
+                      <div class="property-J2jO8L font-class-1">opacity:</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="dark-theme-Rz1z7J">
+                  <div class="guide-form-e-subtitle-9kP7C7">
+                    <div class="text-LIUumF font-class-3">Dark theme</div>
+                  </div>
+                  <div class="guide-form-rk1linecmt-9kP7C7">
+                    <div class="group-2-nwwCf2">
+                      <div class="comment-AXvbH6 font-class-1">/*default*/</div>
+                      <div class="value-AXvbH6">
+                        <div class="background-dxp46S"></div>
+                        <div class="x-dxp46S font-class-1">;</div>
+                        <div class="x-3JNEci font-class-1">)</div>
+                        <div class="x-2Ldb6F font-class-1">(</div>
+                        <div class="value-dxp46S font-class-1">--white-color</div>
+                        <div class="fn-dxp46S font-class-1">var</div>
+                      </div>
+                      <div class="property-AXvbH6 font-class-1">color:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-me-divider-9kP7C7"></div>
+                  <div class="guide-form-rk1linecmt-rEZYPA">
+                    <div class="group-2-Apaawe">
+                      <div class="comment-VIsWxz font-class-1">/*disabled*/</div>
+                      <div class="value-VIsWxz">
+                        <div class="background-4AjWZx"></div>
+                        <div class="x-4AjWZx font-class-1">;</div>
+                        <div class="x-t6rqTe font-class-1">)</div>
+                        <div class="x-HxJ6M9 font-class-1">(</div>
+                        <div class="value-4AjWZx font-class-1">--white-color</div>
+                        <div class="fn-4AjWZx font-class-1">var</div>
+                      </div>
+                      <div class="property-VIsWxz font-class-1">color:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-al-darkcmt-9kP7C7">
+                    <div class="group-2-BlrL5e">
+                      <div class="comment-4hiChJ font-class-1">/*disabled*/</div>
+                      <div class="x-4hiChJ font-class-1">;</div>
+                      <div class="group-4hiChJ">
+                        <div class="value-uxzTSq font-class-1">0.4</div>
+                      </div>
+                      <div class="property-4hiChJ font-class-1">opacity:</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="guide-subject-type-Rz1z7J">
+                  <div class="guide-numbering-type-BUufxp">
+                    <div class="x1-f9n6n5 anima-valign-text-middle font-class-3">2</div>
+                  </div>
+                  <div class="guide-property-BUufxp font-class-3">Type CSS</div>
+                </div>
+              </div>
+              <div class="shape-MO6xdK">
+                <div class="document-b-x-contents-dPpKsx"></div>
+                <div class="general-dPpKsx">
+                  <div class="guide-form-ormal1line-ELJH0f">
+                    <div class="group-JiVn91">
+                      <div class="x-ZWaOPq font-class-1">;</div>
+                      <div class="value-ZWaOPq font-class-1">18px</div>
+                      <div class="property-ZWaOPq font-class-1">border-radius:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-e-subtitle-ELJH0f">
+                    <div class="text-F4K3Zj font-class-3">General</div>
+                  </div>
+                </div>
+                <div class="light-theme-dPpKsx">
+                  <div class="guide-form-ht1linecmt-C4uRsQ">
+                    <div class="group-2-dED96G">
+                      <div class="comment-ynVlqS font-class-1">/*default*/</div>
+                      <div class="value-ynVlqS">
+                        <div class="background-VHuXS7"></div>
+                        <div class="x-VHuXS7 font-class-1">;</div>
+                        <div class="x-degFAO font-class-1">)</div>
+                        <div class="x-P5MOkJ font-class-1">(</div>
+                        <div class="value-VHuXS7 font-class-1">--black-color</div>
+                        <div class="fn-VHuXS7 font-class-1">var</div>
+                      </div>
+                      <div class="property-ynVlqS font-class-1">background:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-me-divider-C4uRsQ"></div>
+                  <div class="guide-form-ht1linecmt-77sWdO">
+                    <div class="group-2-e6eBhs">
+                      <div class="comment-ppmDhT font-class-1">/*disabled*/</div>
+                      <div class="value-ppmDhT">
+                        <div class="background-dB50ce"></div>
+                        <div class="x-dB50ce font-class-1">;</div>
+                        <div class="x-xyyBsR font-class-1">)</div>
+                        <div class="x-PRFjgR font-class-1">(</div>
+                        <div class="value-dB50ce font-class-1">--black-color</div>
+                        <div class="fn-dB50ce font-class-1">var</div>
+                      </div>
+                      <div class="property-ppmDhT font-class-1">background:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-l-lightcmt-C4uRsQ">
+                    <div class="group-2-VQxeng">
+                      <div class="comment-kbMKnW font-class-1">/*disabled*/</div>
+                      <div class="x-kbMKnW font-class-1">;</div>
+                      <div class="group-kbMKnW">
+                        <div class="value-IGuboO font-class-1">0.024</div>
+                      </div>
+                      <div class="property-kbMKnW font-class-1">opacity:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-l-lightcmt-77sWdO">
+                    <div class="group-2-XWHuQg">
+                      <div class="comment-yWiShL font-class-1">/*default*/</div>
+                      <div class="x-yWiShL font-class-1">;</div>
+                      <div class="group-yWiShL">
+                        <div class="value-rWuDIi font-class-1">0.06</div>
+                      </div>
+                      <div class="property-yWiShL font-class-1">opacity:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-e-subtitle-C4uRsQ">
+                    <div class="text-1XSsKt font-class-3">Light theme</div>
+                  </div>
+                </div>
+                <div class="dark-theme-dPpKsx">
+                  <div class="guide-form-rk1linecmt-N0RCHS">
+                    <div class="group-2-xaKyvD">
+                      <div class="comment-OuhJmN font-class-1">/*default*/</div>
+                      <div class="value-OuhJmN">
+                        <div class="background-GBv7Lx"></div>
+                        <div class="x-GBv7Lx font-class-1">;</div>
+                        <div class="x-alnvTU font-class-1">)</div>
+                        <div class="x-URi5Ak font-class-1">(</div>
+                        <div class="value-GBv7Lx font-class-1">--white-color</div>
+                        <div class="fn-GBv7Lx font-class-1">var</div>
+                      </div>
+                      <div class="property-OuhJmN font-class-1">background:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-me-divider-N0RCHS"></div>
+                  <div class="guide-form-rk1linecmt-rpD4dq">
+                    <div class="group-2-l0lhNp">
+                      <div class="comment-dD26eY font-class-1">/*disabled*/</div>
+                      <div class="value-dD26eY">
+                        <div class="background-o8Wt6m"></div>
+                        <div class="x-o8Wt6m font-class-1">;</div>
+                        <div class="x-AysNMl font-class-1">)</div>
+                        <div class="x-7YgAfV font-class-1">(</div>
+                        <div class="value-o8Wt6m font-class-1">--white-color</div>
+                        <div class="fn-o8Wt6m font-class-1">var</div>
+                      </div>
+                      <div class="property-dD26eY font-class-1">background:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-al-darkcmt-N0RCHS">
+                    <div class="group-2-CxRXW1">
+                      <div class="comment-vFM2AB font-class-1">/*disabled*/</div>
+                      <div class="x-vFM2AB font-class-1">;</div>
+                      <div class="group-vFM2AB">
+                        <div class="value-Inx4S2 font-class-1">0.068</div>
+                      </div>
+                      <div class="property-vFM2AB font-class-1">opacity:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-al-darkcmt-rpD4dq">
+                    <div class="group-2-hfyacu">
+                      <div class="comment-YiRqHl font-class-1">/*disabled*/</div>
+                      <div class="x-YiRqHl font-class-1">;</div>
+                      <div class="group-YiRqHl">
+                        <div class="value-c2pG40 font-class-1">0.17</div>
+                      </div>
+                      <div class="property-YiRqHl font-class-1">opacity:</div>
+                    </div>
+                  </div>
+                  <div class="guide-form-e-subtitle-N0RCHS">
+                    <div class="text-Onq8Wg font-class-3">Dark theme</div>
+                  </div>
+                </div>
+                <div class="guide-subject-shape-dPpKsx">
+                  <div class="guide-numbering-icon-zYBxRV">
+                    <div class="x1-Ro5f5p anima-valign-text-middle font-class-3">1</div>
+                  </div>
+                  <div class="guide-property-zYBxRV font-class-3">Shape CSS</div>
+                </div>
+              </div>
+              <div class="guide-MO6xdK">
+                <div class="document-b-x-contents-5XslZR"></div>
+                <div class="symbol-5XslZR">
+                  <div class="mobile-lig-isedbutton-UdSsFA">
+                    <div class="button-MalDXo anima-valign-text-middle font-class-5">Button</div>
+                  </div>
+                  <div class="x2-02-measu-nedbutton2-UdSsFA">
+                    <div class="mobile-lig-rouplistbg-mLSHUR"></div>
+                    <div class="mobile-lig-buttonlist-mLSHUR">
+                      <div class="mobile-lig-isedbutton-FOZ0x9">
+                        <div class="button-7nmip5"></div>
+                        <div class="button-7j8lb6 anima-valign-text-middle font-class-5">Button</div>
+                      </div>
+                      <div class="raised-button-FOZ0x9 anima-valign-text-middle font-class-6">Disabled</div>
+                    </div>
+                    <div class="mobile-lig-buttonlist-LNxDd2">
+                      <div class="mobile-lig-isedbutton-IQ1mZo">
+                        <div class="button-rzRVAX anima-valign-text-middle font-class-5">Button</div>
+                      </div>
+                      <div class="raised-button-IQ1mZo anima-valign-text-middle font-class-6">Contained button</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="measure-2-5XslZR">
+                  <div class="spacing-i61Uqa">
+                    <div class="guide-meas--spacing-1-atXUK2">
+                      <div class="value-mxfmjC">
+                        <div class="x0-xcKaIR font-class-1">9</div>
+                      </div>
+                      <div class="rectangle-mxfmjC"></div>
+                      <div class="rectangle-bQo7PT"></div>
+                      <div class="rectangle-bxd094"></div>
+                    </div>
+                    <div class="guide-measure-area-atXUK2"></div>
+                  </div>
+                  <div class="spacing-gORiWl">
+                    <div class="guide-meas--spacing-1-B2k4AG">
+                      <div class="value-XnClb2">
+                        <div class="x0-3XzXWR font-class-1">9</div>
+                      </div>
+                      <div class="rectangle-XnClb2"></div>
+                      <div class="rectangle-7uOVAf"></div>
+                      <div class="rectangle-dybx3T"></div>
+                    </div>
+                    <div class="guide-measure-area-B2k4AG"></div>
+                  </div>
+                  <div class="spacing-rFNL5j">
+                    <div class="guide-meas--spacing-2-MJACPi">
+                      <div class="x0-xxtifp font-class-1">16<br />(min)</div>
+                      <div class="rectangle-xxtifp"></div>
+                      <div class="rectangle-nPyCNP"></div>
+                      <div class="rectangle-bwYpYw"></div>
+                    </div>
+                    <div class="guide-measure-area-MJACPi"></div>
+                  </div>
+                  <div class="spacing-meuS22">
+                    <div class="guide-meas--spacing-2-ECr4tH">
+                      <div class="x0-PAP0AD font-class-1">16<br />(min)</div>
+                      <div class="rectangle-PAP0AD"></div>
+                      <div class="rectangle-dXFH15"></div>
+                      <div class="rectangle-6Tuhww"></div>
+                    </div>
+                    <div class="guide-measure-area-ECr4tH"></div>
+                  </div>
+                  <div class="area-i61Uqa">
+                    <div class="guide-measure-area-rSNKC7"></div>
+                  </div>
+                  <div class="guide-numb-ring-shape-i61Uqa">
+                    <div class="x1-boRM5n anima-valign-text-middle font-class-3">1</div>
+                  </div>
+                  <div class="guide-numbering-type-i61Uqa">
+                    <div class="x1-lRrdMo anima-valign-text-middle font-class-3">2</div>
+                  </div>
+                </div>
+                <div class="measure-1-5XslZR">
+                  <div class="spacing-HNcx5D">
+                    <div class="guide-measure-area-nxONSt"></div>
+                    <div class="guide-meas--spacing-2-nxONSt">
+                      <div class="x0-ICWgck font-class-1">24</div>
+                      <div class="rectangle-ICWgck"></div>
+                      <div class="rectangle-wgFZ2x"></div>
+                      <div class="rectangle-ysR3vd"></div>
+                    </div>
+                  </div>
+                  <div class="spacing-CfyjoS">
+                    <div class="guide-measure-area-ZzaYXQ"></div>
+                    <div class="guide-meas--spacing-2-ZzaYXQ">
+                      <div class="x0-PoBuIa font-class-1">8</div>
+                      <div class="rectangle-PoBuIa"></div>
+                      <div class="rectangle-Yqm3cL"></div>
+                      <div class="rectangle-okFvbj"></div>
+                    </div>
+                  </div>
+                  <div class="size-HNcx5D">
+                    <div class="guide-measure-area-OgMj7u"></div>
+                    <div class="guide-meas-ght-size-1-OgMj7u">
+                      <div class="value-xKMNrl">
+                        <div class="x0-8xgfb0 font-class-1">36</div>
+                      </div>
+                      <div class="rectangle-xKMNrl"></div>
+                      <div class="rectangle-ruXwn0"></div>
+                      <div class="rectangle-9dsOfN"></div>
+                    </div>
+                    <div class="guide-meas-horizontal-OgMj7u"></div>
+                    <div class="guide-meas-horizontal-ZzJSId"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ud654uba74-labeluc5d0-4q8yK2 font-class-1">
+              화면에서 가장 긴 버튼의 Label에 맞춰 고정 Width로 버튼을 제공한다.
+            </div>
+            <div class="ud55c-ud65-uc5f4ub420-4q8yK2 font-class-4">한 화면에 버튼이 여러 개가 나열될 경우</div>
+          </div>
+          <div class="keyscreen-DzYEXv">
+            <div class="document-b-x-contents-1OxNzI"></div>
+            <img
+              class="x2-02-keysc-nedbutton2-1OxNzI"
+              src="img/2-2-contained-button-2-02keyscreenw360mpl022containedbutton2-3DE68A5A-D300-40EF-B450-86721BF7AEE2@2x.png"
+            />
+            <img
+              class="x2-02-keysc-nedbutton2-hSj6xB"
+              src="img/2-2-contained-button-2-02keyscreenw360mpd022containedbutton2-5D0EE037-337D-4870-B6B0-239D04E10B03@2x.png"
+            />
+          </div>
+          <div class="title-DzYEXv font-class-1">List</div>
+        </div>
+        <div class="emphasis-C61RwL">
+          <div class="document-b-x-contents-YS4HFf"></div>
+          <img
+            class="x2-02-keysc-edbutton11-YS4HFf"
+            src="img/2-2-contained-button-2-02keyscreenw360mpl022containedbutton11-6484C7BC-C23E-49C0-AD5D-051D3744E997@2x.png"
+          />
+          <img
+            class="x2-02-keysc-edbutton12-YS4HFf"
+            src="img/2-2-contained-button-2-02keyscreenw360mpl022containedbutton12-FFEDF07E-C273-42BA-B3D7-09EB107D5100@2x.png"
+          />
+          <img
+            class="x2-02-keysc-edbutton13-YS4HFf"
+            src="img/2-2-contained-button-2-02keyscreenw360mpl022containedbutton13-89EF72F4-3F9B-4A60-9EF2-8E42E8AE2D08@2x.png"
+          />
+          <img
+            class="x2-02-keysc-edbutton14-YS4HFf"
+            src="img/2-2-contained-button-2-02keyscreenw360mpl022containedbutton14-E4EB52AE-F5E5-4430-BE37-51960A73B230@2x.png"
+          />
+          <img
+            class="x2-02-keysc-edbutton15-YS4HFf"
+            src="img/2-2-contained-button-2-02keyscreenw360mpl022containedbutton15-036D3D05-68BA-45BC-821C-5EAA599BE801@2x.png"
+          />
+          <img
+            class="w360mpl022-uttondont1-YS4HFf"
+            src="img/2-2-contained-button-w360mpl022containedbuttondont1-98E99379-1805-4161-884C-967AFD98BDF8@2x.png"
+          />
+          <img
+            class="w360mpl022-uttondont2-YS4HFf"
+            src="img/2-2-contained-button-w360mpl022containedbuttondont2-9AEE19F9-7EB9-4C51-BFBD-0511018FE6D3@2x.png"
+          />
+          <div class="text-YS4HFf">
+            <div class="case-5-medium-high-Yv8bnx font-class-1">Case 5<br />Medium + High Emphasis 2</div>
+            <div class="case-4-medium-high-Yv8bnx font-class-1">Case 4<br />Medium + High Emphasis 1</div>
+            <div class="case-3-medium-emphas-Yv8bnx font-class-1">Case 3<br />Medium emphasis</div>
+            <div class="case-2-medium-emphas-Yv8bnx font-class-1">Case 2<br />Medium emphasis</div>
+            <div class="case-1-high-emphasis-Yv8bnx font-class-1">Case 1<br />High emphasis</div>
+            <div class="dont-Yv8bnx font-class-4">Don&#39;t</div>
+            <div class="do-Yv8bnx font-class-4">Do</div>
+          </div>
+          <a href="a06roundcorner.html">
+            <div class="tag-refer-YS4HFf">
+              <div class="btn-ndccQg anima-smart-layers-pointers">
+                <div class="basic-kTpozU font-class-2">Basic</div>
+                <div class="page-name-kTpozU font-class-3">Round corner</div>
+              </div>
+            </div></a
+          >
+          <div class="title-YS4HFf font-class-1">Emphasis</div>
+        </div>
+        <div class="x2-2-contained-butt-C61RwL font-class-7">(2-2) Contained button</div>
+        <div class="gnb-bar02-buttons-C61RwL">
+          <div class="gnb-menu17-ste-normal-LzW6K5">
+            <a href="a171textselection.html">
+              <div class="gnbmenu-T9Mxkb">
+                <div class="x17-copy-paste-034OGS font-class-2">17. Copy &amp; paste</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu16-ail-normal-LzW6K5">
+            <a href="a161thumbnailgrid.html">
+              <div class="gnbmenu-jRd5IS">
+                <div class="x16-thumbnail-be2hM8 font-class-2">16. Thumbnail</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu15-dge-normal-LzW6K5">
+            <a href="a151numberbadgeappbar.html">
+              <div class="gnbmenu-SdM2v0">
+                <div class="x15-notification-bad-Nlwdug font-class-2">15. Notification badge</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu14-ion-normal-LzW6K5">
+            <a href="a141descriptionwidth.html">
+              <div class="gnbmenu-SNyh98">
+                <div class="rectangle-ln0S8c"></div>
+                <div class="x14-description-ln0S8c font-class-2">14. Description</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu13-ols-normal-LzW6K5">
+            <a href="a131maintab.html">
+              <div class="gnbmenu-thsCgx">
+                <div class="x13-view-controls-MTh05c font-class-2">13. View controls</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu12-lds-normal-LzW6K5">
+            <a href="a121textfields.html">
+              <div class="gnbmenu-fU8x2r">
+                <div class="x12-text-fields-dExET3 font-class-2">12. Text fields</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu11-ast-normal-LzW6K5">
+            <a href="a111toastwidth.html">
+              <div class="gnbmenu-FDtCmK">
+                <div class="x11-toast-xiTBtP font-class-2">11. Toast</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu10-rch-normal-LzW6K5">
+            <a href="a101searchbarwidth.html">
+              <div class="gnbmenu-zzkKTz">
+                <div class="x10-search-YPkNvM font-class-2">10. Search</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu9--ing-normal-LzW6K5">
+            <a href="a91scrollbar.html">
+              <div class="gnbmenu-0xl5pF">
+                <div class="x9-scrolling-qxqUQ7 font-class-2">9. Scrolling</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu8--ess-normal-LzW6K5">
+            <a href="a81progressbar.html">
+              <div class="gnbmenu-dPvOAa">
+                <div class="x8-progress-xvOUMU font-class-2">8. Progress</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu7--ems-normal-LzW6K5">
+            <a href="a71noitem.html">
+              <div class="gnbmenu-FkmYUp">
+                <div class="x7-no-item-sh6abE font-class-2">7. No item</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu6--sts-normal-LzW6K5">
+            <a href="a61listwidth.html">
+              <div class="gnbmenu-pcOgP6">
+                <div class="x6-lists-4BRmK3 font-class-2">6. Lists</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu5--ers-normal-LzW6K5">
+            <a href="a51dividerbasiclist.html">
+              <div class="gnbmenu-Ok5nbz">
+                <div class="x5-dividers-OzTxVf font-class-2">5. Dividers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu4--ogs-normal-LzW6K5">
+            <a href="a41dialogwidth.html">
+              <div class="gnbmenu-L6bc6M">
+                <div class="x4-dialogs-gagmKd font-class-2">4. Dialogs</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu3--ers-normal-LzW6K5">
+            <a href="a31checkbox.html">
+              <div class="gnbmenu-6nx8n1">
+                <div class="x3-controllers-h9KJK1 font-class-2">3. Controllers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu2--s-selected-LzW6K5">
+            <a href="a23floatingactionbutton.html">
+              <div class="gnb-submenu-normal-C4jokY">
+                <div class="gnbsubmenu-WhZIV2">
+                  <div class="text-EEe8Q9 font-class-2">(2-3) Floating action button</div>
+                </div>
+              </div></a
+            >
+            <a href="a22containedbutton.html">
+              <div class="gnb-submenu-normal-swazGt">
+                <div class="gnbsubmenu-hmbz2g">
+                  <div class="text-94tRfz font-class-4">(2-2) Contained button</div>
+                </div>
+              </div></a
+            >
+            <a href="a21flatbutton.html">
+              <div class="gnb-submenu-normal-ZBWQ9T">
+                <div class="gnbsubmenu-XxJGJ5">
+                  <div class="text-Lrpeyl font-class-2">(2-1) Flat button</div>
+                </div>
+              </div></a
+            >
+            <div class="gnb-menu2--s-selected-C4jokY">
+              <a href="a21flatbutton.html">
+                <div class="gnbmenu-S5FxHu">
+                  <div class="x2-buttons-0lS04a font-class-4">2. Buttons</div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="gnb-menu1--bar-normal-LzW6K5">
+            <a href="a11appbartitle.html">
+              <div class="gnbmenu-k9bnqG">
+                <div class="x1-app-bar-eLzewR font-class-2">1. App bar</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu0--iew-normal-LzW6K5">
+            <a href="a01unitsandmeasurements.html">
+              <div class="gnbmenu-UlrIiF">
+                <div class="x0-overview-WS6WQj font-class-2">0. Overview</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu-h-ory-normal-LzW6K5">
+            <a href="history.html">
+              <div class="gnbmenu-Nwas6R">
+                <div class="history-k5CNv8 font-class-2">History</div>
+              </div></a
+            >
+          </div>
+          <a href="index.html">
+            <div class="gnb-logo-LzW6K5">
+              <div class="gotohome-Pbwi2q">
+                <div class="group-w42Is4">
+                  <div class="web-app-mK9PxT font-class-8">Web app</div>
+                  <div class="basic-component-gui-mK9PxT font-class-3">Basic component GUI V1.0</div>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+        <a href="../measure/2buttons/22containedbutton/index.html" target="_blank">
+          <div class="document-button-C61RwL">
+            <div class="btn-mwblLs anima-smart-layers-pointers">
+              <div class="text-WvbxKh font-class-4">Responsive Layout Details</div>
+            </div>
+          </div></a
+        >
+      </div>
+    </div>
+  </body>
+</html>

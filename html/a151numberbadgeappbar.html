@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1680, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link href="../custom/custom.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../custom/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/a151numberbadgeappbar.css" />
+    <style>
+      @font-face {
+        font-family: "SamsungOneKorean-700";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-700_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-300";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-300_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-400";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-400_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-500";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 500_0.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-600";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 600_0.ttf")
+          format("truetype");
+      }
+
+      @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(245, 246, 247, 1)">
+    <input type="hidden" id="anPageName" name="page" value="a151numberbadgeappbar" />
+    <div class="anima-container-center-horizontal">
+      <div class="a151numberbadgeappbar anima-screen">
+        <a href="../measure/15notificationbadge/151numberbadgeappbar/index.html" target="_blank">
+          <div class="document-button-C61RwL">
+            <div class="btn-mwblLs anima-smart-layers-pointers">
+              <div class="text-WvbxKh font-class-5">Responsive Layout Details</div>
+            </div>
+          </div></a
+        >
+        <div class="more-option-list-C61RwL">
+          <div class="guide-9gsihU">
+            <div class="document-b-x-contents-vS6tQg"></div>
+            <div class="symbol-vS6tQg">
+              <div class="x15-01-meas-ge-appbar2-24KYnX">
+                <div class="moreoption-x9Q0Nb">
+                  <div class="mobile-lig-eoption-bg-eO2Xmi"></div>
+                  <div class="mobile-lig-ption-list-eO2Xmi">
+                    <div class="option-rg4kvO anima-valign-text-middle font-class-4">Option3</div>
+                  </div>
+                  <div class="mobile-lig-ption-list-dBQHyf">
+                    <div class="option-HVpP97 anima-valign-text-middle font-class-4">Option2</div>
+                  </div>
+                  <div class="mobile-lig-ption-list-TdyvVx">
+                    <div class="option-JpzweA anima-valign-text-middle font-class-4">Option1</div>
+                  </div>
+                  <div class="mobile-lig-ption-list-NyCM8q">
+                    <div class="option-1PpyNL anima-valign-text-middle font-class-4">Option4</div>
+                  </div>
+                  <div class="mobile-lig--numbermin-eO2Xmi">
+                    <div class="x9-pUTMLp font-class-6">1</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="measure-vS6tQg">
+              <img
+                class="spacing-Px4ZsW"
+                src="img/15-1-number-badgeapp-bar-spacing-972400A6-7B7C-4468-8405-585F27AFA3E3.png"
+              />
+              <div class="spacing-ghAtnw">
+                <div class="guide-measure-area-Porrck"></div>
+                <div class="guide-meas--spacing-2-Porrck">
+                  <div class="value-r6Cvy2">
+                    <div class="x0-u5RHib font-class-1">16</div>
+                  </div>
+                  <div class="rectangle-r6Cvy2"></div>
+                  <div class="rectangle-olryf1"></div>
+                  <div class="rectangle-BF0McO"></div>
+                </div>
+              </div>
+              <div class="size-Px4ZsW">
+                <div class="guide-meas-horizontal-G7yWn8"></div>
+                <div class="guide-meas-horizontal-M6VUXB"></div>
+                <div class="guide-meas-horizontal-ZirfWI"></div>
+              </div>
+              <div class="size-ghAtnw">
+                <div class="guide-measure-area-tJkOto"></div>
+                <div class="guide-meas-horizontal-tJkOto"></div>
+                <div class="guide-meas-horizontal-omcwF9"></div>
+                <div class="guide-meas-ght-size-1-tJkOto">
+                  <div class="value-8XHTCR">
+                    <div class="x0-ONCX5A font-class-1">17</div>
+                  </div>
+                  <div class="rectangle-8XHTCR"></div>
+                  <div class="rectangle-Kq8RQS"></div>
+                  <div class="rectangle-NzE3bM"></div>
+                </div>
+                <div class="guide-meas-e-vertical-tJkOto">
+                  <img
+                    class="line-FLZErw"
+                    src="img/15-1-number-badgeapp-bar-line-FF509228-DCC4-4075-A388-796EEEB784AA@2x.png"
+                  />
+                </div>
+                <div class="guide-meas-e-vertical-omcwF9">
+                  <img
+                    class="line-tqFgN4"
+                    src="img/15-1-number-badgeapp-bar-line-FF509228-DCC4-4075-A388-796EEEB784AA@2x.png"
+                  />
+                </div>
+                <div class="guide-meas-tom-size-1-tJkOto">
+                  <div class="x0-XS50Vh font-class-1">17</div>
+                  <div class="rectangle-XS50Vh"></div>
+                  <div class="rectangle-4CFHbH"></div>
+                  <div class="rectangle-vTV5x6"></div>
+                </div>
+              </div>
+              <div class="text-Px4ZsW">
+                <div class="guide-measure-area-ECkRHL"></div>
+              </div>
+              <div class="guide-meas--spacing-3-Px4ZsW">
+                <div class="x0-zHr9xp font-class-1">12</div>
+                <div class="rectangle-zHr9xp"></div>
+                <div class="rectangle-gxLfBw"></div>
+                <div class="rectangle-Ckxmnx"></div>
+              </div>
+            </div>
+          </div>
+          <div class="keyscreen-9gsihU">
+            <div class="document-b-x-contents-AYWwYk"></div>
+            <img
+              class="x15-01-keys-ge-appbar2-AYWwYk"
+              src="img/15-1-number-badgeapp-bar-15-01keyscreenw360mpl151numberbadgeappbar2-8B0B3512-C82C-460D-9223-6026F0061B53@2x.png"
+            />
+            <img
+              class="x15-01-keys-ge-appbar2-keNXJR"
+              src="img/15-1-number-badgeapp-bar-15-01keyscreenw360mpd151numberbadgeappbar2-36FE2627-6B5D-40AF-BE94-3F63AC517920@2x.png"
+            />
+            <a href="a15moreoptionlist.html">
+              <div class="tag-refer-AYWwYk">
+                <div class="btn-KIK6AF anima-smart-layers-pointers">
+                  <div class="basic-cGN9mE font-class-2">Basic</div>
+                  <div class="page-name-cGN9mE font-class-3">(1-5) More option list</div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="more-option-list-9gsihU font-class-1">More option list</div>
+        </div>
+        <div class="more-option-C61RwL">
+          <div class="group-2-h9RGPY">
+            <div class="shape-8rPyVA">
+              <div class="document-b-x-contents-3CJxSu"></div>
+              <div class="general-3CJxSu">
+                <div class="guide-form-ormal1line-MYOxhx">
+                  <div class="group-eHxyTr">
+                    <div class="x-6maMYh font-class-1">;</div>
+                    <div class="value-6maMYh font-class-1">8.5px</div>
+                    <div class="property-6maMYh font-class-1">border-radius:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-cgaMSZ">
+                  <div class="group-j328Av">
+                    <div class="x-Dv1tfm font-class-1">;</div>
+                    <div class="value-Dv1tfm font-class-1">#f56a0d</div>
+                    <div class="property-Dv1tfm font-class-1">background:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-LyvqWp">
+                  <div class="group-EBXnax">
+                    <div class="x-PC6DjU font-class-1">;</div>
+                    <div class="value-PC6DjU font-class-1">31px</div>
+                    <div class="property-PC6DjU font-class-1">max-width:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-zBAV7x">
+                  <div class="group-KWVWI6">
+                    <div class="x-dDpYVg font-class-1">;</div>
+                    <div class="value-dDpYVg font-class-1">17px</div>
+                    <div class="property-dDpYVg font-class-1">height:</div>
+                  </div>
+                </div>
+              </div>
+              <div class="guide-subject-shape-3CJxSu">
+                <div class="guide-numbering-icon-KWDgJz">
+                  <div class="x1-5DqxSO anima-valign-text-middle font-class-3">2</div>
+                </div>
+                <div class="guide-property-KWDgJz font-class-3">Shape CSS</div>
+              </div>
+            </div>
+            <div class="type-8rPyVA">
+              <div class="document-b-x-contents-U8U29w"></div>
+              <div class="general-U8U29w">
+                <div class="guide-form-ormal1line-UHF57n">
+                  <div class="group-jxXVrw">
+                    <div class="x-O7Lu9v font-class-1">;</div>
+                    <div class="value-O7Lu9v font-class-1">“Roboto-Medium”</div>
+                    <div class="property-O7Lu9v font-class-1">font-family:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-ZG4S9T">
+                  <div class="group-Q2dVPv">
+                    <div class="x-byb3Ex font-class-1">;</div>
+                    <div class="value-byb3Ex font-class-1">11px</div>
+                    <div class="property-byb3Ex font-class-1">font-size:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-cWH3A0">
+                  <div class="group-BUMzkg">
+                    <div class="x-LhZqe4 font-class-1">;</div>
+                    <div class="value-LhZqe4 font-class-1">center</div>
+                    <div class="property-LhZqe4 font-class-1">text-align:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ction1line-UHF57n">
+                  <div class="group-2-FjwrKh">
+                    <div class="value-tWeLS8">
+                      <div class="x-xQDzV3 font-class-1">;</div>
+                      <div class="x-ygVug3 font-class-1">)</div>
+                      <div class="x-Am6g56 font-class-1">(</div>
+                      <div class="value-xQDzV3 font-class-1">--white-color</div>
+                      <div class="fn-xQDzV3 font-class-1">var</div>
+                    </div>
+                    <div class="property-tWeLS8 font-class-1">color:</div>
+                  </div>
+                </div>
+              </div>
+              <div class="guide-subject-type-U8U29w">
+                <div class="guide-numbering-type-pxi4Pa">
+                  <div class="x1-2ykjih anima-valign-text-middle font-class-3">1</div>
+                </div>
+                <div class="guide-property-pxi4Pa font-class-3">Type CSS</div>
+              </div>
+            </div>
+            <div class="guide-8rPyVA">
+              <div class="document-b-x-contents-7D7tHp"></div>
+              <div class="symbol-7D7tHp">
+                <div class="mobile-lig--numbermax-APrO0V">
+                  <div class="x999-5Q84kf font-class-6">999+</div>
+                </div>
+                <img
+                  class="x15-01-meas-appbar1max-APrO0V"
+                  src="img/15-1-number-badgeapp-bar-15-01measurew360mpl151numberbadgeappbar1max-C1EF5F16-0F2D-469E-9596-D0A10AE5C811@2x.png"
+                />
+              </div>
+              <div class="measure-2-7D7tHp">
+                <div class="symbol-FJJ07p"></div>
+                <div class="text-FJJ07p">
+                  <div class="guide-measure-area-bpIWxe"></div>
+                </div>
+                <div class="size-FJJ07p">
+                  <div class="guide-measure-area-XcIhYw"></div>
+                  <div class="guide-measure-area-krCVMK"></div>
+                  <div class="guide-meas-top-size-1-XcIhYw">
+                    <div class="value-AgPt1k">
+                      <div class="x0-TuCsjS font-class-1">31</div>
+                    </div>
+                    <div class="rectangle-AgPt1k"></div>
+                    <div class="rectangle-NsHCK0"></div>
+                    <div class="rectangle-6WRnhy"></div>
+                  </div>
+                  <div class="guide-meas-ght-size-1-XcIhYw">
+                    <div class="value-cexx1U">
+                      <div class="x0-lzizpB font-class-1">17</div>
+                    </div>
+                    <div class="rectangle-cexx1U"></div>
+                    <div class="rectangle-31xQlu"></div>
+                    <div class="rectangle-e3AWSh"></div>
+                  </div>
+                </div>
+                <div class="spacing-FJJ07p">
+                  <div class="guide-measure-area-1IXQpV"></div>
+                  <div class="guide-meas--spacing-2-1IXQpV">
+                    <div class="x0-JcjiDO font-class-1">3</div>
+                    <div class="rectangle-JcjiDO"></div>
+                    <div class="rectangle-k6LQFY"></div>
+                    <div class="rectangle-ptnUhs"></div>
+                  </div>
+                </div>
+                <div class="spacing-CNib97">
+                  <div class="guide-measure-area-C8RIxi"></div>
+                  <div class="guide-meas--spacing-2-C8RIxi">
+                    <div class="x0-NUGxUs font-class-1">3</div>
+                    <div class="rectangle-NUGxUs"></div>
+                    <div class="rectangle-qV78cu"></div>
+                    <div class="rectangle-q2upBa"></div>
+                  </div>
+                </div>
+                <div class="guide-numbering-type-FJJ07p">
+                  <div class="x1-NneC56 anima-valign-text-middle font-class-3">1</div>
+                </div>
+                <div class="guide-numb-ring-shape-FJJ07p">
+                  <div class="x1-CN9z2a anima-valign-text-middle font-class-3">2</div>
+                </div>
+              </div>
+              <div class="measure-1-7D7tHp">
+                <div class="spacing-cxTtI9">
+                  <div class="guide-measure-area-iXxXh5"></div>
+                  <div class="guide-meas--spacing-1-iXxXh5">
+                    <div class="value-VP48xx">
+                      <div class="x0-7Aq0yK font-class-1">10</div>
+                    </div>
+                    <div class="rectangle-VP48xx"></div>
+                    <div class="rectangle-kw04zm"></div>
+                    <div class="rectangle-AtPyZz"></div>
+                  </div>
+                </div>
+                <div class="spacing-xRyTe2">
+                  <div class="guide-measure-area-FqvbZV"></div>
+                  <div class="guide-meas--spacing-2-FqvbZV">
+                    <div class="value-GCzhOL">
+                      <div class="x0-xhZuMd font-class-1">16</div>
+                    </div>
+                    <div class="rectangle-GCzhOL"></div>
+                    <div class="rectangle-vloKef"></div>
+                    <div class="rectangle-Kl4xcQ"></div>
+                  </div>
+                </div>
+                <div class="size-cxTtI9">
+                  <div class="guide-measure-area-p6UQcq"></div>
+                  <div class="guide-meas-ght-size-1-p6UQcq">
+                    <div class="value-SpRVuI">
+                      <div class="x0-OZG83Y font-class-1">17</div>
+                    </div>
+                    <div class="rectangle-SpRVuI"></div>
+                    <div class="rectangle-5Wc4oQ"></div>
+                    <div class="rectangle-y2YL6F"></div>
+                  </div>
+                  <div class="guide-meas-tom-size-1-p6UQcq">
+                    <div class="x0-JtPwiH font-class-1">31</div>
+                    <div class="rectangle-JtPwiH"></div>
+                    <div class="rectangle-mdNGxX"></div>
+                    <div class="rectangle-0nx3HP"></div>
+                  </div>
+                  <div class="guide-meas-horizontal-p6UQcq"></div>
+                  <div class="guide-meas-horizontal-xNgwRd"></div>
+                  <div class="guide-meas-e-vertical-p6UQcq"></div>
+                  <div class="guide-meas-e-vertical-xNgwRd"></div>
+                </div>
+              </div>
+            </div>
+            <div class="max-8rPyVA font-class-5">Max</div>
+          </div>
+          <div class="group-1-h9RGPY">
+            <div class="shape-xvnQIZ">
+              <div class="document-b-x-contents-gqG8ZH"></div>
+              <div class="general-gqG8ZH">
+                <div class="guide-form-ormal1line-UxkpAk">
+                  <div class="group-9YqDBB">
+                    <div class="x-P6Yvek font-class-1">;</div>
+                    <div class="value-P6Yvek font-class-1">8.5px</div>
+                    <div class="property-P6Yvek font-class-1">border-radius:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-lJsStc">
+                  <div class="group-qw00Jz">
+                    <div class="x-l4GQV1 font-class-1">;</div>
+                    <div class="value-l4GQV1 font-class-1">#f56a0d</div>
+                    <div class="property-l4GQV1 font-class-1">background:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-mCKunH">
+                  <div class="group-EABiLb">
+                    <div class="x-6IBRlo font-class-1">;</div>
+                    <div class="value-6IBRlo font-class-1">17px</div>
+                    <div class="property-6IBRlo font-class-1">min-width:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-XhDA1R">
+                  <div class="group-Jmuw3n">
+                    <div class="x-gmylU9 font-class-1">;</div>
+                    <div class="value-gmylU9 font-class-1">17px</div>
+                    <div class="property-gmylU9 font-class-1">height:</div>
+                  </div>
+                </div>
+              </div>
+              <div class="guide-subject-shape-gqG8ZH">
+                <div class="guide-numbering-icon-QhYOvQ">
+                  <div class="x1-SzGGpO anima-valign-text-middle font-class-3">2</div>
+                </div>
+                <div class="guide-property-QhYOvQ font-class-3">Shape CSS</div>
+              </div>
+            </div>
+            <div class="type-xvnQIZ">
+              <div class="document-b-x-contents-MYxuc8"></div>
+              <div class="general-MYxuc8">
+                <div class="guide-form-ormal1line-ql60xS">
+                  <div class="group-hxe74M">
+                    <div class="x-FkL3pl font-class-1">;</div>
+                    <div class="value-FkL3pl font-class-1">“Roboto-Medium”</div>
+                    <div class="property-FkL3pl font-class-1">font-family:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-aAaexR">
+                  <div class="group-lcWeG8">
+                    <div class="x-vfh1cD font-class-1">;</div>
+                    <div class="value-vfh1cD font-class-1">11px</div>
+                    <div class="property-vfh1cD font-class-1">font-size:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-nekst9">
+                  <div class="group-aVR64B">
+                    <div class="x-739oKb font-class-1">;</div>
+                    <div class="value-739oKb font-class-1">center</div>
+                    <div class="property-739oKb font-class-1">text-align:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ction1line-ql60xS">
+                  <div class="group-2-JPGoxc">
+                    <div class="value-t5bHlw">
+                      <div class="x-fW1hBx font-class-1">;</div>
+                      <div class="x-cVOxTW font-class-1">)</div>
+                      <div class="x-vWmmTG font-class-1">(</div>
+                      <div class="value-fW1hBx font-class-1">--white-color</div>
+                      <div class="fn-fW1hBx font-class-1">var</div>
+                    </div>
+                    <div class="property-t5bHlw font-class-1">color:</div>
+                  </div>
+                </div>
+              </div>
+              <div class="guide-subject-type-MYxuc8">
+                <div class="guide-numbering-type-NEA85b">
+                  <div class="x1-poUi5L anima-valign-text-middle font-class-3">1</div>
+                </div>
+                <div class="guide-property-NEA85b font-class-3">Type CSS</div>
+              </div>
+            </div>
+            <div class="guide-xvnQIZ">
+              <div class="document-b-x-contents-jdK7qh"></div>
+              <div class="symbol-jdK7qh">
+                <div class="mobile-lig--numbermin-BwrOAd">
+                  <div class="x9-gHJEE0 font-class-6">1</div>
+                </div>
+                <img
+                  class="x15-01-meas-appbar1min-BwrOAd"
+                  src="img/15-1-number-badgeapp-bar-15-01measurew360mpl151numberbadgeappbar1min-F1A059B8-C9FD-43B6-8417-A6C72135EA47@2x.png"
+                />
+              </div>
+              <div class="measure-2-jdK7qh">
+                <div class="size-Qhsife">
+                  <div class="guide-measure-area-YY4Zxe"></div>
+                  <div class="guide-measure-area-UAlh5j"></div>
+                  <div class="guide-measure-area-RBLVka"></div>
+                  <div class="guide-measure-area-J8NEAo"></div>
+                  <div class="guide-meas-top-size-1-YY4Zxe">
+                    <div class="value-9LFJ9j">
+                      <div class="x0-xmtmen font-class-1">17</div>
+                    </div>
+                    <div class="rectangle-9LFJ9j"></div>
+                    <div class="rectangle-HbldQR"></div>
+                    <div class="rectangle-Vkt5de"></div>
+                  </div>
+                </div>
+                <div class="text-Qhsife">
+                  <div class="guide-measure-area-EhNzmX"></div>
+                </div>
+                <div class="guide-numb-ring-shape-Qhsife">
+                  <div class="x1-2Rxk8a anima-valign-text-middle font-class-3">2</div>
+                </div>
+                <div class="guide-numbering-type-Qhsife">
+                  <div class="x1-PIH1sM anima-valign-text-middle font-class-3">1</div>
+                </div>
+              </div>
+              <div class="measure-1-jdK7qh">
+                <div class="spacing-n2GEyS">
+                  <div class="guide-measure-area-jJdFjv"></div>
+                  <div class="guide-meas--spacing-1-jJdFjv">
+                    <div class="value-L5Wxqs">
+                      <div class="x0-qVipuG font-class-1">10</div>
+                    </div>
+                    <div class="rectangle-L5Wxqs"></div>
+                    <div class="rectangle-MeoWje"></div>
+                    <div class="rectangle-AkfchI"></div>
+                  </div>
+                </div>
+                <div class="spacing-ix4bPU">
+                  <div class="guide-measure-area-kZNpbP"></div>
+                  <div class="guide-meas--spacing-2-kZNpbP">
+                    <div class="value-6HpKAu">
+                      <div class="x0-K0uHWZ font-class-1">16</div>
+                    </div>
+                    <div class="rectangle-6HpKAu"></div>
+                    <div class="rectangle-bohB0Q"></div>
+                    <div class="rectangle-mLfRdG"></div>
+                  </div>
+                </div>
+                <div class="size-n2GEyS">
+                  <div class="guide-measure-area-O5eXpJ"></div>
+                  <div class="guide-meas-horizontal-O5eXpJ"></div>
+                  <div class="guide-meas-horizontal-cUdjy8"></div>
+                  <div class="guide-meas-e-vertical-O5eXpJ"></div>
+                  <div class="guide-meas-e-vertical-cUdjy8"></div>
+                  <div class="guide-meas-ght-size-1-O5eXpJ">
+                    <div class="value-qqrh6H">
+                      <div class="x0-xiKjmn font-class-1">17</div>
+                    </div>
+                    <div class="rectangle-qqrh6H"></div>
+                    <div class="rectangle-KxIMY0"></div>
+                    <div class="rectangle-CdRvQ2"></div>
+                  </div>
+                  <div class="guide-meas-tom-size-1-O5eXpJ">
+                    <div class="x0-OpBxxX font-class-1">17</div>
+                    <div class="rectangle-OpBxxX"></div>
+                    <div class="rectangle-kv5mxO"></div>
+                    <div class="rectangle-8sRc8n"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="min-xvnQIZ font-class-5">Min</div>
+          </div>
+          <div class="keyscreen-2-h9RGPY">
+            <div class="guide-z2reTC">
+              <div class="document-b-x-contents-G9pCaw"></div>
+              <div class="symbol-G9pCaw">
+                <img
+                  class="x15-01-meas-appbar1min-ZFqPiQ"
+                  src="img/15-1-number-badgeapp-bar-15-01measurew360mpl151numberbadgeappbar1min-3A8637CD-73D8-46A4-B73E-187C1BBF75E5@2x.png"
+                />
+                <img
+                  class="x15-01-meas-appbar1min-ivnMwf"
+                  src="img/15-1-number-badgeapp-bar-15-01measurew360mpl151numberbadgeappbar1min-44E7CCFA-D9A4-4018-82C0-6EE72847FCDD@2x.png"
+                />
+              </div>
+              <div class="n-case-G9pCaw font-class-1">N Case</div>
+              <div class="default-G9pCaw font-class-1">Default</div>
+            </div>
+          </div>
+          <div class="keyscreen-1-h9RGPY">
+            <div class="document-b-x-contents-ZpUzBC"></div>
+            <img
+              class="x15-01-keys-ge-appbar1-ZpUzBC"
+              src="img/15-1-number-badgeapp-bar-15-01keyscreenw360mpd151numberbadgeappbar1-4693ED50-561F-44AE-8AA5-43428C07AD65@2x.png"
+            />
+            <img
+              class="x15-01-keys-ge-appbar1-k9Q3e6"
+              src="img/15-1-number-badgeapp-bar-15-01keyscreenw360mpl151numberbadgeappbar1-F7CB8780-8826-4EFC-BCFE-7B1254AD059C@2x.png"
+            />
+            <a href="a14moreoption.html">
+              <div class="tag-refer-ZpUzBC">
+                <div class="btn-EnUhj6 anima-smart-layers-pointers">
+                  <div class="basic-aEElHb font-class-2">Basic</div>
+                  <div class="page-name-aEElHb font-class-3">(1-4) More option</div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="more-option-h9RGPY font-class-1">More option</div>
+        </div>
+        <div class="x15-1-numbe-ge-app-bar-C61RwL font-class-7">(15-1) Number badge_App bar</div>
+        <div class="gnb-bar15--ion-badges-C61RwL">
+          <div class="gnb-menu17-ste-normal-LV6ZKX">
+            <a href="a171textselection.html">
+              <div class="gnbmenu-xWUlx5">
+                <div class="x17-copy-paste-lgIE5R font-class-2">17. Copy &amp; paste</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu16-ail-normal-LV6ZKX">
+            <a href="a161thumbnailgrid.html">
+              <div class="gnbmenu-XEwOB7">
+                <div class="x16-thumbnail-6HF8OG font-class-2">16. Thumbnail</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu15-e-selected-LV6ZKX">
+            <a href="a153numberbadgemaintab.html">
+              <div class="gnb-submenu-normal-WuIvQn">
+                <div class="gnbsubmenu-IRdxc6">
+                  <div class="text-g5IeH1 font-class-2">(15-3) Number badge_Main tab</div>
+                </div>
+              </div></a
+            >
+            <a href="a154dotbadge.html">
+              <div class="gnb-submenu-normal-Onr4nE">
+                <div class="gnbsubmenu-cSlG3J">
+                  <div class="text-MpJWK4 font-class-2">(15-4) Dot Badge</div>
+                </div>
+              </div></a
+            >
+            <a href="a152numberbadgelist.html">
+              <div class="gnb-submenu-normal-BxGSxM">
+                <div class="gnbsubmenu-9EYIoe">
+                  <div class="text-3GjPvu font-class-2">(15-2) Number Badge_List</div>
+                </div>
+              </div></a
+            >
+            <a href="a151numberbadgeappbar.html">
+              <div class="gnb-submenu-normal-5UST8l">
+                <div class="gnbsubmenu-HylrNs">
+                  <div class="text-3dbF9p font-class-5">(15-1) Number badge_App bar</div>
+                </div>
+              </div></a
+            >
+            <div class="gnb-menu15-e-selected-WuIvQn">
+              <a href="a151numberbadgeappbar.html">
+                <div class="gnbmenu-Kwv2aD">
+                  <div class="x15-notification-bad-Ni6qxb font-class-5">15. Notification badge</div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="gnb-menu14-ion-normal-LV6ZKX">
+            <a href="a141descriptionwidth.html">
+              <div class="gnbmenu-dfXGzJ">
+                <div class="rectangle-G5jxxk"></div>
+                <div class="x14-description-G5jxxk font-class-2">14. Description</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu13-ols-normal-LV6ZKX">
+            <a href="a131maintab.html">
+              <div class="gnbmenu-kx7JuQ">
+                <div class="x13-view-controls-gRJBid font-class-2">13. View controls</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu12-lds-normal-LV6ZKX">
+            <a href="a121textfields.html">
+              <div class="gnbmenu-LY7dWx">
+                <div class="x12-text-fields-ZLEfMr font-class-2">12. Text fields</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu11-ast-normal-LV6ZKX">
+            <a href="a111toastwidth.html">
+              <div class="gnbmenu-MIjR6K">
+                <div class="x11-toast-soJeAh font-class-2">11. Toast</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu10-rch-normal-LV6ZKX">
+            <a href="a101searchbarwidth.html">
+              <div class="gnbmenu-BZiooI">
+                <div class="x10-search-xF3Iav font-class-2">10. Search</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu9--ing-normal-LV6ZKX">
+            <a href="a91scrollbar.html">
+              <div class="gnbmenu-uNdkGg">
+                <div class="x9-scrolling-HGhyhP font-class-2">9. Scrolling</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu8--ess-normal-LV6ZKX">
+            <a href="a81progressbar.html">
+              <div class="gnbmenu-xIkEOr">
+                <div class="x8-progress-71BTkx font-class-2">8. Progress</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu7--ems-normal-LV6ZKX">
+            <a href="a71noitem.html">
+              <div class="gnbmenu-d9RB5Y">
+                <div class="x7-no-item-HpEEGW font-class-2">7. No item</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu6--sts-normal-LV6ZKX">
+            <a href="a61listwidth.html">
+              <div class="gnbmenu-b76m45">
+                <div class="x6-lists-tX89s4 font-class-2">6. Lists</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu5--ers-normal-LV6ZKX">
+            <a href="a51dividerbasiclist.html">
+              <div class="gnbmenu-GWVmQ0">
+                <div class="x5-dividers-QGIQGE font-class-2">5. Dividers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu4--s-selected-LV6ZKX">
+            <a href="a41dialogwidth.html">
+              <div class="gnbmenu-mYhx21">
+                <div class="x4-dialogs-KFxzhP font-class-2">4. Dialogs</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu3--ers-normal-LV6ZKX">
+            <a href="a31checkbox.html">
+              <div class="gnbmenu-j7mRFF">
+                <div class="x3-controllers-7W07bU font-class-2">3. Controllers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu2--ons-normal-LV6ZKX">
+            <a href="a21flatbutton.html">
+              <div class="gnbmenu-JKx7n8">
+                <div class="x2-buttons-ALeFg1 font-class-2">2. Buttons</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu1--bar-normal-LV6ZKX">
+            <a href="a11appbartitle.html">
+              <div class="gnbmenu-89L1oB">
+                <div class="x1-app-bar-XWVevb font-class-2">1. App bar</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu0--iew-normal-LV6ZKX">
+            <a href="a01unitsandmeasurements.html">
+              <div class="gnbmenu-3jiOQQ">
+                <div class="x0-overview-nArk66 font-class-2">0. Overview</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu-h-ory-normal-LV6ZKX">
+            <a href="history.html">
+              <div class="gnbmenu-OuDd27">
+                <div class="history-bC8BY6 font-class-2">History</div>
+              </div></a
+            >
+          </div>
+          <a href="index.html">
+            <div class="gnb-logo-LV6ZKX">
+              <div class="gotohome-0cSJsc">
+                <div class="group-z9r67O">
+                  <div class="web-app-lDbNsr font-class-8">Web app</div>
+                  <div class="basic-component-gui-lDbNsr font-class-3">Basic component GUI V1.0</div>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

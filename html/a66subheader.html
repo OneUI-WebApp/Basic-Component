@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1680, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link href="../custom/custom.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../custom/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/a66subheader.css" />
+    <style>
+      @font-face {
+        font-family: "SamsungOneKorean-400";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-400_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-300";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-300_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-700";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-700_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-500";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 500_0.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-600";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 600_0.ttf")
+          format("truetype");
+      }
+
+      @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500|Roboto+Condensed:400");
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(245, 246, 247, 1)">
+    <input type="hidden" id="anPageName" name="page" value="a66subheader" />
+    <div class="anima-container-center-horizontal">
+      <div class="a66subheader anima-screen">
+        <a href="../measure/6lists/66subheader/index.html" target="_blank">
+          <div class="document-button-C61RwL">
+            <div class="btn-mwblLs anima-smart-layers-pointers">
+              <div class="text-WvbxKh font-class-5">Responsive Layout Details</div>
+            </div>
+          </div></a
+        >
+        <div class="without-chunking-C61RwL">
+          <div class="group-4-lmM6A3">
+            <div class="image-l43XcJ">
+              <div class="document-b-x-contents-Kix6f7"></div>
+              <div class="dark-theme-Kix6f7">
+                <div class="guide-form--dark1line-ZmdfTZ">
+                  <div class="group-2-DU3mTD">
+                    <div class="value-OFNh0k">
+                      <div class="background-DK3wwW"></div>
+                      <div class="x-DK3wwW font-class-1">;</div>
+                      <div class="x-xxLR84 font-class-1">)</div>
+                      <div class="x-d7oRIJ font-class-1">(</div>
+                      <div class="value-DK3wwW font-class-1">--white-color</div>
+                      <div class="fn-DK3wwW font-class-1">var</div>
+                    </div>
+                    <div class="property-OFNh0k font-class-1">fill:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal-dark-ZmdfTZ">
+                  <div class="group-2-v4O6zx">
+                    <div class="x-5C7lTw font-class-1">;</div>
+                    <div class="group-5C7lTw">
+                      <div class="value-xHkLTw font-class-1">0.26</div>
+                    </div>
+                    <div class="property-5C7lTw font-class-1">opacity:</div>
+                  </div>
+                </div>
+                <div class="guide-form-e-subtitle-ZmdfTZ">
+                  <div class="text-3QLder font-class-3">Dark theme</div>
+                </div>
+              </div>
+              <div class="light-theme-Kix6f7">
+                <div class="guide-form-rmal-light-hbGMG3">
+                  <div class="group-2-7hGhCj">
+                    <div class="x-vTVCxM font-class-1">;</div>
+                    <div class="group-vTVCxM">
+                      <div class="value-Ybesne font-class-1">#979797</div>
+                    </div>
+                    <div class="property-vTVCxM font-class-1">fill:</div>
+                  </div>
+                </div>
+                <div class="guide-form-e-subtitle-hbGMG3">
+                  <div class="text-8esaKx font-class-3">Light theme</div>
+                </div>
+              </div>
+              <div class="general-Kix6f7">
+                <div class="guide-form-ormal1line-OAB60H">
+                  <div class="group-41tPQa">
+                    <div class="x-avkNte font-class-1">;</div>
+                    <div class="value-avkNte font-class-1">1.5px</div>
+                    <div class="property-avkNte font-class-1">height:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-6gCGmx">
+                  <div class="group-I9zYp6">
+                    <div class="x-7CVFh3 font-class-1">;</div>
+                    <div class="value-7CVFh3 font-class-1">4.5px</div>
+                    <div class="property-7CVFh3 font-class-1">width:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ction1line-OAB60H">
+                  <div class="group-2-hbkxGo">
+                    <div class="value-jeVZPH">
+                      <div class="x-s25icF font-class-1">;</div>
+                      <div class="x-zSats9 font-class-1">)</div>
+                      <div class="x-bWwzvx font-class-1">(</div>
+                      <div class="value-s25icF font-class-1">&#34;wa_list_subheader_dot.svg&#34;</div>
+                      <div class="fn-s25icF font-class-1">url</div>
+                    </div>
+                    <div class="property-jeVZPH font-class-1">background:</div>
+                  </div>
+                </div>
+                <div class="guide-form-e-subtitle-OAB60H">
+                  <div class="text-PLXn5s font-class-3">General</div>
+                </div>
+              </div>
+              <div class="x6-06-image-dot-Kix6f7">
+                <div class="guide-form-me-imagebg-HKxc7v"></div>
+                <img class="oval-HKxc7v" src="img/6-6-subheader-oval-95C7B670-4B3A-4F98-8653-43A472DACC78@2x.png" />
+              </div>
+              <div class="guide-subject-image-Kix6f7">
+                <div class="guide-numbering-icon-KdhIVM">
+                  <div class="x1-tyCfRF anima-valign-text-middle font-class-3">1</div>
+                </div>
+                <div class="guide-property-KdhIVM font-class-3">Image CSS</div>
+              </div>
+            </div>
+            <div class="guide-l43XcJ">
+              <div class="document-b-x-contents-xxOjzh"></div>
+              <div class="symbol-xxOjzh">
+                <div class="x6-06-measu-bheader322-F2Nnq2">
+                  <img class="oval-G56YUu" src="img/6-6-subheader-oval-AFE19712-8B8F-4C8E-947D-FD2F4229FB68@2x.png" />
+                  <img class="oval-eZumdX" src="img/6-6-subheader-oval-AFE19712-8B8F-4C8E-947D-FD2F4229FB68@2x.png" />
+                  <img class="oval-o9eEsA" src="img/6-6-subheader-oval-AFE19712-8B8F-4C8E-947D-FD2F4229FB68@2x.png" />
+                  <img class="oval-FQZufC" src="img/6-6-subheader-oval-AFE19712-8B8F-4C8E-947D-FD2F4229FB68@2x.png" />
+                  <img class="oval-WEvuMI" src="img/6-6-subheader-oval-AFE19712-8B8F-4C8E-947D-FD2F4229FB68@2x.png" />
+                </div>
+              </div>
+              <div class="measure-xxOjzh">
+                <div class="size-9NJUr7">
+                  <div class="guide-measure-area-DesO9X"></div>
+                  <div class="guide-meas-tom-size-1-DesO9X">
+                    <div class="x0-AwoirJ font-class-1">4.5</div>
+                    <div class="rectangle-AwoirJ"></div>
+                    <div class="rectangle-d4jQ1s"></div>
+                    <div class="rectangle-Mu9dAw"></div>
+                  </div>
+                </div>
+                <div class="size-Sm409b">
+                  <div class="guide-measure-area-0Gs5UL"></div>
+                  <div class="guide-meas-tom-size-2-0Gs5UL">
+                    <div class="x0-tqAeCa font-class-1">4.5</div>
+                    <div class="rectangle-tqAeCa"></div>
+                    <div class="rectangle-VGjuUg"></div>
+                    <div class="rectangle-ZIYnGr"></div>
+                  </div>
+                </div>
+                <div class="size-Zmdu7c">
+                  <div class="guide-measure-area-KdkWVN"></div>
+                  <div class="guide-meas-tom-size-1-KdkWVN">
+                    <div class="x0-nXzxQZ font-class-1">4.5</div>
+                    <div class="rectangle-nXzxQZ"></div>
+                    <div class="rectangle-fT6V6l"></div>
+                    <div class="rectangle-l6nlxc"></div>
+                  </div>
+                </div>
+                <div class="size-mVoJn9">
+                  <div class="guide-measure-area-gDtGy8"></div>
+                  <div class="guide-meas-tom-size-2-gDtGy8">
+                    <div class="x0-7wkHZN font-class-1">4.5</div>
+                    <div class="rectangle-7wkHZN"></div>
+                    <div class="rectangle-l1WKyL"></div>
+                    <div class="rectangle-kaiQRh"></div>
+                  </div>
+                </div>
+                <div class="size-nvKxXx">
+                  <div class="guide-measure-area-T9izZI"></div>
+                  <div class="guide-meas-tom-size-1-T9izZI">
+                    <div class="x0-Q9Ajcb font-class-1">4.5</div>
+                    <div class="rectangle-Q9Ajcb"></div>
+                    <div class="rectangle-f0ZAIm"></div>
+                    <div class="rectangle-Apitwx"></div>
+                  </div>
+                </div>
+                <div class="guide-meas-ght-size-1-9NJUr7">
+                  <div class="value-jCBmAX">
+                    <div class="x0-xoNfxf font-class-1">1.5</div>
+                  </div>
+                  <div class="rectangle-jCBmAX"></div>
+                  <div class="rectangle-xVMqT6"></div>
+                  <div class="rectangle-oDexEJ"></div>
+                </div>
+                <div class="guide-numb-ring-image-9NJUr7">
+                  <div class="x1-D21hxP anima-valign-text-middle font-class-3">1</div>
+                </div>
+              </div>
+            </div>
+            <div class="subheader-divider-s-l43XcJ font-class-5">Subheader divider (SVG로 구현 시)</div>
+          </div>
+          <div class="group-3-lmM6A3">
+            <div class="typeface-xfDyuc">
+              <div class="document-b-x-contents-Ed1wWm"></div>
+              <div class="general-Ed1wWm">
+                <div class="guide-form-ormal1line-ngU4cD">
+                  <div class="group-tMvPUf">
+                    <div class="x-hHLrxH font-class-1">;</div>
+                    <div class="value-hHLrxH font-class-1">50%</div>
+                    <div class="property-hHLrxH font-class-1">border-radius:</div>
+                  </div>
+                </div>
+                <div class="guide-form-e-subtitle-ngU4cD">
+                  <div class="text-z4Brcr font-class-3">General</div>
+                </div>
+                <div class="guide-form-ormal1line-RdFijG">
+                  <div class="group-ytXgWd">
+                    <div class="x-e1JD2j font-class-1">;</div>
+                    <div class="value-e1JD2j font-class-1">1.5px</div>
+                    <div class="property-e1JD2j font-class-1">width:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-rLWuS9">
+                  <div class="group-XvzVe2">
+                    <div class="x-VGLVdk font-class-1">;</div>
+                    <div class="value-VGLVdk font-class-1">1.5px</div>
+                    <div class="property-VGLVdk font-class-1">height:</div>
+                  </div>
+                </div>
+              </div>
+              <div class="light-theme-Ed1wWm">
+                <div class="guide-form-rmal-light-O60xmh">
+                  <div class="group-2-aKkXzh">
+                    <div class="x-oEoyMc font-class-1">;</div>
+                    <div class="group-oEoyMc">
+                      <div class="value-onDM3f font-class-1">#979797</div>
+                    </div>
+                    <div class="property-oEoyMc font-class-1">background:</div>
+                  </div>
+                </div>
+                <div class="guide-form-e-subtitle-O60xmh">
+                  <div class="text-3lu7bw font-class-3">Light theme</div>
+                </div>
+              </div>
+              <div class="dark-theme-Ed1wWm">
+                <div class="guide-form--dark1line-eoiuf9">
+                  <div class="group-2-p2bLmT">
+                    <div class="value-nBCmYC">
+                      <div class="background-4I1jFv"></div>
+                      <div class="x-4I1jFv font-class-1">;</div>
+                      <div class="x-zute7M font-class-1">)</div>
+                      <div class="x-0i6ULy font-class-1">(</div>
+                      <div class="value-4I1jFv font-class-1">--white-color</div>
+                      <div class="fn-4I1jFv font-class-1">var</div>
+                    </div>
+                    <div class="property-nBCmYC font-class-1">background:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal-dark-eoiuf9">
+                  <div class="group-2-yuhC32">
+                    <div class="x-skNh7P font-class-1">;</div>
+                    <div class="group-skNh7P">
+                      <div class="value-4kynFF font-class-1">0.26</div>
+                    </div>
+                    <div class="property-skNh7P font-class-1">opacity:</div>
+                  </div>
+                </div>
+                <div class="guide-form-e-subtitle-eoiuf9">
+                  <div class="text-tQgEZn font-class-3">Dark theme</div>
+                </div>
+              </div>
+              <div class="guide-subject-shape-Ed1wWm">
+                <div class="guide-numbering-icon-1wwxj1">
+                  <div class="x1-R35mEF anima-valign-text-middle font-class-3">1</div>
+                </div>
+                <div class="guide-property-1wwxj1 font-class-3">Shape CSS</div>
+              </div>
+            </div>
+            <div class="guide-xfDyuc">
+              <div class="document-b-x-contents-lPdEhZ"></div>
+              <div class="symbol-lPdEhZ">
+                <div class="x6-06-measu-bheader322-ZpYKNk">
+                  <img class="oval-CdaluL" src="img/6-6-subheader-oval-AFE19712-8B8F-4C8E-947D-FD2F4229FB68@2x.png" />
+                  <img class="oval-0rKtIS" src="img/6-6-subheader-oval-AFE19712-8B8F-4C8E-947D-FD2F4229FB68@2x.png" />
+                  <img class="oval-4Kzssx" src="img/6-6-subheader-oval-AFE19712-8B8F-4C8E-947D-FD2F4229FB68@2x.png" />
+                  <img class="oval-LENsTE" src="img/6-6-subheader-oval-AFE19712-8B8F-4C8E-947D-FD2F4229FB68@2x.png" />
+                  <img class="oval-lXGa7K" src="img/6-6-subheader-oval-AFE19712-8B8F-4C8E-947D-FD2F4229FB68@2x.png" />
+                </div>
+              </div>
+              <div class="measure-lPdEhZ">
+                <div class="size-8wxkwC">
+                  <div class="guide-measure-area-eo1ITK"></div>
+                  <div class="guide-measure-area-cmOl53"></div>
+                  <div class="guide-measure-area-1R5Joh"></div>
+                  <div class="guide-measure-area-z6wzAA"></div>
+                  <div class="guide-measure-area-iMxp0Z"></div>
+                  <div class="guide-meas-ght-size-1-eo1ITK">
+                    <div class="value-Sbk2Lg">
+                      <div class="x0-xSY8Km font-class-1">1.5</div>
+                    </div>
+                    <div class="rectangle-Sbk2Lg"></div>
+                    <div class="rectangle-SYTMlC"></div>
+                    <div class="rectangle-5ExpSE"></div>
+                  </div>
+                </div>
+                <div class="spacing-8wxkwC">
+                  <div class="guide-measure-area-AEwO2x"></div>
+                  <div class="guide-meas--spacing-2-AEwO2x">
+                    <div class="x0-U4Z5xY font-class-1">3</div>
+                    <div class="rectangle-U4Z5xY"></div>
+                    <div class="rectangle-yBYVQ8"></div>
+                    <div class="rectangle-Lz6nA1"></div>
+                  </div>
+                </div>
+                <div class="spacing-egd7nb">
+                  <div class="guide-measure-area-N9CuGS"></div>
+                  <div class="guide-meas--spacing-2-N9CuGS">
+                    <div class="x0-ObZlrl font-class-1">3</div>
+                    <div class="rectangle-ObZlrl"></div>
+                    <div class="rectangle-1rxtbT"></div>
+                    <div class="rectangle-clxaxZ"></div>
+                  </div>
+                </div>
+                <div class="spacing-ZvbJFG">
+                  <div class="guide-measure-area-7H92VO"></div>
+                  <div class="guide-meas--spacing-2-7H92VO">
+                    <div class="x0-7Zh7p1 font-class-1">3</div>
+                    <div class="rectangle-7Zh7p1"></div>
+                    <div class="rectangle-qEqxod"></div>
+                    <div class="rectangle-yHeLV5"></div>
+                  </div>
+                </div>
+                <div class="spacing-1jANs7">
+                  <div class="guide-measure-area-IjKz8n"></div>
+                  <div class="guide-meas--spacing-2-IjKz8n">
+                    <div class="x0-nxnl4c font-class-1">3</div>
+                    <div class="rectangle-nxnl4c"></div>
+                    <div class="rectangle-LadqT9"></div>
+                    <div class="rectangle-2uYInj"></div>
+                  </div>
+                </div>
+                <div class="guide-numb-ring-shape-8wxkwC">
+                  <div class="x1-80oZoq anima-valign-text-middle font-class-3">1</div>
+                </div>
+              </div>
+            </div>
+            <div class="subheader-divider-s-xfDyuc font-class-5">Subheader divider (Shape으로 구현 시)</div>
+          </div>
+          <div class="group-2-lmM6A3">
+            <div class="guide-Ek5aes">
+              <div class="document-b-x-contents-N7Uo20"></div>
+              <div class="symbol-N7Uo20">
+                <div class="x6-06-measu-ubheader32-yuB706">
+                  <div class="group-REF9EM">
+                    <div class="mobile-lig-rouplistbg-GHengy"></div>
+                    <div class="l-ist04-GHengy">
+                      <div class="mobile-lig-basic1line-pH9GlB">
+                        <div class="title-G9nxi1">
+                          <div class="main-text-1-line-K8Rn4r anima-valign-text-middle font-class-4">
+                            Vibration intensity
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mobile-lig-er-nochunk-pH9GlB">
+                        <img
+                          class="line-Ktfqn0"
+                          src="img/6-6-subheader-line-D46B7FD9-95DD-41B6-9927-494E2AB7474D.png"
+                        />
+                      </div>
+                    </div>
+                    <div class="list03-GHengy">
+                      <div class="mobile-lig-basic1line-cs3CHl">
+                        <div class="title-gj6WkN">
+                          <div class="main-text-1-line-3zKiUk anima-valign-text-middle font-class-4">Ringtone</div>
+                        </div>
+                      </div>
+                      <div class="mobile-lig-er-nochunk-cs3CHl">
+                        <img
+                          class="line-3eJ6NC"
+                          src="img/6-6-subheader-line-D46B7FD9-95DD-41B6-9927-494E2AB7474D.png"
+                        />
+                      </div>
+                    </div>
+                    <div class="list02-GHengy">
+                      <div class="mobile-lig-witch2line-LTA4hx">
+                        <div class="title-ERnXWE">
+                          <div class="subtext-hQWkB6 anima-valign-text-middle font-class-4">
+                            Mute all calls and alerts, except for your custom exceptions.
+                          </div>
+                          <div class="main-text-hQWkB6 anima-valign-text-middle font-class-4">Do not distrurb</div>
+                        </div>
+                        <div class="group-ERnXWE">
+                          <div class="mobile-lig-h-switchon-xMhExm">
+                            <div class="switchbg-JzXyfY"></div>
+                            <img
+                              class="switchfill-JzXyfY"
+                              src="img/6-6-subheader-switchfill-4A6D2267-6163-43BE-BAD7-3F99CD6DFF3F@2x.png"
+                            />
+                            <img
+                              class="switchborder-JzXyfY"
+                              src="img/6-6-subheader-switchborder-C7780406-3BC9-48F7-AFE7-D520F12013FF@2x.png"
+                            />
+                          </div>
+                          <div class="mobile-lig-ers-switch-xMhExm">
+                            <div class="rectangle-Kktioq"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mobile-lig-er-nochunk-LTA4hx">
+                        <img
+                          class="line-mnnEMw"
+                          src="img/6-6-subheader-line-D46B7FD9-95DD-41B6-9927-494E2AB7474D.png"
+                        />
+                      </div>
+                    </div>
+                    <div class="list01-GHengy">
+                      <div class="mobile-lig-switchlist-EizXTR">
+                        <div class="mobile-lig-h-switchon-Lwe3UF">
+                          <div class="switchbg-Af54oN border-class-2"></div>
+                          <img
+                            class="switchfill-Af54oN"
+                            src="img/6-6-subheader-switchfill-4A6D2267-6163-43BE-BAD7-3F99CD6DFF3F@2x.png"
+                          />
+                          <img
+                            class="switchborder-Af54oN"
+                            src="img/6-6-subheader-switchborder-0E1E0895-D3D0-4B1F-B03C-7BECEE7028FD@2x.png"
+                          />
+                        </div>
+                        <div class="title-Lwe3UF">
+                          <div class="switch-on-3p0n3Z anima-valign-text-middle font-class-4">
+                            Vibration while ringing
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mobile-lig--list-text-EizXTR"></div>
+                      <div class="mobile-lig-primarysub-EizXTR">
+                        <div class="title-lwpLto">
+                          <div class="subtext-dl8XWq anima-valign-text-middle font-class-4">Vibration</div>
+                          <div class="main-text-dl8XWq anima-valign-text-middle font-class-4">Sound mode</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="x6-06-measu-bheader321-yuB706">
+                  <div class="mobile-lig-er-nochunk-BgX9eF">
+                    <img class="line-zGwILD" src="img/6-6-subheader-line-EDF90210-8E11-43C5-8AFB-ADFA1C223A29.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="measure-2-N7Uo20">
+                <div class="spacing-MfwpYa">
+                  <div class="guide-measure-area-6yTHMo"></div>
+                  <div class="guide-meas--spacing-2-6yTHMo">
+                    <div class="x0-oYW6Fu font-class-1">20</div>
+                    <div class="rectangle-oYW6Fu"></div>
+                    <div class="rectangle-k9Lvid"></div>
+                    <div class="rectangle-K1J0n5"></div>
+                  </div>
+                </div>
+                <div class="size-MfwpYa">
+                  <div class="guide-measure-area-0UHLQE"></div>
+                  <div class="guide-meas-ght-size-2-0UHLQE">
+                    <div class="value-H5qgyL">
+                      <div class="x0-y7al8w font-class-1">1.5</div>
+                    </div>
+                    <div class="rectangle-H5qgyL"></div>
+                    <div class="rectangle-I2liHV"></div>
+                    <div class="rectangle-PyE3A0"></div>
+                  </div>
+                </div>
+                <div class="spacing-WVKJpp">
+                  <div class="guide-measure-area-0eAZni"></div>
+                  <div class="guide-meas--spacing-2-0eAZni">
+                    <div class="x0-626atb font-class-1">20</div>
+                    <div class="rectangle-626atb"></div>
+                    <div class="rectangle-AkJFU2"></div>
+                    <div class="rectangle-WzeqPP"></div>
+                  </div>
+                </div>
+                <div class="spacing-6DIx7Y">
+                  <div class="guide-meas--spacing-1-evxa3t">
+                    <div class="value-7aVIGh">
+                      <div class="x0-xu4Hai font-class-1">18.5</div>
+                    </div>
+                    <div class="rectangle-7aVIGh"></div>
+                    <div class="rectangle-x6GEv1"></div>
+                    <div class="rectangle-L6VCAr"></div>
+                  </div>
+                  <div class="guide-measure-area-evxa3t"></div>
+                </div>
+                <div class="spacing-vOvfx2">
+                  <div class="guide-meas-eft-size-1-Wlzvxe">
+                    <div class="value-5u0Yvz">
+                      <div class="x0-bnVhfH font-class-1">20</div>
+                    </div>
+                    <div class="rectangle-5u0Yvz"></div>
+                    <div class="rectangle-y5kx2Y"></div>
+                    <div class="rectangle-xbTpCA"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="measure-1-N7Uo20">
+                <div class="spacing-5mJrOb">
+                  <div class="guide-measure-area-XD4tSn"></div>
+                  <div class="guide-meas--spacing-1-XD4tSn">
+                    <div class="value-jLExH0">
+                      <div class="x0-V2xi3i font-class-1">20</div>
+                    </div>
+                    <div class="rectangle-jLExH0"></div>
+                    <div class="rectangle-MtVLJR"></div>
+                    <div class="rectangle-iyD67l"></div>
+                  </div>
+                </div>
+                <div class="spacing-jQN1QO">
+                  <div class="guide-measure-area-ZAy3Vu"></div>
+                  <div class="guide-meas--spacing-1-ZAy3Vu">
+                    <div class="value-SwaaRa">
+                      <div class="x0-hrjozv font-class-1">20</div>
+                    </div>
+                    <div class="rectangle-SwaaRa"></div>
+                    <div class="rectangle-oohMOf"></div>
+                    <div class="rectangle-EjndGy"></div>
+                  </div>
+                </div>
+                <div class="spacing-fNpx7a">
+                  <div class="guide-measure-area-fxhZMN"></div>
+                  <div class="guide-meas--spacing-1-fxhZMN">
+                    <div class="value-yzGgki">
+                      <div class="x0-UnoG9R font-class-1">20</div>
+                    </div>
+                    <div class="rectangle-yzGgki"></div>
+                    <div class="rectangle-XTd88T"></div>
+                    <div class="rectangle-buRPOx"></div>
+                  </div>
+                </div>
+                <div class="spacing-u60mLn">
+                  <div class="guide-measure-area-KV1LLu"></div>
+                  <div class="guide-meas--spacing-2-KV1LLu">
+                    <div class="x0-RKTWVb font-class-1">20</div>
+                    <div class="rectangle-RKTWVb"></div>
+                    <div class="rectangle-WCIDrU"></div>
+                    <div class="rectangle-1LR8xi"></div>
+                  </div>
+                </div>
+                <div class="spacing-VuS8ss">
+                  <div class="guide-measure-area-XRlHx1"></div>
+                  <div class="guide-meas--spacing-2-XRlHx1">
+                    <div class="x0-s7B3LG font-class-1">20</div>
+                    <div class="rectangle-s7B3LG"></div>
+                    <div class="rectangle-xHAM9d"></div>
+                    <div class="rectangle-DoYwUX"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="no-title-subheader-Ek5aes font-class-5">No title subheader</div>
+          </div>
+          <div class="group-1-lmM6A3">
+            <div class="guide-9G8V3L">
+              <div class="document-b-x-contents-vGH6MB"></div>
+              <div class="symbol-vGH6MB">
+                <div class="x6-06-measu-bheader311-N91UKE">
+                  <div class="subheader-KmNAD5">
+                    <div class="mobile-lig-chunk-text-tGPprv">
+                      <img class="line-bXZzQn" src="img/6-6-subheader-line-D4BD8F05-601C-4916-90B0-60EADDEF0E4E.png" />
+                    </div>
+                    <div class="mobile-lig-xt-nochunk-tGPprv">
+                      <div class="subheadertext-hHVjLd font-class-6">Subheader</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="x6-06-measu-ubheader31-N91UKE">
+                  <div class="group-KR8rEa">
+                    <div class="mobile-lig-rouplistbg-GKYcGH"></div>
+                    <div class="list04-GKYcGH">
+                      <div class="mobile-lig-basic1line-Bd3eqk">
+                        <div class="title-0orMI9">
+                          <div class="main-text-1-line-Bf0ygy anima-valign-text-middle font-class-4">
+                            Vibration intensity
+                          </div>
+                        </div>
+                      </div>
+                      <div class="subheader-Bd3eqk">
+                        <div class="mobile-lig-chunk-text-aubRpe">
+                          <img
+                            class="line-c0ee1w"
+                            src="img/6-6-subheader-line-52BD0109-9196-4D06-B59E-D81E2DAA0DD1@2x.png"
+                          />
+                        </div>
+                        <div class="mobile-lig-xt-nochunk-aubRpe">
+                          <div class="subheadertext-y817ji font-class-6">Subheader</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="l-ist03-GKYcGH">
+                      <div class="mobile-lig-basic1line-HAiAHr">
+                        <div class="title-idgmmt">
+                          <div class="main-text-1-line-sMBr51 anima-valign-text-middle font-class-4">Ringtone</div>
+                        </div>
+                      </div>
+                      <div class="subheader-HAiAHr">
+                        <div class="mobile-lig-chunk-text-iPxKo8">
+                          <img
+                            class="line-VxDW8s"
+                            src="img/6-6-subheader-line-52BD0109-9196-4D06-B59E-D81E2DAA0DD1@2x.png"
+                          />
+                        </div>
+                        <div class="mobile-lig-xt-nochunk-iPxKo8">
+                          <div class="subheadertext-oXMZMy font-class-6">Subheader</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list02-GKYcGH">
+                      <div class="mobile-lig-witch2line-GYqjQ1">
+                        <div class="title-mj2Jh1">
+                          <div class="subtext-ztmOkb anima-valign-text-middle font-class-4">
+                            Mute all calls and alerts, except for your custom exceptions.
+                          </div>
+                          <div class="main-text-ztmOkb anima-valign-text-middle font-class-4">Do not distrurb</div>
+                        </div>
+                        <div class="group-mj2Jh1">
+                          <div class="mobile-lig-h-switchon-A42IT5">
+                            <div class="switchbg-ZUHTDI"></div>
+                            <img
+                              class="switchfill-ZUHTDI"
+                              src="img/6-6-subheader-switchfill-4A6D2267-6163-43BE-BAD7-3F99CD6DFF3F@2x.png"
+                            />
+                            <img
+                              class="switchborder-ZUHTDI"
+                              src="img/6-6-subheader-switchborder-C7780406-3BC9-48F7-AFE7-D520F12013FF@2x.png"
+                            />
+                          </div>
+                          <div class="mobile-lig-ers-switch-A42IT5">
+                            <div class="rectangle-TK85Gv"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="subheader-GYqjQ1">
+                        <div class="mobile-lig-chunk-text-8kIfIr">
+                          <img
+                            class="line-zXZsLo"
+                            src="img/6-6-subheader-line-52BD0109-9196-4D06-B59E-D81E2DAA0DD1@2x.png"
+                          />
+                        </div>
+                        <div class="mobile-lig-xt-nochunk-8kIfIr">
+                          <div class="subheadertext-Ph7Nx0 font-class-6">Subheader</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list01-GKYcGH">
+                      <div class="mobile-lig-switchlist-vPxD5I">
+                        <div class="mobile-lig-h-switchon-VBixTy">
+                          <div class="switchbg-AYFdTM border-class-2"></div>
+                          <img
+                            class="switchfill-AYFdTM"
+                            src="img/6-6-subheader-switchfill-4A6D2267-6163-43BE-BAD7-3F99CD6DFF3F@2x.png"
+                          />
+                          <img
+                            class="switchborder-AYFdTM"
+                            src="img/6-6-subheader-switchborder-0E1E0895-D3D0-4B1F-B03C-7BECEE7028FD@2x.png"
+                          />
+                        </div>
+                        <div class="title-VBixTy">
+                          <div class="switch-on-8K5MgQ anima-valign-text-middle font-class-4">
+                            Vibration while ringing
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mobile-lig--list-text-vPxD5I"></div>
+                      <div class="mobile-lig-primarysub-vPxD5I">
+                        <div class="title-6Kreju">
+                          <div class="subtext-j2xohL anima-valign-text-middle font-class-4">Vibration</div>
+                          <div class="main-text-j2xohL anima-valign-text-middle font-class-4">Sound mode</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="measure-2-vGH6MB">
+                <div class="spacing-LlwILK">
+                  <div class="guide-measure-area-4jwGOP"></div>
+                  <div class="guide-meas--spacing-2-4jwGOP">
+                    <div class="x0-9SfWjJ font-class-1">24</div>
+                    <div class="rectangle-9SfWjJ"></div>
+                    <div class="rectangle-aNMB7S"></div>
+                    <div class="rectangle-ABRC7Q"></div>
+                  </div>
+                </div>
+                <div class="spacing-Phxh71">
+                  <div class="guide-measure-area-WBAgjR"></div>
+                  <div class="guide-measure-area-XGWrQX"></div>
+                  <div class="guide-meas--spacing-1-WBAgjR">
+                    <div class="value-l8QKog">
+                      <div class="x0-rpjeUM font-class-1">10</div>
+                    </div>
+                    <div class="rectangle-l8QKog"></div>
+                    <div class="rectangle-QNCzeE"></div>
+                    <div class="rectangle-RyesFG"></div>
+                  </div>
+                  <div class="guide-meas--spacing-1-XGWrQX">
+                    <div class="value-0Hd3XU">
+                      <div class="x0-sgyhJ2 font-class-1">10</div>
+                    </div>
+                    <div class="rectangle-0Hd3XU"></div>
+                    <div class="rectangle-z9K8e9"></div>
+                    <div class="rectangle-eTCyjG"></div>
+                  </div>
+                  <div class="guide-measure-area-Shmi7E"></div>
+                  <div class="guide-measure-area-5nb37B"></div>
+                </div>
+                <div class="spacing-D08uiQ">
+                  <div class="guide-measure-area-FKUB5x"></div>
+                  <div class="guide-meas--spacing-2-FKUB5x">
+                    <div class="x0-uwfqCO font-class-1">16</div>
+                    <div class="rectangle-uwfqCO"></div>
+                    <div class="rectangle-d78AsD"></div>
+                    <div class="rectangle-Bg0k4u"></div>
+                  </div>
+                </div>
+                <div class="size-LlwILK">
+                  <div class="guide-measure-area-CNvYuu"></div>
+                  <div class="guide-meas-ght-size-2-CNvYuu">
+                    <div class="value-xI4lnx">
+                      <div class="x0-V9d79K font-class-1">1.5</div>
+                    </div>
+                    <div class="rectangle-xI4lnx"></div>
+                    <div class="rectangle-fKXsWl"></div>
+                    <div class="rectangle-YsFCcb"></div>
+                  </div>
+                </div>
+                <div class="spacing-n2q04x">
+                  <div class="guide-measure-area-whjyrE"></div>
+                  <div class="guide-meas--spacing-2-whjyrE">
+                    <div class="x0-Z9nTAX font-class-1">20</div>
+                    <div class="rectangle-Z9nTAX"></div>
+                    <div class="rectangle-IF8SWR"></div>
+                    <div class="rectangle-dtwyMx"></div>
+                  </div>
+                </div>
+                <div class="spacing-g0DFZ8">
+                  <div class="guide-meas-eft-size-1-oyat5v">
+                    <div class="value-RYIVtx">
+                      <div class="x0-bmSnIK font-class-1">36</div>
+                    </div>
+                    <div class="rectangle-RYIVtx"></div>
+                    <div class="rectangle-lh13BG"></div>
+                    <div class="rectangle-H7C2E9"></div>
+                  </div>
+                </div>
+                <div class="size-Phxh71">
+                  <div class="guide-measure-area-TEpNKP"></div>
+                </div>
+              </div>
+              <div class="measure-1-vGH6MB">
+                <div class="spacing-1U1TBU">
+                  <div class="guide-measure-area-Z34yR5"></div>
+                  <div class="guide-meas--spacing-1-Z34yR5">
+                    <div class="value-SMuL5x">
+                      <div class="x0-UtT3dT font-class-1">36</div>
+                    </div>
+                    <div class="rectangle-SMuL5x"></div>
+                    <div class="rectangle-xu2Ui4"></div>
+                    <div class="rectangle-rPPxvp"></div>
+                  </div>
+                </div>
+                <div class="spacing-owmdjb">
+                  <div class="guide-measure-area-Mr4Yt2"></div>
+                  <div class="guide-meas--spacing-1-Mr4Yt2">
+                    <div class="value-17g6Km">
+                      <div class="x0-CxUopE font-class-1">36</div>
+                    </div>
+                    <div class="rectangle-17g6Km"></div>
+                    <div class="rectangle-2fUWnL"></div>
+                    <div class="rectangle-Xa3Q7z"></div>
+                  </div>
+                </div>
+                <div class="spacing-K0ppqr">
+                  <div class="guide-measure-area-u95LnS"></div>
+                  <div class="guide-meas--spacing-1-u95LnS">
+                    <div class="value-kxGuxv">
+                      <div class="x0-JlPMxy font-class-1">36</div>
+                    </div>
+                    <div class="rectangle-kxGuxv"></div>
+                    <div class="rectangle-pZFdqI"></div>
+                    <div class="rectangle-GWFkKx"></div>
+                  </div>
+                </div>
+                <div class="spacing-2srCbA">
+                  <div class="guide-measure-area-79b3gK"></div>
+                  <div class="guide-meas--spacing-2-79b3gK">
+                    <div class="x0-7hd0EI font-class-1">24</div>
+                    <div class="rectangle-7hd0EI"></div>
+                    <div class="rectangle-IuhRSp"></div>
+                    <div class="rectangle-DdAQbO"></div>
+                  </div>
+                </div>
+                <div class="spacing-K4qzvk">
+                  <div class="guide-measure-area-4Q2nb2"></div>
+                  <div class="guide-meas--spacing-2-4Q2nb2">
+                    <div class="x0-uzwvsx font-class-1">20</div>
+                    <div class="rectangle-uzwvsx"></div>
+                    <div class="rectangle-gioPJM"></div>
+                    <div class="rectangle-ylJxzz"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="title-subheader-9G8V3L font-class-5">Title subheader</div>
+          </div>
+          <div class="keyscreen-lmM6A3">
+            <div class="document-b-x-contents-QniGFZ"></div>
+            <div class="text-QniGFZ">
+              <div class="title-subheader-PqieGa font-class-1">Title subheader</div>
+              <div class="no-title-subheader-PqieGa font-class-1">No title subheader</div>
+            </div>
+            <img
+              class="x6-06-keysc-ubheader32-QniGFZ"
+              src="img/6-6-subheader-6-06keyscreenw360mpd066subheader32-724D79AC-0CEE-42B4-A90F-209D9547A0F6@2x.png"
+            />
+            <img
+              class="x6-06-keysc-ubheader32-9gEVAa"
+              src="img/6-6-subheader-6-06keyscreenw360mpl066subheader32-ED83CCE4-FC19-4F0B-8FF3-C0572A015090@2x.png"
+            />
+            <img
+              class="x6-06-keysc-ubheader31-QniGFZ"
+              src="img/6-6-subheader-6-06keyscreenw360mpd066subheader31-5CAC5E9D-9BE1-4251-AE4E-3474DAB3A485@2x.png"
+            />
+            <img
+              class="x6-06-keysc-ubheader31-9gEVAa"
+              src="img/6-6-subheader-6-06keyscreenw360mpl066subheader31-E71C9568-9030-4246-B824-6E6DB59E4A12@2x.png"
+            />
+          </div>
+          <div class="without-chunking-lmM6A3 font-class-1">Without chunking</div>
+        </div>
+        <div class="no-text-C61RwL">
+          <div class="guide-c5t0Eg">
+            <div class="document-b-x-contents-sTAJxN"></div>
+            <div class="symbol-sTAJxN">
+              <div class="x6-06-measu-subheader2-HOrwgE">
+                <div class="group-CfzXS4">
+                  <div class="list03-eiM3JM">
+                    <div class="mobile-lig-rouplistbg-6bZnB7"></div>
+                    <div class="mobile-lig-basic1line-6bZnB7">
+                      <div class="title-qZq0g6">
+                        <div class="main-text-1-line-7nvq72 anima-valign-text-middle font-class-4">Ringtone</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="list02-eiM3JM">
+                    <div class="mobile-lig-rouplistbg-fVvHpO"></div>
+                    <div class="mobile-lig-witch2line-fVvHpO">
+                      <div class="title-GmIxF9">
+                        <div class="subtext-qK3PGy anima-valign-text-middle font-class-4">
+                          Mute all calls and alerts, except for your custom exceptions.
+                        </div>
+                        <div class="main-text-qK3PGy anima-valign-text-middle font-class-4">Do not distrurb</div>
+                      </div>
+                      <div class="group-GmIxF9">
+                        <div class="mobile-lig-h-switchon-EwU5UK">
+                          <div class="switchbg-uoIQ02"></div>
+                          <img
+                            class="switchfill-uoIQ02"
+                            src="img/6-6-subheader-switchfill-4A6D2267-6163-43BE-BAD7-3F99CD6DFF3F@2x.png"
+                          />
+                          <img
+                            class="switchborder-uoIQ02"
+                            src="img/6-6-subheader-switchborder-C7780406-3BC9-48F7-AFE7-D520F12013FF@2x.png"
+                          />
+                        </div>
+                        <div class="mobile-lig-ers-switch-EwU5UK">
+                          <div class="rectangle-tPNIXW"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="list01-eiM3JM">
+                    <div class="mobile-lig-rouplistbg-QhnfdH"></div>
+                    <div class="mobile-lig-switchlist-QhnfdH">
+                      <div class="mobile-lig-h-switchon-zXxnGi">
+                        <div class="switchbg-ZbxxyG border-class-2"></div>
+                        <img
+                          class="switchfill-ZbxxyG"
+                          src="img/6-6-subheader-switchfill-4A6D2267-6163-43BE-BAD7-3F99CD6DFF3F@2x.png"
+                        />
+                        <img
+                          class="switchborder-ZbxxyG"
+                          src="img/6-6-subheader-switchborder-0E1E0895-D3D0-4B1F-B03C-7BECEE7028FD@2x.png"
+                        />
+                      </div>
+                      <div class="title-zXxnGi">
+                        <div class="switch-on-HJ0ZzM anima-valign-text-middle font-class-4">
+                          Vibration while ringing
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mobile-lig--list-text-QhnfdH"></div>
+                    <div class="mobile-lig-primarysub-QhnfdH">
+                      <div class="title-oiPrSO">
+                        <div class="subtext-wsupKJ anima-valign-text-middle font-class-4">Vibration</div>
+                        <div class="main-text-wsupKJ anima-valign-text-middle font-class-4">Sound mode</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="measure-sTAJxN">
+              <div class="spacing-bGcxmJ">
+                <div class="guide-measure-area-qeLAVO"></div>
+                <div class="guide-meas--spacing-1-qeLAVO">
+                  <div class="value-1lSHOj">
+                    <div class="x0-VUBdax font-class-1">20</div>
+                  </div>
+                  <div class="rectangle-1lSHOj"></div>
+                  <div class="rectangle-hS8XvE"></div>
+                  <div class="rectangle-NKBxnk"></div>
+                </div>
+              </div>
+              <div class="spacing-kuXiQY">
+                <div class="guide-measure-area-Vgw1wa"></div>
+                <div class="guide-meas--spacing-1-Vgw1wa">
+                  <div class="value-98SiVs">
+                    <div class="x0-xrZ7T5 font-class-1">20</div>
+                  </div>
+                  <div class="rectangle-98SiVs"></div>
+                  <div class="rectangle-fOR4Dk"></div>
+                  <div class="rectangle-9LgnCX"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="keyscreen-c5t0Eg">
+            <div class="document-b-x-contents-1eJAQK"></div>
+            <img
+              class="x6-06-keysc-subheader2-1eJAQK"
+              src="img/6-6-subheader-6-06keyscreenw360mpl066subheader2-4BC54F90-09FD-4704-8E9F-01B18C6A0D6E@2x.png"
+            />
+            <img
+              class="x6-06-keysc-subheader2-lxV9l1"
+              src="img/6-6-subheader-6-06keyscreenw360mpd066subheader2-653D5C68-EB1B-4221-BBA6-CB949BFAFB69@2x.png"
+            />
+          </div>
+          <div class="no-text-c5t0Eg font-class-1">No text</div>
+        </div>
+        <div class="text-C61RwL">
+          <div class="group-88YoGf">
+            <div class="type-BqdK1v">
+              <div class="document-b-x-contents-GhUusP"></div>
+              <div class="general-GhUusP">
+                <div class="guide-form-ormal1line-XaCeIs">
+                  <div class="group-MbRbWL">
+                    <div class="x-sHkD8Z font-class-1">;</div>
+                    <div class="value-sHkD8Z font-class-1">&#34;Roboto-Medium”</div>
+                    <div class="property-sHkD8Z font-class-1">font-family:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-atRayj">
+                  <div class="group-37zx0m">
+                    <div class="x-HvYxsf font-class-1">;</div>
+                    <div class="value-HvYxsf font-class-1">14px</div>
+                    <div class="property-HvYxsf font-class-1">font-size:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-DBxQs8">
+                  <div class="group-HT23os">
+                    <div class="x-xuEzPH font-class-1">;</div>
+                    <div class="value-xuEzPH font-class-1">left</div>
+                    <div class="property-xuEzPH font-class-1">text-align:</div>
+                  </div>
+                </div>
+                <div class="guide-form-e-subtitle-XaCeIs">
+                  <div class="text-pxXE9B font-class-3">General</div>
+                </div>
+              </div>
+              <div class="light-theme-GhUusP">
+                <div class="guide-form-l-lightcmt-Cx6oTi">
+                  <div class="group-2-hArWlF">
+                    <div class="comment-n6lb7N font-class-1">/*default*/</div>
+                    <div class="x-n6lb7N font-class-1">;</div>
+                    <div class="group-n6lb7N">
+                      <div class="value-cAUWxi font-class-1">#909090</div>
+                    </div>
+                    <div class="property-n6lb7N font-class-1">color:</div>
+                  </div>
+                </div>
+                <div class="guide-form-me-divider-Cx6oTi"></div>
+                <div class="guide-form-l-lightcmt-mObeeS">
+                  <div class="group-2-JSl0IK">
+                    <div class="comment-IbjOrB font-class-1">/*disabled*/</div>
+                    <div class="x-IbjOrB font-class-1">;</div>
+                    <div class="group-IbjOrB">
+                      <div class="value-9yhk3M font-class-1">#909090</div>
+                    </div>
+                    <div class="property-IbjOrB font-class-1">color:</div>
+                  </div>
+                </div>
+                <div class="guide-form-l-lightcmt-T49xZl">
+                  <div class="group-2-MzI2i7">
+                    <div class="comment-sIHlF0 font-class-1">/*disabled*/</div>
+                    <div class="x-sIHlF0 font-class-1">;</div>
+                    <div class="group-sIHlF0">
+                      <div class="value-mOpfTe font-class-1">0.4</div>
+                    </div>
+                    <div class="property-sIHlF0 font-class-1">opacity:</div>
+                  </div>
+                </div>
+                <div class="guide-form-e-subtitle-Cx6oTi">
+                  <div class="text-j9nUYc font-class-3">Light theme</div>
+                </div>
+              </div>
+              <div class="dark-theme-GhUusP">
+                <div class="guide-form-al-darkcmt-xGxlKW">
+                  <div class="group-2-2dq29s">
+                    <div class="comment-v2UQku font-class-1">/*default*/</div>
+                    <div class="x-v2UQku font-class-1">;</div>
+                    <div class="group-v2UQku">
+                      <div class="value-reTYX0 font-class-1">#999999</div>
+                    </div>
+                    <div class="property-v2UQku font-class-1">color:</div>
+                  </div>
+                </div>
+                <div class="guide-form-me-divider-xGxlKW"></div>
+                <div class="guide-form-al-darkcmt-5d4ByM">
+                  <div class="group-2-bwylBH">
+                    <div class="comment-TcQ9HZ font-class-1">/*disabled*/</div>
+                    <div class="x-TcQ9HZ font-class-1">;</div>
+                    <div class="group-TcQ9HZ">
+                      <div class="value-6BUb6e font-class-1">#999999</div>
+                    </div>
+                    <div class="property-TcQ9HZ font-class-1">color:</div>
+                  </div>
+                </div>
+                <div class="guide-form-al-darkcmt-lGb6a6">
+                  <div class="group-2-K3kiCb">
+                    <div class="comment-w9gGhh font-class-1">/*disabled*/</div>
+                    <div class="x-w9gGhh font-class-1">;</div>
+                    <div class="group-w9gGhh">
+                      <div class="value-jKI5fp font-class-1">0.4</div>
+                    </div>
+                    <div class="property-w9gGhh font-class-1">opacity:</div>
+                  </div>
+                </div>
+                <div class="guide-form-e-subtitle-xGxlKW">
+                  <div class="text-fcPBc9 font-class-3">Dark theme</div>
+                </div>
+              </div>
+              <div class="guide-subject-type-GhUusP">
+                <div class="guide-numbering-type-P7VMJb">
+                  <div class="x1-xcbzRa anima-valign-text-middle font-class-3">1</div>
+                </div>
+                <div class="guide-property-P7VMJb font-class-3">Type CSS</div>
+              </div>
+            </div>
+            <div class="guide-BqdK1v">
+              <div class="document-b-x-contents-xxLkNU"></div>
+              <div class="symbol-xxLkNU">
+                <div class="x6-06-measu-subheader1-PxU9Oe">
+                  <div class="list03-2kWQ06">
+                    <div class="mobile-lig-rouplistbg-3u89lF"></div>
+                    <div class="mobile-lig-basic1line-3u89lF">
+                      <div class="title-QMnQD9">
+                        <div class="main-text-1-line-JRu6hz anima-valign-text-middle font-class-4">Ringtone</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="list04-2kWQ06">
+                    <div class="mobile-lig-rouplistbg-HxxsJM"></div>
+                    <div class="mobile-lig-basic1line-HxxsJM">
+                      <div class="title-Q28UaU">
+                        <div class="main-text-1-line-dsJIVx anima-valign-text-middle font-class-4">
+                          Vibration intensity
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mobile-lig-text-chunk-HxxsJM">
+                      <div class="subheadertext-01u73s anima-valign-text-middle font-class-6">Subheader</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="measure-xxLkNU">
+                <div class="spacing-lb6jt8">
+                  <div class="guide-measure-area-iN1QlM"></div>
+                  <div class="guide-meas--spacing-2-iN1QlM">
+                    <div class="x0-MP7McA font-class-1">24</div>
+                    <div class="rectangle-MP7McA"></div>
+                    <div class="rectangle-hfvCJY"></div>
+                    <div class="rectangle-0OJJFk"></div>
+                  </div>
+                  <div class="guide-meas-e-vertical-iN1QlM"></div>
+                  <div class="guide-meas-e-vertical-dRwcvt"></div>
+                </div>
+                <div class="spacing-5V7zzx">
+                  <div class="guide-measure-area-dLFITM"></div>
+                  <div class="guide-meas--spacing-2-dLFITM">
+                    <div class="x0-v0dR2f font-class-1">24</div>
+                    <div class="rectangle-v0dR2f"></div>
+                    <div class="rectangle-Qjjq0v"></div>
+                    <div class="rectangle-mQUS4O"></div>
+                  </div>
+                  <div class="guide-meas-e-vertical-dLFITM"></div>
+                  <div class="guide-meas-e-vertical-Hlnzu8"></div>
+                </div>
+                <div class="size-lb6jt8">
+                  <div class="guide-meas-eft-size-1-8P29Jz">
+                    <div class="value-2TGoBk">
+                      <div class="x0-gnfxpB font-class-1">36</div>
+                    </div>
+                    <div class="rectangle-2TGoBk"></div>
+                    <div class="rectangle-wCixNg"></div>
+                    <div class="rectangle-l1PBHq"></div>
+                  </div>
+                </div>
+                <div class="spacing-As5fN3">
+                  <div class="guide-meas--spacing-1-SrhNC7">
+                    <div class="value-m3ViqU">
+                      <div class="x0-V1lS8A font-class-1">13</div>
+                    </div>
+                    <div class="rectangle-m3ViqU"></div>
+                    <div class="rectangle-yZmIlv"></div>
+                    <div class="rectangle-SnuQef"></div>
+                  </div>
+                  <div class="guide-measure-area-SrhNC7"></div>
+                </div>
+                <div class="spacing-PbbOZH">
+                  <div class="guide-meas--spacing-1-wLTZ7G">
+                    <div class="value-R1Z6Ur">
+                      <div class="x0-hqjz5M font-class-1">7</div>
+                    </div>
+                    <div class="rectangle-R1Z6Ur"></div>
+                    <div class="rectangle-WfmU9D"></div>
+                    <div class="rectangle-f4WYbN"></div>
+                  </div>
+                  <div class="guide-measure-area-wLTZ7G"></div>
+                </div>
+                <div class="size-5V7zzx">
+                  <div class="guide-measure-area-l8LBpD"></div>
+                </div>
+                <div class="guide-numbering-type-lb6jt8">
+                  <div class="x1-cILxZX anima-valign-text-middle font-class-3">1</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="keyscreen-88YoGf">
+            <div class="document-b-x-contents-IBh15p"></div>
+            <img
+              class="x6-06-keysc-subheader1-IBh15p"
+              src="img/6-6-subheader-6-06keyscreenw360mpl066subheader1-EE9BDF38-9A3E-4CF5-9344-9E68DD0F3C7F@2x.png"
+            />
+            <img
+              class="x6-06-keysc-subheader1-OEM6Ex"
+              src="img/6-6-subheader-6-06keyscreenw360mpd066subheader1-36C3D2C7-ED7F-4A78-A212-03E3589A816E@2x.png"
+            />
+          </div>
+          <div class="text-88YoGf font-class-1">Text</div>
+        </div>
+        <div class="subheader-case-C61RwL">
+          <div class="x-case-1-it-is-neces-A1ub1R font-class-1">
+            *Case 1.&nbsp;&nbsp;It is necessary to use unconditionally unless it is a special case.
+          </div>
+          <div class="x-case-2-it-is-possi-A1ub1R font-class-1">
+            *Case 2.&nbsp;&nbsp;It is possible to use it if it is especially necessary because grouping is difficult.
+          </div>
+          <div class="document-b-x-contents-A1ub1R"></div>
+          <div class="text-A1ub1R">
+            <div class="grouping-no-title-s-9E60JW font-class-1">Grouping (no title subheader)</div>
+            <div class="subheader-9E60JW font-class-1">Subheader</div>
+            <div class="grouping-no-title-s-YYCtLy font-class-1">Grouping (no title subheader)</div>
+            <div class="subheader-YYCtLy font-class-1">Subheader</div>
+            <div class="case-2-some-settin-9E60JW font-class-1">Case 2 : some setting case</div>
+            <div class="case-1-default-re-9E60JW font-class-1">Case 1 : Default (recommended)</div>
+          </div>
+          <img
+            class="x6-06-keysc-ubheader31-A1ub1R"
+            src="img/6-6-subheader-6-06keyscreenw360mpl066subheader31-E71C9568-9030-4246-B824-6E6DB59E4A12@2x.png"
+          />
+          <img
+            class="x6-06-keysc-ubheader32-A1ub1R"
+            src="img/6-6-subheader-6-06keyscreenw360mpl066subheader32-ED83CCE4-FC19-4F0B-8FF3-C0572A015090@2x.png"
+          />
+          <img
+            class="x6-06-keysc-subheader1-A1ub1R"
+            src="img/6-6-subheader-6-06keyscreenw360mpl066subheader1-EE9BDF38-9A3E-4CF5-9344-9E68DD0F3C7F@2x.png"
+          />
+          <img
+            class="x6-06-keysc-subheader2-A1ub1R"
+            src="img/6-6-subheader-6-06keyscreenw360mpl066subheader2-4BC54F90-09FD-4704-8E9F-01B18C6A0D6E@2x.png"
+          />
+        </div>
+        <div class="x6-5-icon-text-list-C61RwL font-class-7">(6-6) Subheader</div>
+        <div class="gnb-bar06-lists-C61RwL">
+          <div class="gnb-menu17-ste-normal-2VONx3">
+            <a href="a171textselection.html">
+              <div class="gnbmenu-yTKBbF">
+                <div class="x17-copy-paste-XrAYc4 font-class-2">17. Copy &amp; paste</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu16-ail-normal-2VONx3">
+            <a href="a161thumbnailgrid.html">
+              <div class="gnbmenu-2R4elG">
+                <div class="x16-thumbnail-saB2O5 font-class-2">16. Thumbnail</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu15-dge-normal-2VONx3">
+            <a href="a151numberbadgeappbar.html">
+              <div class="gnbmenu-coA1uM">
+                <div class="x15-notification-bad-VYA6Mh font-class-2">15. Notification badge</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu14-ion-normal-2VONx3">
+            <a href="a141descriptionwidth.html">
+              <div class="gnbmenu-omXtll">
+                <div class="rectangle-hlHzCO"></div>
+                <div class="x14-description-hlHzCO font-class-2">14. Description</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu13-ols-normal-2VONx3">
+            <a href="a131maintab.html">
+              <div class="gnbmenu-ebIvem">
+                <div class="x13-view-controls-ADKFwL font-class-2">13. View controls</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu12-lds-normal-2VONx3">
+            <a href="a121textfields.html">
+              <div class="gnbmenu-qbXKrD">
+                <div class="x12-text-fields-uistzh font-class-2">12. Text fields</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu11-ast-normal-2VONx3">
+            <a href="a111toastwidth.html">
+              <div class="gnbmenu-NHLaWA">
+                <div class="x11-toast-ZFBMgo font-class-2">11. Toast</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu10-rch-normal-2VONx3">
+            <a href="a101searchbarwidth.html">
+              <div class="gnbmenu-Kmegq7">
+                <div class="x10-search-dKzFAO font-class-2">10. Search</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu9--ing-normal-2VONx3">
+            <a href="a91scrollbar.html">
+              <div class="gnbmenu-nM2jv1">
+                <div class="x9-scrolling-eyiB4A font-class-2">9. Scrolling</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu8--ess-normal-2VONx3">
+            <a href="a81progressbar.html">
+              <div class="gnbmenu-fxOx1K">
+                <div class="x8-progress-S7Q5wn font-class-2">8. Progress</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu7--ems-normal-2VONx3">
+            <a href="a71noitem.html">
+              <div class="gnbmenu-YANpuR">
+                <div class="x7-no-item-BxN9Cc font-class-2">7. No item</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu6--s-selected-2VONx3">
+            <a href="a61listwidth.html">
+              <div class="gnb-submenu-normal-gX0xkx">
+                <div class="gnbsubmenu-ty974O">
+                  <div class="text-fLVbfk font-class-2">(6-1) List_Width</div>
+                </div>
+              </div></a
+            >
+            <a href="a62listcontentsarea.html">
+              <div class="gnb-submenu-normal-tXcc4Q">
+                <div class="gnbsubmenu-o659tu">
+                  <div class="text-6Oe3De font-class-2">(6-2) List_Contents area</div>
+                </div>
+              </div></a
+            >
+            <a href="a63endoflist.html">
+              <div class="gnb-submenu-normal-ENDx8t">
+                <div class="gnbsubmenu-mE66WI">
+                  <div class="text-o08Gqg font-class-2">(6-3) End of list</div>
+                </div>
+              </div></a
+            >
+            <a href="a64basiclist.html">
+              <div class="gnb-submenu-normal-0krpxs">
+                <div class="gnbsubmenu-fcYHXd">
+                  <div class="text-roxQYS font-class-2">(6-4) Basic list</div>
+                </div>
+              </div></a
+            >
+            <a href="a65imagelist.html">
+              <div class="gnb-submenu-normal-9GgzCd">
+                <div class="gnbsubmenu-svqfdg">
+                  <div class="text-Yax7ap font-class-2">(6-5) Image list</div>
+                </div>
+              </div></a
+            >
+            <a href="a66subheader.html">
+              <div class="gnb-submenu-normal-7ciDJd">
+                <div class="gnbsubmenu-7FXHsA">
+                  <div class="text-5YI8Yt font-class-5">(6-6) Subheader</div>
+                </div>
+              </div></a
+            >
+            <a href="a67expandablelist.html">
+              <div class="gnb-submenu-normal-3hA9oi">
+                <div class="gnbsubmenu-PSdYwr">
+                  <div class="text-xnufTh font-class-2">(6-7) Expandable list</div>
+                </div>
+              </div></a
+            >
+            <a href="a68multipleselectionlist.html">
+              <div class="gnb-submenu-normal-Vxgcaw">
+                <div class="gnbsubmenu-KPQ1xG">
+                  <div class="text-Rz9tRi font-class-2">(6-8) Multiple selection list</div>
+                </div>
+              </div></a
+            >
+            <div class="gnb-menu6--s-selected-gX0xkx">
+              <a href="a61listwidth.html">
+                <div class="gnbmenu-vMx6OB">
+                  <div class="x6-lists-Br7Om1 font-class-5">6. Lists</div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="gnb-menu5--ers-normal-2VONx3">
+            <a href="a51dividerbasiclist.html">
+              <div class="gnbmenu-hbauOS">
+                <div class="x5-dividers-AFQcG2 font-class-2">5. Dividers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu4--s-selected-2VONx3">
+            <a href="a41dialogwidth.html">
+              <div class="gnbmenu-QnlvF4">
+                <div class="x4-dialogs-t91r2X font-class-2">4. Dialogs</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu3--ers-normal-2VONx3">
+            <a href="a31checkbox.html">
+              <div class="gnbmenu-4ixxmW">
+                <div class="x3-controllers-B52sLV font-class-2">3. Controllers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu2--ons-normal-2VONx3">
+            <a href="a21flatbutton.html">
+              <div class="gnbmenu-wPlLwE">
+                <div class="x2-buttons-cfscnQ font-class-2">2. Buttons</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu1--bar-normal-2VONx3">
+            <a href="a11appbartitle.html">
+              <div class="gnbmenu-LgUf1E">
+                <div class="x1-app-bar-MoIq6x font-class-2">1. App bar</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu0--iew-normal-2VONx3">
+            <a href="a01unitsandmeasurements.html">
+              <div class="gnbmenu-iLRHMq">
+                <div class="x0-overview-mG9dio font-class-2">0. Overview</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu-h-ory-normal-2VONx3">
+            <a href="history.html">
+              <div class="gnbmenu-0XIZ0G">
+                <div class="history-sqaDMv font-class-2">History</div>
+              </div></a
+            >
+          </div>
+          <a href="index.html">
+            <div class="gnb-logo-2VONx3">
+              <div class="gotohome-mJGxSq">
+                <div class="group-g7Arx8">
+                  <div class="web-app-uWkrmC font-class-8">Web app</div>
+                  <div class="basic-component-gui-uWkrmC font-class-3">Basic component GUI V1.0</div>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1680, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link href="../custom/custom.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../custom/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/a86progresslist.css" />
+    <style>
+      @font-face {
+        font-family: "SamsungOneKorean-300";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-300_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-500";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 500_0.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-400";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-400_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-600";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 600_0.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-700";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-700_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(245, 246, 247, 1)">
+    <input type="hidden" id="anPageName" name="page" value="a86progresslist" />
+    <div class="anima-container-center-horizontal">
+      <div class="a86progresslist anima-screen">
+        <a href="../measure/8progress/89progresslist/index.html" target="_blank">
+          <div class="document-button-C61RwL">
+            <div class="btn-mwblLs anima-smart-layers-pointers">
+              <div class="text-WvbxKh font-class-4">Responsive Layout Details</div>
+            </div>
+          </div></a
+        >
+        <div class="list-sync-C61RwL">
+          <div class="group-yMQZx6">
+            <div class="type-S6xJde">
+              <div class="document-b-x-contents-sb0Jsq"></div>
+              <div class="general-sb0Jsq">
+                <div class="guide-form-ormal1line-hnfqOi">
+                  <div class="group-Zc4aG5">
+                    <div class="x-jxYzKJ font-class-1">;</div>
+                    <div class="value-jxYzKJ font-class-1">&#34;Roboto-Regular”</div>
+                    <div class="property-jxYzKJ font-class-1">font-family:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-jzcm0b">
+                  <div class="group-aVhnGZ">
+                    <div class="x-zbtewQ font-class-1">;</div>
+                    <div class="value-zbtewQ font-class-1">10px</div>
+                    <div class="property-zbtewQ font-class-1">font-size:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-3NuHAw">
+                  <div class="group-H1zhVk">
+                    <div class="x-GiXpvW font-class-1">;</div>
+                    <div class="value-GiXpvW font-class-1">left</div>
+                    <div class="property-GiXpvW font-class-1">text-align:</div>
+                  </div>
+                </div>
+                <div class="guide-form-e-subtitle-hnfqOi">
+                  <div class="text-JHUdxm font-class-3">General</div>
+                </div>
+              </div>
+              <div class="light-theme-sb0Jsq">
+                <div class="guide-form-rmal-light-gTVfVU">
+                  <div class="group-2-KQVG8R">
+                    <div class="x-93hwkD font-class-1">;</div>
+                    <div class="group-93hwkD">
+                      <div class="value-dkCAet font-class-1">#505050</div>
+                    </div>
+                    <div class="property-93hwkD font-class-1">color:</div>
+                  </div>
+                </div>
+                <div class="guide-form-e-subtitle-gTVfVU">
+                  <div class="text-dJiZwS font-class-3">Light theme</div>
+                </div>
+              </div>
+              <div class="dark-theme-sb0Jsq">
+                <div class="guide-form-ormal-dark-1F6iBx">
+                  <div class="group-2-GvieOC">
+                    <div class="x-ENGWR5 font-class-1">;</div>
+                    <div class="group-ENGWR5">
+                      <div class="value-WZxcgt font-class-1">#e5e5e5</div>
+                    </div>
+                    <div class="property-ENGWR5 font-class-1">color:</div>
+                  </div>
+                </div>
+                <div class="guide-form-e-subtitle-1F6iBx">
+                  <div class="text-98UmGz font-class-3">Dark theme</div>
+                </div>
+              </div>
+              <div class="guide-subject-type-sb0Jsq">
+                <div class="guide-numbering-type-exYgOi">
+                  <div class="x1-VIeVaH anima-valign-text-middle font-class-3">1</div>
+                </div>
+                <div class="guide-property-exYgOi font-class-3">Type CSS</div>
+              </div>
+            </div>
+            <div class="guide-S6xJde">
+              <div class="document-b-x-contents-jfVxz1"></div>
+              <div class="symbol-jfVxz1">
+                <div class="x8-06-measu-ress-list3-UMb4WN">
+                  <div class="group-2-84XxrX">
+                    <div class="mobile-lig-rouplistbg-MhmhSq"></div>
+                  </div>
+                  <div class="group-84XxrX">
+                    <div class="mobile-lig-ircle16x16-IZzRXY">
+                      <img
+                        class="path-hMvzQ1"
+                        src="img/8-6-progresslist-path-929882B8-BD04-432C-9D1F-CC1262EC7A7D@2x.png"
+                      />
+                      <img
+                        class="path-l3ZfJ2"
+                        src="img/8-6-progresslist-path-ABB963EA-D52A-4B8B-83CC-DDF1EAA48186@2x.png"
+                      />
+                    </div>
+                    <div class="organizing-old-items-IZzRXY font-class-5">Organizing old items…</div>
+                  </div>
+                  <div class="mobile-lig-e-icon2btn-84XxrX">
+                    <div class="group-0QJde4">
+                      <div class="mobile-lig-title-more-O4iwtq"></div>
+                      <div class="mobile-lig-tle-search-O4iwtq"></div>
+                      <div class="sample-title-O4iwtq font-class-5">Progress</div>
+                    </div>
+                  </div>
+                  <div class="mobile-lig--indicator-84XxrX">
+                    <img
+                      class="wifi-NjFtrR"
+                      src="img/8-6-progresslist-wifi-4FA036F8-6A70-4C53-B4AA-5C04A293D727@2x.png"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="measure-jfVxz1">
+                <div class="spacing-BD9IO1">
+                  <div class="guide-meas--spacing-1-s1S9I4">
+                    <div class="value-oI5NkP">
+                      <div class="x0-o6tOOF font-class-1">20</div>
+                    </div>
+                    <div class="rectangle-oI5NkP"></div>
+                    <div class="rectangle-PVpmGP"></div>
+                    <div class="rectangle-CCJXLM"></div>
+                  </div>
+                  <div class="guide-measure-area-s1S9I4"></div>
+                </div>
+                <div class="spacing-jxAJhx">
+                  <div class="guide-measure-area-gg2wqI"></div>
+                  <div class="guide-meas--spacing-2-gg2wqI">
+                    <div class="x0-NQ8Gt7 font-class-1">8</div>
+                    <div class="rectangle-NQ8Gt7"></div>
+                    <div class="rectangle-BOt1vR"></div>
+                    <div class="rectangle-xyEXGe"></div>
+                  </div>
+                  <div class="guide-meas-e-vertical-gg2wqI"></div>
+                  <div class="guide-meas-e-vertical-mu1xDw"></div>
+                </div>
+                <div class="spacing-684cxy">
+                  <div class="guide-measure-area-YY7Zaq"></div>
+                  <div class="guide-meas--spacing-2-YY7Zaq">
+                    <div class="x0-OFiWki font-class-1">24</div>
+                    <div class="rectangle-OFiWki"></div>
+                    <div class="rectangle-VSj2nw"></div>
+                    <div class="rectangle-nJ3VNx"></div>
+                  </div>
+                  <div class="guide-meas-e-vertical-YY7Zaq"></div>
+                  <div class="guide-meas-e-vertical-Zn8WXs"></div>
+                </div>
+                <div class="spacing-ZYX9Xr">
+                  <div class="guide-measure-area-EhPNr5"></div>
+                  <div class="guide-meas--spacing-2-EhPNr5">
+                    <div class="x0-Drx0bC font-class-1">24</div>
+                    <div class="rectangle-Drx0bC"></div>
+                    <div class="rectangle-g4av1h"></div>
+                    <div class="rectangle-L9kTxR"></div>
+                  </div>
+                  <div class="guide-meas-e-vertical-EhPNr5"></div>
+                  <div class="guide-meas-e-vertical-N0VsKw"></div>
+                </div>
+                <div class="guide-measure-area-BD9IO1"></div>
+                <div class="size-BD9IO1">
+                  <div class="guide-meas-horizontal-jNVzsk"></div>
+                  <div class="guide-meas-horizontal-d7tWKw"></div>
+                  <div class="guide-meas-eft-size-1-jNVzsk">
+                    <div class="value-GKsCLP">
+                      <div class="x0-prpWjE font-class-1">16</div>
+                    </div>
+                    <div class="rectangle-GKsCLP"></div>
+                    <div class="rectangle-bhGglx"></div>
+                    <div class="rectangle-GTEZvK"></div>
+                  </div>
+                  <div class="guide-meas-top-size-1-jNVzsk">
+                    <div class="value-eCdrqX">
+                      <div class="x0-UQIqbx font-class-1">16</div>
+                    </div>
+                    <div class="rectangle-eCdrqX"></div>
+                    <div class="rectangle-x46lc6"></div>
+                    <div class="rectangle-jdsRqn"></div>
+                  </div>
+                  <div class="guide-measure-area-jNVzsk"></div>
+                </div>
+                <div class="spacing-JLa4o2">
+                  <div class="guide-meas-horizontal-XZG84d"></div>
+                  <div class="guide-meas-ght-size-1-XZG84d">
+                    <div class="value-QLiHjf">
+                      <div class="x0-0t2ZYt font-class-1">App bar</div>
+                    </div>
+                    <div class="rectangle-QLiHjf"></div>
+                    <div class="rectangle-O7sxEQ"></div>
+                    <div class="rectangle-DKnJrs"></div>
+                  </div>
+                </div>
+                <div class="spacing-xowJMt">
+                  <div class="guide-meas--spacing-1-o7veip">
+                    <div class="value-IM2l4O">
+                      <div class="x0-gaDfjG font-class-1">Bottom<br />margin</div>
+                    </div>
+                    <div class="rectangle-IM2l4O"></div>
+                    <div class="rectangle-Irv52n"></div>
+                    <div class="rectangle-b0ciqQ"></div>
+                  </div>
+                  <div class="guide-meas-horizontal-o7veip"></div>
+                </div>
+                <div class="guide-numbering-type-BD9IO1">
+                  <div class="x1-DY1P8j anima-valign-text-middle font-class-3">1</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="keyscreen-yMQZx6">
+            <div class="document-b-x-contents-vHwx67"></div>
+            <a href="a64basiclist.html">
+              <div class="tag-refer-vHwx67">
+                <div class="btn-9q4ZbZ anima-smart-layers-pointers">
+                  <div class="basic-vDXY2c font-class-2">Basic</div>
+                  <div class="page-name-vDXY2c font-class-3">(6-4) Basic list</div>
+                </div>
+              </div></a
+            >
+            <a href="a82progresscircle.html">
+              <div class="tag-refer-Q2zA6z">
+                <div class="btn-69y7bL anima-smart-layers-pointers">
+                  <div class="basic-r6Cz83 font-class-2">Basic</div>
+                  <div class="page-name-r6Cz83 font-class-3">(8-2) Progress circle</div>
+                </div>
+              </div></a
+            >
+            <img
+              class="x8-09-keysc-ress-list3-vHwx67"
+              src="img/8-6-progresslist-8-09keyscreenw360mpd089progresslist3-E1E2D821-F2F0-442B-B352-D3E40582373D@2x.png"
+            />
+            <img
+              class="x8-09-keysc-ress-list3-Q2zA6z"
+              src="img/8-6-progresslist-8-09keyscreenw360mpl089progresslist3-148E3A01-DEC0-4510-910E-F02EA29366BA@2x.png"
+            />
+          </div>
+          <div class="list-sync-yMQZx6 font-class-1">List sync</div>
+        </div>
+        <div class="bottom-of-list-C61RwL">
+          <div class="guide-ZNxv5F">
+            <div class="document-b-x-contents-jHpBbY"></div>
+            <div class="symbol-jHpBbY">
+              <div class="x8-06-measu-ress-list2-1DFy5b">
+                <div class="list01-mQy6Z8">
+                  <div class="mobile-lig-rouplistbg-SHQ17H"></div>
+                  <div class="mobile-lig-ircle24x24-SHQ17H">
+                    <img
+                      class="path-TuQmUS"
+                      src="img/8-7-progressbutton-path-6D5CB55F-59D9-4765-AA6B-CA5C6136E920@2x.png"
+                    />
+                    <img
+                      class="path-nsxlkC"
+                      src="img/8-6-progresslist-path-EA84696D-29A4-41DD-AC0E-AE32DEADFE60@2x.png"
+                    />
+                  </div>
+                  <div class="mobile-lig-basic1line-SHQ17H">
+                    <div class="title-xmpxfR">
+                      <div class="main-text-1-line-IBxiVv anima-valign-text-middle font-class-5">list 12</div>
+                    </div>
+                  </div>
+                  <div class="mobile-lig--list-text-SHQ17H">
+                    <div class="line-yLRTjT"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="measure-jHpBbY">
+              <div class="spacing-lvUoZ6">
+                <div class="guide-meas--spacing-1-Nd699a">
+                  <div class="value-bV4geY">
+                    <div class="x0-sq60XI font-class-1">12</div>
+                  </div>
+                  <div class="rectangle-bV4geY"></div>
+                  <div class="rectangle-UG3qdD"></div>
+                  <div class="rectangle-QqssGB"></div>
+                </div>
+                <div class="guide-measure-area-Nd699a"></div>
+              </div>
+              <div class="spacing-OjxMj0">
+                <div class="guide-meas--spacing-1-LLlFQ4">
+                  <div class="value-CGOtnP">
+                    <div class="x0-ZeVU6g font-class-1">15</div>
+                  </div>
+                  <div class="rectangle-CGOtnP"></div>
+                  <div class="rectangle-9lCtq3"></div>
+                  <div class="rectangle-0PPjTy"></div>
+                </div>
+                <div class="guide-measure-area-LLlFQ4"></div>
+              </div>
+              <div class="spacing-dMs6zD">
+                <div class="guide-measure-area-tpbIup"></div>
+                <div class="guide-meas--spacing-2-tpbIup">
+                  <div class="x0-yun6pH font-class-1">W=1</div>
+                  <div class="rectangle-yun6pH"></div>
+                  <div class="rectangle-2GTlxu"></div>
+                  <div class="rectangle-A0hyn4"></div>
+                </div>
+              </div>
+              <div class="spacing-AFgwxY">
+                <div class="guide-measure-area-Pdl3zw"></div>
+                <div class="guide-meas--spacing-2-Pdl3zw">
+                  <div class="x0-ew4QBo font-class-1">W=1</div>
+                  <div class="rectangle-ew4QBo"></div>
+                  <div class="rectangle-6JsFi1"></div>
+                  <div class="rectangle-Hg0dKb"></div>
+                </div>
+              </div>
+              <div class="size-lvUoZ6">
+                <div class="guide-meas-horizontal-UGPCdP"></div>
+                <div class="guide-meas-horizontal-vgeCum"></div>
+                <div class="guide-meas-eft-size-1-UGPCdP">
+                  <div class="value-ZM128C">
+                    <div class="x0-30mYal font-class-1">24</div>
+                  </div>
+                  <div class="rectangle-ZM128C"></div>
+                  <div class="rectangle-x2kmA3"></div>
+                  <div class="rectangle-EFscqv"></div>
+                </div>
+              </div>
+              <div class="size-OjxMj0">
+                <div class="guide-meas-top-size-1-wQlYDe">
+                  <div class="value-Le71Wr">
+                    <div class="x0-QxJydR font-class-1">24</div>
+                  </div>
+                  <div class="rectangle-Le71Wr"></div>
+                  <div class="rectangle-OpSIqw"></div>
+                  <div class="rectangle-lfVEQr"></div>
+                </div>
+                <div class="guide-meas-e-vertical-wQlYDe"></div>
+                <div class="guide-meas-e-vertical-9smjiL"></div>
+                <div class="guide-measure-area-wQlYDe"></div>
+              </div>
+            </div>
+          </div>
+          <div class="keyscreen-ZNxv5F">
+            <div class="document-b-x-contents-1y2kgi"></div>
+            <a href="a64basiclist.html">
+              <div class="tag-refer-1y2kgi">
+                <div class="btn-sTf5A0 anima-smart-layers-pointers">
+                  <div class="basic-QphSCD font-class-2">Basic</div>
+                  <div class="page-name-QphSCD font-class-3">(6-4) Basic list</div>
+                </div>
+              </div></a
+            >
+            <a href="a82progresscircle.html">
+              <div class="tag-refer-vBlE7R">
+                <div class="btn-dHYJVs anima-smart-layers-pointers">
+                  <div class="basic-xwMqVJ font-class-2">Basic</div>
+                  <div class="page-name-xwMqVJ font-class-3">(8-2) Progress circle</div>
+                </div>
+              </div></a
+            >
+            <img
+              class="x8-09-keysc-ress-list2-1y2kgi"
+              src="img/8-6-progresslist-8-09keyscreenw360mpd089progresslist2-3ABA793E-1381-4D49-AA4B-6149D337867D@2x.png"
+            />
+            <img
+              class="x8-09-keysc-ress-list2-vBlE7R"
+              src="img/8-6-progresslist-8-09keyscreenw360mpl089progresslist2-67CB2DA2-9F20-4E91-9988-3056AD699CC1@2x.png"
+            />
+          </div>
+          <div class="bottom-of-list-ZNxv5F font-class-1">Bottom of list</div>
+        </div>
+        <div class="single-list-C61RwL">
+          <div class="guide-Qxca1o">
+            <div class="guide-lR3Lvd">
+              <div class="document-b-x-contents-tKpGOA"></div>
+              <div class="symbol-tKpGOA">
+                <div class="x8-06-measu-ess-list12-k8Iamn">
+                  <div class="list01-H56rWl">
+                    <div class="mobile-lig-rouplistbg-n04xUZ"></div>
+                    <div class="mobile-lig-basic3line-n04xUZ">
+                      <div class="title-4kXcJu">
+                        <div class="subtext-R5hewR anima-valign-text-middle font-class-5">
+                          This is the second line for descriptive phrases. <br />Chunking background color is #fcfcfc
+                        </div>
+                        <div class="main-text-R5hewR anima-valign-text-middle font-class-5">Main text 03</div>
+                      </div>
+                    </div>
+                    <div class="mobile-lig-ircle16x16-n04xUZ">
+                      <img
+                        class="path-xdztYo"
+                        src="img/8-6-progresslist-path-929882B8-BD04-432C-9D1F-CC1262EC7A7D@2x.png"
+                      />
+                      <img
+                        class="path-RugxVG"
+                        src="img/8-6-progresslist-path-ABB963EA-D52A-4B8B-83CC-DDF1EAA48186@2x.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="x8-06-measu-ess-list11-k8Iamn">
+                  <div class="list01-K0Ywix">
+                    <div class="mobile-lig-rouplistbg-Ie3X60"></div>
+                    <div class="mobile-lig-basic1line-Ie3X60">
+                      <div class="title-vEFYcg">
+                        <div class="main-text-1-line-Qh2lXb anima-valign-text-middle font-class-5">Main text 02</div>
+                      </div>
+                    </div>
+                    <div class="mobile-lig-ircle24x24-Ie3X60">
+                      <img
+                        class="path-71jPot"
+                        src="img/8-7-progressbutton-path-6D5CB55F-59D9-4765-AA6B-CA5C6136E920@2x.png"
+                      />
+                      <img
+                        class="path-oJgRUx"
+                        src="img/8-6-progresslist-path-EA84696D-29A4-41DD-AC0E-AE32DEADFE60@2x.png"
+                      />
+                    </div>
+                    <div class="mobile-lig-ircle24x24-CDN8E3">
+                      <img
+                        class="path-JTxoEi"
+                        src="img/8-7-progressbutton-path-6D5CB55F-59D9-4765-AA6B-CA5C6136E920@2x.png"
+                      />
+                      <img
+                        class="path-N4qXoI"
+                        src="img/8-6-progresslist-path-EA84696D-29A4-41DD-AC0E-AE32DEADFE60@2x.png"
+                      />
+                    </div>
+                    <div class="mobile-lig--list-text-Ie3X60">
+                      <div class="line-NvQymk"></div>
+                    </div>
+                    <div class="mobile-lig-primarysub-Ie3X60">
+                      <div class="title-qUsoYa">
+                        <div class="subtext-VzrxLi anima-valign-text-middle font-class-5">Value text</div>
+                        <div class="main-text-VzrxLi anima-valign-text-middle font-class-5">Main text 01</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="measure-2-tKpGOA">
+                <div class="spacing-ne6DPJ">
+                  <div class="guide-measure-area-rtI7lq"></div>
+                  <div class="guide-meas--spacing-2-rtI7lq">
+                    <div class="value-dx1YV1">
+                      <div class="x0-tzgw9x font-class-1">24</div>
+                    </div>
+                    <div class="rectangle-dx1YV1"></div>
+                    <div class="rectangle-yNrghx"></div>
+                    <div class="rectangle-jYTweu"></div>
+                  </div>
+                </div>
+                <div class="text-ne6DPJ">
+                  <div class="guide-measure-area-VTN7FS"></div>
+                  <div class="guide-meas-horizontal-VTN7FS"></div>
+                  <div class="guide-meas-horizontal-HFPTVC"></div>
+                </div>
+                <div class="size-ne6DPJ">
+                  <div class="guide-measure-area-pfGUUZ"></div>
+                  <div class="guide-meas-ght-size-1-pfGUUZ">
+                    <div class="value-1aNVYV">
+                      <div class="x0-7ZHVDW font-class-1">16</div>
+                    </div>
+                    <div class="rectangle-1aNVYV"></div>
+                    <div class="rectangle-xMa5Ya"></div>
+                    <div class="rectangle-qjKmJ7"></div>
+                  </div>
+                  <div class="guide-meas-tom-size-1-pfGUUZ">
+                    <div class="x0-8o6H5F font-class-1">16</div>
+                    <div class="rectangle-8o6H5F"></div>
+                    <div class="rectangle-eJyY0r"></div>
+                    <div class="rectangle-0CrTSv"></div>
+                  </div>
+                  <div class="guide-meas-horizontal-pfGUUZ"></div>
+                  <div class="guide-meas-horizontal-FG8Mqh"></div>
+                  <div class="guide-meas-e-vertical-pfGUUZ"></div>
+                  <div class="guide-meas-e-vertical-FG8Mqh"></div>
+                </div>
+              </div>
+              <div class="measure-1-tKpGOA">
+                <div class="size-PVUFjH">
+                  <div class="guide-measure-area-kVgQbZ"></div>
+                  <div class="guide-measure-area-nplWQq"></div>
+                  <div class="guide-meas-tom-size-1-kVgQbZ">
+                    <div class="x0-h4HNww font-class-1">24</div>
+                    <div class="rectangle-h4HNww"></div>
+                    <div class="rectangle-DwX5Cb"></div>
+                    <div class="rectangle-XnDMbK"></div>
+                  </div>
+                  <div class="guide-meas-ght-size-1-kVgQbZ">
+                    <div class="value-N5Ag0f">
+                      <div class="x0-8hctPS font-class-1">24</div>
+                    </div>
+                    <div class="rectangle-N5Ag0f"></div>
+                    <div class="rectangle-6yNyex"></div>
+                    <div class="rectangle-HL2Uj2"></div>
+                  </div>
+                  <div class="guide-meas-e-vertical-kVgQbZ"></div>
+                  <div class="guide-meas-e-vertical-nplWQq"></div>
+                </div>
+                <div class="spacing-PVUFjH">
+                  <div class="guide-measure-area-Rox483"></div>
+                  <div class="guide-meas--spacing-2-Rox483">
+                    <div class="value-tYdkwc">
+                      <div class="x0-tcMxNx font-class-1">24</div>
+                    </div>
+                    <div class="rectangle-tYdkwc"></div>
+                    <div class="rectangle-hax3NM"></div>
+                    <div class="rectangle-XCjKcp"></div>
+                  </div>
+                </div>
+                <div class="guide-meas-horizontal-PVUFjH"></div>
+              </div>
+            </div>
+          </div>
+          <div class="keyscreen-Qxca1o">
+            <div class="document-b-x-contents-EMxZxh"></div>
+            <img
+              class="x8-09-keysc-ress-list1-EMxZxh"
+              src="img/8-6-progresslist-8-09keyscreenw360mpd089progresslist1-00D18381-4A03-4CD5-81A9-A7FA03F436FD@2x.png"
+            />
+            <img
+              class="x8-09-keysc-ress-list1-2LanVI"
+              src="img/8-6-progresslist-8-09keyscreenw360mpl089progresslist1-9AB9C75E-4097-4E84-9306-A82AF6181744@2x.png"
+            />
+            <a href="a64basiclist.html">
+              <div class="tag-refer-EMxZxh">
+                <div class="btn-hau7I3 anima-smart-layers-pointers">
+                  <div class="basic-PK8sw5 font-class-2">Basic</div>
+                  <div class="page-name-PK8sw5 font-class-3">(6-4) Basic list</div>
+                </div>
+              </div></a
+            >
+            <a href="a82progresscircle.html">
+              <div class="tag-refer-2LanVI">
+                <div class="btn-Wkcecd anima-smart-layers-pointers">
+                  <div class="basic-unGIah font-class-2">Basic</div>
+                  <div class="page-name-unGIah font-class-3">(8-2) Progress circle</div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="single-list-Qxca1o font-class-1">Single list</div>
+        </div>
+        <div class="x8-9-progress-list-C61RwL font-class-6">(8-6) Progress_List</div>
+        <div class="gnb-bar08-progress-C61RwL">
+          <div class="gnb-menu17-ste-normal-RXcaVi">
+            <a href="a171textselection.html">
+              <div class="gnbmenu-ioMw99">
+                <div class="x17-copy-paste-h6xD0e font-class-2">17. Copy &amp; paste</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu16-ail-normal-RXcaVi">
+            <a href="a161thumbnailgrid.html">
+              <div class="gnbmenu-z1xkQI">
+                <div class="x16-thumbnail-vgZhnl font-class-2">16. Thumbnail</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu15-dge-normal-RXcaVi">
+            <a href="a151numberbadgeappbar.html">
+              <div class="gnbmenu-dRxoYw">
+                <div class="x15-notification-bad-fRGouw font-class-2">15. Notification badge</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu14-ion-normal-RXcaVi">
+            <a href="a141descriptionwidth.html">
+              <div class="gnbmenu-8g1zYV">
+                <div class="rectangle-APLBIe"></div>
+                <div class="x14-description-APLBIe font-class-2">14. Description</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu13-ols-normal-RXcaVi">
+            <a href="a131maintab.html">
+              <div class="gnbmenu-IEez1x">
+                <div class="x13-view-controls-NSlb9H font-class-2">13. View controls</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu12-lds-normal-RXcaVi">
+            <a href="a121textfields.html">
+              <div class="gnbmenu-dP6Fag">
+                <div class="x12-text-fields-D7G6gw font-class-2">12. Text fields</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu11-ast-normal-RXcaVi">
+            <a href="a111toastwidth.html">
+              <div class="gnbmenu-q51pam">
+                <div class="x11-toast-X67QKm font-class-2">11. Toast</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu10-rch-normal-RXcaVi">
+            <a href="a101searchbarwidth.html">
+              <div class="gnbmenu-dIfHeM">
+                <div class="x10-search-909tqK font-class-2">10. Search</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu9--ing-normal-RXcaVi">
+            <a href="a91scrollbar.html">
+              <div class="gnbmenu-x9dVxp">
+                <div class="x9-scrolling-KnkDrT font-class-2">9. Scrolling</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu8--s-selected-RXcaVi">
+            <a href="a81progressbar.html">
+              <div class="gnb-submenu-normal-OXFtXg">
+                <div class="gnbsubmenu-fIYn86">
+                  <div class="text-XzHYEI font-class-2">(8-1) Progress bar</div>
+                </div>
+              </div></a
+            >
+            <a href="a82progresscircle.html">
+              <div class="gnb-submenu-normal-6xcrmz">
+                <div class="gnbsubmenu-4HfYO4">
+                  <div class="text-Q03UO4 font-class-2">(8-2) Progress circle</div>
+                </div>
+              </div></a
+            >
+            <a href="a83progressbodyarea.html">
+              <div class="gnb-submenu-normal-NFJHdH">
+                <div class="gnbsubmenu-GX4mMn">
+                  <div class="text-ns96ut font-class-2">(8-3) Progress_Body area</div>
+                </div>
+              </div></a
+            >
+            <a href="a84progressappbar.html">
+              <div class="gnb-submenu-normal-amiMsq">
+                <div class="gnbsubmenu-OOUKjR">
+                  <div class="text-hn7fDE font-class-2">(8-4) Progress_App bar</div>
+                </div>
+              </div></a
+            >
+            <a href="a85progressbottombar.html">
+              <div class="gnb-submenu-normal-MNglvU">
+                <div class="gnbsubmenu-Iiat4J">
+                  <div class="text-nZqi4I font-class-2">(8-5) Progress_Bottom bar</div>
+                </div>
+              </div></a
+            >
+            <a href="a86progresslist.html">
+              <div class="gnb-submenu-normal-nNMiH4">
+                <div class="gnbsubmenu-7oRvSx">
+                  <div class="text-LugM2v font-class-4">(8-6) Progress_List</div>
+                </div>
+              </div></a
+            >
+            <a href="a87progressbutton.html">
+              <div class="gnb-submenu-normal-TvfzlZ">
+                <div class="gnbsubmenu-jAegxa">
+                  <div class="text-wvPFyP font-class-2">(8-7) Progress_Button &amp; switch</div>
+                </div>
+              </div></a
+            >
+            <a href="a88pulldownrefresh.html">
+              <div class="gnb-submenu-normal-xiAcb0">
+                <div class="gnbsubmenu-HPAGrV">
+                  <div class="text-5xwGX0 font-class-2">(8-8) Pull down refresh</div>
+                </div>
+              </div></a
+            >
+            <div class="gnb-menu8--s-selected-OXFtXg">
+              <a href="a81progressbar.html">
+                <div class="gnbmenu-ByOgZF">
+                  <div class="x8-progress-SI8NPk font-class-4">8. Progress</div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="gnb-menu7--ems-normal-RXcaVi">
+            <a href="a71noitem.html">
+              <div class="gnbmenu-4sRP6W">
+                <div class="x7-no-item-A7G5Kr font-class-2">7. No item</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu6--sts-normal-RXcaVi">
+            <a href="a61listwidth.html">
+              <div class="gnbmenu-qLzfvL">
+                <div class="x6-lists-Ldvsg9 font-class-2">6. Lists</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu5--ers-normal-RXcaVi">
+            <a href="a51dividerbasiclist.html">
+              <div class="gnbmenu-H1aTv0">
+                <div class="x5-dividers-9PGoXU font-class-2">5. Dividers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu4--s-selected-RXcaVi">
+            <a href="a41dialogwidth.html">
+              <div class="gnbmenu-OfKxUl">
+                <div class="x4-dialogs-kamJWo font-class-2">4. Dialogs</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu3--ers-normal-RXcaVi">
+            <a href="a31checkbox.html">
+              <div class="gnbmenu-eNAmef">
+                <div class="x3-controllers-AjK9c9 font-class-2">3. Controllers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu2--ons-normal-RXcaVi">
+            <a href="a21flatbutton.html">
+              <div class="gnbmenu-zl2oro">
+                <div class="x2-buttons-rJFMk4 font-class-2">2. Buttons</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu1--bar-normal-RXcaVi">
+            <a href="a11appbartitle.html">
+              <div class="gnbmenu-2OpLGO">
+                <div class="x1-app-bar-D217x5 font-class-2">1. App bar</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu0--iew-normal-RXcaVi">
+            <a href="a01unitsandmeasurements.html">
+              <div class="gnbmenu-EEtf4Z">
+                <div class="x0-overview-ySaWBr font-class-2">0. Overview</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu-h-ory-normal-RXcaVi">
+            <a href="history.html">
+              <div class="gnbmenu-DjyHMZ">
+                <div class="history-vfQm5X font-class-2">History</div>
+              </div></a
+            >
+          </div>
+          <a href="index.html">
+            <div class="gnb-logo-RXcaVi">
+              <div class="gotohome-Kd5xft">
+                <div class="group-LF0Won">
+                  <div class="web-app-GGUEFV font-class-7">Web app</div>
+                  <div class="basic-component-gui-GGUEFV font-class-3">Basic component GUI V1.0</div>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

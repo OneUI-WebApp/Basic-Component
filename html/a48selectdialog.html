@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1680, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link href="../custom/custom.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../custom/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/a48selectdialog.css" />
+    <style>
+      @font-face {
+        font-family: "SamsungOneKorean-400";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-400_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-300";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-300_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-700";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-700_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-500";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 500_0.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-600";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 600_0.ttf")
+          format("truetype");
+      }
+
+      @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(245, 246, 247, 1)">
+    <input type="hidden" id="anPageName" name="page" value="a48selectdialog" />
+    <div class="anima-container-center-horizontal">
+      <div class="a48selectdialog anima-screen">
+        <a href="../measure/4dialogs/48selecteddialog/index.html" target="_blank">
+          <div class="document-button-C61RwL">
+            <div class="btn-mwblLs anima-smart-layers-pointers">
+              <div class="text-WvbxKh font-class-6">Responsive Layout Details</div>
+            </div>
+          </div></a
+        >
+        <div class="guide-C61RwL">
+          <div class="document-b-x-contents-Uixoni"></div>
+          <div class="symbol-Uixoni">
+            <div class="x4-08-measu-lectdialog-1i0IH5">
+              <div class="mobile-lig-mmon-dimbg-JyFj4a"></div>
+              <div class="mobile-lig-line-nobtn-JyFj4a">
+                <div class="mobile-lig-n-dialogbg-xYVxoE"></div>
+                <div class="mobile-lig-basic1line-xYVxoE">
+                  <div class="title-xG348R">
+                    <div class="main-text-1-line-4bjm6X anima-valign-text-middle font-class-3">Grid</div>
+                  </div>
+                </div>
+                <div class="mobile-lig-basic1line-qx3Py0">
+                  <div class="title-kFWQUG">
+                    <div class="main-text-1-line-tOwN8A anima-valign-text-middle font-class-3">Detailed list</div>
+                  </div>
+                </div>
+                <div class="mobile-lig-basic1line-aZ9Kqz">
+                  <div class="title-dhuJnV">
+                    <div class="main-text-1-line-niM87f anima-valign-text-middle font-class-3">List</div>
+                  </div>
+                </div>
+                <div class="mobile-lig-mon-header-xYVxoE">
+                  <div class="dialog-header-mRHvVv anima-valign-text-middle font-class-5">Dialog header</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="measure-Uixoni">
+            <div class="spacing-naFgBF">
+              <div class="guide-measure-area-TWHiup"></div>
+              <div class="guide-meas--spacing-2-TWHiup">
+                <div class="x0-7m5jHV font-class-1">24</div>
+                <div class="rectangle-7m5jHV"></div>
+                <div class="rectangle-pMlKkO"></div>
+                <div class="rectangle-gAc8pB"></div>
+              </div>
+            </div>
+            <div class="spacing-g12F2t">
+              <div class="guide-measure-area-Ebopx9"></div>
+              <div class="guide-meas--spacing-2-Ebopx9">
+                <div class="x0-S40Iai font-class-1">24</div>
+                <div class="rectangle-S40Iai"></div>
+                <div class="rectangle-Bl5dFX"></div>
+                <div class="rectangle-j4GAKO"></div>
+              </div>
+            </div>
+            <div class="spacing-1oxqWP">
+              <div class="guide-measure-area-wzKlPT"></div>
+              <div class="guide-meas--spacing-1-wzKlPT">
+                <div class="value-xbIOJD">
+                  <div class="x0-2ipOLE font-class-1">(P) 19 / (L) 8</div>
+                </div>
+                <div class="rectangle-xbIOJD"></div>
+                <div class="rectangle-Na6BR1"></div>
+                <div class="rectangle-QqhD5V"></div>
+              </div>
+            </div>
+            <div class="spacing-RB12NC">
+              <div class="guide-measure-area-Z2dG95"></div>
+              <div class="guide-meas--spacing-1-Z2dG95">
+                <div class="value-xfeUbS">
+                  <div class="x0-xVGKgh font-class-1">(P) 24 / (L) 11</div>
+                </div>
+                <div class="rectangle-xfeUbS"></div>
+                <div class="rectangle-s4kYIT"></div>
+                <div class="rectangle-9mOrtI"></div>
+              </div>
+            </div>
+            <div class="line-naFgBF">
+              <div class="guide-meas-horizontal-lR7UFm"></div>
+              <div class="guide-meas-horizontal-82wtX8"></div>
+            </div>
+          </div>
+        </div>
+        <div class="keyscreen-C61RwL">
+          <div class="document-b-x-contents-V6KZ2v"></div>
+          <img
+            class="x4-08-keysc-lectdialog-V6KZ2v"
+            src="img/4-8-select-dialog-4-08keyscreenw360mpl048selectdialog-AAB74446-5318-4686-B51B-2B19E176BEB9@2x.png"
+          />
+          <img
+            class="x4-08-keysc-lectdialog-YbJGjS"
+            src="img/4-8-select-dialog-4-08keyscreenw360mpd048selectdialog-B5A9042C-4071-4AE2-A8B8-F2E06A4A00E4@2x.png"
+          />
+          <a href="a64basiclist.html">
+            <div class="tag-refer-V6KZ2v">
+              <div class="btn-zOzqsC anima-smart-layers-pointers">
+                <div class="basic-8toWLI font-class-2">Basic</div>
+                <div class="page-name-8toWLI font-class-4">(6-4) Basic list</div>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="x4-8-select-dialog-C61RwL font-class-7">(4-8) Select dialog</div>
+        <div class="gnb-bar04-dialogs-C61RwL">
+          <div class="gnb-menu17-ste-normal-IFpddr">
+            <a href="a171textselection.html">
+              <div class="gnbmenu-xLcVXS">
+                <div class="x17-copy-paste-HD1MSG font-class-2">17. Copy &amp; paste</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu16-ail-normal-IFpddr">
+            <a href="a161thumbnailgrid.html">
+              <div class="gnbmenu-PAywWV">
+                <div class="x16-thumbnail-7oeGf9 font-class-2">16. Thumbnail</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu15-dge-normal-IFpddr">
+            <a href="a151numberbadgeappbar.html">
+              <div class="gnbmenu-tNPiEI">
+                <div class="x15-notification-bad-AmUiok font-class-2">15. Notification badge</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu14-ion-normal-IFpddr">
+            <a href="a141descriptionwidth.html">
+              <div class="gnbmenu-bZCNXc">
+                <div class="rectangle-Vh3Boh"></div>
+                <div class="x14-description-Vh3Boh font-class-2">14. Description</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu13-ols-normal-IFpddr">
+            <a href="a131maintab.html">
+              <div class="gnbmenu-A7XsLT">
+                <div class="x13-view-controls-94MaWS font-class-2">13. View controls</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu12-lds-normal-IFpddr">
+            <a href="a121textfields.html">
+              <div class="gnbmenu-x362av">
+                <div class="x12-text-fields-vgc3Vu font-class-2">12. Text fields</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu11-ast-normal-IFpddr">
+            <a href="a111toastwidth.html">
+              <div class="gnbmenu-n846FE">
+                <div class="x11-toast-ZxS0T9 font-class-2">11. Toast</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu10-rch-normal-IFpddr">
+            <a href="a101searchbarwidth.html">
+              <div class="gnbmenu-FYqcjZ">
+                <div class="x10-search-ys4Eef font-class-2">10. Search</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu9--ing-normal-IFpddr">
+            <a href="a91scrollbar.html">
+              <div class="gnbmenu-gL2JAx">
+                <div class="x9-scrolling-QBf695 font-class-2">9. Scrolling</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu8--ess-normal-IFpddr">
+            <a href="a81progressbar.html">
+              <div class="gnbmenu-iVJDrt">
+                <div class="x8-progress-TIxFq4 font-class-2">8. Progress</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu7--ems-normal-IFpddr">
+            <a href="a71noitem.html">
+              <div class="gnbmenu-MMc3iM">
+                <div class="x7-no-item-6wC6Jq font-class-2">7. No item</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu6--sts-normal-IFpddr">
+            <a href="a61listwidth.html">
+              <div class="gnbmenu-qscMSY">
+                <div class="x6-lists-CY9yOk font-class-2">6. Lists</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu5--ers-normal-IFpddr">
+            <a href="a51dividerbasiclist.html">
+              <div class="gnbmenu-lLJ8dQ">
+                <div class="x5-dividers-jYs5wP font-class-2">5. Dividers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu4--s-selected-IFpddr">
+            <a href="a421imagedialog.html">
+              <div class="gnb-submenu-normal-F6tyJc">
+                <div class="gnbsubmenu-C0LORr">
+                  <div class="text-AWDxxq font-class-2">(4-21) Image dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a420valuepickerdialog.html">
+              <div class="gnb-submenu-normal-CkATrQ">
+                <div class="gnbsubmenu-MYwqko">
+                  <div class="text-xY88zE font-class-2">(4-20) Value picker dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a419editdialog.html">
+              <div class="gnb-submenu-normal-DpBjZd">
+                <div class="gnbsubmenu-JXnXN8">
+                  <div class="text-cwWTW2 font-class-2">(4-19) Edit dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a418datetimepicker.html">
+              <div class="gnb-submenu-normal-541Yax">
+                <div class="gnbsubmenu-o0x4FS">
+                  <div class="text-6uCC6P font-class-2">(4-18) Date &amp; time picker</div>
+                </div>
+              </div></a
+            >
+            <a href="a417datepicker.html">
+              <div class="gnb-submenu-normal-dIgc7X">
+                <div class="gnbsubmenu-f9rB8b">
+                  <div class="text-ioVmyo font-class-2">(4-17) Date picker</div>
+                </div>
+              </div></a
+            >
+            <a href="a416datetimepickerdialog.html">
+              <div class="gnb-submenu-normal-eTYwEa">
+                <div class="gnbsubmenu-XwXC0Q">
+                  <div class="text-zLkuOD font-class-2">(4-16) Date &amp; time picker dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a415timepickerdialog.html">
+              <div class="gnb-submenu-normal-QjhZ3h">
+                <div class="gnbsubmenu-IwJ2RN">
+                  <div class="text-2csiWw font-class-2">(4-15) Time picker dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a414datepickerdialog2.html">
+              <div class="gnb-submenu-normal-jRf21I">
+                <div class="gnbsubmenu-BeK4oU">
+                  <div class="text-U20oLU font-class-2">(4-14) Date picker dialog 2</div>
+                </div>
+              </div></a
+            >
+            <a href="a413datepickerdialog1.html">
+              <div class="gnb-submenu-normal-Rw4FJv">
+                <div class="gnbsubmenu-aTQfXv">
+                  <div class="text-rgBiVC font-class-2">(4-13) Date picker dialog 1</div>
+                </div>
+              </div></a
+            >
+            <a href="a412progressbardialog.html">
+              <div class="gnb-submenu-normal-6wLP0c">
+                <div class="gnbsubmenu-o6GxFw">
+                  <div class="text-Cbf5Ak font-class-2">(4-12) Progress bar dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a411sliderdialog.html">
+              <div class="gnb-submenu-normal-ogS940">
+                <div class="gnbsubmenu-DzkxYx">
+                  <div class="text-jGLpQR font-class-2">(4-11) Slider dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a410multichoicedialog.html">
+              <div class="gnb-submenu-normal-htvqUJ">
+                <div class="gnbsubmenu-fI7jXe">
+                  <div class="text-UMYCxX font-class-2">(4-10) Multi choice dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a49singlechoicedialog.html">
+              <div class="gnb-submenu-normal-fJP733">
+                <div class="gnbsubmenu-ueY5m4">
+                  <div class="text-IO2tex font-class-2">(4-9) Single choice dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a48selectdialog.html">
+              <div class="gnb-submenu-normal-askrDc">
+                <div class="gnbsubmenu-cmHiKF">
+                  <div class="text-2lOLH2 font-class-6">(4-8) Select dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a47dialogactionbutton.html">
+              <div class="gnb-submenu-normal-MZMfPh">
+                <div class="gnbsubmenu-SKWdZ3">
+                  <div class="text-WARxJW font-class-2">(4-7) Dialog_Action button</div>
+                </div>
+              </div></a
+            >
+            <a href="a46dialogbodytext2.html">
+              <div class="gnb-submenu-normal-aOGTeF">
+                <div class="gnbsubmenu-d9exKB">
+                  <div class="text-mLjtxZ font-class-2">(4-6) Dialog_Body text 2</div>
+                </div>
+              </div></a
+            >
+            <a href="a45dialogbodytext1.html">
+              <div class="gnb-submenu-normal-VF7y5n">
+                <div class="gnbsubmenu-lnvuEa">
+                  <div class="text-OMlONZ font-class-2">(4-5) Dialog_Body text 1</div>
+                </div>
+              </div></a
+            >
+            <a href="a44dialogtitle.html">
+              <div class="gnb-submenu-normal-3vlxr7">
+                <div class="gnbsubmenu-vqlAnH">
+                  <div class="text-WZpIBy font-class-2">(4-4) Dialog_Title</div>
+                </div>
+              </div></a
+            >
+            <a href="a43dialogpadding.html">
+              <div class="gnb-submenu-normal-nC7AnL">
+                <div class="gnbsubmenu-YKT2Zb">
+                  <div class="text-xZDVfu font-class-2">(4-3) Dialog_Padding</div>
+                </div>
+              </div></a
+            >
+            <a href="a42dialogheight.html">
+              <div class="gnb-submenu-normal-p7x7de">
+                <div class="gnbsubmenu-cqDLeq">
+                  <div class="text-i6zolW font-class-2">(4-2) Dialog_Height</div>
+                </div>
+              </div></a
+            >
+            <a href="a41dialogwidth.html">
+              <div class="gnb-submenu-normal-6eO6cv">
+                <div class="gnbsubmenu-6gDKcU">
+                  <div class="text-VOdO0e font-class-2">(4-1) Dialog_Width</div>
+                </div>
+              </div></a
+            >
+            <div class="gnb-menu4--s-selected-F6tyJc">
+              <a href="a41dialogwidth.html">
+                <div class="gnbmenu-pfsUJP">
+                  <div class="x4-dialogs-XfJia9 font-class-6">4. Dialogs</div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="gnb-menu3--ers-normal-IFpddr">
+            <a href="a31checkbox.html">
+              <div class="gnbmenu-voSg9E">
+                <div class="x3-controllers-XGvGsa font-class-2">3. Controllers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu2--ons-normal-IFpddr">
+            <a href="a21flatbutton.html">
+              <div class="gnbmenu-hzcOuP">
+                <div class="x2-buttons-Rhulji font-class-2">2. Buttons</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu1--bar-normal-IFpddr">
+            <a href="a11appbartitle.html">
+              <div class="gnbmenu-Kyb74v">
+                <div class="x1-app-bar-mSO44p font-class-2">1. App bar</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu0--iew-normal-IFpddr">
+            <a href="a01unitsandmeasurements.html">
+              <div class="gnbmenu-qO9QRU">
+                <div class="x0-overview-A0NNx1 font-class-2">0. Overview</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu-h-ory-normal-IFpddr">
+            <a href="history.html">
+              <div class="gnbmenu-8iDxRt">
+                <div class="history-lZqxZq font-class-2">History</div>
+              </div></a
+            >
+          </div>
+          <a href="index.html">
+            <div class="gnb-logo-IFpddr">
+              <div class="gotohome-KS0c9L">
+                <div class="group-gBrDRH">
+                  <div class="web-app-OB1SiY font-class-8">Web app</div>
+                  <div class="basic-component-gui-OB1SiY font-class-4">Basic component GUI V1.0</div>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

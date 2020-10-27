@@ -1,0 +1,2303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1680, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link href="../custom/custom.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../custom/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/a31checkbox.css" />
+    <style>
+      @font-face {
+        font-family: "SamsungOneKorean-700";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-700_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-300";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-300_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-400";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-400_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-500";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 500_0.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-600";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 600_0.ttf")
+          format("truetype");
+      }
+
+      @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(245, 246, 247, 1)">
+    <input type="hidden" id="anPageName" name="page" value="a31checkbox" />
+    <div class="anima-container-center-horizontal">
+      <div class="a31checkbox anima-screen">
+        <a href="../measure/3controllers/31checkbox/index.html" target="_blank">
+          <div class="document-button-C61RwL">
+            <div class="btn-mwblLs anima-smart-layers-pointers">
+              <div class="text-WvbxKh font-class-5">Responsive Layout Details</div>
+            </div>
+          </div></a
+        >
+        <div class="thumbnailgrid-C61RwL">
+          <div class="group-2-M82f3S">
+            <div class="image-FybJz7">
+              <div class="document-b-x-contents-xG39GT"></div>
+              <div class="general-xG39GT">
+                <div class="guide-form-ction2line-UfZyNY">
+                  <div class="group-4-DMpPFN">
+                    <div class="group-2-QV9xLK">
+                      <div class="group-YDH8SO">
+                        <div class="group-3-xZekKg">
+                          <div class="x-qCxNfL font-class-1">;</div>
+                          <div class="x-gzMw8g font-class-1">)</div>
+                          <div class="value-2line-qCxNfL font-class-1">_mtrl.svg</div>
+                        </div>
+                        <div class="x-xZekKg font-class-1">(</div>
+                        <div class="value-1line-xZekKg font-class-1">&#34;gallery_btn_check_bg</div>
+                      </div>
+                      <div class="fn-YDH8SO font-class-1">url</div>
+                    </div>
+                    <div class="property-QV9xLK font-class-1">background:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ction2line-FtT2x5">
+                  <div class="group-4-a9bvlF">
+                    <div class="group-2-zxi8Qx">
+                      <div class="group-gFxngz">
+                        <div class="group-3-iKBbqF">
+                          <div class="x-cCqeBZ font-class-1">;</div>
+                          <div class="x-J4OXxg font-class-1">)</div>
+                          <div class="value-2line-cCqeBZ font-class-1">_mtrl.svg&#34;</div>
+                        </div>
+                        <div class="x-iKBbqF font-class-1">(</div>
+                        <div class="value-1line-iKBbqF font-class-1">&#34;gallery_btn_uncheck_bg</div>
+                      </div>
+                      <div class="fn-gFxngz font-class-1">url</div>
+                    </div>
+                    <div class="property-zxi8Qx font-class-1">background:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-UfZyNY">
+                  <div class="group-CpBiWn">
+                    <div class="x-NF6xKe font-class-1">;</div>
+                    <div class="value-NF6xKe font-class-1">32px</div>
+                    <div class="property-NF6xKe font-class-1">width:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-FtT2x5">
+                  <div class="group-QU2EQl">
+                    <div class="x-U7cCsH font-class-1">;</div>
+                    <div class="value-U7cCsH font-class-1">32px</div>
+                    <div class="property-U7cCsH font-class-1">height:</div>
+                  </div>
+                </div>
+                <div class="guide-form-e-imageold-UfZyNY"></div>
+                <div class="x3-01-image-gallerybg1-UfZyNY">
+                  <div class="guide-form-me-imagebg-HiSAxi"></div>
+                  <div class="gallerybtn-heckbgmtrl-HiSAxi">
+                    <img class="path-Y8fEhj" src="img/3-1-checkbox-path-6D8DA3AD-FA7C-446D-A18E-BD7C03D6C811@2x.png" />
+                    <img
+                      class="shape-Y8fEhj"
+                      src="img/3-1-checkbox-shape-B630048F-303E-4875-B541-544A4ADE50CF@2x.png"
+                    />
+                  </div>
+                </div>
+                <div class="x3-01-image-gallerybg2-UfZyNY">
+                  <div class="guide-form-me-imagebg-Blln46"></div>
+                  <div class="gallerybtn-heckbgmtrl-Blln46">
+                    <img class="path-nx8pke" src="img/3-1-checkbox-path-37C9095A-1E61-485A-8CB4-667132E8AC92@2x.png" />
+                    <img
+                      class="shape-nx8pke"
+                      src="img/3-1-checkbox-shape-0BC2E376-FA6D-41D1-ACBC-D49B5FBE54DB@2x.png"
+                    />
+                    <img
+                      class="shape-6ISi7Q"
+                      src="img/3-1-checkbox-shape-E287A7CD-8B0C-458F-90CF-85E44020C736@2x.png"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="guide-subject-image-xG39GT">
+                <div class="guide-numbering-icon-tMryUx">
+                  <div class="x1-47dmKj anima-valign-text-middle font-class-3">1</div>
+                </div>
+                <div class="guide-property-tMryUx font-class-3">Image CSS</div>
+              </div>
+            </div>
+            <div class="image-qzlxTl">
+              <div class="document-b-x-contents-SaUNEn"></div>
+              <div class="general-SaUNEn">
+                <div class="guide-form-al1linecmt-xzkxEx">
+                  <div class="group-axaBgf">
+                    <div class="comment-1q0HHU font-class-1">/*disabled*/</div>
+                    <div class="x-1q0HHU font-class-1">;</div>
+                    <div class="value-1q0HHU font-class-1">0.4</div>
+                    <div class="property-1q0HHU font-class-1">opacity:</div>
+                  </div>
+                </div>
+                <div class="guide-form-on1linecmt-xzkxEx">
+                  <div class="group-2-dUAjGa">
+                    <div class="comment-tZZAyT font-class-1">/*disabled*/</div>
+                    <div class="value-tZZAyT">
+                      <div class="x-617QBu font-class-1">;</div>
+                      <div class="x-XZrO2k font-class-1">)</div>
+                      <div class="x-1MgPpU font-class-1">(</div>
+                      <div class="value-617QBu font-class-1">--white-color</div>
+                      <div class="fn-617QBu font-class-1">var</div>
+                    </div>
+                    <div class="property-tZZAyT font-class-1">fill:</div>
+                  </div>
+                </div>
+                <div class="guide-form-me-divider-xzkxEx"></div>
+                <div class="guide-form-on1linecmt-ws15IR">
+                  <div class="group-2-zNtZiU">
+                    <div class="comment-vVxxA4 font-class-1">/*normal*/</div>
+                    <div class="value-vVxxA4">
+                      <div class="x-XCXJTy font-class-1">;</div>
+                      <div class="x-B8bN3G font-class-1">)</div>
+                      <div class="x-QYFCrk font-class-1">(</div>
+                      <div class="value-XCXJTy font-class-1">--white-color</div>
+                      <div class="fn-XCXJTy font-class-1">var</div>
+                    </div>
+                    <div class="property-vVxxA4 font-class-1">fill:</div>
+                  </div>
+                </div>
+                <div class="guide-form-me-divider-ws15IR"></div>
+                <div class="guide-form-ormal1line-xzkxEx">
+                  <div class="group-cd2QPQ">
+                    <div class="x-wqxRcN font-class-1">;</div>
+                    <div class="value-wqxRcN font-class-1">32px</div>
+                    <div class="property-wqxRcN font-class-1">height:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-ws15IR">
+                  <div class="group-z8YAyZ">
+                    <div class="x-9HFeF4 font-class-1">;</div>
+                    <div class="value-9HFeF4 font-class-1">32px</div>
+                    <div class="property-9HFeF4 font-class-1">width:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ction2line-xzkxEx">
+                  <div class="group-4-slkm3o">
+                    <div class="group-2-vGnjfo">
+                      <div class="group-vFE6mF">
+                        <div class="group-3-SWZLA9">
+                          <div class="x-xU2psY font-class-1">;</div>
+                          <div class="x-zdMXXO font-class-1">)</div>
+                          <div class="value-2line-xU2psY font-class-1">_to_on_mtrl_(000~026).svg&#34;</div>
+                        </div>
+                        <div class="x-SWZLA9 font-class-1">(</div>
+                        <div class="value-1line-SWZLA9 font-class-1">&#34;sem_checkedtextview_check</div>
+                      </div>
+                      <div class="fn-vFE6mF font-class-1">url</div>
+                    </div>
+                    <div class="property-vGnjfo font-class-1">background:</div>
+                  </div>
+                </div>
+                <div class="x3-01-image-heckbox026-xzkxEx">
+                  <div class="guide-form-me-imagebg-7Y5Ift"></div>
+                  <div class="semchecked-oonmtrl026-7Y5Ift"></div>
+                </div>
+                <div class="x3-01-image-heckbox001-xzkxEx">
+                  <div class="guide-form-me-imagebg-QB9SVn"></div>
+                  <div class="semchecked-oonmtrl000-QB9SVn"></div>
+                </div>
+              </div>
+              <div class="guide-subject-image-SaUNEn">
+                <div class="guide-numbering-icon-6Nqncj">
+                  <div class="x1-Z0oUBs anima-valign-text-middle font-class-3">1</div>
+                </div>
+                <div class="guide-property-6Nqncj font-class-3">Image CSS</div>
+              </div>
+            </div>
+            <div class="document-b-x-contents-FybJz7"></div>
+            <div class="guide-2-FybJz7">
+              <div class="symbol-Fw7tYF">
+                <div class="checkoff-sdqu19">
+                  <div class="x-Qj1vD9 font-class-1">+</div>
+                  <div class="x-Db3R3G font-class-1">=</div>
+                  <div class="x3-01-image-oxgallery1-Qj1vD9">
+                    <div class="guide-form-me-imagebg-Y8rBkV"></div>
+                    <div class="gallerybtn-heckbgmtrl-Y8rBkV">
+                      <img
+                        class="path-89Jr1n"
+                        src="img/3-1-checkbox-path-1562646E-8079-4C7E-8355-F66D51C44DE6@2x.png"
+                      />
+                      <img
+                        class="shape-89Jr1n"
+                        src="img/3-1-checkbox-shape-321600FB-937D-461F-8CC7-2BF2436F2DDE@2x.png"
+                      />
+                    </div>
+                    <div class="semchecked-oonmtrl000-Y8rBkV"></div>
+                  </div>
+                  <div class="x3-01-image-gallerybg1-Qj1vD9">
+                    <div class="guide-form-me-imagebg-Lly46z"></div>
+                    <div class="gallerybtn-heckbgmtrl-Lly46z">
+                      <img
+                        class="path-1tSmCG"
+                        src="img/3-1-checkbox-path-1562646E-8079-4C7E-8355-F66D51C44DE6@2x.png"
+                      />
+                      <img
+                        class="shape-1tSmCG"
+                        src="img/3-1-checkbox-shape-321600FB-937D-461F-8CC7-2BF2436F2DDE@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="x3-01-image-heckbox001-Qj1vD9">
+                    <div class="guide-form-me-imagebg-mBx4gu"></div>
+                    <div class="semchecked-oonmtrl000-mBx4gu"></div>
+                  </div>
+                </div>
+                <div class="checkon-sdqu19">
+                  <div class="x-42CwBf font-class-1">+</div>
+                  <div class="x-b1YpVO font-class-1">=</div>
+                  <div class="x3-01-image-heckbox026-42CwBf">
+                    <div class="guide-form-me-imagebg-xAK8XN"></div>
+                    <div class="semchecked-oonmtrl026-xAK8XN"></div>
+                  </div>
+                  <div class="x3-01-image-gallerybg2-42CwBf">
+                    <div class="guide-form-me-imagebg-so4R2t"></div>
+                    <div class="gallerybtn-heckbgmtrl-so4R2t">
+                      <img
+                        class="path-4pr0uN"
+                        src="img/3-1-checkbox-path-1D67594F-A59C-420C-AE8B-D1FE12D01C82@2x.png"
+                      />
+                      <img
+                        class="shape-4pr0uN"
+                        src="img/3-1-checkbox-shape-6E07F9AA-EB2E-44C4-B4EA-BB2EDBB75299@2x.png"
+                      />
+                      <img
+                        class="shape-Vid6ot"
+                        src="img/3-1-checkbox-shape-A86F20E1-0610-477D-AF7A-CE928787554C@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="x3-01-image-oxgallery2-42CwBf">
+                    <div class="guide-form-me-imagebg-vFTso7"></div>
+                    <div class="gallerybtn-heckbgmtrl-vFTso7">
+                      <img
+                        class="path-BtX1rK"
+                        src="img/3-1-checkbox-path-1D67594F-A59C-420C-AE8B-D1FE12D01C82@2x.png"
+                      />
+                      <img
+                        class="shape-BtX1rK"
+                        src="img/3-1-checkbox-shape-6E07F9AA-EB2E-44C4-B4EA-BB2EDBB75299@2x.png"
+                      />
+                      <img
+                        class="shape-2SQS6A"
+                        src="img/3-1-checkbox-shape-A86F20E1-0610-477D-AF7A-CE928787554C@2x.png"
+                      />
+                    </div>
+                    <div class="semchecked-oonmtrl026-vFTso7"></div>
+                  </div>
+                </div>
+                <div class="checkbox-sdqu19 font-class-1">Checkbox</div>
+                <div class="bg-sdqu19 font-class-1">BG</div>
+                <div class="checkbox-for-gallery-sdqu19 font-class-1">Checkbox for Gallery</div>
+              </div>
+              <div class="guide-numb-ring-image-Fw7tYF">
+                <div class="x1-XFbUxe anima-valign-text-middle font-class-3">2</div>
+              </div>
+              <div class="guide-numb-ring-image-xfyR1E">
+                <div class="x1-mtQnua anima-valign-text-middle font-class-3">2</div>
+              </div>
+              <div class="guide-numb-ring-image-6VxaSl">
+                <div class="x1-iAIpjm anima-valign-text-middle font-class-3">1</div>
+              </div>
+              <div class="guide-numb-ring-image-ND5JXY">
+                <div class="x1-HbHwed anima-valign-text-middle font-class-3">1</div>
+              </div>
+            </div>
+            <div class="guide-1-FybJz7">
+              <div class="document-b-x-contents-2RIWRS"></div>
+              <div class="content-2RIWRS">
+                <div class="img-FOus6R">
+                  <img class="image-zDBMVq" src="img/3-1-checkbox-image-5982565B-104D-4D72-AC2C-80D6423BA8E1@2x.png" />
+                  <img class="image-MzT9Hh" src="img/3-1-checkbox-image-20743457-D8D4-4510-BC1E-C826C3F9B004@2x.png" />
+                </div>
+                <div class="guide-numb-ring-image-FOus6R">
+                  <div class="x1-rShK4J anima-valign-text-middle font-class-3">1</div>
+                </div>
+                <div class="guide-numb-ring-image-qRUNf9">
+                  <div class="x1-kfTT3T anima-valign-text-middle font-class-3">2</div>
+                </div>
+                <div class="semcheckedtextview-FOus6R font-class-4">
+                  sem_checkedtextview_check_to_on_mtrl_(000~026).svg
+                </div>
+                <div class="gallerybtnchecku-FOus6R font-class-4">gallery_btn_(check/uncheck)_bg_mtrl.svg</div>
+              </div>
+            </div>
+            <div class="give-bg-image-galle-FybJz7 font-class-1">
+              Give bg image &#39;gallery_btn_(check/uncheck)_ bg_mtrl.svg&#39; under the checkbox for thumbnail view.
+            </div>
+            <div class="resource-overlay-FybJz7 font-class-5">Resource overlay</div>
+          </div>
+          <div class="group-1-M82f3S">
+            <div class="shape-kmGSOy">
+              <div class="document-b-x-contents-xul7lc"></div>
+              <div class="general-xul7lc">
+                <div class="guide-form-ormal1line-vMaHqz">
+                  <div class="group-di9icL">
+                    <div class="x-SEBfa7 font-class-1">;</div>
+                    <div class="value-SEBfa7 font-class-1">#000000</div>
+                    <div class="property-SEBfa7 font-class-1">background:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-nUTvXv">
+                  <div class="group-nDOzWp">
+                    <div class="x-exy1Y6 font-class-1">;</div>
+                    <div class="value-exy1Y6 font-class-1">0.3</div>
+                    <div class="property-exy1Y6 font-class-1">opacity:</div>
+                  </div>
+                </div>
+              </div>
+              <div class="guide-subject-shape-xul7lc">
+                <div class="guide-numbering-icon-QJ8ieg">
+                  <div class="x1-iKa4B1 anima-valign-text-middle font-class-3">1</div>
+                </div>
+                <div class="guide-property-QJ8ieg font-class-3">Shape CSS</div>
+              </div>
+            </div>
+            <div class="guide-kmGSOy">
+              <div class="document-b-x-contents-BgvBDS"></div>
+              <div class="symbol-BgvBDS">
+                <div class="x3-01-measu--checkbox4-1wVxvq">
+                  <div class="pic-kKi2ik">
+                    <div class="mobile-lig-unselected-9hZzOd">
+                      <div class="mobile-lig-bnail1line-AcUXyi">
+                        <img
+                          class="thumbnail-Ntss1b"
+                          src="img/3-1-checkbox-thumbnail-A458EDDB-0906-4CEA-9875-C1B2B254D10D@2x.png"
+                        />
+                        <div class="title-Ntss1b anima-valign-text-middle font-class-2">Recipe title</div>
+                        <div class="thumbnail-border-Ntss1b border-class-1"></div>
+                      </div>
+                      <div class="mobile-lig-oxoffthumb-AcUXyi">
+                        <img class="bg-Rs1170" src="img/3-1-checkbox-bg-9C1D9F8E-C9B0-46BE-A4AE-948DAEF7D725@2x.png" />
+                        <img
+                          class="check-Rs1170"
+                          src="img/3-1-checkbox-check-E78393F7-A953-4AEF-9868-13CB84279232@2x.png"
+                        />
+                      </div>
+                    </div>
+                    <div class="mobile-lig-ilselected-9hZzOd">
+                      <div class="mobile-lig-bnail1line-uxDTDM">
+                        <img
+                          class="thumbnail-FxXCv1"
+                          src="img/3-1-checkbox-thumbnail-976E679A-8056-4BA6-B01D-B35CE16E775B@2x.png"
+                        />
+                        <div class="title-FxXCv1 anima-valign-text-middle font-class-2">Recipe title</div>
+                        <div class="thumbnail-border-FxXCv1 border-class-1"></div>
+                      </div>
+                      <div class="rectangle-uxDTDM"></div>
+                      <div class="mobile-lig-boxonthumb-uxDTDM">
+                        <img class="bg-4Kzcfg" src="img/3-1-checkbox-bg-9C1D9F8E-C9B0-46BE-A4AE-948DAEF7D725@2x.png" />
+                        <img
+                          class="check-4Kzcfg"
+                          src="img/3-1-checkbox-check-936AE81D-4F46-4299-A05D-056F51838B27@2x.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="measure-BgvBDS">
+                <div class="spacing-GpxYCS">
+                  <div class="guide-measure-area-8ioYxe"></div>
+                  <div class="guide-measure-area-cRb5xx"></div>
+                  <div class="guide-meas--spacing-1-8ioYxe">
+                    <div class="value-JmF1Mp">
+                      <div class="x0-ezwXsw font-class-1">8</div>
+                    </div>
+                    <div class="rectangle-JmF1Mp"></div>
+                    <div class="rectangle-vuRLeC"></div>
+                    <div class="rectangle-ki6iaJ"></div>
+                  </div>
+                </div>
+                <div class="spacing-xeKWSR">
+                  <div class="guide-measure-area-kOhkJY"></div>
+                  <div class="guide-meas--spacing-2-kOhkJY">
+                    <div class="value-OKQ4n5">
+                      <div class="x0-PGwFSW font-class-1">8</div>
+                    </div>
+                    <div class="rectangle-OKQ4n5"></div>
+                    <div class="rectangle-cFFiy3"></div>
+                    <div class="rectangle-qjBdBJ"></div>
+                  </div>
+                </div>
+                <div class="spacing-pZGIak">
+                  <div class="guide-measure-area-Ow8Nxk"></div>
+                  <div class="guide-meas--spacing-2-Ow8Nxk">
+                    <div class="value-GXLq32">
+                      <div class="x0-z9mxzf font-class-1">8</div>
+                    </div>
+                    <div class="rectangle-GXLq32"></div>
+                    <div class="rectangle-lzZIoq"></div>
+                    <div class="rectangle-ScEG3n"></div>
+                  </div>
+                </div>
+                <div class="size-GpxYCS">
+                  <div class="guide-measure-area-YiUWkY"></div>
+                  <div class="guide-measure-area-ji42y2"></div>
+                  <div class="guide-meas-top-size-1-YiUWkY">
+                    <div class="value-xIeJkK">
+                      <div class="x0-A3Jdkd font-class-1">32</div>
+                    </div>
+                    <div class="rectangle-xIeJkK"></div>
+                    <div class="rectangle-W1qK3Q"></div>
+                    <div class="rectangle-7sAgHZ"></div>
+                  </div>
+                  <div class="guide-meas-ght-size-1-YiUWkY">
+                    <div class="value-m5131s">
+                      <div class="x0-675gab font-class-1">32</div>
+                    </div>
+                    <div class="rectangle-m5131s"></div>
+                    <div class="rectangle-egdHg6"></div>
+                    <div class="rectangle-D6jn8m"></div>
+                  </div>
+                  <div class="guide-meas-horizontal-YiUWkY"></div>
+                  <div class="guide-meas-horizontal-ji42y2"></div>
+                  <div class="guide-meas-e-vertical-YiUWkY"></div>
+                  <div class="guide-meas-e-vertical-ji42y2"></div>
+                </div>
+                <div class="off-GpxYCS font-class-1">Off</div>
+                <div class="on-GpxYCS font-class-1">On</div>
+                <div class="guide-numb-ring-shape-GpxYCS">
+                  <div class="x1-Y7r3xo anima-valign-text-middle font-class-3">1</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="keyscreen-M82f3S">
+            <div class="document-b-x-contents-PmvkgZ"></div>
+            <a href="a161thumbnailgrid.html">
+              <div class="tag-refer-PmvkgZ">
+                <div class="btn-ut8jFR anima-smart-layers-pointers">
+                  <div class="basic-ILbMcb font-class-4">Basic</div>
+                  <div class="page-name-ILbMcb font-class-3">(16-1) Thumbnail grid</div>
+                </div>
+              </div></a
+            >
+            <div class="x3-01-keysc--checkbox4-PmvkgZ">
+              <div class="rectangle-7DzbNO"></div>
+              <div class="mobile-dar--navibar01-7DzbNO">
+                <div class="navibar-bg-GDq5mn"></div>
+                <div class="mobile-dar-onbar-back-GDq5mn">
+                  <div class="mobile-lig-onbar-back-5YsoMl"></div>
+                </div>
+                <div class="mobile-dar-onbar-home-GDq5mn">
+                  <div class="mobile-lig-onbar-home-cHwllq"></div>
+                </div>
+                <div class="mobile-dar-bar-recent-GDq5mn">
+                  <div class="mobile-lig-bar-recent-BzZRUP"></div>
+                </div>
+              </div>
+              <div class="pic-7DzbNO">
+                <div class="mask-mmMGBz"></div>
+                <div class="mobile-dar-unselected-mmMGBz">
+                  <div class="mobile-dar-bnail1line-FTZb0k">
+                    <div class="bg-JsKD8N"></div>
+                    <div class="recipe-title-JsKD8N font-class-2">Recipe title</div>
+                    <img
+                      class="thumbnail-JsKD8N"
+                      src="img/3-1-checkbox-thumbnail-554B08D7-24B5-4171-8B51-113C6365F9C2@2x.png"
+                    />
+                    <div class="thumbnail-border-JsKD8N border-class-3"></div>
+                  </div>
+                  <div class="mobile-lig-oxoffthumb-FTZb0k">
+                    <div class="background-CfOh2d"></div>
+                    <img class="bg-CfOh2d" src="img/3-1-checkbox-bg-35C9EFFE-3626-450E-A638-15B75E0A5159@2x.png" />
+                    <img
+                      class="check-CfOh2d"
+                      src="img/3-1-checkbox-check-78F40EA7-0C9F-4BCB-9040-4642FEF32F7A@2x.png"
+                    />
+                  </div>
+                </div>
+                <div class="mobile-dar-unselected-ddTMOo">
+                  <div class="mobile-dar-bnail1line-rp92bo">
+                    <div class="bg-SGkIqO"></div>
+                    <div class="recipe-title-SGkIqO font-class-2">Recipe title</div>
+                    <img
+                      class="thumbnail-SGkIqO"
+                      src="img/3-1-checkbox-thumbnail-EE422ED4-2D87-47B8-8985-8A333AC23673@2x.png"
+                    />
+                    <div class="thumbnail-border-SGkIqO border-class-3"></div>
+                  </div>
+                  <div class="mobile-lig-oxoffthumb-rp92bo">
+                    <div class="background-0jPcFD"></div>
+                    <img class="bg-0jPcFD" src="img/3-1-checkbox-bg-35C9EFFE-3626-450E-A638-15B75E0A5159@2x.png" />
+                    <img
+                      class="check-0jPcFD"
+                      src="img/3-1-checkbox-check-78F40EA7-0C9F-4BCB-9040-4642FEF32F7A@2x.png"
+                    />
+                  </div>
+                </div>
+                <div class="mobile-dar-unselected-PK0kos">
+                  <div class="mobile-dar-bnail1line-7o6Hle">
+                    <div class="bg-TpCHh1"></div>
+                    <div class="recipe-title-TpCHh1 font-class-2">Recipe title</div>
+                    <img
+                      class="thumbnail-TpCHh1"
+                      src="img/3-1-checkbox-thumbnail-4A661742-3C5D-47BD-99A7-FF36B03F7826@2x.png"
+                    />
+                    <div class="thumbnail-border-TpCHh1 border-class-3"></div>
+                  </div>
+                  <div class="mobile-lig-oxoffthumb-7o6Hle">
+                    <div class="background-a9FAOX"></div>
+                    <img class="bg-a9FAOX" src="img/3-1-checkbox-bg-35C9EFFE-3626-450E-A638-15B75E0A5159@2x.png" />
+                    <img
+                      class="check-a9FAOX"
+                      src="img/3-1-checkbox-check-78F40EA7-0C9F-4BCB-9040-4642FEF32F7A@2x.png"
+                    />
+                  </div>
+                </div>
+                <div class="mobile-dar-unselected-qBLhTz">
+                  <div class="mobile-dar-bnail1line-ut31dP">
+                    <div class="bg-fL6hsz"></div>
+                    <div class="recipe-title-fL6hsz font-class-2">Recipe title</div>
+                    <img
+                      class="thumbnail-fL6hsz"
+                      src="img/3-1-checkbox-thumbnail-79A854E3-3949-44BB-A88A-D1C63D709C32@2x.png"
+                    />
+                    <div class="thumbnail-border-fL6hsz border-class-3"></div>
+                  </div>
+                  <div class="mobile-lig-oxoffthumb-ut31dP">
+                    <div class="background-bsm52Z"></div>
+                    <img class="bg-bsm52Z" src="img/3-1-checkbox-bg-35C9EFFE-3626-450E-A638-15B75E0A5159@2x.png" />
+                    <img
+                      class="check-bsm52Z"
+                      src="img/3-1-checkbox-check-78F40EA7-0C9F-4BCB-9040-4642FEF32F7A@2x.png"
+                    />
+                  </div>
+                </div>
+                <div class="mobile-dar-ilselected-mmMGBz">
+                  <div class="mobile-dar-bnail1line-pqHxqv">
+                    <div class="bg-bXMtn1"></div>
+                    <div class="recipe-title-bXMtn1 font-class-2">Recipe title</div>
+                    <img
+                      class="thumbnail-bXMtn1"
+                      src="img/3-1-checkbox-thumbnail-0D11F9EC-B09B-4BDB-91FD-233162784067@2x.png"
+                    />
+                    <div class="thumbnail-border-bXMtn1 border-class-3"></div>
+                  </div>
+                  <div class="rectangle-pqHxqv"></div>
+                  <div class="mobile-lig-boxonthumb-pqHxqv">
+                    <img class="bg-6xpQSO" src="img/3-1-checkbox-bg-35C9EFFE-3626-450E-A638-15B75E0A5159@2x.png" />
+                    <img
+                      class="check-6xpQSO"
+                      src="img/3-1-checkbox-check-6E718E91-5C15-4DB3-BD21-698FA358BB17@2x.png"
+                    />
+                  </div>
+                </div>
+                <div class="mobile-dar-ilselected-ddTMOo">
+                  <div class="mobile-dar-bnail1line-sWSDK1">
+                    <div class="bg-lUjxYo"></div>
+                    <div class="recipe-title-lUjxYo font-class-2">Recipe title</div>
+                    <img
+                      class="thumbnail-lUjxYo"
+                      src="img/3-1-checkbox-thumbnail-83D0B634-076B-43E3-BB85-3843634F4011@2x.png"
+                    />
+                    <div class="thumbnail-border-lUjxYo border-class-3"></div>
+                  </div>
+                  <div class="rectangle-sWSDK1"></div>
+                  <div class="mobile-lig-boxonthumb-sWSDK1">
+                    <img class="bg-iSjdzj" src="img/3-1-checkbox-bg-35C9EFFE-3626-450E-A638-15B75E0A5159@2x.png" />
+                    <img
+                      class="check-iSjdzj"
+                      src="img/3-1-checkbox-check-6E718E91-5C15-4DB3-BD21-698FA358BB17@2x.png"
+                    />
+                  </div>
+                </div>
+                <div class="mobile-dar-unselected-xzA6yn">
+                  <div class="mobile-dar-bnail1line-kSsX33">
+                    <div class="bg-R00c3h"></div>
+                    <div class="recipe-title-R00c3h font-class-2">Recipe title</div>
+                    <img
+                      class="thumbnail-R00c3h"
+                      src="img/3-1-checkbox-thumbnail-4949672E-3F62-453D-87BA-9AFF9A175FC5@2x.png"
+                    />
+                    <div class="thumbnail-border-R00c3h border-class-3"></div>
+                  </div>
+                  <div class="mobile-lig-oxoffthumb-kSsX33">
+                    <div class="background-SUYs1w"></div>
+                    <img class="bg-SUYs1w" src="img/3-1-checkbox-bg-35C9EFFE-3626-450E-A638-15B75E0A5159@2x.png" />
+                    <img
+                      class="check-SUYs1w"
+                      src="img/3-1-checkbox-check-78F40EA7-0C9F-4BCB-9040-4642FEF32F7A@2x.png"
+                    />
+                  </div>
+                </div>
+                <div class="mobile-dar-unselected-80LvwG">
+                  <div class="mobile-dar-bnail1line-cye1qk">
+                    <div class="bg-RfBzIT"></div>
+                    <div class="recipe-title-RfBzIT font-class-2">Recipe title</div>
+                    <img
+                      class="thumbnail-RfBzIT"
+                      src="img/3-1-checkbox-thumbnail-9EF4D1D5-62F8-406B-A668-FB55A655B711@2x.png"
+                    />
+                    <div class="thumbnail-border-RfBzIT border-class-3"></div>
+                  </div>
+                  <div class="mobile-lig-oxoffthumb-cye1qk">
+                    <div class="background-C5ykNs"></div>
+                    <img class="bg-C5ykNs" src="img/3-1-checkbox-bg-35C9EFFE-3626-450E-A638-15B75E0A5159@2x.png" />
+                    <img
+                      class="check-C5ykNs"
+                      src="img/3-1-checkbox-check-78F40EA7-0C9F-4BCB-9040-4642FEF32F7A@2x.png"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="mobile-dar--indicator-7DzbNO">
+                <img class="wifi-xivxTc" src="img/3-1-checkbox-wifi-9A8B58F8-8888-4E4D-B907-951AF58EF8C5@2x.png" />
+              </div>
+              <div class="mobile-dar-e-icon2btn-7DzbNO">
+                <div class="group-DzLrg5">
+                  <div class="actionbar-bg-igj6rJ"></div>
+                  <div class="mobile-dar-title-more-igj6rJ">
+                    <div class="mobile-lig-title-more-I01SuE"></div>
+                  </div>
+                  <div class="mobile-dar-tle-search-igj6rJ">
+                    <div class="mobile-lig-tle-search-xpAhyY"></div>
+                  </div>
+                  <div class="sample-title-igj6rJ font-class-2">Sample title</div>
+                </div>
+              </div>
+            </div>
+            <div class="x3-01-keysc--checkbox4-baEYyo">
+              <div class="rectangle-pt40yk"></div>
+              <div class="mobile-lig--navibar01-pt40yk">
+                <div class="navibar-bg-ROgBAU"></div>
+                <div class="mobile-lig-onbar-back-ROgBAU"></div>
+                <div class="mobile-lig-onbar-home-ROgBAU"></div>
+                <div class="mobile-lig-bar-recent-ROgBAU"></div>
+              </div>
+              <div class="mask-pt40yk">
+                <img class="fill1-xoU8c3" src="img/3-1-checkbox-fill1-307F28FB-BA70-45FF-8BD1-7D0CCCA54A98@2x.png" />
+                <img class="fill1-OzXN0x" src="img/3-1-checkbox-fill1-871FA349-EDCB-4B09-9038-23225E6124E6@2x.png" />
+              </div>
+              <div class="mobile-lig-e-icon2btn-pt40yk">
+                <div class="group-Y4Homo">
+                  <div class="actionbar-bg-OHZ2ca"></div>
+                  <div class="mobile-lig-title-more-OHZ2ca"></div>
+                  <div class="mobile-lig-tle-search-OHZ2ca"></div>
+                  <div class="sample-title-OHZ2ca font-class-2">Sample title</div>
+                </div>
+              </div>
+              <div class="mobile-lig--indicator-pt40yk">
+                <img class="wifi-sIqiKu" src="img/3-1-checkbox-wifi-A7D53CB5-6D22-4A6B-B797-26E4784DE66E@2x.png" />
+              </div>
+              <div class="pic-pt40yk">
+                <div class="mask-yjHLgy"></div>
+                <div class="mobile-lig-unselected-yjHLgy">
+                  <div class="mobile-lig-bnail1line-fXn6Ib">
+                    <div class="bg-789FGx"></div>
+                    <img
+                      class="thumbnail-789FGx"
+                      src="img/3-1-checkbox-thumbnail-EE422ED4-2D87-47B8-8985-8A333AC23673@2x.png"
+                    />
+                    <div class="title-789FGx anima-valign-text-middle font-class-2">Recipe title</div>
+                    <div class="thumbnail-border-789FGx border-class-1"></div>
+                  </div>
+                  <div class="mobile-lig-oxoffthumb-fXn6Ib">
+                    <div class="background-NqXpst"></div>
+                    <img class="bg-NqXpst" src="img/3-1-checkbox-bg-35C9EFFE-3626-450E-A638-15B75E0A5159@2x.png" />
+                    <img
+                      class="check-NqXpst"
+                      src="img/3-1-checkbox-check-78F40EA7-0C9F-4BCB-9040-4642FEF32F7A@2x.png"
+                    />
+                  </div>
+                </div>
+                <div class="mobile-lig-unselected-Pp7Yge">
+                  <div class="mobile-lig-bnail1line-damWHx">
+                    <div class="bg-HRpnxx"></div>
+                    <img
+                      class="thumbnail-HRpnxx"
+                      src="img/3-1-checkbox-thumbnail-554B08D7-24B5-4171-8B51-113C6365F9C2@2x.png"
+                    />
+                    <div class="title-HRpnxx anima-valign-text-middle font-class-2">Recipe title</div>
+                    <div class="thumbnail-border-HRpnxx border-class-1"></div>
+                  </div>
+                  <div class="mobile-lig-oxoffthumb-damWHx">
+                    <div class="background-Fy1xPx"></div>
+                    <img class="bg-Fy1xPx" src="img/3-1-checkbox-bg-35C9EFFE-3626-450E-A638-15B75E0A5159@2x.png" />
+                    <img
+                      class="check-Fy1xPx"
+                      src="img/3-1-checkbox-check-78F40EA7-0C9F-4BCB-9040-4642FEF32F7A@2x.png"
+                    />
+                  </div>
+                </div>
+                <div class="mobile-lig-ilselected-yjHLgy">
+                  <div class="mobile-lig-bnail1line-Lj5LbJ">
+                    <div class="bg-Tf0kZl"></div>
+                    <img
+                      class="thumbnail-Tf0kZl"
+                      src="img/3-1-checkbox-thumbnail-0D11F9EC-B09B-4BDB-91FD-233162784067@2x.png"
+                    />
+                    <div class="title-Tf0kZl anima-valign-text-middle font-class-2">Recipe title</div>
+                    <div class="thumbnail-border-Tf0kZl border-class-1"></div>
+                  </div>
+                  <div class="rectangle-Lj5LbJ"></div>
+                  <div class="mobile-lig-boxonthumb-Lj5LbJ">
+                    <img class="bg-nFoSrd" src="img/3-1-checkbox-bg-35C9EFFE-3626-450E-A638-15B75E0A5159@2x.png" />
+                    <img
+                      class="check-nFoSrd"
+                      src="img/3-1-checkbox-check-6E718E91-5C15-4DB3-BD21-698FA358BB17@2x.png"
+                    />
+                  </div>
+                </div>
+                <div class="mobile-lig-unselected-2mhezx">
+                  <div class="mobile-lig-bnail1line-Ja2I1m">
+                    <div class="bg-0AoNL3"></div>
+                    <img
+                      class="thumbnail-0AoNL3"
+                      src="img/3-1-checkbox-thumbnail-4949672E-3F62-453D-87BA-9AFF9A175FC5@2x.png"
+                    />
+                    <div class="title-0AoNL3 anima-valign-text-middle font-class-2">Recipe title</div>
+                    <div class="thumbnail-border-0AoNL3 border-class-1"></div>
+                  </div>
+                  <div class="mobile-lig-oxoffthumb-Ja2I1m">
+                    <div class="background-sk3xop"></div>
+                    <img class="bg-sk3xop" src="img/3-1-checkbox-bg-35C9EFFE-3626-450E-A638-15B75E0A5159@2x.png" />
+                    <img
+                      class="check-sk3xop"
+                      src="img/3-1-checkbox-check-78F40EA7-0C9F-4BCB-9040-4642FEF32F7A@2x.png"
+                    />
+                  </div>
+                </div>
+                <div class="mobile-lig-unselected-Zv7WHM">
+                  <div class="mobile-lig-bnail1line-cqo2XY">
+                    <div class="bg-rG5HWk"></div>
+                    <img
+                      class="thumbnail-rG5HWk"
+                      src="img/3-1-checkbox-thumbnail-79A854E3-3949-44BB-A88A-D1C63D709C32@2x.png"
+                    />
+                    <div class="title-rG5HWk anima-valign-text-middle font-class-2">Recipe title</div>
+                    <div class="thumbnail-border-rG5HWk border-class-1"></div>
+                  </div>
+                  <div class="mobile-lig-oxoffthumb-cqo2XY">
+                    <div class="background-yneIhC"></div>
+                    <img class="bg-yneIhC" src="img/3-1-checkbox-bg-35C9EFFE-3626-450E-A638-15B75E0A5159@2x.png" />
+                    <img
+                      class="check-yneIhC"
+                      src="img/3-1-checkbox-check-78F40EA7-0C9F-4BCB-9040-4642FEF32F7A@2x.png"
+                    />
+                  </div>
+                </div>
+                <div class="mobile-lig-unselected-KgSRXa">
+                  <div class="mobile-lig-bnail1line-TnsrNu">
+                    <div class="bg-0lsF64"></div>
+                    <img
+                      class="thumbnail-0lsF64"
+                      src="img/3-1-checkbox-thumbnail-4A661742-3C5D-47BD-99A7-FF36B03F7826@2x.png"
+                    />
+                    <div class="title-0lsF64 anima-valign-text-middle font-class-2">Recipe title</div>
+                    <div class="thumbnail-border-0lsF64 border-class-1"></div>
+                  </div>
+                  <div class="mobile-lig-oxoffthumb-TnsrNu">
+                    <div class="background-ax2xH3"></div>
+                    <img class="bg-ax2xH3" src="img/3-1-checkbox-bg-35C9EFFE-3626-450E-A638-15B75E0A5159@2x.png" />
+                    <img
+                      class="check-ax2xH3"
+                      src="img/3-1-checkbox-check-78F40EA7-0C9F-4BCB-9040-4642FEF32F7A@2x.png"
+                    />
+                  </div>
+                </div>
+                <div class="mobile-lig-ilselected-Pp7Yge">
+                  <div class="mobile-lig-bnail1line-0PxpnY">
+                    <div class="bg-j8hl6A"></div>
+                    <img
+                      class="thumbnail-j8hl6A"
+                      src="img/3-1-checkbox-thumbnail-83D0B634-076B-43E3-BB85-3843634F4011@2x.png"
+                    />
+                    <div class="title-j8hl6A anima-valign-text-middle font-class-2">Recipe title</div>
+                    <div class="thumbnail-border-j8hl6A border-class-1"></div>
+                  </div>
+                  <div class="rectangle-0PxpnY"></div>
+                  <div class="mobile-lig-boxonthumb-0PxpnY">
+                    <img class="bg-sbMYyb" src="img/3-1-checkbox-bg-35C9EFFE-3626-450E-A638-15B75E0A5159@2x.png" />
+                    <img
+                      class="check-sbMYyb"
+                      src="img/3-1-checkbox-check-6E718E91-5C15-4DB3-BD21-698FA358BB17@2x.png"
+                    />
+                  </div>
+                </div>
+                <div class="mobile-lig-unselected-jS97Ed">
+                  <div class="mobile-lig-bnail1line-1Zu6Xy">
+                    <div class="bg-ucxEkl"></div>
+                    <img
+                      class="thumbnail-ucxEkl"
+                      src="img/3-1-checkbox-thumbnail-9EF4D1D5-62F8-406B-A668-FB55A655B711@2x.png"
+                    />
+                    <div class="title-ucxEkl anima-valign-text-middle font-class-2">Recipe title</div>
+                    <div class="thumbnail-border-ucxEkl border-class-1"></div>
+                  </div>
+                  <div class="mobile-lig-oxoffthumb-1Zu6Xy">
+                    <div class="background-6GYvJK"></div>
+                    <img class="bg-6GYvJK" src="img/3-1-checkbox-bg-35C9EFFE-3626-450E-A638-15B75E0A5159@2x.png" />
+                    <img
+                      class="check-6GYvJK"
+                      src="img/3-1-checkbox-check-78F40EA7-0C9F-4BCB-9040-4642FEF32F7A@2x.png"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="title-M82f3S font-class-1">Thumbnail grid</div>
+        </div>
+        <div class="thumbnaillist-C61RwL">
+          <div class="guide-2-5aMLdn">
+            <div class="document-b-x-contents-47fPpr"></div>
+            <div class="symbol-47fPpr">
+              <div class="x3-01-measu-checkbox32-t6L7C8">
+                <div class="list02-McUpVx">
+                  <div class="mobile-lig-rouplistbg-HeOHve"></div>
+                  <div class="mobile-lig-thumbnail2-HeOHve">
+                    <div class="line-zwKf59"></div>
+                  </div>
+                  <div class="mobile-lig-2list2line-HeOHve">
+                    <div class="subtext-3pOuzt anima-valign-text-middle font-class-2">
+                      Lorem ipsum dolor sit amet cons.
+                    </div>
+                    <div class="main-text-3pOuzt anima-valign-text-middle font-class-2">Seventh line</div>
+                    <img
+                      class="rectangle-3pOuzt"
+                      src="img/3-1-checkbox-rectangle-F17BF063-775D-44BA-9F64-9611C73C65FC.jpg"
+                    />
+                    <div class="mobile-lig-checkboxon-3pOuzt">
+                      <img
+                        class="check-Wdaz09"
+                        src="img/3-1-checkbox-check-6E70A82A-B4C3-40B9-AEE1-996AE8F110D2@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-lig-2list2line-tkw3Us">
+                    <div class="subtext-x1DwOK anima-valign-text-middle font-class-2">
+                      Lorem ipsum dolor sit amet cons.
+                    </div>
+                    <div class="main-text-x1DwOK anima-valign-text-middle font-class-2">Sixth line</div>
+                    <img
+                      class="rectangle-x1DwOK"
+                      src="img/3-1-checkbox-rectangle-4AC05113-22FA-4600-9546-F715397CC639.jpg"
+                    />
+                    <div class="mobile-lig-checkboxon-x1DwOK">
+                      <img
+                        class="check-xXDPnV"
+                        src="img/3-1-checkbox-check-A6DA4CB6-ED95-4E95-B2DE-4C5BE8F4B643@2x.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="measure-47fPpr">
+              <div class="spacing-6Y3qCx">
+                <div class="guide-measure-area-8ayx5k"></div>
+                <div class="guide-meas--spacing-2-8ayx5k">
+                  <div class="x0-RzVEzN font-class-1">18</div>
+                  <div class="rectangle-RzVEzN"></div>
+                  <div class="rectangle-0QotS9"></div>
+                  <div class="rectangle-aa4OEz"></div>
+                </div>
+              </div>
+              <div class="spacing-bfqBWo">
+                <div class="guide-measure-area-FfQpEx"></div>
+                <div class="guide-meas--spacing-2-FfQpEx">
+                  <div class="x0-ECIjBx font-class-1">24</div>
+                  <div class="rectangle-ECIjBx"></div>
+                  <div class="rectangle-M2ljNF"></div>
+                  <div class="rectangle-TthlVN"></div>
+                </div>
+              </div>
+              <div class="spacing-0dUy2d">
+                <div class="guide-measure-area-lKReYa"></div>
+                <div class="guide-meas--spacing-2-lKReYa">
+                  <div class="x0-kqW3qE font-class-1">18</div>
+                  <div class="rectangle-kqW3qE"></div>
+                  <div class="rectangle-JHyqxe"></div>
+                  <div class="rectangle-bWvhYw"></div>
+                </div>
+              </div>
+              <div class="size-6Y3qCx">
+                <div class="guide-measure-area-twSx4c"></div>
+                <div class="guide-measure-area-q0PlxZ"></div>
+                <div class="guide-meas-eft-size-1-twSx4c">
+                  <div class="value-kIx6BB">
+                    <div class="x0-oZPgBP font-class-1">32</div>
+                  </div>
+                  <div class="rectangle-kIx6BB"></div>
+                  <div class="rectangle-8Lje85"></div>
+                  <div class="rectangle-jsx8Rt"></div>
+                </div>
+                <div class="guide-meas-top-size-1-twSx4c">
+                  <div class="value-53DyXZ">
+                    <div class="x0-9NQMs7 font-class-1">32</div>
+                  </div>
+                  <div class="rectangle-53DyXZ"></div>
+                  <div class="rectangle-F24lxU"></div>
+                  <div class="rectangle-HmMwWn"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="guide-1-5aMLdn">
+            <div class="document-b-x-contents-9VH9Ns"></div>
+            <div class="symbol-9VH9Ns">
+              <div class="x3-01-measu-checkbox31-PEQ6ek">
+                <div class="list01-Wjdcpq">
+                  <div class="mobile-lig-rouplistbg-R0Uvl9"></div>
+                  <div class="mobile-lig-thumbnail1-R0Uvl9">
+                    <div class="line-LKthZi"></div>
+                  </div>
+                  <div class="mobile-lig-1list1line-R0Uvl9">
+                    <div class="check-on-x2Oa8S anima-valign-text-middle font-class-2">Second line</div>
+                    <img class="oval-x2Oa8S" src="img/3-1-checkbox-oval-F13D18E0-2369-41ED-AC9D-F212EB0F92D6@2x.png" />
+                    <div class="mobile-lig-checkboxon-x2Oa8S">
+                      <div class="background-sQ9xsx"></div>
+                      <img
+                        class="check-sQ9xsx"
+                        src="img/3-1-checkbox-check-6E70A82A-B4C3-40B9-AEE1-996AE8F110D2@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-lig-1list1line-JxnlNf">
+                    <div class="check-on-Rl39qI anima-valign-text-middle font-class-2">First line</div>
+                    <img class="oval-Rl39qI" src="img/3-1-checkbox-oval-4789371D-61E9-41A8-91DF-FBC8ECDFD259@2x.png" />
+                    <div class="mobile-lig-checkboxon-Rl39qI">
+                      <img
+                        class="check-1xyyM9"
+                        src="img/3-1-checkbox-check-A6DA4CB6-ED95-4E95-B2DE-4C5BE8F4B643@2x.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="measure-9VH9Ns">
+              <div class="spacing-L7fVLy">
+                <div class="guide-measure-area-Qr4ZM8"></div>
+                <div class="guide-meas--spacing-2-Qr4ZM8">
+                  <div class="x0-DxpGUX font-class-1">18</div>
+                  <div class="rectangle-DxpGUX"></div>
+                  <div class="rectangle-K5CU24"></div>
+                  <div class="rectangle-yrcc7x"></div>
+                </div>
+              </div>
+              <div class="spacing-MhjSaW">
+                <div class="guide-measure-area-r6haQn"></div>
+                <div class="guide-meas--spacing-2-r6haQn">
+                  <div class="x0-wJI73n font-class-1">24</div>
+                  <div class="rectangle-wJI73n"></div>
+                  <div class="rectangle-XonUwu"></div>
+                  <div class="rectangle-dbJXEB"></div>
+                </div>
+              </div>
+              <div class="spacing-aEGPSx">
+                <div class="guide-measure-area-zXdWjf"></div>
+                <div class="guide-meas--spacing-2-zXdWjf">
+                  <div class="x0-BqHyKx font-class-1">18</div>
+                  <div class="rectangle-BqHyKx"></div>
+                  <div class="rectangle-GWzgzH"></div>
+                  <div class="rectangle-GMDLbE"></div>
+                </div>
+              </div>
+              <div class="size-L7fVLy">
+                <div class="guide-measure-area-9CGJCU"></div>
+                <div class="guide-measure-area-odHLWK"></div>
+                <div class="guide-meas-eft-size-1-9CGJCU">
+                  <div class="value-z3og6v">
+                    <div class="x0-8pM4bg font-class-1">32</div>
+                  </div>
+                  <div class="rectangle-z3og6v"></div>
+                  <div class="rectangle-JBJ9gM"></div>
+                  <div class="rectangle-RVgx3A"></div>
+                </div>
+                <div class="guide-meas-top-size-1-9CGJCU">
+                  <div class="value-BpVb5j">
+                    <div class="x0-TZzTdx font-class-1">32</div>
+                  </div>
+                  <div class="rectangle-BpVb5j"></div>
+                  <div class="rectangle-rdewKO"></div>
+                  <div class="rectangle-5nNfLl"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="keyscreen-5aMLdn">
+            <div class="document-b-x-contents-0omq4n"></div>
+            <div class="x3-01-keysc--checkbox3-0omq4n">
+              <div class="rectangle-xKNain"></div>
+              <div class="group-xKNain">
+                <div class="list02-0AVC3V">
+                  <img
+                    class="rectangle-pYhK5f"
+                    src="img/3-1-checkbox-rectangle-B03C4E09-6DC0-471C-8B7C-330D2DBBBFFF@2x.png"
+                  />
+                  <div class="mobile-dar-rouplistbg-pYhK5f">
+                    <div class="rectangle-2-NU1C2v"></div>
+                  </div>
+                  <div class="mobile-dar-thumbnail2-pYhK5f"></div>
+                  <div class="mobile-dar-thumbnail2-ye2Mvj"></div>
+                  <div class="mobile-dar-thumbnail2-4XEze1"></div>
+                  <div class="mobile-dar-thumbnail2-xb3QR9"></div>
+                  <div class="mobile-dar-2list2line-pYhK5f">
+                    <div class="subtext-Alctyv anima-valign-text-middle font-class-2">
+                      Lorem ipsum dolor sit amet cons.
+                    </div>
+                    <div class="main-text-Alctyv anima-valign-text-middle font-class-2">Ninth line</div>
+                    <img
+                      class="rectangle-Alctyv"
+                      src="img/3-1-checkbox-rectangle-2B3F8406-3C7B-4748-BFE1-CC231F6DEDBF.jpg"
+                    />
+                    <div class="mobile-dar-checkboxon-Alctyv">
+                      <img
+                        class="check-Fc3h8i"
+                        src="img/3-1-checkbox-check-86C41C5A-8664-4D0E-86FC-C44A8A6EFF0D@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-dar-2list2line-ye2Mvj">
+                    <div class="subtext-72mWxK anima-valign-text-middle font-class-2">
+                      Lorem ipsum dolor sit amet cons.
+                    </div>
+                    <div class="main-text-72mWxK anima-valign-text-middle font-class-2">Eighth line</div>
+                    <img
+                      class="rectangle-72mWxK"
+                      src="img/3-1-checkbox-rectangle-0E33F83B-4A94-4D9F-9E46-6328FE0E5E37.jpg"
+                    />
+                    <div class="mobile-dar-checkboxon-72mWxK">
+                      <div class="background-hUHH8A"></div>
+                      <img
+                        class="check-hUHH8A"
+                        src="img/3-1-checkbox-check-50A1ED6B-A140-4359-9E5E-8FDBE60E7B76@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-dar-2list2line-4XEze1">
+                    <div class="subtext-syWo49 anima-valign-text-middle font-class-2">
+                      Lorem ipsum dolor sit amet cons.
+                    </div>
+                    <div class="main-text-syWo49 anima-valign-text-middle font-class-2">tenth line</div>
+                    <img
+                      class="rectangle-syWo49"
+                      src="img/3-1-checkbox-rectangle-05477E42-5810-49AF-87DB-EA2D8ADC1EF8.jpg"
+                    />
+                    <div class="mobile-dar-checkboxon-syWo49">
+                      <img
+                        class="check-cWNxlR"
+                        src="img/3-1-checkbox-check-86C41C5A-8664-4D0E-86FC-C44A8A6EFF0D@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-dar-2list2line-xb3QR9">
+                    <div class="subtext-4dhCC4 anima-valign-text-middle font-class-2">
+                      Lorem ipsum dolor sit amet cons.
+                    </div>
+                    <div class="main-text-4dhCC4 anima-valign-text-middle font-class-2">Seventh line</div>
+                    <img
+                      class="rectangle-4dhCC4"
+                      src="img/3-1-checkbox-rectangle-F17BF063-775D-44BA-9F64-9611C73C65FC.jpg"
+                    />
+                    <div class="mobile-dar-checkboxon-4dhCC4">
+                      <div class="background-zB4dsY"></div>
+                      <img
+                        class="check-zB4dsY"
+                        src="img/3-1-checkbox-check-50A1ED6B-A140-4359-9E5E-8FDBE60E7B76@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-dar-2list2line-CQiTxw">
+                    <div class="subtext-2yOsgD anima-valign-text-middle font-class-2">
+                      Lorem ipsum dolor sit amet cons.
+                    </div>
+                    <div class="main-text-2yOsgD anima-valign-text-middle font-class-2">Sixth line</div>
+                    <img
+                      class="rectangle-2yOsgD"
+                      src="img/3-1-checkbox-rectangle-4AC05113-22FA-4600-9546-F715397CC639.jpg"
+                    />
+                    <div class="mobile-dar-checkboxon-2yOsgD">
+                      <img
+                        class="check-RmKAMJ"
+                        src="img/3-1-checkbox-check-86C41C5A-8664-4D0E-86FC-C44A8A6EFF0D@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-dar-text-chunk-pYhK5f">
+                    <div class="background-UAPYTw"></div>
+                    <div class="title-UAPYTw">
+                      <div class="subheadertext-Kw8W2U anima-valign-text-middle">Subheader</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="list01-0AVC3V">
+                  <div class="mobile-dar-rouplistbg-ft3A2o">
+                    <div class="rectangle-2-ZsfI2n"></div>
+                  </div>
+                  <div class="mobile-dar-1list1line-ft3A2o">
+                    <div class="check-on-WbxvNf anima-valign-text-middle font-class-2">Fifth line</div>
+                    <img class="oval-WbxvNf" src="img/3-1-checkbox-oval-DE5C92E2-EA98-4561-B7F3-0579D5A7BCC2@2x.png" />
+                    <div class="mobile-dar-checkboxon-WbxvNf">
+                      <div class="background-y4zj8Z"></div>
+                      <img
+                        class="check-y4zj8Z"
+                        src="img/3-1-checkbox-check-50A1ED6B-A140-4359-9E5E-8FDBE60E7B76@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-dar-thumbnail1-ft3A2o">
+                    <div class="line-By2Aam"></div>
+                  </div>
+                  <div class="mobile-dar-1list1line-VTSLa6">
+                    <div class="check-on-LvhxHR anima-valign-text-middle font-class-2">Fourth line</div>
+                    <img class="oval-LvhxHR" src="img/3-1-checkbox-oval-31939FC7-670A-4B5F-BE0E-B1A51B391D4E@2x.png" />
+                    <div class="mobile-dar-checkboxon-LvhxHR">
+                      <img
+                        class="check-bfWWHw"
+                        src="img/3-1-checkbox-check-86C41C5A-8664-4D0E-86FC-C44A8A6EFF0D@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-dar-thumbnail1-VTSLa6">
+                    <div class="line-6czxkm"></div>
+                  </div>
+                  <div class="mobile-dar-1list1line-uprrEn">
+                    <div class="check-on-xqOvQ2 anima-valign-text-middle font-class-2">Third line</div>
+                    <img class="oval-xqOvQ2" src="img/3-1-checkbox-oval-D8C4AF32-C93A-4C48-B4E0-C030D43C3051@2x.png" />
+                    <div class="mobile-dar-checkboxon-xqOvQ2">
+                      <div class="background-sxCcxX"></div>
+                      <img
+                        class="check-sxCcxX"
+                        src="img/3-1-checkbox-check-50A1ED6B-A140-4359-9E5E-8FDBE60E7B76@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-dar-thumbnail1-uprrEn">
+                    <div class="line-753gc1"></div>
+                  </div>
+                  <div class="mobile-dar-1list1line-xVuHtY">
+                    <div class="check-on-vosUds anima-valign-text-middle font-class-2">Second line</div>
+                    <img class="oval-vosUds" src="img/3-1-checkbox-oval-2A55DC6E-3E92-4FFB-AEA1-D2DFC271ED46@2x.png" />
+                    <div class="mobile-dar-checkboxon-vosUds">
+                      <div class="background-ovVmvi"></div>
+                      <img
+                        class="check-ovVmvi"
+                        src="img/3-1-checkbox-check-50A1ED6B-A140-4359-9E5E-8FDBE60E7B76@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-dar-thumbnail1-xVuHtY">
+                    <div class="line-dlxmkD"></div>
+                  </div>
+                  <div class="mobile-dar-1list1line-fx7dSJ">
+                    <div class="check-on-gzVdib anima-valign-text-middle font-class-2">First line</div>
+                    <img class="oval-gzVdib" src="img/3-1-checkbox-oval-3E92C757-86E2-4A12-A9E5-FF00713E11B5@2x.png" />
+                    <div class="mobile-dar-checkboxon-gzVdib">
+                      <img
+                        class="check-Rtfv0d"
+                        src="img/3-1-checkbox-check-86C41C5A-8664-4D0E-86FC-C44A8A6EFF0D@2x.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mobile-dar--indicator-xKNain">
+                <img class="wifi-Y8AbVM" src="img/3-1-checkbox-wifi-9A8B58F8-8888-4E4D-B907-951AF58EF8C5@2x.png" />
+              </div>
+              <div class="mobile-dar--navibar01-xKNain">
+                <div class="navibar-bg-JjImr9"></div>
+                <div class="mobile-dar-onbar-back-JjImr9">
+                  <div class="mobile-lig-onbar-back-Dysxw4"></div>
+                </div>
+                <div class="mobile-dar-onbar-home-JjImr9">
+                  <div class="mobile-lig-onbar-home-ejOFhL"></div>
+                </div>
+                <div class="mobile-dar-bar-recent-JjImr9">
+                  <div class="mobile-lig-bar-recent-CKZJXp"></div>
+                </div>
+              </div>
+              <div class="mobile-dar-n1btn-back-xKNain">
+                <div class="group-sHvr3F">
+                  <div class="actionbar-bg-vE3v28"></div>
+                  <div class="mobile-dar-title-more-vE3v28">
+                    <div class="mobile-lig-title-more-tLSxqF"></div>
+                  </div>
+                  <div class="sample-title-vE3v28 font-class-2">Sample title</div>
+                  <div class="mobile-dar-title-back-vE3v28">
+                    <div class="mobile-lig-title-back-sj6LHN"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="x3-01-keysc--checkbox3-bkdvSv">
+              <div class="rectangle-CTIMPq"></div>
+              <div class="mobile-lig--indicator-CTIMPq">
+                <img class="wifi-5bgkR2" src="img/3-1-checkbox-wifi-A7D53CB5-6D22-4A6B-B797-26E4784DE66E@2x.png" />
+              </div>
+              <div class="mobile-lig--navibar01-CTIMPq">
+                <div class="navibar-bg-bjG41e"></div>
+                <div class="mobile-lig-onbar-back-bjG41e"></div>
+                <div class="mobile-lig-onbar-home-bjG41e"></div>
+                <div class="mobile-lig-bar-recent-bjG41e"></div>
+              </div>
+              <div class="group-CTIMPq">
+                <div class="list02-QC4MdR">
+                  <img
+                    class="rectangle-kt8ed6"
+                    src="img/3-1-checkbox-rectangle-B03C4E09-6DC0-471C-8B7C-330D2DBBBFFF@2x.png"
+                  />
+                  <div class="mobile-lig-rouplistbg-kt8ed6">
+                    <div class="rectangle-2-JWyBTD"></div>
+                  </div>
+                  <div class="mobile-lig-thumbnail2-kt8ed6"></div>
+                  <div class="mobile-lig-thumbnail2-PX6ISR"></div>
+                  <div class="mobile-lig-thumbnail2-KHRqAQ"></div>
+                  <div class="mobile-lig-thumbnail2-dR2xWM"></div>
+                  <div class="mobile-lig-2list2line-kt8ed6">
+                    <div class="subtext-pZrMS0 anima-valign-text-middle font-class-2">
+                      Lorem ipsum dolor sit amet cons.
+                    </div>
+                    <div class="main-text-pZrMS0 anima-valign-text-middle font-class-2">Ninth line</div>
+                    <img
+                      class="rectangle-pZrMS0"
+                      src="img/3-1-checkbox-rectangle-2B3F8406-3C7B-4748-BFE1-CC231F6DEDBF.jpg"
+                    />
+                    <div class="mobile-lig-checkboxon-pZrMS0">
+                      <img
+                        class="check-pzx0MC"
+                        src="img/3-1-checkbox-check-86C41C5A-8664-4D0E-86FC-C44A8A6EFF0D@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-lig-2list2line-PX6ISR">
+                    <div class="subtext-1XIHjU anima-valign-text-middle font-class-2">
+                      Lorem ipsum dolor sit amet cons.
+                    </div>
+                    <div class="main-text-1XIHjU anima-valign-text-middle font-class-2">Eighth line</div>
+                    <img
+                      class="rectangle-1XIHjU"
+                      src="img/3-1-checkbox-rectangle-0E33F83B-4A94-4D9F-9E46-6328FE0E5E37.jpg"
+                    />
+                    <div class="mobile-lig-checkboxon-1XIHjU">
+                      <div class="background-lsFhyB"></div>
+                      <img
+                        class="check-lsFhyB"
+                        src="img/3-1-checkbox-check-50A1ED6B-A140-4359-9E5E-8FDBE60E7B76@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-lig-2list2line-KHRqAQ">
+                    <div class="subtext-jd2xNr anima-valign-text-middle font-class-2">
+                      Lorem ipsum dolor sit amet cons.
+                    </div>
+                    <div class="main-text-jd2xNr anima-valign-text-middle font-class-2">tenth line</div>
+                    <img
+                      class="rectangle-jd2xNr"
+                      src="img/3-1-checkbox-rectangle-05477E42-5810-49AF-87DB-EA2D8ADC1EF8.jpg"
+                    />
+                    <div class="mobile-lig-checkboxon-jd2xNr">
+                      <img
+                        class="check-Eb9jnd"
+                        src="img/3-1-checkbox-check-86C41C5A-8664-4D0E-86FC-C44A8A6EFF0D@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-lig-2list2line-dR2xWM">
+                    <div class="subtext-RSQXJQ anima-valign-text-middle font-class-2">
+                      Lorem ipsum dolor sit amet cons.
+                    </div>
+                    <div class="main-text-RSQXJQ anima-valign-text-middle font-class-2">Seventh line</div>
+                    <img
+                      class="rectangle-RSQXJQ"
+                      src="img/3-1-checkbox-rectangle-F17BF063-775D-44BA-9F64-9611C73C65FC.jpg"
+                    />
+                    <div class="mobile-lig-checkboxon-RSQXJQ">
+                      <div class="background-KWUhzT"></div>
+                      <img
+                        class="check-KWUhzT"
+                        src="img/3-1-checkbox-check-50A1ED6B-A140-4359-9E5E-8FDBE60E7B76@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-lig-2list2line-hYAhNO">
+                    <div class="subtext-bAM3Ox anima-valign-text-middle font-class-2">
+                      Lorem ipsum dolor sit amet cons.
+                    </div>
+                    <div class="main-text-bAM3Ox anima-valign-text-middle font-class-2">Sixth line</div>
+                    <img
+                      class="rectangle-bAM3Ox"
+                      src="img/3-1-checkbox-rectangle-4AC05113-22FA-4600-9546-F715397CC639.jpg"
+                    />
+                    <div class="mobile-lig-checkboxon-bAM3Ox">
+                      <img
+                        class="check-1keS3H"
+                        src="img/3-1-checkbox-check-86C41C5A-8664-4D0E-86FC-C44A8A6EFF0D@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-lig-text-chunk-kt8ed6">
+                    <div class="background-edlUeP"></div>
+                    <div class="subheadertext-edlUeP anima-valign-text-middle">Subheader</div>
+                  </div>
+                </div>
+                <div class="list01-QC4MdR">
+                  <div class="mobile-lig-rouplistbg-h78iWR">
+                    <div class="rectangle-2-NVatXq"></div>
+                  </div>
+                  <div class="mobile-lig-thumbnail1-h78iWR">
+                    <div class="line-yNRQWq"></div>
+                  </div>
+                  <div class="mobile-lig-thumbnail1-tlEw5L">
+                    <div class="line-aPq10P"></div>
+                  </div>
+                  <div class="mobile-lig-thumbnail1-zGkFEe">
+                    <div class="line-3ZXTxg"></div>
+                  </div>
+                  <div class="mobile-lig-thumbnail1-k3yGwE">
+                    <div class="line-Fj5HyS"></div>
+                  </div>
+                  <div class="mobile-lig-1list1line-h78iWR">
+                    <div class="check-on-QgBxKl anima-valign-text-middle font-class-2">Fifth line</div>
+                    <img class="oval-QgBxKl" src="img/3-1-checkbox-oval-13770E74-AA91-42C0-8191-E3D4F611BC0C@2x.png" />
+                    <div class="mobile-lig-checkboxon-QgBxKl">
+                      <div class="background-nnPUof"></div>
+                      <img
+                        class="check-nnPUof"
+                        src="img/3-1-checkbox-check-50A1ED6B-A140-4359-9E5E-8FDBE60E7B76@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-lig-1list1line-tlEw5L">
+                    <div class="check-on-81Bbcx anima-valign-text-middle font-class-2">Fourth line</div>
+                    <img class="oval-81Bbcx" src="img/3-1-checkbox-oval-C6E85ACE-7540-4721-8D13-40D8E5AFA4D7@2x.png" />
+                    <div class="mobile-lig-checkboxon-81Bbcx">
+                      <img
+                        class="check-CbxMTD"
+                        src="img/3-1-checkbox-check-86C41C5A-8664-4D0E-86FC-C44A8A6EFF0D@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-lig-1list1line-zGkFEe">
+                    <div class="check-on-eu4mPW anima-valign-text-middle font-class-2">Third line</div>
+                    <img class="oval-eu4mPW" src="img/3-1-checkbox-oval-0F80D54E-75C8-4C7B-BAB2-F9667A24CF27@2x.png" />
+                    <div class="mobile-lig-checkboxon-eu4mPW">
+                      <div class="background-nveRxd"></div>
+                      <img
+                        class="check-nveRxd"
+                        src="img/3-1-checkbox-check-50A1ED6B-A140-4359-9E5E-8FDBE60E7B76@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-lig-1list1line-k3yGwE">
+                    <div class="check-on-xtDxtC anima-valign-text-middle font-class-2">Second line</div>
+                    <img class="oval-xtDxtC" src="img/3-1-checkbox-oval-99E2D7FC-5EB0-4447-86C6-047C5B56DBA8@2x.png" />
+                    <div class="mobile-lig-checkboxon-xtDxtC">
+                      <div class="background-AAxuuw"></div>
+                      <img
+                        class="check-AAxuuw"
+                        src="img/3-1-checkbox-check-50A1ED6B-A140-4359-9E5E-8FDBE60E7B76@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-lig-1list1line-H2HOZ0">
+                    <div class="check-on-Yz4ji9 anima-valign-text-middle font-class-2">First line</div>
+                    <img class="oval-Yz4ji9" src="img/3-1-checkbox-oval-D9B5CBAB-C1E0-4B8F-A106-1617C468970D@2x.png" />
+                    <div class="mobile-lig-checkboxon-Yz4ji9">
+                      <img
+                        class="check-x2f0ex"
+                        src="img/3-1-checkbox-check-86C41C5A-8664-4D0E-86FC-C44A8A6EFF0D@2x.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mobile-lig-n1btn-back-CTIMPq">
+                <div class="group-EqPOn3">
+                  <div class="actionbar-bg-RC61yJ"></div>
+                  <div class="mobile-lig-title-more-RC61yJ"></div>
+                  <div class="sample-title-RC61yJ font-class-2">Sample title</div>
+                  <div class="mobile-lig-title-back-RC61yJ"></div>
+                </div>
+              </div>
+            </div>
+            <a href="a65imagelist.html">
+              <div class="tag-refer-0omq4n">
+                <div class="btn-3yv2g5 anima-smart-layers-pointers">
+                  <div class="basic-u7Qaeq font-class-4">Basic</div>
+                  <div class="page-name-u7Qaeq font-class-3">(6-5) Image list</div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="title-5aMLdn font-class-1">Thumbnail list</div>
+        </div>
+        <div class="listselected-C61RwL">
+          <div class="group-3T9QXW">
+            <div class="shape-CjLf0y">
+              <div class="document-b-x-contents-cEeLu9"></div>
+              <div class="light-theme-cEeLu9">
+                <div class="guide-form-light1line-hGMHmn">
+                  <div class="group-2-Nwfya7">
+                    <div class="value-DGR9lU">
+                      <div class="background-T3ZCwS"></div>
+                      <div class="x-T3ZCwS font-class-1">;</div>
+                      <div class="x-0wxRNx font-class-1">)</div>
+                      <div class="x-k4li9H font-class-1">(</div>
+                      <div class="value-T3ZCwS font-class-1">--primary-color</div>
+                      <div class="fn-T3ZCwS font-class-1">var</div>
+                    </div>
+                    <div class="property-DGR9lU font-class-1">background:</div>
+                  </div>
+                </div>
+                <div class="guide-form-rmal-light-hGMHmn">
+                  <div class="group-2-yKtEdh">
+                    <div class="x-xx7jEu font-class-1">;</div>
+                    <div class="group-xx7jEu">
+                      <div class="value-ihS9QD font-class-1">0.08</div>
+                    </div>
+                    <div class="property-xx7jEu font-class-1">opacity:</div>
+                  </div>
+                </div>
+                <div class="guide-form-e-subtitle-hGMHmn">
+                  <div class="text-DfqQMq font-class-3">Light theme</div>
+                </div>
+              </div>
+              <div class="dark-theme-cEeLu9">
+                <div class="guide-form-e-subtitle-tQzQHv">
+                  <div class="text-87HFIy font-class-3">Dark theme</div>
+                </div>
+                <div class="guide-form--dark1line-tQzQHv">
+                  <div class="group-2-31Mns8">
+                    <div class="value-I0Mzlx">
+                      <div class="background-k58acA"></div>
+                      <div class="x-k58acA font-class-1">;</div>
+                      <div class="x-ePVxMl font-class-1">)</div>
+                      <div class="x-d0e8Up font-class-1">(</div>
+                      <div class="value-k58acA font-class-1">--white-color</div>
+                      <div class="fn-k58acA font-class-1">var</div>
+                    </div>
+                    <div class="property-I0Mzlx font-class-1">background:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal-dark-tQzQHv">
+                  <div class="group-2-MvMxQA">
+                    <div class="x-yGXflW font-class-1">;</div>
+                    <div class="group-yGXflW">
+                      <div class="value-qpofGI font-class-1">0.1</div>
+                    </div>
+                    <div class="property-yGXflW font-class-1">opacity:</div>
+                  </div>
+                </div>
+              </div>
+              <div class="guide-subject-shape-cEeLu9">
+                <div class="guide-numbering-icon-xJj5cn">
+                  <div class="x1-2fCqzP anima-valign-text-middle font-class-3">1</div>
+                </div>
+                <div class="guide-property-xJj5cn font-class-3">Shape CSS</div>
+              </div>
+            </div>
+            <div class="guide-CjLf0y">
+              <div class="document-b-x-contents-xqjxMB"></div>
+              <div class="symbol-xqjxMB">
+                <div class="x3-01-measu--checkbox2-FLJsEd">
+                  <div class="list01-WogAfA">
+                    <div class="mobile-lig-rouplistbg-IsPgxh"></div>
+                    <div class="mobile-lig-ckbox-text-IsPgxh"></div>
+                    <div class="mobile-lig-ckbox-text-mAnxr4"></div>
+                    <div class="mobile-lig-stselected-IsPgxh">
+                      <div class="check-on-TT2n9x anima-valign-text-middle font-class-2">Selection item 02</div>
+                      <div class="mobile-lig-checkboxon-TT2n9x">
+                        <img
+                          class="check-6yTOxC"
+                          src="img/3-1-checkbox-check-A6DA4CB6-ED95-4E95-B2DE-4C5BE8F4B643@2x.png"
+                        />
+                      </div>
+                    </div>
+                    <div class="mobile-lig-eckboxlist-IsPgxh">
+                      <div class="check-on-39IQ68 anima-valign-text-middle font-class-2">Selection item 01</div>
+                      <div class="mobile-lig-checkboxon-39IQ68">
+                        <img
+                          class="check-51y25f"
+                          src="img/3-1-checkbox-check-6E70A82A-B4C3-40B9-AEE1-996AE8F110D2@2x.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="measure-xqjxMB">
+                <div class="guide-meas-horizontal-8FcDQf"></div>
+                <div class="guide-meas-horizontal-Nta0Vv"></div>
+                <div class="guide-numb-ring-shape-8FcDQf">
+                  <div class="x1-jYT4oV anima-valign-text-middle font-class-3">1</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="keyscreen-3T9QXW">
+            <div class="document-b-x-contents-dJM0r0"></div>
+            <a href="a68multipleselectionlist.html">
+              <div class="tag-refer-dJM0r0">
+                <div class="btn-ts6sYx anima-smart-layers-pointers">
+                  <div class="basic-7H2mDp font-class-4">Basic</div>
+                  <div class="page-name-7H2mDp font-class-3">(6-8) Multiple selection list</div>
+                </div>
+              </div></a
+            >
+            <img
+              class="x3-01-keysc--checkbox2-dJM0r0"
+              src="img/3-1-checkbox-3-01keyscreenw360mpd031checkbox2-073CBFBF-78CA-480D-9379-991304658A99@2x.png"
+            />
+            <img
+              class="x3-01-keysc--checkbox2-Hm60Ng"
+              src="img/3-1-checkbox-3-01keyscreenw360mpl031checkbox2-08546DA0-37BB-4E65-A4A9-327D39469B2D@2x.png"
+            />
+          </div>
+          <div class="title-3T9QXW font-class-1">List selected</div>
+        </div>
+        <div class="basiclist-C61RwL">
+          <div class="table-xi86rY">
+            <div class="table-gene-ight1style-obbtw3">
+              <div class="rectangle-t5UkRD"></div>
+              <div class="bg-t5UkRD border-class-2"></div>
+              <div class="content-t5UkRD anima-valign-text-middle font-class-1">CSS</div>
+            </div>
+            <div class="table-guid-ction1line-obbtw3">
+              <div class="rectangle-WxgOeJ"></div>
+              <div class="bg-WxgOeJ border-class-2"></div>
+              <div class="group-2-WxgOeJ">
+                <div class="value-fsxXbF">
+                  <div class="x-pW2zfP font-class-1">;</div>
+                  <div class="x-VctmDE font-class-1">)</div>
+                  <div class="x-X8RSA6 font-class-1">(</div>
+                  <div class="value-pW2zfP font-class-1">--control-active-color</div>
+                  <div class="fn-pW2zfP font-class-1">var</div>
+                </div>
+                <div class="property-fsxXbF font-class-1">fill:</div>
+              </div>
+            </div>
+            <div class="table-guid-ormal2line-obbtw3">
+              <div class="rectangle-SeTKTF"></div>
+              <div class="bg-SeTKTF border-class-2"></div>
+              <div class="group-2-SeTKTF">
+                <div class="x2line-3I4axn">
+                  <div class="x-1ofuO8 font-class-1">;</div>
+                  <div class="group-1ofuO8">
+                    <div class="value-txUWV9 font-class-1">0.8</div>
+                  </div>
+                  <div class="property-1ofuO8 font-class-1">opacity:</div>
+                </div>
+                <div class="x1line-3I4axn">
+                  <div class="x-Nn7XWs font-class-1">;</div>
+                  <div class="group-Nn7XWs">
+                    <div class="value-IF7xda font-class-1">#8f8f8f</div>
+                  </div>
+                  <div class="property-Nn7XWs font-class-1">fill:</div>
+                </div>
+              </div>
+            </div>
+            <div class="table-guid-ion-normal-obbtw3">
+              <div class="rectangle-PZ0IhA"></div>
+              <div class="bg-PZ0IhA border-class-2"></div>
+              <div class="group-2-PZ0IhA">
+                <div class="x2line-dcJYUm">
+                  <div class="x-EE1ACK font-class-1">;</div>
+                  <div class="group-EE1ACK">
+                    <div class="value-9U6DzM font-class-1">0.4</div>
+                  </div>
+                  <div class="property-EE1ACK font-class-1">opacity:</div>
+                </div>
+                <div class="x1line-dcJYUm">
+                  <div class="value-4GNC3t">
+                    <div class="x-IwFYCf font-class-1">;</div>
+                    <div class="x-iumpFS font-class-1">)</div>
+                    <div class="x-d2uVRx font-class-1">(</div>
+                    <div class="value-IwFYCf font-class-1">--control-active-color</div>
+                    <div class="fn-IwFYCf font-class-1">var</div>
+                  </div>
+                  <div class="property-4GNC3t font-class-1">fill:</div>
+                </div>
+              </div>
+            </div>
+            <div class="table-guid-ormal2line-xcoHJC">
+              <div class="rectangle-tZpxZl"></div>
+              <div class="bg-tZpxZl border-class-2"></div>
+              <div class="group-2-tZpxZl">
+                <div class="x2line-EMmEYT">
+                  <div class="x-q2YSYU font-class-1">;</div>
+                  <div class="group-q2YSYU">
+                    <div class="value-L81Io7 font-class-1">0.4</div>
+                  </div>
+                  <div class="property-q2YSYU font-class-1">opacity:</div>
+                </div>
+                <div class="x1line-EMmEYT">
+                  <div class="x-rlyWBx font-class-1">;</div>
+                  <div class="group-rlyWBx">
+                    <div class="value-iS6sEh font-class-1">#8f8f8f</div>
+                  </div>
+                  <div class="property-rlyWBx font-class-1">fill:</div>
+                </div>
+              </div>
+            </div>
+            <div class="table-gene-ight1style-xcoHJC">
+              <div class="rectangle-UmcTUm"></div>
+              <div class="bg-UmcTUm border-class-2"></div>
+              <div class="content-UmcTUm anima-valign-text-middle font-class-1">Shape</div>
+            </div>
+            <div class="cell-obbtw3">
+              <div class="table-gene-ight1style-OG0TdV">
+                <div class="rectangle-IP1Omg"></div>
+                <div class="bg-IP1Omg border-class-2"></div>
+                <div class="content-IP1Omg anima-valign-text-middle font-class-1"></div>
+              </div>
+              <div class="mobile-lig-checkboxon-OG0TdV"></div>
+            </div>
+            <div class="cell-xcoHJC">
+              <div class="table-gene-ight1style-iFXqxx">
+                <div class="rectangle-Ah62IF"></div>
+                <div class="bg-Ah62IF border-class-2"></div>
+                <div class="content-Ah62IF anima-valign-text-middle font-class-1"></div>
+              </div>
+              <div class="mobile-lig-heckboxoff-iFXqxx">
+                <img class="check-efwRzJ" src="img/3-1-checkbox-check-764CFF02-B605-45CF-9419-EA0E3717590E@2x.png" />
+              </div>
+            </div>
+            <div class="cell-0oKtUf">
+              <div class="table-gene-ight1style-kIufMK">
+                <div class="rectangle-xqIMBc"></div>
+                <div class="bg-xqIMBc border-class-2"></div>
+                <div class="content-xqIMBc anima-valign-text-middle font-class-1"></div>
+              </div>
+              <div class="mobile-lig-ckboxondim-kIufMK"></div>
+            </div>
+            <div class="cell-1VuTe5">
+              <div class="table-gene-ight1style-ZvOxqx">
+                <div class="rectangle-q4gcjL"></div>
+                <div class="bg-q4gcjL border-class-2"></div>
+                <div class="content-q4gcjL anima-valign-text-middle font-class-1"></div>
+              </div>
+              <div class="mobile-lig-kboxoffdim-ZvOxqx">
+                <img class="check-U4uJ1Z" src="img/3-1-checkbox-check-764CFF02-B605-45CF-9419-EA0E3717590E@2x.png" />
+              </div>
+            </div>
+            <div class="table-title1line-obbtw3">
+              <div class="rectangle-gwuqSD"></div>
+              <div class="rectangle-WxqLih border-class-4"></div>
+              <div class="title-gwuqSD anima-valign-text-middle font-class-3"></div>
+            </div>
+            <div class="table-title1line-xcoHJC">
+              <div class="rectangle-yuHxiG"></div>
+              <div class="rectangle-dgCXHI border-class-4"></div>
+              <div class="title-yuHxiG anima-valign-text-middle font-class-3">Check on</div>
+            </div>
+            <div class="table-title1line-0oKtUf">
+              <div class="rectangle-hOxxDS"></div>
+              <div class="rectangle-p0onBH border-class-4"></div>
+              <div class="title-hOxxDS anima-valign-text-middle font-class-3">Check Off</div>
+            </div>
+            <div class="table-title1line-1VuTe5">
+              <div class="rectangle-03Mxbw"></div>
+              <div class="rectangle-cwnbik border-class-4"></div>
+              <div class="title-03Mxbw anima-valign-text-middle font-class-3">Check On_disabled</div>
+            </div>
+            <div class="table-title1line-92CwRV">
+              <div class="rectangle-oUk5Rw"></div>
+              <div class="rectangle-dhB2sJ border-class-4"></div>
+              <div class="title-oUk5Rw anima-valign-text-middle font-class-3">Check Off_disabled</div>
+            </div>
+            <div class="color-table-obbtw3 font-class-5">Color table</div>
+          </div>
+          <div class="group-xi86rY">
+            <div class="image-GKmz7Q">
+              <div class="document-b-x-contents-Cy3VI2"></div>
+              <div class="general-Cy3VI2">
+                <div class="guide-form-ormal1line-IhbEJR">
+                  <div class="group-PcFoTK">
+                    <div class="x-uwfnyA font-class-1">;</div>
+                    <div class="value-uwfnyA font-class-1">32px</div>
+                    <div class="property-uwfnyA font-class-1">height:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-X0vFUH">
+                  <div class="group-UvxW6r">
+                    <div class="x-jmYk5G font-class-1">;</div>
+                    <div class="value-jmYk5G font-class-1">32px</div>
+                    <div class="property-jmYk5G font-class-1">width:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ormal1line-6qsZX7">
+                  <div class="group-zwzA5Y">
+                    <div class="x-bvzOXy font-class-1">;</div>
+                    <div class="value-bvzOXy font-class-1">middle</div>
+                    <div class="property-bvzOXy font-class-1">vertical-align:</div>
+                  </div>
+                </div>
+                <div class="guide-form-ction2line-IhbEJR">
+                  <div class="group-4-LGj1O4">
+                    <div class="group-2-MCPtvG">
+                      <div class="group-g879ej">
+                        <div class="group-3-NeSaqm">
+                          <div class="x-PcPgux font-class-1">;</div>
+                          <div class="x-xNZbzA font-class-1">)</div>
+                          <div class="value-2line-PcPgux font-class-1">_to_on_mtrl_(000~026).svg&#34;</div>
+                        </div>
+                        <div class="x-NeSaqm font-class-1">(</div>
+                        <div class="value-1line-NeSaqm font-class-1">&#34;sem_checkedtextview_check</div>
+                      </div>
+                      <div class="fn-g879ej font-class-1">url</div>
+                    </div>
+                    <div class="property-MCPtvG font-class-1">background:</div>
+                  </div>
+                </div>
+                <div class="x3-01-image-heckbox026-IhbEJR">
+                  <div class="guide-form-me-imagebg-Zu2eGa"></div>
+                  <div class="semchecked-oonmtrl026-Zu2eGa"></div>
+                </div>
+                <div class="x3-01-image-heckbox001-IhbEJR">
+                  <div class="guide-form-me-imagebg-ToyfrD"></div>
+                  <div class="semchecked-oonmtrl000-ToyfrD"></div>
+                </div>
+              </div>
+              <div class="guide-subject-image-Cy3VI2">
+                <div class="guide-numbering-icon-YA78CZ">
+                  <div class="x1-mnED8o anima-valign-text-middle font-class-3">1</div>
+                </div>
+                <div class="guide-property-YA78CZ font-class-3">Image CSS</div>
+              </div>
+            </div>
+            <div class="guide-GKmz7Q">
+              <div class="document-b-x-contents-oaan6z"></div>
+              <div class="symbol-oaan6z">
+                <div class="x3-01-measu--checkbox1-NYjjmZ">
+                  <div class="list-CWimIx">
+                    <div class="mobile-lig-rouplistbg-tKWoeT"></div>
+                    <div class="mobile-lig-eckboxlist-tKWoeT">
+                      <div class="check-on-xMhHKF anima-valign-text-middle font-class-2">Check off disabled</div>
+                      <div class="mobile-lig-checkboxon-xMhHKF">
+                        <img
+                          class="check-vQqcLW"
+                          src="img/3-1-checkbox-check-E5B779FB-B5CB-4F36-9819-100B5E5C8EBC@2x.png"
+                        />
+                      </div>
+                    </div>
+                    <div class="mobile-lig-ckbox-text-tKWoeT"></div>
+                    <div class="mobile-lig-eckboxlist-0U0rYN">
+                      <div class="check-on-JYcsK8 anima-valign-text-middle font-class-2">Check on disabled</div>
+                      <div class="mobile-lig-checkboxon-JYcsK8">
+                        <img
+                          class="check-uopjQu"
+                          src="img/3-1-checkbox-check-710E55AB-6C18-461B-9F97-5A3A91E68A22@2x.png"
+                        />
+                      </div>
+                    </div>
+                    <div class="mobile-lig-ckbox-text-0U0rYN"></div>
+                    <div class="mobile-lig-eckboxlist-YxZZ71">
+                      <div class="check-on-0dsDM8 anima-valign-text-middle font-class-2">Check off</div>
+                      <div class="mobile-lig-checkboxon-0dsDM8">
+                        <img
+                          class="check-Zh5KUS"
+                          src="img/3-1-checkbox-check-E5B779FB-B5CB-4F36-9819-100B5E5C8EBC@2x.png"
+                        />
+                      </div>
+                    </div>
+                    <div class="mobile-lig-ckbox-text-YxZZ71"></div>
+                    <div class="mobile-lig-eckboxlist-Rh2jFI">
+                      <div class="check-on-ByoYZN anima-valign-text-middle font-class-2">Check on</div>
+                      <div class="mobile-lig-checkboxon-ByoYZN">
+                        <img
+                          class="check-V7XrWb"
+                          src="img/3-1-checkbox-check-710E55AB-6C18-461B-9F97-5A3A91E68A22@2x.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="measure-oaan6z">
+                <div class="spacing-teDpwS">
+                  <div class="guide-meas--spacing-2-GVXFW5">
+                    <div class="x0-efRcF5 font-class-1">18</div>
+                    <div class="rectangle-efRcF5"></div>
+                    <div class="rectangle-nvnaet"></div>
+                    <div class="rectangle-2IoHCN"></div>
+                  </div>
+                  <div class="guide-measure-area-GVXFW5"></div>
+                </div>
+                <div class="spacing-bozKek">
+                  <div class="guide-meas--spacing-2-YjEQqe">
+                    <div class="x0-ZdIqNb font-class-1">18</div>
+                    <div class="rectangle-ZdIqNb"></div>
+                    <div class="rectangle-Zj612U"></div>
+                    <div class="rectangle-YOhsSz"></div>
+                  </div>
+                  <div class="guide-measure-area-YjEQqe"></div>
+                </div>
+                <div class="spacing-utZtWb">
+                  <div class="guide-meas--spacing-2-0VPAcn">
+                    <div class="x0-el9IcT font-class-1">24</div>
+                    <div class="rectangle-el9IcT"></div>
+                    <div class="rectangle-zllCZx"></div>
+                    <div class="rectangle-CVTjhr"></div>
+                  </div>
+                  <div class="guide-measure-area-0VPAcn"></div>
+                </div>
+                <div class="size-teDpwS">
+                  <div class="guide-meas-top-size-1-vY6h9S">
+                    <div class="value-LZnjwq">
+                      <div class="x0-705Z4N font-class-1">32</div>
+                    </div>
+                    <div class="rectangle-LZnjwq"></div>
+                    <div class="rectangle-DwoMSV"></div>
+                    <div class="rectangle-rRyMmR"></div>
+                  </div>
+                  <div class="guide-measure-area-vY6h9S"></div>
+                  <div class="guide-measure-area-6oDxBw"></div>
+                  <div class="guide-measure-area-iEJugB"></div>
+                  <div class="guide-measure-area-tjQYIi"></div>
+                  <div class="guide-meas-eft-size-1-vY6h9S">
+                    <div class="value-Q6n5V3">
+                      <div class="x0-LBmRH6 font-class-1">32</div>
+                    </div>
+                    <div class="rectangle-Q6n5V3"></div>
+                    <div class="rectangle-shbQ2q"></div>
+                    <div class="rectangle-zISGkA"></div>
+                  </div>
+                  <div class="guide-meas-horizontal-vY6h9S"></div>
+                  <div class="guide-meas-horizontal-6oDxBw"></div>
+                  <div class="guide-meas-e-vertical-vY6h9S"></div>
+                  <div class="guide-meas-e-vertical-6oDxBw"></div>
+                </div>
+                <div class="line-teDpwS">
+                  <div class="guide-meas-horizontal-xdbX6J"></div>
+                  <div class="guide-meas-horizontal-vmt2lu"></div>
+                  <div class="guide-meas-horizontal-19nsWP"></div>
+                </div>
+                <div class="check-on-teDpwS font-class-1">Check On</div>
+                <div class="check-off-teDpwS font-class-1">Check Off</div>
+                <div class="check-on-dim-teDpwS font-class-1">Check On Dim</div>
+                <div class="check-off-dim-teDpwS font-class-1">Check Off Dim</div>
+                <div class="guide-numb-ring-image-teDpwS">
+                  <div class="x1-aLXk4p anima-valign-text-middle font-class-3">1</div>
+                </div>
+                <div class="guide-numb-ring-image-bozKek">
+                  <div class="x1-r3FvqL anima-valign-text-middle font-class-3">1</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="keyscreen-xi86rY">
+            <div class="document-b-x-contents-l6mNXx"></div>
+            <a href="a64basiclist.html">
+              <div class="tag-refer-l6mNXx">
+                <div class="btn-lDrqfj anima-smart-layers-pointers">
+                  <div class="basic-aa98iV font-class-4">Basic</div>
+                  <div class="page-name-aa98iV font-class-3">(6-4) Basic list</div>
+                </div>
+              </div></a
+            >
+            <img
+              class="x3-01-keysc--checkbox1-l6mNXx"
+              src="img/3-1-checkbox-3-01keyscreenw360mpd031checkbox1-A149F82A-CE1D-48CF-A4C0-539247D23D4B@2x.png"
+            />
+            <img
+              class="x3-01-keysc--checkbox1-Y13fx7"
+              src="img/3-1-checkbox-3-01keyscreenw360mpl031checkbox1-35489129-8B03-467E-9E9C-78CDB957CA56@2x.png"
+            />
+          </div>
+          <div class="title-xi86rY font-class-1">Basic list</div>
+        </div>
+        <div class="x3-1-checkbox-C61RwL">(3-1) Checkbox</div>
+        <div class="gnb-bar03--ontrollers-C61RwL">
+          <div class="gnb-menu17-ste-normal-NbnoCk">
+            <a href="a171textselection.html">
+              <div class="gnbmenu-yAOpZF">
+                <div class="x17-copy-paste-lj8FO1 font-class-4">17. Copy &amp; paste</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu16-ail-normal-NbnoCk">
+            <a href="a161thumbnailgrid.html">
+              <div class="gnbmenu-dDgZSm">
+                <div class="x16-thumbnail-xTZt5M font-class-4">16. Thumbnail</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu15-dge-normal-NbnoCk">
+            <a href="a151numberbadgeappbar.html">
+              <div class="gnbmenu-sUvvMD">
+                <div class="x15-notification-bad-JAdNZz font-class-4">15. Notification badge</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu12-lds-normal-NbnoCk">
+            <a href="a121textfields.html">
+              <div class="gnbmenu-Olo6Us">
+                <div class="x12-text-fields-ewrGUe font-class-4">12. Text fields</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu14-ion-normal-NbnoCk">
+            <a href="a141descriptionwidth.html">
+              <div class="gnbmenu-TNxIZZ">
+                <div class="rectangle-fgJJAI"></div>
+                <div class="x14-description-fgJJAI font-class-4">14. Description</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu13-ols-normal-NbnoCk">
+            <a href="a131maintab.html">
+              <div class="gnbmenu-G2xthX">
+                <div class="x13-view-controls-ckBoFN font-class-4">13. View controls</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu11-ast-normal-NbnoCk">
+            <a href="a111toastwidth.html">
+              <div class="gnbmenu-lHaaux">
+                <div class="x11-toast-qfulEL font-class-4">11. Toast</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu10-rch-normal-NbnoCk">
+            <a href="a101searchbarwidth.html">
+              <div class="gnbmenu-QqLETx">
+                <div class="x10-search-ytWI9F font-class-4">10. Search</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu9--ing-normal-NbnoCk">
+            <a href="a91scrollbar.html">
+              <div class="gnbmenu-ArHdpE">
+                <div class="x9-scrolling-xzxYH2 font-class-4">9. Scrolling</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu8--ess-normal-NbnoCk">
+            <a href="a81progressbar.html">
+              <div class="gnbmenu-lZCScQ">
+                <div class="x8-progress-O7BMdA font-class-4">8. Progress</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu7--ems-normal-NbnoCk">
+            <a href="a71noitem.html">
+              <div class="gnbmenu-GeTSeo">
+                <div class="x7-no-item-1PU5s0 font-class-4">7. No item</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu6--sts-normal-NbnoCk">
+            <a href="a61listwidth.html">
+              <div class="gnbmenu-uv5wJV">
+                <div class="x6-lists-olg0va font-class-4">6. Lists</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu5--ers-normal-NbnoCk">
+            <a href="a51dividerbasiclist.html">
+              <div class="gnbmenu-m6ShXT">
+                <div class="x5-dividers-1Wx1GJ font-class-4">5. Dividers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu4--ogs-normal-NbnoCk">
+            <a href="a41dialogwidth.html">
+              <div class="gnbmenu-WPBFkJ">
+                <div class="x4-dialogs-x8V6XT font-class-4">4. Dialogs</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu3--s-selected-NbnoCk">
+            <a href="a39slider.html">
+              <div class="gnb-submenu-normal-c2BPJy">
+                <div class="gnbsubmenu-5RPEn8">
+                  <div class="text-x8kmvO font-class-4">(3-9) Slider</div>
+                </div>
+              </div></a
+            >
+            <a href="a38chips.html">
+              <div class="gnb-submenu-normal-Bxmhx5">
+                <div class="gnbsubmenu-wpMLN0">
+                  <div class="text-ox4YmV font-class-4">(3-8) Chips</div>
+                </div>
+              </div></a
+            >
+            <a href="a37adddeletebutton.html">
+              <div class="gnb-submenu-normal-22nAqY">
+                <div class="gnbsubmenu-y4pmDi">
+                  <div class="text-xqVvzv font-class-4">(3-7) Add/delete button</div>
+                </div>
+              </div></a
+            >
+            <a href="a36expandbutton.html">
+              <div class="gnb-submenu-normal-sbFKuZ">
+                <div class="gnbsubmenu-rAQcei">
+                  <div class="text-Uu7Mzk font-class-4">(3-6) Expand button</div>
+                </div>
+              </div></a
+            >
+            <a href="a35reorder.html">
+              <div class="gnb-submenu-normal-3I6u9Z">
+                <div class="gnbsubmenu-ky4KEh">
+                  <div class="text-1kUsAP font-class-4">(3-5) Reorder</div>
+                </div>
+              </div></a
+            >
+            <a href="a34onoffswitch.html">
+              <div class="gnb-submenu-normal-2Y2Fo3">
+                <div class="gnbsubmenu-hUCUmS">
+                  <div class="text-wcFco8 font-class-4">(3-4) On/off switch</div>
+                </div>
+              </div></a
+            >
+            <a href="a33masteronoffswitch.html">
+              <div class="gnb-submenu-normal-AIW97J">
+                <div class="gnbsubmenu-N7eWHI">
+                  <div class="text-xccnZw font-class-4">(3-3) Main on/off switch</div>
+                </div>
+              </div></a
+            >
+            <a href="a32radiobutton.html">
+              <div class="gnb-submenu-normal-cIkWst">
+                <div class="gnbsubmenu-LW5zWA">
+                  <div class="text-vxVzu7 font-class-4">(3-2) Radio button</div>
+                </div>
+              </div></a
+            >
+            <a href="a31checkbox.html">
+              <div class="gnb-submenu-normal-G6tpYU">
+                <div class="gnbsubmenu-IHHLuM">
+                  <div class="text-rv5ax2 font-class-5">(3-1) Checkbox</div>
+                </div>
+              </div></a
+            >
+            <div class="gnb-menu3--s-selected-c2BPJy">
+              <a href="a31checkbox.html">
+                <div class="gnbmenu-TXAYVP">
+                  <div class="x3-controllers-uL5vu7 font-class-5">3. Controllers</div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="gnb-menu2--ons-normal-NbnoCk">
+            <a href="a21flatbutton.html">
+              <div class="gnbmenu-LhaEpo">
+                <div class="x2-buttons-vJb7j6 font-class-4">2. Buttons</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu1--bar-normal-NbnoCk">
+            <a href="a11appbartitle.html">
+              <div class="gnbmenu-IEOo1r">
+                <div class="x1-app-bar-8c9P3x font-class-4">1. App bar</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu0--iew-normal-NbnoCk">
+            <a href="a01unitsandmeasurements.html">
+              <div class="gnbmenu-dlcNFs">
+                <div class="x0-overview-C0NYNd font-class-4">0. Overview</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu-h-ory-normal-NbnoCk">
+            <a href="history.html">
+              <div class="gnbmenu-jGZFxG">
+                <div class="history-2LdC2w font-class-4">History</div>
+              </div></a
+            >
+          </div>
+          <a href="index.html">
+            <div class="gnb-logo-NbnoCk">
+              <div class="gotohome-9739sT">
+                <div class="group-wX20mz">
+                  <div class="web-app-tuZlmD">Web app</div>
+                  <div class="basic-component-gui-tuZlmD font-class-3">Basic component GUI V1.0</div>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1680, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link href="../custom/custom.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../custom/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/a49singlechoicedialog.css" />
+    <style>
+      @font-face {
+        font-family: "SamsungOneKorean-400";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-400_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-300";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-300_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-700";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-700_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-500";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 500_0.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-600";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 600_0.ttf")
+          format("truetype");
+      }
+
+      @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(245, 246, 247, 1)">
+    <input type="hidden" id="anPageName" name="page" value="a49singlechoicedialog" />
+    <div class="anima-container-center-horizontal">
+      <div class="a49singlechoicedialog anima-screen">
+        <a href="../measure/4dialogs/49singlechoicedialog/index.html" target="_blank">
+          <div class="document-button-C61RwL">
+            <div class="btn-mwblLs anima-smart-layers-pointers">
+              <div class="text-WvbxKh font-class-6">Responsive Layout Details</div>
+            </div>
+          </div></a
+        >
+        <div class="descriptionlist-C61RwL">
+          <div class="guide-EscdkY">
+            <div class="document-b-x-contents-1LyZ3d"></div>
+            <div class="symbol-1LyZ3d">
+              <div class="x4-09-measu-icedialog2-nGrlTS">
+                <div class="mobile-lig-mmon-dimbg-38xzfx"></div>
+                <div class="mobile-lig-escription-38xzfx">
+                  <div class="mobile-lig-n-dialogbg-48cQIA"></div>
+                  <div class="mobile-lig-button1btn-48cQIA">
+                    <div class="action-Cqifrl anima-valign-text-middle font-class-5">Action</div>
+                  </div>
+                  <div class="mobile-lig--radiolist-48cQIA">
+                    <div class="radio-on-OIEbIr anima-valign-text-middle font-class-3">10 Minutes</div>
+                    <div class="mobile-lig-io-radioon-OIEbIr"></div>
+                  </div>
+                  <div class="mobile-lig--radiolist-JqMPcW">
+                    <div class="radio-on-xAj2Ub anima-valign-text-middle font-class-3">20 Minutes</div>
+                    <div class="mobile-lig-io-radioon-xAj2Ub"></div>
+                  </div>
+                  <div class="mobile-lig--radiolist-HzXrHz">
+                    <div class="radio-on-QQDkDP anima-valign-text-middle font-class-3">5 Minutes</div>
+                    <div class="mobile-lig-io-radioon-QQDkDP">
+                      <img
+                        class="radiofill-U4Nh6Z"
+                        src="img/4-9-single-choice-dialog-radiofill-2BE3F8CD-9E4F-490B-B5D9-32CB0773D7F5@2x.png"
+                      />
+                      <img
+                        class="radioborder-U4Nh6Z"
+                        src="img/4-9-single-choice-dialog-radioborder-8D74E95C-32A5-4F79-A912-544AFB83182C@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="mobile-lig--radiolist-DzzaHh">
+                    <div class="radio-on-W1xHgo anima-valign-text-middle font-class-3">Never timeout</div>
+                    <div class="mobile-lig-io-radioon-W1xHgo"></div>
+                  </div>
+                  <div class="mobile-lig--bodytext1-48cQIA">
+                    <div class="this-function-allows-36GV4q anima-valign-text-middle font-class-3">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua.
+                    </div>
+                  </div>
+                  <div class="mobile-lig-mon-header-48cQIA">
+                    <div class="dialog-header-0kTzrm anima-valign-text-middle font-class-5">Dialog header</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="measure-1LyZ3d">
+              <div class="spacing-HmWPaR">
+                <div class="guide-measure-area-3EsHGi"></div>
+                <div class="guide-meas--spacing-2-3EsHGi">
+                  <div class="value-QyFu61">
+                    <div class="x0-xcl9xl font-class-1">24</div>
+                  </div>
+                  <div class="rectangle-QyFu61"></div>
+                  <div class="rectangle-NMNL4v"></div>
+                  <div class="rectangle-VnnkjS"></div>
+                </div>
+              </div>
+              <div class="spacing-ljZhQS">
+                <div class="guide-measure-area-7kxtJV"></div>
+                <div class="guide-meas--spacing-2-7kxtJV">
+                  <div class="value-niDuzf">
+                    <div class="x0-9n6Z5l font-class-1">24</div>
+                  </div>
+                  <div class="rectangle-niDuzf"></div>
+                  <div class="rectangle-9zvryh"></div>
+                  <div class="rectangle-ry2y8r"></div>
+                </div>
+              </div>
+              <div class="spacing-xV1Dht">
+                <div class="guide-measure-area-NilYAO"></div>
+                <div class="guide-meas--spacing-1-NilYAO">
+                  <div class="value-C3vN8k">
+                    <div class="x0-xxIA9L font-class-1">(P) 19 / (L) 8</div>
+                  </div>
+                  <div class="rectangle-C3vN8k"></div>
+                  <div class="rectangle-ZjUlPQ"></div>
+                  <div class="rectangle-506z1V"></div>
+                </div>
+              </div>
+              <div class="spacing-Ldxdax">
+                <div class="guide-measure-area-joX8RV"></div>
+                <div class="guide-meas--spacing-1-joX8RV">
+                  <div class="value-OdPjlP">
+                    <div class="x0-XwKezP font-class-1">8</div>
+                  </div>
+                  <div class="rectangle-OdPjlP"></div>
+                  <div class="rectangle-cOYIhj"></div>
+                  <div class="rectangle-4SQ99x"></div>
+                </div>
+              </div>
+              <div class="spacing-9Pnh0N">
+                <div class="guide-measure-area-EmKkXk"></div>
+                <div class="guide-meas--spacing-1-EmKkXk">
+                  <div class="value-NaUeTD">
+                    <div class="x0-AY7uOm font-class-1">(P) 24 / (L) 11</div>
+                  </div>
+                  <div class="rectangle-NaUeTD"></div>
+                  <div class="rectangle-i0Xax9"></div>
+                  <div class="rectangle-wvwxBZ"></div>
+                </div>
+              </div>
+              <div class="spacing-UH7ChU">
+                <div class="guide-measure-area-9Rgbb8"></div>
+                <div class="guide-meas--spacing-2-9Rgbb8">
+                  <div class="x0-sqJAym font-class-1">18</div>
+                  <div class="rectangle-sqJAym"></div>
+                  <div class="rectangle-fKH4kG"></div>
+                  <div class="rectangle-RpiTXw"></div>
+                </div>
+                <div class="guide-meas-e-vertical-9Rgbb8"></div>
+              </div>
+              <div class="text-HmWPaR">
+                <div class="guide-measure-area-Re6eRV"></div>
+              </div>
+              <div class="spacing-0I5Omc">
+                <div class="guide-measure-area-FS75RL"></div>
+                <div class="guide-meas--spacing-2-FS75RL">
+                  <div class="x0-pCRG2p font-class-1">18</div>
+                  <div class="rectangle-pCRG2p"></div>
+                  <div class="rectangle-AF8T1R"></div>
+                  <div class="rectangle-bo4j0A"></div>
+                </div>
+                <div class="guide-meas-e-vertical-FS75RL"></div>
+              </div>
+              <div class="size-HmWPaR">
+                <div class="guide-measure-area-XlJCJv"></div>
+                <div class="guide-measure-area-ld8wxa"></div>
+                <div class="guide-measure-area-rOVjwE"></div>
+                <div class="guide-measure-area-vavmDP"></div>
+                <div class="guide-meas-tom-size-1-XlJCJv">
+                  <div class="x0-vTNpBi font-class-1">32</div>
+                  <div class="rectangle-vTNpBi"></div>
+                  <div class="rectangle-Gnx9qB"></div>
+                  <div class="rectangle-7f08fn"></div>
+                </div>
+                <div class="guide-meas-e-vertical-XlJCJv"></div>
+                <div class="guide-meas-e-vertical-ld8wxa"></div>
+              </div>
+              <div class="line-HmWPaR">
+                <div class="guide-meas-horizontal-zRkQPC"></div>
+                <div class="guide-meas-horizontal-vfO8fE"></div>
+                <div class="guide-meas-horizontal-b16rEg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="keyscreen-EscdkY">
+            <div class="document-b-x-contents-7lnjrF"></div>
+            <a href="a45dialogbodytext1.html">
+              <div class="tag-refer-7lnjrF">
+                <div class="btn-Lq3qGh anima-smart-layers-pointers">
+                  <div class="basic-ImyUki font-class-2">Basic</div>
+                  <div class="page-name-ImyUki font-class-4">(4-5) Dialog_Body text 1</div>
+                </div>
+              </div></a
+            >
+            <a href="a32radiobutton.html">
+              <div class="tag-refer-uSwpoC">
+                <div class="btn-ix2hQe anima-smart-layers-pointers">
+                  <div class="basic-zQwrwQ font-class-2">Basic</div>
+                  <div class="page-name-zQwrwQ font-class-4">(3-2) Radio button</div>
+                </div>
+              </div></a
+            >
+            <div class="group-7lnjrF">
+              <img
+                class="x4-09-keysc-icedialog2-wx4bmy"
+                src="img/4-9-single-choice-dialog-4-09keyscreenw360mpd049singlechoicedialog2-402FC5C6-7D2A-4AEE-BE9E-2A37E6018F74@2x.png"
+              />
+              <img
+                class="x4-09-keysc-icedialog2-Yg2otP"
+                src="img/4-9-single-choice-dialog-4-09keyscreenw360mpl049singlechoicedialog2-B533B6DE-5016-4111-9604-C33988AA8658@2x.png"
+              />
+            </div>
+          </div>
+          <div class="description-list-EscdkY font-class-1">Description + List</div>
+        </div>
+        <div class="list-C61RwL">
+          <div class="group-5dZqGE">
+            <div class="image-1Q4Qpq">
+              <div class="document-b-x-contents-ZKMt1f"></div>
+              <div class="general-ZKMt1f">
+                <div class="guide-form-ormal1line-kLiLSm">
+                  <div class="group-qb1ws2">
+                    <div class="x-1gHfCW font-class-1">;</div>
+                    <div class="value-1gHfCW font-class-1">middle</div>
+                    <div class="property-1gHfCW font-class-1">vertical-align:</div>
+                  </div>
+                </div>
+              </div>
+              <div class="guide-subject-image-ZKMt1f">
+                <div class="guide-numbering-icon-V6rOAO">
+                  <div class="x1-NqbiOK anima-valign-text-middle font-class-4">1</div>
+                </div>
+                <div class="guide-property-V6rOAO font-class-4">Image CSS</div>
+              </div>
+            </div>
+            <div class="guide-1Q4Qpq">
+              <div class="document-b-x-contents-GvrLj7"></div>
+              <div class="symbol-GvrLj7">
+                <div class="x4-09-measu-icedialog1-3ntknV">
+                  <div class="mobile-lig-mmon-dimbg-sFvM1K"></div>
+                  <div class="mobile-lig-ller-radio-sFvM1K">
+                    <div class="mobile-lig-n-dialogbg-PIHPYI"></div>
+                    <div class="mobile-lig-button1btn-PIHPYI">
+                      <div class="action-ekbNU3 anima-valign-text-middle font-class-5">Action</div>
+                    </div>
+                    <div class="mobile-lig--radiolist-PIHPYI">
+                      <div class="radio-on-B47DYE anima-valign-text-middle font-class-3">Grid</div>
+                      <div class="mobile-lig-io-radioon-B47DYE"></div>
+                    </div>
+                    <div class="mobile-lig--radiolist-Yf8Nx2">
+                      <div class="radio-on-EZ3Fbx anima-valign-text-middle font-class-3">Detailed list</div>
+                      <div class="mobile-lig-io-radioon-EZ3Fbx"></div>
+                    </div>
+                    <div class="mobile-lig--radiolist-DUThAa">
+                      <div class="radio-on-3QEaF0 anima-valign-text-middle font-class-3">List</div>
+                      <div class="mobile-lig-io-radioon-3QEaF0">
+                        <img
+                          class="radiofill-PxxidZ"
+                          src="img/4-9-single-choice-dialog-radiofill-2BE3F8CD-9E4F-490B-B5D9-32CB0773D7F5@2x.png"
+                        />
+                        <img
+                          class="radioborder-PxxidZ"
+                          src="img/4-9-single-choice-dialog-radioborder-8D74E95C-32A5-4F79-A912-544AFB83182C@2x.png"
+                        />
+                      </div>
+                    </div>
+                    <div class="mobile-lig-mon-header-PIHPYI">
+                      <div class="dialog-header-F51GxF anima-valign-text-middle font-class-5">Dialog header</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="measure-GvrLj7">
+                <div class="spacing-8q6TIT">
+                  <div class="guide-measure-area-WT56Sf"></div>
+                  <div class="guide-meas--spacing-2-WT56Sf">
+                    <div class="value-Ajak5B">
+                      <div class="x0-3vQgM4 font-class-1">24</div>
+                    </div>
+                    <div class="rectangle-Ajak5B"></div>
+                    <div class="rectangle-9rGx3h"></div>
+                    <div class="rectangle-HajkMd"></div>
+                  </div>
+                </div>
+                <div class="spacing-cM3YE5">
+                  <div class="guide-measure-area-fdL6sz"></div>
+                  <div class="guide-meas--spacing-1-fdL6sz">
+                    <div class="value-I8N98I">
+                      <div class="x0-I5ndSd font-class-1">(P) 24 / (L) 11</div>
+                    </div>
+                    <div class="rectangle-I8N98I"></div>
+                    <div class="rectangle-mqxEE9"></div>
+                    <div class="rectangle-i5aF6w"></div>
+                  </div>
+                </div>
+                <div class="spacing-rKYs0F">
+                  <div class="guide-measure-area-XRxfiI"></div>
+                  <div class="guide-meas--spacing-1-XRxfiI">
+                    <div class="value-9ZG6xY">
+                      <div class="x0-YnUkrw font-class-1">(P) 19 / (L) 8</div>
+                    </div>
+                    <div class="rectangle-9ZG6xY"></div>
+                    <div class="rectangle-wSlmvH"></div>
+                    <div class="rectangle-JnFajs"></div>
+                  </div>
+                </div>
+                <div class="spacing-H8W32T">
+                  <div class="guide-measure-area-SJcvEy"></div>
+                  <div class="guide-meas--spacing-2-SJcvEy">
+                    <div class="x0-BUH1EY font-class-1">18</div>
+                    <div class="rectangle-BUH1EY"></div>
+                    <div class="rectangle-a1A2Cf"></div>
+                    <div class="rectangle-FIodx9"></div>
+                  </div>
+                  <div class="guide-meas-e-vertical-SJcvEy"></div>
+                </div>
+                <div class="spacing-gYewq1">
+                  <div class="guide-measure-area-HQ34U4"></div>
+                  <div class="guide-meas--spacing-2-HQ34U4">
+                    <div class="x0-bNkNNx font-class-1">18</div>
+                    <div class="rectangle-bNkNNx"></div>
+                    <div class="rectangle-Zdrxyi"></div>
+                    <div class="rectangle-gwvQdl"></div>
+                  </div>
+                  <div class="guide-meas-e-vertical-HQ34U4"></div>
+                </div>
+                <div class="size-8q6TIT">
+                  <div class="guide-measure-area-o5lqwz"></div>
+                  <div class="guide-measure-area-6kfQxM"></div>
+                  <div class="guide-measure-area-bJsEs7"></div>
+                  <div class="guide-meas-tom-size-1-o5lqwz">
+                    <div class="x0-Y5IEwN font-class-1">32</div>
+                    <div class="rectangle-Y5IEwN"></div>
+                    <div class="rectangle-w8cikp"></div>
+                    <div class="rectangle-G0eMpX"></div>
+                  </div>
+                  <div class="guide-meas-e-vertical-o5lqwz"></div>
+                  <div class="guide-meas-e-vertical-6kfQxM"></div>
+                </div>
+                <div class="line-8q6TIT">
+                  <div class="guide-meas-horizontal-RZdnI6"></div>
+                  <div class="guide-meas-horizontal-OxMxou"></div>
+                </div>
+                <div class="guide-numb-ring-image-8q6TIT">
+                  <div class="x1-fx9Svm anima-valign-text-middle font-class-4">1</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="keyscreen-5dZqGE">
+            <div class="document-b-x-contents-Zx0TSD"></div>
+            <img
+              class="x4-09-keysc-icedialog1-Zx0TSD"
+              src="img/4-9-single-choice-dialog-4-09keyscreenw360mpd049singlechoicedialog1-B3D49F93-49AC-4765-9755-EDB46602E310@2x.png"
+            />
+            <img
+              class="x4-09-keysc-icedialog1-YX7oRA"
+              src="img/4-9-single-choice-dialog-4-09keyscreenw360mpl049singlechoicedialog1-88229EED-03DD-4D99-BB27-315ACA62D7E8@2x.png"
+            />
+            <div class="refer-Zx0TSD">
+              <a href="a32radiobutton.html">
+                <div class="tag-refer-wAxLm0">
+                  <div class="btn-mjmF5o anima-smart-layers-pointers">
+                    <div class="basic-pl5P2f font-class-2">Basic</div>
+                    <div class="page-name-pl5P2f font-class-4">(3-2) Radio button</div>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="list-5dZqGE font-class-1">List</div>
+        </div>
+        <div class="x4-9-single-choice-C61RwL font-class-7">(4-9) Single choice dialog</div>
+        <div class="gnb-bar04-dialogs-C61RwL">
+          <div class="gnb-menu17-ste-normal-IFpddr">
+            <a href="a171textselection.html">
+              <div class="gnbmenu-xLcVXS">
+                <div class="x17-copy-paste-HD1MSG font-class-2">17. Copy &amp; paste</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu16-ail-normal-IFpddr">
+            <a href="a161thumbnailgrid.html">
+              <div class="gnbmenu-PAywWV">
+                <div class="x16-thumbnail-7oeGf9 font-class-2">16. Thumbnail</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu15-dge-normal-IFpddr">
+            <a href="a151numberbadgeappbar.html">
+              <div class="gnbmenu-tNPiEI">
+                <div class="x15-notification-bad-AmUiok font-class-2">15. Notification badge</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu14-ion-normal-IFpddr">
+            <a href="a141descriptionwidth.html">
+              <div class="gnbmenu-bZCNXc">
+                <div class="rectangle-Vh3Boh"></div>
+                <div class="x14-description-Vh3Boh font-class-2">14. Description</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu13-ols-normal-IFpddr">
+            <a href="a131maintab.html">
+              <div class="gnbmenu-A7XsLT">
+                <div class="x13-view-controls-94MaWS font-class-2">13. View controls</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu12-lds-normal-IFpddr">
+            <a href="a121textfields.html">
+              <div class="gnbmenu-x362av">
+                <div class="x12-text-fields-vgc3Vu font-class-2">12. Text fields</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu11-ast-normal-IFpddr">
+            <a href="a111toastwidth.html">
+              <div class="gnbmenu-n846FE">
+                <div class="x11-toast-ZxS0T9 font-class-2">11. Toast</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu10-rch-normal-IFpddr">
+            <a href="a101searchbarwidth.html">
+              <div class="gnbmenu-FYqcjZ">
+                <div class="x10-search-ys4Eef font-class-2">10. Search</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu9--ing-normal-IFpddr">
+            <a href="a91scrollbar.html">
+              <div class="gnbmenu-gL2JAx">
+                <div class="x9-scrolling-QBf695 font-class-2">9. Scrolling</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu8--ess-normal-IFpddr">
+            <a href="a81progressbar.html">
+              <div class="gnbmenu-iVJDrt">
+                <div class="x8-progress-TIxFq4 font-class-2">8. Progress</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu7--ems-normal-IFpddr">
+            <a href="a71noitem.html">
+              <div class="gnbmenu-MMc3iM">
+                <div class="x7-no-item-6wC6Jq font-class-2">7. No item</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu6--sts-normal-IFpddr">
+            <a href="a61listwidth.html">
+              <div class="gnbmenu-qscMSY">
+                <div class="x6-lists-CY9yOk font-class-2">6. Lists</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu5--ers-normal-IFpddr">
+            <a href="a51dividerbasiclist.html">
+              <div class="gnbmenu-lLJ8dQ">
+                <div class="x5-dividers-jYs5wP font-class-2">5. Dividers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu4--s-selected-IFpddr">
+            <a href="a421imagedialog.html">
+              <div class="gnb-submenu-normal-F6tyJc">
+                <div class="gnbsubmenu-C0LORr">
+                  <div class="text-AWDxxq font-class-2">(4-21) Image dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a420valuepickerdialog.html">
+              <div class="gnb-submenu-normal-CkATrQ">
+                <div class="gnbsubmenu-MYwqko">
+                  <div class="text-xY88zE font-class-2">(4-20) Value picker dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a419editdialog.html">
+              <div class="gnb-submenu-normal-DpBjZd">
+                <div class="gnbsubmenu-JXnXN8">
+                  <div class="text-cwWTW2 font-class-2">(4-19) Edit dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a418datetimepicker.html">
+              <div class="gnb-submenu-normal-541Yax">
+                <div class="gnbsubmenu-o0x4FS">
+                  <div class="text-6uCC6P font-class-2">(4-18) Date &amp; time picker</div>
+                </div>
+              </div></a
+            >
+            <a href="a417datepicker.html">
+              <div class="gnb-submenu-normal-dIgc7X">
+                <div class="gnbsubmenu-f9rB8b">
+                  <div class="text-ioVmyo font-class-2">(4-17) Date picker</div>
+                </div>
+              </div></a
+            >
+            <a href="a416datetimepickerdialog.html">
+              <div class="gnb-submenu-normal-eTYwEa">
+                <div class="gnbsubmenu-XwXC0Q">
+                  <div class="text-zLkuOD font-class-2">(4-16) Date &amp; time picker dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a415timepickerdialog.html">
+              <div class="gnb-submenu-normal-QjhZ3h">
+                <div class="gnbsubmenu-IwJ2RN">
+                  <div class="text-2csiWw font-class-2">(4-15) Time picker dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a414datepickerdialog2.html">
+              <div class="gnb-submenu-normal-jRf21I">
+                <div class="gnbsubmenu-BeK4oU">
+                  <div class="text-U20oLU font-class-2">(4-14) Date picker dialog 2</div>
+                </div>
+              </div></a
+            >
+            <a href="a413datepickerdialog1.html">
+              <div class="gnb-submenu-normal-Rw4FJv">
+                <div class="gnbsubmenu-aTQfXv">
+                  <div class="text-rgBiVC font-class-2">(4-13) Date picker dialog 1</div>
+                </div>
+              </div></a
+            >
+            <a href="a412progressbardialog.html">
+              <div class="gnb-submenu-normal-6wLP0c">
+                <div class="gnbsubmenu-o6GxFw">
+                  <div class="text-Cbf5Ak font-class-2">(4-12) Progress bar dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a411sliderdialog.html">
+              <div class="gnb-submenu-normal-ogS940">
+                <div class="gnbsubmenu-DzkxYx">
+                  <div class="text-jGLpQR font-class-2">(4-11) Slider dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a410multichoicedialog.html">
+              <div class="gnb-submenu-normal-htvqUJ">
+                <div class="gnbsubmenu-fI7jXe">
+                  <div class="text-UMYCxX font-class-2">(4-10) Multi choice dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a49singlechoicedialog.html">
+              <div class="gnb-submenu-normal-fJP733">
+                <div class="gnbsubmenu-ueY5m4">
+                  <div class="text-IO2tex font-class-6">(4-9) Single choice dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a48selectdialog.html">
+              <div class="gnb-submenu-normal-askrDc">
+                <div class="gnbsubmenu-cmHiKF">
+                  <div class="text-2lOLH2 font-class-2">(4-8) Select dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a47dialogactionbutton.html">
+              <div class="gnb-submenu-normal-MZMfPh">
+                <div class="gnbsubmenu-SKWdZ3">
+                  <div class="text-WARxJW font-class-2">(4-7) Dialog_Action button</div>
+                </div>
+              </div></a
+            >
+            <a href="a46dialogbodytext2.html">
+              <div class="gnb-submenu-normal-aOGTeF">
+                <div class="gnbsubmenu-d9exKB">
+                  <div class="text-mLjtxZ font-class-2">(4-6) Dialog_Body text 2</div>
+                </div>
+              </div></a
+            >
+            <a href="a45dialogbodytext1.html">
+              <div class="gnb-submenu-normal-VF7y5n">
+                <div class="gnbsubmenu-lnvuEa">
+                  <div class="text-OMlONZ font-class-2">(4-5) Dialog_Body text 1</div>
+                </div>
+              </div></a
+            >
+            <a href="a44dialogtitle.html">
+              <div class="gnb-submenu-normal-3vlxr7">
+                <div class="gnbsubmenu-vqlAnH">
+                  <div class="text-WZpIBy font-class-2">(4-4) Dialog_Title</div>
+                </div>
+              </div></a
+            >
+            <a href="a43dialogpadding.html">
+              <div class="gnb-submenu-normal-nC7AnL">
+                <div class="gnbsubmenu-YKT2Zb">
+                  <div class="text-xZDVfu font-class-2">(4-3) Dialog_Padding</div>
+                </div>
+              </div></a
+            >
+            <a href="a42dialogheight.html">
+              <div class="gnb-submenu-normal-p7x7de">
+                <div class="gnbsubmenu-cqDLeq">
+                  <div class="text-i6zolW font-class-2">(4-2) Dialog_Height</div>
+                </div>
+              </div></a
+            >
+            <a href="a41dialogwidth.html">
+              <div class="gnb-submenu-normal-6eO6cv">
+                <div class="gnbsubmenu-6gDKcU">
+                  <div class="text-VOdO0e font-class-2">(4-1) Dialog_Width</div>
+                </div>
+              </div></a
+            >
+            <div class="gnb-menu4--s-selected-F6tyJc">
+              <a href="a41dialogwidth.html">
+                <div class="gnbmenu-pfsUJP">
+                  <div class="x4-dialogs-XfJia9 font-class-6">4. Dialogs</div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="gnb-menu3--ers-normal-IFpddr">
+            <a href="a31checkbox.html">
+              <div class="gnbmenu-voSg9E">
+                <div class="x3-controllers-XGvGsa font-class-2">3. Controllers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu2--ons-normal-IFpddr">
+            <a href="a21flatbutton.html">
+              <div class="gnbmenu-hzcOuP">
+                <div class="x2-buttons-Rhulji font-class-2">2. Buttons</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu1--bar-normal-IFpddr">
+            <a href="a11appbartitle.html">
+              <div class="gnbmenu-Kyb74v">
+                <div class="x1-app-bar-mSO44p font-class-2">1. App bar</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu0--iew-normal-IFpddr">
+            <a href="a01unitsandmeasurements.html">
+              <div class="gnbmenu-qO9QRU">
+                <div class="x0-overview-A0NNx1 font-class-2">0. Overview</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu-h-ory-normal-IFpddr">
+            <a href="history.html">
+              <div class="gnbmenu-8iDxRt">
+                <div class="history-lZqxZq font-class-2">History</div>
+              </div></a
+            >
+          </div>
+          <a href="index.html">
+            <div class="gnb-logo-IFpddr">
+              <div class="gotohome-KS0c9L">
+                <div class="group-gBrDRH">
+                  <div class="web-app-OB1SiY font-class-8">Web app</div>
+                  <div class="basic-component-gui-OB1SiY font-class-4">Basic component GUI V1.0</div>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

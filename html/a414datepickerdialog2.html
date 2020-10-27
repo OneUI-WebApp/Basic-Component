@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1680, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link href="../custom/custom.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../custom/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/a414datepickerdialog2.css" />
+    <style>
+      @font-face {
+        font-family: "SamsungOneKorean-400";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-400_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-300";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-300_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-700";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-700_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-500";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 500_0.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-600";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 600_0.ttf")
+          format("truetype");
+      }
+
+      @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(245, 246, 247, 1)">
+    <input type="hidden" id="anPageName" name="page" value="a414datepickerdialog2" />
+    <div class="anima-container-center-horizontal">
+      <div class="a414datepickerdialog2 anima-screen">
+        <a href="../measure/4dialogs/414datepickerdialog2/index.html" target="_blank">
+          <div class="document-button-C61RwL">
+            <div class="btn-mwblLs anima-smart-layers-pointers">
+              <div class="text-WvbxKh font-class-6">Responsive Layout Details</div>
+            </div>
+          </div></a
+        >
+        <div class="group-2-C61RwL">
+          <div class="type-zUixHA">
+            <div class="document-b-x-contents-OxEYc6"></div>
+            <div class="guide-form-ormal1line-OxEYc6">
+              <div class="group-2LadJ2">
+                <div class="x-benvwg font-class-1">;</div>
+                <div class="value-benvwg font-class-1">&#34;Roboto-Regular&#34;</div>
+                <div class="property-benvwg font-class-1">font-family:</div>
+              </div>
+            </div>
+            <div class="guide-form-ormal1line-NpcmFc">
+              <div class="group-3onWvK">
+                <div class="x-8eTdSI font-class-1">;</div>
+                <div class="value-8eTdSI font-class-1">32px</div>
+                <div class="property-8eTdSI font-class-1">font-size:</div>
+              </div>
+            </div>
+            <div class="guide-form-ormal1line-ZBB6Kw">
+              <div class="group-MqjjpV">
+                <div class="x-2b2jec font-class-1">;</div>
+                <div class="value-2b2jec font-class-1">center</div>
+                <div class="property-2b2jec font-class-1">text-align:</div>
+              </div>
+            </div>
+            <div class="guide-form-ormal1line-fI5O67">
+              <div class="group-HCUJdx">
+                <div class="x-IoxOTW font-class-1">;</div>
+                <div class="value-IoxOTW font-class-1">56px</div>
+                <div class="property-IoxOTW font-class-1">line-height:</div>
+              </div>
+            </div>
+            <div class="guide-subject-type-OxEYc6">
+              <div class="guide-numbering-type-Bz05TB">
+                <div class="x1-VBVYMa anima-valign-text-middle font-class-4">1</div>
+              </div>
+              <div class="guide-property-Bz05TB font-class-4">Type CSS</div>
+            </div>
+            <div class="guide-form-ction1line-OxEYc6">
+              <div class="group-2-rAETta">
+                <div class="value-u5RZHc">
+                  <div class="x-TNheFO font-class-1">;</div>
+                  <div class="x-aaxNFV font-class-1">)</div>
+                  <div class="x-04hsY1 font-class-1">(</div>
+                  <div class="value-TNheFO font-class-1">--primary-dark-color</div>
+                  <div class="fn-TNheFO font-class-1">var</div>
+                </div>
+                <div class="property-u5RZHc font-class-1">color:</div>
+              </div>
+            </div>
+          </div>
+          <div class="type-sdxwGy">
+            <div class="document-b-x-contents-RE97Gp"></div>
+            <div class="general-RE97Gp">
+              <div class="guide-form-ormal1line-rECpeg">
+                <div class="group-NtQQB5">
+                  <div class="x-EGyxBc font-class-1">;</div>
+                  <div class="value-EGyxBc font-class-1">&#34;Roboto-Regular&#34;</div>
+                  <div class="property-EGyxBc font-class-1">font-family:</div>
+                </div>
+              </div>
+              <div class="guide-form-ormal1line-SZvT73">
+                <div class="group-vuGnPE">
+                  <div class="x-7AiFxs font-class-1">;</div>
+                  <div class="value-7AiFxs font-class-1">32px</div>
+                  <div class="property-7AiFxs font-class-1">font-size:</div>
+                </div>
+              </div>
+              <div class="guide-form-ormal1line-XyXeA3">
+                <div class="group-bUAnTY">
+                  <div class="x-Ub0seq font-class-1">;</div>
+                  <div class="value-Ub0seq font-class-1">center</div>
+                  <div class="property-Ub0seq font-class-1">text-align:</div>
+                </div>
+              </div>
+              <div class="guide-form-ormal1line-1TLztE">
+                <div class="group-XVG5xe">
+                  <div class="x-S6eZAS font-class-1">;</div>
+                  <div class="value-S6eZAS font-class-1">54px</div>
+                  <div class="property-S6eZAS font-class-1">line-height:</div>
+                </div>
+              </div>
+              <div class="guide-form-e-subtitle-rECpeg">
+                <div class="text-xVWiBw font-class-4">General</div>
+              </div>
+            </div>
+            <div class="guide-subject-type-RE97Gp">
+              <div class="guide-numbering-type-y6I97X">
+                <div class="x1-L1IxWH anima-valign-text-middle font-class-4">3</div>
+              </div>
+              <div class="guide-property-y6I97X font-class-4">Type CSS</div>
+            </div>
+            <div class="light-theme-RE97Gp">
+              <div class="guide-form-light1line-OCMJlM">
+                <div class="group-2-yb5Vbt">
+                  <div class="value-7vWDAR">
+                    <div class="background-8xkmFj"></div>
+                    <div class="x-8xkmFj font-class-1">;</div>
+                    <div class="x-XymARV font-class-1">)</div>
+                    <div class="x-rOsxXd font-class-1">(</div>
+                    <div class="value-8xkmFj font-class-1">--primary-dark-color</div>
+                    <div class="fn-8xkmFj font-class-1">var</div>
+                  </div>
+                  <div class="property-7vWDAR font-class-1">color:</div>
+                </div>
+              </div>
+              <div class="guide-form-rmal-light-OCMJlM">
+                <div class="group-2-0kBsBx">
+                  <div class="x-Ok54OU font-class-1">;</div>
+                  <div class="group-Ok54OU">
+                    <div class="value-CzKHKr font-class-1">0.1</div>
+                  </div>
+                  <div class="property-Ok54OU font-class-1">opacity:</div>
+                </div>
+              </div>
+              <div class="guide-form-e-subtitle-OCMJlM">
+                <div class="text-zSTnRF font-class-4">Light theme</div>
+              </div>
+            </div>
+            <div class="dark-theme-RE97Gp">
+              <div class="guide-form--dark1line-ioyHVA">
+                <div class="group-2-vRy43j">
+                  <div class="value-ZoSKlr">
+                    <div class="background-YheZBQ"></div>
+                    <div class="x-YheZBQ font-class-1">;</div>
+                    <div class="x-qdjBDu font-class-1">)</div>
+                    <div class="x-SkEixG font-class-1">(</div>
+                    <div class="value-YheZBQ font-class-1">--primary-dark-color</div>
+                    <div class="fn-YheZBQ font-class-1">var</div>
+                  </div>
+                  <div class="property-ZoSKlr font-class-1">color:</div>
+                </div>
+              </div>
+              <div class="guide-form-ormal-dark-ioyHVA">
+                <div class="group-2-D4rJO8">
+                  <div class="x-jdgrdE font-class-1">;</div>
+                  <div class="group-jdgrdE">
+                    <div class="value-ffMYlj font-class-1">0.2</div>
+                  </div>
+                  <div class="property-jdgrdE font-class-1">opacity:</div>
+                </div>
+              </div>
+              <div class="guide-form-e-subtitle-ioyHVA">
+                <div class="text-pa9YGW font-class-4">Dark theme</div>
+              </div>
+            </div>
+          </div>
+          <div class="type-kTiyrb">
+            <div class="document-b-x-contents-hqp5Rs"></div>
+            <div class="general-hqp5Rs">
+              <div class="guide-form-ormal1line-7dS2pJ">
+                <div class="group-woLllw">
+                  <div class="x-U1Chx4 font-class-1">;</div>
+                  <div class="value-U1Chx4 font-class-1">&#34;Roboto-Regular&#34;</div>
+                  <div class="property-U1Chx4 font-class-1">font-family:</div>
+                </div>
+              </div>
+              <div class="guide-form-ormal1line-PcipeB">
+                <div class="group-xv2hQd">
+                  <div class="x-ZlgIGB font-class-1">;</div>
+                  <div class="value-ZlgIGB font-class-1">center</div>
+                  <div class="property-ZlgIGB font-class-1">text-align:</div>
+                </div>
+              </div>
+              <div class="guide-form-ormal1line-EPoycj">
+                <div class="group-GOdZSc">
+                  <div class="x-vaVDzj font-class-1">;</div>
+                  <div class="value-vaVDzj font-class-1">30px</div>
+                  <div class="property-vaVDzj font-class-1">font-size:</div>
+                </div>
+              </div>
+              <div class="guide-form-ormal1line-hNmaUi">
+                <div class="group-mueNwG">
+                  <div class="x-SipXri font-class-1">;</div>
+                  <div class="value-SipXri font-class-1">56px</div>
+                  <div class="property-SipXri font-class-1">line-height:</div>
+                </div>
+              </div>
+              <div class="guide-form-ction1line-7dS2pJ">
+                <div class="group-2-QPFklK">
+                  <div class="value-4HTKwG">
+                    <div class="x-olt2cH font-class-1">;</div>
+                    <div class="x-ETuzf9 font-class-1">)</div>
+                    <div class="x-4QuBx4 font-class-1">(</div>
+                    <div class="value-olt2cH font-class-1">--primary-dark-color</div>
+                    <div class="fn-olt2cH font-class-1">var</div>
+                  </div>
+                  <div class="property-4HTKwG font-class-1">color:</div>
+                </div>
+              </div>
+            </div>
+            <div class="guide-subject-type-hqp5Rs">
+              <div class="guide-numbering-type-dp5BU0">
+                <div class="x1-AhPRbO anima-valign-text-middle font-class-4">2</div>
+              </div>
+              <div class="guide-property-dp5BU0 font-class-4">Type CSS</div>
+            </div>
+          </div>
+          <div class="type-GE0XEQ">
+            <div class="document-b-x-contents-XO91v3"></div>
+            <div class="general-XO91v3">
+              <div class="guide-form-ormal1line-I5xV0A">
+                <div class="group-HmLYUo">
+                  <div class="x-NG8EG9 font-class-1">;</div>
+                  <div class="value-NG8EG9 font-class-1">&#34;Roboto-Regular&#34;</div>
+                  <div class="property-NG8EG9 font-class-1">font-family:</div>
+                </div>
+              </div>
+              <div class="guide-form-ormal1line-txBsbT">
+                <div class="group-kHXK6x">
+                  <div class="x-OT3gxN font-class-1">;</div>
+                  <div class="value-OT3gxN font-class-1">center</div>
+                  <div class="property-OT3gxN font-class-1">text-align:</div>
+                </div>
+              </div>
+              <div class="guide-form-ormal1line-mjpgDs">
+                <div class="group-oxPicj">
+                  <div class="x-s4z6xq font-class-1">;</div>
+                  <div class="value-s4z6xq font-class-1">30px</div>
+                  <div class="property-s4z6xq font-class-1">font-size:</div>
+                </div>
+              </div>
+              <div class="guide-form-ormal1line-bP7a74">
+                <div class="group-QUVHt4">
+                  <div class="x-AyieCp font-class-1">;</div>
+                  <div class="value-AyieCp font-class-1">54px</div>
+                  <div class="property-AyieCp font-class-1">line-height:</div>
+                </div>
+              </div>
+              <div class="guide-form-e-subtitle-I5xV0A">
+                <div class="text-9qxRua font-class-4">General</div>
+              </div>
+            </div>
+            <div class="guide-subject-type-XO91v3">
+              <div class="guide-numbering-type-MBdbiM">
+                <div class="x1-8oXU97 anima-valign-text-middle font-class-4">4</div>
+              </div>
+              <div class="guide-property-MBdbiM font-class-4">Type CSS</div>
+            </div>
+            <div class="light-theme-XO91v3">
+              <div class="guide-form-light1line-hTtdbp">
+                <div class="group-2-Ig5fam">
+                  <div class="value-3yaMfd">
+                    <div class="background-TymQla"></div>
+                    <div class="x-TymQla font-class-1">;</div>
+                    <div class="x-dsCg1r font-class-1">)</div>
+                    <div class="x-dO2WGu font-class-1">(</div>
+                    <div class="value-TymQla font-class-1">--primary-dark-color</div>
+                    <div class="fn-TymQla font-class-1">var</div>
+                  </div>
+                  <div class="property-3yaMfd font-class-1">color:</div>
+                </div>
+              </div>
+              <div class="guide-form-rmal-light-hTtdbp">
+                <div class="group-2-oRn1wc">
+                  <div class="x-OST2xF font-class-1">;</div>
+                  <div class="group-OST2xF">
+                    <div class="value-U0XUY4 font-class-1">0.1</div>
+                  </div>
+                  <div class="property-OST2xF font-class-1">opacity:</div>
+                </div>
+              </div>
+              <div class="guide-form-e-subtitle-hTtdbp">
+                <div class="text-dJMUVJ font-class-4">Light theme</div>
+              </div>
+            </div>
+            <div class="dark-theme-XO91v3">
+              <div class="guide-form--dark1line-ImTE22">
+                <div class="group-2-nsxAgd">
+                  <div class="value-OxxrTx">
+                    <div class="background-txYTY8"></div>
+                    <div class="x-txYTY8 font-class-1">;</div>
+                    <div class="x-WS8zHI font-class-1">)</div>
+                    <div class="x-QItmS8 font-class-1">(</div>
+                    <div class="value-txYTY8 font-class-1">--primary-dark-color</div>
+                    <div class="fn-txYTY8 font-class-1">var</div>
+                  </div>
+                  <div class="property-OxxrTx font-class-1">color:</div>
+                </div>
+              </div>
+              <div class="guide-form-ormal-dark-ImTE22">
+                <div class="group-2-K2RgIz">
+                  <div class="x-oFW5IX font-class-1">;</div>
+                  <div class="group-oFW5IX">
+                    <div class="value-A9ZHDh font-class-1">0.2</div>
+                  </div>
+                  <div class="property-oFW5IX font-class-1">opacity:</div>
+                </div>
+              </div>
+              <div class="guide-form-e-subtitle-ImTE22">
+                <div class="text-Yw6UMa font-class-4">Dark theme</div>
+              </div>
+            </div>
+          </div>
+          <div class="guide-zUixHA">
+            <div class="document-b-x-contents-e95Q2C"></div>
+            <div class="symbol-e95Q2C">
+              <div class="x4-14-measu-erdialog22-FxO9gV">
+                <div class="mobile-lig-ialog-date-RkuUOJ">
+                  <div class="mobile-lig--unit-date-ZPuHVo">
+                    <div class="wheel-RFhBxU">
+                      <div class="x2019-OzYKXE anima-valign-text-middle font-class-3">2019</div>
+                      <div class="jan-OzYKXE anima-valign-text-middle font-class-3">JAN</div>
+                      <div class="x25-OzYKXE anima-valign-text-middle font-class-3">25</div>
+                      <div class="x2018-OzYKXE anima-valign-text-middle font-class-3">2018</div>
+                      <div class="dec-OzYKXE anima-valign-text-middle font-class-3">DEC</div>
+                      <div class="x24-OzYKXE anima-valign-text-middle font-class-3">24</div>
+                      <div class="x2017-OzYKXE anima-valign-text-middle font-class-3">2017</div>
+                      <div class="nov-OzYKXE anima-valign-text-middle font-class-3">NOV</div>
+                      <div class="x23-OzYKXE anima-valign-text-middle font-class-3">23</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="measure-e95Q2C">
+              <div class="area-MxozcD">
+                <div class="guide-measure-area-Vbc6CZ"></div>
+                <div class="guide-measure-area-Z12AcX"></div>
+                <div class="guide-measure-area-gvZt1f"></div>
+              </div>
+              <div class="area-48yZg1">
+                <div class="guide-measure-area-7janof"></div>
+                <div class="guide-measure-area-HYrSnB"></div>
+                <div class="guide-measure-area-y6jFBu"></div>
+              </div>
+              <div class="area-pefNth">
+                <div class="guide-measure-area-y7sHkX"></div>
+                <div class="guide-measure-area-uiOV2Z"></div>
+                <div class="guide-measure-area-X0LOKz"></div>
+              </div>
+              <div class="guide-numbering-type-MxozcD">
+                <div class="x1-Nvcv4o anima-valign-text-middle font-class-4">1</div>
+              </div>
+              <div class="guide-numbering-type-48yZg1">
+                <div class="x1-IxKYxZ anima-valign-text-middle font-class-4">3</div>
+              </div>
+              <div class="guide-numbering-type-pefNth">
+                <div class="x1-hWp1OC anima-valign-text-middle font-class-4">3</div>
+              </div>
+              <div class="guide-numbering-type-fyiWiM">
+                <div class="x1-CYHwkt anima-valign-text-middle font-class-4">2</div>
+              </div>
+              <div class="guide-numbering-type-elNMxd">
+                <div class="x1-P0ZdQI anima-valign-text-middle font-class-4">4</div>
+              </div>
+              <div class="guide-numbering-type-PWOeft">
+                <div class="x1-lmqNkW anima-valign-text-middle font-class-4">4</div>
+              </div>
+              <div class="guide-numbering-type-OoKxXD">
+                <div class="x1-ha3Yxw anima-valign-text-middle font-class-4">2</div>
+              </div>
+              <div class="guide-numbering-type-Xkfb5x">
+                <div class="x1-QicFwO anima-valign-text-middle font-class-4">4</div>
+              </div>
+              <div class="guide-numbering-type-9xOBV5">
+                <div class="x1-CQIPPt anima-valign-text-middle font-class-4">4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="group-1-C61RwL">
+          <div class="type-VyzZeT">
+            <div class="document-b-x-contents-cQNe9n"></div>
+            <div class="general-cQNe9n">
+              <div class="guide-form-ormal1line-5jyuD6">
+                <div class="group-vtFtYJ">
+                  <div class="x-KIAYzk font-class-1">;</div>
+                  <div class="value-KIAYzk font-class-1">&#34;Roboto-Regular&#34;</div>
+                  <div class="property-KIAYzk font-class-1">font-family:</div>
+                </div>
+              </div>
+              <div class="guide-form-ormal1line-t89TBt">
+                <div class="group-tmRx4A">
+                  <div class="x-rOiRQT font-class-1">;</div>
+                  <div class="value-rOiRQT font-class-1">17px</div>
+                  <div class="property-rOiRQT font-class-1">font-size:</div>
+                </div>
+              </div>
+              <div class="guide-form-ormal1line-ERWYLz">
+                <div class="group-Ofaw6l">
+                  <div class="x-00gOWb font-class-1">;</div>
+                  <div class="value-00gOWb font-class-1">center</div>
+                  <div class="property-00gOWb font-class-1">text-align:</div>
+                </div>
+              </div>
+              <div class="guide-form-ormal1line-FjpMwC">
+                <div class="group-dymJVx">
+                  <div class="x-AfTK5C font-class-1">;</div>
+                  <div class="value-AfTK5C font-class-1">36px</div>
+                  <div class="property-AfTK5C font-class-1">line-height:</div>
+                </div>
+              </div>
+              <div class="guide-form-e-subtitle-5jyuD6">
+                <div class="text-FMBrSC font-class-4">General</div>
+              </div>
+            </div>
+            <div class="light-theme-cQNe9n">
+              <div class="guide-form-rmal-light-Ii5mZo">
+                <div class="group-2-iOl3pP">
+                  <div class="x-QYxFeM font-class-1">;</div>
+                  <div class="group-QYxFeM">
+                    <div class="value-oTkxpj font-class-1">#454545</div>
+                  </div>
+                  <div class="property-QYxFeM font-class-1">color:</div>
+                </div>
+              </div>
+              <div class="guide-form-e-subtitle-Ii5mZo">
+                <div class="text-dI4lt2 font-class-4">Light theme</div>
+              </div>
+            </div>
+            <div class="dark-theme-cQNe9n">
+              <div class="guide-form-ormal-dark-nL2fq7">
+                <div class="group-2-AL4wKS">
+                  <div class="x-exdFrd font-class-1">;</div>
+                  <div class="group-exdFrd">
+                    <div class="value-Zx5onx font-class-1">#cccccc</div>
+                  </div>
+                  <div class="property-exdFrd font-class-1">color:</div>
+                </div>
+              </div>
+              <div class="guide-form-e-subtitle-nL2fq7">
+                <div class="text-BLcwfe font-class-4">Dark theme</div>
+              </div>
+            </div>
+            <div class="guide-subject-type-cQNe9n">
+              <div class="guide-numbering-type-vEddK5">
+                <div class="x1-AJId07 anima-valign-text-middle font-class-4">1</div>
+              </div>
+              <div class="guide-property-vEddK5 font-class-4">Type CSS</div>
+            </div>
+          </div>
+          <div class="guide-VyzZeT">
+            <div class="document-b-x-contents-EJYwOj"></div>
+            <div class="symbol-EJYwOj">
+              <div class="x4-14-measu-erdialog22-6ZTC4n">
+                <div class="mobile-lig-ialog-date-OEDMh1">
+                  <div class="mobile-lig--unit-date-x4jItc">
+                    <div class="wheel-SkDlEX">
+                      <div class="x2019-SxqrrU anima-valign-text-middle font-class-3">2019</div>
+                      <div class="jan-SxqrrU anima-valign-text-middle font-class-3">JAN</div>
+                      <div class="x25-SxqrrU anima-valign-text-middle font-class-3">25</div>
+                      <div class="x2018-SxqrrU anima-valign-text-middle font-class-3">2018</div>
+                      <div class="dec-SxqrrU anima-valign-text-middle font-class-3">DEC</div>
+                      <div class="x24-SxqrrU anima-valign-text-middle font-class-3">24</div>
+                      <div class="x2017-SxqrrU anima-valign-text-middle font-class-3">2017</div>
+                      <div class="nov-SxqrrU anima-valign-text-middle font-class-3">NOV</div>
+                      <div class="x23-SxqrrU anima-valign-text-middle font-class-3">23</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="x4-14-measu-erdialog21-6ZTC4n">
+                <div class="mobile-lig-mmon-dimbg-XlTjuD"></div>
+                <div class="mobile-lig-eel-dialog-XlTjuD">
+                  <div class="mobile-lig-n-dialogbg-pWywz5"></div>
+                  <div class="mobile-lig-button2btn-pWywz5">
+                    <div class="actionbutton-lzs8h0">
+                      <div class="mobile-lig-button1btn-GDxNuO">
+                        <div class="action-219yjn anima-valign-text-middle font-class-5">Done</div>
+                      </div>
+                      <div class="mobile-lig-button1btn-4x3gNP">
+                        <div class="action-IQz5Pg anima-valign-text-middle font-class-5">Cancel</div>
+                      </div>
+                      <div class="divider-GDxNuO"></div>
+                    </div>
+                  </div>
+                  <div class="mobile-lig-ialog-date-pWywz5">
+                    <div class="mobile-lig--unit-date-MXUCrG">
+                      <div class="wheel-Rngm4p">
+                        <div class="x2019-7bsqpE anima-valign-text-middle font-class-3">2019</div>
+                        <div class="jan-7bsqpE anima-valign-text-middle font-class-3">JAN</div>
+                        <div class="x25-7bsqpE anima-valign-text-middle font-class-3">25</div>
+                        <div class="x2018-7bsqpE anima-valign-text-middle font-class-3">2018</div>
+                        <div class="dec-7bsqpE anima-valign-text-middle font-class-3">DEC</div>
+                        <div class="x24-7bsqpE anima-valign-text-middle font-class-3">24</div>
+                        <div class="x2017-7bsqpE anima-valign-text-middle font-class-3">2017</div>
+                        <div class="nov-7bsqpE anima-valign-text-middle font-class-3">NOV</div>
+                        <div class="x23-7bsqpE anima-valign-text-middle font-class-3">23</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="november-2018-pWywz5 anima-valign-text-middle font-class-3">November 2018</div>
+                </div>
+              </div>
+            </div>
+            <div class="measure-2-EJYwOj">
+              <div class="spacing-5AtFe7">
+                <div class="guide-measure-area-387N7t"></div>
+                <div class="guide-meas--spacing-2-387N7t">
+                  <div class="x0-KH73Rc font-class-1">4%</div>
+                  <div class="rectangle-KH73Rc"></div>
+                  <div class="rectangle-w6Etho"></div>
+                  <div class="rectangle-38Pzdi"></div>
+                </div>
+              </div>
+              <div class="spacing-UZpwxd">
+                <div class="group-7-T9Scsx">
+                  <div class="guide-measure-area-N70rxB"></div>
+                  <div class="guide-meas--spacing-2-N70rxB">
+                    <div class="x0-3czKsB font-class-1">4%</div>
+                    <div class="rectangle-3czKsB"></div>
+                    <div class="rectangle-m4x6Eh"></div>
+                    <div class="rectangle-nxaR5O"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="spacing-IHTze6">
+                <div class="guide-measure-area-kAik5Q"></div>
+                <div class="guide-meas--spacing-2-kAik5Q">
+                  <div class="x0-r6Vs71 font-class-1">4%</div>
+                  <div class="rectangle-r6Vs71"></div>
+                  <div class="rectangle-JfgQRS"></div>
+                  <div class="rectangle-SxGC56"></div>
+                </div>
+              </div>
+              <div class="spacing-WyFDdx">
+                <div class="guide-measure-area-RGsPUE"></div>
+                <div class="guide-meas--spacing-2-RGsPUE">
+                  <div class="x0-w3cOxG font-class-1">4%</div>
+                  <div class="rectangle-w3cOxG"></div>
+                  <div class="rectangle-5x1wSS"></div>
+                  <div class="rectangle-ma0SAY"></div>
+                </div>
+              </div>
+              <div class="size-5AtFe7">
+                <div class="guide-measure-area-1IJui2"></div>
+                <div class="guide-meas-top-size-1-1IJui2">
+                  <div class="value-MWXSV7">
+                    <div class="x0-9QWZxz font-class-1">28%</div>
+                  </div>
+                  <div class="rectangle-MWXSV7"></div>
+                  <div class="rectangle-Oo6TWO"></div>
+                  <div class="rectangle-j0Dvr8"></div>
+                </div>
+              </div>
+              <div class="size-UZpwxd">
+                <div class="guide-measure-area-ECJqeJ"></div>
+                <div class="guide-meas-top-size-1-ECJqeJ">
+                  <div class="value-QxCxwx">
+                    <div class="x0-rXZiLQ font-class-1">28%</div>
+                  </div>
+                  <div class="rectangle-QxCxwx"></div>
+                  <div class="rectangle-3B9LuC"></div>
+                  <div class="rectangle-PcJWlF"></div>
+                </div>
+              </div>
+              <div class="size-IHTze6">
+                <div class="guide-measure-area-VLM6Kq"></div>
+                <div class="guide-meas-top-size-1-VLM6Kq">
+                  <div class="value-TCOsLR">
+                    <div class="x0-eitmKz font-class-1">28%</div>
+                  </div>
+                  <div class="rectangle-TCOsLR"></div>
+                  <div class="rectangle-9PnK0o"></div>
+                  <div class="rectangle-5UwtNw"></div>
+                </div>
+              </div>
+            </div>
+            <div class="measure-1-EJYwOj">
+              <div class="spacing-RlRjrd">
+                <div class="guide-measure-area-v9gdlW"></div>
+              </div>
+              <div class="spacing-DE3rak">
+                <div class="group-7-Fu7ZPD">
+                  <div class="guide-measure-area-23lMQH"></div>
+                </div>
+              </div>
+              <div class="spacing-BGF3oB">
+                <div class="guide-measure-area-5iNPvB"></div>
+              </div>
+              <div class="spacing-UP5Nki">
+                <div class="guide-measure-area-x2rKMY"></div>
+              </div>
+              <div class="spacing-hQxxFQ">
+                <div class="guide-measure-area-1MQMx7"></div>
+                <div class="guide-meas--spacing-1-1MQMx7">
+                  <div class="value-lXgfF9">
+                    <div class="x0-mNStCT font-class-1">(P) 24 / (L) 11</div>
+                  </div>
+                  <div class="rectangle-lXgfF9"></div>
+                  <div class="rectangle-wqSd6t"></div>
+                  <div class="rectangle-Ih87Mx"></div>
+                </div>
+              </div>
+              <div class="spacing-c9qB4Y">
+                <div class="guide-measure-area-Vh4c0Z"></div>
+                <div class="guide-meas--spacing-1-Vh4c0Z">
+                  <div class="value-GFccIK">
+                    <div class="x0-UjgyBV font-class-1">10</div>
+                  </div>
+                  <div class="rectangle-GFccIK"></div>
+                  <div class="rectangle-NFLKWZ"></div>
+                  <div class="rectangle-pkCNLF"></div>
+                </div>
+              </div>
+              <div class="spacing-WZsqpt">
+                <div class="guide-measure-area-Z1cGjS"></div>
+                <div class="guide-meas--spacing-1-Z1cGjS">
+                  <div class="value-tN9sp0">
+                    <div class="x0-XuvLJ5 font-class-1">(P) 26 / (L) 14</div>
+                  </div>
+                  <div class="rectangle-tN9sp0"></div>
+                  <div class="rectangle-FncyiR"></div>
+                  <div class="rectangle-qINxQr"></div>
+                </div>
+              </div>
+              <div class="size-RlRjrd">
+                <div class="guide-measure-area-HfCpMV"></div>
+                <div class="guide-meas-eft-size-1-HfCpMV">
+                  <div class="value-mgbUd4">
+                    <div class="x0-fP8anx font-class-1">164</div>
+                  </div>
+                  <div class="rectangle-mgbUd4"></div>
+                  <div class="rectangle-0oLomN"></div>
+                  <div class="rectangle-yim1pe"></div>
+                </div>
+                <div class="guide-measure-area-c0fxtj"></div>
+                <div class="guide-measure-area-HLP9cD"></div>
+              </div>
+              <div class="text-RlRjrd">
+                <div class="guide-measure-area-eihxXf"></div>
+                <div class="guide-meas-eft-text-1-eihxXf">
+                  <div class="value-tWSMbR">
+                    <div class="x0-fw3jU6 font-class-1">36</div>
+                  </div>
+                  <div class="rectangle-tWSMbR"></div>
+                  <div class="rectangle-8xee6x"></div>
+                  <div class="rectangle-nmEgiO"></div>
+                </div>
+              </div>
+              <div class="guide-numbering-type-RlRjrd">
+                <div class="x1-hsolB7 anima-valign-text-middle font-class-4">1</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="keyscreen-C61RwL">
+          <div class="document-b-x-contents-V6KZ2v"></div>
+          <img
+            class="x4-14-keysc-erdialog21-V6KZ2v"
+            src="img/4-14-date-picker-dialog-2-4-14keyscreenw360mpd0414datepickerdialog21-2FF6DB1C-8716-46B1-AE62-A7CF6A4D8509@2x.png"
+          />
+          <img
+            class="x4-14-keysc-erdialog21-YbJGjS"
+            src="img/4-14-date-picker-dialog-2-4-14keyscreenw360mpl0414datepickerdialog21-FA8BF40A-2AB4-4DC7-A311-D84A5E06597B@2x.png"
+          />
+          <a href="a47dialogactionbutton.html">
+            <div class="tag-refer-V6KZ2v">
+              <div class="btn-zOzqsC anima-smart-layers-pointers">
+                <div class="basic-8toWLI font-class-2">Basic</div>
+                <div class="page-name-8toWLI font-class-4">(4-7) Dialog_Action button</div>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="wheel-view-C61RwL font-class-1">Wheel view</div>
+        <div class="x4-14-date-picker-d-C61RwL font-class-7">(4-14) Date picker dialog 2</div>
+        <div class="gnb-bar04-dialogs-C61RwL">
+          <div class="gnb-menu17-ste-normal-IFpddr">
+            <a href="a171textselection.html">
+              <div class="gnbmenu-xLcVXS">
+                <div class="x17-copy-paste-HD1MSG font-class-2">17. Copy &amp; paste</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu16-ail-normal-IFpddr">
+            <a href="a161thumbnailgrid.html">
+              <div class="gnbmenu-PAywWV">
+                <div class="x16-thumbnail-7oeGf9 font-class-2">16. Thumbnail</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu15-dge-normal-IFpddr">
+            <a href="a151numberbadgeappbar.html">
+              <div class="gnbmenu-tNPiEI">
+                <div class="x15-notification-bad-AmUiok font-class-2">15. Notification badge</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu14-ion-normal-IFpddr">
+            <a href="a141descriptionwidth.html">
+              <div class="gnbmenu-bZCNXc">
+                <div class="rectangle-Vh3Boh"></div>
+                <div class="x14-description-Vh3Boh font-class-2">14. Description</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu13-ols-normal-IFpddr">
+            <a href="a131maintab.html">
+              <div class="gnbmenu-A7XsLT">
+                <div class="x13-view-controls-94MaWS font-class-2">13. View controls</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu12-lds-normal-IFpddr">
+            <a href="a121textfields.html">
+              <div class="gnbmenu-x362av">
+                <div class="x12-text-fields-vgc3Vu font-class-2">12. Text fields</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu11-ast-normal-IFpddr">
+            <a href="a111toastwidth.html">
+              <div class="gnbmenu-n846FE">
+                <div class="x11-toast-ZxS0T9 font-class-2">11. Toast</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu10-rch-normal-IFpddr">
+            <a href="a101searchbarwidth.html">
+              <div class="gnbmenu-FYqcjZ">
+                <div class="x10-search-ys4Eef font-class-2">10. Search</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu9--ing-normal-IFpddr">
+            <a href="a91scrollbar.html">
+              <div class="gnbmenu-gL2JAx">
+                <div class="x9-scrolling-QBf695 font-class-2">9. Scrolling</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu8--ess-normal-IFpddr">
+            <a href="a81progressbar.html">
+              <div class="gnbmenu-iVJDrt">
+                <div class="x8-progress-TIxFq4 font-class-2">8. Progress</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu7--ems-normal-IFpddr">
+            <a href="a71noitem.html">
+              <div class="gnbmenu-MMc3iM">
+                <div class="x7-no-item-6wC6Jq font-class-2">7. No item</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu6--sts-normal-IFpddr">
+            <a href="a61listwidth.html">
+              <div class="gnbmenu-qscMSY">
+                <div class="x6-lists-CY9yOk font-class-2">6. Lists</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu5--ers-normal-IFpddr">
+            <a href="a51dividerbasiclist.html">
+              <div class="gnbmenu-lLJ8dQ">
+                <div class="x5-dividers-jYs5wP font-class-2">5. Dividers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu4--s-selected-IFpddr">
+            <a href="a421imagedialog.html">
+              <div class="gnb-submenu-normal-F6tyJc">
+                <div class="gnbsubmenu-C0LORr">
+                  <div class="text-AWDxxq font-class-2">(4-21) Image dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a420valuepickerdialog.html">
+              <div class="gnb-submenu-normal-CkATrQ">
+                <div class="gnbsubmenu-MYwqko">
+                  <div class="text-xY88zE font-class-2">(4-20) Value picker dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a419editdialog.html">
+              <div class="gnb-submenu-normal-DpBjZd">
+                <div class="gnbsubmenu-JXnXN8">
+                  <div class="text-cwWTW2 font-class-2">(4-19) Edit dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a418datetimepicker.html">
+              <div class="gnb-submenu-normal-541Yax">
+                <div class="gnbsubmenu-o0x4FS">
+                  <div class="text-6uCC6P font-class-2">(4-18) Date &amp; time picker</div>
+                </div>
+              </div></a
+            >
+            <a href="a417datepicker.html">
+              <div class="gnb-submenu-normal-dIgc7X">
+                <div class="gnbsubmenu-f9rB8b">
+                  <div class="text-ioVmyo font-class-2">(4-17) Date picker</div>
+                </div>
+              </div></a
+            >
+            <a href="a416datetimepickerdialog.html">
+              <div class="gnb-submenu-normal-eTYwEa">
+                <div class="gnbsubmenu-XwXC0Q">
+                  <div class="text-zLkuOD font-class-2">(4-16) Date &amp; time picker dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a415timepickerdialog.html">
+              <div class="gnb-submenu-normal-QjhZ3h">
+                <div class="gnbsubmenu-IwJ2RN">
+                  <div class="text-2csiWw font-class-2">(4-15) Time picker dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a414datepickerdialog2.html">
+              <div class="gnb-submenu-normal-jRf21I">
+                <div class="gnbsubmenu-BeK4oU">
+                  <div class="text-U20oLU font-class-6">(4-14) Date picker dialog 2</div>
+                </div>
+              </div></a
+            >
+            <a href="a413datepickerdialog1.html">
+              <div class="gnb-submenu-normal-Rw4FJv">
+                <div class="gnbsubmenu-aTQfXv">
+                  <div class="text-rgBiVC font-class-2">(4-13) Date picker dialog 1</div>
+                </div>
+              </div></a
+            >
+            <a href="a412progressbardialog.html">
+              <div class="gnb-submenu-normal-6wLP0c">
+                <div class="gnbsubmenu-o6GxFw">
+                  <div class="text-Cbf5Ak font-class-2">(4-12) Progress bar dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a411sliderdialog.html">
+              <div class="gnb-submenu-normal-ogS940">
+                <div class="gnbsubmenu-DzkxYx">
+                  <div class="text-jGLpQR font-class-2">(4-11) Slider dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a410multichoicedialog.html">
+              <div class="gnb-submenu-normal-htvqUJ">
+                <div class="gnbsubmenu-fI7jXe">
+                  <div class="text-UMYCxX font-class-2">(4-10) Multi choice dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a49singlechoicedialog.html">
+              <div class="gnb-submenu-normal-fJP733">
+                <div class="gnbsubmenu-ueY5m4">
+                  <div class="text-IO2tex font-class-2">(4-9) Single choice dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a48selectdialog.html">
+              <div class="gnb-submenu-normal-askrDc">
+                <div class="gnbsubmenu-cmHiKF">
+                  <div class="text-2lOLH2 font-class-2">(4-8) Select dialog</div>
+                </div>
+              </div></a
+            >
+            <a href="a47dialogactionbutton.html">
+              <div class="gnb-submenu-normal-MZMfPh">
+                <div class="gnbsubmenu-SKWdZ3">
+                  <div class="text-WARxJW font-class-2">(4-7) Dialog_Action button</div>
+                </div>
+              </div></a
+            >
+            <a href="a46dialogbodytext2.html">
+              <div class="gnb-submenu-normal-aOGTeF">
+                <div class="gnbsubmenu-d9exKB">
+                  <div class="text-mLjtxZ font-class-2">(4-6) Dialog_Body text 2</div>
+                </div>
+              </div></a
+            >
+            <a href="a45dialogbodytext1.html">
+              <div class="gnb-submenu-normal-VF7y5n">
+                <div class="gnbsubmenu-lnvuEa">
+                  <div class="text-OMlONZ font-class-2">(4-5) Dialog_Body text 1</div>
+                </div>
+              </div></a
+            >
+            <a href="a44dialogtitle.html">
+              <div class="gnb-submenu-normal-3vlxr7">
+                <div class="gnbsubmenu-vqlAnH">
+                  <div class="text-WZpIBy font-class-2">(4-4) Dialog_Title</div>
+                </div>
+              </div></a
+            >
+            <a href="a43dialogpadding.html">
+              <div class="gnb-submenu-normal-nC7AnL">
+                <div class="gnbsubmenu-YKT2Zb">
+                  <div class="text-xZDVfu font-class-2">(4-3) Dialog_Padding</div>
+                </div>
+              </div></a
+            >
+            <a href="a42dialogheight.html">
+              <div class="gnb-submenu-normal-p7x7de">
+                <div class="gnbsubmenu-cqDLeq">
+                  <div class="text-i6zolW font-class-2">(4-2) Dialog_Height</div>
+                </div>
+              </div></a
+            >
+            <a href="a41dialogwidth.html">
+              <div class="gnb-submenu-normal-6eO6cv">
+                <div class="gnbsubmenu-6gDKcU">
+                  <div class="text-VOdO0e font-class-2">(4-1) Dialog_Width</div>
+                </div>
+              </div></a
+            >
+            <div class="gnb-menu4--s-selected-F6tyJc">
+              <a href="a41dialogwidth.html">
+                <div class="gnbmenu-pfsUJP">
+                  <div class="x4-dialogs-XfJia9 font-class-6">4. Dialogs</div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="gnb-menu3--ers-normal-IFpddr">
+            <a href="a31checkbox.html">
+              <div class="gnbmenu-voSg9E">
+                <div class="x3-controllers-XGvGsa font-class-2">3. Controllers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu2--ons-normal-IFpddr">
+            <a href="a21flatbutton.html">
+              <div class="gnbmenu-hzcOuP">
+                <div class="x2-buttons-Rhulji font-class-2">2. Buttons</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu1--bar-normal-IFpddr">
+            <a href="a11appbartitle.html">
+              <div class="gnbmenu-Kyb74v">
+                <div class="x1-app-bar-mSO44p font-class-2">1. App bar</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu0--iew-normal-IFpddr">
+            <a href="a01unitsandmeasurements.html">
+              <div class="gnbmenu-qO9QRU">
+                <div class="x0-overview-A0NNx1 font-class-2">0. Overview</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu-h-ory-normal-IFpddr">
+            <a href="history.html">
+              <div class="gnbmenu-8iDxRt">
+                <div class="history-lZqxZq font-class-2">History</div>
+              </div></a
+            >
+          </div>
+          <a href="index.html">
+            <div class="gnb-logo-IFpddr">
+              <div class="gotohome-KS0c9L">
+                <div class="group-gBrDRH">
+                  <div class="web-app-OB1SiY font-class-8">Web app</div>
+                  <div class="basic-component-gui-OB1SiY font-class-4">Basic component GUI V1.0</div>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1680, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link href="../custom/custom.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../custom/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/a01unitsandmeasurements.css" />
+    <style>
+      @font-face {
+        font-family: "SamsungOneKorean-600";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 600_0.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-300";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-300_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-700";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-700_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-400";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-400_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-500";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 500_0.ttf")
+          format("truetype");
+      }
+
+      @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(245, 246, 247, 1)">
+    <input type="hidden" id="anPageName" name="page" value="a01unitsandmeasurements" />
+    <div class="anima-container-center-horizontal">
+      <div class="a01unitsandmeasurements anima-screen">
+        <div class="group-3-C61RwL">
+          <a href="https://web.dev/codelab-density-descriptors/" target="_blank">
+            <div class="httpswebdevcode-hvAGCq font-class-1">https://web.dev/codelab-density-descriptors/</div></a
+          >
+          <div class="table-hvAGCq">
+            <div class="group-16-QMiytd">
+              <div class="table-gene-ight1style-D7LbNp">
+                <div class="rectangle-pxy5MK"></div>
+                <div class="bg-pxy5MK border-class-1"></div>
+                <div class="content-pxy5MK anima-valign-text-middle font-class-1">HVGA</div>
+              </div>
+              <div class="table-gene-ight1style-PK8oQo">
+                <div class="rectangle-HiGUYV"></div>
+                <div class="bg-HiGUYV border-class-1"></div>
+                <div class="content-HiGUYV anima-valign-text-middle font-class-1">QHD / WVGA</div>
+              </div>
+              <div class="table-gene-ight1style-jIOmGa">
+                <div class="rectangle-KDihXw"></div>
+                <div class="bg-KDihXw border-class-1"></div>
+                <div class="content-KDihXw anima-valign-text-middle font-class-1">HD</div>
+              </div>
+              <div class="table-gene-ight1style-vgYZbt">
+                <div class="rectangle-Usk4Ds"></div>
+                <div class="bg-Usk4Ds border-class-1"></div>
+                <div class="content-Usk4Ds anima-valign-text-middle font-class-1">FHD</div>
+              </div>
+              <div class="table-gene-ight1style-WvXUHp">
+                <div class="rectangle-ZZO1BS"></div>
+                <div class="bg-ZZO1BS border-class-1"></div>
+                <div class="content-ZZO1BS anima-valign-text-middle font-class-1">WQHD</div>
+              </div>
+              <div class="table-title1line-D7LbNp">
+                <div class="rectangle-RvfWau"></div>
+                <div class="rectangle-kNuIKB border-class-2"></div>
+                <div class="title-RvfWau anima-valign-text-middle font-class-5">Screen resolution</div>
+              </div>
+            </div>
+            <div class="group-16-CWxmoi">
+              <div class="table-gene-ight1style-XoSu3X">
+                <div class="rectangle-rhw0tu"></div>
+                <div class="bg-rhw0tu border-class-1"></div>
+                <div class="content-rhw0tu anima-valign-text-middle font-class-1">96 (Android: 160 dpi)</div>
+              </div>
+              <div class="table-gene-ight1style-JEroXf">
+                <div class="rectangle-UN57Ox"></div>
+                <div class="bg-UN57Ox border-class-1"></div>
+                <div class="content-UN57Ox anima-valign-text-middle font-class-1">144 (Android: 240 dpi)</div>
+              </div>
+              <div class="table-gene-ight1style-axUssm">
+                <div class="rectangle-ZxpV9F"></div>
+                <div class="bg-ZxpV9F border-class-1"></div>
+                <div class="content-ZxpV9F anima-valign-text-middle font-class-1">168 (Android: 280 dpi)</div>
+              </div>
+              <div class="table-gene-ight1style-gTZLSw">
+                <div class="rectangle-nGSiZS"></div>
+                <div class="bg-nGSiZS border-class-1"></div>
+                <div class="content-nGSiZS anima-valign-text-middle font-class-1">192 (Android: 320 dpi)</div>
+              </div>
+              <div class="table-gene-ight1style-cxzVaW">
+                <div class="rectangle-GYPHd9"></div>
+                <div class="bg-GYPHd9 border-class-1"></div>
+                <div class="content-GYPHd9 anima-valign-text-middle font-class-1">216 (Android: 360 dpi)</div>
+              </div>
+              <div class="table-gene-ight1style-ecBrTQ">
+                <div class="rectangle-ta7fxE"></div>
+                <div class="bg-ta7fxE border-class-1"></div>
+                <div class="content-ta7fxE anima-valign-text-middle font-class-1">252 (Android: 420 dpi)</div>
+              </div>
+              <div class="table-gene-ight1style-Pxomf3">
+                <div class="rectangle-7Wsoiz"></div>
+                <div class="bg-7Wsoiz border-class-1"></div>
+                <div class="content-7Wsoiz anima-valign-text-middle font-class-1">336 (Android: 560 dpi)</div>
+              </div>
+              <div class="table-gene-ight1style-6K3fnf">
+                <div class="rectangle-usNbiP"></div>
+                <div class="bg-usNbiP border-class-1"></div>
+                <div class="content-usNbiP anima-valign-text-middle font-class-1">288 (Android: 480 dpi)</div>
+              </div>
+              <div class="table-gene-ight1style-xyg8Wk">
+                <div class="rectangle-2sflyJ"></div>
+                <div class="bg-2sflyJ border-class-1"></div>
+                <div class="content-2sflyJ anima-valign-text-middle font-class-1">270 (Android: 450 dpi)</div>
+              </div>
+              <div class="table-gene-ight1style-0W4bSV">
+                <div class="rectangle-dxEpAc"></div>
+                <div class="bg-dxEpAc border-class-1"></div>
+                <div class="content-dxEpAc anima-valign-text-middle font-class-1">360 (Android: 600 dpi)</div>
+              </div>
+              <div class="table-gene-ight1style-QSjYuR">
+                <div class="rectangle-MgOYlo"></div>
+                <div class="bg-MgOYlo border-class-1"></div>
+                <div class="content-MgOYlo anima-valign-text-middle font-class-1">384 (Android: 640 dpi)</div>
+              </div>
+              <div class="table-gene-ight1style-P3jEKC">
+                <div class="rectangle-ISvQq6"></div>
+                <div class="bg-ISvQq6 border-class-1"></div>
+                <div class="content-ISvQq6 anima-valign-text-middle font-class-1">432 (Android: 720 dpi)</div>
+              </div>
+              <div class="table-title1line-XoSu3X">
+                <div class="rectangle-XPkett"></div>
+                <div class="rectangle-Z7DNTC border-class-2"></div>
+                <div class="title-XPkett anima-valign-text-middle font-class-5">CSS ppi (pixel per inch)</div>
+              </div>
+            </div>
+            <div class="group-16-75pVq9">
+              <div class="table-gene-ight1style-xWMnzd">
+                <div class="rectangle-JeHld9"></div>
+                <div class="bg-JeHld9 border-class-1"></div>
+                <div class="content-JeHld9 anima-valign-text-middle font-class-1">1.0</div>
+              </div>
+              <div class="table-gene-ight1style-WxbkL1">
+                <div class="rectangle-f7woOx"></div>
+                <div class="bg-f7woOx border-class-1"></div>
+                <div class="content-f7woOx anima-valign-text-middle font-class-1">1.5</div>
+              </div>
+              <div class="table-gene-ight1style-DSv9QH">
+                <div class="rectangle-pX1aWJ"></div>
+                <div class="bg-pX1aWJ border-class-1"></div>
+                <div class="content-pX1aWJ anima-valign-text-middle font-class-1">1.75</div>
+              </div>
+              <div class="table-gene-ight1style-C99hwk">
+                <div class="rectangle-vCcUwo"></div>
+                <div class="bg-vCcUwo border-class-1"></div>
+                <div class="content-vCcUwo anima-valign-text-middle font-class-1">2.0</div>
+              </div>
+              <div class="table-gene-ight1style-q5DpMl">
+                <div class="rectangle-5qw0i8"></div>
+                <div class="bg-5qw0i8 border-class-1"></div>
+                <div class="content-5qw0i8 anima-valign-text-middle font-class-1">2.25</div>
+              </div>
+              <div class="table-gene-ight1style-JomfP9">
+                <div class="rectangle-RIqAda"></div>
+                <div class="bg-RIqAda border-class-1"></div>
+                <div class="content-RIqAda anima-valign-text-middle font-class-1">2.625</div>
+              </div>
+              <div class="table-gene-ight1style-yWEVkD">
+                <div class="rectangle-aLoQpW"></div>
+                <div class="bg-aLoQpW border-class-1"></div>
+                <div class="content-aLoQpW anima-valign-text-middle font-class-1">3.5</div>
+              </div>
+              <div class="table-gene-ight1style-jki58J">
+                <div class="rectangle-OVrx08"></div>
+                <div class="bg-OVrx08 border-class-1"></div>
+                <div class="content-OVrx08 anima-valign-text-middle font-class-1">3.0</div>
+              </div>
+              <div class="table-gene-ight1style-4MehVe">
+                <div class="rectangle-NqWfF5"></div>
+                <div class="bg-NqWfF5 border-class-1"></div>
+                <div class="content-NqWfF5 anima-valign-text-middle font-class-1">2.8125</div>
+              </div>
+              <div class="table-gene-ight1style-5GswVt">
+                <div class="rectangle-O5VRvR"></div>
+                <div class="bg-O5VRvR border-class-1"></div>
+                <div class="content-O5VRvR anima-valign-text-middle font-class-1">3.75</div>
+              </div>
+              <div class="table-gene-ight1style-N483OP">
+                <div class="rectangle-vofxYm"></div>
+                <div class="bg-vofxYm border-class-1"></div>
+                <div class="content-vofxYm anima-valign-text-middle font-class-1">4.0</div>
+              </div>
+              <div class="table-gene-ight1style-4KlI1F">
+                <div class="rectangle-ZsOuua"></div>
+                <div class="bg-ZsOuua border-class-1"></div>
+                <div class="content-ZsOuua anima-valign-text-middle font-class-1">4.5</div>
+              </div>
+              <div class="table-title1line-xWMnzd">
+                <div class="rectangle-rzBjI9"></div>
+                <div class="rectangle-uOgd5B border-class-2"></div>
+                <div class="title-rzBjI9 anima-valign-text-middle font-class-5">Pixel ratio</div>
+              </div>
+            </div>
+            <div class="group-16-aGsRbD">
+              <div class="table-gene-ight1style-xzGdc0">
+                <div class="rectangle-4ortx8"></div>
+                <div class="bg-4ortx8 border-class-1"></div>
+                <div class="content-4ortx8 anima-valign-text-middle font-class-1">100 x 100</div>
+              </div>
+              <div class="table-gene-ight1style-ptueKn">
+                <div class="rectangle-te6rNR"></div>
+                <div class="bg-te6rNR border-class-1"></div>
+                <div class="content-te6rNR anima-valign-text-middle font-class-1">150 x 150</div>
+              </div>
+              <div class="table-gene-ight1style-jLOCKd">
+                <div class="rectangle-3IlKyp"></div>
+                <div class="bg-3IlKyp border-class-1"></div>
+                <div class="content-3IlKyp anima-valign-text-middle font-class-1">175 x 175</div>
+              </div>
+              <div class="table-gene-ight1style-Q1Ht5x">
+                <div class="rectangle-CLViLg"></div>
+                <div class="bg-CLViLg border-class-1"></div>
+                <div class="content-CLViLg anima-valign-text-middle font-class-1">200 x 200</div>
+              </div>
+              <div class="table-gene-ight1style-fKapix">
+                <div class="rectangle-IeBxDw"></div>
+                <div class="bg-IeBxDw border-class-1"></div>
+                <div class="content-IeBxDw anima-valign-text-middle font-class-1">225 x 225</div>
+              </div>
+              <div class="table-gene-ight1style-CXEx1R">
+                <div class="rectangle-wgWNdU"></div>
+                <div class="bg-wgWNdU border-class-1"></div>
+                <div class="content-wgWNdU anima-valign-text-middle font-class-1">262 x 262</div>
+              </div>
+              <div class="table-gene-ight1style-zNXo1Y">
+                <div class="rectangle-nDBoh5"></div>
+                <div class="bg-nDBoh5 border-class-1"></div>
+                <div class="content-nDBoh5 anima-valign-text-middle font-class-1">350 x 350</div>
+              </div>
+              <div class="table-gene-ight1style-Zo94GF">
+                <div class="rectangle-1Wxo6J"></div>
+                <div class="bg-1Wxo6J border-class-1"></div>
+                <div class="content-1Wxo6J anima-valign-text-middle font-class-1">300 x 300</div>
+              </div>
+              <div class="table-gene-ight1style-IY6elm">
+                <div class="rectangle-L5q6r9"></div>
+                <div class="bg-L5q6r9 border-class-1"></div>
+                <div class="content-L5q6r9 anima-valign-text-middle font-class-1">281 x 281</div>
+              </div>
+              <div class="table-gene-ight1style-6Ysyy8">
+                <div class="rectangle-3OGevQ"></div>
+                <div class="bg-3OGevQ border-class-1"></div>
+                <div class="content-3OGevQ anima-valign-text-middle font-class-1">375 x 375</div>
+              </div>
+              <div class="table-gene-ight1style-Z8SPsx">
+                <div class="rectangle-OTii8x"></div>
+                <div class="bg-OTii8x border-class-1"></div>
+                <div class="content-OTii8x anima-valign-text-middle font-class-1">400 x 400</div>
+              </div>
+              <div class="table-gene-ight1style-n5w8f0">
+                <div class="rectangle-LYH9pZ"></div>
+                <div class="bg-LYH9pZ border-class-1"></div>
+                <div class="content-LYH9pZ anima-valign-text-middle font-class-1">450 x 450</div>
+              </div>
+              <div class="table-title1line-xzGdc0">
+                <div class="rectangle-6dNRZ0"></div>
+                <div class="rectangle-xqpH5A border-class-2"></div>
+                <div class="title-6dNRZ0 anima-valign-text-middle font-class-5">Image size (pixels)</div>
+              </div>
+            </div>
+            <div class="group-16-x6Hg7l">
+              <div class="table-gene-ight1style-TZ379S">
+                <div class="rectangle-nRa0fe"></div>
+                <div class="bg-nRa0fe border-class-1"></div>
+                <div class="content-nRa0fe anima-valign-text-middle font-class-1">-</div>
+              </div>
+              <div class="table-gene-ight1style-uRBcNs">
+                <div class="rectangle-0q8pQM"></div>
+                <div class="bg-0q8pQM border-class-1"></div>
+                <div class="content-0q8pQM anima-valign-text-middle font-class-1">-</div>
+              </div>
+              <div class="table-gene-ight1style-wRlV5t">
+                <div class="rectangle-lq6oVA"></div>
+                <div class="bg-lq6oVA border-class-1"></div>
+                <div class="content-lq6oVA anima-valign-text-middle font-class-1">-</div>
+              </div>
+              <div class="table-gene-ight1style-VAqXbA">
+                <div class="rectangle-FfP5zk"></div>
+                <div class="bg-FfP5zk border-class-1"></div>
+                <div class="content-FfP5zk anima-valign-text-middle font-class-1">Tablet (Tab S6): 1600 x 2560</div>
+              </div>
+              <div class="table-gene-ight1style-EfEWWT">
+                <div class="rectangle-6urs51"></div>
+                <div class="bg-6urs51 border-class-1"></div>
+                <div class="content-6urs51 anima-valign-text-middle font-class-1">Winner sub LCD: 720 x 1680</div>
+              </div>
+              <div class="table-gene-ight2style-TZ379S">
+                <div class="rectangle-ZYrjR9"></div>
+                <div class="bg-ZYrjR9 border-class-1"></div>
+                <div class="group-ZYrjR9">
+                  <div class="content-nXouhY anima-valign-text-middle font-class-1">Winner 2(TBD): 1768 x 2208</div>
+                  <div class="content-Lr7qyK anima-valign-text-middle font-class-1">
+                    Winner 1(Galaxy Fold): 1536 x 2152
+                  </div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-IEo3Qx">
+                <div class="rectangle-cRyzTZ"></div>
+                <div class="bg-cRyzTZ border-class-1"></div>
+                <div class="content-cRyzTZ anima-valign-text-middle font-class-1">-</div>
+              </div>
+              <div class="table-gene-ight1style-CAHuvj">
+                <div class="rectangle-0XXQox"></div>
+                <div class="bg-0XXQox border-class-1"></div>
+                <div class="content-0XXQox anima-valign-text-middle font-class-1">-</div>
+              </div>
+              <div class="table-gene-ight1style-dVPhsS">
+                <div class="rectangle-aNOBAW"></div>
+                <div class="bg-aNOBAW border-class-1"></div>
+                <div class="content-aNOBAW anima-valign-text-middle font-class-1">-</div>
+              </div>
+              <div class="table-gene-ight1style-Em3K2w">
+                <div class="rectangle-8chzCd"></div>
+                <div class="bg-8chzCd border-class-1"></div>
+                <div class="content-8chzCd anima-valign-text-middle font-class-1">-</div>
+              </div>
+              <div class="table-gene-ight2style-uRBcNs">
+                <div class="rectangle-WjwBNf"></div>
+                <div class="bg-WjwBNf border-class-1"></div>
+                <div class="group-WjwBNf">
+                  <div class="content-0KnftC anima-valign-text-middle font-class-1">
+                    Phone (Galaxy S20): 1440 x 3200
+                  </div>
+                  <div class="content-ABwkuo anima-valign-text-middle font-class-1">
+                    Phone (Galaxy S10): 1440 x 3040
+                  </div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-WncmSp">
+                <div class="rectangle-qsO8kn"></div>
+                <div class="bg-qsO8kn border-class-1"></div>
+                <div class="content-qsO8kn anima-valign-text-middle font-class-1">-</div>
+              </div>
+              <div class="table-title1line-TZ379S">
+                <div class="rectangle-qrdhWt"></div>
+                <div class="rectangle-ldbqJo border-class-2"></div>
+                <div class="title-qrdhWt anima-valign-text-middle font-class-5">Target devices (device pixels)</div>
+              </div>
+            </div>
+          </div>
+          <div class="pixel-density-also-hvAGCq font-class-1">
+            Pixel density (also referred to as &#34;screen density&#34; or &#34;display density&#34;) measures the
+            density of device pixels in a given physical area. This is commonly measured using pixels per inch (ppi).<br />For
+            many years, 96 ppi was a very common display density (hence CSS defining a pixel as 1/96th of an inch).
+          </div>
+          <div class="pixel-density-hvAGCq font-class-3">Pixel density</div>
+        </div>
+        <div class="group-2-C61RwL">
+          <a href="https://web.dev/codelab-density-descriptors/" target="_blank">
+            <div class="httpswebdevcode-zUixHA font-class-1">https://web.dev/codelab-density-descriptors/</div></a
+          >
+          <div class="x-logical-pixel-info-zUixHA font-class-1">
+            *Logical pixel: Information that specifies the color at a particular location on a grid. This type of pixel
+            has no inherent physical size.<br />** Physical pixel: The smallest dot of color that can be displayed on a
+            device.
+          </div>
+          <div class="guide-zUixHA">
+            <div class="document-b-x-contents-e95Q2C"></div>
+            <div class="image-3-e95Q2C">
+              <div class="x1440-x-3040-device-p-4xkNds font-class-1">1440 x 3040<br />device pixels</div>
+            </div>
+            <div class="image-2-e95Q2C">
+              <div class="x360-x-760-css-pixels-tCSxka font-class-1">360 x 760<br />CSS pixels</div>
+              <div class="web-app-tCSxka font-class-1">Web App</div>
+            </div>
+            <div class="image-1-e95Q2C">
+              <div class="android-FVeXqx font-class-1">Android</div>
+              <div class="x360-x-760-dp-FVeXqx font-class-1">360 x 760<br />dp</div>
+            </div>
+            <div class="arrow-e95Q2C">
+              <img
+                class="triangle-RvLahx"
+                src="img/0-1-units-and-measurements-triangle-B8A51BC9-8560-445E-A779-DD7CE37A68EB@2x.png"
+              />
+              <img
+                class="line-RvLahx"
+                src="img/0-1-units-and-measurements-line-4E28D9BD-24EE-40FF-A6A9-900B8D3DDD68@2x.png"
+              />
+            </div>
+            <div class="equal-e95Q2C">
+              <div class="rectangle-j5RTy0"></div>
+              <div class="rectangle-xwJO9y"></div>
+            </div>
+            <div class="pixel-ratio-e95Q2C font-class-1">Pixel ratio</div>
+            <div class="x4-e95Q2C font-class-1">@x4</div>
+            <div class="physical-pixels-h-e95Q2C font-class-1">Physical pixels** (hardware)</div>
+            <div class="logical-pixels-sof-e95Q2C font-class-1">Logical pixels* (software)</div>
+          </div>
+          <div class="x1dp-1-css-pixel-zUixHA font-class-3">1dp = 1 CSS pixel</div>
+        </div>
+        <div class="group-1-C61RwL">
+          <a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS_pixel" target="_blank">
+            <div class="httpsmaterialio-VyzZeT font-class-1">
+              https://material.io/design/layout/pixel-density.html#pixel-density-on-the-web
+            </div></a
+          >
+          <div class="css-pixelu-droiduc758-VyzZeT font-class-1">
+            CSS pixel은 Android의 Density-independent pixel(dp)와 동일한 개념이며, 다음과 같이 두 단위를 환산할 수 있다.
+          </div>
+          <a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS_pixel" target="_blank">
+            <div class="httpsdevelopermo-VyzZeT font-class-1">
+              https://developer.mozilla.org/en-US/docs/Glossary/CSS_pixel
+            </div></a
+          >
+          <a href="https://hacks.mozilla.org/2013/09/css-length-explained/" target="_blank">
+            <div class="httpshacksmozill-VyzZeT font-class-1">
+              https://hacks.mozilla.org/2013/09/css-length-explained/
+            </div></a
+          >
+          <a href="https://www.w3.org/Style/Examples/007/units.en.html" target="_blank">
+            <div class="httpswwww3orgs-VyzZeT font-class-1">https://www.w3.org/Style/Examples/007/units.en.html</div></a
+          >
+          <div class="css-pixel-is-an-abst-VyzZeT font-class-1">
+            CSS pixel is an abstract unit used by the browsers to draw images and other content on a web page. <br />CSS
+            pixels are device independent pixels. They readjust themselves according to the pixel density of the screen
+            they are rendered in.
+          </div>
+          <div class="css-pixelspx-VyzZeT font-class-3">CSS pixels(px)</div>
+        </div>
+        <div class="ubcf8-uac0-uc704ub294-C61RwL font-class-1">
+          본 가이드에서 사용하는 기본 단위는 CSS pixel이다. <br />본 문서에 기재된 수치에 단위 표기가 생략되어 있거나
+          px로 표기되어 있는 경우 CSS pixel을 지칭한다.
+        </div>
+        <div class="x0-1-units-and-meas-C61RwL font-class-7">(0-1) Units and measurements</div>
+        <div class="gnb-bar00-overview-C61RwL">
+          <div class="gnb-menu17-ste-normal-v1pbZ5">
+            <a href="a171textselection.html">
+              <div class="gnbmenu-oPdido">
+                <div class="x17-copy-paste-pQYUwC font-class-2">17. Copy &amp; paste</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu16-ail-normal-v1pbZ5">
+            <a href="a161thumbnailgrid.html">
+              <div class="gnbmenu-ZMDb0i">
+                <div class="x16-thumbnail-SoaRiD font-class-2">16. Thumbnail</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu15-dge-normal-v1pbZ5">
+            <a href="a151numberbadgeappbar.html">
+              <div class="gnbmenu-JcJ0r1">
+                <div class="x15-notification-bad-9eERd1 font-class-2">15. Notification badge</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu14-ion-normal-v1pbZ5">
+            <a href="a141descriptionwidth.html">
+              <div class="gnbmenu-1xVd4O">
+                <div class="rectangle-W4coIQ"></div>
+                <div class="x14-description-W4coIQ font-class-2">14. Description</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu13-ols-normal-v1pbZ5">
+            <a href="a131maintab.html">
+              <div class="gnbmenu-Wpudo4">
+                <div class="x13-view-controls-ky1EdQ font-class-2">13. View controls</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu12-lds-normal-v1pbZ5">
+            <a href="a121textfields.html">
+              <div class="gnbmenu-dqTC5Z">
+                <div class="x12-text-fields-DA36xP font-class-2">12. Text fields</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu11-ast-normal-v1pbZ5">
+            <a href="a111toastwidth.html">
+              <div class="gnbmenu-em7o3Z">
+                <div class="x11-toast-oIHfxk font-class-2">11. Toast</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu10-rch-normal-v1pbZ5">
+            <a href="a101searchbarwidth.html">
+              <div class="gnbmenu-SW5iyq">
+                <div class="x10-search-ERHMN2 font-class-2">10. Search</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu9--ing-normal-v1pbZ5">
+            <a href="a91scrollbar.html">
+              <div class="gnbmenu-TcM70s">
+                <div class="x9-scrolling-IbcISx font-class-2">9. Scrolling</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu8--ess-normal-v1pbZ5">
+            <a href="a81progressbar.html">
+              <div class="gnbmenu-9aBn6o">
+                <div class="x8-progress-cyx5tv font-class-2">8. Progress</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu7--ems-normal-v1pbZ5">
+            <a href="a71noitem.html">
+              <div class="gnbmenu-YIlPex">
+                <div class="x7-no-item-P96hBM font-class-2">7. No item</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu6--sts-normal-v1pbZ5">
+            <a href="a61listwidth.html">
+              <div class="gnbmenu-1T03Ik">
+                <div class="x6-lists-dCA1nJ font-class-2">6. Lists</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu5--ers-normal-v1pbZ5">
+            <a href="a51dividerbasiclist.html">
+              <div class="gnbmenu-GmRWu1">
+                <div class="x5-dividers-pxNh8y font-class-2">5. Dividers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu4--ogs-normal-v1pbZ5">
+            <a href="a41dialogwidth.html">
+              <div class="gnbmenu-KIQ0bB">
+                <div class="x4-dialogs-BvVeeB font-class-2">4. Dialogs</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu3--ers-normal-v1pbZ5">
+            <a href="a31checkbox.html">
+              <div class="gnbmenu-A4aWxi">
+                <div class="x3-controllers-pxeSlG font-class-2">3. Controllers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu2--ons-normal-v1pbZ5">
+            <a href="a21flatbutton.html">
+              <div class="gnbmenu-1wHgCC">
+                <div class="x2-buttons-BFdIUo font-class-2">2. Buttons</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu1--bar-normal-v1pbZ5">
+            <a href="a11appbartitle.html">
+              <div class="gnbmenu-qZWCse">
+                <div class="x1-app-bar-DJGm0N font-class-2">1. App bar</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu0--w-selected-v1pbZ5">
+            <a href="a06roundcorner.html">
+              <div class="gnb-submenu-normal-GoHH5t">
+                <div class="gnbsubmenu-yWFfH8">
+                  <div class="text-ohoOCM font-class-2">Round corner</div>
+                </div>
+              </div></a
+            >
+            <a href="a05responsiveui.html">
+              <div class="gnb-submenu-normal-nZHcZb">
+                <div class="gnbsubmenu-mCTkDn">
+                  <div class="text-Q0Et99 font-class-2">Responsive UI</div>
+                </div>
+              </div></a
+            >
+            <a href="a04touchfeedbackrippleeffect.html">
+              <div class="gnb-submenu-normal-xX7zvd">
+                <div class="gnbsubmenu-7Y1TA7">
+                  <div class="text-AFV95m font-class-2">Touch feedback: Ripple effect</div>
+                </div>
+              </div></a
+            >
+            <a href="a03font.html">
+              <div class="gnb-submenu-normal-h8iujd">
+                <div class="gnbsubmenu-ZGxLuB">
+                  <div class="text-22CVAR font-class-2">Font</div>
+                </div>
+              </div></a
+            >
+            <a href="a02color.html">
+              <div class="gnb-submenu-normal-6SgWys">
+                <div class="gnbsubmenu-qGAPkP">
+                  <div class="text-bQlLqT font-class-2">Color</div>
+                </div>
+              </div></a
+            >
+            <a href="a01unitsandmeasurements.html">
+              <div class="gnb-submenu-normal-qn4fcn">
+                <div class="gnbsubmenu-QZBSlw">
+                  <div class="text-g1XkCO font-class-3">Units and measurements</div>
+                </div>
+              </div></a
+            >
+            <div class="gnb-menu0--w-selected-GoHH5t">
+              <a href="a01unitsandmeasurements.html">
+                <div class="gnbmenu-XCU4Va">
+                  <div class="x0-overview-F2Nixu font-class-3">0. Overview</div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="gnb-menu-h-ory-normal-v1pbZ5">
+            <a href="history.html">
+              <div class="gnbmenu-ombgQy">
+                <div class="history-1wMrci font-class-2">History</div>
+              </div></a
+            >
+          </div>
+          <a href="index.html">
+            <div class="gnb-logo-v1pbZ5">
+              <div class="gotohome-quwRun">
+                <div class="group-1HrZwx">
+                  <div class="web-app-E5nOUr font-class-8">Web app</div>
+                  <div class="basic-component-gui-E5nOUr font-class-5">Basic component GUI V1.0</div>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

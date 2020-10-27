@@ -1,0 +1,2160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1680, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link href="../custom/custom.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../custom/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/a04touchfeedbackrippleeffect.css" />
+    <style>
+      @font-face {
+        font-family: "SamsungOneKorean-300";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-300_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-500";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 500_0.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-400";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-400_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-600";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 600_0.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-700";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-700_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(245, 246, 247, 1)">
+    <input type="hidden" id="anPageName" name="page" value="a04touchfeedbackrippleeffect" />
+    <div class="anima-container-center-horizontal">
+      <div class="a04touchfeedbackrippleeffect anima-screen">
+        <div class="group-3-C61RwL">
+          <div class="table-hvAGCq">
+            <div class="group-17-QMiytd">
+              <div class="group-16-oCtLpv">
+                <div class="table-gene-ight1style-vXvEo6">
+                  <div class="rectangle-MO4OTj"></div>
+                  <div class="bg-MO4OTj border-class-1"></div>
+                  <div class="content-MO4OTj anima-valign-text-middle font-class-1">100%</div>
+                </div>
+                <div class="table-title1line-vXvEo6">
+                  <div class="rectangle-7W4Kij"></div>
+                  <div class="rectangle-n40ix3 border-class-2"></div>
+                  <div class="title-7W4Kij anima-valign-text-middle font-class-6">Press</div>
+                </div>
+              </div>
+              <div class="group-16-uioxYj">
+                <div class="table-gene-ight1style-4ZZdfD">
+                  <div class="rectangle-OYYIAl"></div>
+                  <div class="bg-OYYIAl border-class-1"></div>
+                  <div class="content-OYYIAl anima-valign-text-middle font-class-1">80%</div>
+                </div>
+                <div class="table-title1line-4ZZdfD">
+                  <div class="rectangle-f0Gn9H"></div>
+                  <div class="rectangle-5qJyTI border-class-2"></div>
+                  <div class="title-f0Gn9H anima-valign-text-middle font-class-6">Focus</div>
+                </div>
+              </div>
+              <div class="group-16-lKlwVV">
+                <div class="table-gene-ight1style-NHOjsF">
+                  <div class="rectangle-BhKnOP"></div>
+                  <div class="bg-BhKnOP border-class-1"></div>
+                  <div class="content-BhKnOP anima-valign-text-middle font-class-1">60%</div>
+                </div>
+                <div class="table-title1line-NHOjsF">
+                  <div class="rectangle-TxLoxs"></div>
+                  <div class="rectangle-itJWPZ border-class-2"></div>
+                  <div class="title-TxLoxs anima-valign-text-middle font-class-6">Hover</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="one-ui3x-ripple-effe-hvAGCq font-class-3">
+            OneUI3.X Ripple effect (Press를 100%로 보았을 때 적용 수치)
+          </div>
+        </div>
+        <div class="group-2-C61RwL">
+          <div class="the-touchable-basic-zUixHA font-class-3">
+            The touchable Basic interaction components are applied to the below ripple value.
+          </div>
+          <div class="table-zUixHA">
+            <div class="date-picker-mYITD2">
+              <div class="table-gene-ight2style-A3vT9h">
+                <div class="rectangle-TIcAGP"></div>
+                <div class="bg-TIcAGP border-class-1"></div>
+                <div class="group-TIcAGP">
+                  <div class="content-qImOk6 anima-valign-text-middle font-class-1">
+                    background-color: #ffffff;<br />opacity: 0.2;
+                  </div>
+                  <div class="content-C0TXvw anima-valign-text-bottom font-class-3">Mask ON</div>
+                </div>
+              </div>
+              <div class="table-gene-ight2style-3XqWzi">
+                <div class="rectangle-fyOiDD"></div>
+                <div class="bg-fyOiDD border-class-1"></div>
+                <div class="group-fyOiDD">
+                  <div class="content-ucSuvZ anima-valign-text-middle font-class-1">
+                    background-color: #000000;<br />opacity: 0.16;
+                  </div>
+                  <div class="content-xRNFCR anima-valign-text-bottom font-class-3">Mask ON</div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-A3vT9h">
+                <div class="rectangle-zucTRz"></div>
+                <div class="bg-zucTRz border-class-1"></div>
+                <div class="content-zucTRz anima-valign-text-middle font-class-1">
+                  width: /*(Text width+좌우 8px 마진)*/<br />height: /*(Text width+상하 4px 마진)*/<br />height:
+                  /*(button height)*/<br />border-radius: 6px;
+                </div>
+              </div>
+              <div class="cell-A3vT9h">
+                <div class="table-gene-ight1style-x11lxi">
+                  <div class="rectangle-fYxLi4"></div>
+                  <div class="bg-fYxLi4 border-class-1"></div>
+                  <div class="content-fYxLi4 anima-valign-text-middle font-class-1"></div>
+                </div>
+                <div class="symbol-x11lxi">
+                  <div class="x0-04-measu-datepicker-eIAt1r">
+                    <div class="rectangle-xUoT1D"></div>
+                    <div class="mobile-lig-t-calendar-xUoT1D">
+                      <div class="group-NNMkQQ">
+                        <div class="numberline06-ejFeBP">
+                          <div class="x6-3xTogZ anima-valign-text-middle font-class-2">6</div>
+                          <div class="x5-3xTogZ anima-valign-text-middle font-class-2">5</div>
+                          <div class="x4-3xTogZ anima-valign-text-middle font-class-2">4</div>
+                          <div class="x3-3xTogZ anima-valign-text-middle font-class-2">3</div>
+                          <div class="x2-3xTogZ anima-valign-text-middle font-class-2">2</div>
+                          <div class="x1-3xTogZ anima-valign-text-middle font-class-2">1</div>
+                          <div class="x31-3xTogZ anima-valign-text-middle font-class-2">31</div>
+                        </div>
+                        <div class="numberline05-ejFeBP">
+                          <div class="x30-0OcSV3 anima-valign-text-middle font-class-2">30</div>
+                          <div class="x29-0OcSV3 anima-valign-text-middle font-class-2">29</div>
+                          <div class="x28-0OcSV3 anima-valign-text-middle font-class-2">28</div>
+                          <div class="x27-0OcSV3 anima-valign-text-middle font-class-2">27</div>
+                          <div class="x26-0OcSV3 anima-valign-text-middle font-class-2">26</div>
+                          <div class="x25-0OcSV3 anima-valign-text-middle font-class-2">25</div>
+                          <div class="x24-0OcSV3 anima-valign-text-middle font-class-2">24</div>
+                        </div>
+                        <div class="numberline04-ejFeBP">
+                          <div class="x23-zZRXne anima-valign-text-middle font-class-2">23</div>
+                          <div class="x22-zZRXne anima-valign-text-middle font-class-2">22</div>
+                          <div class="x21-zZRXne anima-valign-text-middle font-class-2">21</div>
+                          <div class="x20-zZRXne anima-valign-text-middle font-class-2">20</div>
+                          <div class="x19-zZRXne anima-valign-text-middle font-class-2">19</div>
+                          <div class="x18-zZRXne anima-valign-text-middle font-class-2">18</div>
+                          <div class="x17-zZRXne anima-valign-text-middle font-class-2">17</div>
+                        </div>
+                        <div class="numberline03-ejFeBP">
+                          <div class="x16-24kqhG anima-valign-text-middle font-class-2">16</div>
+                          <div class="x15-24kqhG anima-valign-text-middle font-class-2">15</div>
+                          <div class="x14-24kqhG anima-valign-text-middle font-class-2">14</div>
+                          <div class="x13-24kqhG anima-valign-text-middle font-class-2">13</div>
+                          <div class="x12-24kqhG anima-valign-text-middle font-class-2">12</div>
+                          <div class="x11-24kqhG anima-valign-text-middle font-class-2">11</div>
+                          <div class="x10-24kqhG anima-valign-text-middle font-class-2">10</div>
+                        </div>
+                        <div class="numberline02-ejFeBP">
+                          <div class="x9-ylGuAK anima-valign-text-middle font-class-2">9</div>
+                          <div class="x8-ylGuAK anima-valign-text-middle font-class-2">8</div>
+                          <div class="x7-ylGuAK anima-valign-text-middle font-class-2">7</div>
+                          <div class="x6-ylGuAK anima-valign-text-middle font-class-2">6</div>
+                          <div class="x5-ylGuAK anima-valign-text-middle font-class-2">5</div>
+                          <div class="selectbg-ylGuAK">
+                            <img
+                              class="oval-2rJZ3q"
+                              src="img/0-4-touch-feedback--ripple-effect-oval-90CC0DC8-19AD-4E1F-AC6A-1E56F2A1AC93@2x.png"
+                            />
+                          </div>
+                          <div class="x4-ylGuAK anima-valign-text-middle font-class-2">4</div>
+                          <div class="x3-ylGuAK anima-valign-text-middle font-class-2">3</div>
+                        </div>
+                        <div class="numberline01-ejFeBP">
+                          <div class="x2-3Ax3PL anima-valign-text-middle font-class-2">2</div>
+                          <div class="x1-3Ax3PL anima-valign-text-middle font-class-2">1</div>
+                          <div class="x30-3Ax3PL anima-valign-text-middle font-class-2">30</div>
+                          <div class="x29-3Ax3PL anima-valign-text-middle font-class-2">29</div>
+                          <div class="x28-3Ax3PL anima-valign-text-middle font-class-2">28</div>
+                          <div class="x27-3Ax3PL anima-valign-text-middle font-class-2">27</div>
+                          <div class="x26-3Ax3PL anima-valign-text-middle font-class-2">26</div>
+                        </div>
+                        <div class="week-ejFeBP">
+                          <div class="sun-tOv3zn anima-valign-text-middle font-class-2">SUN</div>
+                          <div class="sat-tOv3zn anima-valign-text-middle font-class-2">SAT</div>
+                          <div class="fri-tOv3zn anima-valign-text-middle font-class-2">FRI</div>
+                          <div class="thu-tOv3zn anima-valign-text-middle font-class-2">THU</div>
+                          <div class="wed-tOv3zn anima-valign-text-middle font-class-2">WED</div>
+                          <div class="tue-tOv3zn anima-valign-text-middle font-class-2">TUE</div>
+                          <div class="mon-tOv3zn anima-valign-text-middle font-class-2">MON</div>
+                        </div>
+                      </div>
+                      <div class="title-NNMkQQ">
+                        <div class="november-2018-hbRpeJ anima-valign-text-middle font-class-2">November 2018</div>
+                        <div class="mobile-lig-pickernext-hbRpeJ"></div>
+                        <div class="mobile-lig-erprevious-hbRpeJ"></div>
+                      </div>
+                    </div>
+                    <div class="rectangle-MeWHjE"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-3XqWzi">
+                <div class="rectangle-oJwwCn"></div>
+                <div class="bg-oJwwCn border-class-1"></div>
+                <div class="content-oJwwCn anima-valign-text-middle font-class-1">Date picker</div>
+              </div>
+            </div>
+            <div class="button-mYITD2">
+              <div class="flat-E3cL70">
+                <div class="table-gene-ight1style-Jjg4nu">
+                  <div class="rectangle-w0foia"></div>
+                  <div class="bg-w0foia border-class-1"></div>
+                  <div class="content-w0foia anima-valign-text-middle font-class-1">
+                    * Flat button의 ripple 크기는 app별 최적화 튜닝 가능
+                  </div>
+                </div>
+                <div class="text-only-Jjg4nu">
+                  <div class="table-gene-ight1style-YMBhW3">
+                    <div class="rectangle-qN1ref"></div>
+                    <div class="bg-qN1ref border-class-1"></div>
+                    <div class="content-qN1ref anima-valign-text-middle font-class-1">Text only</div>
+                  </div>
+                  <div class="cell-YMBhW3">
+                    <div class="table-gene-ight1style-N1Q302">
+                      <div class="rectangle-PhWXie"></div>
+                      <div class="bg-PhWXie border-class-1"></div>
+                      <div class="content-PhWXie anima-valign-text-middle font-class-1"></div>
+                    </div>
+                    <div class="symbol-N1Q302">
+                      <div class="x0-04-measu-buttonflat-qZIw81">
+                        <div class="mobile-lig-flatbutton-Cmk5bw">
+                          <div class="button-HJlBDx anima-valign-text-middle font-class-5">Button</div>
+                        </div>
+                        <div class="rectangle-Cmk5bw"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cell-3x4VYz">
+                    <div class="table-gene-ight1style-yxLRlq">
+                      <div class="rectangle-70dzAd"></div>
+                      <div class="bg-70dzAd border-class-1"></div>
+                      <div class="content-70dzAd anima-valign-text-middle font-class-1">
+                        border-radius : 22px;<br /><br /><br />
+                      </div>
+                    </div>
+                    <div class="guide-yxLRlq">
+                      <div class="symbol-xX6ZTS">
+                        <div class="x0-04-measu-buttonflat-xxEoE8">
+                          <div class="mobile-lig-flatbutton-IS83xx">
+                            <div class="button-iZmFbj anima-valign-text-middle font-class-5">Button</div>
+                          </div>
+                          <div class="rectangle-IS83xx"></div>
+                        </div>
+                      </div>
+                      <div class="measure-xX6ZTS">
+                        <div class="spacing-qFxd5B">
+                          <div class="guide-measure-area-XkyExM"></div>
+                          <div class="guide-meas--spacing-2-XkyExM">
+                            <div class="x0-8uMVMr font-class-1">16</div>
+                            <div class="rectangle-8uMVMr"></div>
+                            <div class="rectangle-HAxB0l"></div>
+                            <div class="rectangle-Bv9Vzb"></div>
+                          </div>
+                        </div>
+                        <div class="spacing-pylEjj">
+                          <div class="guide-measure-area-348ApU"></div>
+                          <div class="guide-meas--spacing-2-348ApU">
+                            <div class="x0-mDacM0 font-class-1">16</div>
+                            <div class="rectangle-mDacM0"></div>
+                            <div class="rectangle-x7rKQw"></div>
+                            <div class="rectangle-PDa1Aj"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table-gene-ight2style-YMBhW3">
+                    <div class="rectangle-LytGkn"></div>
+                    <div class="bg-LytGkn border-class-1"></div>
+                    <div class="group-LytGkn">
+                      <div class="content-uaa6wU anima-valign-text-middle font-class-1">
+                        background-color: #000000;<br />opacity: 0.1;
+                      </div>
+                      <div class="content-jDyyLu anima-valign-text-bottom font-class-3">Mask ON</div>
+                    </div>
+                  </div>
+                  <div class="table-gene-ight2style-3x4VYz">
+                    <div class="rectangle-bK6DUV"></div>
+                    <div class="bg-bK6DUV border-class-1"></div>
+                    <div class="group-bK6DUV">
+                      <div class="content-y9aHom anima-valign-text-middle font-class-1">
+                        background-color: #ffffff;<br />opacity: 0.2;
+                      </div>
+                      <div class="content-tgJStZ anima-valign-text-bottom font-class-3">Mask ON</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="icon-only-Jjg4nu">
+                  <div class="table-gene-ight1style-Hr0ZqD">
+                    <div class="rectangle-cKM5Hh"></div>
+                    <div class="bg-cKM5Hh border-class-1"></div>
+                    <div class="content-cKM5Hh anima-valign-text-middle font-class-1">Icon only</div>
+                  </div>
+                  <div class="cell-Hr0ZqD">
+                    <div class="table-gene-ight1style-JiP8kh">
+                      <div class="rectangle-u9BxeR"></div>
+                      <div class="bg-u9BxeR border-class-1"></div>
+                      <div class="content-u9BxeR anima-valign-text-middle font-class-1"></div>
+                    </div>
+                    <div class="symbol-JiP8kh">
+                      <div class="x0-04-measu-buttonicon-p8BcLj">
+                        <div class="mobile-lig-dd-del-add-2g7HkQ"></div>
+                        <div class="rectangle-2g7HkQ"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cell-XOPXCx">
+                    <div class="table-gene-ight1style-9KZjE4">
+                      <div class="rectangle-9rHXnb"></div>
+                      <div class="bg-9rHXnb border-class-1"></div>
+                      <div class="content-9rHXnb anima-valign-text-middle font-class-1">
+                        width: 32px;<br />height: 32px;
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table-gene-ight1style-XOPXCx">
+                    <div class="rectangle-Jz1Zsp"></div>
+                    <div class="bg-Jz1Zsp border-class-1"></div>
+                    <div class="content-Jz1Zsp anima-valign-text-middle font-class-1">
+                      background-color: #000000;<br />opacity: 0.1;
+                    </div>
+                  </div>
+                  <div class="table-gene-ight1style-twrFjR">
+                    <div class="rectangle-gteaNd"></div>
+                    <div class="bg-gteaNd border-class-1"></div>
+                    <div class="content-gteaNd anima-valign-text-middle font-class-1">
+                      background-color: #ffffff;<br />opacity: 0.2;
+                    </div>
+                  </div>
+                </div>
+                <div class="table-gene-ight1style-i2ix64">
+                  <div class="rectangle-ml1myL"></div>
+                  <div class="bg-ml1myL border-class-1"></div>
+                  <div class="content-ml1myL anima-valign-text-middle font-class-1">Flat</div>
+                </div>
+              </div>
+              <div class="fab-contained-E3cL70">
+                <div class="table-gene-ight2style-y3D3iD">
+                  <div class="rectangle-2yx74P"></div>
+                  <div class="bg-2yx74P border-class-1"></div>
+                  <div class="group-2yx74P">
+                    <div class="content-q575xp anima-valign-text-middle font-class-1">
+                      background-color: #ffffff;<br />opacity: 0.2;
+                    </div>
+                    <div class="content-3OUWvx anima-valign-text-bottom font-class-3">Mask ON</div>
+                  </div>
+                </div>
+                <div class="table-gene-ight2style-x8rg77">
+                  <div class="rectangle-3BL9in"></div>
+                  <div class="bg-3BL9in border-class-1"></div>
+                  <div class="group-3BL9in">
+                    <div class="content-V685xI anima-valign-text-middle font-class-1">
+                      background-color: #000000;<br />opacity: 0.16;
+                    </div>
+                    <div class="content-asRYUr anima-valign-text-bottom font-class-3">Mask ON</div>
+                  </div>
+                </div>
+                <div class="table-gene-ight2style-uGd2OE">
+                  <div class="rectangle-qzvxW5"></div>
+                  <div class="bg-qzvxW5 border-class-1"></div>
+                  <div class="group-qzvxW5">
+                    <div class="content-ytlcML anima-valign-text-middle font-class-1">
+                      background-color: #000000;<br />opacity: 0.1;
+                    </div>
+                    <div class="content-Rkq83r anima-valign-text-bottom font-class-3">Mask ON</div>
+                  </div>
+                </div>
+                <div class="table-gene-ight2style-jQk46G">
+                  <div class="rectangle-ypKkfO"></div>
+                  <div class="bg-ypKkfO border-class-1"></div>
+                  <div class="group-ypKkfO">
+                    <div class="content-NwfKZO anima-valign-text-middle font-class-1">
+                      background-color: #000000;<br />opacity: 0.1;
+                    </div>
+                    <div class="content-XNDxwa anima-valign-text-bottom font-class-3">Mask ON</div>
+                  </div>
+                </div>
+                <div class="contained-y3D3iD">
+                  <div class="gray-fKRRrX">
+                    <div class="table-gene-ight1style-j1rYxH">
+                      <div class="rectangle-uSnISx"></div>
+                      <div class="bg-uSnISx border-class-1"></div>
+                      <div class="content-uSnISx anima-valign-text-middle font-class-1">Gray</div>
+                    </div>
+                    <div class="cell-j1rYxH">
+                      <div class="table-gene-ight1style-jwAwBe">
+                        <div class="rectangle-e0OG8q"></div>
+                        <div class="bg-e0OG8q border-class-1"></div>
+                        <div class="content-e0OG8q anima-valign-text-middle font-class-1"></div>
+                      </div>
+                      <div class="symbol-jwAwBe">
+                        <div class="x0-04-measu-tainedgray-EkeM7y">
+                          <div class="mobile-lig-buttonbody-bgwnbu">
+                            <div class="button-ocErOc anima-valign-text-middle font-class-5">Button</div>
+                          </div>
+                          <div class="rectangle-bgwnbu"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cell-PCuUrG">
+                      <div class="table-gene-ight1style-DXiidt">
+                        <div class="rectangle-pXTOl9"></div>
+                        <div class="bg-pXTOl9 border-class-1"></div>
+                        <div class="content-pXTOl9 anima-valign-text-middle font-class-1">border-radius: 22px;</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="color-fKRRrX">
+                    <div class="table-gene-ight1style-TIbubh">
+                      <div class="rectangle-Y9e59n"></div>
+                      <div class="bg-Y9e59n border-class-1"></div>
+                      <div class="content-Y9e59n anima-valign-text-middle font-class-1">Color</div>
+                    </div>
+                    <div class="cell-TIbubh">
+                      <div class="table-gene-ight1style-XkTk1T">
+                        <div class="rectangle-8FdwMQ"></div>
+                        <div class="bg-8FdwMQ border-class-1"></div>
+                        <div class="content-8FdwMQ anima-valign-text-middle font-class-1"></div>
+                      </div>
+                      <div class="symbol-XkTk1T">
+                        <div class="x0-04-measu-ainedcolor-F8wCIR">
+                          <div class="mobile-lig-odycolored-0WDDEz">
+                            <div class="button-JhP9Jx anima-valign-text-middle font-class-5">Button</div>
+                          </div>
+                          <div class="rectangle-0WDDEz"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cell-wg2b0K">
+                      <div class="table-gene-ight1style-vskco0">
+                        <div class="rectangle-xJAjLf"></div>
+                        <div class="bg-xJAjLf border-class-1"></div>
+                        <div class="content-xJAjLf anima-valign-text-middle font-class-1">border-radius: 22px;</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table-gene-ight1style-fKRRrX">
+                    <div class="rectangle-UtLqk6"></div>
+                    <div class="bg-UtLqk6 border-class-1"></div>
+                    <div class="content-UtLqk6 anima-valign-text-middle font-class-1">Contained</div>
+                  </div>
+                </div>
+                <div class="fab-y3D3iD">
+                  <div class="table-gene-ight1style-ILiKi6">
+                    <div class="rectangle-MlIRHK"></div>
+                    <div class="bg-MlIRHK border-class-1"></div>
+                    <div class="content-MlIRHK anima-valign-text-middle font-class-1">FAB</div>
+                  </div>
+                  <div class="table-gene-ight2style-ILiKi6">
+                    <div class="rectangle-TkTNm6"></div>
+                    <div class="bg-TkTNm6 border-class-1"></div>
+                    <div class="group-TkTNm6">
+                      <div class="content-vbpuyb anima-valign-text-middle font-class-1">
+                        background-color: #000000;<br />opacity: 0.16;
+                      </div>
+                      <div class="content-cA3yQU anima-valign-text-bottom font-class-3">Mask ON</div>
+                    </div>
+                  </div>
+                  <div class="table-gene-ight2style-UUneqn">
+                    <div class="rectangle-dS9O2s"></div>
+                    <div class="bg-dS9O2s border-class-1"></div>
+                    <div class="group-dS9O2s">
+                      <div class="content-FZtsOy anima-valign-text-middle font-class-1">
+                        background-color: #000000;<br />opacity: 0.1;
+                      </div>
+                      <div class="content-NJfxGN anima-valign-text-bottom font-class-3">Mask ON</div>
+                    </div>
+                  </div>
+                  <div class="cell-ILiKi6">
+                    <div class="table-gene-ight1style-xvVhCD">
+                      <div class="rectangle-JFTYHb"></div>
+                      <div class="bg-JFTYHb border-class-1"></div>
+                      <div class="content-JFTYHb anima-valign-text-middle font-class-1">
+                        width: 52px;<br />height: 52px;
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cell-UUneqn">
+                    <div class="table-gene-ight1style-Gxh3xr">
+                      <div class="rectangle-BW7qgI"></div>
+                      <div class="bg-BW7qgI border-class-1"></div>
+                      <div class="content-BW7qgI anima-valign-text-middle font-class-1"></div>
+                    </div>
+                    <div class="symbol-Gxh3xr">
+                      <div class="x0-04-measu--buttonfab-x3wdTl">
+                        <div class="mobile-lig-2buttonfab-zDg8Jl">
+                          <div class="mobile-lig--title-add-rmmly7"></div>
+                        </div>
+                        <div class="rectangle-zDg8Jl"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-E3cL70">
+                <div class="rectangle-tAnJyh"></div>
+                <div class="bg-tAnJyh border-class-1"></div>
+                <div class="content-tAnJyh anima-valign-text-middle font-class-1">Button</div>
+              </div>
+            </div>
+            <div class="search-mYITD2">
+              <div class="clear-AO61i5">
+                <div class="table-gene-ight1style-U6GXOK">
+                  <div class="rectangle-XBshZm"></div>
+                  <div class="bg-XBshZm border-class-1"></div>
+                  <div class="content-XBshZm anima-valign-text-middle font-class-1">Clear</div>
+                </div>
+                <div class="cell-U6GXOK">
+                  <div class="table-gene-ight1style-B8Th9E">
+                    <div class="rectangle-ltio1k"></div>
+                    <div class="bg-ltio1k border-class-1"></div>
+                    <div class="content-ltio1k anima-valign-text-middle font-class-1"></div>
+                  </div>
+                  <div class="symbol-B8Th9E"></div>
+                </div>
+                <div class="cell-1eTW46">
+                  <div class="table-gene-ight1style-QMAKjt">
+                    <div class="rectangle-4LfaBL"></div>
+                    <div class="bg-4LfaBL border-class-1"></div>
+                    <div class="content-4LfaBL anima-valign-text-middle font-class-1">
+                      width: /*Screen width*/<br />border-radius: 0 0 26px 26px;
+                    </div>
+                  </div>
+                </div>
+                <div class="table-gene-ight2style-U6GXOK">
+                  <div class="rectangle-FQk422"></div>
+                  <div class="bg-FQk422 border-class-1"></div>
+                  <div class="group-FQk422">
+                    <div class="content-hF8pfx anima-valign-text-middle font-class-1">
+                      background-color: #000000;<br />opacity: 0.1;
+                    </div>
+                    <div class="content-4526zj anima-valign-text-bottom font-class-3">Mask ON</div>
+                  </div>
+                </div>
+                <div class="table-gene-ight2style-1eTW46">
+                  <div class="rectangle-o0xlO5"></div>
+                  <div class="bg-o0xlO5 border-class-1"></div>
+                  <div class="group-o0xlO5">
+                    <div class="content-AJzsQ0 anima-valign-text-middle font-class-1">
+                      background-color: #ffffff;<br />opacity: 0.2;
+                    </div>
+                    <div class="content-1roAya anima-valign-text-bottom font-class-3">Mask ON</div>
+                  </div>
+                </div>
+              </div>
+              <div class="cancel-AO61i5">
+                <div class="cancel-bxPRo4">
+                  <div class="table-gene-ight1style-a7wb2Z">
+                    <div class="rectangle-xM0sRE"></div>
+                    <div class="bg-xM0sRE border-class-1"></div>
+                    <div class="content-xM0sRE anima-valign-text-middle font-class-1">Cancel</div>
+                  </div>
+                  <div class="cell-a7wb2Z">
+                    <div class="table-gene-ight1style-CuxOCW">
+                      <div class="rectangle-YyLJgX"></div>
+                      <div class="bg-YyLJgX border-class-1"></div>
+                      <div class="content-YyLJgX anima-valign-text-middle font-class-1">
+                        width: 50px;<br />height: 36px;
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cell-z9OrkB">
+                    <div class="table-gene-ight1style-0sEHA9">
+                      <div class="rectangle-2gv704"></div>
+                      <div class="bg-2gv704 border-class-1"></div>
+                      <div class="content-2gv704 anima-valign-text-middle font-class-1"></div>
+                    </div>
+                    <div class="symbol-0sEHA9"></div>
+                  </div>
+                  <div class="table-gene-ight1style-z9OrkB">
+                    <div class="rectangle-tgBErr"></div>
+                    <div class="bg-tgBErr border-class-1"></div>
+                    <div class="content-tgBErr anima-valign-text-middle font-class-1">
+                      background-color: #000000;<br />opacity: 0.1;
+                    </div>
+                  </div>
+                  <div class="table-gene-ight1style-j1WMlg">
+                    <div class="rectangle-1LXa7a"></div>
+                    <div class="bg-1LXa7a border-class-1"></div>
+                    <div class="content-1LXa7a anima-valign-text-middle font-class-1">
+                      background-color: #ffffff;<br />opacity: 0.2;
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-AO61i5">
+                <div class="rectangle-9wcQFi"></div>
+                <div class="bg-9wcQFi border-class-1"></div>
+                <div class="content-9wcQFi anima-valign-text-middle font-class-1">Search</div>
+              </div>
+            </div>
+            <div class="toast-action-button-mYITD2">
+              <div class="table-gene-ight2style-ATNlr3">
+                <div class="rectangle-vFYxVB"></div>
+                <div class="bg-vFYxVB border-class-1"></div>
+                <div class="group-vFYxVB">
+                  <div class="content-Y0b2x5 anima-valign-text-middle font-class-1">
+                    background-color: #000000;<br />opacity: 0.2;
+                  </div>
+                  <div class="content-uN2KTi anima-valign-text-bottom font-class-3">Mask ON</div>
+                </div>
+              </div>
+              <div class="table-gene-ight2style-kxpoSb">
+                <div class="rectangle-kbpvc9"></div>
+                <div class="bg-kbpvc9 border-class-1"></div>
+                <div class="group-kbpvc9">
+                  <div class="content-bB3UkZ anima-valign-text-middle font-class-1">
+                    background-color: #000000;<br />opacity: 0.2;
+                  </div>
+                  <div class="content-f6Pn2e anima-valign-text-bottom font-class-3">Mask ON</div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-ATNlr3">
+                <div class="rectangle-PC6AXP"></div>
+                <div class="bg-PC6AXP border-class-1"></div>
+                <div class="content-PC6AXP anima-valign-text-middle font-class-1">
+                  width: /*(Text width-좌우 20px마진)*/<br />height: 44px;<br />border-radius: 22px;
+                </div>
+              </div>
+              <div class="cell-ATNlr3">
+                <div class="table-gene-ight1style-ZIYgxf">
+                  <div class="rectangle-bxWtpr"></div>
+                  <div class="bg-bxWtpr border-class-1"></div>
+                  <div class="content-bxWtpr anima-valign-text-middle font-class-1"></div>
+                </div>
+                <div class="symbol-ZIYgxf">
+                  <div class="x0-04-measu-oastaction-oEoXkQ">
+                    <div class="mobile-lig-withaction-CDgrcj">
+                      <div class="group-r0W6Iy">
+                        <div class="mobile-lig-tionbutton-YROyVb">
+                          <div class="done-Dttd8o anima-valign-text-middle font-class-5">Done</div>
+                        </div>
+                        <div class="text-YROyVb font-class-2">Saving contact</div>
+                      </div>
+                    </div>
+                    <div class="rectangle-CDgrcj"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-kxpoSb">
+                <div class="rectangle-9iLplt"></div>
+                <div class="bg-9iLplt border-class-1"></div>
+                <div class="content-9iLplt anima-valign-text-middle font-class-1">Toast action button</div>
+              </div>
+            </div>
+            <div class="dialog-action-button-mYITD2">
+              <div class="table-gene-ight2style-oVh9F8">
+                <div class="rectangle-G1tfyO"></div>
+                <div class="bg-G1tfyO border-class-1"></div>
+                <div class="group-G1tfyO">
+                  <div class="content-QtbNHR anima-valign-text-middle font-class-1">
+                    background-color: #ffffff;<br />opacity: 0.2;
+                  </div>
+                  <div class="content-MCV18G anima-valign-text-bottom font-class-3">Mask ON</div>
+                </div>
+              </div>
+              <div class="table-gene-ight2style-8by2uW">
+                <div class="rectangle-097UO0"></div>
+                <div class="bg-097UO0 border-class-1"></div>
+                <div class="group-097UO0">
+                  <div class="content-FgTtRN anima-valign-text-middle font-class-1">
+                    background-color: #000000;<br />opacity: 0.1;
+                  </div>
+                  <div class="content-vBSyrD anima-valign-text-bottom font-class-3">Mask ON</div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-oVh9F8">
+                <div class="rectangle-3BK4pz"></div>
+                <div class="bg-3BK4pz border-class-1"></div>
+                <div class="content-3BK4pz anima-valign-text-middle font-class-1">
+                  width: /*(Text width - 좌우 4px 마진) */;<br />height: /*(Button height)*/;<br />border-radius: 26px;
+                </div>
+              </div>
+              <div class="cell-oVh9F8">
+                <div class="table-gene-ight1style-1eSWZ8">
+                  <div class="rectangle-EMjsjG"></div>
+                  <div class="bg-EMjsjG border-class-1"></div>
+                  <div class="content-EMjsjG anima-valign-text-middle font-class-1"></div>
+                </div>
+                <div class="symbol-1eSWZ8">
+                  <div class="touch-feedback-wwOyBR"></div>
+                  <div class="action-1-wwOyBR anima-valign-text-middle font-class-5">Action 1</div>
+                  <img
+                    class="x0-04-measu-alogaction-wwOyBR"
+                    src="img/0-4-touch-feedback--ripple-effect-0-04measuredialogaction-009A70F0-0B96-49F3-B3B0-DFF5E08597B3@2x.png"
+                  />
+                </div>
+              </div>
+              <div class="table-gene-ight1style-8by2uW">
+                <div class="rectangle-BEu59O"></div>
+                <div class="bg-BEu59O border-class-1"></div>
+                <div class="content-BEu59O anima-valign-text-middle font-class-1">Dialog action button</div>
+              </div>
+            </div>
+            <div class="master-switch-mYITD2">
+              <div class="table-gene-ight2style-Hxtjm9">
+                <div class="rectangle-SWlE5W"></div>
+                <div class="bg-SWlE5W border-class-1"></div>
+                <div class="group-SWlE5W">
+                  <div class="content-CaLhSc anima-valign-text-middle font-class-1">
+                    background-color: #ffffff;<br />opacity: 0.2;
+                  </div>
+                  <div class="content-MoAA4G anima-valign-text-bottom font-class-3">Mask ON</div>
+                </div>
+              </div>
+              <div class="table-gene-ight2style-pMXu0M">
+                <div class="rectangle-15GmPf"></div>
+                <div class="bg-15GmPf border-class-1"></div>
+                <div class="group-15GmPf">
+                  <div class="content-k4MGnQ anima-valign-text-middle font-class-1">
+                    background-color: #000000;<br />opacity: 0.1;
+                  </div>
+                  <div class="content-QzlBd8 anima-valign-text-bottom font-class-3">Mask ON</div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-Hxtjm9">
+                <div class="rectangle-wcjyK2"></div>
+                <div class="bg-wcjyK2 border-class-1"></div>
+                <div class="content-wcjyK2 anima-valign-text-middle font-class-1">
+                  width: /*(Screen width)*/;<br />height : 64px;<br />border-radius: 26px;
+                </div>
+              </div>
+              <div class="cell-Hxtjm9">
+                <div class="table-gene-ight1style-09Ur00">
+                  <div class="rectangle-4q2bG0"></div>
+                  <div class="bg-4q2bG0 border-class-1"></div>
+                  <div class="content-4q2bG0 anima-valign-text-middle font-class-1"></div>
+                </div>
+                <div class="symbol-09Ur00">
+                  <div class="x0-04-measu-mainswitch-SnuVVm">
+                    <div class="mobile-lig-inswitchon-4PD45z">
+                      <div class="mobile-lig-h-switchon-uvBFPm">
+                        <div class="switchbg-NGXskr"></div>
+                        <img
+                          class="switchfill-NGXskr"
+                          src="img/0-4-touch-feedback--ripple-effect-switchfill-B6A7AC28-0031-4731-88A4-06C554A350AD@2x.png"
+                        />
+                        <img
+                          class="switchborder-NGXskr"
+                          src="img/0-4-touch-feedback--ripple-effect-switchborder-3A85660D-5AFF-41FA-BC20-F0128E740754@2x.png"
+                        />
+                      </div>
+                      <div class="title-uvBFPm">
+                        <div class="on-mFNelj anima-valign-text-middle font-class-5">On</div>
+                      </div>
+                    </div>
+                    <div class="rectangle-4PD45z"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-pMXu0M">
+                <div class="rectangle-JPFfxv"></div>
+                <div class="bg-JPFfxv border-class-1"></div>
+                <div class="content-JPFfxv anima-valign-text-middle font-class-1">Main switch</div>
+              </div>
+            </div>
+            <div class="spinner-mYITD2">
+              <div class="body-8nWI7w">
+                <div class="table-gene-ight1style-8dxUhA">
+                  <div class="rectangle-1KaXML"></div>
+                  <div class="bg-1KaXML border-class-1"></div>
+                  <div class="content-1KaXML anima-valign-text-middle font-class-1">Body</div>
+                </div>
+                <div class="cell-8dxUhA">
+                  <div class="table-gene-ight1style-jbdoxk">
+                    <div class="rectangle-nZ5cWu"></div>
+                    <div class="bg-nZ5cWu border-class-1"></div>
+                    <div class="content-nZ5cWu anima-valign-text-middle font-class-1"></div>
+                  </div>
+                  <div class="symbol-jbdoxk">
+                    <div class="x0-04-measu-pinnerlist-RwqSSg">
+                      <div class="mobile-lig-inner-list-uLqcBd">
+                        <div class="spinner-1SbyNB">
+                          <div class="mobile-lig-ls-spinner-0arZ2L"></div>
+                          <div class="main-text-1-line-0arZ2L font-class-2">Password</div>
+                        </div>
+                      </div>
+                      <div class="rectangle-uLqcBd"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cell-aJCWDi">
+                  <div class="table-gene-ight1style-ZzakqK">
+                    <div class="rectangle-OJBsWi"></div>
+                    <div class="bg-OJBsWi border-class-1"></div>
+                    <div class="content-OJBsWi anima-valign-text-middle font-class-1">border-radius: 24px;</div>
+                  </div>
+                  <div class="rectangle-ZzakqK"></div>
+                  <div class="symbol-ZzakqK">
+                    <div class="guide-eN1B44">
+                      <div class="password-rcnaha font-class-2">Password</div>
+                      <div class="mobile-lig-ls-spinner-rcnaha"></div>
+                    </div>
+                    <div class="size-eN1B44">
+                      <div class="guide-measure-area-Mr9Sdl"></div>
+                      <div class="guide-meas-eft-size-1-Mr9Sdl">
+                        <div class="value-RGuaXe">
+                          <div class="x0-pwoic1 font-class-1">48</div>
+                        </div>
+                        <div class="rectangle-RGuaXe"></div>
+                        <div class="rectangle-kxvvBW"></div>
+                        <div class="rectangle-ApWJlW"></div>
+                      </div>
+                    </div>
+                    <div class="spacing-eN1B44">
+                      <div class="guide-measure-area-Wjc8Yw"></div>
+                      <div class="guide-meas--spacing-2-Wjc8Yw">
+                        <div class="x0-C1xwkP font-class-1">20</div>
+                        <div class="rectangle-C1xwkP"></div>
+                        <div class="rectangle-Oh64Kp"></div>
+                        <div class="rectangle-myOhfw"></div>
+                      </div>
+                    </div>
+                    <div class="spacing-xtjPxs">
+                      <div class="guide-measure-area-QgF5QA"></div>
+                      <div class="guide-meas--spacing-2-QgF5QA">
+                        <div class="x0-yZtQMF font-class-1">4</div>
+                        <div class="rectangle-yZtQMF"></div>
+                        <div class="rectangle-tf0RTh"></div>
+                        <div class="rectangle-LHpy2X"></div>
+                      </div>
+                    </div>
+                    <div class="size-xtjPxs">
+                      <div class="guide-meas-top-size-2-SYOnik">
+                        <div class="value-GBfmjF">
+                          <div class="x0-TEngVB font-class-1">22</div>
+                        </div>
+                        <div class="rectangle-GBfmjF"></div>
+                        <div class="rectangle-eJEp2l"></div>
+                        <div class="rectangle-3M2bx8"></div>
+                      </div>
+                      <div class="guide-measure-area-SYOnik"></div>
+                    </div>
+                    <div class="spacing-Kf3BTl">
+                      <div class="guide-meas--spacing-2-uatQ8a">
+                        <div class="x0-x4kOkY font-class-1">14</div>
+                        <div class="rectangle-x4kOkY"></div>
+                        <div class="rectangle-QtgFB9"></div>
+                        <div class="rectangle-ivRaxA"></div>
+                      </div>
+                      <div class="guide-measure-area-uatQ8a"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-gene-ight1style-aJCWDi">
+                  <div class="rectangle-SROqDr"></div>
+                  <div class="bg-SROqDr border-class-1"></div>
+                  <div class="content-SROqDr anima-valign-text-middle font-class-1">
+                    background-color: #000000;<br />opacity: 0.1;
+                  </div>
+                </div>
+                <div class="table-gene-ight1style-sbO6Ze">
+                  <div class="rectangle-imxRbe"></div>
+                  <div class="bg-imxRbe border-class-1"></div>
+                  <div class="content-imxRbe anima-valign-text-middle font-class-1">
+                    background-color: #ffffff;<br />opacity: 0.2;
+                  </div>
+                </div>
+              </div>
+              <div class="sub-app-bar-8nWI7w">
+                <div class="table-gene-ight1style-jsdpeX">
+                  <div class="rectangle-x46pGJ"></div>
+                  <div class="bg-x46pGJ border-class-1"></div>
+                  <div class="content-x46pGJ anima-valign-text-middle font-class-1">Sub app bar</div>
+                </div>
+                <div class="cell-jsdpeX">
+                  <div class="table-gene-ight1style-yNXFVD">
+                    <div class="rectangle-atS4HS"></div>
+                    <div class="bg-atS4HS border-class-1"></div>
+                    <div class="content-atS4HS anima-valign-text-middle font-class-1"></div>
+                  </div>
+                  <div class="symbol-yNXFVD">
+                    <div class="x0-04-measu-rsubappbar-ESyz2e">
+                      <div class="rectangle-E8wrWu"></div>
+                      <div class="mobile-lig--subappbar-E8wrWu">
+                        <div class="group-O3VkhG">
+                          <div class="spinner-9bvDWS">
+                            <div class="sub-app-bar-PEtZ2P font-class-2">Sub app bar</div>
+                            <div class="mobile-lig-ls-spinner-PEtZ2P"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="rectangle-nMO0xA"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-gene-ight1style-7Vj0iU">
+                  <div class="rectangle-rbOBkx"></div>
+                  <div class="bg-rbOBkx border-class-1"></div>
+                  <div class="content-rbOBkx anima-valign-text-middle font-class-1">
+                    width: /*(Screen width)*/;<br />height: 56px;<br />border-radius: 26px;
+                  </div>
+                </div>
+                <div class="table-gene-ight2style-jsdpeX">
+                  <div class="rectangle-3bihHS"></div>
+                  <div class="bg-3bihHS border-class-1"></div>
+                  <div class="group-3bihHS">
+                    <div class="content-wDDJN0 anima-valign-text-middle font-class-1">
+                      background-color: #000000;<br />opacity: 0.1;
+                    </div>
+                    <div class="content-O4YagZ anima-valign-text-bottom font-class-3">Mask ON</div>
+                  </div>
+                </div>
+                <div class="table-gene-ight2style-7Vj0iU">
+                  <div class="rectangle-wWxphG"></div>
+                  <div class="bg-wWxphG border-class-1"></div>
+                  <div class="group-wWxphG">
+                    <div class="content-Mtc2Xy anima-valign-text-middle font-class-1">
+                      background-color: #ffffff;<br />opacity: 0.2;
+                    </div>
+                    <div class="content-SMopHD anima-valign-text-bottom font-class-3">Mask ON</div>
+                  </div>
+                </div>
+              </div>
+              <div class="app-bar-8nWI7w">
+                <div class="table-gene-ight1style-xhXQp0">
+                  <div class="rectangle-oVHugM"></div>
+                  <div class="bg-oVHugM border-class-1"></div>
+                  <div class="content-oVHugM anima-valign-text-middle font-class-1">App bar</div>
+                </div>
+                <div class="cell-xhXQp0">
+                  <div class="table-gene-ight1style-x3lVb7">
+                    <div class="rectangle-w0zx3h"></div>
+                    <div class="bg-w0zx3h border-class-1"></div>
+                    <div class="content-w0zx3h anima-valign-text-middle font-class-1">border-radius: 24px;</div>
+                  </div>
+                  <div class="rectangle-x3lVb7"></div>
+                  <div class="symbol-x3lVb7">
+                    <div class="guide-yrXI06">
+                      <div class="sample-title-4gLfb5 font-class-2">Title</div>
+                      <div class="mobile-lig-ls-spinner-4gLfb5"></div>
+                    </div>
+                    <div class="size-yrXI06">
+                      <div class="guide-measure-area-giMU57"></div>
+                      <div class="guide-meas-eft-size-1-giMU57">
+                        <div class="value-Bu3iyV">
+                          <div class="x0-BUT7ZK font-class-1">48</div>
+                        </div>
+                        <div class="rectangle-Bu3iyV"></div>
+                        <div class="rectangle-xUQSEp"></div>
+                        <div class="rectangle-xGo3Xj"></div>
+                      </div>
+                    </div>
+                    <div class="spacing-yrXI06">
+                      <div class="guide-measure-area-5sakv3"></div>
+                      <div class="guide-meas--spacing-2-5sakv3">
+                        <div class="x0-lzAVmb font-class-1">20</div>
+                        <div class="rectangle-lzAVmb"></div>
+                        <div class="rectangle-CdPuvY"></div>
+                        <div class="rectangle-Zz0NLP"></div>
+                      </div>
+                    </div>
+                    <div class="spacing-K0eUeA">
+                      <div class="guide-measure-area-MTdlHr"></div>
+                      <div class="guide-meas--spacing-2-MTdlHr">
+                        <div class="x0-YnVQ5U font-class-1">4</div>
+                        <div class="rectangle-YnVQ5U"></div>
+                        <div class="rectangle-c6DBOC"></div>
+                        <div class="rectangle-1zMG1q"></div>
+                      </div>
+                    </div>
+                    <div class="size-K0eUeA">
+                      <div class="guide-meas-top-size-2-UGdSo1">
+                        <div class="value-aiL4Do">
+                          <div class="x0-emy4Jt font-class-1">22</div>
+                        </div>
+                        <div class="rectangle-aiL4Do"></div>
+                        <div class="rectangle-ZT5m6x"></div>
+                        <div class="rectangle-JQlZsi"></div>
+                      </div>
+                      <div class="guide-measure-area-UGdSo1"></div>
+                    </div>
+                    <div class="spacing-0mg1v1">
+                      <div class="guide-meas--spacing-2-e3Lv4x">
+                        <div class="x0-i3lDKg font-class-1">14</div>
+                        <div class="rectangle-i3lDKg"></div>
+                        <div class="rectangle-Y8xYuH"></div>
+                        <div class="rectangle-vrwCBD"></div>
+                      </div>
+                      <div class="guide-measure-area-e3Lv4x"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cell-NyCf8x">
+                  <div class="table-gene-ight1style-Elbuz2">
+                    <div class="rectangle-ZBxRIK"></div>
+                    <div class="bg-ZBxRIK border-class-1"></div>
+                    <div class="content-ZBxRIK anima-valign-text-middle font-class-1"></div>
+                  </div>
+                  <div class="symbol-Elbuz2">
+                    <div class="x0-04-measu-nnerappbar-nSzRnm">
+                      <div class="mobile-lig-ner-appbar-FhMisU">
+                        <div class="group-jsYaiO">
+                          <div class="mobile-lig-title-more-lvGuKf"></div>
+                          <div class="spinner-lvGuKf">
+                            <div class="sample-title-gRsSzy font-class-2">Sample title</div>
+                            <div class="mobile-lig-ls-spinner-gRsSzy"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="rectangle-FhMisU"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-gene-ight1style-NyCf8x">
+                  <div class="rectangle-PWD3nG"></div>
+                  <div class="bg-PWD3nG border-class-1"></div>
+                  <div class="content-PWD3nG anima-valign-text-middle font-class-1">
+                    background-color: #000000;<br />opacity: 0.1;
+                  </div>
+                </div>
+                <div class="table-gene-ight1style-0xBxTm">
+                  <div class="rectangle-xkEfyD"></div>
+                  <div class="bg-xkEfyD border-class-1"></div>
+                  <div class="content-xkEfyD anima-valign-text-middle font-class-1">
+                    background-color: #ffffff;<br />opacity: 0.2;
+                  </div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-8nWI7w">
+                <div class="rectangle-XpxHSa"></div>
+                <div class="bg-XpxHSa border-class-1"></div>
+                <div class="content-XpxHSa anima-valign-text-middle font-class-1">Spinner</div>
+              </div>
+            </div>
+            <div class="controller-mYITD2">
+              <div class="table-gene-ight1style-K2IuPg">
+                <div class="rectangle-S4yj68"></div>
+                <div class="bg-S4yj68 border-class-1"></div>
+                <div class="content-S4yj68 anima-valign-text-middle font-class-1">
+                  background-color: #ffffff;<br />opacity: 0.2;
+                </div>
+              </div>
+              <div class="table-gene-ight1style-d1v3qY">
+                <div class="rectangle-1kLkxf"></div>
+                <div class="bg-1kLkxf border-class-1"></div>
+                <div class="content-1kLkxf anima-valign-text-middle font-class-1">
+                  background-color: #000000;<br />opacity: 0.1;
+                </div>
+              </div>
+              <div class="reorder-K2IuPg">
+                <div class="table-gene-ight1style-itvH7m">
+                  <div class="rectangle-WlY83G"></div>
+                  <div class="bg-WlY83G border-class-1"></div>
+                  <div class="content-WlY83G anima-valign-text-middle font-class-1">Reorder</div>
+                </div>
+                <div class="cell-itvH7m">
+                  <div class="table-gene-ight1style-drsfNS">
+                    <div class="rectangle-r29FTw"></div>
+                    <div class="bg-r29FTw border-class-1"></div>
+                    <div class="content-r29FTw anima-valign-text-middle font-class-1"></div>
+                  </div>
+                  <div class="symbol-drsfNS">
+                    <div class="x0-04-measu-lerreorder-WWTHqg">
+                      <div class="mobile-lig-er-reorder-07PxBu"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-gene-ight1style-4TJ9dJ">
+                  <div class="rectangle-oCIJaR"></div>
+                  <div class="bg-oCIJaR border-class-1"></div>
+                  <div class="content-oCIJaR anima-valign-text-middle font-class-1">
+                    width: 48px;<br />height: 48px;
+                  </div>
+                </div>
+              </div>
+              <div class="switch-K2IuPg">
+                <div class="table-gene-ight1style-MLmmGE">
+                  <div class="rectangle-K35QA6"></div>
+                  <div class="bg-K35QA6 border-class-1"></div>
+                  <div class="content-K35QA6 anima-valign-text-middle font-class-1">Switch</div>
+                </div>
+                <div class="cell-MLmmGE">
+                  <div class="table-gene-ight1style-S0xd1r">
+                    <div class="rectangle-RxGxxW"></div>
+                    <div class="bg-RxGxxW border-class-1"></div>
+                    <div class="content-RxGxxW anima-valign-text-middle font-class-1"></div>
+                  </div>
+                  <div class="symbol-S0xd1r">
+                    <div class="x0-04-measu-llerswitch-KIE43k">
+                      <img
+                        class="oval-MB68H4"
+                        src="img/0-4-touch-feedback--ripple-effect-oval-F8D3F133-0AD3-483E-9D9A-747051BF9EDF@2x.png"
+                      />
+                      <div class="mobile-lig-h-switchon-MB68H4">
+                        <div class="switchbg-Mrt11z"></div>
+                        <img
+                          class="switchfill-Mrt11z"
+                          src="img/0-4-touch-feedback--ripple-effect-switchfill-CF66DA83-931E-4CFE-A78D-582CE876D488@2x.png"
+                        />
+                        <img
+                          class="switchborder-Mrt11z"
+                          src="img/0-4-touch-feedback--ripple-effect-switchborder-B3D308BE-EC28-47F5-9379-CF65020E642D@2x.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-gene-ight1style-x2Zrn3">
+                  <div class="rectangle-x3oNJB"></div>
+                  <div class="bg-x3oNJB border-class-1"></div>
+                  <div class="content-x3oNJB anima-valign-text-middle font-class-1">
+                    width: 27px;<br />height: 27px;
+                  </div>
+                </div>
+              </div>
+              <div class="checkbox-r-dio-slider-K2IuPg">
+                <div class="checkbox-QJCxB5">
+                  <div class="table-gene-ight1style-5xomdN">
+                    <div class="rectangle-BkyxtB"></div>
+                    <div class="bg-BkyxtB border-class-1"></div>
+                    <div class="content-BkyxtB anima-valign-text-middle font-class-1">Checkbox</div>
+                  </div>
+                  <div class="cell-5xomdN">
+                    <div class="table-gene-ight1style-9LkVZ3">
+                      <div class="rectangle-vFEAYA"></div>
+                      <div class="bg-vFEAYA border-class-1"></div>
+                      <div class="content-vFEAYA anima-valign-text-middle font-class-1"></div>
+                    </div>
+                    <div class="symbol-9LkVZ3">
+                      <div class="x0-04-measu-ollercheck-3IcbMU">
+                        <div class="mobile-lig-checkboxon-mHsHU8">
+                          <img
+                            class="check-13a9ZX"
+                            src="img/0-4-touch-feedback--ripple-effect-check-33889EED-56A1-4BCF-86CE-28BF8580EB15@2x.png"
+                          />
+                        </div>
+                        <img
+                          class="oval-mHsHU8"
+                          src="img/0-4-touch-feedback--ripple-effect-oval-3185F69A-88A4-4E01-BEA6-5A518C4FDA9C@2x.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="radio-QJCxB5">
+                  <div class="table-gene-ight1style-aJdgxn">
+                    <div class="rectangle-soGocz"></div>
+                    <div class="bg-soGocz border-class-1"></div>
+                    <div class="content-soGocz anima-valign-text-middle font-class-1">Radio</div>
+                  </div>
+                  <div class="cell-aJdgxn">
+                    <div class="table-gene-ight1style-zE0Hjx">
+                      <div class="rectangle-0F4g59"></div>
+                      <div class="bg-0F4g59 border-class-1"></div>
+                      <div class="content-0F4g59 anima-valign-text-middle font-class-1"></div>
+                    </div>
+                    <div class="symbol-zE0Hjx">
+                      <div class="x0-04-measu-ollerradio-SBtaX7">
+                        <div class="mobile-lig-io-radioon-03aHpe">
+                          <img
+                            class="radiofill-a9hhR9"
+                            src="img/0-4-touch-feedback--ripple-effect-radiofill-F737C1A9-7038-4290-BD2B-731C6D2C8A7F@2x.png"
+                          />
+                          <img
+                            class="radioborder-a9hhR9"
+                            src="img/0-4-touch-feedback--ripple-effect-radioborder-483A1D70-76FA-4695-8FC6-079226D4C3EA@2x.png"
+                          />
+                        </div>
+                        <img
+                          class="oval-03aHpe"
+                          src="img/0-4-touch-feedback--ripple-effect-oval-3185F69A-88A4-4E01-BEA6-5A518C4FDA9C@2x.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-gene-ight1style-QJCxB5">
+                  <div class="rectangle-LBMHAs"></div>
+                  <div class="bg-LBMHAs border-class-1"></div>
+                  <div class="content-LBMHAs anima-valign-text-middle font-class-1">
+                    width: 32px;<br />height: 32px;
+                  </div>
+                </div>
+                <div class="slider-QJCxB5">
+                  <div class="table-gene-ight1style-02ObX1">
+                    <div class="rectangle-j7Jjpp"></div>
+                    <div class="bg-j7Jjpp border-class-1"></div>
+                    <div class="content-j7Jjpp anima-valign-text-middle font-class-1">Slider</div>
+                  </div>
+                  <div class="cell-02ObX1">
+                    <div class="table-gene-ight1style-U0BnfD">
+                      <div class="rectangle-x5VdVi"></div>
+                      <div class="bg-x5VdVi border-class-1"></div>
+                      <div class="content-x5VdVi anima-valign-text-middle font-class-1"></div>
+                    </div>
+                    <div class="symbol-U0BnfD">
+                      <div class="x0-04-measu-llerslider-HTI4RP">
+                        <div class="group-AEz2O1">
+                          <div class="mobile-lig-ogress-bar-QLuLHF"></div>
+                          <div class="mobile-lig-ogress-bar-9lL13X"></div>
+                          <img
+                            class="oval-QLuLHF"
+                            src="img/0-4-touch-feedback--ripple-effect-oval-3185F69A-88A4-4E01-BEA6-5A518C4FDA9C@2x.png"
+                          />
+                          <div class="mobile-lig-bbersize17-QLuLHF"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-9tCYRO">
+                <div class="rectangle-cjN8jf"></div>
+                <div class="bg-cjN8jf border-class-1"></div>
+                <div class="content-cjN8jf anima-valign-text-middle font-class-1">Controller</div>
+              </div>
+            </div>
+            <div class="tab-mYITD2">
+              <div class="table-gene-ight2style-qeDdn1">
+                <div class="rectangle-AGeed5"></div>
+                <div class="bg-AGeed5 border-class-1"></div>
+                <div class="group-AGeed5">
+                  <div class="content-HsrCzb anima-valign-text-middle font-class-1">
+                    background-color: #ffffff;<br />opacity: 0.2;
+                  </div>
+                  <div class="content-BL57CX anima-valign-text-bottom font-class-3">Mask ON</div>
+                </div>
+              </div>
+              <div class="table-gene-ight2style-5DbeYk">
+                <div class="rectangle-goUOVe"></div>
+                <div class="bg-goUOVe border-class-1"></div>
+                <div class="group-goUOVe">
+                  <div class="content-Z5gXBd anima-valign-text-middle font-class-1">
+                    background-color: #000000;<br />opacity: 0.1;
+                  </div>
+                  <div class="content-fkB7Qr anima-valign-text-bottom font-class-3">Mask ON</div>
+                </div>
+              </div>
+              <div class="sub-tab-qeDdn1">
+                <div class="table-gene-ight1style-CnJa2x">
+                  <div class="rectangle-IGcWxY"></div>
+                  <div class="bg-IGcWxY border-class-1"></div>
+                  <div class="content-IGcWxY anima-valign-text-middle font-class-1">Sub tab</div>
+                </div>
+                <div class="cell-CnJa2x">
+                  <div class="table-gene-ight1style-B9ctrK">
+                    <div class="rectangle-QiaxoI"></div>
+                    <div class="bg-QiaxoI border-class-1"></div>
+                    <div class="content-QiaxoI anima-valign-text-middle font-class-1"></div>
+                  </div>
+                  <div class="symbol-B9ctrK">
+                    <div class="mobile-lig-ubtab3item-HcDEQm">
+                      <div class="group-falj2y"></div>
+                      <div class="mobile-lig--tabnormal-falj2y">
+                        <div class="mobile-lig-btab2iteml-ZNSlGl">
+                          <div class="text-IlQG9D anima-valign-text-middle font-class-2">Three</div>
+                        </div>
+                      </div>
+                      <div class="mobile-lig--tabnormal-PZE82Y">
+                        <div class="mobile-lig-btab2iteml-rZYsNg">
+                          <div class="text-HyYj82 anima-valign-text-middle font-class-2">Two</div>
+                        </div>
+                      </div>
+                      <div class="mobile-lig--tabselect-falj2y">
+                        <div class="mobile-lig-btab2iteml-bZdGOk">
+                          <div class="text-0evGwj anima-valign-text-middle font-class-5">No.one</div>
+                          <div class="round-0evGwj"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="touch-feedback-HcDEQm"></div>
+                  </div>
+                </div>
+                <div class="table-gene-ight1style-6oSfU2">
+                  <div class="rectangle-EgpOur"></div>
+                  <div class="bg-EgpOur border-class-1"></div>
+                  <div class="content-EgpOur anima-valign-text-middle font-class-1">
+                    width: /*(Sub tab width)*/;<br />height: /*(Sub tab height)*/;<br />border-radius: 26px;
+                  </div>
+                </div>
+              </div>
+              <div class="main-tab-qeDdn1">
+                <div class="table-gene-ight1style-YyE4M8">
+                  <div class="rectangle-U3w4d9"></div>
+                  <div class="bg-U3w4d9 border-class-1"></div>
+                  <div class="content-U3w4d9 anima-valign-text-middle font-class-1">Main tab</div>
+                </div>
+                <div class="cell-YyE4M8">
+                  <div class="table-gene-ight1style-vx5VdC">
+                    <div class="rectangle-GJ1njo"></div>
+                    <div class="bg-GJ1njo border-class-1"></div>
+                    <div class="content-GJ1njo anima-valign-text-middle font-class-1"></div>
+                  </div>
+                  <div class="symbol-vx5VdC">
+                    <div class="group-2-ihIJGg">
+                      <div class="mobile-lig-intab4item-C630NU">
+                        <div class="group-XHHoZM">
+                          <div class="four-ETa23X anima-valign-text-middle font-class-2">Four</div>
+                          <div class="three-ETa23X anima-valign-text-middle font-class-2">Three</div>
+                          <div class="two-ETa23X anima-valign-text-middle font-class-2">Two</div>
+                          <div class="noone-ETa23X anima-valign-text-middle font-class-5">No.one</div>
+                        </div>
+                      </div>
+                      <div class="mobile-lig-intab-line-C630NU">
+                        <div class="rectangle-XrcUoW"></div>
+                      </div>
+                    </div>
+                    <div class="touch-feedback-ihIJGg"></div>
+                  </div>
+                </div>
+                <div class="table-gene-ight1style-YiTB4y">
+                  <div class="rectangle-xpjiwp"></div>
+                  <div class="bg-xpjiwp border-class-1"></div>
+                  <div class="content-xpjiwp anima-valign-text-middle font-class-1">
+                    width: /*(Screen width / tab개수)*/;<br />height: 43px;<br />border-radius: 26px;
+                  </div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-qeDdn1">
+                <div class="rectangle-rymC7c"></div>
+                <div class="bg-rymC7c border-class-1"></div>
+                <div class="content-rymC7c anima-valign-text-middle font-class-1">Tab</div>
+              </div>
+            </div>
+            <div class="list-mYITD2">
+              <div class="table-gene-ight2style-xyiCbW">
+                <div class="rectangle-eMY8G4"></div>
+                <div class="bg-eMY8G4 border-class-1"></div>
+                <div class="group-eMY8G4">
+                  <div class="content-5V2Yd3 anima-valign-text-middle font-class-1">
+                    background-color: #ffffff;<br />opacity: 0.2;
+                  </div>
+                  <div class="content-hmkcn2 anima-valign-text-bottom font-class-3">Mask ON</div>
+                </div>
+              </div>
+              <div class="table-gene-ight2style-I2ClTh">
+                <div class="rectangle-MK9gUx"></div>
+                <div class="bg-MK9gUx border-class-1"></div>
+                <div class="group-MK9gUx">
+                  <div class="content-C0EO9E anima-valign-text-middle font-class-1">
+                    background-color: #000000;<br />opacity: 0.1;
+                  </div>
+                  <div class="content-96w0iM anima-valign-text-bottom font-class-3">Mask ON</div>
+                </div>
+              </div>
+              <div class="dialog-xyiCbW">
+                <div class="table-gene-ight1style-QAfDh6">
+                  <div class="rectangle-39NWTH"></div>
+                  <div class="bg-39NWTH border-class-1"></div>
+                  <div class="content-39NWTH anima-valign-text-middle font-class-1">Dialog</div>
+                </div>
+                <div class="table-gene-ight1style-ZMm73I">
+                  <div class="rectangle-QQ3fkT"></div>
+                  <div class="bg-QQ3fkT border-class-1"></div>
+                  <div class="content-QQ3fkT anima-valign-text-middle font-class-1">
+                    width: /*(Dialog width-좌우 24px)*/;<br />height: /*(List height)*/
+                  </div>
+                </div>
+                <div class="cell-QAfDh6">
+                  <div class="table-gene-ight1style-PQSqiG">
+                    <div class="rectangle-xp3vcG"></div>
+                    <div class="bg-xp3vcG border-class-1"></div>
+                    <div class="content-xp3vcG anima-valign-text-middle font-class-1"></div>
+                  </div>
+                  <div class="symbol-PQSqiG">
+                    <div class="mobile-lig-basic2line-N6OoOU">
+                      <div class="title-tfOs7P">
+                        <div class="subtext-xzQbx1 anima-valign-text-middle font-class-2">account01@samsung.com</div>
+                        <div class="main-text-xzQbx1 anima-valign-text-middle font-class-2">Mail name(11)</div>
+                      </div>
+                    </div>
+                    <div class="touch-feedback-N6OoOU"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="body-dropdown-xyiCbW"></div>
+              <div class="body-xyiCbW">
+                <div class="table-gene-ight1style-kStb3w">
+                  <div class="rectangle-dUcKcg"></div>
+                  <div class="bg-dUcKcg border-class-1"></div>
+                  <div class="content-dUcKcg anima-valign-text-middle font-class-1">Body</div>
+                </div>
+                <div class="table-gene-ight1style-PaGz4b">
+                  <div class="rectangle-MxYT1d"></div>
+                  <div class="bg-MxYT1d border-class-1"></div>
+                  <div class="content-MxYT1d anima-valign-text-middle font-class-1">
+                    width: /*(Screen width)*/;<br />height: /*(List height)*/;
+                  </div>
+                </div>
+                <div class="cell-kStb3w">
+                  <div class="table-gene-ight1style-B7wLyn">
+                    <div class="rectangle-IKfGjd"></div>
+                    <div class="bg-IKfGjd border-class-1"></div>
+                    <div class="content-IKfGjd anima-valign-text-middle font-class-1"></div>
+                  </div>
+                  <div class="symbol-B7wLyn">
+                    <div class="x0-04-measu-e-listbody-RYN3Wg">
+                      <div class="mobile-lig-basic1line-LjnlJh">
+                        <div class="title-bKQKEi">
+                          <div class="main-text-1-line-qLTWUz anima-valign-text-middle font-class-2">
+                            Main text 1 line
+                          </div>
+                        </div>
+                      </div>
+                      <div class="rectangle-LjnlJh"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-xyiCbW">
+                <div class="table-gene-ight1style-sOmsnA">
+                  <div class="rectangle-yKwTB8"></div>
+                  <div class="bg-yKwTB8 border-class-1"></div>
+                  <div class="content-yKwTB8 anima-valign-text-middle font-class-1">Drop down</div>
+                </div>
+                <div class="table-gene-ight1style-kNAYxL">
+                  <div class="rectangle-R3I3sc"></div>
+                  <div class="bg-R3I3sc border-class-1"></div>
+                  <div class="content-R3I3sc anima-valign-text-middle font-class-1">
+                    width: /*(Dropdown width)*/;<br />height: /*(List height)*/;
+                  </div>
+                </div>
+                <div class="cell-sOmsnA">
+                  <div class="table-gene-ight1style-gKmNPY">
+                    <div class="rectangle-AVkDQ9"></div>
+                    <div class="bg-AVkDQ9 border-class-1"></div>
+                    <div class="content-AVkDQ9 anima-valign-text-middle font-class-1"></div>
+                  </div>
+                  <div class="symbol-gKmNPY">
+                    <div class="x0-04-measu-stdropdown-TQQunO">
+                      <div class="rectangle-pCuF5m"></div>
+                      <div class="mobile-lig-ption-list-pCuF5m">
+                        <div class="option-Gp56ud anima-valign-text-middle font-class-2">Option#</div>
+                      </div>
+                      <div class="rectangle-FlPJAO"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-xyiCbW">
+                <div class="rectangle-m494Gc"></div>
+                <div class="bg-m494Gc border-class-1"></div>
+                <div class="content-m494Gc anima-valign-text-middle font-class-1">List</div>
+              </div>
+            </div>
+            <div class="bottom-bar-mYITD2">
+              <div class="table-gene-ight2style-kv0dpl">
+                <div class="rectangle-SrODJ0"></div>
+                <div class="bg-SrODJ0 border-class-1"></div>
+                <div class="group-SrODJ0">
+                  <div class="content-CWa6Kh anima-valign-text-middle font-class-1">
+                    background-color: #ffffff;<br />opacity: 0.2;
+                  </div>
+                  <div class="content-GSe9fn anima-valign-text-bottom font-class-3">Mask ON</div>
+                </div>
+              </div>
+              <div class="table-gene-ight2style-bRt0Zw">
+                <div class="rectangle-Q3rPNl"></div>
+                <div class="bg-Q3rPNl border-class-1"></div>
+                <div class="group-Q3rPNl">
+                  <div class="content-ZqZZoQ anima-valign-text-middle font-class-1">
+                    background-color: #000000;<br />opacity: 0.1;
+                  </div>
+                  <div class="content-gm3Pxm anima-valign-text-bottom font-class-3">Mask ON</div>
+                </div>
+              </div>
+              <div class="icon-text-kv0dpl">
+                <div class="table-gene-ight1style-BOvWrA">
+                  <div class="rectangle-5Np7pB"></div>
+                  <div class="bg-5Np7pB border-class-1"></div>
+                  <div class="content-5Np7pB anima-valign-text-middle font-class-1">Icon + Text</div>
+                </div>
+                <div class="cell-BOvWrA">
+                  <div class="table-gene-ight1style-QEBSbr">
+                    <div class="rectangle-6Oqfz3"></div>
+                    <div class="bg-6Oqfz3 border-class-1"></div>
+                    <div class="content-6Oqfz3 anima-valign-text-middle font-class-1"></div>
+                  </div>
+                  <div class="symbol-QEBSbr">
+                    <div class="x0-04-measu-r-icontext-8443nh">
+                      <div class="mobile-lig-bottomicon-ehPkoa">
+                        <div class="group-ygBlux">
+                          <div class="mobile-lig-sourceicon-4xbxZd">
+                            <div class="bottomtet-VjAgpx anima-valign-text-middle font-class-2">Bottomtext</div>
+                            <div class="mobile-lig-ombarcheck-VjAgpx"></div>
+                          </div>
+                          <div class="button-3-4xbxZd">
+                            <div class="rectangle-LOHvp4"></div>
+                            <div class="mobile-lig-sourceicon-LOHvp4">
+                              <div class="bottomtet-B3uZC0 anima-valign-text-middle font-class-2">Bottomtext</div>
+                              <div class="mobile-lig-ombarcheck-B3uZC0"></div>
+                            </div>
+                          </div>
+                          <div class="button-2-4xbxZd">
+                            <div class="rectangle-QgedWi"></div>
+                            <div class="mobile-lig-sourceicon-QgedWi">
+                              <div class="bottomtet-a4aigm anima-valign-text-middle font-class-2">Bottomtext</div>
+                              <div class="mobile-lig-ombarcheck-a4aigm"></div>
+                            </div>
+                          </div>
+                          <div class="button-1-4xbxZd">
+                            <div class="mobile-lig-sourceicon-w9Nr1e">
+                              <div class="bottomtet-lAhOdz anima-valign-text-middle font-class-2">Bottomtext</div>
+                              <div class="mobile-lig-ombarcheck-lAhOdz"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="rectangle-ehPkoa"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-gene-ight1style-X1Xpoa">
+                  <div class="rectangle-JsaEm0"></div>
+                  <div class="bg-JsaEm0 border-class-1"></div>
+                  <div class="content-JsaEm0 anima-valign-text-middle font-class-1">
+                    width: /*(Screen width/Button개수)*/;<br />height: 60px; /*(상하-4px)*/<br />border-radius : 12px;
+                  </div>
+                </div>
+              </div>
+              <div class="text-only-kv0dpl">
+                <div class="table-gene-ight1style-BbKLH0">
+                  <div class="rectangle-Er9VWn"></div>
+                  <div class="bg-Er9VWn border-class-1"></div>
+                  <div class="content-Er9VWn anima-valign-text-middle font-class-1">Text only</div>
+                </div>
+                <div class="cell-BbKLH0">
+                  <div class="table-gene-ight1style-wgq61a">
+                    <div class="rectangle-wKhCQh"></div>
+                    <div class="bg-wKhCQh border-class-1"></div>
+                    <div class="content-wKhCQh anima-valign-text-middle font-class-1"></div>
+                  </div>
+                  <div class="symbol-wgq61a">
+                    <div class="x0-04-measu-tombartext-FnuRxY">
+                      <div class="mobile-lig-3bottomtxt-qLxgDk">
+                        <div class="group-sA9iax">
+                          <div class="mobile-lig-tionbutton-hbkn4l">
+                            <div class="action-nU0oPl anima-valign-text-middle font-class-5">Action</div>
+                          </div>
+                          <div class="mobile-lig-tionbutton-SsGBo3">
+                            <div class="action-5UJCYe anima-valign-text-middle font-class-5">Action</div>
+                          </div>
+                          <div class="mobile-lig-tionbutton-wwMK1g">
+                            <div class="action-X2E4Nx anima-valign-text-middle font-class-5">Action</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="rectangle-qLxgDk"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-gene-ight1style-iy7UnE">
+                  <div class="rectangle-NVIAHJ"></div>
+                  <div class="bg-NVIAHJ border-class-1"></div>
+                  <div class="content-NVIAHJ anima-valign-text-middle font-class-1">
+                    width: /*(Screen width-좌우 24px / Button 개수)*/;<br />height: 48px;<br />border-radius: 24px;
+                  </div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-kv0dpl">
+                <div class="rectangle-AS3q8e"></div>
+                <div class="bg-AS3q8e border-class-1"></div>
+                <div class="content-AS3q8e anima-valign-text-middle font-class-1">Bottom bar</div>
+              </div>
+            </div>
+            <div class="app-bar-mYITD2">
+              <div class="table-gene-ight1style-dX0gLF">
+                <div class="rectangle-JvExo2"></div>
+                <div class="bg-JvExo2 border-class-1"></div>
+                <div class="content-JvExo2 anima-valign-text-middle font-class-1">
+                  background-color: #ffffff;<br />opacity: 0.2;
+                </div>
+              </div>
+              <div class="table-gene-ight1style-xLoyUb">
+                <div class="rectangle-s7AL8D"></div>
+                <div class="bg-s7AL8D border-class-1"></div>
+                <div class="content-s7AL8D anima-valign-text-middle font-class-1">
+                  background-color: #000000;<br />opacity: 0.1;
+                </div>
+              </div>
+              <div class="action-button-text-dX0gLF">
+                <div class="table-gene-ight1style-lO1jwO">
+                  <div class="rectangle-xPdgcX"></div>
+                  <div class="bg-xPdgcX border-class-1"></div>
+                  <div class="content-xPdgcX anima-valign-text-middle font-class-1">Action button text</div>
+                </div>
+                <div class="cell-lO1jwO">
+                  <div class="table-gene-ight1style-ZUnx70">
+                    <div class="rectangle-MoOVC7"></div>
+                    <div class="bg-MoOVC7 border-class-1"></div>
+                    <div class="content-MoOVC7 anima-valign-text-middle font-class-1"></div>
+                  </div>
+                  <div class="symbol-ZUnx70">
+                    <div class="x0-04-measu-appbarmenu-xAbOYM">
+                      <div class="mobile-lig-n2btn-back-32Ma7M">
+                        <div class="group-PgAsZ3">
+                          <div class="btn-TDbjsB">
+                            <div class="mobile-lig-title-more-qL4t1h"></div>
+                            <div class="menu-qL4t1h font-class-5">Menu</div>
+                          </div>
+                          <div class="title-TDbjsB">
+                            <div class="sample-title-i55SC7 font-class-2">Sample title</div>
+                            <div class="mobile-lig-title-back-i55SC7"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="rectangle-32Ma7M"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-gene-ight1style-pIQKSe">
+                  <div class="rectangle-82UMLE"></div>
+                  <div class="bg-82UMLE border-class-1"></div>
+                  <div class="content-82UMLE anima-valign-text-middle font-class-1">
+                    width: /*(Text width)*/;<br />height : 48px;<br />border-radius : 24px;
+                  </div>
+                </div>
+              </div>
+              <div class="back-action-button-dX0gLF">
+                <div class="back-p0xVj1">
+                  <div class="table-gene-ight1style-3oS3Q9">
+                    <div class="rectangle-F05sxA"></div>
+                    <div class="bg-F05sxA border-class-1"></div>
+                    <div class="content-F05sxA anima-valign-text-middle font-class-1">Back</div>
+                  </div>
+                  <div class="cell-3oS3Q9">
+                    <div class="table-gene-ight1style-SzRJ5W">
+                      <div class="rectangle-MuUy9v"></div>
+                      <div class="bg-MuUy9v border-class-1"></div>
+                      <div class="content-MuUy9v anima-valign-text-middle font-class-1"></div>
+                    </div>
+                    <div class="symbol-SzRJ5W">
+                      <div class="x0-04-measu-appbarback-xdnIY2">
+                        <div class="mobile-lig-n1btn-back-Uc7qxR">
+                          <div class="group-FBtdpE">
+                            <div class="mobile-lig-title-more-vVbrmX"></div>
+                            <div class="sample-title-vVbrmX font-class-2">Sample title</div>
+                            <div class="mobile-lig-title-back-vVbrmX"></div>
+                          </div>
+                        </div>
+                        <img
+                          class="oval-Uc7qxR"
+                          src="img/0-4-touch-feedback--ripple-effect-oval-20F904DA-4269-4216-9FD1-1955037EAAAF@2x.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="action-button-p0xVj1">
+                  <div class="table-gene-ight1style-EKoRtk">
+                    <div class="rectangle-vz0xem"></div>
+                    <div class="bg-vz0xem border-class-1"></div>
+                    <div class="content-vz0xem anima-valign-text-middle font-class-1">Action button</div>
+                  </div>
+                  <div class="cell-EKoRtk">
+                    <div class="table-gene-ight1style-lLxdsl">
+                      <div class="rectangle-QG3LOX"></div>
+                      <div class="bg-QG3LOX border-class-1"></div>
+                      <div class="content-QG3LOX anima-valign-text-middle font-class-1"></div>
+                    </div>
+                    <div class="symbol-lLxdsl">
+                      <div class="x0-04-measu-tionbutton-OxTg5x">
+                        <div class="mobile-lig-n1btn-back-HlTOaf">
+                          <div class="group-C6ewkB">
+                            <div class="mobile-lig-title-more-J4L6Eo"></div>
+                            <div class="sample-title-J4L6Eo font-class-2">Sample title</div>
+                            <div class="mobile-lig-title-back-J4L6Eo"></div>
+                          </div>
+                        </div>
+                        <img
+                          class="oval-HlTOaf"
+                          src="img/0-4-touch-feedback--ripple-effect-oval-20F904DA-4269-4216-9FD1-1955037EAAAF@2x.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-gene-ight1style-p0xVj1">
+                  <div class="rectangle-KjZ3dJ"></div>
+                  <div class="bg-KjZ3dJ border-class-1"></div>
+                  <div class="content-KjZ3dJ anima-valign-text-middle font-class-1">
+                    width: 48px;<br />height: 48px;
+                  </div>
+                </div>
+              </div>
+              <div class="table-gene-ight1style-R2OA52">
+                <div class="rectangle-UdUG31"></div>
+                <div class="bg-UdUG31 border-class-1"></div>
+                <div class="content-UdUG31 anima-valign-text-middle font-class-1">App bar</div>
+              </div>
+            </div>
+            <div class="subject-mYITD2">
+              <div class="table-title1line-x7C159">
+                <div class="rectangle-n8bJwW"></div>
+                <div class="rectangle-LlU80w border-class-2"></div>
+                <div class="title-n8bJwW anima-valign-text-middle font-class-6">Category</div>
+              </div>
+              <div class="table-title1line-PaaxYR">
+                <div class="rectangle-ne1DwI"></div>
+                <div class="rectangle-mCsN7z border-class-2"></div>
+                <div class="title-ne1DwI anima-valign-text-middle font-class-6">Key screen</div>
+              </div>
+              <div class="table-title1line-6FxZRo">
+                <div class="rectangle-ZINi9t"></div>
+                <div class="rectangle-ALa1OL border-class-2"></div>
+                <div class="title-ZINi9t anima-valign-text-middle font-class-6">
+                  Ripple size<br />(View boundary size)
+                </div>
+              </div>
+              <div class="table-title1line-Lad6eY">
+                <div class="rectangle-YbVqxz"></div>
+                <div class="rectangle-g6KtaT border-class-2"></div>
+                <div class="title-YbVqxz anima-valign-text-middle font-class-6">Ripple Value&nbsp;&nbsp;(Light)</div>
+              </div>
+              <div class="table-title1line-Ypabem">
+                <div class="rectangle-tPmHFB"></div>
+                <div class="rectangle-Zjwl2j border-class-2"></div>
+                <div class="title-tPmHFB anima-valign-text-middle font-class-6">Ripple Value (Dark)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="group-1-C61RwL">
+          <a href="https://material.io/design/usability/accessibility.html#layout-typography" target="_blank">
+            <div class="httpsmaterialio-VyzZeT font-class-1">
+              https://material.io/design/usability/accessibility.html#layout-typography
+            </div></a
+          >
+          <div class="guide-VyzZeT">
+            <div class="ripple-size-touch-EJYwOj font-class-1">Ripple size = Touch area (Recommended)</div>
+            <div class="document-b-x-contents-EJYwOj"></div>
+            <div class="symbol-EJYwOj">
+              <div class="x0-04-measu-tionbutton-6ZTC4n">
+                <div class="mobile-lig-n1btn-back-IQCV03">
+                  <div class="group-uctvOw">
+                    <div class="mobile-lig-title-more-YPA2d5"></div>
+                    <div class="sample-title-YPA2d5 font-class-2">Sample title</div>
+                    <div class="mobile-lig-title-back-YPA2d5"></div>
+                  </div>
+                </div>
+                <img
+                  class="oval-IQCV03"
+                  src="img/0-4-touch-feedback--ripple-effect-oval-3D4B7512-694F-4BF4-A0E5-0F07873C6503@2x.png"
+                />
+              </div>
+            </div>
+            <div class="measure-EJYwOj">
+              <div class="size-5TtQRw">
+                <div class="guide-measure-area-9Qr7ek"></div>
+                <div class="guide-meas-ght-size-1-9Qr7ek">
+                  <div class="value-zl9zEM">
+                    <div class="x0-agBbFW font-class-1">48</div>
+                  </div>
+                  <div class="rectangle-zl9zEM"></div>
+                  <div class="rectangle-xvV5tc"></div>
+                  <div class="rectangle-Z8nzuG"></div>
+                </div>
+              </div>
+              <div class="size-gxtUO0">
+                <div class="guide-meas-eft-size-2-CtqKZu">
+                  <div class="value-RoAwHx">
+                    <div class="x0-QmG6xo font-class-1">24</div>
+                  </div>
+                  <div class="rectangle-RoAwHx"></div>
+                  <div class="rectangle-xFTgM8"></div>
+                  <div class="rectangle-rgePK1"></div>
+                </div>
+                <div class="guide-measure-area-CtqKZu"></div>
+                <div class="guide-meas-horizontal-CtqKZu"></div>
+                <div class="guide-meas-horizontal-epxDqM"></div>
+              </div>
+            </div>
+          </div>
+          <div class="touch-targets-are-th-VyzZeT font-class-1">
+            Touch targets are the parts of the screen that respond to user input. They extend beyond the visual bounds
+            of an element. <br />For example, an icon may appear to be 24 x 24 px, but the padding surrounding it
+            comprises the full 48 x 48 px touch target.<br />Touch targets we recommend ’48 x 48 px. A touch target of
+            this size results in a physical size of about 9mm’ regardless of screen size.<br />The recommended target
+            size for touch screen elements is 7-10mm. It may be appropriate to use larger touch targets to accommodate a
+            larger spectrum of users.
+          </div>
+        </div>
+        <div class="touch-feedback-rip-C61RwL">Touch feedback : Ripple effect</div>
+        <div class="gnb-bar00-overview-C61RwL">
+          <div class="gnb-menu17-ste-normal-v1pbZ5">
+            <a href="a171textselection.html">
+              <div class="gnbmenu-oPdido">
+                <div class="x17-copy-paste-pQYUwC font-class-4">17. Copy &amp; paste</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu16-ail-normal-v1pbZ5">
+            <a href="a161thumbnailgrid.html">
+              <div class="gnbmenu-ZMDb0i">
+                <div class="x16-thumbnail-SoaRiD font-class-4">16. Thumbnail</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu15-dge-normal-v1pbZ5">
+            <a href="a151numberbadgeappbar.html">
+              <div class="gnbmenu-JcJ0r1">
+                <div class="x15-notification-bad-9eERd1 font-class-4">15. Notification badge</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu14-ion-normal-v1pbZ5">
+            <a href="a141descriptionwidth.html">
+              <div class="gnbmenu-1xVd4O">
+                <div class="rectangle-W4coIQ"></div>
+                <div class="x14-description-W4coIQ font-class-4">14. Description</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu13-ols-normal-v1pbZ5">
+            <a href="a131maintab.html">
+              <div class="gnbmenu-Wpudo4">
+                <div class="x13-view-controls-ky1EdQ font-class-4">13. View controls</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu12-lds-normal-v1pbZ5">
+            <a href="a121textfields.html">
+              <div class="gnbmenu-dqTC5Z">
+                <div class="x12-text-fields-DA36xP font-class-4">12. Text fields</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu11-ast-normal-v1pbZ5">
+            <a href="a111toastwidth.html">
+              <div class="gnbmenu-em7o3Z">
+                <div class="x11-toast-oIHfxk font-class-4">11. Toast</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu10-rch-normal-v1pbZ5">
+            <a href="a101searchbarwidth.html">
+              <div class="gnbmenu-SW5iyq">
+                <div class="x10-search-ERHMN2 font-class-4">10. Search</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu9--ing-normal-v1pbZ5">
+            <a href="a91scrollbar.html">
+              <div class="gnbmenu-TcM70s">
+                <div class="x9-scrolling-IbcISx font-class-4">9. Scrolling</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu8--ess-normal-v1pbZ5">
+            <a href="a81progressbar.html">
+              <div class="gnbmenu-9aBn6o">
+                <div class="x8-progress-cyx5tv font-class-4">8. Progress</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu7--ems-normal-v1pbZ5">
+            <a href="a71noitem.html">
+              <div class="gnbmenu-YIlPex">
+                <div class="x7-no-item-P96hBM font-class-4">7. No item</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu6--sts-normal-v1pbZ5">
+            <a href="a61listwidth.html">
+              <div class="gnbmenu-1T03Ik">
+                <div class="x6-lists-dCA1nJ font-class-4">6. Lists</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu5--ers-normal-v1pbZ5">
+            <a href="a51dividerbasiclist.html">
+              <div class="gnbmenu-GmRWu1">
+                <div class="x5-dividers-pxNh8y font-class-4">5. Dividers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu4--ogs-normal-v1pbZ5">
+            <a href="a41dialogwidth.html">
+              <div class="gnbmenu-KIQ0bB">
+                <div class="x4-dialogs-BvVeeB font-class-4">4. Dialogs</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu3--ers-normal-v1pbZ5">
+            <a href="a31checkbox.html">
+              <div class="gnbmenu-A4aWxi">
+                <div class="x3-controllers-pxeSlG font-class-4">3. Controllers</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu2--ons-normal-v1pbZ5">
+            <a href="a21flatbutton.html">
+              <div class="gnbmenu-1wHgCC">
+                <div class="x2-buttons-BFdIUo font-class-4">2. Buttons</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu1--bar-normal-v1pbZ5">
+            <a href="a11appbartitle.html">
+              <div class="gnbmenu-qZWCse">
+                <div class="x1-app-bar-DJGm0N font-class-4">1. App bar</div>
+              </div></a
+            >
+          </div>
+          <div class="gnb-menu0--w-selected-v1pbZ5">
+            <a href="a06roundcorner.html">
+              <div class="gnb-submenu-normal-GoHH5t">
+                <div class="gnbsubmenu-yWFfH8">
+                  <div class="text-ohoOCM font-class-4">Round corner</div>
+                </div>
+              </div></a
+            >
+            <a href="a05responsiveui.html">
+              <div class="gnb-submenu-normal-nZHcZb">
+                <div class="gnbsubmenu-mCTkDn">
+                  <div class="text-Q0Et99 font-class-4">Responsive UI</div>
+                </div>
+              </div></a
+            >
+            <a href="a04touchfeedbackrippleeffect.html">
+              <div class="gnb-submenu-normal-xX7zvd">
+                <div class="gnbsubmenu-7Y1TA7">
+                  <div class="text-AFV95m font-class-3">Touch feedback: Ripple effect</div>
+                </div>
+              </div></a
+            >
+            <a href="a03font.html">
+              <div class="gnb-submenu-normal-h8iujd">
+                <div class="gnbsubmenu-ZGxLuB">
+                  <div class="text-22CVAR font-class-4">Font</div>
+                </div>
+              </div></a
+            >
+            <a href="a02color.html">
+              <div class="gnb-submenu-normal-6SgWys">
+                <div class="gnbsubmenu-qGAPkP">
+                  <div class="text-bQlLqT font-class-4">Color</div>
+                </div>
+              </div></a
+            >
+            <a href="a01unitsandmeasurements.html">
+              <div class="gnb-submenu-normal-qn4fcn">
+                <div class="gnbsubmenu-QZBSlw">
+                  <div class="text-g1XkCO font-class-4">Units and measurements</div>
+                </div>
+              </div></a
+            >
+            <div class="gnb-menu0--w-selected-GoHH5t">
+              <a href="a01unitsandmeasurements.html">
+                <div class="gnbmenu-XCU4Va">
+                  <div class="x0-overview-F2Nixu font-class-3">0. Overview</div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="gnb-menu-h-ory-normal-v1pbZ5">
+            <a href="history.html">
+              <div class="gnbmenu-ombgQy">
+                <div class="history-1wMrci font-class-4">History</div>
+              </div></a
+            >
+          </div>
+          <a href="index.html">
+            <div class="gnb-logo-v1pbZ5">
+              <div class="gotohome-quwRun">
+                <div class="group-1HrZwx">
+                  <div class="web-app-E5nOUr">Web app</div>
+                  <div class="basic-component-gui-E5nOUr font-class-6">Basic component GUI V1.0</div>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
