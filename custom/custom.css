@@ -1,0 +1,139 @@
+/** GNB Scroll **/
+div[class*="gnb-bar"] {
+    height: 100% !important;
+    display: inline-block;
+    overflow-y: overlay !important;
+    position: fixed !important;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    overflow-x: hidden !important;
+}
+div[class*="gnb-bar"]:hover::-webkit-scrollbar {
+    display: initial;
+}
+div[class*="gnb-bar"]::-webkit-scrollbar {
+    display: none;
+}
+/* custom webkit scrollbars */
+div[class*="gnb-bar"]::-webkit-scrollbar { 
+    width: 6px;
+}
+div[class*="gnb-bar"]::-webkit-scrollbar-track { 
+    background-color: transparent;
+    border-width: 0;
+}
+div[class*="gnb-bar"]::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.25);
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0px;
+    background-clip: padding-box;
+}
+div[class*="gnb-bar"]::-webkit-scrollbar-button,
+div[class*="gnb-bar"]::-webkit-scrollbar-track-piece,
+div[class*="gnb-bar"]::-webkit-scrollbar-corner,
+div[class*="gnb-bar"]::-webkit-resizer { display: none;}
+
+
+/** Hover **/
+
+div[class^="gnbmenu"]:hover,
+div[class^="gnb-submenu-normal"]:hover,
+div[class^="gotohome"]:hover
+{
+    transition: all 100ms ease !important;
+}
+div[class^="gnbmenu"]:hover,
+div[class^="gnb-submenu-normal"]:hover,
+div[class^="gotohome"]:hover {
+    background: rgba(224, 224, 224, 0.5)!important;
+}
+div[class^="style-butt-solid-blue"]:hover div[class^="rectangle"] {
+    background: #0174E6 !important;
+}
+div[class^="tag-refer"]:hover div[class^="rectangle"]  {
+    background: #5959B3 !important;
+    transition: all 100ms ease !important;
+}
+div[class^="tag-update"]:hover div[class^="rectangle"] {
+    background: #00B386 !important;
+    transition: all 100ms ease !important;
+}
+div[class^="btn-"]:hover,
+div[class^="btn-"] div[class^="text-"]:hover {
+    transform: scale(1.0) !important;
+}
+/** Sticky Footer CSS **/
+div[class^="footercontainer"] {
+    position: fixed !important;
+    left: auto !important;
+    bottom: 0;
+    top: auto !important;
+}
+@media (max-height:900px) {
+    div[class^="footercontainer"] {
+        position: relative !important;
+    }
+}
+
+
+/** Bottom to Top button **/
+div.topbtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0381FE;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 500ms ease;
+    cursor: pointer;
+    box-shadow: 0 10px 15px 0 rgba(3,129,254,0.25);
+}
+div.topbtn-arw {
+    width: 50px;
+    height: 50px;
+    background-image: url(../assets/topbtn_cursor.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.topbtn:hover {
+    background-color: #036ED9;
+    
+}
+div.topbtn.show {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: all 500ms ease !important;
+}
+
+/** Guide **/
+div[class^="guidemeasureruler"] {
+    overflow: initial !important;
+}
+
+/** Page loading **/
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url("../assets/loadingicon.png") center no-repeat #fff;
+}
+
+/** Error fix **/
+.mobilelighttheme06listsreorderselectbg .selectbg {
+    border-width: 0.25px !important;
+}
+.guidemeasurerulerbottom, .value,
+div[class*="guidemeasureruler"] .a0{
+    white-space: nowrap;
+}
