@@ -1,8 +1,11 @@
 /**font**/
+@font-face {
+    font-family: "SamsungOneKorean-700";
+    src: url("https://oneui-webapp.github.io/Basic-Component/html/fonts/SamsungOneKorean-700_v2.0_hinted_Light_20200508.woff2")
+    format("woff2");
+}
 
-@import url('https://oneui-webapp.github.io/Basic-Component/html/fonts');
-*{font-family: 'SamsungOneKorean' !important;}
-*format("woff2";)
+
 
 /** GNB Scroll **/
 div[class*="gnb-bar"] {
