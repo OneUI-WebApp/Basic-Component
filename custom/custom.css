@@ -1,32 +1,37 @@
 /**font**/
 @font-face {
     font-family: 'SamsungOneKorean-700';
-    src: url('/html/fonts/SamsungOneKorean-700_v2.0_hinted_Light_20200508.woff2')
-    format("woff2")
+    src: url('/html/fonts/SamsungOneKorean-700_v2.0_hinted_Light_20200508.eot'),
+         url('/html/fonts/SamsungOneKorean-700_v2.0_hinted_Light_20200508.woff2') format("woff2"),
+         url('/html/fonts/SamsungOneKorean-700_v2.0_hinted_Light_20200508.woff') format("woff");
 }
 
 @font-face {
     font-family: 'SamsungOneKorean-600';
-    src: url('/html/fonts/SamsungOneKorean-600_v2.0_hinted_Light_20200508.woff2')
-    format("woff2")
+    src: url('/html/fonts/SamsungOneKorean-600_v2.0_hinted_Light_20200508.eot'),
+         url('/html/fonts/SamsungOneKorean-600_v2.0_hinted_Light_20200508.woff2') format("woff2"),
+         url('/html/fonts/SamsungOneKorean-600_v2.0_hinted_Light_20200508.woff') format("woff");
 }
 
 @font-face {
     font-family: 'SamsungOneKorean-500';
-    src: url('/html/fonts/SamsungOneKorean-500_v2.0_hinted_Light_20200508.woff2')
-    format("woff2")
+    src: url('/html/fonts/SamsungOneKorean-500_v2.0_hinted_Light_20200508.eot'),
+         url('/html/fonts/SamsungOneKorean-500_v2.0_hinted_Light_20200508.woff2') format("woff2"),
+         url('/html/fonts/SamsungOneKorean-500_v2.0_hinted_Light_20200508.woff') format("woff");
 }
 
 @font-face {
     font-family: 'SamsungOneKorean-400';
-    src: url('/html/fonts/SamsungOneKorean-400_v2.0_hinted_Light_20200508.woff2')
-    format("woff2")
+    src: url('/html/fonts/SamsungOneKorean-400_v2.0_hinted_Light_20200508.eot'),
+         url('/html/fonts/SamsungOneKorean-400_v2.0_hinted_Light_20200508.woff2') format("woff2"),
+         url('/html/fonts/SamsungOneKorean-400_v2.0_hinted_Light_20200508.woff') format("woff");
 }
 
 @font-face {
     font-family: 'SamsungOneKorean-300';
-    src: url('/html/fonts/SamsungOneKorean-300_v2.0_hinted_Light_20200508.woff2')
-    format("woff2")
+    src: url('/html/fonts/SamsungOneKorean-300_v2.0_hinted_Light_20200508.eot'),
+         url('/html/fonts/SamsungOneKorean-300_v2.0_hinted_Light_20200508.woff2') format("woff2"),
+         url('/html/fonts/SamsungOneKorean-300_v2.0_hinted_Light_20200508.woff') format("woff");
 }
 
 /** GNB Scroll **/
