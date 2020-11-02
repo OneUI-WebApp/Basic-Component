@@ -1,3 +1,12 @@
+/**font**/
+@font-face {
+    font-family: SamsungOneKoreanWeb;
+    src: url(SamsungOneKorean.woff2) format('woff2'),
+         url(SamsungOneKorean.woff) format('woff'),
+         url(SamsungOneKorean.ttf) format('truetype');
+}
+
+
 /** GNB Scroll **/
 div[class*="gnb-bar"] {
     height: 100% !important;
