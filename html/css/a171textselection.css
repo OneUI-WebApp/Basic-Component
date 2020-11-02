@@ -2,7 +2,7 @@
 
 .a171textselection {
   background-color: rgba(245,246,247,1.0);
-  height: 1605px;
+  height: 1637px;
   overflow: hidden;
   position: relative;
   width: 1680px;
@@ -21,12 +21,27 @@
   white-space: nowrap;
   width: 260px;
 }
+.a171textselection .btn-mwblLs {
+  background-color: rgba(3,129,254,1.0);
+  border-radius: 22.5px;
+  height: 45px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 274px;
+}
+.a171textselection .btn-mwblLs:hover {
+
+transform: scale(0.98);
+}
 .a171textselection .dark-theme-5iy7GR {
   background-color: transparent;
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 160px;
+  top: 162px;
   width: 465px;
 }
 .a171textselection .description-LiVHFT {
@@ -48,16 +63,16 @@
 .a171textselection .document-b-x-contents-1w3x47 {
   background-color: var(--white);
   border: 1px solid var(--ebb);
-  height: 361px;
+  height: 366px;
   left: 0px;
   position: absolute;
   top: 0px;
-  width: 505px;
+  width: 510px;
 }
 .a171textselection .document-b-x-contents-5iy7GR {
   background-color: var(--white);
   border: 1px solid var(--ebb);
-  height: 240px;
+  height: 245px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -80,6 +95,14 @@
   position: absolute;
   top: 0px;
   width: 715px;
+}
+.a171textselection .document-button-C61RwL {
+  background-color: transparent;
+  height: 45px;
+  left: 863px;
+  position: absolute;
+  top: 1512px;
+  width: 274px;
 }
 .a171textselection .fn-39xSqS {
   background-color: transparent;
@@ -112,7 +135,7 @@
   height: 178px;
   left: 20px;
   position: absolute;
-  top: 153px;
+  top: 155px;
   width: 465px;
 }
 .a171textselection .gnb-bar17-copypaste-C61RwL {
@@ -759,15 +782,14 @@
 .a171textselection .guide-meas-ght-text-1-QEOEaO {
   background-color: transparent;
   height: 35px;
-  left: 279px;
-  overflow: hidden;
+  left: 281px;
   position: absolute;
   top: 0px;
-  width: 38px;
+  width: 87px;
 }
 .a171textselection .guide-meas-horizontal-GxlTuk {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-line-2257BE13-2842-4D54-BFD8-D552E81C5A95@2x.png);
+  background-image: url(../img/17-1-text-selection-line-08447220-2BE1-4325-B197-CCB710B8D523@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -777,7 +799,7 @@
 }
 .a171textselection .guide-meas-horizontal-QEOEaO {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-line-E0BA4EC5-D820-47F8-B84D-D27D9AFEE7FE@2x.png);
+  background-image: url(../img/17-1-text-selection-line-AF246397-480F-412C-A479-F578D1FE5B44@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -787,7 +809,7 @@
 }
 .a171textselection .guide-meas-horizontal-k5F1TF {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-line-E0BA4EC5-D820-47F8-B84D-D27D9AFEE7FE@2x.png);
+  background-image: url(../img/17-1-text-selection-line-AF246397-480F-412C-A479-F578D1FE5B44@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -840,7 +862,7 @@
 }
 .a171textselection .guide-numb-ring-shape-OaDX24 {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-oval-FDF3773B-6ED1-42CB-B04E-8566A1E1FDFC@2x.png);
+  background-image: url(../img/17-1-text-selection-oval-72C76EF2-2098-4C1A-9DE5-EF99F68E97FE@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -850,7 +872,7 @@
 }
 .a171textselection .guide-numb-ring-shape-fweJf5 {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-oval-FDF3773B-6ED1-42CB-B04E-8566A1E1FDFC@2x.png);
+  background-image: url(../img/17-1-text-selection-oval-72C76EF2-2098-4C1A-9DE5-EF99F68E97FE@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -860,7 +882,7 @@
 }
 .a171textselection .guide-numb-ring-shape-xMtxpl {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-oval-FDF3773B-6ED1-42CB-B04E-8566A1E1FDFC@2x.png);
+  background-image: url(../img/17-1-text-selection-oval-72C76EF2-2098-4C1A-9DE5-EF99F68E97FE@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 30px;
@@ -870,7 +892,7 @@
 }
 .a171textselection .guide-numb-ring-shape-xRkPbj {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-oval-FDF3773B-6ED1-42CB-B04E-8566A1E1FDFC@2x.png);
+  background-image: url(../img/17-1-text-selection-oval-72C76EF2-2098-4C1A-9DE5-EF99F68E97FE@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 30px;
@@ -880,7 +902,7 @@
 }
 .a171textselection .guide-numbering-icon-13N3y0 {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-oval-FDF3773B-6ED1-42CB-B04E-8566A1E1FDFC@2x.png);
+  background-image: url(../img/17-1-text-selection-oval-72C76EF2-2098-4C1A-9DE5-EF99F68E97FE@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -890,7 +912,7 @@
 }
 .a171textselection .guide-numbering-icon-3ZyVte {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-oval-FDF3773B-6ED1-42CB-B04E-8566A1E1FDFC@2x.png);
+  background-image: url(../img/17-1-text-selection-oval-72C76EF2-2098-4C1A-9DE5-EF99F68E97FE@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -931,7 +953,7 @@
   height: 26px;
   left: 25px;
   position: absolute;
-  top: 30px;
+  top: 32px;
   width: 135px;
 }
 .a171textselection .guide-subject-shape-5iy7GR {
@@ -939,7 +961,7 @@
   height: 26px;
   left: 20px;
   position: absolute;
-  top: 30px;
+  top: 32px;
   width: 135px;
 }
 .a171textselection .history-RVdlM9 {
@@ -982,7 +1004,7 @@
 }
 .a171textselection .left-r2GQYU {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-path-FF4CBF6F-AB9B-4500-B4BD-C552F9370D90@2x.png);
+  background-image: url(../img/17-1-text-selection-path-A9E71692-FADE-4C2E-8C32-5626C0EF7662@2x.png);
   background-size: 100% 100%;
   height: 48px;
   left: 0px;
@@ -995,7 +1017,7 @@
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a171textselection .measure-1-hh1Mvx {
@@ -1004,7 +1026,7 @@
   left: 288px;
   position: absolute;
   top: 173px;
-  width: 358px;
+  width: 409px;
 }
 .a171textselection .measure-2-hh1Mvx {
   background-color: transparent;
@@ -1054,6 +1076,14 @@
   top: 0px;
   width: 468px;
 }
+.a171textselection .mobile-lig-andlerleft-4QoRc4 {
+  background-color: transparent;
+  height: 48px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 42px;
+}
 .a171textselection .mobile-lig-andlerleft-LiVHFT {
   background-color: transparent;
   height: 35px;
@@ -1068,7 +1098,7 @@
   left: 0px;
   position: absolute;
   top: 0px;
-  width: 43px;
+  width: 42px;
 }
 .a171textselection .mobile-lig-electpress-LiVHFT {
   background-color: rgba(196,233,252,1.0);
@@ -1077,14 +1107,6 @@
   position: absolute;
   top: 0px;
   width: 152px;
-}
-.a171textselection .mobile-lig-ndlerright-4QoRc4 {
-  background-color: transparent;
-  height: 48px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 43px;
 }
 .a171textselection .mobile-lig-ndlerright-LiVHFT {
   background-color: transparent;
@@ -1252,7 +1274,7 @@
 .a171textselection .rectangle-SaP9pi {
   background-color: rgba(255,204,0,1.0);
   height: 1px;
-  left: 2px;
+  left: 0px;
   position: absolute;
   top: 34px;
   width: 9px;
@@ -1292,7 +1314,7 @@
 .a171textselection .rectangle-f8glCU {
   background-color: rgba(255,204,0,1.0);
   height: 35px;
-  left: 6px;
+  left: 4px;
   position: absolute;
   top: 0px;
   width: 1px;
@@ -1332,7 +1354,7 @@
 .a171textselection .rectangle-uc4BfA {
   background-color: rgba(255,204,0,1.0);
   height: 1px;
-  left: 2px;
+  left: 0px;
   position: absolute;
   top: 0px;
   width: 9px;
@@ -1377,9 +1399,9 @@
   top: 0px;
   width: 30px;
 }
-.a171textselection .right-n4Q6uJ {
+.a171textselection .right-zf5Fxx {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-path-BCAB2EB3-51DE-4525-B07F-5CF43B9DC064@2x.png);
+  background-image: url(../img/17-1-text-selection-path-E42A0BA8-5F2B-496B-8D9F-3FD21F089F07@2x.png);
   background-size: 100% 100%;
   height: 48px;
   left: 0px;
@@ -1389,18 +1411,18 @@
 }
 .a171textselection .shape-E582nk {
   background-color: transparent;
-  height: 361px;
+  height: 366px;
   left: 730px;
   position: absolute;
-  top: 267px;
-  width: 505px;
+  top: 265px;
+  width: 510px;
 }
 .a171textselection .shape-NOXmfT {
   background-color: transparent;
-  height: 240px;
+  height: 245px;
   left: 735px;
   position: absolute;
-  top: 2px;
+  top: 0px;
   width: 505px;
 }
 .a171textselection .size-YUcfHe {
@@ -1485,10 +1507,26 @@
   white-space: nowrap;
   width: 218px;
 }
+.a171textselection .text-WvbxKh {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 18px;
+  height: auto;
+  left: 31px;
+  line-height: 28.6px;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+  width: auto;
+}
 .a171textselection .text-bGEFPJ {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -1530,7 +1568,7 @@
   left: 41px;
   position: absolute;
   top: 38px;
-  width: 317px;
+  width: 368px;
 }
 .a171textselection .this-function-allows-XKFRXM {
   background-color: transparent;
@@ -1679,7 +1717,7 @@
 .a171textselection .value-uc4BfA {
   background-color: transparent;
   height: 18px;
-  left: 14px;
+  left: 12px;
   position: absolute;
   top: 8px;
   width: 75px;
@@ -2135,16 +2173,16 @@
   height: 48px;
   left: 52px;
   position: absolute;
-  top: 82px;
-  width: 43px;
+  top: 84px;
+  width: 42px;
 }
 .a171textselection .x17-01-imag-ndlerright-1w3x47 {
   background-color: transparent;
   height: 48px;
   left: 99px;
   position: absolute;
-  top: 82px;
-  width: 43px;
+  top: 84px;
+  width: 42px;
 }
 .a171textselection .x17-01-keys-tselection-V6KZ2v {
   background-color: transparent;
@@ -2180,8 +2218,11 @@
 }
 .a171textselection .x17-copy-paste-Ayzyix {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -2321,10 +2362,7 @@
   font-weight: 400;
 }
 .font-class-6 {
-  color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size: 15px;
-  line-height: 18px;
 }
 .font-class-7 {
   color: var(--black);
