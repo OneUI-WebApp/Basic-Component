@@ -6,13 +6,13 @@
 }
 @font-face {
     font-family: "SamsungOneKorean-400";
-    src: url("https://oneui-webapp.github.io/Basic-Component/html/fonts/SamsungOneKorean-400_v2.0_hinted_Light_20200508.woff2")
-    format("woff2");
+    src: url("https://oneui-webapp.github.io/Basic-Component/html/fonts/SamsungOneKorean-400_v2.0_hinted_Light_20200508.woff2" important!)
+    format("woff2") important!;
 }
 @font-face {
     font-family: "SamsungOneKorean-500";
-    src: url("https://oneui-webapp.github.io/Basic-Component/html/fonts/SamsungOneKorean-500_v2.0_hinted_Light_20200508.woff2")
-    format("woff2");
+    src: url("https://oneui-webapp.github.io/Basic-Component/html/fonts/SamsungOneKorean-500_v2.0_hinted_Light_20200508.woff2" important!)
+    format("woff2" important!);
 }
 @font-face {
     font-family: "SamsungOneKorean-600";
