@@ -24,33 +24,3 @@ btn.on('click', function(e) {
 });
 
 }
-
-var font = new FontFaceObserver ('SamsungOneKorean-300')
-
-font.load().then(function(){
-    document.body.classList.add('fonts-loaded');
-})
-
-var font = new FontFaceObserver ('SamsungOneKorean-400')
-
-font.load().then(function(){
-    document.body.classList.add('fonts-loaded');
-})
-
-var font = new FontFaceObserver ('SamsungOneKorean-500')
-
-font.load().then(function(){
-    document.body.classList.add('fonts-loaded');
-})
-
-var font = new FontFaceObserver ('SamsungOneKorean-600')
-
-font.load().then(function(){
-    document.body.classList.add('fonts-loaded');
-})
-
-var font = new FontFaceObserver ('SamsungOneKorean-700')
-
-font.load().then(function(){
-    document.body.classList.add('fonts-loaded');
-})
