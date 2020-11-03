@@ -24,3 +24,9 @@ btn.on('click', function(e) {
 });
 
 }
+
+var font = new FontFaceObserver ('SamsungOneKorean-300')
+
+font.load().then(function(){
+    document.body.classList.add('fonts-loaded');
+})
