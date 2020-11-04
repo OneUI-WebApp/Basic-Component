@@ -12,54 +12,53 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/index.css" />
       
-      <style>
-            @import url("fonts/SamsungOneKorean_700.woff2"); *{
-            font-family: "SamsungOneKorean-700" !important;    
-      }
-            @import url("fonts/SamsungOneKorean_600.woff2"); *{
-            font-family: "SamsungOneKorean-600" !important;    
-      }
-            @import url("fonts/SamsungOneKorean_500.woff2"); *{
-            font-family: "SamsungOneKorean-500" !important;    
-      }
-            @import url("fonts/SamsungOneKorean_400.woff2"); *{
-            font-family: "SamsungOneKorean-400" !important;    
-      }
-            @import url("fonts/SamsungOneKorean_300.woff2"); *{
-            font-family: "SamsungOneKorean-300" !important;    
-      }
-      </style>
       
       <style>
-      @font-face {
-        font-family: "SamsungOneKorean-600";
-        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 600_0.ttf")
-          format("truetype");
+
+        @font-face {
+            font-family: "SamsungOneKorean-700";
+            font-display: swap;
+            src: local("SamsungOneKorean-700"),
+            url("fonts/SamsungOneKorean_700.woff2") format("woff2"),
+            url("fonts/SamsungOneKorean_700.woff") format("woff"),
+                 url("fonts/SamsungOneKorean_700.ttf") format("truetype");    
       }
 
-      @font-face {
-        font-family: "SamsungOneKorean-700";
-        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-700_v1.2_hinted_20180830.ttf")
-          format("truetype");
-      }
-
-      @font-face {
-        font-family: "SamsungOneKorean-400";
-        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-400_v1.2_hinted_20180830.ttf")
-          format("truetype");
-      }
-
+    @font-face {
+            font-family: "SamsungOneKorean-600";
+            font-display: swap;
+            src: local("SamsungOneKorean-600"),
+            url("fonts/SamsungOneKorean_600.woff2") format("woff2"),
+            url("fonts/SamsungOneKorean_600.woff") format("woff"),
+                 url("fonts/SamsungOneKorean_600.ttf") format("truetype");
+    }
       @font-face {
         font-family: "SamsungOneKorean-500";
-        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 500_0.ttf")
-          format("truetype");
-      }
+        font-display: swap;
+        src: local("SamsungOneKorean-500"),
+            src: url("fonts/SamsungOneKorean_500.woff2") format("woff2"),
+             src: url("fonts/SamsungOneKorean_500.woff") format("woff"),
+             url("fonts/SamsungOneKorean_500.ttf") format("truetype");
+      } 
 
-      @font-face {
-        font-family: "SamsungOneKorean-300";
-        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-300_v1.2_hinted_20180830.ttf")
-          format("truetype");
+    @font-face {
+        font-family: "SamsungOneKorean-400";
+        font-display: swap;
+        src: local("SamsungOneKorean-400"),
+             url("fonts/SamsungOneKorean_400.woff2") format("woff2"),
+             url("fonts/SamsungOneKorean_400.woff") format("woff"),
+             url("fonts/SamsungOneKorean_400.ttf") format("truetype");
       }
+    
+    @font-face {
+        font-family: "SamsungOneKorean-300";
+        font-display: swap;
+        src: local("SamsungOneKorean-300"),
+             url("fonts/SamsungOneKorean_300.woff2") format("woff2"),
+             url("fonts/SamsungOneKorean_300.woff") format("woff"),
+             url("fonts/SamsungOneKorean_300.ttf") format("truetype");
+        }
+
       .anima-component-wrapper a,
       .anima-screen a {
         text-decoration: none;
