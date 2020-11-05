@@ -3,12 +3,11 @@
 .a31checkbox {
   background-color: rgba(245,246,247,1.0);
   height: 6970px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
 }
 .a31checkbox .actionbar-bg-OHZ2ca {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 37px;
   left: 0px;
   position: absolute;
@@ -16,7 +15,7 @@
   width: 240px;
 }
 .a31checkbox .actionbar-bg-RC61yJ {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 37px;
   left: 0px;
   position: absolute;
@@ -112,7 +111,7 @@
   width: 21px;
 }
 .a31checkbox .background-T3ZCwS {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 0px;
   position: absolute;
@@ -207,14 +206,6 @@
   top: 1px;
   width: 21px;
 }
-.a31checkbox .background-sQ9xsx {
-  background-color: transparent;
-  height: 48px;
-  left: 0px;
-  position: absolute;
-  top: 1px;
-  width: 48px;
-}
 .a31checkbox .background-sk3xop {
   background-color: transparent;
   height: 21px;
@@ -299,7 +290,7 @@
 }
 .a31checkbox .basic-component-gui-tuZlmD {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 20px;
   height: auto;
   left: 0px;
@@ -358,14 +349,6 @@
   position: absolute;
   top: 0px;
   width: 110px;
-}
-.a31checkbox .bg-4Kzcfg {
-  background-color: transparent;
-  height: 32px;
-  left: 1px;
-  position: absolute;
-  top: 1px;
-  width: 32px;
 }
 .a31checkbox .bg-6GYvJK {
   background-color: transparent;
@@ -442,7 +425,7 @@
   width: 270px;
 }
 .a31checkbox .bg-JsKD8N {
-  background-color: var(--shark);
+  background-color: rgba(37,37,37,1.0);
   border-radius: 14.7px;
   height: 110px;
   left: 0px;
@@ -467,7 +450,7 @@
   width: 270px;
 }
 .a31checkbox .bg-R00c3h {
-  background-color: var(--shark);
+  background-color: rgba(37,37,37,1.0);
   border-radius: 14.7px;
   height: 110px;
   left: 0px;
@@ -476,7 +459,7 @@
   width: 110px;
 }
 .a31checkbox .bg-RfBzIT {
-  background-color: var(--shark);
+  background-color: rgba(37,37,37,1.0);
   border-radius: 14.7px;
   height: 110px;
   left: 1px;
@@ -484,16 +467,8 @@
   top: 1px;
   width: 110px;
 }
-.a31checkbox .bg-Rs1170 {
-  background-color: transparent;
-  height: 32px;
-  left: 8px;
-  position: absolute;
-  top: 8px;
-  width: 32px;
-}
 .a31checkbox .bg-SGkIqO {
-  background-color: var(--shark);
+  background-color: rgba(37,37,37,1.0);
   border-radius: 14.7px;
   height: 110px;
   left: 0px;
@@ -527,7 +502,7 @@
   width: 110px;
 }
 .a31checkbox .bg-TpCHh1 {
-  background-color: var(--shark);
+  background-color: rgba(37,37,37,1.0);
   border-radius: 14.7px;
   height: 110px;
   left: 1px;
@@ -568,7 +543,7 @@
   width: 14px;
 }
 .a31checkbox .bg-bXMtn1 {
-  background-color: var(--shark);
+  background-color: rgba(37,37,37,1.0);
   border-radius: 14.7px;
   height: 110px;
   left: 0px;
@@ -585,7 +560,7 @@
   width: 14px;
 }
 .a31checkbox .bg-fL6hsz {
-  background-color: var(--shark);
+  background-color: rgba(37,37,37,1.0);
   border-radius: 14.7px;
   height: 110px;
   left: 1px;
@@ -611,7 +586,7 @@
   width: 110px;
 }
 .a31checkbox .bg-lUjxYo {
-  background-color: var(--shark);
+  background-color: rgba(37,37,37,1.0);
   border-radius: 14.7px;
   height: 110px;
   left: 1px;
@@ -838,31 +813,6 @@ transform: scale(0.98);
   top: 1px;
   width: 14px;
 }
-.a31checkbox .check-1xyyM9 {
-  background-color: transparent;
-  height: 31px;
-  left: 1px;
-  position: absolute;
-  top: 1px;
-  width: 31px;
-}
-.a31checkbox .check-4Kzcfg {
-  background-color: transparent;
-  height: 31px;
-  left: 2px;
-  position: absolute;
-  top: 2px;
-  width: 31px;
-}
-.a31checkbox .check-51y25f {
-  background-color: transparent;
-  height: 32px;
-  left: 8px;
-  opacity: 0.8;
-  position: absolute;
-  top: 8px;
-  width: 32px;
-}
 .a31checkbox .check-6GYvJK {
   background-color: transparent;
   height: 15px;
@@ -878,14 +828,6 @@ transform: scale(0.98);
   position: absolute;
   top: 1px;
   width: 14px;
-}
-.a31checkbox .check-6yTOxC {
-  background-color: transparent;
-  height: 31px;
-  left: 1px;
-  position: absolute;
-  top: 0px;
-  width: 31px;
 }
 .a31checkbox .check-AAxuuw {
   background-color: transparent;
@@ -969,14 +911,6 @@ transform: scale(0.98);
   top: 1px;
   width: 14px;
 }
-.a31checkbox .check-Rs1170 {
-  background-color: transparent;
-  height: 32px;
-  left: 8px;
-  position: absolute;
-  top: 8px;
-  width: 32px;
-}
 .a31checkbox .check-Rtfv0d {
   background-color: transparent;
   height: 14px;
@@ -1001,32 +935,6 @@ transform: scale(0.98);
   position: absolute;
   top: 17px;
   width: 62px;
-}
-.a31checkbox .check-V7XrWb {
-  background-color: transparent;
-  height: 21px;
-  left: 1px;
-  position: absolute;
-  top: 1px;
-  width: 21px;
-}
-.a31checkbox .check-Wdaz09 {
-  background-color: transparent;
-  height: 32px;
-  left: 8px;
-  opacity: 0.8;
-  position: absolute;
-  top: 8px;
-  width: 32px;
-}
-.a31checkbox .check-Zh5KUS {
-  background-color: transparent;
-  height: 22px;
-  left: 5px;
-  opacity: 0.8;
-  position: absolute;
-  top: 5px;
-  width: 22px;
 }
 .a31checkbox .check-a9FAOX {
   background-color: transparent;
@@ -1157,35 +1065,9 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a31checkbox .check-on-0dsDM8 {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 18px;
-  height: 21px;
-  left: 50px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 5px;
-  white-space: nowrap;
-  width: 268px;
-}
-.a31checkbox .check-on-39IQ68 {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 27px;
-  height: 32px;
-  left: 75px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 8px;
-  white-space: nowrap;
-  width: 402px;
-}
 .a31checkbox .check-on-81Bbcx {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 12px;
   height: 14px;
   left: 68px;
@@ -1196,35 +1078,9 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 141px;
 }
-.a31checkbox .check-on-ByoYZN {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 18px;
-  height: 21px;
-  left: 45px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 268px;
-}
-.a31checkbox .check-on-JYcsK8 {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 18px;
-  height: 21px;
-  left: 45px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 268px;
-}
 .a31checkbox .check-on-LvhxHR {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 12px;
   height: 14px;
   left: 68px;
@@ -1237,7 +1093,7 @@ transform: scale(0.98);
 }
 .a31checkbox .check-on-QgBxKl {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 12px;
   height: 14px;
   left: 71px;
@@ -1248,35 +1104,9 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 141px;
 }
-.a31checkbox .check-on-Rl39qI {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 27px;
-  height: 32px;
-  left: 151px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 11px;
-  white-space: nowrap;
-  width: 318px;
-}
-.a31checkbox .check-on-TT2n9x {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 27px;
-  height: 32px;
-  left: 102px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 25px;
-  white-space: nowrap;
-  width: 402px;
-}
 .a31checkbox .check-on-WbxvNf {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 12px;
   height: 14px;
   left: 71px;
@@ -1289,7 +1119,7 @@ transform: scale(0.98);
 }
 .a31checkbox .check-on-Yz4ji9 {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 12px;
   height: 14px;
   left: 68px;
@@ -1316,7 +1146,7 @@ transform: scale(0.98);
 }
 .a31checkbox .check-on-eu4mPW {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 12px;
   height: 14px;
   left: 71px;
@@ -1329,7 +1159,7 @@ transform: scale(0.98);
 }
 .a31checkbox .check-on-gzVdib {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 12px;
   height: 14px;
   left: 68px;
@@ -1356,7 +1186,7 @@ transform: scale(0.98);
 }
 .a31checkbox .check-on-vosUds {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 12px;
   height: 14px;
   left: 71px;
@@ -1367,35 +1197,9 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 141px;
 }
-.a31checkbox .check-on-x2Oa8S {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 27px;
-  height: 32px;
-  left: 159px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 11px;
-  white-space: nowrap;
-  width: 318px;
-}
-.a31checkbox .check-on-xMhHKF {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 18px;
-  height: 21px;
-  left: 50px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 5px;
-  white-space: nowrap;
-  width: 268px;
-}
 .a31checkbox .check-on-xqOvQ2 {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 12px;
   height: 14px;
   left: 71px;
@@ -1408,7 +1212,7 @@ transform: scale(0.98);
 }
 .a31checkbox .check-on-xtDxtC {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 12px;
   height: 14px;
   left: 71px;
@@ -1436,15 +1240,6 @@ transform: scale(0.98);
   top: 1px;
   width: 14px;
 }
-.a31checkbox .check-sQ9xsx {
-  background-color: transparent;
-  height: 31px;
-  left: 8px;
-  opacity: 0.8;
-  position: absolute;
-  top: 9px;
-  width: 32px;
-}
 .a31checkbox .check-sbMYyb {
   background-color: transparent;
   height: 14px;
@@ -1470,24 +1265,6 @@ transform: scale(0.98);
   top: 4px;
   width: 15px;
 }
-.a31checkbox .check-uopjQu {
-  background-color: transparent;
-  height: 21px;
-  left: 1px;
-  opacity: 0.4;
-  position: absolute;
-  top: 1px;
-  width: 21px;
-}
-.a31checkbox .check-vQqcLW {
-  background-color: transparent;
-  height: 22px;
-  left: 5px;
-  opacity: 0.4;
-  position: absolute;
-  top: 5px;
-  width: 22px;
-}
 .a31checkbox .check-x2f0ex {
   background-color: transparent;
   height: 14px;
@@ -1495,14 +1272,6 @@ transform: scale(0.98);
   position: absolute;
   top: 1px;
   width: 14px;
-}
-.a31checkbox .check-xXDPnV {
-  background-color: transparent;
-  height: 31px;
-  left: 1px;
-  position: absolute;
-  top: 0px;
-  width: 31px;
 }
 .a31checkbox .check-y4zj8Z {
   background-color: transparent;
@@ -1988,7 +1757,7 @@ transform: scale(0.98);
 }
 .a31checkbox .fn-k58acA {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -2036,7 +1805,7 @@ transform: scale(0.98);
 }
 .a31checkbox .gallerybtn-heckbgmtrl-HiSAxi {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-2ECCAB79-5AB9-49DE-879A-986260E2EC4B@2x.png);
+  background-image: url(../img/3-1-checkbox-shape-618B3871-DFAE-48E6-88AE-227A7DF4F1F8@2x.png);
   background-size: 100% 100%;
   height: 32px;
   left: 8px;
@@ -2046,7 +1815,7 @@ transform: scale(0.98);
 }
 .a31checkbox .gallerybtn-heckbgmtrl-Lly46z {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-D1FABB14-F476-4FF8-9B58-047E0FD2D5F8@2x.png);
+  background-image: url(../img/3-1-checkbox-shape-F4A6CB50-D8E9-41BC-8892-BB3364DCAB2E@2x.png);
   background-size: 100% 100%;
   height: 64px;
   left: 16px;
@@ -2056,7 +1825,7 @@ transform: scale(0.98);
 }
 .a31checkbox .gallerybtn-heckbgmtrl-Y8rBkV {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-D1FABB14-F476-4FF8-9B58-047E0FD2D5F8@2x.png);
+  background-image: url(../img/3-1-checkbox-shape-F4A6CB50-D8E9-41BC-8892-BB3364DCAB2E@2x.png);
   background-size: 100% 100%;
   height: 64px;
   left: 16px;
@@ -3020,7 +2789,7 @@ transform: scale(0.98);
   width: 1240px;
 }
 .a31checkbox .group-xx7jEu {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 67px;
   position: absolute;
@@ -3149,7 +2918,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-form-e-imageold-UfZyNY {
   background-color: rgba(255,0,255,1.0);
-  background-image: url(../img/3-1-checkbox-resource-33BDB428-ED7B-4E6F-A570-3F40592306C7.png);
+  background-image: url(../img/3-1-checkbox-resource-35E0410A-BCD4-4323-86F8-9EA02C01D741.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 46px;
@@ -3515,7 +3284,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-e-vertical-6oDxBw {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-98047674-015F-4D92-BAD7-2C67123F27BC@2x.png);
+  background-image: url(../img/3-2-radio-button-line-B50442A2-E976-4707-8131-480974E487DD@2x.png);
   background-size: 100% 100%;
   height: 10px;
   left: 56px;
@@ -3525,7 +3294,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-e-vertical-YiUWkY {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-96B3B568-C8B3-48DE-943A-3A1FB0005C33@2x.png);
+  background-image: url(../img/3-1-checkbox-line-4C21490B-D54D-499A-ACEF-BCC97C9D6B24@2x.png);
   background-size: 100% 100%;
   height: 12px;
   left: 47px;
@@ -3535,7 +3304,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-e-vertical-ji42y2 {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-96B3B568-C8B3-48DE-943A-3A1FB0005C33@2x.png);
+  background-image: url(../img/3-1-checkbox-line-4C21490B-D54D-499A-ACEF-BCC97C9D6B24@2x.png);
   background-size: 100% 100%;
   height: 12px;
   left: 0px;
@@ -3545,7 +3314,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-e-vertical-vY6h9S {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-98047674-015F-4D92-BAD7-2C67123F27BC@2x.png);
+  background-image: url(../img/3-2-radio-button-line-B50442A2-E976-4707-8131-480974E487DD@2x.png);
   background-size: 100% 100%;
   height: 10px;
   left: 87px;
@@ -3591,7 +3360,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-19nsWP {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-634F8BAE-4E00-4EF7-BED0-F24799B7B92E.png);
+  background-image: url(../img/3-1-checkbox-line-01E8D764-4FFC-4DA5-A588-D358B1DC572E.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -3601,7 +3370,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-6oDxBw {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-2C1914AF-7C7A-424B-8F30-ED2A9C85DB20@2x.png);
+  background-image: url(../img/3-1-checkbox-line-6FA44DFC-DEC5-4336-A53A-155D3FBDC481@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -3611,7 +3380,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-8FcDQf {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-2066810A-6428-4572-88C5-0157C277BB6B.png);
+  background-image: url(../img/3-4-onoff-switch-line-1885893A-CEEE-4021-BA38-193ADCBA162A.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -3621,7 +3390,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-Nta0Vv {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-2066810A-6428-4572-88C5-0157C277BB6B.png);
+  background-image: url(../img/3-4-onoff-switch-line-1885893A-CEEE-4021-BA38-193ADCBA162A.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -3631,7 +3400,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-YiUWkY {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-4E47D719-D4A5-4F4B-95D3-8A7C566D5D49.png);
+  background-image: url(../img/3-1-checkbox-line-4A855AA2-3913-4502-8DFE-C793EDC2D273.png);
   background-size: 100% 100%;
   height: 1px;
   left: 48px;
@@ -3641,7 +3410,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-ji42y2 {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-4E47D719-D4A5-4F4B-95D3-8A7C566D5D49.png);
+  background-image: url(../img/3-1-checkbox-line-4A855AA2-3913-4502-8DFE-C793EDC2D273.png);
   background-size: 100% 100%;
   height: 1px;
   left: 48px;
@@ -3651,7 +3420,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-vY6h9S {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-2C1914AF-7C7A-424B-8F30-ED2A9C85DB20@2x.png);
+  background-image: url(../img/3-1-checkbox-line-6FA44DFC-DEC5-4336-A53A-155D3FBDC481@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -3661,7 +3430,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-vmt2lu {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-634F8BAE-4E00-4EF7-BED0-F24799B7B92E.png);
+  background-image: url(../img/3-1-checkbox-line-01E8D764-4FFC-4DA5-A588-D358B1DC572E.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -3671,7 +3440,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-xdbX6J {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-634F8BAE-4E00-4EF7-BED0-F24799B7B92E.png);
+  background-image: url(../img/3-1-checkbox-line-01E8D764-4FFC-4DA5-A588-D358B1DC572E.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -3716,7 +3485,7 @@ transform: scale(0.98);
   width: 32px;
 }
 .a31checkbox .guide-measure-area-0VPAcn {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 227px;
   left: 0px;
   position: absolute;
@@ -3732,7 +3501,7 @@ transform: scale(0.98);
   width: 32px;
 }
 .a31checkbox .guide-measure-area-8ayx5k {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 212px;
   left: 0px;
   position: absolute;
@@ -3756,7 +3525,7 @@ transform: scale(0.98);
   width: 48px;
 }
 .a31checkbox .guide-measure-area-FfQpEx {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 213px;
   left: 0px;
   position: absolute;
@@ -3764,7 +3533,7 @@ transform: scale(0.98);
   width: 36px;
 }
 .a31checkbox .guide-measure-area-GVXFW5 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 227px;
   left: 0px;
   position: absolute;
@@ -3772,7 +3541,7 @@ transform: scale(0.98);
   width: 18px;
 }
 .a31checkbox .guide-measure-area-Ow8Nxk {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 258px;
   left: 0px;
   position: absolute;
@@ -3780,7 +3549,7 @@ transform: scale(0.98);
   width: 12px;
 }
 .a31checkbox .guide-measure-area-Qr4ZM8 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 170px;
   left: 0px;
   position: absolute;
@@ -3796,7 +3565,7 @@ transform: scale(0.98);
   width: 48px;
 }
 .a31checkbox .guide-measure-area-YjEQqe {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 227px;
   left: 0px;
   position: absolute;
@@ -3828,7 +3597,7 @@ transform: scale(0.98);
   width: 48px;
 }
 .a31checkbox .guide-measure-area-kOhkJY {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 258px;
   left: 0px;
   position: absolute;
@@ -3836,7 +3605,7 @@ transform: scale(0.98);
   width: 12px;
 }
 .a31checkbox .guide-measure-area-lKReYa {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 212px;
   left: 0px;
   position: absolute;
@@ -3860,7 +3629,7 @@ transform: scale(0.98);
   width: 48px;
 }
 .a31checkbox .guide-measure-area-r6haQn {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 170px;
   left: 0px;
   position: absolute;
@@ -3892,7 +3661,7 @@ transform: scale(0.98);
   width: 32px;
 }
 .a31checkbox .guide-measure-area-zXdWjf {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 170px;
   left: 0px;
   position: absolute;
@@ -3901,7 +3670,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-image-6VxaSl {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-12B3A5CF-E676-4E78-B50A-25EE3E28E87F@2x.png);
+  background-image: url(../img/3-2-radio-button-oval-A40B2687-B0A4-4989-B445-DBFA9C9E8E6C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -3911,7 +3680,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-image-FOus6R {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-12B3A5CF-E676-4E78-B50A-25EE3E28E87F@2x.png);
+  background-image: url(../img/3-2-radio-button-oval-A40B2687-B0A4-4989-B445-DBFA9C9E8E6C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -3921,7 +3690,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-image-Fw7tYF {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-12B3A5CF-E676-4E78-B50A-25EE3E28E87F@2x.png);
+  background-image: url(../img/3-2-radio-button-oval-A40B2687-B0A4-4989-B445-DBFA9C9E8E6C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 212px;
@@ -3931,7 +3700,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-image-ND5JXY {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-12B3A5CF-E676-4E78-B50A-25EE3E28E87F@2x.png);
+  background-image: url(../img/3-2-radio-button-oval-A40B2687-B0A4-4989-B445-DBFA9C9E8E6C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -3941,7 +3710,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-image-bozKek {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-12B3A5CF-E676-4E78-B50A-25EE3E28E87F@2x.png);
+  background-image: url(../img/3-2-radio-button-oval-A40B2687-B0A4-4989-B445-DBFA9C9E8E6C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 185px;
@@ -3951,7 +3720,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-image-qRUNf9 {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-12B3A5CF-E676-4E78-B50A-25EE3E28E87F@2x.png);
+  background-image: url(../img/3-2-radio-button-oval-A40B2687-B0A4-4989-B445-DBFA9C9E8E6C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -3961,7 +3730,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-image-teDpwS {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-12B3A5CF-E676-4E78-B50A-25EE3E28E87F@2x.png);
+  background-image: url(../img/3-2-radio-button-oval-A40B2687-B0A4-4989-B445-DBFA9C9E8E6C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 185px;
@@ -3971,7 +3740,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-image-xfyR1E {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-12B3A5CF-E676-4E78-B50A-25EE3E28E87F@2x.png);
+  background-image: url(../img/3-2-radio-button-oval-A40B2687-B0A4-4989-B445-DBFA9C9E8E6C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 212px;
@@ -3981,7 +3750,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-shape-8FcDQf {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-EF61BDF9-D31A-49EC-805E-B3DD70C4BAFD@2x.png);
+  background-image: url(../img/3-1-checkbox-oval-29E87233-F9B9-4040-9B48-07217BF1272B@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -3991,7 +3760,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-shape-GpxYCS {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-EF61BDF9-D31A-49EC-805E-B3DD70C4BAFD@2x.png);
+  background-image: url(../img/3-1-checkbox-oval-29E87233-F9B9-4040-9B48-07217BF1272B@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 212px;
@@ -4001,7 +3770,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numbering-icon-6Nqncj {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-12B3A5CF-E676-4E78-B50A-25EE3E28E87F@2x.png);
+  background-image: url(../img/3-2-radio-button-oval-A40B2687-B0A4-4989-B445-DBFA9C9E8E6C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4011,7 +3780,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numbering-icon-QJ8ieg {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-EF61BDF9-D31A-49EC-805E-B3DD70C4BAFD@2x.png);
+  background-image: url(../img/3-1-checkbox-oval-29E87233-F9B9-4040-9B48-07217BF1272B@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4021,7 +3790,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numbering-icon-YA78CZ {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-12B3A5CF-E676-4E78-B50A-25EE3E28E87F@2x.png);
+  background-image: url(../img/3-2-radio-button-oval-A40B2687-B0A4-4989-B445-DBFA9C9E8E6C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4031,7 +3800,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numbering-icon-tMryUx {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-12B3A5CF-E676-4E78-B50A-25EE3E28E87F@2x.png);
+  background-image: url(../img/3-2-radio-button-oval-A40B2687-B0A4-4989-B445-DBFA9C9E8E6C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4041,7 +3810,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numbering-icon-xJj5cn {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-EF61BDF9-D31A-49EC-805E-B3DD70C4BAFD@2x.png);
+  background-image: url(../img/3-1-checkbox-oval-29E87233-F9B9-4040-9B48-07217BF1272B@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4301,14 +4070,6 @@ transform: scale(0.98);
   top: 0px;
   width: 144px;
 }
-.a31checkbox .line-LKthZi {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 324px;
-}
 .a31checkbox .line-aPq10P {
   background-color: rgba(230,230,230,1.0);
   height: 1px;
@@ -4341,22 +4102,6 @@ transform: scale(0.98);
   top: 0px;
   width: 144px;
 }
-.a31checkbox .line-zwKf59 {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 303px;
-}
-.a31checkbox .list-CWimIx {
-  background-color: transparent;
-  height: 227px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
 .a31checkbox .list01-0AVC3V {
   background-color: transparent;
   height: 191px;
@@ -4373,24 +4118,6 @@ transform: scale(0.98);
   top: 0px;
   width: 240px;
 }
-.a31checkbox .list01-Wjdcpq {
-  background-color: transparent;
-  height: 170px;
-  left: 0px;
-  overflow: hidden;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a31checkbox .list01-WogAfA {
-  background-color: transparent;
-  height: 171px;
-  left: 0px;
-  overflow: hidden;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a31checkbox .list02-0AVC3V {
   background-color: transparent;
   height: 228px;
@@ -4399,15 +4126,6 @@ transform: scale(0.98);
   position: absolute;
   top: 190px;
   width: 240px;
-}
-.a31checkbox .list02-McUpVx {
-  background-color: transparent;
-  height: 212px;
-  left: 0px;
-  overflow: hidden;
-  position: relative;
-  top: 0px;
-  width: 540px;
 }
 .a31checkbox .list02-QC4MdR {
   background-color: transparent;
@@ -4428,7 +4146,7 @@ transform: scale(0.98);
 }
 .a31checkbox .main-text-1XIHjU {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 12px;
   height: 14px;
   left: 80px;
@@ -4441,7 +4159,7 @@ transform: scale(0.98);
 }
 .a31checkbox .main-text-2yOsgD {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 12px;
   height: 14px;
   left: 77px;
@@ -4452,22 +4170,9 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 132px;
 }
-.a31checkbox .main-text-3pOuzt {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 27px;
-  height: 32px;
-  left: 180px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 8px;
-  white-space: nowrap;
-  width: 297px;
-}
 .a31checkbox .main-text-4dhCC4 {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 12px;
   height: 14px;
   left: 80px;
@@ -4480,7 +4185,7 @@ transform: scale(0.98);
 }
 .a31checkbox .main-text-72mWxK {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 12px;
   height: 14px;
   left: 80px;
@@ -4493,7 +4198,7 @@ transform: scale(0.98);
 }
 .a31checkbox .main-text-Alctyv {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 12px;
   height: 14px;
   left: 77px;
@@ -4506,7 +4211,7 @@ transform: scale(0.98);
 }
 .a31checkbox .main-text-RSQXJQ {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 12px;
   height: 14px;
   left: 80px;
@@ -4519,7 +4224,7 @@ transform: scale(0.98);
 }
 .a31checkbox .main-text-bAM3Ox {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 12px;
   height: 14px;
   left: 77px;
@@ -4532,7 +4237,7 @@ transform: scale(0.98);
 }
 .a31checkbox .main-text-jd2xNr {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 12px;
   height: 14px;
   left: 77px;
@@ -4545,7 +4250,7 @@ transform: scale(0.98);
 }
 .a31checkbox .main-text-pZrMS0 {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 12px;
   height: 14px;
   left: 77px;
@@ -4558,7 +4263,7 @@ transform: scale(0.98);
 }
 .a31checkbox .main-text-syWo49 {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 12px;
   height: 14px;
   left: 77px;
@@ -4568,19 +4273,6 @@ transform: scale(0.98);
   top: 4px;
   white-space: nowrap;
   width: 132px;
-}
-.a31checkbox .main-text-x1DwOK {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 27px;
-  height: 32px;
-  left: 172px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 8px;
-  white-space: nowrap;
-  width: 297px;
 }
 .a31checkbox .mask-mmMGBz {
   background-color: transparent;
@@ -5196,22 +4888,6 @@ transform: scale(0.98);
   top: 7px;
   width: 210px;
 }
-.a31checkbox .mobile-lig-1list1line-JxnlNf {
-  background-color: transparent;
-  height: 54px;
-  left: 35px;
-  position: absolute;
-  top: 15px;
-  width: 469px;
-}
-.a31checkbox .mobile-lig-1list1line-R0Uvl9 {
-  background-color: transparent;
-  height: 55px;
-  left: 27px;
-  position: absolute;
-  top: 100px;
-  width: 477px;
-}
 .a31checkbox .mobile-lig-1list1line-h78iWR {
   background-color: transparent;
   height: 26px;
@@ -5243,14 +4919,6 @@ transform: scale(0.98);
   position: absolute;
   top: 82px;
   width: 213px;
-}
-.a31checkbox .mobile-lig-2list2line-HeOHve {
-  background-color: transparent;
-  height: 76px;
-  left: 27px;
-  position: absolute;
-  top: 121px;
-  width: 477px;
 }
 .a31checkbox .mobile-lig-2list2line-KHRqAQ {
   background-color: transparent;
@@ -5292,17 +4960,9 @@ transform: scale(0.98);
   top: 172px;
   width: 210px;
 }
-.a31checkbox .mobile-lig-2list2line-tkw3Us {
-  background-color: transparent;
-  height: 75px;
-  left: 35px;
-  position: absolute;
-  top: 15px;
-  width: 469px;
-}
 .a31checkbox .mobile-lig-bar-recent-BzZRUP {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarrecent-44B7FFCA-2A1B-4C37-A3BB-94185D6A653B@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarrecent-69911C92-3EC4-421F-B4EE-0A127CC02EE3@2x.png);
   background-size: 100% 100%;
   height: 11px;
   left: 0px;
@@ -5312,7 +4972,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-bar-recent-CKZJXp {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarrecent-44B7FFCA-2A1B-4C37-A3BB-94185D6A653B@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarrecent-69911C92-3EC4-421F-B4EE-0A127CC02EE3@2x.png);
   background-size: 100% 100%;
   height: 11px;
   left: 0px;
@@ -5322,7 +4982,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-bar-recent-ROgBAU {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarrecent-522C4FBC-4AE5-44A4-B758-3E947CA9823D@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarrecent-8E966E53-A6EE-446F-BA82-7BFC455687D7@2x.png);
   background-size: 100% 100%;
   height: 11px;
   left: 47px;
@@ -5332,7 +4992,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-bar-recent-bjG41e {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarrecent-522C4FBC-4AE5-44A4-B758-3E947CA9823D@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarrecent-8E966E53-A6EE-446F-BA82-7BFC455687D7@2x.png);
   background-size: 100% 100%;
   height: 11px;
   left: 47px;
@@ -5355,15 +5015,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 111px;
-}
-.a31checkbox .mobile-lig-bnail1line-AcUXyi {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 33px;
-  height: 258px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 258px;
 }
 .a31checkbox .mobile-lig-bnail1line-Ja2I1m {
   background-color: transparent;
@@ -5413,15 +5064,6 @@ transform: scale(0.98);
   top: 0px;
   width: 111px;
 }
-.a31checkbox .mobile-lig-bnail1line-uxDTDM {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 33px;
-  height: 258px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 258px;
-}
 .a31checkbox .mobile-lig-boxonthumb-0PxpnY {
   background-color: transparent;
   height: 15px;
@@ -5454,23 +5096,6 @@ transform: scale(0.98);
   top: 9px;
   width: 15px;
 }
-.a31checkbox .mobile-lig-boxonthumb-uxDTDM {
-  background-color: transparent;
-  height: 34px;
-  left: 19px;
-  position: absolute;
-  top: 19px;
-  width: 34px;
-}
-.a31checkbox .mobile-lig-checkboxon-0dsDM8 {
-  background-color: transparent;
-  height: 32px;
-  left: 0px;
-  overflow: hidden;
-  position: absolute;
-  top: 0px;
-  width: 32px;
-}
 .a31checkbox .mobile-lig-checkboxon-1XIHjU {
   background-color: transparent;
   height: 23px;
@@ -5480,24 +5105,6 @@ transform: scale(0.98);
   top: 7px;
   width: 23px;
 }
-.a31checkbox .mobile-lig-checkboxon-39IQ68 {
-  background-color: transparent;
-  height: 48px;
-  left: 0px;
-  overflow: hidden;
-  position: absolute;
-  top: 0px;
-  width: 48px;
-}
-.a31checkbox .mobile-lig-checkboxon-3pOuzt {
-  background-color: transparent;
-  height: 48px;
-  left: 0px;
-  overflow: hidden;
-  position: absolute;
-  top: 14px;
-  width: 48px;
-}
 .a31checkbox .mobile-lig-checkboxon-81Bbcx {
   background-color: transparent;
   height: 15px;
@@ -5506,25 +5113,9 @@ transform: scale(0.98);
   top: 5px;
   width: 15px;
 }
-.a31checkbox .mobile-lig-checkboxon-ByoYZN {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 22px;
-}
-.a31checkbox .mobile-lig-checkboxon-JYcsK8 {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 22px;
-}
 .a31checkbox .mobile-lig-checkboxon-OG0TdV {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-check-94CB0C33-B4BC-4297-9509-E9F4C744E64C@2x.png);
+  background-image: url(../img/3-1-checkbox-check-AA0DF936-E00C-4AE2-BFB0-2C706AEBF62E@2x.png);
   background-size: 100% 100%;
   height: 62px;
   left: 28px;
@@ -5549,22 +5140,6 @@ transform: scale(0.98);
   position: absolute;
   top: 7px;
   width: 23px;
-}
-.a31checkbox .mobile-lig-checkboxon-Rl39qI {
-  background-color: transparent;
-  height: 32px;
-  left: 0px;
-  position: absolute;
-  top: 11px;
-  width: 32px;
-}
-.a31checkbox .mobile-lig-checkboxon-TT2n9x {
-  background-color: transparent;
-  height: 32px;
-  left: 35px;
-  position: absolute;
-  top: 26px;
-  width: 32px;
 }
 .a31checkbox .mobile-lig-checkboxon-Yz4ji9 {
   background-color: transparent;
@@ -5607,32 +5182,6 @@ transform: scale(0.98);
   top: 10px;
   width: 15px;
 }
-.a31checkbox .mobile-lig-checkboxon-x1DwOK {
-  background-color: transparent;
-  height: 32px;
-  left: 0px;
-  position: absolute;
-  top: 22px;
-  width: 32px;
-}
-.a31checkbox .mobile-lig-checkboxon-x2Oa8S {
-  background-color: transparent;
-  height: 49px;
-  left: 0px;
-  overflow: hidden;
-  position: absolute;
-  top: 3px;
-  width: 48px;
-}
-.a31checkbox .mobile-lig-checkboxon-xMhHKF {
-  background-color: transparent;
-  height: 32px;
-  left: 0px;
-  overflow: hidden;
-  position: absolute;
-  top: 0px;
-  width: 32px;
-}
 .a31checkbox .mobile-lig-checkboxon-xtDxtC {
   background-color: transparent;
   height: 23px;
@@ -5642,49 +5191,9 @@ transform: scale(0.98);
   top: 2px;
   width: 23px;
 }
-.a31checkbox .mobile-lig-ckbox-text-0U0rYN {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 68px;
-  position: absolute;
-  top: 113px;
-  width: 272px;
-}
-.a31checkbox .mobile-lig-ckbox-text-IsPgxh {
-  background-color: rgba(230,230,230,1.0);
-  height: 2px;
-  left: 102px;
-  position: absolute;
-  top: 170px;
-  width: 408px;
-}
-.a31checkbox .mobile-lig-ckbox-text-YxZZ71 {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 68px;
-  position: absolute;
-  top: 56px;
-  width: 272px;
-}
-.a31checkbox .mobile-lig-ckbox-text-mAnxr4 {
-  background-color: rgba(230,230,230,1.0);
-  height: 2px;
-  left: 102px;
-  position: absolute;
-  top: 84px;
-  width: 408px;
-}
-.a31checkbox .mobile-lig-ckbox-text-tKWoeT {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 68px;
-  position: absolute;
-  top: 170px;
-  width: 272px;
-}
 .a31checkbox .mobile-lig-ckboxondim-kIufMK {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-check-94CB0C33-B4BC-4297-9509-E9F4C744E64C@2x.png);
+  background-image: url(../img/3-1-checkbox-check-AA0DF936-E00C-4AE2-BFB0-2C706AEBF62E@2x.png);
   background-size: 100% 100%;
   height: 62px;
   left: 28px;
@@ -5700,46 +5209,6 @@ transform: scale(0.98);
   top: 16px;
   width: 240px;
 }
-.a31checkbox .mobile-lig-eckboxlist-0U0rYN {
-  background-color: transparent;
-  height: 22px;
-  left: 23px;
-  position: absolute;
-  top: 131px;
-  width: 313px;
-}
-.a31checkbox .mobile-lig-eckboxlist-IsPgxh {
-  background-color: transparent;
-  height: 48px;
-  left: 27px;
-  position: absolute;
-  top: 18px;
-  width: 477px;
-}
-.a31checkbox .mobile-lig-eckboxlist-Rh2jFI {
-  background-color: transparent;
-  height: 22px;
-  left: 23px;
-  position: absolute;
-  top: 17px;
-  width: 313px;
-}
-.a31checkbox .mobile-lig-eckboxlist-YxZZ71 {
-  background-color: transparent;
-  height: 32px;
-  left: 18px;
-  position: absolute;
-  top: 69px;
-  width: 318px;
-}
-.a31checkbox .mobile-lig-eckboxlist-tKWoeT {
-  background-color: transparent;
-  height: 32px;
-  left: 18px;
-  position: absolute;
-  top: 183px;
-  width: 318px;
-}
 .a31checkbox .mobile-lig-heckboxoff-iFXqxx {
   background-color: transparent;
   height: 96px;
@@ -5748,14 +5217,6 @@ transform: scale(0.98);
   position: absolute;
   top: 11px;
   width: 96px;
-}
-.a31checkbox .mobile-lig-ilselected-9hZzOd {
-  background-color: transparent;
-  height: 258px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 258px;
 }
 .a31checkbox .mobile-lig-ilselected-Pp7Yge {
   background-color: transparent;
@@ -5792,7 +5253,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-onbar-back-5YsoMl {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarback-8EE00D0F-221D-4299-95FC-54340CF228F2@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarback-241DEEE4-097E-4A05-B56B-5A0AAC06DC02@2x.png);
   background-size: 100% 100%;
   height: 11px;
   left: 0px;
@@ -5802,7 +5263,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-onbar-back-Dysxw4 {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarback-8EE00D0F-221D-4299-95FC-54340CF228F2@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarback-241DEEE4-097E-4A05-B56B-5A0AAC06DC02@2x.png);
   background-size: 100% 100%;
   height: 11px;
   left: 0px;
@@ -5812,7 +5273,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-onbar-back-ROgBAU {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarback-DD21E41E-93F2-484A-8278-13730BB18031@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarback-1DEB5A30-CCA3-45F6-813A-F051DB745938@2x.png);
   background-size: 100% 100%;
   height: 11px;
   left: 184px;
@@ -5822,7 +5283,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-onbar-back-bjG41e {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarback-DD21E41E-93F2-484A-8278-13730BB18031@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarback-1DEB5A30-CCA3-45F6-813A-F051DB745938@2x.png);
   background-size: 100% 100%;
   height: 11px;
   left: 184px;
@@ -5832,7 +5293,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-onbar-home-ROgBAU {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarhome-41F0AF0C-0B31-40B5-8D3D-BA1F4F94AB44@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarhome-12E22FC4-BC53-4706-A8D1-27B8B4F87D98@2x.png);
   background-size: 100% 100%;
   height: 11px;
   left: 115px;
@@ -5842,7 +5303,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-onbar-home-bjG41e {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarhome-41F0AF0C-0B31-40B5-8D3D-BA1F4F94AB44@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarhome-12E22FC4-BC53-4706-A8D1-27B8B4F87D98@2x.png);
   background-size: 100% 100%;
   height: 11px;
   left: 115px;
@@ -5852,7 +5313,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-onbar-home-cHwllq {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarhome-2BB6A287-9904-4F2D-B51C-09DECCE50F97@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarhome-C46E359A-BFA4-4D93-94E8-E27C5563EBFF@2x.png);
   background-size: 100% 100%;
   height: 11px;
   left: 0px;
@@ -5862,7 +5323,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-onbar-home-ejOFhL {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarhome-2BB6A287-9904-4F2D-B51C-09DECCE50F97@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon21navigationbarhome-C46E359A-BFA4-4D93-94E8-E27C5563EBFF@2x.png);
   background-size: 100% 100%;
   height: 11px;
   left: 0px;
@@ -5887,15 +5348,6 @@ transform: scale(0.98);
   position: absolute;
   top: 5px;
   width: 22px;
-}
-.a31checkbox .mobile-lig-oxoffthumb-AcUXyi {
-  background-color: transparent;
-  height: 48px;
-  left: 12px;
-  overflow: hidden;
-  position: absolute;
-  top: 12px;
-  width: 48px;
 }
 .a31checkbox .mobile-lig-oxoffthumb-FTZb0k {
   background-color: transparent;
@@ -5987,33 +5439,6 @@ transform: scale(0.98);
   top: 6px;
   width: 22px;
 }
-.a31checkbox .mobile-lig-rouplistbg-HeOHve {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 39px;
-  height: 251px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 540px;
-}
-.a31checkbox .mobile-lig-rouplistbg-IsPgxh {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 39px;
-  height: 210px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 540px;
-}
-.a31checkbox .mobile-lig-rouplistbg-R0Uvl9 {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 39px;
-  height: 209px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 540px;
-}
 .a31checkbox .mobile-lig-rouplistbg-h78iWR {
   background-color: transparent;
   height: 190px;
@@ -6030,23 +5455,6 @@ transform: scale(0.98);
   top: 24px;
   width: 240px;
 }
-.a31checkbox .mobile-lig-rouplistbg-tKWoeT {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 26px;
-  height: 227px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 360px;
-}
-.a31checkbox .mobile-lig-stselected-IsPgxh {
-  background-color: rgba(3,129,254,0.08);
-  height: 84px;
-  left: 0px;
-  position: absolute;
-  top: 86px;
-  width: 540px;
-}
 .a31checkbox .mobile-lig-text-chunk-kt8ed6 {
   background-color: transparent;
   height: 25px;
@@ -6055,14 +5463,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 240px;
-}
-.a31checkbox .mobile-lig-thumbnail1-R0Uvl9 {
-  background-color: transparent;
-  height: 2px;
-  left: 186px;
-  position: absolute;
-  top: 84px;
-  width: 324px;
 }
 .a31checkbox .mobile-lig-thumbnail1-h78iWR {
   background-color: transparent;
@@ -6095,14 +5495,6 @@ transform: scale(0.98);
   position: absolute;
   top: 76px;
   width: 145px;
-}
-.a31checkbox .mobile-lig-thumbnail2-HeOHve {
-  background-color: transparent;
-  height: 2px;
-  left: 207px;
-  position: absolute;
-  top: 105px;
-  width: 303px;
 }
 .a31checkbox .mobile-lig-thumbnail2-KHRqAQ {
   background-color: rgba(230,230,230,1.0);
@@ -6138,7 +5530,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-title-back-RC61yJ {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon01actionbartitleback-A699B387-7E95-40A4-A702-4FFD5C82C4EB@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon01actionbartitleback-810EB65A-4113-4218-B3DB-894958D1030D@2x.png);
   background-size: 100% 100%;
   height: 14px;
   left: 17px;
@@ -6148,7 +5540,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-title-back-sj6LHN {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon01actionbartitleback-18DE5F2D-4CCE-4C92-B9A7-F4908B349080@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon01actionbartitleback-2005A499-D6AF-4C9D-81CE-78FCCA485D03@2x.png);
   background-size: 100% 100%;
   height: 14px;
   left: 0px;
@@ -6158,7 +5550,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-title-more-I01SuE {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon01actionbartitlemore-D32E34D4-A7C0-4263-8B56-2BDDB62576D8@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon01actionbartitlemore-184E6480-D206-47B1-B9FB-E2B8B8F103DE@2x.png);
   background-size: 100% 100%;
   height: 12px;
   left: 0px;
@@ -6168,7 +5560,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-title-more-OHZ2ca {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon01actionbartitlemore-F8748E0A-4F47-4120-9462-F72AD750081B@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon01actionbartitlemore-3DB65E4F-1AE2-4053-A875-B32CB447E70E@2x.png);
   background-size: 100% 100%;
   height: 12px;
   left: 218px;
@@ -6178,7 +5570,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-title-more-RC61yJ {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon01actionbartitlemore-F8748E0A-4F47-4120-9462-F72AD750081B@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon01actionbartitlemore-3DB65E4F-1AE2-4053-A875-B32CB447E70E@2x.png);
   background-size: 100% 100%;
   height: 12px;
   left: 218px;
@@ -6188,7 +5580,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-title-more-tLSxqF {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon01actionbartitlemore-D32E34D4-A7C0-4263-8B56-2BDDB62576D8@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon01actionbartitlemore-184E6480-D206-47B1-B9FB-E2B8B8F103DE@2x.png);
   background-size: 100% 100%;
   height: 12px;
   left: 0px;
@@ -6198,7 +5590,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-tle-search-OHZ2ca {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon01actionbartitlesearch-CF77E831-8AD9-401A-9AD9-2BBA6D602664@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon01actionbartitlesearch-5C48E629-531C-45BC-85E7-301509DA3026@2x.png);
   background-size: 100% 100%;
   height: 12px;
   left: 187px;
@@ -6208,7 +5600,7 @@ transform: scale(0.98);
 }
 .a31checkbox .mobile-lig-tle-search-xpAhyY {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-mobilelightthemeicon01actionbartitlesearch-8174DE0E-7110-4286-8E8C-D5F79265CA91@2x.png);
+  background-image: url(../img/3-1-checkbox-mobilelightthemeicon01actionbartitlesearch-2A4426E0-D21F-4038-9449-AE713000D5E5@2x.png);
   background-size: 100% 100%;
   height: 12px;
   left: 0px;
@@ -6223,14 +5615,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 111px;
-}
-.a31checkbox .mobile-lig-unselected-9hZzOd {
-  background-color: transparent;
-  height: 258px;
-  left: 282px;
-  position: absolute;
-  top: 0px;
-  width: 258px;
 }
 .a31checkbox .mobile-lig-unselected-KgSRXa {
   background-color: transparent;
@@ -6289,7 +5673,7 @@ transform: scale(0.98);
   width: 240px;
 }
 .a31checkbox .navibar-bg-ROgBAU {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 32px;
   left: 0px;
   position: absolute;
@@ -6297,7 +5681,7 @@ transform: scale(0.98);
   width: 240px;
 }
 .a31checkbox .navibar-bg-bjG41e {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 32px;
   left: 0px;
   position: absolute;
@@ -6356,14 +5740,6 @@ transform: scale(0.98);
   top: 1px;
   width: 24px;
 }
-.a31checkbox .oval-Rl39qI {
-  background-color: transparent;
-  height: 54px;
-  left: 67px;
-  position: absolute;
-  top: 0px;
-  width: 54px;
-}
 .a31checkbox .oval-WbxvNf {
   background-color: transparent;
   height: 24px;
@@ -6403,14 +5779,6 @@ transform: scale(0.98);
   position: absolute;
   top: 1px;
   width: 24px;
-}
-.a31checkbox .oval-x2Oa8S {
-  background-color: transparent;
-  height: 54px;
-  left: 75px;
-  position: absolute;
-  top: 1px;
-  width: 54px;
 }
 .a31checkbox .oval-xqOvQ2 {
   background-color: transparent;
@@ -6536,14 +5904,6 @@ transform: scale(0.98);
   position: absolute;
   top: 58px;
   width: 228px;
-}
-.a31checkbox .pic-kKi2ik {
-  background-color: transparent;
-  height: 258px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
 }
 .a31checkbox .pic-pt40yk {
   background-color: transparent;
@@ -6914,7 +6274,7 @@ transform: scale(0.98);
 }
 .a31checkbox .recipe-title-JsKD8N {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 10px;
   height: auto;
   left: 10px;
@@ -6927,7 +6287,7 @@ transform: scale(0.98);
 }
 .a31checkbox .recipe-title-R00c3h {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 10px;
   height: auto;
   left: 10px;
@@ -6940,7 +6300,7 @@ transform: scale(0.98);
 }
 .a31checkbox .recipe-title-RfBzIT {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 10px;
   height: auto;
   left: 11px;
@@ -6953,7 +6313,7 @@ transform: scale(0.98);
 }
 .a31checkbox .recipe-title-SGkIqO {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 10px;
   height: auto;
   left: 10px;
@@ -6966,7 +6326,7 @@ transform: scale(0.98);
 }
 .a31checkbox .recipe-title-TpCHh1 {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 10px;
   height: auto;
   left: 11px;
@@ -6979,7 +6339,7 @@ transform: scale(0.98);
 }
 .a31checkbox .recipe-title-bXMtn1 {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 10px;
   height: auto;
   left: 10px;
@@ -6992,7 +6352,7 @@ transform: scale(0.98);
 }
 .a31checkbox .recipe-title-fL6hsz {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 10px;
   height: auto;
   left: 11px;
@@ -7005,7 +6365,7 @@ transform: scale(0.98);
 }
 .a31checkbox .recipe-title-lUjxYo {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 10px;
   height: auto;
   left: 11px;
@@ -7062,7 +6422,7 @@ transform: scale(0.98);
   width: 240px;
 }
 .a31checkbox .rectangle-2-NU1C2v {
-  background-color: var(--shark);
+  background-color: rgba(37,37,37,1.0);
   border-radius: 17.3px;
   height: 236px;
   left: 0px;
@@ -7080,7 +6440,7 @@ transform: scale(0.98);
   width: 240px;
 }
 .a31checkbox .rectangle-2-ZsfI2n {
-  background-color: var(--shark);
+  background-color: rgba(37,37,37,1.0);
   border-radius: 17.3px;
   height: 189px;
   left: 0px;
@@ -7105,16 +6465,6 @@ transform: scale(0.98);
   position: absolute;
   top: 1px;
   width: 33px;
-}
-.a31checkbox .rectangle-3pOuzt {
-  background-color: transparent;
-  border-radius: 18px;
-  height: 75px;
-  left: 75px;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  width: 75px;
 }
 .a31checkbox .rectangle-4dhCC4 {
   background-color: transparent;
@@ -7211,7 +6561,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a31checkbox .rectangle-CTIMPq {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 507px;
   left: 0px;
   position: absolute;
@@ -7735,7 +7085,7 @@ transform: scale(0.98);
   width: 110px;
 }
 .a31checkbox .rectangle-pt40yk {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 507px;
   left: 0px;
   position: absolute;
@@ -7818,16 +7168,6 @@ transform: scale(0.98);
   top: 1px;
   width: 268px;
 }
-.a31checkbox .rectangle-uxDTDM {
-  background-color: var(--black);
-  border-radius: 33px;
-  height: 258px;
-  left: 0px;
-  opacity: 0.3;
-  position: absolute;
-  top: 0px;
-  width: 258px;
-}
 .a31checkbox .rectangle-vuRLeC {
   background-color: rgba(51,204,0,1.0);
   height: 1px;
@@ -7843,16 +7183,6 @@ transform: scale(0.98);
   position: absolute;
   top: 2px;
   width: 1px;
-}
-.a31checkbox .rectangle-x1DwOK {
-  background-color: transparent;
-  border-radius: 18px;
-  height: 75px;
-  left: 67px;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  width: 75px;
 }
 .a31checkbox .rectangle-xIeJkK {
   background-color: var(--razzle-dazzle-rose);
@@ -7934,7 +7264,7 @@ transform: scale(0.98);
 }
 .a31checkbox .sample-title-OHZ2ca {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 12px;
   height: auto;
   left: 16px;
@@ -7947,7 +7277,7 @@ transform: scale(0.98);
 }
 .a31checkbox .sample-title-RC61yJ {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 12px;
   height: auto;
   left: 37px;
@@ -7960,7 +7290,7 @@ transform: scale(0.98);
 }
 .a31checkbox .sample-title-igj6rJ {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 12px;
   height: auto;
   left: 16px;
@@ -7973,7 +7303,7 @@ transform: scale(0.98);
 }
 .a31checkbox .sample-title-vE3v28 {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 12px;
   height: auto;
   left: 37px;
@@ -7986,7 +7316,7 @@ transform: scale(0.98);
 }
 .a31checkbox .semchecked-oonmtrl000-QB9SVn {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-6DD01500-4986-494F-A34A-5F1FA04CC4E4@2x.png);
+  background-image: url(../img/3-1-checkbox-shape-3DEBD790-96C1-43EE-84C4-3597A33497D1@2x.png);
   background-size: 100% 100%;
   height: 31px;
   left: 9px;
@@ -7996,7 +7326,7 @@ transform: scale(0.98);
 }
 .a31checkbox .semchecked-oonmtrl000-ToyfrD {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-6DD01500-4986-494F-A34A-5F1FA04CC4E4@2x.png);
+  background-image: url(../img/3-1-checkbox-shape-3DEBD790-96C1-43EE-84C4-3597A33497D1@2x.png);
   background-size: 100% 100%;
   height: 31px;
   left: 9px;
@@ -8006,7 +7336,7 @@ transform: scale(0.98);
 }
 .a31checkbox .semchecked-oonmtrl000-Y8rBkV {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-E7FD3517-E2C6-406B-B824-E487CFB16D7C@2x.png);
+  background-image: url(../img/3-1-checkbox-shape-A1FA828B-6B83-482C-92B1-F97BDC206EE5@2x.png);
   background-size: 100% 100%;
   height: 62px;
   left: 17px;
@@ -8016,7 +7346,7 @@ transform: scale(0.98);
 }
 .a31checkbox .semchecked-oonmtrl000-mBx4gu {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-E7FD3517-E2C6-406B-B824-E487CFB16D7C@2x.png);
+  background-image: url(../img/3-1-checkbox-shape-A1FA828B-6B83-482C-92B1-F97BDC206EE5@2x.png);
   background-size: 100% 100%;
   height: 62px;
   left: 18px;
@@ -8026,7 +7356,7 @@ transform: scale(0.98);
 }
 .a31checkbox .semchecked-oonmtrl026-7Y5Ift {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-4D0537D5-63ED-4C6C-A6CF-961C20DF0087@2x.png);
+  background-image: url(../img/3-1-checkbox-shape-07D6E5B1-C36A-4080-938D-EA7C66E28C5B@2x.png);
   background-size: 100% 100%;
   height: 31px;
   left: 9px;
@@ -8036,7 +7366,7 @@ transform: scale(0.98);
 }
 .a31checkbox .semchecked-oonmtrl026-Zu2eGa {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-4D0537D5-63ED-4C6C-A6CF-961C20DF0087@2x.png);
+  background-image: url(../img/3-1-checkbox-shape-07D6E5B1-C36A-4080-938D-EA7C66E28C5B@2x.png);
   background-size: 100% 100%;
   height: 31px;
   left: 9px;
@@ -8046,7 +7376,7 @@ transform: scale(0.98);
 }
 .a31checkbox .semchecked-oonmtrl026-vFTso7 {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-0A21F644-AA6E-49E5-AE3B-2711FC2A64A1@2x.png);
+  background-image: url(../img/3-1-checkbox-shape-583134AC-9EF8-4E57-A2D2-C2921C58E22E@2x.png);
   background-size: 100% 100%;
   height: 62px;
   left: 17px;
@@ -8056,7 +7386,7 @@ transform: scale(0.98);
 }
 .a31checkbox .semchecked-oonmtrl026-xAK8XN {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-0A21F644-AA6E-49E5-AE3B-2711FC2A64A1@2x.png);
+  background-image: url(../img/3-1-checkbox-shape-583134AC-9EF8-4E57-A2D2-C2921C58E22E@2x.png);
   background-size: 100% 100%;
   height: 62px;
   left: 17px;
@@ -8296,13 +7626,9 @@ transform: scale(0.98);
 .a31checkbox .subheadertext-Kw8W2U {
   background-color: transparent;
   color: rgba(153,153,153,1.0);
-  font-family: 'Roboto', Helvetica, Arial, serif;
   font-size: 9px;
-  font-style: normal;
-  font-weight: 500;
   height: 11px;
   left: 0px;
-  letter-spacing: 0.00px;
   line-height: 11px;
   position: absolute;
   text-align: left;
@@ -8313,13 +7639,9 @@ transform: scale(0.98);
 .a31checkbox .subheadertext-edlUeP {
   background-color: transparent;
   color: rgba(144,144,144,1.0);
-  font-family: 'Roboto', Helvetica, Arial, serif;
   font-size: 9px;
-  font-style: normal;
-  font-weight: 500;
   height: 11px;
   left: 16px;
-  letter-spacing: 0.00px;
   line-height: 11px;
   position: absolute;
   text-align: left;
@@ -8352,19 +7674,6 @@ transform: scale(0.98);
   top: 21px;
   white-space: nowrap;
   width: 132px;
-}
-.a31checkbox .subtext-3pOuzt {
-  background-color: transparent;
-  color: rgba(144,144,144,1.0);
-  font-size: 19px;
-  height: 23px;
-  left: 180px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 46px;
-  white-space: nowrap;
-  width: 297px;
 }
 .a31checkbox .subtext-4dhCC4 {
   background-color: transparent;
@@ -8470,21 +7779,10 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 132px;
 }
-.a31checkbox .subtext-x1DwOK {
-  background-color: transparent;
-  color: rgba(144,144,144,1.0);
-  font-size: 19px;
-  height: 23px;
-  left: 172px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 45px;
-  white-space: nowrap;
-  width: 297px;
-}
 .a31checkbox .symbol-47fPpr {
   background-color: transparent;
+  background-image: url(../img/3-1-checkbox-3-01measurew360mpl031checkbox32-65AEE6ED-E966-44EF-94A5-428F450796E5@2x.png);
+  background-size: 100% 100%;
   height: 212px;
   left: 369px;
   position: absolute;
@@ -8493,6 +7791,8 @@ transform: scale(0.98);
 }
 .a31checkbox .symbol-9VH9Ns {
   background-color: transparent;
+  background-image: url(../img/3-1-checkbox-3-01measurew360mpl031checkbox31-183479CC-80D2-40AE-AC89-9CEE6C8AD6CB@2x.png);
+  background-size: 100% 100%;
   height: 170px;
   left: 369px;
   position: absolute;
@@ -8501,6 +7801,8 @@ transform: scale(0.98);
 }
 .a31checkbox .symbol-BgvBDS {
   background-color: transparent;
+  background-image: url(../img/3-1-checkbox-3-01measurew360mpl031checkbox4-B040AB68-039C-4D96-825D-E38D25C3C850@2x.png);
+  background-size: 100% 100%;
   height: 258px;
   left: 88px;
   position: absolute;
@@ -8517,6 +7819,8 @@ transform: scale(0.98);
 }
 .a31checkbox .symbol-oaan6z {
   background-color: transparent;
+  background-image: url(../img/3-1-checkbox-3-01measurew360mpl031checkbox1-26376C21-F278-47AD-A5D6-517D32E94161@2x.png);
+  background-size: 100% 100%;
   height: 227px;
   left: 267px;
   position: absolute;
@@ -8525,6 +7829,8 @@ transform: scale(0.98);
 }
 .a31checkbox .symbol-xqjxMB {
   background-color: transparent;
+  background-image: url(../img/3-1-checkbox-3-01measurew360mpl031checkbox2-7B040AD8-BB46-4E57-87E2-6B956D21B9AE@2x.png);
+  background-size: 100% 100%;
   height: 171px;
   left: 88px;
   position: absolute;
@@ -8882,14 +8188,6 @@ transform: scale(0.98);
   top: 1px;
   width: 110px;
 }
-.a31checkbox .thumbnail-FxXCv1 {
-  background-color: transparent;
-  height: 173px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 258px;
-}
 .a31checkbox .thumbnail-HRpnxx {
   background-color: transparent;
   height: 72px;
@@ -8905,14 +8203,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 110px;
-}
-.a31checkbox .thumbnail-Ntss1b {
-  background-color: transparent;
-  height: 173px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 258px;
 }
 .a31checkbox .thumbnail-R00c3h {
   background-color: transparent;
@@ -8992,16 +8282,6 @@ transform: scale(0.98);
   top: 0px;
   width: 111px;
 }
-.a31checkbox .thumbnail-border-FxXCv1 {
-  background-color: transparent;
-  border-radius: 33px;
-  height: 258px;
-  left: 0px;
-  opacity: 0.12;
-  position: absolute;
-  top: 0px;
-  width: 258px;
-}
 .a31checkbox .thumbnail-border-HRpnxx {
   background-color: transparent;
   border-radius: 14.7px;
@@ -9021,16 +8301,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 111px;
-}
-.a31checkbox .thumbnail-border-Ntss1b {
-  background-color: transparent;
-  border-radius: 33px;
-  height: 258px;
-  left: 0px;
-  opacity: 0.12;
-  position: absolute;
-  top: 0px;
-  width: 258px;
 }
 .a31checkbox .thumbnail-border-R00c3h {
   background-color: transparent;
@@ -9213,7 +8483,7 @@ transform: scale(0.98);
 }
 .a31checkbox .title-0AoNL3 {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 10px;
   height: 13px;
   left: 10px;
@@ -9226,7 +8496,7 @@ transform: scale(0.98);
 }
 .a31checkbox .title-0lsF64 {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 10px;
   height: 13px;
   left: 11px;
@@ -9267,7 +8537,7 @@ transform: scale(0.98);
 }
 .a31checkbox .title-789FGx {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 10px;
   height: 13px;
   left: 10px;
@@ -9278,22 +8548,9 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 90px;
 }
-.a31checkbox .title-FxXCv1 {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 24px;
-  height: 29px;
-  left: 23px;
-  line-height: 28px;
-  position: absolute;
-  text-align: left;
-  top: 201px;
-  white-space: nowrap;
-  width: 213px;
-}
 .a31checkbox .title-HRpnxx {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 10px;
   height: 13px;
   left: 10px;
@@ -9318,22 +8575,9 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 1240px;
 }
-.a31checkbox .title-Ntss1b {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 24px;
-  height: 29px;
-  left: 23px;
-  line-height: 28px;
-  position: absolute;
-  text-align: left;
-  top: 201px;
-  white-space: nowrap;
-  width: 213px;
-}
 .a31checkbox .title-Tf0kZl {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 10px;
   height: 13px;
   left: 10px;
@@ -9380,7 +8624,7 @@ transform: scale(0.98);
 }
 .a31checkbox .title-j8hl6A {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 10px;
   height: 13px;
   left: 11px;
@@ -9406,7 +8650,7 @@ transform: scale(0.98);
 }
 .a31checkbox .title-rG5HWk {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 10px;
   height: 13px;
   left: 11px;
@@ -9419,7 +8663,7 @@ transform: scale(0.98);
 }
 .a31checkbox .title-ucxEkl {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 10px;
   height: 13px;
   left: 11px;
@@ -9998,13 +9242,8 @@ transform: scale(0.98);
 }
 .a31checkbox .web-app-tuZlmD {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size: 15px;
   height: auto;
   left: 0px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -10437,7 +9676,7 @@ transform: scale(0.98);
 }
 .a31checkbox .x-d0e8Up {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -10464,7 +9703,7 @@ transform: scale(0.98);
 }
 .a31checkbox .x-ePVxMl {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -11548,55 +10787,10 @@ transform: scale(0.98);
   top: 40px;
   width: 241px;
 }
-.a31checkbox .x3-01-measu--checkbox1-NYjjmZ {
-  background-color: var(--concrete);
-  height: 227px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a31checkbox .x3-01-measu--checkbox2-FLJsEd {
-  background-color: var(--concrete);
-  height: 171px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a31checkbox .x3-01-measu--checkbox4-1wVxvq {
-  background-color: var(--concrete);
-  height: 258px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a31checkbox .x3-01-measu-checkbox31-PEQ6ek {
-  background-color: var(--concrete);
-  height: 170px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a31checkbox .x3-01-measu-checkbox32-t6L7C8 {
-  background-color: var(--concrete);
-  height: 212px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a31checkbox .x3-1-checkbox-C61RwL {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
   height: auto;
   left: 380px;
-  letter-spacing: 0.00px;
-  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -11703,43 +10897,67 @@ transform: scale(0.98);
   width: 260px;
 }
 .border-class-1 {
-  border: 0.5px solid var(--black);
-}
-.border-class-2 {
   border: 1px solid rgba(237,237,237,1.0);
 }
+.border-class-2 {
+  border: 1px solid rgba(221,221,221,1.0);
+}
 .border-class-3 {
-  border: 0.5px solid var(--white);
+  border: 1px solid rgba(135,135,135,1.0);
 }
 .border-class-4 {
-  border: 1px solid rgba(135,135,135,1.0);
+  border: 0.5px solid var(--white);
+}
+.border-class-5 {
+  border: 0.5px solid var(--black);
+}
+.border-class-6 {
+  border: 3px solid rgba(143,143,143,1.0);
 }
 .font-class-1 {
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
 }
 .font-class-2 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
 }
 .font-class-3 {
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+}
+.font-class-4 {
   font-family: 'Roboto', Helvetica, Arial, serif;
   font-style: normal;
   font-weight: 400;
 }
-.font-class-4 {
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-}
 .font-class-5 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
+.font-class-6 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
+  line-height: 84px;
+}
+.font-class-7 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
+}
+.font-class-8 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
+}
 :root {
+  --alabaster: rgba(250,250,250,1.0);
   --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
-  --concrete: rgba(242,242,242,1.0);
   --ebb: rgba(227,227,227,1.0);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --razzle-dazzle-rose-2: rgba(255,51,255,0.37);
   --royal-blue: rgba(75,99,250,1.0);
-  --shark: rgba(37,37,37,1.0);
   --white: rgba(255,255,255,1.0);
 }

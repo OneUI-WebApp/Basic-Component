@@ -3,57 +3,8 @@
 .a17editappbar {
   background-color: rgba(245,246,247,1.0);
   height: 3346px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
-}
-.a17editappbar .action-Axfx28 {
-  background-color: transparent;
-  color: rgba(0,114,222,1.0);
-  height: 54px;
-  left: 0px;
-  line-height: 54px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 216px;
-}
-.a17editappbar .action-BnShpx {
-  background-color: transparent;
-  color: rgba(0,114,222,1.0);
-  height: 54px;
-  left: 0px;
-  line-height: 54px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 216px;
-}
-.a17editappbar .action-sb186r {
-  background-color: transparent;
-  color: rgba(0,114,222,1.0);
-  height: 54px;
-  left: 0px;
-  line-height: 54px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 216px;
-}
-.a17editappbar .action-sxlipx {
-  background-color: transparent;
-  color: rgba(0,114,222,1.0);
-  height: 54px;
-  left: 0px;
-  line-height: 54px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 216px;
 }
 .a17editappbar .background-5M41yK {
   background-color: rgba(71,71,71,1.0);
@@ -80,12 +31,20 @@
   width: 206px;
 }
 .a17editappbar .background-lMbloe {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 0px;
   position: absolute;
   top: 0px;
   width: 206px;
+}
+.a17editappbar .background-n49lac {
+  background-color: var(--white);
+  height: 1252px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
 }
 .a17editappbar .background-nw2vwr {
   background-color: rgba(71,71,71,1.0);
@@ -104,7 +63,7 @@
   width: 145px;
 }
 .a17editappbar .background-xvXAfO {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 0px;
   position: absolute;
@@ -140,29 +99,9 @@
 
 transform: scale(0.98);
 }
-.a17editappbar .cancel-JHiPMu {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  height: auto;
-  left: -2px;
-  line-height: 32px;
-  position: absolute;
-  text-align: right;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a17editappbar .canclesave-LnPSKx {
-  background-color: transparent;
-  height: 32px;
-  left: 325px;
-  position: absolute;
-  top: 25px;
-  width: 179px;
-}
 .a17editappbar .comment-CoU8sJ {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 101px;
@@ -175,7 +114,7 @@ transform: scale(0.98);
 }
 .a17editappbar .comment-DCF2eJ {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 203px;
@@ -188,7 +127,7 @@ transform: scale(0.98);
 }
 .a17editappbar .comment-OPxwmB {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 101px;
@@ -201,7 +140,7 @@ transform: scale(0.98);
 }
 .a17editappbar .comment-VIoXKV {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 264px;
@@ -214,7 +153,7 @@ transform: scale(0.98);
 }
 .a17editappbar .comment-VWOmxG {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 101px;
@@ -227,7 +166,7 @@ transform: scale(0.98);
 }
 .a17editappbar .comment-Z2frdk {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 127px;
@@ -240,7 +179,7 @@ transform: scale(0.98);
 }
 .a17editappbar .comment-bMmnA6 {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 264px;
@@ -253,7 +192,7 @@ transform: scale(0.98);
 }
 .a17editappbar .comment-gRDxmS {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 264px;
@@ -266,7 +205,7 @@ transform: scale(0.98);
 }
 .a17editappbar .comment-gdf1mw {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 101px;
@@ -279,7 +218,7 @@ transform: scale(0.98);
 }
 .a17editappbar .comment-k5zAwB {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 203px;
@@ -292,7 +231,7 @@ transform: scale(0.98);
 }
 .a17editappbar .comment-nM0dTd {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 127px;
@@ -305,7 +244,7 @@ transform: scale(0.98);
 }
 .a17editappbar .comment-wgABVo {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 264px;
@@ -321,7 +260,7 @@ transform: scale(0.98);
   height: 119px;
   left: 20px;
   position: absolute;
-  top: 363px;
+  top: 365px;
   width: 465px;
 }
 .a17editappbar .dark-theme-5LOLQ6 {
@@ -329,7 +268,7 @@ transform: scale(0.98);
   height: 119px;
   left: 20px;
   position: absolute;
-  top: 391px;
+  top: 393px;
   width: 465px;
 }
 .a17editappbar .dark-theme-QwJ3It {
@@ -342,8 +281,8 @@ transform: scale(0.98);
 }
 .a17editappbar .document-b-x-contents-09MSyE {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 512px;
+  border: 1px solid var(--ebb);
+  height: 514px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -351,8 +290,8 @@ transform: scale(0.98);
 }
 .a17editappbar .document-b-x-contents-5LOLQ6 {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 540px;
+  border: 1px solid var(--ebb);
+  height: 542px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -360,7 +299,7 @@ transform: scale(0.98);
 }
 .a17editappbar .document-b-x-contents-9ZOaw7 {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 815px;
   left: 0px;
   position: absolute;
@@ -369,7 +308,7 @@ transform: scale(0.98);
 }
 .a17editappbar .document-b-x-contents-AzM39M {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 517px;
   left: 0px;
   position: absolute;
@@ -378,7 +317,7 @@ transform: scale(0.98);
 }
 .a17editappbar .document-b-x-contents-GnwEub {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -387,7 +326,7 @@ transform: scale(0.98);
 }
 .a17editappbar .document-b-x-contents-QwJ3It {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 243px;
   left: 0px;
   position: absolute;
@@ -396,7 +335,7 @@ transform: scale(0.98);
 }
 .a17editappbar .document-b-x-contents-Ybggzi {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 580px;
   left: 0px;
   position: absolute;
@@ -413,7 +352,7 @@ transform: scale(0.98);
 }
 .a17editappbar .fn-5M41yK {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -426,7 +365,7 @@ transform: scale(0.98);
 }
 .a17editappbar .fn-ZPcXOd {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -439,7 +378,7 @@ transform: scale(0.98);
 }
 .a17editappbar .fn-haDoq8 {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -465,7 +404,7 @@ transform: scale(0.98);
 }
 .a17editappbar .fn-nw2vwr {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -478,7 +417,7 @@ transform: scale(0.98);
 }
 .a17editappbar .fn-x1w63o {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -507,7 +446,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a17editappbar .general-5LOLQ6 {
@@ -515,7 +454,7 @@ transform: scale(0.98);
   height: 134px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a17editappbar .gnb-bar01-app-bar-C61RwL {
@@ -1111,20 +1050,12 @@ transform: scale(0.98);
   width: 146px;
 }
 .a17editappbar .group-3QZ3AJ {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 104px;
   position: absolute;
   top: 0px;
   width: 59px;
-}
-.a17editappbar .group-4xxFNE {
-  background-color: transparent;
-  height: 54px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 468px;
 }
 .a17editappbar .group-6icgtZ {
   background-color: transparent;
@@ -1135,7 +1066,7 @@ transform: scale(0.98);
   width: 1240px;
 }
 .a17editappbar .group-CoU8sJ {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 67px;
   position: absolute;
@@ -1159,20 +1090,12 @@ transform: scale(0.98);
   width: 124px;
 }
 .a17editappbar .group-OPxwmB {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 67px;
   position: absolute;
   top: 0px;
   width: 26px;
-}
-.a17editappbar .group-RWxBTt {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
 }
 .a17editappbar .group-VWOmxG {
   background-color: rgba(71,71,71,1.0);
@@ -1183,7 +1106,7 @@ transform: scale(0.98);
   width: 26px;
 }
 .a17editappbar .group-Z2frdk {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -1223,7 +1146,7 @@ transform: scale(0.98);
   width: 1240px;
 }
 .a17editappbar .group-nM0dTd {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -1245,14 +1168,6 @@ transform: scale(0.98);
   position: relative;
   top: 22px;
   width: 260px;
-}
-.a17editappbar .group-xSXdDF {
-  background-color: transparent;
-  height: 54px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 468px;
 }
 .a17editappbar .guide-7pRh6b {
   background-color: transparent;
@@ -1655,7 +1570,7 @@ transform: scale(0.98);
   width: 234px;
 }
 .a17editappbar .guide-measure-area-6dluLx {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1671,7 +1586,7 @@ transform: scale(0.98);
   width: 83px;
 }
 .a17editappbar .guide-measure-area-GwRit1 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1687,7 +1602,7 @@ transform: scale(0.98);
   width: 234px;
 }
 .a17editappbar .guide-measure-area-LQmx18 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1711,7 +1626,7 @@ transform: scale(0.98);
   width: 60px;
 }
 .a17editappbar .guide-measure-area-Xgeino {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1727,7 +1642,7 @@ transform: scale(0.98);
   width: 18px;
 }
 .a17editappbar .guide-measure-area-ckv4m0 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1735,7 +1650,7 @@ transform: scale(0.98);
   width: 18px;
 }
 .a17editappbar .guide-measure-area-dOTfCc {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1759,7 +1674,7 @@ transform: scale(0.98);
   width: 216px;
 }
 .a17editappbar .guide-measure-area-vhg4KV {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1783,7 +1698,7 @@ transform: scale(0.98);
   width: 234px;
 }
 .a17editappbar .guide-measure-area-zyPqZN {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1792,7 +1707,7 @@ transform: scale(0.98);
 }
 .a17editappbar .guide-numb-ring-shape-xOllo6 {
   background-color: transparent;
-  background-image: url(../img/1-7-edit-app-bar-oval-C766B39C-35DB-4F2F-8CB7-F44FFFCCDB5D@2x.png);
+  background-image: url(../img/1-8-bottom-bar-oval-A54287F4-D2E0-4466-8E26-A3D50703BF38@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1802,7 +1717,7 @@ transform: scale(0.98);
 }
 .a17editappbar .guide-numbering-icon-PWGCMq {
   background-color: transparent;
-  background-image: url(../img/1-7-edit-app-bar-oval-C766B39C-35DB-4F2F-8CB7-F44FFFCCDB5D@2x.png);
+  background-image: url(../img/1-8-bottom-bar-oval-A54287F4-D2E0-4466-8E26-A3D50703BF38@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1812,27 +1727,27 @@ transform: scale(0.98);
 }
 .a17editappbar .guide-numbering-type-6PcmWi {
   background-color: transparent;
-  background-image: url(../img/1-7-edit-app-bar-oval-B73310C8-2E15-4E20-971E-4742B82E4C24@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a17editappbar .guide-numbering-type-9hWu40 {
   background-color: transparent;
-  background-image: url(../img/1-7-edit-app-bar-oval-B73310C8-2E15-4E20-971E-4742B82E4C24@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a17editappbar .guide-numbering-type-qpBZwo {
   background-color: transparent;
-  background-image: url(../img/1-7-edit-app-bar-oval-B73310C8-2E15-4E20-971E-4742B82E4C24@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 25px;
@@ -1842,7 +1757,7 @@ transform: scale(0.98);
 }
 .a17editappbar .guide-numbering-type-ynyax6 {
   background-color: transparent;
-  background-image: url(../img/1-7-edit-app-bar-oval-B73310C8-2E15-4E20-971E-4742B82E4C24@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 313px;
@@ -1860,7 +1775,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -1874,7 +1789,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -1902,19 +1817,19 @@ transform: scale(0.98);
 }
 .a17editappbar .guide-subject-type-09MSyE {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a17editappbar .guide-subject-type-5LOLQ6 {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a17editappbar .history-JH8G1K {
   background-color: transparent;
@@ -1973,7 +1888,7 @@ transform: scale(0.98);
   height: 119px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a17editappbar .light-theme-5LOLQ6 {
@@ -1981,7 +1896,7 @@ transform: scale(0.98);
   height: 119px;
   left: 20px;
   position: absolute;
-  top: 244px;
+  top: 246px;
   width: 465px;
 }
 .a17editappbar .light-theme-QwJ3It {
@@ -2015,62 +1930,6 @@ transform: scale(0.98);
   position: absolute;
   top: 173px;
   width: 540px;
-}
-.a17editappbar .mobile-lig-dit2button-QHxEgb {
-  background-color: transparent;
-  height: 54px;
-  left: 36px;
-  position: relative;
-  top: 15px;
-  width: 468px;
-}
-.a17editappbar .mobile-lig-dit2button-xpmVi9 {
-  background-color: transparent;
-  height: 54px;
-  left: 36px;
-  position: relative;
-  top: 15px;
-  width: 468px;
-}
-.a17editappbar .mobile-lig-le2buttonl-qE00AN {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a17editappbar .mobile-lig-tionbutton-2FMoGh {
-  background-color: transparent;
-  height: 54px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 216px;
-}
-.a17editappbar .mobile-lig-tionbutton-DKr6O5 {
-  background-color: transparent;
-  height: 54px;
-  left: 252px;
-  position: absolute;
-  top: 0px;
-  width: 216px;
-}
-.a17editappbar .mobile-lig-tionbutton-W9sEv0 {
-  background-color: transparent;
-  height: 54px;
-  left: 252px;
-  position: absolute;
-  top: 0px;
-  width: 216px;
-}
-.a17editappbar .mobile-lig-tionbutton-jbiu58 {
-  background-color: transparent;
-  height: 54px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 216px;
 }
 .a17editappbar .portrait-C61RwL {
   background-color: transparent;
@@ -2392,7 +2251,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a17editappbar .rectangle-3gtRiP {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 1px;
   left: 0px;
   position: absolute;
@@ -2488,7 +2347,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a17editappbar .rectangle-F64KHa {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 9px;
   left: 17px;
   position: absolute;
@@ -2576,7 +2435,7 @@ transform: scale(0.98);
   width: 234px;
 }
 .a17editappbar .rectangle-YXmHZj {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 9px;
   left: 17px;
   position: absolute;
@@ -2648,7 +2507,7 @@ transform: scale(0.98);
   width: 18px;
 }
 .a17editappbar .rectangle-et9kKR {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 9px;
   left: 0px;
   position: absolute;
@@ -2656,7 +2515,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a17editappbar .rectangle-fsNv2d {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 9px;
   left: 0px;
   position: absolute;
@@ -2704,7 +2563,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a17editappbar .rectangle-tWsO65 {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 1px;
   left: 0px;
   position: absolute;
@@ -2734,31 +2593,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 1px;
-}
-.a17editappbar .sample-title-BvTJru {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 28px;
-  height: auto;
-  left: 0px;
-  line-height: 33px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 270px;
-}
-.a17editappbar .save-JHiPMu {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  height: auto;
-  left: 118px;
-  line-height: 32px;
-  position: absolute;
-  text-align: right;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
 }
 .a17editappbar .screen-wid-2264-scree-kxosLh {
   background-color: transparent;
@@ -2926,6 +2760,8 @@ transform: scale(0.98);
 }
 .a17editappbar .symbol-AzM39M {
   background-color: transparent;
+  background-image: url(../img/1-7-edit-app-bar-1-07measurew360mpl017editappbar2-E1B05A87-543F-4780-951F-AC6BCC147726@2x.png);
+  background-size: 100% 100%;
   height: 96px;
   left: 88px;
   position: absolute;
@@ -3177,28 +3013,20 @@ transform: scale(0.98);
   top: 63px;
   width: 179px;
 }
-.a17editappbar .title-LnPSKx {
-  background-color: transparent;
-  height: 33px;
-  left: 36px;
-  position: absolute;
-  top: 24px;
-  width: 270px;
-}
 .a17editappbar .type-7pRh6b {
   background-color: transparent;
-  height: 540px;
+  height: 542px;
   left: 735px;
   position: absolute;
-  top: 272px;
+  top: 270px;
   width: 505px;
 }
 .a17editappbar .type-OCjrF1 {
   background-color: transparent;
-  height: 512px;
+  height: 514px;
   left: 735px;
   position: absolute;
-  top: 2px;
+  top: 0px;
   width: 505px;
 }
 .a17editappbar .value-1JfllQ {
@@ -3596,13 +3424,8 @@ transform: scale(0.98);
 }
 .a17editappbar .web-app-ldhYbP {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size: 15px;
   height: auto;
   left: 0px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3612,7 +3435,7 @@ transform: scale(0.98);
 }
 .a17editappbar .x-1Dgwdx {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 200px;
@@ -3677,7 +3500,7 @@ transform: scale(0.98);
 }
 .a17editappbar .x-Cl0lpn {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -3703,7 +3526,7 @@ transform: scale(0.98);
 }
 .a17editappbar .x-CzQful {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -3729,7 +3552,7 @@ transform: scale(0.98);
 }
 .a17editappbar .x-GSndLm {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 137px;
@@ -3755,7 +3578,7 @@ transform: scale(0.98);
 }
 .a17editappbar .x-OA56ou {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -3833,7 +3656,7 @@ transform: scale(0.98);
 }
 .a17editappbar .x-cW1hvp {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -3846,7 +3669,7 @@ transform: scale(0.98);
 }
 .a17editappbar .x-dAX6Dq {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -3859,7 +3682,7 @@ transform: scale(0.98);
 }
 .a17editappbar .x-fpEBBT {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -3937,7 +3760,7 @@ transform: scale(0.98);
 }
 .a17editappbar .x-kxnaCX {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 200px;
@@ -4028,7 +3851,7 @@ transform: scale(0.98);
 }
 .a17editappbar .x-x7J14B {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -4322,7 +4145,7 @@ transform: scale(0.98);
   width: 508px;
 }
 .a17editappbar .x1-07-measu-ditappbar1-PquGjY {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 84px;
   left: 0px;
   position: absolute;
@@ -4330,30 +4153,17 @@ transform: scale(0.98);
   width: 540px;
 }
 .a17editappbar .x1-07-measu-ditappbar1-xK4cqW {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 84px;
   left: 0px;
   position: absolute;
   top: 240px;
   width: 540px;
 }
-.a17editappbar .x1-07-measu-ditappbar2-sofxYx {
-  background-color: var(--concrete);
-  height: 96px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a17editappbar .x1-7-edit-app-bar-C61RwL {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
   height: auto;
   left: 380px;
-  letter-spacing: 0.00px;
-  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -4671,6 +4481,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
+.border-class-1 {
+  border: 1px solid rgba(237,237,237,1.0);
+}
+.border-class-2 {
+  border: 1px solid rgba(135,135,135,1.0);
+}
 .font-class-1 {
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
 }
@@ -4681,25 +4497,35 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
 .font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
-.font-class-5 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
+.font-class-5 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
+  line-height: 84px;
+}
 .font-class-6 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
+}
+.font-class-7 {
+  color: var(--black);
   font-family: 'Roboto', Helvetica, Arial, serif;
-  font-size: 27px;
+  font-size: 25px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
+  line-height: 30px;
 }
 :root {
-  --alabaster: rgba(250,250,250,1.0);
   --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
-  --concrete: rgba(242,242,242,1.0);
-  --gray: rgba(145,145,145,1.0);
+  --ebb: rgba(227,227,227,1.0);
+  --electric-violet: rgba(102,0,255,1.0);
   --harlequin: rgba(51,204,0,1.0);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);

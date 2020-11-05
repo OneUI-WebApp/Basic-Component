@@ -3,7 +3,6 @@
 .a86progresslist {
   background-color: rgba(245,246,247,1.0);
   height: 3786px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
 }
@@ -783,23 +782,6 @@ transform: scale(0.98);
   top: 0px;
   width: 320px;
 }
-.a86progresslist .group-0QJde4 {
-  background-color: var(--concrete);
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a86progresslist .group-2-84XxrX {
-  background-color: transparent;
-  height: 51px;
-  left: 0px;
-  overflow: hidden;
-  position: absolute;
-  top: 174px;
-  width: 540px;
-}
 .a86progresslist .group-2-GvieOC {
   background-color: transparent;
   height: 22px;
@@ -816,16 +798,8 @@ transform: scale(0.98);
   top: 0px;
   width: 130px;
 }
-.a86progresslist .group-84XxrX {
-  background-color: transparent;
-  height: 24px;
-  left: 36px;
-  position: absolute;
-  top: 120px;
-  width: 183px;
-}
 .a86progresslist .group-93hwkD {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -1066,7 +1040,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-e-vertical-9smjiL {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-2138F49B-430F-4DBF-B53B-223A65F23FC4@2x.png);
+  background-image: url(../img/8-6-progresslist-line-CEA56006-AB03-4172-AB6E-DDC8DFFE2D7F@2x.png);
   background-size: 100% 100%;
   height: 18px;
   left: 35px;
@@ -1076,7 +1050,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-e-vertical-EhPNr5 {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-425BF1D4-CD12-49BD-B848-DFB5B77B8440@2x.png);
+  background-image: url(../img/8-6-progresslist-line-B9BEE33B-E7DB-45C2-BB0A-D92330651A2F@2x.png);
   background-size: 100% 100%;
   height: 81px;
   left: 0px;
@@ -1086,7 +1060,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-e-vertical-FG8Mqh {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-A6B7BE36-A532-4201-9D21-907FC33331CD@2x.png);
+  background-image: url(../img/8-6-progresslist-line-B40F051C-737B-42F1-B2AA-72D5D76CB56D@2x.png);
   background-size: 100% 100%;
   height: 77px;
   left: 23px;
@@ -1096,7 +1070,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-e-vertical-N0VsKw {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-425BF1D4-CD12-49BD-B848-DFB5B77B8440@2x.png);
+  background-image: url(../img/8-6-progresslist-line-B9BEE33B-E7DB-45C2-BB0A-D92330651A2F@2x.png);
   background-size: 100% 100%;
   height: 81px;
   left: 35px;
@@ -1106,7 +1080,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-e-vertical-YY7Zaq {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-425BF1D4-CD12-49BD-B848-DFB5B77B8440@2x.png);
+  background-image: url(../img/8-6-progresslist-line-B9BEE33B-E7DB-45C2-BB0A-D92330651A2F@2x.png);
   background-size: 100% 100%;
   height: 81px;
   left: 35px;
@@ -1116,7 +1090,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-e-vertical-Zn8WXs {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-425BF1D4-CD12-49BD-B848-DFB5B77B8440@2x.png);
+  background-image: url(../img/8-6-progresslist-line-B9BEE33B-E7DB-45C2-BB0A-D92330651A2F@2x.png);
   background-size: 100% 100%;
   height: 81px;
   left: 0px;
@@ -1126,7 +1100,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-e-vertical-gg2wqI {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-425BF1D4-CD12-49BD-B848-DFB5B77B8440@2x.png);
+  background-image: url(../img/8-6-progresslist-line-B9BEE33B-E7DB-45C2-BB0A-D92330651A2F@2x.png);
   background-size: 100% 100%;
   height: 81px;
   left: 0px;
@@ -1136,7 +1110,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-e-vertical-kVgQbZ {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-20DDEE11-5296-4262-8FD8-1F03CB23547E@2x.png);
+  background-image: url(../img/8-6-progresslist-line-ED4A9632-8A95-46EC-AA15-BC641D653F06@2x.png);
   background-size: 100% 100%;
   height: 120px;
   left: 0px;
@@ -1146,7 +1120,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-e-vertical-mu1xDw {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-425BF1D4-CD12-49BD-B848-DFB5B77B8440@2x.png);
+  background-image: url(../img/8-6-progresslist-line-B9BEE33B-E7DB-45C2-BB0A-D92330651A2F@2x.png);
   background-size: 100% 100%;
   height: 81px;
   left: 11px;
@@ -1156,7 +1130,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-e-vertical-nplWQq {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-20DDEE11-5296-4262-8FD8-1F03CB23547E@2x.png);
+  background-image: url(../img/8-6-progresslist-line-ED4A9632-8A95-46EC-AA15-BC641D653F06@2x.png);
   background-size: 100% 100%;
   height: 120px;
   left: 35px;
@@ -1166,7 +1140,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-e-vertical-pfGUUZ {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-A6B7BE36-A532-4201-9D21-907FC33331CD@2x.png);
+  background-image: url(../img/8-6-progresslist-line-B40F051C-737B-42F1-B2AA-72D5D76CB56D@2x.png);
   background-size: 100% 100%;
   height: 77px;
   left: 0px;
@@ -1176,7 +1150,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-e-vertical-wQlYDe {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-2138F49B-430F-4DBF-B53B-223A65F23FC4@2x.png);
+  background-image: url(../img/8-6-progresslist-line-CEA56006-AB03-4172-AB6E-DDC8DFFE2D7F@2x.png);
   background-size: 100% 100%;
   height: 18px;
   left: 0px;
@@ -1226,7 +1200,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-horizontal-FG8Mqh {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-7D0A5474-482A-4F65-B1CE-2CFAFB00D55C@2x.png);
+  background-image: url(../img/8-6-progresslist-line-21524197-7492-47A8-916B-9F9FA00E08A6@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 24px;
@@ -1236,7 +1210,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-horizontal-HFPTVC {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-737E1E24-512C-4EBB-AC4E-4CF2102AF5EE.png);
+  background-image: url(../img/8-6-progresslist-line-1685287E-8D16-45B8-B442-B680CA25A403.png);
   background-size: 100% 100%;
   height: 1px;
   left: 1px;
@@ -1246,7 +1220,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-horizontal-PVUFjH {
   background-color: transparent;
-  background-image: url(../img/8-4-progressapp-bar-line-C7026BB2-0BC6-4711-8CB3-8E52A20A73CD.png);
+  background-image: url(../img/8-4-progressapp-bar-line-BD82EBBA-11EB-4EE7-878A-B28F9AC01C88.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1256,7 +1230,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-horizontal-UGPCdP {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-B91276E6-59DD-4A74-981A-CFDCAA65911D@2x.png);
+  background-image: url(../img/8-6-progresslist-line-A921C24B-6595-431D-AE9A-2E4E67A24422@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1266,7 +1240,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-horizontal-VTN7FS {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-737E1E24-512C-4EBB-AC4E-4CF2102AF5EE.png);
+  background-image: url(../img/8-6-progresslist-line-1685287E-8D16-45B8-B442-B680CA25A403.png);
   background-size: 100% 100%;
   height: 1px;
   left: 1px;
@@ -1276,7 +1250,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-horizontal-XZG84d {
   background-color: transparent;
-  background-image: url(../img/8-4-progressapp-bar-line-C7026BB2-0BC6-4711-8CB3-8E52A20A73CD.png);
+  background-image: url(../img/8-4-progressapp-bar-line-BD82EBBA-11EB-4EE7-878A-B28F9AC01C88.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1286,7 +1260,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-horizontal-d7tWKw {
   background-color: transparent;
-  background-image: url(../img/8-4-progressapp-bar-line-C7026BB2-0BC6-4711-8CB3-8E52A20A73CD.png);
+  background-image: url(../img/8-4-progressapp-bar-line-BD82EBBA-11EB-4EE7-878A-B28F9AC01C88.png);
   background-size: 100% 100%;
   height: 1px;
   left: 29px;
@@ -1296,7 +1270,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-horizontal-jNVzsk {
   background-color: transparent;
-  background-image: url(../img/8-4-progressapp-bar-line-C7026BB2-0BC6-4711-8CB3-8E52A20A73CD.png);
+  background-image: url(../img/8-4-progressapp-bar-line-BD82EBBA-11EB-4EE7-878A-B28F9AC01C88.png);
   background-size: 100% 100%;
   height: 1px;
   left: 29px;
@@ -1306,7 +1280,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-horizontal-o7veip {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-4FFD97D5-BACE-4BDE-B578-C26124A92711.png);
+  background-image: url(../img/8-6-progresslist-line-8B81C51F-0109-40A3-9FA3-DE9B0227D851.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1316,7 +1290,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-horizontal-pfGUUZ {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-7D0A5474-482A-4F65-B1CE-2CFAFB00D55C@2x.png);
+  background-image: url(../img/8-6-progresslist-line-21524197-7492-47A8-916B-9F9FA00E08A6@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 24px;
@@ -1326,7 +1300,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-meas-horizontal-vgeCum {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-line-B91276E6-59DD-4A74-981A-CFDCAA65911D@2x.png);
+  background-image: url(../img/8-6-progresslist-line-A921C24B-6595-431D-AE9A-2E4E67A24422@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1504,7 +1478,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-numbering-type-BD9IO1 {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-oval-26F74F6E-A4BB-4A4E-AEDE-7A63E427F2F1@2x.png);
+  background-image: url(../img/8-5-progressbottom-bar-oval-20D22AEF-1648-4379-A981-8575580744A2@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 261px;
@@ -1514,7 +1488,7 @@ transform: scale(0.98);
 }
 .a86progresslist .guide-numbering-type-exYgOi {
   background-color: transparent;
-  background-image: url(../img/8-6-progresslist-oval-26F74F6E-A4BB-4A4E-AEDE-7A63E427F2F1@2x.png);
+  background-image: url(../img/8-5-progressbottom-bar-oval-20D22AEF-1648-4379-A981-8575580744A2@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1590,22 +1564,6 @@ transform: scale(0.98);
   top: 216px;
   width: 465px;
 }
-.a86progresslist .line-NvQymk {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 480px;
-}
-.a86progresslist .line-yLRTjT {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 480px;
-}
 .a86progresslist .list-sync-C61RwL {
   background-color: transparent;
   height: 1069px;
@@ -1627,83 +1585,6 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: 1240px;
-}
-.a86progresslist .list01-H56rWl {
-  background-color: transparent;
-  height: 128px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a86progresslist .list01-K0Ywix {
-  background-color: transparent;
-  height: 191px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a86progresslist .list01-mQy6Z8 {
-  background-color: transparent;
-  height: 162px;
-  left: 0px;
-  overflow: hidden;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a86progresslist .main-text-1-line-IBxiVv {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 27px;
-  height: 32px;
-  left: 0px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 468px;
-}
-.a86progresslist .main-text-1-line-Qh2lXb {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 27px;
-  height: 32px;
-  left: 0px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 468px;
-}
-.a86progresslist .main-text-R5hewR {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 27px;
-  height: 32px;
-  left: 0px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 468px;
-}
-.a86progresslist .main-text-VzrxLi {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 27px;
-  height: 32px;
-  left: 0px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 468px;
 }
 .a86progresslist .measure-1-tKpGOA {
   background-color: transparent;
@@ -1736,179 +1617,6 @@ transform: scale(0.98);
   position: absolute;
   top: 94px;
   width: 644px;
-}
-.a86progresslist .mobile-lig--indicator-84XxrX {
-  background-color: transparent;
-  height: 15px;
-  left: 36px;
-  position: absolute;
-  top: 10px;
-  width: 20px;
-}
-.a86progresslist .mobile-lig--list-text-Ie3X60 {
-  background-color: transparent;
-  height: 2px;
-  left: 30px;
-  position: absolute;
-  top: 105px;
-  width: 480px;
-}
-.a86progresslist .mobile-lig--list-text-SHQ17H {
-  background-color: transparent;
-  height: 2px;
-  left: 30px;
-  position: absolute;
-  top: 0px;
-  width: 480px;
-}
-.a86progresslist .mobile-lig-basic1line-Ie3X60 {
-  background-color: transparent;
-  height: 33px;
-  left: 36px;
-  position: absolute;
-  top: 132px;
-  width: 468px;
-}
-.a86progresslist .mobile-lig-basic1line-SHQ17H {
-  background-color: transparent;
-  height: 33px;
-  left: 36px;
-  position: absolute;
-  top: 26px;
-  width: 468px;
-}
-.a86progresslist .mobile-lig-basic3line-n04xUZ {
-  background-color: transparent;
-  height: 85px;
-  left: 36px;
-  position: absolute;
-  top: 22px;
-  width: 468px;
-}
-.a86progresslist .mobile-lig-e-icon2btn-84XxrX {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: absolute;
-  top: 36px;
-  width: 540px;
-}
-.a86progresslist .mobile-lig-ircle16x16-IZzRXY {
-  background-color: transparent;
-  height: 22px;
-  left: 1px;
-  position: absolute;
-  top: 1px;
-  width: 22px;
-}
-.a86progresslist .mobile-lig-ircle16x16-n04xUZ {
-  background-color: transparent;
-  height: 23px;
-  left: 481px;
-  position: absolute;
-  top: 28px;
-  width: 22px;
-}
-.a86progresslist .mobile-lig-ircle24x24-CDN8E3 {
-  background-color: transparent;
-  height: 35px;
-  left: 469px;
-  position: absolute;
-  top: 35px;
-  width: 34px;
-}
-.a86progresslist .mobile-lig-ircle24x24-Ie3X60 {
-  background-color: transparent;
-  height: 35px;
-  left: 469px;
-  position: absolute;
-  top: 131px;
-  width: 34px;
-}
-.a86progresslist .mobile-lig-ircle24x24-SHQ17H {
-  background-color: transparent;
-  height: 35px;
-  left: 253px;
-  position: absolute;
-  top: 104px;
-  width: 34px;
-}
-.a86progresslist .mobile-lig-primarysub-Ie3X60 {
-  background-color: transparent;
-  height: 62px;
-  left: 36px;
-  position: absolute;
-  top: 22px;
-  width: 468px;
-}
-.a86progresslist .mobile-lig-rouplistbg-Ie3X60 {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 39px;
-  height: 191px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 540px;
-}
-.a86progresslist .mobile-lig-rouplistbg-MhmhSq {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 39px;
-  height: 165px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a86progresslist .mobile-lig-rouplistbg-SHQ17H {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 39px;
-  height: 201px;
-  left: 0px;
-  position: absolute;
-  top: -39px;
-  width: 540px;
-}
-.a86progresslist .mobile-lig-rouplistbg-n04xUZ {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 39px;
-  height: 128px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 540px;
-}
-.a86progresslist .mobile-lig-title-more-O4iwtq {
-  background-color: transparent;
-  background-image: url(../img/8-6-progresslist-mobilelightthemeicon01actionbartitlemore-79EFE7C9-D400-4DC3-874A-BE34E58A5444@2x.png);
-  background-size: 100% 100%;
-  height: 24px;
-  left: 489px;
-  position: absolute;
-  top: 30px;
-  width: 6px;
-}
-.a86progresslist .mobile-lig-tle-search-O4iwtq {
-  background-color: transparent;
-  background-image: url(../img/8-6-progresslist-mobilelightthemeicon01actionbartitlesearch-1A50F6AB-5D83-45EC-B843-7CC730B7DAF9@2x.png);
-  background-size: 100% 100%;
-  height: 28px;
-  left: 420px;
-  position: absolute;
-  top: 28px;
-  width: 28px;
-}
-.a86progresslist .organizing-old-items-IZzRXY {
-  background-color: transparent;
-  color: rgba(80,80,80,1.0);
-  font-size: 15px;
-  height: auto;
-  left: 36px;
-  line-height: 18px;
-  position: absolute;
-  text-align: left;
-  top: 5px;
-  white-space: nowrap;
-  width: auto;
 }
 .a86progresslist .page-name-PK8sw5 {
   background-color: transparent;
@@ -1987,86 +1695,6 @@ transform: scale(0.98);
   top: 6px;
   white-space: nowrap;
   width: auto;
-}
-.a86progresslist .path-71jPot {
-  background-color: transparent;
-  height: 18px;
-  left: 16px;
-  position: absolute;
-  top: 17px;
-  width: 18px;
-}
-.a86progresslist .path-JTxoEi {
-  background-color: transparent;
-  height: 17px;
-  left: 16px;
-  position: absolute;
-  top: 17px;
-  width: 18px;
-}
-.a86progresslist .path-N4qXoI {
-  background-color: transparent;
-  height: 18px;
-  left: 0px;
-  position: absolute;
-  top: 1px;
-  width: 18px;
-}
-.a86progresslist .path-RugxVG {
-  background-color: transparent;
-  height: 12px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 12px;
-}
-.a86progresslist .path-TuQmUS {
-  background-color: transparent;
-  height: 18px;
-  left: 16px;
-  position: absolute;
-  top: 16px;
-  width: 18px;
-}
-.a86progresslist .path-hMvzQ1 {
-  background-color: transparent;
-  height: 12px;
-  left: 10px;
-  position: absolute;
-  top: 10px;
-  width: 12px;
-}
-.a86progresslist .path-l3ZfJ2 {
-  background-color: transparent;
-  height: 12px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 12px;
-}
-.a86progresslist .path-nsxlkC {
-  background-color: transparent;
-  height: 18px;
-  left: 0px;
-  position: absolute;
-  top: 1px;
-  width: 18px;
-}
-.a86progresslist .path-oJgRUx {
-  background-color: transparent;
-  height: 18px;
-  left: 0px;
-  position: absolute;
-  top: 1px;
-  width: 18px;
-}
-.a86progresslist .path-xdztYo {
-  background-color: transparent;
-  height: 12px;
-  left: 10px;
-  position: absolute;
-  top: 10px;
-  width: 12px;
 }
 .a86progresslist .property-93hwkD {
   background-color: transparent;
@@ -2621,19 +2249,6 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a86progresslist .sample-title-O4iwtq {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 28px;
-  height: auto;
-  left: 36px;
-  line-height: 33px;
-  position: absolute;
-  text-align: left;
-  top: 24px;
-  white-space: nowrap;
-  width: 357px;
-}
 .a86progresslist .single-list-C61RwL {
   background-color: transparent;
   height: 1037px;
@@ -2792,33 +2407,10 @@ transform: scale(0.98);
   top: 72px;
   width: 604px;
 }
-.a86progresslist .subtext-R5hewR {
-  background-color: transparent;
-  color: rgba(144,144,144,1.0);
-  font-size: 19px;
-  height: 46px;
-  left: 0px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 37px;
-  width: 468px;
-}
-.a86progresslist .subtext-VzrxLi {
-  background-color: transparent;
-  color: rgba(0,114,222,1.0);
-  font-size: 19px;
-  height: 23px;
-  left: 0px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 37px;
-  white-space: nowrap;
-  width: 468px;
-}
 .a86progresslist .symbol-jHpBbY {
   background-color: transparent;
+  background-image: url(../img/8-6-progresslist-8-06measurew360mpl089progresslist2-704DDC12-9B07-41CA-B047-8D67F8B0464B@2x.png);
+  background-size: 100% 100%;
   height: 162px;
   left: 350px;
   position: absolute;
@@ -2827,6 +2419,8 @@ transform: scale(0.98);
 }
 .a86progresslist .symbol-jfVxz1 {
   background-color: transparent;
+  background-image: url(../img/8-6-progresslist-8-06measurew360mpl089progresslist3-E256398E-B40C-4051-AD6D-E71AEBEE880D@2x.png);
+  background-size: 100% 100%;
   height: 225px;
   left: 88px;
   position: absolute;
@@ -3064,38 +2658,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 218px;
 }
-.a86progresslist .title-4kXcJu {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 1px;
-  width: 468px;
-}
-.a86progresslist .title-qUsoYa {
-  background-color: transparent;
-  height: 61px;
-  left: 0px;
-  position: relative;
-  top: 1px;
-  width: 468px;
-}
-.a86progresslist .title-vEFYcg {
-  background-color: transparent;
-  height: 32px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 468px;
-}
-.a86progresslist .title-xmpxfR {
-  background-color: transparent;
-  height: 32px;
-  left: 0px;
-  position: relative;
-  top: 1px;
-  width: 468px;
-}
 .a86progresslist .type-S6xJde {
   background-color: transparent;
   height: 374px;
@@ -3283,15 +2845,6 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: 260px;
-}
-.a86progresslist .wifi-NjFtrR {
-  background-color: transparent;
-  height: 14px;
-  left: 0px;
-  opacity: 0.5;
-  position: absolute;
-  top: 1px;
-  width: 20px;
 }
 .a86progresslist .x-93hwkD {
   background-color: transparent;
@@ -3886,7 +3439,7 @@ transform: scale(0.98);
   width: 260px;
 }
 .a86progresslist .x8-06-measu-ess-list11-k8Iamn {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 191px;
   left: 0px;
   position: absolute;
@@ -3894,26 +3447,10 @@ transform: scale(0.98);
   width: 540px;
 }
 .a86progresslist .x8-06-measu-ess-list12-k8Iamn {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 128px;
   left: 620px;
   position: absolute;
-  top: 0px;
-  width: 540px;
-}
-.a86progresslist .x8-06-measu-ress-list2-1DFy5b {
-  background-color: var(--concrete);
-  height: 162px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a86progresslist .x8-06-measu-ress-list3-UMb4WN {
-  background-color: var(--concrete);
-  height: 225px;
-  left: 0px;
-  position: relative;
   top: 0px;
   width: 540px;
 }
@@ -4023,36 +3560,32 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
 .font-class-5 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
-.font-class-6 {
   color: var(--black);
   font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
   font-size: 70px;
   line-height: 84px;
 }
-.font-class-7 {
+.font-class-6 {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
   letter-spacing: 0.30px;
   line-height: 18px;
 }
-.font-class-8 {
+.font-class-7 {
+  color: rgba(37,37,37,1.0);
   font-family: 'Roboto', Helvetica, Arial, serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
   --black: rgba(0,0,0,1.0);
-  --concrete: rgba(242,242,242,1.0);
   --ebb: rgba(227,227,227,1.0);
   --electric-violet: rgba(102,0,255,1.0);
   --harlequin: rgba(51,204,0,1.0);
   --masala: rgba(59,59,59,1.0);
+  --purple-pizzazz: rgba(255,0,204,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --royal-blue: rgba(75,99,250,1.0);
   --white: rgba(255,255,255,1.0);

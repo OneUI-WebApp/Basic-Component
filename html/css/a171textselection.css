@@ -3,7 +3,6 @@
 .a171textselection {
   background-color: rgba(245,246,247,1.0);
   height: 1637px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
 }
@@ -22,7 +21,7 @@
   width: 260px;
 }
 .a171textselection .btn-mwblLs {
-  background-color: rgba(3,129,254,1.0);
+  background-color: var(--azure-radiance);
   border-radius: 22.5px;
   height: 45px;
   left: 0px;
@@ -44,25 +43,9 @@ transform: scale(0.98);
   top: 162px;
   width: 465px;
 }
-.a171textselection .description-LiVHFT {
-  background-color: transparent;
-  height: 69px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 540px;
-}
-.a171textselection .description-arOxxK {
-  background-color: transparent;
-  height: 69px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 540px;
-}
 .a171textselection .document-b-x-contents-1w3x47 {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 1px solid rgba(227,227,227,1.0);
   height: 366px;
   left: 0px;
   position: absolute;
@@ -71,7 +54,7 @@ transform: scale(0.98);
 }
 .a171textselection .document-b-x-contents-5iy7GR {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 1px solid rgba(227,227,227,1.0);
   height: 245px;
   left: 0px;
   position: absolute;
@@ -80,7 +63,7 @@ transform: scale(0.98);
 }
 .a171textselection .document-b-x-contents-V6KZ2v {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 1px solid rgba(227,227,227,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -89,7 +72,7 @@ transform: scale(0.98);
 }
 .a171textselection .document-b-x-contents-hh1Mvx {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 1px solid rgba(227,227,227,1.0);
   height: 631px;
   left: 0px;
   position: absolute;
@@ -789,7 +772,7 @@ transform: scale(0.98);
 }
 .a171textselection .guide-meas-horizontal-GxlTuk {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-line-08447220-2BE1-4325-B197-CCB710B8D523@2x.png);
+  background-image: url(../img/17-1-text-selection-line-4EAFC160-9920-408B-8DE9-D478C59B11EA@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -799,7 +782,7 @@ transform: scale(0.98);
 }
 .a171textselection .guide-meas-horizontal-QEOEaO {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-line-AF246397-480F-412C-A479-F578D1FE5B44@2x.png);
+  background-image: url(../img/17-1-text-selection-line-E7BBCDA3-8478-4540-8115-E9D073B8363D@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -809,7 +792,7 @@ transform: scale(0.98);
 }
 .a171textselection .guide-meas-horizontal-k5F1TF {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-line-AF246397-480F-412C-A479-F578D1FE5B44@2x.png);
+  background-image: url(../img/17-1-text-selection-line-E7BBCDA3-8478-4540-8115-E9D073B8363D@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -862,7 +845,7 @@ transform: scale(0.98);
 }
 .a171textselection .guide-numb-ring-shape-OaDX24 {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-oval-72C76EF2-2098-4C1A-9DE5-EF99F68E97FE@2x.png);
+  background-image: url(../img/17-1-text-selection-oval-2E00D5BF-B42C-4FB7-A405-9747C8ABD66D@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -872,7 +855,7 @@ transform: scale(0.98);
 }
 .a171textselection .guide-numb-ring-shape-fweJf5 {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-oval-72C76EF2-2098-4C1A-9DE5-EF99F68E97FE@2x.png);
+  background-image: url(../img/17-1-text-selection-oval-2E00D5BF-B42C-4FB7-A405-9747C8ABD66D@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -882,7 +865,7 @@ transform: scale(0.98);
 }
 .a171textselection .guide-numb-ring-shape-xMtxpl {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-oval-72C76EF2-2098-4C1A-9DE5-EF99F68E97FE@2x.png);
+  background-image: url(../img/17-1-text-selection-oval-2E00D5BF-B42C-4FB7-A405-9747C8ABD66D@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 30px;
@@ -892,7 +875,7 @@ transform: scale(0.98);
 }
 .a171textselection .guide-numb-ring-shape-xRkPbj {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-oval-72C76EF2-2098-4C1A-9DE5-EF99F68E97FE@2x.png);
+  background-image: url(../img/17-1-text-selection-oval-2E00D5BF-B42C-4FB7-A405-9747C8ABD66D@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 30px;
@@ -902,7 +885,7 @@ transform: scale(0.98);
 }
 .a171textselection .guide-numbering-icon-13N3y0 {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-oval-72C76EF2-2098-4C1A-9DE5-EF99F68E97FE@2x.png);
+  background-image: url(../img/17-1-text-selection-oval-2E00D5BF-B42C-4FB7-A405-9747C8ABD66D@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -912,7 +895,7 @@ transform: scale(0.98);
 }
 .a171textselection .guide-numbering-icon-3ZyVte {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-oval-72C76EF2-2098-4C1A-9DE5-EF99F68E97FE@2x.png);
+  background-image: url(../img/17-1-text-selection-oval-2E00D5BF-B42C-4FB7-A405-9747C8ABD66D@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -986,25 +969,9 @@ transform: scale(0.98);
   top: 194px;
   width: 1240px;
 }
-.a171textselection .left-9lujSx {
-  background-color: transparent;
-  height: 35px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 30px;
-}
-.a171textselection .left-E9nxPc {
-  background-color: transparent;
-  height: 35px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 30px;
-}
 .a171textselection .left-r2GQYU {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-path-A9E71692-FADE-4C2E-8C32-5626C0EF7662@2x.png);
+  background-image: url(../img/17-1-text-selection-path-F967C083-3D5E-4967-BDE9-DD0F2BCED0C5@2x.png);
   background-size: 100% 100%;
   height: 48px;
   left: 0px;
@@ -1036,46 +1003,6 @@ transform: scale(0.98);
   top: 378px;
   width: 52px;
 }
-.a171textselection .mobile-dar--bodytext1-fx5BcB {
-  background-color: transparent;
-  height: 69px;
-  left: 36px;
-  position: relative;
-  top: 0px;
-  width: 468px;
-}
-.a171textselection .mobile-dar-andlerleft-arOxxK {
-  background-color: transparent;
-  height: 35px;
-  left: 231px;
-  position: absolute;
-  top: 34px;
-  width: 30px;
-}
-.a171textselection .mobile-dar-electpress-arOxxK {
-  background-color: rgba(102,178,204,1.0);
-  height: 35px;
-  left: 261px;
-  position: absolute;
-  top: 0px;
-  width: 152px;
-}
-.a171textselection .mobile-dar-ndlerright-arOxxK {
-  background-color: transparent;
-  height: 35px;
-  left: 413px;
-  position: absolute;
-  top: 34px;
-  width: 30px;
-}
-.a171textselection .mobile-lig--bodytext1-FEmh41 {
-  background-color: transparent;
-  height: 69px;
-  left: 36px;
-  position: relative;
-  top: 0px;
-  width: 468px;
-}
 .a171textselection .mobile-lig-andlerleft-4QoRc4 {
   background-color: transparent;
   height: 48px;
@@ -1084,14 +1011,6 @@ transform: scale(0.98);
   top: 0px;
   width: 42px;
 }
-.a171textselection .mobile-lig-andlerleft-LiVHFT {
-  background-color: transparent;
-  height: 35px;
-  left: 231px;
-  position: absolute;
-  top: 34px;
-  width: 30px;
-}
 .a171textselection .mobile-lig-andlerleft-q4CnUw {
   background-color: transparent;
   height: 48px;
@@ -1099,54 +1018,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 42px;
-}
-.a171textselection .mobile-lig-electpress-LiVHFT {
-  background-color: rgba(196,233,252,1.0);
-  height: 35px;
-  left: 261px;
-  position: absolute;
-  top: 0px;
-  width: 152px;
-}
-.a171textselection .mobile-lig-ndlerright-LiVHFT {
-  background-color: transparent;
-  height: 35px;
-  left: 413px;
-  position: absolute;
-  top: 34px;
-  width: 30px;
-}
-.a171textselection .path-Dap0Ox {
-  background-color: transparent;
-  height: 34px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 30px;
-}
-.a171textselection .path-iiMczN {
-  background-color: transparent;
-  height: 34px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 30px;
-}
-.a171textselection .path-tCwAkT {
-  background-color: transparent;
-  height: 34px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 30px;
-}
-.a171textselection .path-v3aHWh {
-  background-color: transparent;
-  height: 34px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 30px;
 }
 .a171textselection .property-0PzkWk {
   background-color: transparent;
@@ -1263,14 +1134,6 @@ transform: scale(0.98);
   top: 31px;
   width: 151px;
 }
-.a171textselection .rectangle-LiVHFT {
-  background-color: rgba(242,242,242,1.0);
-  height: 69px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 540px;
-}
 .a171textselection .rectangle-SaP9pi {
   background-color: rgba(255,204,0,1.0);
   height: 1px;
@@ -1286,14 +1149,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 320px;
-}
-.a171textselection .rectangle-arOxxK {
-  background-color: rgba(1,1,1,1.0);
-  height: 69px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 540px;
 }
 .a171textselection .rectangle-dCPDG2 {
   background-color: var(--razzle-dazzle-rose);
@@ -1383,25 +1238,9 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a171textselection .right-9p8ALW {
-  background-color: transparent;
-  height: 35px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 30px;
-}
-.a171textselection .right-AY1EgY {
-  background-color: transparent;
-  height: 35px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 30px;
-}
 .a171textselection .right-zf5Fxx {
   background-color: transparent;
-  background-image: url(../img/17-1-text-selection-path-E42A0BA8-5F2B-496B-8D9F-3FD21F089F07@2x.png);
+  background-image: url(../img/17-1-text-selection-path-7E88960D-1329-45DA-9E5A-BE6E039DEB6D@2x.png);
   background-size: 100% 100%;
   height: 48px;
   left: 0px;
@@ -1570,30 +1409,6 @@ transform: scale(0.98);
   top: 38px;
   width: 368px;
 }
-.a171textselection .this-function-allows-XKFRXM {
-  background-color: transparent;
-  color: rgba(229,229,229,1.0);
-  font-size: 24px;
-  height: 69px;
-  left: 0px;
-  line-height: 34.5px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  width: 468px;
-}
-.a171textselection .this-function-allows-imaTx4 {
-  background-color: transparent;
-  color: rgba(80,80,80,1.0);
-  font-size: 24px;
-  height: 69px;
-  left: 0px;
-  line-height: 34.5px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  width: 468px;
-}
 .a171textselection .value-1line-LaY041 {
   background-color: transparent;
   color: var(--royal-blue);
@@ -1737,8 +1552,13 @@ transform: scale(0.98);
 }
 .a171textselection .web-app-xrpEuL {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2145,8 +1965,13 @@ transform: scale(0.98);
 }
 .a171textselection .x16-1-thumbnaillist-C61RwL {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
   height: auto;
   left: 380px;
+  letter-spacing: 0.00px;
+  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -2346,46 +2171,33 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
 }
 .font-class-2 {
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-}
-.font-class-3 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
-}
-.font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 500;
-}
-.font-class-5 {
   font-family: 'Roboto', Helvetica, Arial, serif;
   font-style: normal;
   font-weight: 400;
 }
+.font-class-3 {
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+}
+.font-class-4 {
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+}
+.font-class-5 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
+}
 .font-class-6 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
-.font-class-7 {
-  color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
-  line-height: 84px;
-}
-.font-class-8 {
-  color: var(--black);
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size: 15px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
-}
 :root {
-  --azure-radiance: rgba(0,153,255,1.0);
-  --azure-radiance-2: rgba(0,153,255,0.37);
+  --alabaster: rgba(250,250,250,1.0);
+  --azure-radiance: rgba(3,129,254,1.0);
   --black: rgba(0,0,0,1.0);
-  --ebb: rgba(227,227,227,1.0);
-  --harlequin: rgba(51,204,0,1.0);
+  --dodger-blue: rgba(62,145,255,1.0);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --royal-blue: rgba(75,99,250,1.0);
+  --science-blue: rgba(0,114,222,1.0);
   --shark: rgba(37,37,37,1.0);
   --white: rgba(255,255,255,1.0);
 }

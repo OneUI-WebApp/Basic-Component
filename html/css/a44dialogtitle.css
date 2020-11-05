@@ -3,7 +3,6 @@
 .a44dialogtitle {
   background-color: rgba(245,246,247,1.0);
   height: 1385px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
 }
@@ -949,7 +948,7 @@ transform: scale(0.98);
   width: 36px;
 }
 .a44dialogtitle .guide-measure-area-HZAI7N {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 30px;
   left: 0px;
   position: absolute;
@@ -957,7 +956,7 @@ transform: scale(0.98);
   width: 468px;
 }
 .a44dialogtitle .guide-measure-area-UxBows {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 39px;
   left: 0px;
   position: absolute;
@@ -965,7 +964,7 @@ transform: scale(0.98);
   width: 468px;
 }
 .a44dialogtitle .guide-measure-area-bWSJBi {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 104px;
   left: 0px;
   position: absolute;
@@ -973,7 +972,7 @@ transform: scale(0.98);
   width: 36px;
 }
 .a44dialogtitle .guide-measure-area-uhib2b {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 104px;
   left: 0px;
   position: absolute;
@@ -990,7 +989,7 @@ transform: scale(0.98);
 }
 .a44dialogtitle .guide-numbering-type-XjX2Of {
   background-color: transparent;
-  background-image: url(../img/4-13-date-picker-dialog-1-oval-9E5DF5B4-C078-4086-83E6-DCBC0B080215@2x.png);
+  background-image: url(../img/4-19-edit-dialog-oval-316693F3-D692-46D6-9431-EB2E21CDB183@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 13px;
@@ -1000,7 +999,7 @@ transform: scale(0.98);
 }
 .a44dialogtitle .guide-numbering-type-ehQvGf {
   background-color: transparent;
-  background-image: url(../img/4-13-date-picker-dialog-1-oval-9E5DF5B4-C078-4086-83E6-DCBC0B080215@2x.png);
+  background-image: url(../img/4-19-edit-dialog-oval-316693F3-D692-46D6-9431-EB2E21CDB183@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1271,7 +1270,7 @@ transform: scale(0.98);
 }
 .a44dialogtitle .symbol-hh1Mvx {
   background-color: transparent;
-  background-image: url(../img/4-4-dialogtitle-4-04measurew360mpl044dialogtitle-59890984-1BB2-4F57-9D66-B00A1CE297C0.png);
+  background-image: url(../img/4-4-dialogtitle-4-04measurew360mpl044dialogtitle-3096A077-0764-4F27-A950-140DA55D9927@2x.png);
   background-size: 100% 100%;
   height: 104px;
   left: 40px;
@@ -2223,43 +2222,43 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
 }
 .font-class-3 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
 .font-class-4 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
 .font-class-5 {
   font-family: 'Roboto', Helvetica, Arial, serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 .font-class-6 {
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-}
-.font-class-7 {
   color: var(--black);
   font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
   font-size: 70px;
   line-height: 84px;
 }
-.font-class-8 {
+.font-class-7 {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
   letter-spacing: 0.30px;
   line-height: 18px;
 }
+.font-class-8 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
+}
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
   --ebb: rgba(227,227,227,1.0);
   --harlequin: rgba(51,204,0,1.0);
+  --harlequin-2: rgba(51,204,0,0.37);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --royal-blue: rgba(75,99,250,1.0);
-  --science-blue: rgba(0,114,222,1.0);
-  --tundora: rgba(69,69,69,1.0);
   --white: rgba(255,255,255,1.0);
 }

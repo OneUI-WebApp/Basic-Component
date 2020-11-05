@@ -3,9 +3,16 @@
 .a16actionbutton {
   background-color: rgba(245,246,247,1.0);
   height: 1682px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
+}
+.a16actionbutton .background-n49lac {
+  background-color: var(--white);
+  height: 1252px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
 }
 .a16actionbutton .background-xAEfWi {
   background-color: rgba(71,71,71,1.0);
@@ -29,22 +36,6 @@
   white-space: nowrap;
   width: 260px;
 }
-.a16actionbutton .btn-BRTFfo {
-  background-color: transparent;
-  height: 36px;
-  left: 278px;
-  position: absolute;
-  top: 24px;
-  width: 233px;
-}
-.a16actionbutton .btn-GgNcFk {
-  background-color: transparent;
-  height: 32px;
-  left: 330px;
-  position: absolute;
-  top: 25px;
-  width: 174px;
-}
 .a16actionbutton .btn-mwblLs {
   background-color: rgba(3,129,254,1.0);
   border-radius: 22.5px;
@@ -60,20 +51,12 @@
 
 transform: scale(0.98);
 }
-.a16actionbutton .btn-xowe9J {
-  background-color: transparent;
-  height: 36px;
-  left: 383px;
-  position: absolute;
-  top: 24px;
-  width: 128px;
-}
 .a16actionbutton .dark-theme-XIMmxx {
   background-color: transparent;
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 294px;
+  top: 296px;
   width: 465px;
 }
 .a16actionbutton .document-b-x-contents-Uixoni {
@@ -97,7 +80,7 @@ transform: scale(0.98);
 .a16actionbutton .document-b-x-contents-XIMmxx {
   background-color: var(--white);
   border: 1px solid var(--ebb);
-  height: 374px;
+  height: 379px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -129,7 +112,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a16actionbutton .gnb-bar01-app-bar-C61RwL {
@@ -621,20 +604,12 @@ transform: scale(0.98);
   width: 248px;
 }
 .a16actionbutton .group-5wrBx3 {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
   top: 0px;
   width: 69px;
-}
-.a16actionbutton .group-D4E4KO {
-  background-color: var(--concrete);
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
 }
 .a16actionbutton .group-KdMd6Y {
   background-color: transparent;
@@ -652,14 +627,6 @@ transform: scale(0.98);
   top: 0px;
   width: 146px;
 }
-.a16actionbutton .group-densri {
-  background-color: var(--concrete);
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a16actionbutton .group-w6TSjg {
   background-color: transparent;
   height: 45px;
@@ -667,14 +634,6 @@ transform: scale(0.98);
   position: relative;
   top: 22px;
   width: 260px;
-}
-.a16actionbutton .group-wYbF41 {
-  background-color: var(--concrete);
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
 }
 .a16actionbutton .guide-C61RwL {
   background-color: transparent;
@@ -862,7 +821,7 @@ transform: scale(0.98);
 }
 .a16actionbutton .guide-meas-e-vertical-3cfXwO {
   background-color: transparent;
-  background-image: url(../img/1-6-action-button-line-E6BB7659-892C-443A-8496-1EAE924ECD15@2x.png);
+  background-image: url(../img/1-6-action-button-line-864B5A1C-78B2-4043-A2FB-738AA0574DDE@2x.png);
   background-size: 100% 100%;
   height: 24px;
   left: 0px;
@@ -872,7 +831,7 @@ transform: scale(0.98);
 }
 .a16actionbutton .guide-meas-e-vertical-RZRAtx {
   background-color: transparent;
-  background-image: url(../img/1-6-action-button-line-E6BB7659-892C-443A-8496-1EAE924ECD15@2x.png);
+  background-image: url(../img/1-6-action-button-line-864B5A1C-78B2-4043-A2FB-738AA0574DDE@2x.png);
   background-size: 100% 100%;
   height: 24px;
   left: 0px;
@@ -882,7 +841,7 @@ transform: scale(0.98);
 }
 .a16actionbutton .guide-meas-e-vertical-VgxqdT {
   background-color: transparent;
-  background-image: url(../img/1-6-action-button-line-E6BB7659-892C-443A-8496-1EAE924ECD15@2x.png);
+  background-image: url(../img/1-6-action-button-line-864B5A1C-78B2-4043-A2FB-738AA0574DDE@2x.png);
   background-size: 100% 100%;
   height: 24px;
   left: 35px;
@@ -892,7 +851,7 @@ transform: scale(0.98);
 }
 .a16actionbutton .guide-meas-e-vertical-oG2Ige {
   background-color: transparent;
-  background-image: url(../img/1-6-action-button-line-E6BB7659-892C-443A-8496-1EAE924ECD15@2x.png);
+  background-image: url(../img/1-6-action-button-line-864B5A1C-78B2-4043-A2FB-738AA0574DDE@2x.png);
   background-size: 100% 100%;
   height: 24px;
   left: 35px;
@@ -1110,7 +1069,7 @@ transform: scale(0.98);
 }
 .a16actionbutton .guide-numbering-type-U4gIgV {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-94C99D39-FAC8-4F97-A0DD-9D9831E1C479@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 318px;
@@ -1120,12 +1079,12 @@ transform: scale(0.98);
 }
 .a16actionbutton .guide-numbering-type-tlMw0d {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-94C99D39-FAC8-4F97-A0DD-9D9831E1C479@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a16actionbutton .guide-property-tlMw0d {
@@ -1138,17 +1097,17 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
 .a16actionbutton .guide-subject-type-XIMmxx {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a16actionbutton .history-JH8G1K {
   background-color: transparent;
@@ -1177,7 +1136,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a16actionbutton .measure-1-Uixoni {
@@ -1203,145 +1162,6 @@ transform: scale(0.98);
   position: absolute;
   top: 464px;
   width: 540px;
-}
-.a16actionbutton .menu-6gmxNc {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 27px;
-  height: auto;
-  left: 103px;
-  line-height: 32px;
-  position: absolute;
-  text-align: right;
-  top: 1px;
-  white-space: nowrap;
-  width: auto;
-}
-.a16actionbutton .menu-92x0Wd {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 27px;
-  height: auto;
-  left: -2px;
-  line-height: 32px;
-  position: absolute;
-  text-align: right;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a16actionbutton .menu-Ixp7Fo {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 27px;
-  height: auto;
-  left: 103px;
-  line-height: 32px;
-  position: absolute;
-  text-align: right;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a16actionbutton .menu-PxVeeC {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 27px;
-  height: auto;
-  left: -2px;
-  line-height: 32px;
-  position: absolute;
-  text-align: right;
-  top: 1px;
-  white-space: nowrap;
-  width: auto;
-}
-.a16actionbutton .menu-mi5Z5p {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 27px;
-  height: auto;
-  left: -2px;
-  line-height: 32px;
-  position: absolute;
-  text-align: right;
-  top: 1px;
-  white-space: nowrap;
-  width: auto;
-}
-.a16actionbutton .mobile-lig-n2btn-back-D599P7 {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a16actionbutton .mobile-lig-n3btn-back-4dX1vu {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a16actionbutton .mobile-lig-t2btn-back-EWrQ3F {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a16actionbutton .mobile-lig-title-back-2AROwZ {
-  background-color: transparent;
-  background-image: url(../img/1-5-more-option-list-mobilelightthemeicon01actionbartitleback-758ACA3E-DC00-4C0F-A534-73DB0681146E@2x.png);
-  background-size: 100% 100%;
-  height: 28px;
-  left: 9px;
-  position: absolute;
-  top: 4px;
-  width: 15px;
-}
-.a16actionbutton .mobile-lig-title-back-DE9sqE {
-  background-color: transparent;
-  background-image: url(../img/1-5-more-option-list-mobilelightthemeicon01actionbartitleback-758ACA3E-DC00-4C0F-A534-73DB0681146E@2x.png);
-  background-size: 100% 100%;
-  height: 28px;
-  left: 9px;
-  position: absolute;
-  top: 4px;
-  width: 15px;
-}
-.a16actionbutton .mobile-lig-title-back-Ivjeeo {
-  background-color: transparent;
-  background-image: url(../img/1-5-more-option-list-mobilelightthemeicon01actionbartitleback-758ACA3E-DC00-4C0F-A534-73DB0681146E@2x.png);
-  background-size: 100% 100%;
-  height: 28px;
-  left: 9px;
-  position: absolute;
-  top: 4px;
-  width: 15px;
-}
-.a16actionbutton .mobile-lig-title-more-6gmxNc {
-  background-color: transparent;
-  background-image: url(../img/1-3-navigate-up-button-mobilelightthemeicon01actionbartitlemore-A3BCE183-E1B5-440C-8AC7-B74972AE83C9@2x.png);
-  background-size: 100% 100%;
-  height: 24px;
-  left: 211px;
-  position: absolute;
-  top: 6px;
-  width: 6px;
-}
-.a16actionbutton .mobile-lig-title-more-PxVeeC {
-  background-color: transparent;
-  background-image: url(../img/1-3-navigate-up-button-mobilelightthemeicon01actionbartitlemore-A3BCE183-E1B5-440C-8AC7-B74972AE83C9@2x.png);
-  background-size: 100% 100%;
-  height: 24px;
-  left: 106px;
-  position: absolute;
-  top: 6px;
-  width: 6px;
 }
 .a16actionbutton .property-5wrBx3 {
   background-color: transparent;
@@ -1409,7 +1229,7 @@ transform: scale(0.98);
   width: auto;
 }
 .a16actionbutton .rectangle-0EcUdJ {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 9px;
   left: 17px;
   position: absolute;
@@ -1457,7 +1277,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a16actionbutton .rectangle-5TCnI7 {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 9px;
   left: 0px;
   position: absolute;
@@ -1473,7 +1293,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a16actionbutton .rectangle-96aGDl {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 9px;
   left: 0px;
   position: absolute;
@@ -1521,7 +1341,7 @@ transform: scale(0.98);
   width: 18px;
 }
 .a16actionbutton .rectangle-GDRe8c {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 9px;
   left: 6px;
   position: absolute;
@@ -1537,7 +1357,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a16actionbutton .rectangle-JLTZY0 {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 1px;
   left: 0px;
   position: absolute;
@@ -1569,7 +1389,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a16actionbutton .rectangle-Mgp5wo {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 1px;
   left: 0px;
   position: absolute;
@@ -1601,7 +1421,7 @@ transform: scale(0.98);
   width: 36px;
 }
 .a16actionbutton .rectangle-ThwZNG {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 9px;
   left: 3px;
   position: absolute;
@@ -1617,7 +1437,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a16actionbutton .rectangle-ZxoPSa {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 9px;
   left: 17px;
   position: absolute;
@@ -1633,7 +1453,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a16actionbutton .rectangle-eDBRUy {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 1px;
   left: 3px;
   position: absolute;
@@ -1705,7 +1525,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a16actionbutton .rectangle-qXrE8m {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 9px;
   left: 3px;
   position: absolute;
@@ -1713,7 +1533,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a16actionbutton .rectangle-rtVmX9 {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 1px;
   left: 3px;
   position: absolute;
@@ -1737,7 +1557,7 @@ transform: scale(0.98);
   width: 18px;
 }
 .a16actionbutton .rectangle-w7h6I2 {
-  background-color: rgba(102,0,255,1.0);
+  background-color: var(--electric-violet);
   height: 9px;
   left: 6px;
   position: absolute;
@@ -1799,45 +1619,6 @@ transform: scale(0.98);
   position: absolute;
   top: 24px;
   width: 18px;
-}
-.a16actionbutton .sample-title-2AROwZ {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 28px;
-  height: auto;
-  left: 54px;
-  line-height: 33px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 280px;
-}
-.a16actionbutton .sample-title-DE9sqE {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 28px;
-  height: auto;
-  left: 54px;
-  line-height: 33px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 176px;
-}
-.a16actionbutton .sample-title-Ivjeeo {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 28px;
-  height: auto;
-  left: 54px;
-  line-height: 33px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 228px;
 }
 .a16actionbutton .size-L0qIW4 {
   background-color: transparent;
@@ -2190,36 +1971,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 218px;
 }
-.a16actionbutton .title-BRTFfo {
-  background-color: transparent;
-  height: 36px;
-  left: 30px;
-  position: absolute;
-  top: 24px;
-  width: 230px;
-}
-.a16actionbutton .title-GgNcFk {
-  background-color: transparent;
-  height: 36px;
-  left: 30px;
-  position: absolute;
-  top: 24px;
-  width: 282px;
-}
-.a16actionbutton .title-xowe9J {
-  background-color: transparent;
-  height: 36px;
-  left: 30px;
-  position: absolute;
-  top: 24px;
-  width: 335px;
-}
 .a16actionbutton .type-C61RwL {
   background-color: transparent;
-  height: 374px;
+  height: 379px;
   left: 1115px;
   position: absolute;
-  top: 803px;
+  top: 801px;
   width: 505px;
 }
 .a16actionbutton .value-AlHJTt {
@@ -2700,7 +2457,7 @@ transform: scale(0.98);
   width: 240px;
 }
 .a16actionbutton .x1-06-measu-ionbutton1-1i0IH5 {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 96px;
   left: 0px;
   position: absolute;
@@ -2708,7 +2465,7 @@ transform: scale(0.98);
   width: 540px;
 }
 .a16actionbutton .x1-06-measu-ionbutton2-1i0IH5 {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 96px;
   left: 0px;
   position: absolute;
@@ -2716,7 +2473,7 @@ transform: scale(0.98);
   width: 540px;
 }
 .a16actionbutton .x1-06-measu-ionbutton3-1i0IH5 {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 96px;
   left: 0px;
   position: absolute;
@@ -3012,43 +2769,35 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
 .font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
-.font-class-5 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
-.font-class-6 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 500;
-}
-.font-class-7 {
-  color: rgba(37,37,37,1.0);
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 300;
-}
-.font-class-8 {
+.font-class-5 {
   color: var(--black);
   font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
   font-size: 70px;
   line-height: 84px;
 }
-.font-class-9 {
+.font-class-6 {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
   letter-spacing: 0.30px;
   line-height: 18px;
 }
+.font-class-7 {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
   --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
-  --concrete: rgba(242,242,242,1.0);
   --ebb: rgba(227,227,227,1.0);
+  --electric-violet: rgba(102,0,255,1.0);
   --harlequin: rgba(51,204,0,1.0);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);

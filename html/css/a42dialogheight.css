@@ -3,39 +3,12 @@
 .a42dialogheight {
   background-color: rgba(245,246,247,1.0);
   height: 4745px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
 }
-.a42dialogheight .action-6WLzf7 {
-  background-color: transparent;
-  color: var(--science-blue);
-  font-size: 16px;
-  height: 36px;
-  left: 0px;
-  line-height: 36px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 171px;
-}
-.a42dialogheight .action-9mqVTz {
-  background-color: transparent;
-  color: var(--science-blue);
-  font-size: 16px;
-  height: 36px;
-  left: 0px;
-  line-height: 36px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 171px;
-}
 .a42dialogheight .action-BxWbCO {
   background-color: transparent;
-  color: var(--science-blue);
+  color: rgba(0,114,222,1.0);
   font-size: 16px;
   height: 36px;
   left: 0px;
@@ -48,7 +21,7 @@
 }
 .a42dialogheight .action-K1HkuI {
   background-color: transparent;
-  color: var(--science-blue);
+  color: rgba(0,114,222,1.0);
   font-size: 16px;
   height: 36px;
   left: 0px;
@@ -58,14 +31,6 @@
   top: 0px;
   white-space: nowrap;
   width: 156px;
-}
-.a42dialogheight .actionbutton-TjTxxi {
-  background-color: transparent;
-  height: 36px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 345px;
 }
 .a42dialogheight .actionbutton-nsawrQ {
   background-color: transparent;
@@ -140,19 +105,6 @@ transform: scale(0.98);
   top: 248px;
   width: 465px;
 }
-.a42dialogheight .dialog-header-Vc4vFi {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 20px;
-  height: 24px;
-  left: 0px;
-  line-height: 24px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 344px;
-}
 .a42dialogheight .dialog-header-xd1PxW {
   background-color: transparent;
   color: rgba(37,37,37,1.0);
@@ -165,14 +117,6 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: 312px;
-}
-.a42dialogheight .divider-IhoDMo {
-  background-color: rgba(230,230,230,1.0);
-  height: 16px;
-  left: 172px;
-  position: absolute;
-  top: 10px;
-  width: 1px;
 }
 .a42dialogheight .divider-oZTfvc {
   background-color: rgba(230,230,230,1.0);
@@ -1238,7 +1182,7 @@ transform: scale(0.98);
   width: 86px;
 }
 .a42dialogheight .guide-measure-area-3oBY0e {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 16px;
   left: 38px;
   position: absolute;
@@ -1246,7 +1190,7 @@ transform: scale(0.98);
   width: 760px;
 }
 .a42dialogheight .guide-measure-area-KSOXdi {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 134px;
   left: 0px;
   position: absolute;
@@ -1254,7 +1198,7 @@ transform: scale(0.98);
   width: 30px;
 }
 .a42dialogheight .guide-measure-area-Lxrqxv {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 134px;
   left: 0px;
   position: absolute;
@@ -1262,7 +1206,7 @@ transform: scale(0.98);
   width: 30px;
 }
 .a42dialogheight .guide-measure-area-MPslCP {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 131px;
   left: 0px;
   position: absolute;
@@ -1286,7 +1230,7 @@ transform: scale(0.98);
   width: 392px;
 }
 .a42dialogheight .guide-measure-area-S7AleB {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 16px;
   left: 38px;
   position: absolute;
@@ -1294,7 +1238,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a42dialogheight .guide-measure-area-ScTRYq {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 131px;
   left: 0px;
   position: absolute;
@@ -1302,7 +1246,7 @@ transform: scale(0.98);
   width: 30px;
 }
 .a42dialogheight .guide-measure-area-T6jN4W {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 17px;
   left: 0px;
   position: absolute;
@@ -1310,7 +1254,7 @@ transform: scale(0.98);
   width: 540px;
 }
 .a42dialogheight .guide-measure-area-VRiqoD {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 16px;
   left: 38px;
   position: absolute;
@@ -1318,7 +1262,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a42dialogheight .guide-measure-area-XBcOCj {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 103px;
   left: 0px;
   position: absolute;
@@ -1326,7 +1270,7 @@ transform: scale(0.98);
   width: 540px;
 }
 .a42dialogheight .guide-measure-area-bwle1r {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 16px;
   left: 38px;
   position: absolute;
@@ -1359,7 +1303,7 @@ transform: scale(0.98);
 }
 .a42dialogheight .guide-numb-ring-shape-70vK0O {
   background-color: transparent;
-  background-image: url(../img/4-18-date--time-picker-oval-E9A4543D-54B6-42CF-A1C9-13291AED55D4@2x.png);
+  background-image: url(../img/4-3-dialogpadding-oval-04F617BD-A380-4BB4-B5A9-84F12DF48DAA@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 297px;
@@ -1369,7 +1313,7 @@ transform: scale(0.98);
 }
 .a42dialogheight .guide-numb-ring-shape-sHJoxe {
   background-color: transparent;
-  background-image: url(../img/4-18-date--time-picker-oval-E9A4543D-54B6-42CF-A1C9-13291AED55D4@2x.png);
+  background-image: url(../img/4-3-dialogpadding-oval-04F617BD-A380-4BB4-B5A9-84F12DF48DAA@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 297px;
@@ -1379,7 +1323,7 @@ transform: scale(0.98);
 }
 .a42dialogheight .guide-numbering-icon-44XIf8 {
   background-color: transparent;
-  background-image: url(../img/4-18-date--time-picker-oval-E9A4543D-54B6-42CF-A1C9-13291AED55D4@2x.png);
+  background-image: url(../img/4-3-dialogpadding-oval-04F617BD-A380-4BB4-B5A9-84F12DF48DAA@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1545,19 +1489,9 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a42dialogheight .mobile-dar--indicator-DATN5h {
-  background-color: transparent;
-  background-image: url(../img/4-2-dialogheight-wifi-AC19B3C2-7F38-4BA6-A5D4-AA85F4C2621A@2x.png);
-  background-size: 100% 100%;
-  height: 10px;
-  left: 24px;
-  position: absolute;
-  top: 7px;
-  width: 13px;
-}
 .a42dialogheight .mobile-dar--indicator-fxg0jx {
   background-color: transparent;
-  background-image: url(../img/4-2-dialogheight-wifi-AC19B3C2-7F38-4BA6-A5D4-AA85F4C2621A@2x.png);
+  background-image: url(../img/4-2-dialogheight-wifi-23769408-8B34-4B24-AED5-FE8090C7A7A6@2x.png);
   background-size: 100% 100%;
   height: 10px;
   left: 24px;
@@ -1581,36 +1515,12 @@ transform: scale(0.98);
   top: 16px;
   width: 15px;
 }
-.a42dialogheight .mobile-dar-bar-recent-dHbIGl {
-  background-color: transparent;
-  height: 16px;
-  left: 17px;
-  position: absolute;
-  top: 273px;
-  width: 15px;
-}
-.a42dialogheight .mobile-dar-navibar01l-DATN5h {
-  background-color: transparent;
-  height: 360px;
-  left: 712px;
-  position: absolute;
-  top: 0px;
-  width: 48px;
-}
 .a42dialogheight .mobile-dar-onbar-back-Nc3O71 {
   background-color: transparent;
   height: 16px;
   left: 277px;
   position: absolute;
   top: 16px;
-  width: 10px;
-}
-.a42dialogheight .mobile-dar-onbar-back-dHbIGl {
-  background-color: transparent;
-  height: 16px;
-  left: 19px;
-  position: absolute;
-  top: 71px;
   width: 10px;
 }
 .a42dialogheight .mobile-dar-onbar-home-Nc3O71 {
@@ -1621,22 +1531,6 @@ transform: scale(0.98);
   top: 16px;
   width: 16px;
 }
-.a42dialogheight .mobile-dar-onbar-home-dHbIGl {
-  background-color: transparent;
-  height: 16px;
-  left: 16px;
-  position: absolute;
-  top: 172px;
-  width: 16px;
-}
-.a42dialogheight .mobile-lig--bodytext1-N1loqj {
-  background-color: transparent;
-  height: 207px;
-  left: 24px;
-  position: absolute;
-  top: 46px;
-  width: 344px;
-}
 .a42dialogheight .mobile-lig--bodytext1-nGprnT {
   background-color: transparent;
   height: 507px;
@@ -1645,41 +1539,15 @@ transform: scale(0.98);
   top: 69px;
   width: 312px;
 }
-.a42dialogheight .mobile-lig-bar-recent-2WnDLX {
-  background-color: transparent;
-  background-image: url(../img/4-2-dialogheight-mobilelightthemeicon21navigationbarrecent-2C13430E-8487-43E2-B73C-1FB4CA209C5C@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 15px;
-}
 .a42dialogheight .mobile-lig-bar-recent-kgBl0M {
   background-color: transparent;
-  background-image: url(../img/4-2-dialogheight-mobilelightthemeicon21navigationbarrecent-2C13430E-8487-43E2-B73C-1FB4CA209C5C@2x.png);
+  background-image: url(../img/4-2-dialogheight-mobilelightthemeicon21navigationbarrecent-904DF22B-8BC6-42E8-A484-EEA046D1F660@2x.png);
   background-size: 100% 100%;
   height: 16px;
   left: 0px;
   position: relative;
   top: 0px;
   width: 15px;
-}
-.a42dialogheight .mobile-lig-button1btn-6xEL7L {
-  background-color: transparent;
-  height: 36px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 172px;
-}
-.a42dialogheight .mobile-lig-button1btn-IhoDMo {
-  background-color: transparent;
-  height: 36px;
-  left: 173px;
-  position: absolute;
-  top: 0px;
-  width: 172px;
 }
 .a42dialogheight .mobile-lig-button1btn-RFfpD0 {
   background-color: transparent;
@@ -1697,14 +1565,6 @@ transform: scale(0.98);
   top: 0px;
   width: 156px;
 }
-.a42dialogheight .mobile-lig-button2btn-N1loqj {
-  background-color: transparent;
-  height: 36px;
-  left: 24px;
-  position: absolute;
-  top: 264px;
-  width: 345px;
-}
 .a42dialogheight .mobile-lig-button2btn-nGprnT {
   background-color: transparent;
   height: 36px;
@@ -1721,14 +1581,6 @@ transform: scale(0.98);
   top: 40px;
   width: 360px;
 }
-.a42dialogheight .mobile-lig-mmon-dimbg-DATN5h {
-  background-color: rgba(0,0,0,0.35);
-  height: 360px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 760px;
-}
 .a42dialogheight .mobile-lig-mmon-dimbg-fxg0jx {
   background-color: rgba(0,0,0,0.35);
   height: 760px;
@@ -1737,14 +1589,6 @@ transform: scale(0.98);
   top: 0px;
   width: 360px;
 }
-.a42dialogheight .mobile-lig-mon-header-N1loqj {
-  background-color: transparent;
-  height: 24px;
-  left: 24px;
-  position: absolute;
-  top: 14px;
-  width: 344px;
-}
 .a42dialogheight .mobile-lig-mon-header-nGprnT {
   background-color: transparent;
   height: 24px;
@@ -1752,15 +1596,6 @@ transform: scale(0.98);
   position: absolute;
   top: 26px;
   width: 312px;
-}
-.a42dialogheight .mobile-lig-n-dialogbg-N1loqj {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 26px;
-  height: 304px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 392px;
 }
 .a42dialogheight .mobile-lig-n-dialogbg-nGprnT {
   background-color: rgba(252,252,252,1.0);
@@ -1771,19 +1606,9 @@ transform: scale(0.98);
   top: 0px;
   width: 360px;
 }
-.a42dialogheight .mobile-lig-onbar-back-Gjqr1m {
-  background-color: transparent;
-  background-image: url(../img/4-2-dialogheight-mobilelightthemeicon21navigationbarback-FAA7F13A-B1B2-438D-A593-D1F71DE94583@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 10px;
-}
 .a42dialogheight .mobile-lig-onbar-back-xwdzwY {
   background-color: transparent;
-  background-image: url(../img/4-2-dialogheight-mobilelightthemeicon21navigationbarback-FAA7F13A-B1B2-438D-A593-D1F71DE94583@2x.png);
+  background-image: url(../img/4-2-dialogheight-mobilelightthemeicon21navigationbarback-F7657A49-02CD-4E57-85BE-6D72771E0F18@2x.png);
   background-size: 100% 100%;
   height: 16px;
   left: 0px;
@@ -1793,31 +1618,13 @@ transform: scale(0.98);
 }
 .a42dialogheight .mobile-lig-onbar-home-DcpdNN {
   background-color: transparent;
-  background-image: url(../img/4-1-dialogwidth-mobilelightthemeicon21navigationbarhome-396509B7-4463-4B09-9411-DB9C14A8D1E8@2x.png);
+  background-image: url(../img/4-2-dialogheight-mobilelightthemeicon21navigationbarhome-C37E2FE9-46B5-4758-BA34-61946418DCFC@2x.png);
   background-size: 100% 100%;
   height: 16px;
   left: 0px;
   position: relative;
   top: 0px;
   width: 16px;
-}
-.a42dialogheight .mobile-lig-onbar-home-h6gI2D {
-  background-color: transparent;
-  background-image: url(../img/4-1-dialogwidth-mobilelightthemeicon21navigationbarhome-396509B7-4463-4B09-9411-DB9C14A8D1E8@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 16px;
-}
-.a42dialogheight .mobile-lig-ption2btnl-DATN5h {
-  background-color: transparent;
-  height: 304px;
-  left: 160px;
-  position: absolute;
-  top: 40px;
-  width: 392px;
 }
 .a42dialogheight .mobilelandscape-kJojgv {
   background-color: transparent;
@@ -2515,6 +2322,8 @@ transform: scale(0.98);
 }
 .a42dialogheight .symbol-Ct3SFs {
   background-color: transparent;
+  background-image: url(../img/4-2-dialogheight-4-02measurew712mll042dialogheight11-9E664258-CC75-4316-8C52-E7656B165F98@2x.png);
+  background-size: 100% 100%;
   height: 360px;
   left: 240px;
   position: absolute;
@@ -2885,18 +2694,6 @@ transform: scale(0.98);
   top: 12px;
   white-space: nowrap;
   width: 218px;
-}
-.a42dialogheight .this-function-allows-GQ0A20 {
-  background-color: transparent;
-  color: rgba(80,80,80,1.0);
-  font-size: 16px;
-  height: 207px;
-  left: 0px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  width: 344px;
 }
 .a42dialogheight .this-function-allows-gl9ypx {
   background-color: transparent;
@@ -3721,14 +3518,6 @@ transform: scale(0.98);
   top: 40px;
   width: 240px;
 }
-.a42dialogheight .x4-02-measu-g-height11-8qYrhy {
-  background-color: rgba(242,242,242,1.0);
-  height: 360px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 760px;
-}
 .a42dialogheight .x4-02-measu-g-height21-qzlhfX {
   background-color: transparent;
   height: 234px;
@@ -3853,43 +3642,43 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
 }
 .font-class-3 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
 .font-class-4 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
 .font-class-5 {
   font-family: 'Roboto', Helvetica, Arial, serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 .font-class-6 {
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-}
-.font-class-7 {
   color: var(--black);
   font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
   font-size: 70px;
   line-height: 84px;
 }
-.font-class-8 {
+.font-class-7 {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
   letter-spacing: 0.30px;
   line-height: 18px;
 }
+.font-class-8 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
+}
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
   --ebb: rgba(227,227,227,1.0);
   --harlequin: rgba(51,204,0,1.0);
+  --harlequin-2: rgba(51,204,0,0.37);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --royal-blue: rgba(75,99,250,1.0);
-  --science-blue: rgba(0,114,222,1.0);
-  --tundora: rgba(69,69,69,1.0);
   --white: rgba(255,255,255,1.0);
 }

@@ -3,9 +3,16 @@
 .a02color {
   background-color: rgba(245,246,247,1.0);
   height: 2018px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
+}
+.a02color .background-v1pbZ5 {
+  background-color: var(--white);
+  height: 1165px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
 }
 .a02color .basic-component-gui-E5nOUr {
   background-color: transparent;
@@ -78,7 +85,7 @@
 }
 .a02color .color-name-vxt1lC {
   background-color: transparent;
-  color: rgba(80,80,80,1.0);
+  color: var(--fuscous-gray);
   font-size: 16px;
   height: auto;
   left: 26px;
@@ -119,8 +126,13 @@
 }
 .a02color .contents-pagetitle-C61RwL {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
   height: auto;
   left: 380px;
+  letter-spacing: 0.00px;
+  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -142,7 +154,7 @@
   width: 161px;
 }
 .a02color .control-active-color-a4nPQq {
-  background-color: rgba(62,145,255,1.0);
+  background-color: var(--dodger-blue);
   height: 64px;
   left: 1px;
   position: absolute;
@@ -150,7 +162,7 @@
   width: 450px;
 }
 .a02color .control-active-color-elT29i {
-  background-color: rgba(62,145,255,1.0);
+  background-color: var(--dodger-blue);
   height: 64px;
   left: 0px;
   position: absolute;
@@ -206,8 +218,7 @@
   width: 116px;
 }
 .a02color .document-b-x-contents-EJYwOj {
-  background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  background-color: transparent;
   height: 536px;
   left: 0px;
   position: absolute;
@@ -225,7 +236,7 @@
 }
 .a02color .fafafa-YzwQRJ {
   background-color: transparent;
-  color: rgba(80,80,80,1.0);
+  color: var(--fuscous-gray);
   font-size: 20px;
   height: auto;
   left: 356px;
@@ -238,7 +249,7 @@
 }
 .a02color .fafafa-ili69C {
   background-color: transparent;
-  color: rgba(80,80,80,1.0);
+  color: var(--fuscous-gray);
   font-size: 20px;
   height: auto;
   left: 356px;
@@ -728,7 +739,7 @@
 }
 .a02color .hex-vxt1lC {
   background-color: transparent;
-  color: rgba(80,80,80,1.0);
+  color: var(--fuscous-gray);
   font-size: 16px;
   height: auto;
   left: 396px;
@@ -813,7 +824,7 @@
 }
 .a02color .light-theme-vxt1lC {
   background-color: transparent;
-  color: rgba(80,80,80,1.0);
+  color: var(--fuscous-gray);
   font-size: 22px;
   height: auto;
   left: 26px;
@@ -888,7 +899,7 @@
   width: 155px;
 }
 .a02color .primary-dark-color-elT29i {
-  background-color: rgba(62,145,255,1.0);
+  background-color: var(--dodger-blue);
   height: 64px;
   left: 0px;
   position: absolute;
@@ -915,6 +926,15 @@
   position: absolute;
   top: 0px;
   width: 320px;
+}
+.a02color .rectangle-mxJno9 {
+  background-color: var(--white);
+  border: 1px solid rgba(227,227,227,1.0);
+  height: 623px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 1240px;
 }
 .a02color .text-22CVAR {
   background-color: transparent;
@@ -1027,8 +1047,13 @@
 }
 .a02color .web-app-E5nOUr {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1038,7 +1063,7 @@
 }
 .a02color .white-color-YzwQRJ {
   background-color: transparent;
-  color: rgba(80,80,80,1.0);
+  color: var(--fuscous-gray);
   font-size: 18px;
   height: auto;
   left: 25px;
@@ -1067,7 +1092,7 @@
 }
 .a02color .white-color-ili69C {
   background-color: transparent;
-  color: rgba(80,80,80,1.0);
+  color: var(--fuscous-gray);
   font-size: 18px;
   height: auto;
   left: 25px;
@@ -1080,7 +1105,7 @@
 }
 .a02color .x0-02-keysc-der-switch-MbT7Z9 {
   background-color: transparent;
-  height: 508px;
+  height: 507px;
   left: 920px;
   position: absolute;
   top: 40px;
@@ -1088,15 +1113,15 @@
 }
 .a02color .x0-02-keysc-der-switch-ux3DZm {
   background-color: transparent;
-  height: 508px;
+  height: 507px;
   left: 340px;
   position: absolute;
   top: 40px;
-  width: 241px;
+  width: 240px;
 }
 .a02color .x0-02-keysc-ontextlist-MbT7Z9 {
   background-color: transparent;
-  height: 508px;
+  height: 507px;
   left: 660px;
   position: absolute;
   top: 40px;
@@ -1104,7 +1129,7 @@
 }
 .a02color .x0-02-keysc-ontextlist-ux3DZm {
   background-color: transparent;
-  height: 508px;
+  height: 507px;
   left: 80px;
   position: absolute;
   top: 40px;
@@ -1415,59 +1440,24 @@
   white-space: nowrap;
   width: 260px;
 }
-.border-class-1 {
-  border: 1px solid var(--gallery);
-}
-.border-class-2 {
-  border: 1px solid var(--suva-gray);
-}
 .font-class-1 {
-  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
-}
-.font-class-2 {
   color: var(--black);
   font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size: 15px;
   line-height: 18px;
 }
-.font-class-3 {
+.font-class-2 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+}
+.font-class-3 {
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
 }
 .font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
-.font-class-5 {
   font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
-}
-.font-class-6 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 500;
-}
-.font-class-7 {
-  color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
-  line-height: 84px;
-}
-.font-class-8 {
-  color: var(--black);
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size: 15px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
 }
 :root {
   --black: rgba(0,0,0,1.0);
-  --black-2: rgba(0,0,0,0.1);
-  --concrete: rgba(242,242,242,1.0);
-  --gallery: rgba(237,237,237,1.0);
-  --gunsmoke: rgba(132,131,131,1.0);
-  --perano: rgba(176,195,247,1.0);
-  --sonic-silver: rgba(116,116,116,1.0);
-  --suva-gray: rgba(135,135,135,1.0);
-  --tundora: rgba(69,69,69,1.0);
+  --dodger-blue: rgba(62,145,255,1.0);
+  --fuscous-gray: rgba(80,80,80,1.0);
   --white: rgba(255,255,255,1.0);
 }

@@ -3,7 +3,6 @@
 .a13navigateupbutton {
   background-color: rgba(245,246,247,1.0);
   height: 1481px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
 }
@@ -14,6 +13,14 @@
   position: absolute;
   top: 0px;
   width: 145px;
+}
+.a13navigateupbutton .background-n49lac {
+  background-color: var(--white);
+  height: 1252px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
 }
 .a13navigateupbutton .basic-component-gui-ldhYbP {
   background-color: transparent;
@@ -49,13 +56,13 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 390px;
+  top: 392px;
   width: 465px;
 }
 .a13navigateupbutton .document-b-x-contents-PHONBE {
   background-color: var(--white);
   border: 1px solid var(--ebb);
-  height: 470px;
+  height: 475px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -118,7 +125,7 @@ transform: scale(0.98);
   height: 205px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a13navigateupbutton .gnb-bar01-app-bar-C61RwL {
@@ -609,16 +616,8 @@ transform: scale(0.98);
   top: 0px;
   width: 357px;
 }
-.a13navigateupbutton .group-48QA9d {
-  background-color: var(--concrete);
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a13navigateupbutton .group-58bbrx {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 35px;
   position: absolute;
@@ -771,7 +770,7 @@ transform: scale(0.98);
 }
 .a13navigateupbutton .guide-meas-e-vertical-DJDzJC {
   background-color: transparent;
-  background-image: url(../img/1-4-more-option-line-8A9E33C9-81FE-438F-A07C-187A45B8266C@2x.png);
+  background-image: url(../img/1-3-navigate-up-button-line-383A07A6-CB66-437F-BBA1-6F2B293EB96E@2x.png);
   background-size: 100% 100%;
   height: 36px;
   left: 35px;
@@ -781,7 +780,7 @@ transform: scale(0.98);
 }
 .a13navigateupbutton .guide-meas-e-vertical-tCorw1 {
   background-color: transparent;
-  background-image: url(../img/1-4-more-option-line-8A9E33C9-81FE-438F-A07C-187A45B8266C@2x.png);
+  background-image: url(../img/1-3-navigate-up-button-line-383A07A6-CB66-437F-BBA1-6F2B293EB96E@2x.png);
   background-size: 100% 100%;
   height: 36px;
   left: 0px;
@@ -799,7 +798,7 @@ transform: scale(0.98);
 }
 .a13navigateupbutton .guide-meas-horizontal-AhVelo {
   background-color: transparent;
-  background-image: url(../img/1-4-more-option-line-6856F84D-5B2E-4E8B-BE0B-5A5389F821DA@2x.png);
+  background-image: url(../img/1-4-more-option-line-A7894B0A-E8CB-4163-997E-14DF4EA97B3C@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -809,7 +808,7 @@ transform: scale(0.98);
 }
 .a13navigateupbutton .guide-meas-horizontal-YxbBeq {
   background-color: transparent;
-  background-image: url(../img/1-4-more-option-line-6856F84D-5B2E-4E8B-BE0B-5A5389F821DA@2x.png);
+  background-image: url(../img/1-4-more-option-line-A7894B0A-E8CB-4163-997E-14DF4EA97B3C@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -859,7 +858,7 @@ transform: scale(0.98);
 }
 .a13navigateupbutton .guide-numb-ring-image-XjX2Of {
   background-color: transparent;
-  background-image: url(../img/1-3-navigate-up-button-oval-DBA4CC76-6AA6-447B-9463-1BAB76249C84@2x.png);
+  background-image: url(../img/1-8-bottom-bar-oval-5D5BAB80-D3A6-420E-9342-4067C904DBEE@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 58px;
@@ -869,7 +868,7 @@ transform: scale(0.98);
 }
 .a13navigateupbutton .guide-numbering-icon-mctxnR {
   background-color: transparent;
-  background-image: url(../img/1-3-navigate-up-button-oval-DBA4CC76-6AA6-447B-9463-1BAB76249C84@2x.png);
+  background-image: url(../img/1-8-bottom-bar-oval-5D5BAB80-D3A6-420E-9342-4067C904DBEE@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -896,7 +895,7 @@ transform: scale(0.98);
   height: 26px;
   left: 20px;
   position: absolute;
-  top: 30px;
+  top: 32px;
   width: 135px;
 }
 .a13navigateupbutton .history-JH8G1K {
@@ -923,10 +922,10 @@ transform: scale(0.98);
 }
 .a13navigateupbutton .image-NOXmfT {
   background-color: transparent;
-  height: 470px;
+  height: 475px;
   left: 735px;
   position: absolute;
-  top: 2px;
+  top: 0px;
   width: 505px;
 }
 .a13navigateupbutton .keyscreen-C61RwL {
@@ -942,7 +941,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 312px;
+  top: 314px;
   width: 465px;
 }
 .a13navigateupbutton .measure-hh1Mvx {
@@ -953,43 +952,15 @@ transform: scale(0.98);
   top: 152px;
   width: 578px;
 }
-.a13navigateupbutton .mobile-lig-n1btn-back-0RYKqk {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a13navigateupbutton .mobile-lig-title-back-VReLcc {
   background-color: transparent;
-  background-image: url(../img/1-3-navigate-up-button-mobilelightthemeicon01actionbartitleback-FFB090D6-298E-4A15-B051-1D2F54E22D05@2x.png);
+  background-image: url(../img/1-3-navigate-up-button-mobilelightthemeicon01actionbartitleback-92DF872D-237B-4C09-9D9C-50C3A992621A@2x.png);
   background-size: 100% 100%;
   height: 38px;
   left: 12px;
   position: absolute;
   top: 5px;
   width: 20px;
-}
-.a13navigateupbutton .mobile-lig-title-back-v4xulR {
-  background-color: transparent;
-  background-image: url(../img/1-5-more-option-list-mobilelightthemeicon01actionbartitleback-758ACA3E-DC00-4C0F-A534-73DB0681146E@2x.png);
-  background-size: 100% 100%;
-  height: 28px;
-  left: 39px;
-  position: absolute;
-  top: 28px;
-  width: 15px;
-}
-.a13navigateupbutton .mobile-lig-title-more-v4xulR {
-  background-color: transparent;
-  background-image: url(../img/1-3-navigate-up-button-mobilelightthemeicon01actionbartitlemore-A3BCE183-E1B5-440C-8AC7-B74972AE83C9@2x.png);
-  background-size: 100% 100%;
-  height: 24px;
-  left: 489px;
-  position: absolute;
-  top: 30px;
-  width: 6px;
 }
 .a13navigateupbutton .property-0eC2VC {
   background-color: transparent;
@@ -1173,19 +1144,6 @@ transform: scale(0.98);
   top: 0px;
   width: 9px;
 }
-.a13navigateupbutton .sample-title-v4xulR {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 28px;
-  height: auto;
-  left: 84px;
-  line-height: 33px;
-  position: absolute;
-  text-align: left;
-  top: 24px;
-  white-space: nowrap;
-  width: auto;
-}
 .a13navigateupbutton .size-XjX2Of {
   background-color: transparent;
   height: 110px;
@@ -1220,6 +1178,8 @@ transform: scale(0.98);
 }
 .a13navigateupbutton .symbol-hh1Mvx {
   background-color: transparent;
+  background-image: url(../img/1-3-navigate-up-button-1-03measurew360mpl013navigateupbutton-94B0A0BA-6773-4CB2-B385-5B28DC4CDB4B@2x.png);
+  background-size: 100% 100%;
   height: 96px;
   left: 88px;
   position: absolute;
@@ -1754,14 +1714,6 @@ transform: scale(0.98);
   top: 40px;
   width: 240px;
 }
-.a13navigateupbutton .x1-03-measu-teupbutton-2LAIZG {
-  background-color: var(--concrete);
-  height: 96px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a13navigateupbutton .x1-3-navigate-up-bu-C61RwL {
   background-color: transparent;
   height: auto;
@@ -2051,43 +2003,35 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
 .font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
-.font-class-5 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
-.font-class-6 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 500;
-}
-.font-class-7 {
-  color: rgba(37,37,37,1.0);
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 300;
-}
-.font-class-8 {
+.font-class-5 {
   color: var(--black);
   font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
   font-size: 70px;
   line-height: 84px;
 }
-.font-class-9 {
+.font-class-6 {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
   letter-spacing: 0.30px;
   line-height: 18px;
 }
+.font-class-7 {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
   --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
-  --concrete: rgba(242,242,242,1.0);
   --ebb: rgba(227,227,227,1.0);
+  --electric-violet: rgba(102,0,255,1.0);
   --harlequin: rgba(51,204,0,1.0);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);

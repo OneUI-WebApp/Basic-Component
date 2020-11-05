@@ -3,7 +3,6 @@
 .a154dotbadge {
   background-color: rgba(245,246,247,1.0);
   height: 3467px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
 }
@@ -271,32 +270,6 @@ transform: scale(0.98);
   position: absolute;
   top: 29px;
   width: 305px;
-}
-.a154dotbadge .four-LMmFdV {
-  background-color: transparent;
-  color: var(--gunsmoke);
-  font-size: 45px;
-  height: 66px;
-  left: 768px;
-  line-height: 66px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 186px;
-}
-.a154dotbadge .four-X4Td7E {
-  background-color: transparent;
-  color: var(--gunsmoke);
-  font-size: 15px;
-  height: 22px;
-  left: 256px;
-  line-height: 22px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 62px;
 }
 .a154dotbadge .general-9A1efW {
   background-color: transparent;
@@ -746,14 +719,6 @@ transform: scale(0.98);
   top: 0px;
   width: 269px;
 }
-.a154dotbadge .group-MPXABL {
-  background-color: transparent;
-  height: 22px;
-  left: 16px;
-  position: relative;
-  top: 17px;
-  width: 328px;
-}
 .a154dotbadge .group-Ogo5Dy {
   background-color: transparent;
   height: 22px;
@@ -777,14 +742,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 96px;
-}
-.a154dotbadge .group-iJxqpL {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
 }
 .a154dotbadge .group-iupX2u {
   background-color: transparent;
@@ -818,14 +775,6 @@ transform: scale(0.98);
   top: 0px;
   width: 90px;
 }
-.a154dotbadge .group-pWfP5f {
-  background-color: transparent;
-  height: 66px;
-  left: 48px;
-  position: relative;
-  top: 51px;
-  width: 984px;
-}
 .a154dotbadge .group-vvNctP {
   background-color: transparent;
   height: 22px;
@@ -833,14 +782,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 90px;
-}
-.a154dotbadge .group-x0Br3H {
-  background-color: transparent;
-  height: 36px;
-  left: 24px;
-  position: absolute;
-  top: 10px;
-  width: 312px;
 }
 .a154dotbadge .group-x2Iu5R {
   background-color: transparent;
@@ -1020,7 +961,7 @@ transform: scale(0.98);
 }
 .a154dotbadge .guide-meas-e-vertical-UMUoX9 {
   background-color: transparent;
-  background-image: url(../img/15-4-dot-badge-line-14D40230-7A69-4012-A222-A39DF50A1445@2x.png);
+  background-image: url(../img/15-4-dot-badge-line-C39C76B0-7484-4B54-8292-AA96BD5F4BA9@2x.png);
   background-size: 100% 100%;
   height: 21px;
   left: 0px;
@@ -1030,7 +971,7 @@ transform: scale(0.98);
 }
 .a154dotbadge .guide-meas-e-vertical-WbDcSf {
   background-color: transparent;
-  background-image: url(../img/15-4-dot-badge-line-14D40230-7A69-4012-A222-A39DF50A1445@2x.png);
+  background-image: url(../img/15-4-dot-badge-line-C39C76B0-7484-4B54-8292-AA96BD5F4BA9@2x.png);
   background-size: 100% 100%;
   height: 21px;
   left: 29px;
@@ -1056,7 +997,7 @@ transform: scale(0.98);
 }
 .a154dotbadge .guide-meas-horizontal-UMUoX9 {
   background-color: transparent;
-  background-image: url(../img/15-4-dot-badge-line-CE34497E-2688-44D7-B808-2B2B4537695F@2x.png);
+  background-image: url(../img/15-4-dot-badge-line-C2016A3A-B95A-4E99-BA4B-13D4C57A16D7@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 30px;
@@ -1066,7 +1007,7 @@ transform: scale(0.98);
 }
 .a154dotbadge .guide-meas-horizontal-bstjsS {
   background-color: transparent;
-  background-image: url(../img/15-4-dot-badge-line-DBF50B25-FE05-404B-A839-A8BA88A91E42.png);
+  background-image: url(../img/15-4-dot-badge-line-326FBF3F-0166-4513-926F-89593B76E9C3.png);
   background-size: 100% 100%;
   height: 1px;
   left: 127px;
@@ -1099,7 +1040,7 @@ transform: scale(0.98);
   width: 30px;
 }
 .a154dotbadge .guide-measure-area-DDsDfc {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 108px;
   left: 0px;
   position: absolute;
@@ -1131,7 +1072,7 @@ transform: scale(0.98);
   width: 30px;
 }
 .a154dotbadge .guide-measure-area-WTKSLz {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 129px;
   left: 0px;
   position: absolute;
@@ -1164,7 +1105,7 @@ transform: scale(0.98);
 }
 .a154dotbadge .guide-numb-ring-shape-3FcwGQ {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-oval-609C5CCC-C327-481E-9B3C-D64744EF5479@2x.png);
+  background-image: url(../img/15-4-dot-badge-oval-12949107-5015-46E6-8149-BD4697CDA21B@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 372px;
@@ -1174,7 +1115,7 @@ transform: scale(0.98);
 }
 .a154dotbadge .guide-numb-ring-shape-GUXlqo {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-oval-609C5CCC-C327-481E-9B3C-D64744EF5479@2x.png);
+  background-image: url(../img/15-4-dot-badge-oval-12949107-5015-46E6-8149-BD4697CDA21B@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 268px;
@@ -1184,7 +1125,7 @@ transform: scale(0.98);
 }
 .a154dotbadge .guide-numbering-icon-CEu0az {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-oval-609C5CCC-C327-481E-9B3C-D64744EF5479@2x.png);
+  background-image: url(../img/15-4-dot-badge-oval-12949107-5015-46E6-8149-BD4697CDA21B@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1194,7 +1135,7 @@ transform: scale(0.98);
 }
 .a154dotbadge .guide-numbering-icon-MDBUCN {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-oval-609C5CCC-C327-481E-9B3C-D64744EF5479@2x.png);
+  background-image: url(../img/15-4-dot-badge-oval-12949107-5015-46E6-8149-BD4697CDA21B@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1328,19 +1269,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 1240px;
 }
-.a154dotbadge .main-text-1-line-xMwQwe {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 312px;
-}
 .a154dotbadge .maintab-C61RwL {
   background-color: transparent;
   height: 988px;
@@ -1365,208 +1293,6 @@ transform: scale(0.98);
   top: 49px;
   width: 481px;
 }
-.a154dotbadge .mobile-lig--tabnormal-tsYQsh {
-  background-color: transparent;
-  height: 36px;
-  left: 128px;
-  position: absolute;
-  top: 10px;
-  width: 104px;
-}
-.a154dotbadge .mobile-lig--tabnormal-x0Br3H {
-  background-color: transparent;
-  height: 36px;
-  left: 232px;
-  position: absolute;
-  top: 10px;
-  width: 104px;
-}
-.a154dotbadge .mobile-lig--tabselect-02pxJ7 {
-  background-color: transparent;
-  height: 108px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 312px;
-}
-.a154dotbadge .mobile-lig--tabselect-x0Br3H {
-  background-color: transparent;
-  height: 36px;
-  left: 24px;
-  position: absolute;
-  top: 10px;
-  width: 104px;
-}
-.a154dotbadge .mobile-lig-basic1line-Bo9Y3Q {
-  background-color: transparent;
-  height: 21px;
-  left: 24px;
-  position: absolute;
-  top: 17px;
-  width: 312px;
-}
-.a154dotbadge .mobile-lig-btab2iteml-3QQrxY {
-  background-color: transparent;
-  height: 36px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 104px;
-}
-.a154dotbadge .mobile-lig-btab2iteml-Hy8CGr {
-  background-color: transparent;
-  height: 108px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 312px;
-}
-.a154dotbadge .mobile-lig-btab2iteml-nlBghA {
-  background-color: transparent;
-  height: 36px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 104px;
-}
-.a154dotbadge .mobile-lig-btab2iteml-tbAxxr {
-  background-color: transparent;
-  height: 36px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 104px;
-}
-.a154dotbadge .mobile-lig-dgedotcase-02pxJ7 {
-  background-color: transparent;
-  background-image: url(../img/15-4-dot-badge-bg-B1A02F54-A7FD-47CD-B1CF-21B699E684DD@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 243px;
-  position: absolute;
-  top: 27px;
-  width: 18px;
-}
-.a154dotbadge .mobile-lig-dgedotcase-Bo9Y3Q {
-  background-color: transparent;
-  background-image: url(../img/15-4-dot-badge-bg-5360C454-7308-4D1C-93A3-0B125F1BDFD5@2x.png);
-  background-size: 100% 100%;
-  height: 6px;
-  left: 328px;
-  position: absolute;
-  top: 23px;
-  width: 6px;
-}
-.a154dotbadge .mobile-lig-dgedotcase-IrAXXd {
-  background-color: transparent;
-  background-image: url(../img/15-4-dot-badge-bg-5360C454-7308-4D1C-93A3-0B125F1BDFD5@2x.png);
-  background-size: 100% 100%;
-  height: 6px;
-  left: 330px;
-  position: absolute;
-  top: 13px;
-  width: 6px;
-}
-.a154dotbadge .mobile-lig-dgedotcase-Q6l6do {
-  background-color: transparent;
-  background-image: url(../img/15-4-dot-badge-bg-5360C454-7308-4D1C-93A3-0B125F1BDFD5@2x.png);
-  background-size: 100% 100%;
-  height: 6px;
-  left: 105px;
-  position: absolute;
-  top: 19px;
-  width: 6px;
-}
-.a154dotbadge .mobile-lig-dgedotcase-YD8Iva {
-  background-color: transparent;
-  background-image: url(../img/15-4-dot-badge-bg-5360C454-7308-4D1C-93A3-0B125F1BDFD5@2x.png);
-  background-size: 100% 100%;
-  height: 6px;
-  left: 323px;
-  position: absolute;
-  top: 19px;
-  width: 6px;
-}
-.a154dotbadge .mobile-lig-dgedotcase-YgME9w {
-  background-color: transparent;
-  background-image: url(../img/15-4-dot-badge-bg-B1A02F54-A7FD-47CD-B1CF-21B699E684DD@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 153px;
-  position: absolute;
-  top: 57px;
-  width: 18px;
-}
-.a154dotbadge .mobile-lig-intab-line-YD8Iva {
-  background-color: rgba(0,114,222,1.0);
-  border-radius: 1.2px;
-  height: 3px;
-  left: 32px;
-  position: absolute;
-  top: 40px;
-  width: 52px;
-}
-.a154dotbadge .mobile-lig-intab-line-YgME9w {
-  background-color: rgba(0,114,222,1.0);
-  border-radius: 3.8px;
-  height: 8px;
-  left: -720px;
-  position: absolute;
-  top: 121px;
-  width: 156px;
-}
-.a154dotbadge .mobile-lig-intab4item-YD8Iva {
-  background-color: rgba(242,242,242,1.0);
-  height: 60px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 360px;
-}
-.a154dotbadge .mobile-lig-intab4item-YgME9w {
-  background-color: rgba(242,242,242,1.0);
-  height: 180px;
-  left: -816px;
-  position: absolute;
-  top: 0px;
-  width: 1080px;
-}
-.a154dotbadge .mobile-lig-n1btn-back-IrAXXd {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 360px;
-}
-.a154dotbadge .mobile-lig-title-back-XjULJ9 {
-  background-color: transparent;
-  background-image: url(../img/15-4-dot-badge-mobilelightthemeicon01actionbartitleback-C77ABE62-DD26-4520-AE93-1C0BC88985CA@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a154dotbadge .mobile-lig-title-more-XjULJ9 {
-  background-color: transparent;
-  background-image: url(../img/15-4-dot-badge-mobilelightthemeicon01actionbartitlemore-26BD57AA-9F75-463F-9479-C6F69F28B4BE@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a154dotbadge .mobile-lig-ubtab3item-Q6l6do {
-  background-color: rgba(242,242,242,1.0);
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 360px;
-}
 .a154dotbadge .n-ubc43uc9-c5d0-ud55c-BfxrgE {
   background-color: transparent;
   color: var(--black);
@@ -1580,32 +1306,6 @@ transform: scale(0.98);
   top: 36px;
   white-space: nowrap;
   width: 1240px;
-}
-.a154dotbadge .noone-LMmFdV {
-  background-color: transparent;
-  color: rgba(0,114,222,1.0);
-  font-size: 45px;
-  height: 66px;
-  left: 30px;
-  line-height: 66px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 186px;
-}
-.a154dotbadge .noone-X4Td7E {
-  background-color: transparent;
-  color: rgba(0,114,222,1.0);
-  font-size: 15px;
-  height: 22px;
-  left: 10px;
-  line-height: 22px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 62px;
 }
 .a154dotbadge .page-name-TpxkGy {
   background-color: transparent;
@@ -1976,41 +1676,6 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a154dotbadge .round-O9edm1 {
-  background-color: transparent;
-  border: 3px solid rgba(113,113,113,1.0);
-  border-radius: 54px;
-  height: 108px;
-  left: 0px;
-  opacity: 0.8;
-  position: absolute;
-  top: 0px;
-  width: 312px;
-}
-.a154dotbadge .round-sydjfd {
-  background-color: transparent;
-  border: 1px solid rgba(113,113,113,1.0);
-  border-radius: 18px;
-  height: 36px;
-  left: 0px;
-  opacity: 0.8;
-  position: absolute;
-  top: 0px;
-  width: 104px;
-}
-.a154dotbadge .sample-title-XjULJ9 {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: auto;
-}
 .a154dotbadge .shape-5rg0cA {
   background-color: transparent;
   height: 277px;
@@ -2097,6 +1762,8 @@ transform: scale(0.98);
 }
 .a154dotbadge .symbol-BOm5x4 {
   background-color: transparent;
+  background-image: url(../img/15-4-dot-badge-15-04measurew360mpl154dotbadge1-5220DAB9-4B22-4A8C-BF10-3610E5F576F4@2x.png);
+  background-size: 100% 100%;
   height: 180px;
   left: 226px;
   position: absolute;
@@ -2105,6 +1772,8 @@ transform: scale(0.98);
 }
 .a154dotbadge .symbol-w6VGCy {
   background-color: transparent;
+  background-image: url(../img/15-4-dot-badge-15-04measurew360mpl154dotbadge2-2383C05A-9407-4CD4-96CC-B4EAAC6D0200@2x.png);
+  background-size: 100% 100%;
   height: 108px;
   left: 202px;
   position: absolute;
@@ -2177,19 +1846,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 218px;
 }
-.a154dotbadge .text-6R00do {
-  background-color: transparent;
-  color: var(--gunsmoke);
-  font-size: 15px;
-  height: 22px;
-  left: 12px;
-  line-height: 22px;
-  position: absolute;
-  text-align: center;
-  top: 7px;
-  white-space: nowrap;
-  width: 80px;
-}
 .a154dotbadge .text-GUXlqo {
   background-color: transparent;
   height: 67px;
@@ -2211,19 +1867,6 @@ transform: scale(0.98);
   top: 12px;
   white-space: nowrap;
   width: 218px;
-}
-.a154dotbadge .text-O9edm1 {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 45px;
-  height: 66px;
-  left: 36px;
-  line-height: 66px;
-  position: absolute;
-  text-align: center;
-  top: 21px;
-  white-space: nowrap;
-  width: 240px;
 }
 .a154dotbadge .text-WvbxKh {
   background-color: transparent;
@@ -2251,92 +1894,6 @@ transform: scale(0.98);
   top: 12px;
   white-space: nowrap;
   width: 218px;
-}
-.a154dotbadge .text-npc2yT {
-  background-color: transparent;
-  color: var(--gunsmoke);
-  font-size: 15px;
-  height: 22px;
-  left: 12px;
-  line-height: 22px;
-  position: absolute;
-  text-align: center;
-  top: 7px;
-  white-space: nowrap;
-  width: 80px;
-}
-.a154dotbadge .text-sydjfd {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 15px;
-  height: 22px;
-  left: 12px;
-  line-height: 22px;
-  position: absolute;
-  text-align: center;
-  top: 7px;
-  white-space: nowrap;
-  width: 80px;
-}
-.a154dotbadge .three-LMmFdV {
-  background-color: transparent;
-  color: var(--gunsmoke);
-  font-size: 45px;
-  height: 66px;
-  left: 522px;
-  line-height: 66px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 186px;
-}
-.a154dotbadge .three-X4Td7E {
-  background-color: transparent;
-  color: var(--gunsmoke);
-  font-size: 15px;
-  height: 22px;
-  left: 174px;
-  line-height: 22px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 62px;
-}
-.a154dotbadge .title-6etxLx {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 312px;
-}
-.a154dotbadge .two-LMmFdV {
-  background-color: transparent;
-  color: var(--gunsmoke);
-  font-size: 45px;
-  height: 66px;
-  left: 276px;
-  line-height: 66px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 186px;
-}
-.a154dotbadge .two-X4Td7E {
-  background-color: transparent;
-  color: var(--gunsmoke);
-  font-size: 15px;
-  height: 22px;
-  left: 92px;
-  line-height: 22px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 62px;
 }
 .a154dotbadge .ud574ub2f9-b85c-uc0ac-sDxc4B {
   background-color: transparent;
@@ -2996,7 +2553,7 @@ transform: scale(0.98);
   width: 240px;
 }
 .a154dotbadge .x15-04-meas-badgedont1-y8OoE0 {
-  background-color: rgba(242,242,242,1.0);
+  background-color: transparent;
   height: 64px;
   left: 520px;
   position: absolute;
@@ -3004,32 +2561,15 @@ transform: scale(0.98);
   width: 360px;
 }
 .a154dotbadge .x15-04-meas-badgedont2-y8OoE0 {
-  background-color: rgba(242,242,242,1.0);
+  background-color: transparent;
   height: 56px;
   left: 520px;
   position: absolute;
   top: 196px;
   width: 360px;
 }
-.a154dotbadge .x15-04-meas-dot-badge1-cP2f2Z {
-  background-color: transparent;
-  height: 180px;
-  left: 0px;
-  overflow: hidden;
-  position: relative;
-  top: 0px;
-  width: 264px;
-}
-.a154dotbadge .x15-04-meas-dot-badge2-xP4P3Q {
-  background-color: transparent;
-  height: 108px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 312px;
-}
 .a154dotbadge .x15-04-meas-t-badgedo1-xLPU5A {
-  background-color: rgba(242,242,242,1.0);
+  background-color: transparent;
   height: 56px;
   left: 516px;
   position: absolute;
@@ -3037,7 +2577,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a154dotbadge .x15-04-meas-t-badgedo2-xLPU5A {
-  background-color: rgba(242,242,242,1.0);
+  background-color: transparent;
   height: 60px;
   left: 516px;
   position: absolute;
@@ -3219,25 +2759,15 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
 .font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
-.font-class-5 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
-.font-class-6 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 500;
-}
-.font-class-7 {
+.font-class-5 {
   color: var(--black);
   font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
   font-size: 70px;
   line-height: 84px;
 }
-.font-class-8 {
+.font-class-6 {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
@@ -3246,9 +2776,9 @@ transform: scale(0.98);
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
   --ebb: rgba(227,227,227,1.0);
-  --gunsmoke: rgba(133,133,133,1.0);
   --harlequin: rgba(51,204,0,1.0);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);

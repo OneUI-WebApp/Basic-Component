@@ -3,43 +3,8 @@
 .a412progressbardialog {
   background-color: rgba(245,246,247,1.0);
   height: 1840px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
-}
-.a412progressbardialog .action-25WkXo {
-  background-color: transparent;
-  color: var(--science-blue);
-  font-size: 16px;
-  height: 36px;
-  left: 0px;
-  line-height: 36px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 156px;
-}
-.a412progressbardialog .action-brsSWU {
-  background-color: transparent;
-  color: var(--science-blue);
-  font-size: 16px;
-  height: 36px;
-  left: 0px;
-  line-height: 36px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 156px;
-}
-.a412progressbardialog .actionbutton-xSaDTD {
-  background-color: transparent;
-  height: 36px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 313px;
 }
 .a412progressbardialog .area-NuxQ8x {
   background-color: transparent;
@@ -64,16 +29,6 @@
   position: absolute;
   top: 70px;
   width: 208px;
-}
-.a412progressbardialog .bar-0UEYiC {
-  background-color: rgba(3,129,254,1.0);
-  border-radius: 1.5px;
-  height: 3px;
-  left: 0px;
-  opacity: 0.3;
-  position: relative;
-  top: 0px;
-  width: 312px;
 }
 .a412progressbardialog .basic-8toWLI {
   background-color: transparent;
@@ -149,27 +104,6 @@ transform: scale(0.98);
   top: 322px;
   width: 465px;
 }
-.a412progressbardialog .dialog-header-lKacnV {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 20px;
-  height: 24px;
-  left: 0px;
-  line-height: 24px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 312px;
-}
-.a412progressbardialog .divider-BYNxX7 {
-  background-color: rgba(230,230,230,1.0);
-  height: 16px;
-  left: 155px;
-  position: absolute;
-  top: 10px;
-  width: 1px;
-}
 .a412progressbardialog .document-b-x-contents-V6KZ2v {
   background-color: var(--white);
   border: 1px solid var(--ebb);
@@ -213,19 +147,6 @@ transform: scale(0.98);
   position: absolute;
   top: 1715px;
   width: 274px;
-}
-.a412progressbardialog .filenamejpg-UDpYGf {
-  background-color: transparent;
-  color: rgba(80,80,80,1.0);
-  font-size: 14px;
-  height: 19px;
-  left: 24px;
-  line-height: 19px;
-  position: absolute;
-  text-align: left;
-  top: 69px;
-  white-space: nowrap;
-  width: 312px;
 }
 .a412progressbardialog .general-cSH55r {
   background-color: transparent;
@@ -1276,7 +1197,7 @@ transform: scale(0.98);
   width: 312px;
 }
 .a412progressbardialog .guide-measure-area-6hVEMs {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 113px;
   left: 0px;
   position: absolute;
@@ -1284,7 +1205,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a412progressbardialog .guide-measure-area-L2rExV {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 113px;
   left: 0px;
   position: absolute;
@@ -1308,7 +1229,7 @@ transform: scale(0.98);
   width: 146px;
 }
 .a412progressbardialog .guide-measure-area-cWM2Qo {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 19px;
   left: 0px;
   position: absolute;
@@ -1324,7 +1245,7 @@ transform: scale(0.98);
   width: 312px;
 }
 .a412progressbardialog .guide-measure-area-mPttvz {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 24px;
   left: 0px;
   position: absolute;
@@ -1333,7 +1254,7 @@ transform: scale(0.98);
 }
 .a412progressbardialog .guide-numbering-type-NuxQ8x {
   background-color: transparent;
-  background-image: url(../img/4-13-date-picker-dialog-1-oval-9E5DF5B4-C078-4086-83E6-DCBC0B080215@2x.png);
+  background-image: url(../img/4-19-edit-dialog-oval-316693F3-D692-46D6-9431-EB2E21CDB183@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 84px;
@@ -1343,7 +1264,7 @@ transform: scale(0.98);
 }
 .a412progressbardialog .guide-numbering-type-XycoYw {
   background-color: transparent;
-  background-image: url(../img/4-13-date-picker-dialog-1-oval-9E5DF5B4-C078-4086-83E6-DCBC0B080215@2x.png);
+  background-image: url(../img/4-19-edit-dialog-oval-316693F3-D692-46D6-9431-EB2E21CDB183@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1353,7 +1274,7 @@ transform: scale(0.98);
 }
 .a412progressbardialog .guide-numbering-type-buHCUR {
   background-color: transparent;
-  background-image: url(../img/4-13-date-picker-dialog-1-oval-9E5DF5B4-C078-4086-83E6-DCBC0B080215@2x.png);
+  background-image: url(../img/4-19-edit-dialog-oval-316693F3-D692-46D6-9431-EB2E21CDB183@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 324px;
@@ -1363,7 +1284,7 @@ transform: scale(0.98);
 }
 .a412progressbardialog .guide-numbering-type-nTCXNs {
   background-color: transparent;
-  background-image: url(../img/4-13-date-picker-dialog-1-oval-9E5DF5B4-C078-4086-83E6-DCBC0B080215@2x.png);
+  background-image: url(../img/4-19-edit-dialog-oval-316693F3-D692-46D6-9431-EB2E21CDB183@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1373,7 +1294,7 @@ transform: scale(0.98);
 }
 .a412progressbardialog .guide-numbering-type-up0Klm {
   background-color: transparent;
-  background-image: url(../img/4-13-date-picker-dialog-1-oval-9E5DF5B4-C078-4086-83E6-DCBC0B080215@2x.png);
+  background-image: url(../img/4-19-edit-dialog-oval-316693F3-D692-46D6-9431-EB2E21CDB183@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 143px;
@@ -1471,80 +1392,6 @@ transform: scale(0.98);
   top: 339px;
   width: 497px;
 }
-.a412progressbardialog .mobile-lig-button1btn-BYNxX7 {
-  background-color: transparent;
-  height: 36px;
-  left: 156px;
-  position: absolute;
-  top: 0px;
-  width: 156px;
-}
-.a412progressbardialog .mobile-lig-button1btn-ZezevR {
-  background-color: transparent;
-  height: 36px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 156px;
-}
-.a412progressbardialog .mobile-lig-button2btn-UDpYGf {
-  background-color: transparent;
-  height: 36px;
-  left: 24px;
-  position: absolute;
-  top: 163px;
-  width: 313px;
-}
-.a412progressbardialog .mobile-lig-mmon-dimbg-iv463e {
-  background-color: rgba(0,0,0,0.35);
-  height: 219px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 360px;
-}
-.a412progressbardialog .mobile-lig-mon-header-UDpYGf {
-  background-color: transparent;
-  height: 24px;
-  left: 24px;
-  position: absolute;
-  top: 26px;
-  width: 312px;
-}
-.a412progressbardialog .mobile-lig-n-dialogbg-UDpYGf {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 26px;
-  height: 219px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 360px;
-}
-.a412progressbardialog .mobile-lig-ogress-bar-RE9hk6 {
-  background-color: rgba(3,129,254,1.0);
-  border-radius: 1.5px;
-  height: 3px;
-  left: 0px;
-  position: absolute;
-  top: 14px;
-  width: 100px;
-}
-.a412progressbardialog .mobile-lig-ress-barbg-RE9hk6 {
-  background-color: transparent;
-  height: 4px;
-  left: 0px;
-  position: absolute;
-  top: 14px;
-  width: 312px;
-}
-.a412progressbardialog .mobile-lig-s-progress-iv463e {
-  background-color: transparent;
-  height: 219px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 360px;
-}
 .a412progressbardialog .page-name-8toWLI {
   background-color: transparent;
   color: var(--white);
@@ -1557,14 +1404,6 @@ transform: scale(0.98);
   top: 6px;
   white-space: nowrap;
   width: auto;
-}
-.a412progressbardialog .progress-UDpYGf {
-  background-color: transparent;
-  height: 32px;
-  left: 24px;
-  position: absolute;
-  top: 88px;
-  width: 312px;
 }
 .a412progressbardialog .property-0o8Dhi {
   background-color: transparent;
@@ -3036,32 +2875,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.a412progressbardialog .x20-UDpYGf {
-  background-color: transparent;
-  color: rgba(80,80,80,1.0);
-  font-size: 14px;
-  height: 19px;
-  left: 188px;
-  line-height: 19px;
-  position: absolute;
-  text-align: right;
-  top: 120px;
-  white-space: nowrap;
-  width: 146px;
-}
-.a412progressbardialog .x21-UDpYGf {
-  background-color: transparent;
-  color: rgba(80,80,80,1.0);
-  font-size: 14px;
-  height: 19px;
-  left: 24px;
-  line-height: 19px;
-  position: absolute;
-  text-align: left;
-  top: 120px;
-  white-space: nowrap;
-  width: 146px;
-}
 .a412progressbardialog .x3-controllers-XGvGsa {
   background-color: transparent;
   color: var(--black);
@@ -3093,10 +2906,10 @@ transform: scale(0.98);
   width: 240px;
 }
 .a412progressbardialog .x4-12-measu-sbardialog-xGxFZW {
-  background-color: rgba(242,242,242,1.0);
+  background-color: transparent;
   height: 219px;
   left: 1px;
-  position: relative;
+  position: absolute;
   top: 0px;
   width: 360px;
 }
@@ -3208,43 +3021,43 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
 }
 .font-class-3 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
 .font-class-4 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
 .font-class-5 {
   font-family: 'Roboto', Helvetica, Arial, serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 .font-class-6 {
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-}
-.font-class-7 {
   color: var(--black);
   font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
   font-size: 70px;
   line-height: 84px;
 }
-.font-class-8 {
+.font-class-7 {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
   letter-spacing: 0.30px;
   line-height: 18px;
 }
+.font-class-8 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
+}
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
   --ebb: rgba(227,227,227,1.0);
   --harlequin: rgba(51,204,0,1.0);
+  --harlequin-2: rgba(51,204,0,0.37);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --royal-blue: rgba(75,99,250,1.0);
-  --science-blue: rgba(0,114,222,1.0);
-  --tundora: rgba(69,69,69,1.0);
   --white: rgba(255,255,255,1.0);
 }

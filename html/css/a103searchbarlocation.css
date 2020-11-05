@@ -3,7 +3,6 @@
 .a103searchbarlocation {
   background-color: rgba(245,246,247,1.0);
   height: 4009px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
 }
@@ -151,14 +150,6 @@ transform: scale(0.98);
 .a103searchbarlocation .btn-wR6GPx:hover {
 
 transform: scale(0.98);
-}
-.a103searchbarlocation .cursor-xOiXX6 {
-  background-color: rgba(3,129,254,1.0);
-  height: 39px;
-  left: 0px;
-  position: relative;
-  top: 1px;
-  width: 3px;
 }
 .a103searchbarlocation .dark-theme-LSTiO8 {
   background-color: transparent;
@@ -800,14 +791,6 @@ transform: scale(0.98);
   top: 0px;
   width: 33px;
 }
-.a103searchbarlocation .group-D8VT0A {
-  background-color: transparent;
-  height: 84px;
-  left: 51px;
-  position: absolute;
-  top: 0px;
-  width: 129px;
-}
 .a103searchbarlocation .group-IP1Yy1 {
   background-color: transparent;
   height: 22px;
@@ -815,15 +798,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 178px;
-}
-.a103searchbarlocation .group-JRNb6h {
-  background-color: rgba(0,0,0,0.05);
-  border-radius: 33px;
-  height: 66px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 450px;
 }
 .a103searchbarlocation .group-NiX03x {
   background-color: transparent;
@@ -834,22 +808,12 @@ transform: scale(0.98);
   width: 260px;
 }
 .a103searchbarlocation .group-SER5r9 {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 31px;
   position: absolute;
   top: 0px;
   width: 75px;
-}
-.a103searchbarlocation .group-VA99hY {
-  background-color: rgba(240,240,240,1.0);
-  border-radius: 16px;
-  height: 414px;
-  left: 0px;
-  overflow: hidden;
-  position: absolute;
-  top: 98px;
-  width: 360px;
 }
 .a103searchbarlocation .group-XFINUu {
   background-color: transparent;
@@ -858,14 +822,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 178px;
-}
-.a103searchbarlocation .group-amgrqG {
-  background-color: transparent;
-  height: 56px;
-  left: 34px;
-  position: absolute;
-  top: 0px;
-  width: 86px;
 }
 .a103searchbarlocation .group-jgBoVC {
   background-color: transparent;
@@ -891,25 +847,6 @@ transform: scale(0.98);
   top: 0px;
   width: 61px;
 }
-.a103searchbarlocation .group-ltvdT8 {
-  background-color: rgba(240,240,240,1.0);
-  border-radius: 16px;
-  height: 414px;
-  left: 0px;
-  overflow: hidden;
-  position: absolute;
-  top: 98px;
-  width: 360px;
-}
-.a103searchbarlocation .group-mAxrWP {
-  background-color: rgba(0,0,0,0.05);
-  border-radius: 22px;
-  height: 44px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 300px;
-}
 .a103searchbarlocation .group-xmh0j0 {
   background-color: transparent;
   height: 22px;
@@ -919,7 +856,7 @@ transform: scale(0.98);
   width: 106px;
 }
 .a103searchbarlocation .group-zLwpvU {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 63px;
   position: absolute;
@@ -1277,7 +1214,7 @@ transform: scale(0.98);
   width: 2px;
 }
 .a103searchbarlocation .guide-measure-area-Ietxnx {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1285,7 +1222,7 @@ transform: scale(0.98);
   width: 30px;
 }
 .a103searchbarlocation .guide-measure-area-IipfT2 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1301,7 +1238,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a103searchbarlocation .guide-measure-area-Jasxee {
-  background-color: var(--razzle-dazzle-rose-2);
+  background-color: rgba(255,51,255,0.37);
   height: 36px;
   left: 83px;
   position: absolute;
@@ -1317,7 +1254,7 @@ transform: scale(0.98);
   width: 30px;
 }
 .a103searchbarlocation .guide-measure-area-SGcGEx {
-  background-color: var(--razzle-dazzle-rose-2);
+  background-color: rgba(255,51,255,0.37);
   height: 56px;
   left: 0px;
   position: absolute;
@@ -1333,7 +1270,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a103searchbarlocation .guide-measure-area-egDmJF {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1349,7 +1286,7 @@ transform: scale(0.98);
   width: 23px;
 }
 .a103searchbarlocation .guide-measure-area-mSkwxz {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1357,7 +1294,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a103searchbarlocation .guide-measure-area-mbExWU {
-  background-color: var(--razzle-dazzle-rose-2);
+  background-color: rgba(255,51,255,0.37);
   height: 36px;
   left: 1px;
   position: absolute;
@@ -1365,7 +1302,7 @@ transform: scale(0.98);
   width: 36px;
 }
 .a103searchbarlocation .guide-measure-area-qdMvzg {
-  background-color: var(--razzle-dazzle-rose-2);
+  background-color: rgba(255,51,255,0.37);
   height: 36px;
   left: 0px;
   position: absolute;
@@ -1373,7 +1310,7 @@ transform: scale(0.98);
   width: 36px;
 }
 .a103searchbarlocation .guide-measure-area-rRmYyz {
-  background-color: var(--razzle-dazzle-rose-2);
+  background-color: rgba(255,51,255,0.37);
   height: 56px;
   left: 0px;
   position: absolute;
@@ -1381,7 +1318,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a103searchbarlocation .guide-measure-area-xnqdB4 {
-  background-color: var(--razzle-dazzle-rose-2);
+  background-color: rgba(255,51,255,0.37);
   height: 36px;
   left: 0px;
   position: absolute;
@@ -1390,7 +1327,7 @@ transform: scale(0.98);
 }
 .a103searchbarlocation .guide-numb-ring-image-8mfyRx {
   background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-oval-FEAFEF0C-9E49-4F14-A68D-38FFA58757E8@2x.png);
+  background-image: url(../img/10-3-search-barlocation-oval-C7020F9C-6233-4D4E-B223-23B20F44B8F2@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 411px;
@@ -1400,7 +1337,7 @@ transform: scale(0.98);
 }
 .a103searchbarlocation .guide-numb-ring-image-sdE9Pp {
   background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-oval-FEAFEF0C-9E49-4F14-A68D-38FFA58757E8@2x.png);
+  background-image: url(../img/10-3-search-barlocation-oval-C7020F9C-6233-4D4E-B223-23B20F44B8F2@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 501px;
@@ -1410,7 +1347,7 @@ transform: scale(0.98);
 }
 .a103searchbarlocation .guide-numb-ring-shape-3hlTfR {
   background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-oval-5CECABA7-4B4E-46E0-9727-F1DDA3F9192E@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-205A1E97-214F-4F84-AA95-43181FD732B2@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 466px;
@@ -1420,7 +1357,7 @@ transform: scale(0.98);
 }
 .a103searchbarlocation .guide-numbering-icon-UZ8PK8 {
   background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-oval-FEAFEF0C-9E49-4F14-A68D-38FFA58757E8@2x.png);
+  background-image: url(../img/10-3-search-barlocation-oval-C7020F9C-6233-4D4E-B223-23B20F44B8F2@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1430,7 +1367,7 @@ transform: scale(0.98);
 }
 .a103searchbarlocation .guide-numbering-icon-ndWW46 {
   background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-oval-5CECABA7-4B4E-46E0-9727-F1DDA3F9192E@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-205A1E97-214F-4F84-AA95-43181FD732B2@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1552,40 +1489,6 @@ transform: scale(0.98);
   top: 0px;
   width: 88px;
 }
-.a103searchbarlocation .map-co9Elm {
-  background-color: transparent;
-  height: 1074px;
-  left: -225px;
-  position: absolute;
-  top: -490px;
-  width: 1059px;
-}
-.a103searchbarlocation .map-zmPhc2 {
-  background-color: transparent;
-  height: 1073px;
-  left: -220px;
-  position: absolute;
-  top: -492px;
-  width: 1058px;
-}
-.a103searchbarlocation .mask-co9Elm {
-  background-color: rgba(240,240,240,1.0);
-  border-radius: 16px;
-  height: 414px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 360px;
-}
-.a103searchbarlocation .mask-zmPhc2 {
-  background-color: rgba(240,240,240,1.0);
-  border-radius: 16px;
-  height: 414px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 360px;
-}
 .a103searchbarlocation .measure-6kWo3V {
   background-color: transparent;
   height: 160px;
@@ -1618,65 +1521,9 @@ transform: scale(0.98);
   top: 158px;
   width: 616px;
 }
-.a103searchbarlocation .mobile-dar-rch-cursor-SPoBDu {
-  background-color: rgba(3,129,254,1.0);
-  height: 26px;
-  left: 84px;
-  position: absolute;
-  top: 15px;
-  width: 2px;
-}
-.a103searchbarlocation .mobile-dar-rch-cursor-pFeAIW {
-  background-color: transparent;
-  height: 40px;
-  left: 126px;
-  position: absolute;
-  top: 22px;
-  width: 3px;
-}
-.a103searchbarlocation .mobile-lig--indicator-VA99hY {
-  background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-wifi-1F899CFB-0D18-427A-8D29-BD5A1278A096@2x.png);
-  background-size: 100% 100%;
-  height: 10px;
-  left: 24px;
-  position: absolute;
-  top: 7px;
-  width: 13px;
-}
-.a103searchbarlocation .mobile-lig--indicator-ltvdT8 {
-  background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-wifi-1F899CFB-0D18-427A-8D29-BD5A1278A096@2x.png);
-  background-size: 100% 100%;
-  height: 10px;
-  left: 24px;
-  position: absolute;
-  top: 7px;
-  width: 13px;
-}
-.a103searchbarlocation .mobile-lig-arch-close-D8VT0A {
-  background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-mobilelightthemeicon10searchsearchclose-C51AEBB4-5CF5-4B10-A6A1-B9BB3BFCA56C@2x.png);
-  background-size: 100% 100%;
-  height: 22px;
-  left: 360px;
-  position: absolute;
-  top: 31px;
-  width: 22px;
-}
-.a103searchbarlocation .mobile-lig-arch-close-amgrqG {
-  background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-mobilelightthemeicon10searchsearchclose-CD03B8CF-4F04-4B05-89A4-637B3A000A0F@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 239px;
-  position: absolute;
-  top: 20px;
-  width: 16px;
-}
 .a103searchbarlocation .mobile-lig-arch-voice-9Pamqf {
   background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-mobilelightthemeicon10searchsearchvoice-EB170362-839A-4FA9-8231-BE892499C5A8@2x.png);
+  background-image: url(../img/10-3-search-barlocation-mobilelightthemeicon10searchsearchvoice-9D584FCB-07FB-4646-87C1-8D2D285DF8DB@2x.png);
   background-size: 100% 100%;
   height: 40px;
   left: 9px;
@@ -1684,143 +1531,15 @@ transform: scale(0.98);
   top: 4px;
   width: 30px;
 }
-.a103searchbarlocation .mobile-lig-arch-voice-c3XHNw {
-  background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-mobilelightthemeicon10searchsearchvoice-EA3B3359-A64C-411F-BF84-37CB071B00DE@2x.png);
-  background-size: 100% 100%;
-  height: 30px;
-  left: 391px;
-  position: absolute;
-  top: 18px;
-  width: 22px;
-}
-.a103searchbarlocation .mobile-lig-arch-voice-sbmyC4 {
-  background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-mobilelightthemeicon10searchsearchvoice-95729952-7330-40C5-8ECC-49A7AE9BA020@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 260px;
-  position: absolute;
-  top: 12px;
-  width: 16px;
-}
-.a103searchbarlocation .mobile-lig-bardivider-D8VT0A {
-  background-color: rgba(212,212,212,1.0);
-  height: 30px;
-  left: 411px;
-  position: absolute;
-  top: 27px;
-  width: 2px;
-}
-.a103searchbarlocation .mobile-lig-bardivider-amgrqG {
-  background-color: rgba(212,212,212,1.0);
-  height: 20px;
-  left: 274px;
-  position: absolute;
-  top: 18px;
-  width: 1px;
-}
-.a103searchbarlocation .mobile-lig-ch-bar-map-26lGI4 {
-  background-color: transparent;
-  height: 66px;
-  left: 0px;
-  position: relative;
-  top: 9px;
-  width: 507px;
-}
-.a103searchbarlocation .mobile-lig-ch-bar-map-VA99hY {
-  background-color: transparent;
-  height: 44px;
-  left: 0px;
-  position: absolute;
-  top: 30px;
-  width: 338px;
-}
 .a103searchbarlocation .mobile-lig-chlocation-3u6XXY {
   background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-mobilelightthemeicon10searchsearchlocation-57D451A5-DD37-4335-BD9A-2640A239EDE3@2x.png);
+  background-image: url(../img/10-3-search-barlocation-mobilelightthemeicon10searchsearchlocation-1E27D591-A246-439C-8E29-8B64C502DBAD@2x.png);
   background-size: 100% 100%;
   height: 40px;
   left: 4px;
   position: absolute;
   top: 4px;
   width: 40px;
-}
-.a103searchbarlocation .mobile-lig-chlocation-D8VT0A {
-  background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-mobilelightthemeicon10searchsearchlocation-87EF5355-6E9A-418B-B4FD-6E9C622688A7@2x.png);
-  background-size: 100% 100%;
-  height: 30px;
-  left: 438px;
-  position: absolute;
-  top: 27px;
-  width: 30px;
-}
-.a103searchbarlocation .mobile-lig-chlocation-JRNb6h {
-  background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-mobilelightthemeicon10searchsearchlocation-87EF5355-6E9A-418B-B4FD-6E9C622688A7@2x.png);
-  background-size: 100% 100%;
-  height: 30px;
-  left: 477px;
-  position: absolute;
-  top: 18px;
-  width: 30px;
-}
-.a103searchbarlocation .mobile-lig-chlocation-amgrqG {
-  background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-mobilelightthemeicon10searchsearchlocation-95E97CB1-7C81-4468-8937-9A8DC65DF840@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 292px;
-  position: absolute;
-  top: 18px;
-  width: 20px;
-}
-.a103searchbarlocation .mobile-lig-chlocation-mAxrWP {
-  background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-mobilelightthemeicon10searchsearchlocation-95E97CB1-7C81-4468-8937-9A8DC65DF840@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 318px;
-  position: absolute;
-  top: 12px;
-  width: 20px;
-}
-.a103searchbarlocation .mobile-lig-earch-back-D8VT0A {
-  background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-mobilelightthemeicon10searchsearchback-7F98C167-8389-435D-9D6D-1FCADCF56D8B@2x.png);
-  background-size: 100% 100%;
-  height: 28px;
-  left: 0px;
-  position: absolute;
-  top: 28px;
-  width: 15px;
-}
-.a103searchbarlocation .mobile-lig-earch-back-amgrqG {
-  background-color: transparent;
-  background-image: url(../img/10-3-search-barlocation-mobilelightthemeicon10searchsearchback-71F56102-CC28-4834-A1AC-E6BDA35C261E@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 0px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a103searchbarlocation .mobile-lig-map-typing-ltvdT8 {
-  background-color: transparent;
-  height: 56px;
-  left: 26px;
-  position: absolute;
-  top: 24px;
-  width: 312px;
-}
-.a103searchbarlocation .mobile-lig-map-typing-lxZDez {
-  background-color: transparent;
-  height: 84px;
-  left: 39px;
-  position: relative;
-  top: 0px;
-  width: 468px;
 }
 .a103searchbarlocation .page-name-C8WY3a {
   background-color: transparent;
@@ -2050,7 +1769,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a103searchbarlocation .rectangle-7jQ30o {
-  background-color: rgba(51,204,0,1.0);
+  background-color: var(--harlequin);
   height: 1px;
   left: 2px;
   position: absolute;
@@ -2058,7 +1777,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a103searchbarlocation .rectangle-9RPPaA {
-  background-color: rgba(51,204,0,1.0);
+  background-color: var(--harlequin);
   height: 1px;
   left: 2px;
   position: absolute;
@@ -2066,7 +1785,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a103searchbarlocation .rectangle-DJxtqN {
-  background-color: rgba(51,204,0,1.0);
+  background-color: var(--harlequin);
   height: 1px;
   left: 2px;
   position: absolute;
@@ -2122,7 +1841,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a103searchbarlocation .rectangle-HkA2XN {
-  background-color: var(--electric-violet);
+  background-color: rgba(102,0,255,1.0);
   height: 9px;
   left: 0px;
   position: absolute;
@@ -2138,7 +1857,7 @@ transform: scale(0.98);
   width: 23px;
 }
 .a103searchbarlocation .rectangle-Nj7ovE {
-  background-color: var(--electric-violet);
+  background-color: rgba(102,0,255,1.0);
   height: 9px;
   left: 21px;
   position: absolute;
@@ -2146,7 +1865,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a103searchbarlocation .rectangle-OO9ZHf {
-  background-color: var(--electric-violet);
+  background-color: rgba(102,0,255,1.0);
   height: 9px;
   left: 29px;
   position: absolute;
@@ -2186,7 +1905,7 @@ transform: scale(0.98);
   width: 3px;
 }
 .a103searchbarlocation .rectangle-S8eGBx {
-  background-color: var(--electric-violet);
+  background-color: rgba(102,0,255,1.0);
   height: 9px;
   left: 0px;
   position: absolute;
@@ -2194,7 +1913,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a103searchbarlocation .rectangle-SAlxWo {
-  background-color: var(--electric-violet);
+  background-color: rgba(102,0,255,1.0);
   height: 1px;
   left: 0px;
   position: absolute;
@@ -2242,7 +1961,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a103searchbarlocation .rectangle-YECIdy {
-  background-color: rgba(51,204,0,1.0);
+  background-color: var(--harlequin);
   height: 18px;
   left: 6px;
   position: absolute;
@@ -2290,7 +2009,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a103searchbarlocation .rectangle-hzy7Vm {
-  background-color: var(--electric-violet);
+  background-color: rgba(102,0,255,1.0);
   height: 1px;
   left: 0px;
   position: absolute;
@@ -2346,7 +2065,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a103searchbarlocation .rectangle-lYqLeb {
-  background-color: rgba(51,204,0,1.0);
+  background-color: var(--harlequin);
   height: 18px;
   left: 6px;
   position: absolute;
@@ -2418,7 +2137,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a103searchbarlocation .rectangle-y2ts5r {
-  background-color: rgba(51,204,0,1.0);
+  background-color: var(--harlequin);
   height: 1px;
   left: 2px;
   position: absolute;
@@ -2432,60 +2151,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 9px;
-}
-.a103searchbarlocation .samsung-SPoBDu {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 20px;
-  height: auto;
-  left: 0px;
-  line-height: 24px;
-  position: absolute;
-  text-align: left;
-  text-decoration: underline;
-  top: 16px;
-  white-space: nowrap;
-  width: auto;
-}
-.a103searchbarlocation .samsung-pFeAIW {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 30px;
-  height: auto;
-  left: 0px;
-  line-height: 35px;
-  position: absolute;
-  text-align: left;
-  text-decoration: underline;
-  top: 24px;
-  white-space: nowrap;
-  width: auto;
-}
-.a103searchbarlocation .search-c3XHNw {
-  background-color: transparent;
-  color: rgba(122,122,122,1.0);
-  font-size: 30px;
-  height: auto;
-  left: 36px;
-  line-height: 35px;
-  position: absolute;
-  text-align: left;
-  top: 15px;
-  white-space: nowrap;
-  width: auto;
-}
-.a103searchbarlocation .search-sbmyC4 {
-  background-color: transparent;
-  color: rgba(122,122,122,1.0);
-  font-size: 20px;
-  height: auto;
-  left: 24px;
-  line-height: 24px;
-  position: absolute;
-  text-align: left;
-  top: 10px;
-  white-space: nowrap;
-  width: auto;
 }
 .a103searchbarlocation .shape-9MQrGL {
   background-color: transparent;
@@ -2625,6 +2290,8 @@ transform: scale(0.98);
 }
 .a103searchbarlocation .symbol-6kWo3V {
   background-color: transparent;
+  background-image: url(../img/10-3-search-barlocation-10-03measurew360mpl103searchbarlocation22-43BDDB55-B012-43B8-B72E-9909FE6F28AA@2x.png);
+  background-size: 100% 100%;
   height: 84px;
   left: 88px;
   position: absolute;
@@ -2633,6 +2300,8 @@ transform: scale(0.98);
 }
 .a103searchbarlocation .symbol-6mupvj {
   background-color: transparent;
+  background-image: url(../img/10-3-search-barlocation-10-03measurew360mpl103searchbarlocation21-63C73E7F-CB9A-4B14-822F-37D140364F17@2x.png);
+  background-size: 100% 100%;
   height: 512px;
   left: 440px;
   position: absolute;
@@ -2641,6 +2310,8 @@ transform: scale(0.98);
 }
 .a103searchbarlocation .symbol-lhRoZk {
   background-color: transparent;
+  background-image: url(../img/10-3-search-barlocation-10-03measurew360mpl103searchbarlocation11-672E4323-9AAF-47B5-8A63-2282F2E5E613@2x.png);
+  background-size: 100% 100%;
   height: 512px;
   left: 440px;
   position: absolute;
@@ -2649,6 +2320,8 @@ transform: scale(0.98);
 }
 .a103searchbarlocation .symbol-wTgajU {
   background-color: transparent;
+  background-image: url(../img/10-3-search-barlocation-10-03measurew360mpl103searchbarlocation12-08FB35A8-4A86-429B-B167-96700311EDA7@2x.png);
+  background-size: 100% 100%;
   height: 84px;
   left: 88px;
   position: absolute;
@@ -3097,13 +2770,8 @@ transform: scale(0.98);
 }
 .a103searchbarlocation .web-app-MP1pJx {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size: 15px;
   height: auto;
   left: 0px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3648,7 +3316,7 @@ transform: scale(0.98);
   top: 84px;
   width: 48px;
 }
-.a103searchbarlocation .x10-03-keys-searchmap1-A3iw7G {
+.a103searchbarlocation .x10-03-keys--location1-A3iw7G {
   background-color: transparent;
   height: 508px;
   left: 370px;
@@ -3656,7 +3324,7 @@ transform: scale(0.98);
   top: 40px;
   width: 240px;
 }
-.a103searchbarlocation .x10-03-keys-searchmap1-c4wyyO {
+.a103searchbarlocation .x10-03-keys--location1-c4wyyO {
   background-color: transparent;
   height: 508px;
   left: 630px;
@@ -3664,7 +3332,7 @@ transform: scale(0.98);
   top: 40px;
   width: 240px;
 }
-.a103searchbarlocation .x10-03-keys-searchmap1-d1Qoyl {
+.a103searchbarlocation .x10-03-keys--location1-d1Qoyl {
   background-color: transparent;
   height: 508px;
   left: 370px;
@@ -3672,55 +3340,18 @@ transform: scale(0.98);
   top: 40px;
   width: 240px;
 }
-.a103searchbarlocation .x10-03-keys-searchmap1-jTmUc2 {
+.a103searchbarlocation .x10-03-keys--location1-jTmUc2 {
   background-color: transparent;
   height: 508px;
   left: 630px;
   position: absolute;
   top: 40px;
   width: 240px;
-}
-.a103searchbarlocation .x10-03-meas-location11-FdWlEz {
-  background-color: var(--concrete);
-  height: 512px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a103searchbarlocation .x10-03-meas-location12-J5wuvX {
-  background-color: var(--concrete);
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a103searchbarlocation .x10-03-meas-location21-1xsdWV {
-  background-color: var(--concrete);
-  height: 512px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a103searchbarlocation .x10-03-meas-location22-3Ccvaw {
-  background-color: var(--concrete);
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
 }
 .a103searchbarlocation .x10-4-search-map-C61RwL {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
   height: auto;
   left: 380px;
-  letter-spacing: 0.00px;
-  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -3952,32 +3583,46 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
+.border-class-1 {
+  border: 1px solid var(--gallery);
+}
+.border-class-2 {
+  border: 1px solid rgba(135,135,135,1.0);
+}
 .font-class-1 {
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
 }
 .font-class-2 {
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-}
-.font-class-3 {
   font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
+.font-class-3 {
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+}
 .font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
 .font-class-5 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
+  line-height: 84px;
+}
+.font-class-6 {
+  color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
-  --concrete: rgba(242,242,242,1.0);
   --ebb: rgba(227,227,227,1.0);
-  --electric-violet: rgba(102,0,255,1.0);
+  --gallery: rgba(237,237,237,1.0);
+  --harlequin: rgba(51,204,0,1.0);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);
-  --razzle-dazzle-rose-2: rgba(255,51,255,0.37);
   --royal-blue: rgba(75,99,250,1.0);
   --white: rgba(255,255,255,1.0);
 }

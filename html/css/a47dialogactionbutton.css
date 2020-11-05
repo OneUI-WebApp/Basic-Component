@@ -3,7 +3,6 @@
 .a47dialogactionbutton {
   background-color: rgba(245,246,247,1.0);
   height: 4228px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
 }
@@ -1382,7 +1381,7 @@ transform: scale(0.98);
   width: 234px;
 }
 .a47dialogactionbutton .guide-measure-area-2xHwIs {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 120px;
   left: 0px;
   position: absolute;
@@ -1438,7 +1437,7 @@ transform: scale(0.98);
   width: 233px;
 }
 .a47dialogactionbutton .guide-measure-area-JRyKXC {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 120px;
   left: 0px;
   position: absolute;
@@ -1446,7 +1445,7 @@ transform: scale(0.98);
   width: 36px;
 }
 .a47dialogactionbutton .guide-measure-area-P0hg10 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 120px;
   left: 0px;
   position: absolute;
@@ -1462,7 +1461,7 @@ transform: scale(0.98);
   width: 154px;
 }
 .a47dialogactionbutton .guide-measure-area-RJ9lCK {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 120px;
   left: 0px;
   position: absolute;
@@ -1478,7 +1477,7 @@ transform: scale(0.98);
   width: 156px;
 }
 .a47dialogactionbutton .guide-measure-area-Vifv8i {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 276px;
   left: 0px;
   position: absolute;
@@ -1502,7 +1501,7 @@ transform: scale(0.98);
   width: 468px;
 }
 .a47dialogactionbutton .guide-measure-area-dFXXXE {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 276px;
   left: 0px;
   position: absolute;
@@ -1583,7 +1582,7 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .guide-numb-ring-shape-ENevZJ {
   background-color: transparent;
-  background-image: url(../img/4-7-dialogaction-button-oval-FE524333-BB5F-4A3B-8888-8E0FCCB8D6FF@2x.png);
+  background-image: url(../img/4-3-dialogpadding-oval-04F617BD-A380-4BB4-B5A9-84F12DF48DAA@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 298px;
@@ -1593,7 +1592,7 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .guide-numbering-icon-eIfJZF {
   background-color: transparent;
-  background-image: url(../img/4-7-dialogaction-button-oval-FE524333-BB5F-4A3B-8888-8E0FCCB8D6FF@2x.png);
+  background-image: url(../img/4-3-dialogpadding-oval-04F617BD-A380-4BB4-B5A9-84F12DF48DAA@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1603,7 +1602,7 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .guide-numbering-type-ENevZJ {
   background-color: transparent;
-  background-image: url(../img/4-7-dialogaction-button-oval-6FDD70C7-4102-48BD-9B9E-CF04850C253A@2x.png);
+  background-image: url(../img/4-19-edit-dialog-oval-316693F3-D692-46D6-9431-EB2E21CDB183@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 74px;
@@ -1613,7 +1612,7 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .guide-numbering-type-yMRV6N {
   background-color: transparent;
-  background-image: url(../img/4-7-dialogaction-button-oval-6FDD70C7-4102-48BD-9B9E-CF04850C253A@2x.png);
+  background-image: url(../img/4-19-edit-dialog-oval-316693F3-D692-46D6-9431-EB2E21CDB183@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1667,8 +1666,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .history-lZqxZq {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1897,7 +1899,7 @@ transform: scale(0.98);
   width: auto;
 }
 .a47dialogactionbutton .rectangle-06dvre {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 9px;
   left: 233px;
   position: absolute;
@@ -1913,7 +1915,7 @@ transform: scale(0.98);
   width: 36px;
 }
 .a47dialogactionbutton .rectangle-16eDxA {
-  background-color: var(--purple-pizzazz);
+  background-color: rgba(255,0,204,1.0);
   height: 9px;
   left: 2px;
   position: absolute;
@@ -1929,7 +1931,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a47dialogactionbutton .rectangle-3kdcY2 {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 9px;
   left: 0px;
   position: absolute;
@@ -1993,7 +1995,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-8XLMNm {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 53px;
   left: 24px;
   position: absolute;
@@ -2001,7 +2003,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-8uH7ox {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 1px;
   left: 0px;
   position: absolute;
@@ -2025,7 +2027,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a47dialogactionbutton .rectangle-ALCe4L {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 1px;
   left: 0px;
   position: absolute;
@@ -2041,7 +2043,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a47dialogactionbutton .rectangle-BCWzYT {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 9px;
   left: 0px;
   position: absolute;
@@ -2065,7 +2067,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-Ch4OSx {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 53px;
   left: 24px;
   position: absolute;
@@ -2089,7 +2091,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-DbJCqB {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 9px;
   left: 154px;
   position: absolute;
@@ -2097,7 +2099,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-DxORwY {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 1px;
   left: 0px;
   position: absolute;
@@ -2105,7 +2107,7 @@ transform: scale(0.98);
   width: 155px;
 }
 .a47dialogactionbutton .rectangle-Ex5quK {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 1px;
   left: 20px;
   position: absolute;
@@ -2137,7 +2139,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-HKqdgs {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 1px;
   left: 0px;
   position: absolute;
@@ -2145,7 +2147,7 @@ transform: scale(0.98);
   width: 233px;
 }
 .a47dialogactionbutton .rectangle-IiWasm {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 1px;
   left: 20px;
   position: absolute;
@@ -2153,7 +2155,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a47dialogactionbutton .rectangle-JAzJXY {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 9px;
   left: 232px;
   position: absolute;
@@ -2161,7 +2163,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-JVyzxM {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 9px;
   left: 0px;
   position: absolute;
@@ -2177,7 +2179,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-L0mSkW {
-  background-color: var(--purple-pizzazz);
+  background-color: rgba(255,0,204,1.0);
   height: 1px;
   left: 2px;
   position: absolute;
@@ -2193,7 +2195,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a47dialogactionbutton .rectangle-MSHSvK {
-  background-color: var(--purple-pizzazz);
+  background-color: rgba(255,0,204,1.0);
   height: 9px;
   left: 4px;
   position: absolute;
@@ -2201,7 +2203,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-P2z7OL {
-  background-color: var(--purple-pizzazz);
+  background-color: rgba(255,0,204,1.0);
   height: 9px;
   left: 4px;
   position: absolute;
@@ -2217,7 +2219,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a47dialogactionbutton .rectangle-Qz3pcv {
-  background-color: var(--purple-pizzazz);
+  background-color: rgba(255,0,204,1.0);
   height: 1px;
   left: 2px;
   position: absolute;
@@ -2233,7 +2235,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a47dialogactionbutton .rectangle-Rw8i8C {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 1px;
   left: 20px;
   position: absolute;
@@ -2241,7 +2243,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a47dialogactionbutton .rectangle-RxjMLS {
-  background-color: var(--purple-pizzazz);
+  background-color: rgba(255,0,204,1.0);
   height: 9px;
   left: 2px;
   position: absolute;
@@ -2249,7 +2251,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-SDVjmr {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 53px;
   left: 24px;
   position: absolute;
@@ -2273,7 +2275,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a47dialogactionbutton .rectangle-V7bKkk {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 1px;
   left: 20px;
   position: absolute;
@@ -2289,7 +2291,7 @@ transform: scale(0.98);
   width: 320px;
 }
 .a47dialogactionbutton .rectangle-W4q34h {
-  background-color: var(--purple-pizzazz);
+  background-color: rgba(255,0,204,1.0);
   height: 9px;
   left: 4px;
   position: absolute;
@@ -2297,7 +2299,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-XYQEdh {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 1px;
   left: 20px;
   position: absolute;
@@ -2345,7 +2347,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-csHzUp {
-  background-color: var(--purple-pizzazz);
+  background-color: rgba(255,0,204,1.0);
   height: 9px;
   left: 2px;
   position: absolute;
@@ -2369,7 +2371,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-fA2acB {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 1px;
   left: 20px;
   position: absolute;
@@ -2385,7 +2387,7 @@ transform: scale(0.98);
   width: 36px;
 }
 .a47dialogactionbutton .rectangle-gImn7y {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 9px;
   left: 155px;
   position: absolute;
@@ -2425,7 +2427,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-pdc9HX {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 53px;
   left: 24px;
   position: absolute;
@@ -2441,7 +2443,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-rVxqBn {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 1px;
   left: 20px;
   position: absolute;
@@ -2449,7 +2451,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a47dialogactionbutton .rectangle-s3mHNg {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 9px;
   left: 154px;
   position: absolute;
@@ -2457,7 +2459,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-sD4AEx {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 9px;
   left: 0px;
   position: absolute;
@@ -2465,7 +2467,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-sdbilL {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 9px;
   left: 0px;
   position: absolute;
@@ -2473,7 +2475,7 @@ transform: scale(0.98);
   width: 1px;
 }
 .a47dialogactionbutton .rectangle-sxmMuq {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 1px;
   left: 20px;
   position: absolute;
@@ -2489,7 +2491,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a47dialogactionbutton .rectangle-xLaty1 {
-  background-color: var(--purple-pizzazz);
+  background-color: rgba(255,0,204,1.0);
   height: 1px;
   left: 2px;
   position: absolute;
@@ -2497,7 +2499,7 @@ transform: scale(0.98);
   width: 3px;
 }
 .a47dialogactionbutton .rectangle-xsOxEp {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 1px;
   left: 20px;
   position: absolute;
@@ -2505,7 +2507,7 @@ transform: scale(0.98);
   width: 9px;
 }
 .a47dialogactionbutton .rectangle-xxpYpu {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 1px;
   left: 20px;
   position: absolute;
@@ -2521,7 +2523,7 @@ transform: scale(0.98);
   width: 36px;
 }
 .a47dialogactionbutton .rectangle-y9jLIz {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 1px;
   left: 0px;
   position: absolute;
@@ -2529,7 +2531,7 @@ transform: scale(0.98);
   width: 155px;
 }
 .a47dialogactionbutton .rectangle-yNVT3o {
-  background-color: var(--supernova);
+  background-color: rgba(255,204,0,1.0);
   height: 47px;
   left: 24px;
   position: absolute;
@@ -2799,7 +2801,7 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .symbol-8kWZKx {
   background-color: transparent;
-  background-image: url(../img/4-7-dialogaction-button-4-07measurew360mpl047dialogactionbutton2--04B0FFFB-D4D7-4927-927A-1AF6CB17D5C8.png);
+  background-image: url(../img/4-7-dialogaction-button-4-07measurew360mpl047dialogactionbutton2--F70F704C-8484-459D-B903-1E69158809AB@2x.png);
   background-size: 100% 100%;
   height: 120px;
   left: 38px;
@@ -2809,7 +2811,7 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .symbol-8mOZXy {
   background-color: transparent;
-  background-image: url(../img/4-7-dialogaction-button-4-07measurew360mpl047dialogactionbutton3-69470E1C-2FC5-411A-B594-EEA03C76251D.png);
+  background-image: url(../img/4-7-dialogaction-button-4-07measurew360mpl047dialogactionbutton3-483BF009-C0A7-4666-8317-16DBF295BDEA@2x.png);
   background-size: 100% 100%;
   height: 276px;
   left: 350px;
@@ -2819,7 +2821,7 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .symbol-OwUKqS {
   background-color: transparent;
-  background-image: url(../img/4-7-dialogaction-button-4-07measurew360mpl047dialogactionbutton1-A54F0DE3-66B5-4EC8-9998-574C4081FC41.png);
+  background-image: url(../img/4-7-dialogaction-button-4-07measurew360mpl047dialogactionbutton1-D520C840-0C82-4D12-8094-4A4C54E64FE6@2x.png);
   background-size: 100% 100%;
   height: 122px;
   left: 87px;
@@ -2829,8 +2831,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-2csiWw {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2840,8 +2845,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-2lOLH2 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2865,8 +2873,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-6uCC6P {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2876,8 +2887,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-AWDxxq {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2887,8 +2901,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-Cbf5Ak {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2912,8 +2929,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-IO2tex {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2937,8 +2957,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-OMlONZ {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2948,8 +2971,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-U20oLU {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2959,8 +2985,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-UMYCxX {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2970,8 +2999,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-VOdO0e {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2995,8 +3027,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-WZpIBy {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3019,8 +3054,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-cwWTW2 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3030,8 +3068,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-i6zolW {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3041,8 +3082,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-ioVmyo {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3052,8 +3096,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-jGLpQR {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3063,8 +3110,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-mLjtxZ {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3074,8 +3124,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-rgBiVC {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3085,8 +3138,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-xY88zE {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3096,8 +3152,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-xZDVfu {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3107,8 +3166,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .text-zLkuOD {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3442,13 +3504,8 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .web-app-OB1SiY {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size: 15px;
   height: auto;
   left: 0px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3973,8 +4030,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x0-overview-A0NNx1 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4091,8 +4151,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x1-app-bar-mSO44p {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4126,8 +4189,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x10-search-ys4Eef {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4137,8 +4203,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x11-toast-ZxS0T9 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4148,8 +4217,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x12-text-fields-vgc3Vu {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4159,8 +4231,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x13-view-controls-94MaWS {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4170,8 +4245,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x14-description-Vh3Boh {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4181,8 +4259,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x15-notification-bad-AmUiok {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4192,8 +4273,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x16-thumbnail-7oeGf9 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4203,8 +4287,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x17-copy-paste-HD1MSG {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4236,8 +4323,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x2-buttons-Rhulji {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4268,8 +4358,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x3-controllers-XGvGsa {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4327,13 +4420,8 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x4-7-dialog-action-C61RwL {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
   height: auto;
   left: 380px;
-  letter-spacing: 0.00px;
-  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -4357,8 +4445,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x5-dividers-jYs5wP {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4368,8 +4459,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x6-lists-CY9yOk {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4379,8 +4473,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x7-no-item-6wC6Jq {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4390,8 +4487,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x8-progress-TIxFq4 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4401,8 +4501,11 @@ transform: scale(0.98);
 }
 .a47dialogactionbutton .x9-scrolling-QBf695 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -4410,14 +4513,17 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
+.border-class-1 {
+  border: 1px solid rgba(237,237,237,1.0);
+}
+.border-class-2 {
+  border: 1px solid rgba(135,135,135,1.0);
+}
 .font-class-1 {
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
 }
 .font-class-2 {
-  color: var(--black);
   font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-  font-size: 15px;
-  line-height: 18px;
 }
 .font-class-3 {
   font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -4425,15 +4531,38 @@ transform: scale(0.98);
 .font-class-4 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
+.font-class-5 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-6 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
+  line-height: 84px;
+}
+.font-class-7 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
+}
+.font-class-8 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
+}
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
   --ebb: rgba(227,227,227,1.0);
   --harlequin: rgba(51,204,0,1.0);
   --harlequin-2: rgba(51,204,0,0.37);
   --masala: rgba(59,59,59,1.0);
-  --purple-pizzazz: rgba(255,0,204,1.0);
+  --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --royal-blue: rgba(75,99,250,1.0);
-  --supernova: rgba(255,204,0,1.0);
   --white: rgba(255,255,255,1.0);
 }

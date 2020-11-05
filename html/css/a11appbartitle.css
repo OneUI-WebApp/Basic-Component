@@ -3,7 +3,6 @@
 .a11appbartitle {
   background-color: rgba(245,246,247,1.0);
   height: 5251px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
 }
@@ -22,6 +21,14 @@
   position: absolute;
   top: 0px;
   width: 143px;
+}
+.a11appbartitle .background-n49lac {
+  background-color: var(--white);
+  height: 1252px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
 }
 .a11appbartitle .background-tlylZJ {
   background-color: rgba(71,71,71,1.0);
@@ -339,7 +346,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 294px;
+  top: 296px;
   width: 465px;
 }
 .a11appbartitle .dark-theme-jGO4Y7 {
@@ -347,7 +354,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 294px;
+  top: 296px;
   width: 465px;
 }
 .a11appbartitle .dark-theme-jeGLxy {
@@ -355,7 +362,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 294px;
+  top: 296px;
   width: 465px;
 }
 .a11appbartitle .dark-theme-luxupS {
@@ -363,7 +370,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 294px;
+  top: 296px;
   width: 465px;
 }
 .a11appbartitle .dark-theme-vWvHc6 {
@@ -395,7 +402,7 @@ transform: scale(0.98);
 .a11appbartitle .document-b-x-contents-fd5REa {
   background-color: var(--white);
   border: 1px solid var(--ebb);
-  height: 374px;
+  height: 376px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -413,7 +420,7 @@ transform: scale(0.98);
 .a11appbartitle .document-b-x-contents-jGO4Y7 {
   background-color: var(--white);
   border: 1px solid var(--ebb);
-  height: 374px;
+  height: 376px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -422,7 +429,7 @@ transform: scale(0.98);
 .a11appbartitle .document-b-x-contents-jeGLxy {
   background-color: var(--white);
   border: 1px solid var(--ebb);
-  height: 374px;
+  height: 376px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -431,7 +438,7 @@ transform: scale(0.98);
 .a11appbartitle .document-b-x-contents-luxupS {
   background-color: var(--white);
   border: 1px solid var(--ebb);
-  height: 374px;
+  height: 376px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -534,7 +541,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a11appbartitle .general-jGO4Y7 {
@@ -542,7 +549,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a11appbartitle .general-jeGLxy {
@@ -550,7 +557,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a11appbartitle .general-luxupS {
@@ -558,7 +565,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a11appbartitle .gnb-bar01-app-bar-C61RwL {
@@ -1169,22 +1176,6 @@ transform: scale(0.98);
   top: 0px;
   width: 246px;
 }
-.a11appbartitle .group-CToXzm {
-  background-color: var(--concrete);
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a11appbartitle .group-CXGFBo {
-  background-color: var(--concrete);
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a11appbartitle .group-E5xJL2 {
   background-color: transparent;
   height: 778px;
@@ -1193,16 +1184,8 @@ transform: scale(0.98);
   top: 690px;
   width: 1240px;
 }
-.a11appbartitle .group-HfxfTB {
-  background-color: var(--concrete);
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a11appbartitle .group-KKNxVF {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -1216,14 +1199,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 122px;
-}
-.a11appbartitle .group-SYrBNx {
-  background-color: var(--concrete);
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
 }
 .a11appbartitle .group-UJyS2g {
   background-color: transparent;
@@ -1258,7 +1233,7 @@ transform: scale(0.98);
   width: 246px;
 }
 .a11appbartitle .group-bd2nd8 {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -1290,7 +1265,7 @@ transform: scale(0.98);
   width: 122px;
 }
 .a11appbartitle .group-mIoE41 {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -1298,7 +1273,7 @@ transform: scale(0.98);
   width: 69px;
 }
 .a11appbartitle .group-mgwJ8H {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -1306,20 +1281,12 @@ transform: scale(0.98);
   width: 71px;
 }
 .a11appbartitle .group-pT0HN4 {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 104px;
   position: absolute;
   top: 0px;
   width: 59px;
-}
-.a11appbartitle .group-qiLK1j {
-  background-color: var(--concrete);
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
 }
 .a11appbartitle .group-sUnklj {
   background-color: transparent;
@@ -1763,7 +1730,7 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-meas-horizontal-46g4Fd {
   background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-line-B77016BC-7FDA-40EE-B1AD-D732D2522040@2x.png);
+  background-image: url(../img/1-1-app-bartitle-line-E4984B40-A9F3-4597-9D91-5FD9BB011E07@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1773,7 +1740,7 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-meas-horizontal-5ZtDto {
   background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-line-B77016BC-7FDA-40EE-B1AD-D732D2522040@2x.png);
+  background-image: url(../img/1-1-app-bartitle-line-E4984B40-A9F3-4597-9D91-5FD9BB011E07@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1783,7 +1750,7 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-meas-horizontal-8dOmmu {
   background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-line-337D97BF-9B6C-44CC-BABC-FAFA6EDEDC6C.png);
+  background-image: url(../img/1-5-more-option-list-line-F0A7F3EC-D822-48FF-9EF6-532850C5AD81.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1793,7 +1760,7 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-meas-horizontal-CIeIT6 {
   background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-line-337D97BF-9B6C-44CC-BABC-FAFA6EDEDC6C.png);
+  background-image: url(../img/1-5-more-option-list-line-F0A7F3EC-D822-48FF-9EF6-532850C5AD81.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1803,7 +1770,7 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-meas-horizontal-Ggtoxe {
   background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-line-337D97BF-9B6C-44CC-BABC-FAFA6EDEDC6C.png);
+  background-image: url(../img/1-5-more-option-list-line-F0A7F3EC-D822-48FF-9EF6-532850C5AD81.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1813,7 +1780,7 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-meas-horizontal-Jm1fFx {
   background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-line-337D97BF-9B6C-44CC-BABC-FAFA6EDEDC6C.png);
+  background-image: url(../img/1-5-more-option-list-line-F0A7F3EC-D822-48FF-9EF6-532850C5AD81.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1823,7 +1790,7 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-meas-horizontal-TxovoJ {
   background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-line-337D97BF-9B6C-44CC-BABC-FAFA6EDEDC6C.png);
+  background-image: url(../img/1-5-more-option-list-line-F0A7F3EC-D822-48FF-9EF6-532850C5AD81.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1833,7 +1800,7 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-meas-horizontal-mb7NFR {
   background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-line-337D97BF-9B6C-44CC-BABC-FAFA6EDEDC6C.png);
+  background-image: url(../img/1-5-more-option-list-line-F0A7F3EC-D822-48FF-9EF6-532850C5AD81.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1939,7 +1906,7 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-numb-ring-shape-Byf4D4 {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-930F6715-5765-41E8-9603-278F49FEF8E9@2x.png);
+  background-image: url(../img/1-8-bottom-bar-oval-A54287F4-D2E0-4466-8E26-A3D50703BF38@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1949,7 +1916,7 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-numbering-icon-UgfbN9 {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-930F6715-5765-41E8-9603-278F49FEF8E9@2x.png);
+  background-image: url(../img/1-8-bottom-bar-oval-A54287F4-D2E0-4466-8E26-A3D50703BF38@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1959,17 +1926,17 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-numbering-type-6JpTUR {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-94C99D39-FAC8-4F97-A0DD-9D9831E1C479@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a11appbartitle .guide-numbering-type-9AnZP8 {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-94C99D39-FAC8-4F97-A0DD-9D9831E1C479@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 14px;
@@ -1979,7 +1946,7 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-numbering-type-9BWmnl {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-94C99D39-FAC8-4F97-A0DD-9D9831E1C479@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 52px;
@@ -1989,7 +1956,7 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-numbering-type-Byf4D4 {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-94C99D39-FAC8-4F97-A0DD-9D9831E1C479@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 23px;
@@ -1999,27 +1966,27 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-numbering-type-RIBxxj {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-94C99D39-FAC8-4F97-A0DD-9D9831E1C479@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a11appbartitle .guide-numbering-type-RV5uJi {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-94C99D39-FAC8-4F97-A0DD-9D9831E1C479@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a11appbartitle .guide-numbering-type-RxU8FV {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-94C99D39-FAC8-4F97-A0DD-9D9831E1C479@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 52px;
@@ -2029,12 +1996,12 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-numbering-type-rTFnYe {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-94C99D39-FAC8-4F97-A0DD-9D9831E1C479@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a11appbartitle .guide-property-6JpTUR {
@@ -2047,7 +2014,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -2061,7 +2028,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -2075,7 +2042,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -2103,7 +2070,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -2117,35 +2084,35 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-subject-type-fd5REa {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a11appbartitle .guide-subject-type-jGO4Y7 {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a11appbartitle .guide-subject-type-jeGLxy {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a11appbartitle .guide-subject-type-luxupS {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a11appbartitle .guide-sxjkSD {
   background-color: transparent;
@@ -2190,7 +2157,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a11appbartitle .light-theme-jGO4Y7 {
@@ -2198,7 +2165,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a11appbartitle .light-theme-jeGLxy {
@@ -2206,7 +2173,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a11appbartitle .light-theme-luxupS {
@@ -2214,7 +2181,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a11appbartitle .light-theme-vWvHc6 {
@@ -2336,142 +2303,6 @@ transform: scale(0.98);
   position: absolute;
   top: 142px;
   width: 578px;
-}
-.a11appbartitle .mobile-lig--indicator-PAUgfU {
-  background-color: transparent;
-  height: 15px;
-  left: 36px;
-  position: absolute;
-  top: 10px;
-  width: 20px;
-}
-.a11appbartitle .mobile-lig--indicator-nMj6qk {
-  background-color: transparent;
-  height: 15px;
-  left: 36px;
-  position: absolute;
-  top: 10px;
-  width: 20px;
-}
-.a11appbartitle .mobile-lig-b-icon1btn-FUhZww {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a11appbartitle .mobile-lig-e-icon1btn-xQmSkn {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a11appbartitle .mobile-lig-e-icon2btn-PAUgfU {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: absolute;
-  top: 36px;
-  width: 540px;
-}
-.a11appbartitle .mobile-lig-e-icon2btn-k81ugI {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a11appbartitle .mobile-lig-e-icon2btn-nMj6qk {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: absolute;
-  top: 36px;
-  width: 540px;
-}
-.a11appbartitle .mobile-lig-title-more-Oj5zJ7 {
-  background-color: transparent;
-  background-image: url(../img/1-3-navigate-up-button-mobilelightthemeicon01actionbartitlemore-A3BCE183-E1B5-440C-8AC7-B74972AE83C9@2x.png);
-  background-size: 100% 100%;
-  height: 24px;
-  left: 489px;
-  position: absolute;
-  top: 30px;
-  width: 6px;
-}
-.a11appbartitle .mobile-lig-title-more-QsgNHx {
-  background-color: transparent;
-  background-image: url(../img/1-3-navigate-up-button-mobilelightthemeicon01actionbartitlemore-A3BCE183-E1B5-440C-8AC7-B74972AE83C9@2x.png);
-  background-size: 100% 100%;
-  height: 24px;
-  left: 489px;
-  position: absolute;
-  top: 30px;
-  width: 6px;
-}
-.a11appbartitle .mobile-lig-title-more-Tnh2bY {
-  background-color: transparent;
-  background-image: url(../img/1-3-navigate-up-button-mobilelightthemeicon01actionbartitlemore-A3BCE183-E1B5-440C-8AC7-B74972AE83C9@2x.png);
-  background-size: 100% 100%;
-  height: 24px;
-  left: 489px;
-  position: absolute;
-  top: 30px;
-  width: 6px;
-}
-.a11appbartitle .mobile-lig-title-more-lGLSYS {
-  background-color: transparent;
-  background-image: url(../img/1-3-navigate-up-button-mobilelightthemeicon01actionbartitlemore-A3BCE183-E1B5-440C-8AC7-B74972AE83C9@2x.png);
-  background-size: 100% 100%;
-  height: 24px;
-  left: 489px;
-  position: absolute;
-  top: 30px;
-  width: 6px;
-}
-.a11appbartitle .mobile-lig-title-more-txPklS {
-  background-color: transparent;
-  background-image: url(../img/1-3-navigate-up-button-mobilelightthemeicon01actionbartitlemore-A3BCE183-E1B5-440C-8AC7-B74972AE83C9@2x.png);
-  background-size: 100% 100%;
-  height: 24px;
-  left: 489px;
-  position: absolute;
-  top: 30px;
-  width: 6px;
-}
-.a11appbartitle .mobile-lig-tle-search-Oj5zJ7 {
-  background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-mobilelightthemeicon01actionbartitlesearch-B607E534-7215-44FF-B8E1-342609CA4944@2x.png);
-  background-size: 100% 100%;
-  height: 28px;
-  left: 420px;
-  position: absolute;
-  top: 28px;
-  width: 28px;
-}
-.a11appbartitle .mobile-lig-tle-search-Tnh2bY {
-  background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-mobilelightthemeicon01actionbartitlesearch-B607E534-7215-44FF-B8E1-342609CA4944@2x.png);
-  background-size: 100% 100%;
-  height: 28px;
-  left: 420px;
-  position: absolute;
-  top: 28px;
-  width: 28px;
-}
-.a11appbartitle .mobile-lig-tle-search-txPklS {
-  background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-mobilelightthemeicon01actionbartitlesearch-B607E534-7215-44FF-B8E1-342609CA4944@2x.png);
-  background-size: 100% 100%;
-  height: 28px;
-  left: 420px;
-  position: absolute;
-  top: 28px;
-  width: 28px;
 }
 .a11appbartitle .property-0n0MQL {
   background-color: transparent;
@@ -3215,58 +3046,6 @@ transform: scale(0.98);
   top: 250px;
   width: 1242px;
 }
-.a11appbartitle .sample-title-Oj5zJ7 {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 28px;
-  height: auto;
-  left: 36px;
-  line-height: 33px;
-  position: absolute;
-  text-align: left;
-  top: 24px;
-  white-space: nowrap;
-  width: 357px;
-}
-.a11appbartitle .sample-title-Tnh2bY {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 28px;
-  height: auto;
-  left: 36px;
-  line-height: 33px;
-  position: absolute;
-  text-align: left;
-  top: 24px;
-  white-space: nowrap;
-  width: 357px;
-}
-.a11appbartitle .sample-title-nqwlM1 {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 28px;
-  height: auto;
-  left: 0px;
-  line-height: 33px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 416px;
-}
-.a11appbartitle .sample-title-txPklS {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 28px;
-  height: auto;
-  left: 36px;
-  line-height: 33px;
-  position: absolute;
-  text-align: left;
-  top: 24px;
-  white-space: nowrap;
-  width: 357px;
-}
 .a11appbartitle .shape-F9PPmx {
   background-color: transparent;
   height: 240px;
@@ -3416,6 +3195,8 @@ transform: scale(0.98);
 }
 .a11appbartitle .symbol-fOgZ1c {
   background-color: transparent;
+  background-image: url(../img/1-4-more-option-1-04measurew360mpl014moreoption2-AEDA25CC-8292-42A4-88CB-A834D00E1373@2x.png);
+  background-size: 100% 100%;
   height: 96px;
   left: 88px;
   position: absolute;
@@ -3424,6 +3205,8 @@ transform: scale(0.98);
 }
 .a11appbartitle .symbol-gMRJ0M {
   background-color: transparent;
+  background-image: url(../img/1-1-app-bartitle-1-01measurew360mpl011appbartitle1-A5F921FC-03C0-451D-9CD3-C9018ACC446A@2x.png);
+  background-size: 100% 100%;
   height: 132px;
   left: 350px;
   position: absolute;
@@ -3432,6 +3215,8 @@ transform: scale(0.98);
 }
 .a11appbartitle .symbol-qaM4zH {
   background-color: transparent;
+  background-image: url(../img/1-1-app-bartitle-1-01measurew360mpl011appbartitle1-BDA0A5CD-1476-4CAC-A37D-603D547FB03A@2x.png);
+  background-size: 100% 100%;
   height: 120px;
   left: 350px;
   position: absolute;
@@ -3440,6 +3225,8 @@ transform: scale(0.98);
 }
 .a11appbartitle .symbol-trDilk {
   background-color: transparent;
+  background-image: url(../img/1-1-app-bartitle-1-01measurew360mpl011appbartitle2-42A0F7B1-8644-4AB2-A155-C2303466979B@2x.png);
+  background-size: 100% 100%;
   height: 96px;
   left: 88px;
   position: absolute;
@@ -3448,6 +3235,8 @@ transform: scale(0.98);
 }
 .a11appbartitle .symbol-xKxJVl {
   background-color: transparent;
+  background-image: url(../img/1-1-app-bartitle-1-01measurew360mpl011appbartitle12-A8728CDF-62C8-4A17-B3DF-1949BA019A97@2x.png);
+  background-size: 100% 100%;
   height: 96px;
   left: 88px;
   position: absolute;
@@ -3724,14 +3513,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 218px;
 }
-.a11appbartitle .text-QsgNHx {
-  background-color: transparent;
-  height: 61px;
-  left: 36px;
-  position: absolute;
-  top: 12px;
-  width: 416px;
-}
 .a11appbartitle .text-SZCBxl {
   background-color: transparent;
   height: 24px;
@@ -4002,18 +3783,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 370px;
 }
-.a11appbartitle .title-lGLSYS {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 25px;
-  height: auto;
-  left: 36px;
-  line-height: 30px;
-  position: absolute;
-  text-align: left;
-  top: 12px;
-  width: 416px;
-}
 .a11appbartitle .title-mY7Sra {
   background-color: transparent;
   height: 84px;
@@ -4024,34 +3793,34 @@ transform: scale(0.98);
 }
 .a11appbartitle .typeface-F9PPmx {
   background-color: transparent;
-  height: 374px;
+  height: 376px;
   left: 735px;
   position: absolute;
-  top: 308px;
+  top: 306px;
   width: 505px;
 }
 .a11appbartitle .typeface-IdTEx6 {
   background-color: transparent;
-  height: 374px;
+  height: 376px;
   left: 735px;
   position: absolute;
-  top: 401px;
+  top: 399px;
   width: 505px;
 }
 .a11appbartitle .typeface-VvOQgN {
   background-color: transparent;
-  height: 374px;
+  height: 376px;
   left: 735px;
   position: absolute;
-  top: 43px;
+  top: 41px;
   width: 505px;
 }
 .a11appbartitle .typeface-o9xhem {
   background-color: transparent;
-  height: 374px;
+  height: 376px;
   left: 735px;
   position: absolute;
-  top: 2px;
+  top: 0px;
   width: 505px;
 }
 .a11appbartitle .value-0n0MQL {
@@ -4392,19 +4161,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .value-text-nqwlM1 {
-  background-color: transparent;
-  color: rgba(99,99,99,1.0);
-  font-size: 19px;
-  height: auto;
-  left: 0px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 38px;
-  white-space: nowrap;
-  width: 416px;
-}
 .a11appbartitle .value-tlylZJ {
   background-color: transparent;
   color: rgba(193,206,254,1.0);
@@ -4475,24 +4231,6 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: 260px;
-}
-.a11appbartitle .wifi-OIOZt8 {
-  background-color: transparent;
-  height: 14px;
-  left: 0px;
-  opacity: 0.5;
-  position: absolute;
-  top: 0px;
-  width: 20px;
-}
-.a11appbartitle .wifi-zADkBq {
-  background-color: transparent;
-  height: 14px;
-  left: 0px;
-  opacity: 0.5;
-  position: absolute;
-  top: 0px;
-  width: 20px;
 }
 .a11appbartitle .x-0n0MQL {
   background-color: transparent;
@@ -5114,46 +4852,6 @@ transform: scale(0.98);
   top: 40px;
   width: 240px;
 }
-.a11appbartitle .x1-01-measu-ar-title11-asbMxC {
-  background-color: var(--concrete);
-  height: 96px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a11appbartitle .x1-01-measu-ar-title12-2HndN2 {
-  background-color: var(--concrete);
-  height: 96px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a11appbartitle .x1-01-measu-bar-title1-SlFC70 {
-  background-color: var(--concrete);
-  height: 120px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a11appbartitle .x1-01-measu-bar-title1-jDlmXx {
-  background-color: var(--concrete);
-  height: 132px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a11appbartitle .x1-01-measu-bar-title2-cRmUoV {
-  background-color: var(--concrete);
-  height: 96px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a11appbartitle .x1-1-app-bartitle-C61RwL {
   background-color: transparent;
   height: auto;
@@ -5539,43 +5237,35 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
 .font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
-.font-class-5 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
-.font-class-6 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 500;
-}
-.font-class-7 {
-  color: rgba(37,37,37,1.0);
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 300;
-}
-.font-class-8 {
+.font-class-5 {
   color: var(--black);
   font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
   font-size: 70px;
   line-height: 84px;
 }
-.font-class-9 {
+.font-class-6 {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
   letter-spacing: 0.30px;
   line-height: 18px;
 }
+.font-class-7 {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
   --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
-  --concrete: rgba(242,242,242,1.0);
   --ebb: rgba(227,227,227,1.0);
+  --electric-violet: rgba(102,0,255,1.0);
   --harlequin: rgba(51,204,0,1.0);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);

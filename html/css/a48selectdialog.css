@@ -3,7 +3,6 @@
 .a48selectdialog {
   background-color: rgba(245,246,247,1.0);
   height: 1385px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
 }
@@ -64,19 +63,6 @@ transform: scale(0.98);
 .a48selectdialog .btn-zOzqsC:hover {
 
 transform: scale(0.98);
-}
-.a48selectdialog .dialog-header-mRHvVv {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 20px;
-  height: 24px;
-  left: 0px;
-  line-height: 24px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 312px;
 }
 .a48selectdialog .document-b-x-contents-Uixoni {
   background-color: var(--white);
@@ -826,7 +812,7 @@ transform: scale(0.98);
 }
 .a48selectdialog .guide-meas-horizontal-82wtX8 {
   background-color: transparent;
-  background-image: url(../img/4-10-multi-choice-dialog-line-C47F711D-253C-45E4-A036-AA79C5C6DB14.png);
+  background-image: url(../img/4-6-dialogbody-text-2-line-E8F4E746-5F38-4210-A387-74E03841F99A.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -836,7 +822,7 @@ transform: scale(0.98);
 }
 .a48selectdialog .guide-meas-horizontal-lR7UFm {
   background-color: transparent;
-  background-image: url(../img/4-10-multi-choice-dialog-line-C47F711D-253C-45E4-A036-AA79C5C6DB14.png);
+  background-image: url(../img/4-6-dialogbody-text-2-line-E8F4E746-5F38-4210-A387-74E03841F99A.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -845,7 +831,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a48selectdialog .guide-measure-area-Ebopx9 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 211px;
   left: 0px;
   position: absolute;
@@ -853,7 +839,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a48selectdialog .guide-measure-area-TWHiup {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 211px;
   left: 0px;
   position: absolute;
@@ -861,7 +847,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a48selectdialog .guide-measure-area-Z2dG95 {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 24px;
   left: 0px;
   position: absolute;
@@ -869,7 +855,7 @@ transform: scale(0.98);
   width: 312px;
 }
 .a48selectdialog .guide-measure-area-wzKlPT {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 19px;
   left: 0px;
   position: absolute;
@@ -906,45 +892,6 @@ transform: scale(0.98);
   top: 75px;
   width: 360px;
 }
-.a48selectdialog .main-text-1-line-4bjm6X {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 312px;
-}
-.a48selectdialog .main-text-1-line-niM87f {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 312px;
-}
-.a48selectdialog .main-text-1-line-tOwN8A {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 312px;
-}
 .a48selectdialog .measure-Uixoni {
   background-color: transparent;
   height: 249px;
@@ -952,63 +899,6 @@ transform: scale(0.98);
   position: absolute;
   top: 90px;
   width: 459px;
-}
-.a48selectdialog .mobile-lig-basic1line-aZ9Kqz {
-  background-color: transparent;
-  height: 21px;
-  left: 24px;
-  position: absolute;
-  top: 86px;
-  width: 312px;
-}
-.a48selectdialog .mobile-lig-basic1line-qx3Py0 {
-  background-color: transparent;
-  height: 21px;
-  left: 24px;
-  position: absolute;
-  top: 142px;
-  width: 312px;
-}
-.a48selectdialog .mobile-lig-basic1line-xYVxoE {
-  background-color: transparent;
-  height: 21px;
-  left: 24px;
-  position: absolute;
-  top: 198px;
-  width: 312px;
-}
-.a48selectdialog .mobile-lig-line-nobtn-JyFj4a {
-  background-color: transparent;
-  height: 261px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 360px;
-}
-.a48selectdialog .mobile-lig-mmon-dimbg-JyFj4a {
-  background-color: rgba(0,0,0,0.35);
-  height: 261px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 360px;
-}
-.a48selectdialog .mobile-lig-mon-header-xYVxoE {
-  background-color: transparent;
-  height: 24px;
-  left: 24px;
-  position: absolute;
-  top: 26px;
-  width: 312px;
-}
-.a48selectdialog .mobile-lig-n-dialogbg-xYVxoE {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 26px;
-  height: 261px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 360px;
 }
 .a48selectdialog .page-name-8toWLI {
   background-color: transparent;
@@ -1161,7 +1051,9 @@ transform: scale(0.98);
 }
 .a48selectdialog .symbol-Uixoni {
   background-color: transparent;
-  height: 249px;
+  background-image: url(../img/4-8-select-dialog-4-08measurew360mpl048selectdialog-0DCE725E-AFD4-492D-8A32-477E7095491D@2x.png);
+  background-size: 100% 100%;
+  height: 261px;
   left: 421px;
   position: absolute;
   top: 40px;
@@ -1482,30 +1374,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 218px;
 }
-.a48selectdialog .title-dhuJnV {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 312px;
-}
-.a48selectdialog .title-kFWQUG {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 312px;
-}
-.a48selectdialog .title-xG348R {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 312px;
-}
 .a48selectdialog .value-xbIOJD {
   background-color: transparent;
   height: 18px;
@@ -1773,14 +1641,6 @@ transform: scale(0.98);
   top: 40px;
   width: 240px;
 }
-.a48selectdialog .x4-08-measu-lectdialog-1i0IH5 {
-  background-color: rgba(242,242,242,1.0);
-  height: 261px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
 .a48selectdialog .x4-8-select-dialog-C61RwL {
   background-color: transparent;
   height: auto;
@@ -1889,43 +1749,43 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
 }
 .font-class-3 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
 .font-class-4 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
 .font-class-5 {
   font-family: 'Roboto', Helvetica, Arial, serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 .font-class-6 {
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-}
-.font-class-7 {
   color: var(--black);
   font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
   font-size: 70px;
   line-height: 84px;
 }
-.font-class-8 {
+.font-class-7 {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
   letter-spacing: 0.30px;
   line-height: 18px;
 }
+.font-class-8 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
+}
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
   --ebb: rgba(227,227,227,1.0);
   --harlequin: rgba(51,204,0,1.0);
+  --harlequin-2: rgba(51,204,0,0.37);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --royal-blue: rgba(75,99,250,1.0);
-  --science-blue: rgba(0,114,222,1.0);
-  --tundora: rgba(69,69,69,1.0);
   --white: rgba(255,255,255,1.0);
 }

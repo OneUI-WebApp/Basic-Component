@@ -3,7 +3,6 @@
 .a12expandableappbar {
   background-color: rgba(245,246,247,1.0);
   height: 12175px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
 }
@@ -46,7 +45,7 @@
   width: 145px;
 }
 .a12expandableappbar .background-KyP8XX {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 0px;
   position: absolute;
@@ -85,6 +84,14 @@
   top: 0px;
   width: 145px;
 }
+.a12expandableappbar .background-n49lac {
+  background-color: var(--white);
+  height: 1252px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+}
 .a12expandableappbar .background-n4g91J {
   background-color: rgba(71,71,71,1.0);
   height: 22px;
@@ -95,7 +102,7 @@
 }
 .a12expandableappbar .basic-component-gui-ldhYbP {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 20px;
   height: auto;
   left: 0px;
@@ -891,7 +898,7 @@ transform: scale(0.98);
   height: 53px;
   left: 20px;
   position: absolute;
-  top: 294px;
+  top: 296px;
   width: 465px;
 }
 .a12expandableappbar .dark-theme-5eLiiE {
@@ -899,7 +906,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 294px;
+  top: 296px;
   width: 465px;
 }
 .a12expandableappbar .dark-theme-8rQXn0 {
@@ -915,7 +922,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 299px;
+  top: 301px;
   width: 465px;
 }
 .a12expandableappbar .dark-theme-K1DuXa {
@@ -931,7 +938,7 @@ transform: scale(0.98);
   height: 53px;
   left: 20px;
   position: absolute;
-  top: 294px;
+  top: 296px;
   width: 465px;
 }
 .a12expandableappbar .dark-theme-L6tZXS {
@@ -939,7 +946,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 294px;
+  top: 296px;
   width: 465px;
 }
 .a12expandableappbar .dark-theme-LrFbZL {
@@ -947,7 +954,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 294px;
+  top: 296px;
   width: 465px;
 }
 .a12expandableappbar .dark-theme-ZpOVFW {
@@ -955,7 +962,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 294px;
+  top: 296px;
   width: 465px;
 }
 .a12expandableappbar .dark-theme-aLVBiG {
@@ -963,7 +970,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 294px;
+  top: 296px;
   width: 465px;
 }
 .a12expandableappbar .dark-theme-auk6Y0 {
@@ -971,7 +978,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 294px;
+  top: 296px;
   width: 465px;
 }
 .a12expandableappbar .dark-theme-vMaJP8 {
@@ -979,7 +986,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 294px;
+  top: 296px;
   width: 465px;
 }
 .a12expandableappbar .divider-IpQLjZ {
@@ -1000,7 +1007,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-0xubsO {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 379px;
   left: 0px;
   position: absolute;
@@ -1009,8 +1016,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-1eSa1a {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 377px;
+  border: 1px solid var(--ebb);
+  height: 379px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -1018,8 +1025,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-5eLiiE {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 374px;
+  border: 1px solid var(--ebb);
+  height: 376px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -1027,7 +1034,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-8rQXn0 {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 318px;
   left: 0px;
   position: absolute;
@@ -1036,7 +1043,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-AuTFDm {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 379px;
   left: 0px;
   position: absolute;
@@ -1045,7 +1052,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-COKfJo {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 778px;
   left: 0px;
   position: absolute;
@@ -1054,8 +1061,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-DS2HLn {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 379px;
+  border: 1px solid var(--ebb);
+  height: 381px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -1063,7 +1070,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-HnYkkf {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 424px;
   left: 0px;
   position: absolute;
@@ -1072,7 +1079,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-ImSC7I {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 618px;
   left: 0px;
   position: absolute;
@@ -1081,7 +1088,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-K1DuXa {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 374px;
   left: 0px;
   position: absolute;
@@ -1090,8 +1097,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-KakYQW {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 377px;
+  border: 1px solid var(--ebb);
+  height: 379px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -1099,8 +1106,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-L6tZXS {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 374px;
+  border: 1px solid var(--ebb);
+  height: 376px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -1108,8 +1115,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-LrFbZL {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 374px;
+  border: 1px solid var(--ebb);
+  height: 376px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -1117,7 +1124,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-PTTxfc {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 286px;
   left: 0px;
   position: absolute;
@@ -1126,7 +1133,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-Q5Zn43 {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 372px;
   left: 0px;
   position: absolute;
@@ -1135,7 +1142,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-QUV3yV {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 424px;
   left: 0px;
   position: absolute;
@@ -1144,7 +1151,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-XCsTa6 {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 1520px;
   left: 0px;
   position: absolute;
@@ -1153,7 +1160,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-Xjup9w {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 778px;
   left: 0px;
   position: absolute;
@@ -1162,8 +1169,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-ZpOVFW {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 374px;
+  border: 1px solid var(--ebb);
+  height: 376px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -1171,8 +1178,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-aLVBiG {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 374px;
+  border: 1px solid var(--ebb);
+  height: 376px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -1180,8 +1187,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-auk6Y0 {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 374px;
+  border: 1px solid var(--ebb);
+  height: 376px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -1189,7 +1196,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-eYrc0G {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 410px;
   left: 0px;
   position: absolute;
@@ -1198,7 +1205,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-lHbJe1 {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 406px;
   left: 0px;
   position: absolute;
@@ -1207,7 +1214,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-lrlIVN {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 379px;
   left: 0px;
   position: absolute;
@@ -1216,7 +1223,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-nnRHlT {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 618px;
   left: 0px;
   position: absolute;
@@ -1225,8 +1232,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-vMaJP8 {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 374px;
+  border: 1px solid var(--ebb);
+  height: 376px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -1234,7 +1241,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-xcwxJh {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 618px;
   left: 0px;
   position: absolute;
@@ -1243,7 +1250,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .document-b-x-contents-xvSMbo {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 424px;
   left: 0px;
   position: absolute;
@@ -1422,7 +1429,7 @@ transform: scale(0.98);
   height: 109px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a12expandableappbar .general-5eLiiE {
@@ -1430,7 +1437,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a12expandableappbar .general-8rQXn0 {
@@ -1446,7 +1453,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a12expandableappbar .general-K1DuXa {
@@ -1462,7 +1469,7 @@ transform: scale(0.98);
   height: 109px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a12expandableappbar .general-L6tZXS {
@@ -1470,7 +1477,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a12expandableappbar .general-LrFbZL {
@@ -1478,7 +1485,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a12expandableappbar .general-ZpOVFW {
@@ -1486,7 +1493,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a12expandableappbar .general-aLVBiG {
@@ -1494,7 +1501,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a12expandableappbar .general-auk6Y0 {
@@ -1502,7 +1509,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a12expandableappbar .general-vMaJP8 {
@@ -1510,7 +1517,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a12expandableappbar .gnb-bar01-app-bar-C61RwL {
@@ -1978,7 +1985,7 @@ transform: scale(0.98);
   width: 320px;
 }
 .a12expandableappbar .group-0TY5U3 {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -1986,7 +1993,7 @@ transform: scale(0.98);
   width: 71px;
 }
 .a12expandableappbar .group-0yYa88 {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -2024,22 +2031,6 @@ transform: scale(0.98);
   position: absolute;
   top: 751px;
   width: 1240px;
-}
-.a12expandableappbar .group-1GB3Bd {
-  background-color: transparent;
-  height: 52px;
-  left: 92px;
-  position: relative;
-  top: 0px;
-  width: 536px;
-}
-.a12expandableappbar .group-1pdNlI {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
 }
 .a12expandableappbar .group-2-1lNbvS {
   background-color: transparent;
@@ -2161,14 +2152,6 @@ transform: scale(0.98);
   top: 0px;
   width: 125px;
 }
-.a12expandableappbar .group-2-UO6Iy0 {
-  background-color: transparent;
-  height: 110px;
-  left: 24px;
-  position: absolute;
-  top: 67px;
-  width: 312px;
-}
 .a12expandableappbar .group-2-UVpwn7 {
   background-color: transparent;
   height: 22px;
@@ -2208,14 +2191,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 97px;
-}
-.a12expandableappbar .group-2-etQ0xA {
-  background-color: transparent;
-  height: 100px;
-  left: 24px;
-  position: absolute;
-  top: 72px;
-  width: 312px;
 }
 .a12expandableappbar .group-2-ggPp5g {
   background-color: transparent;
@@ -2282,7 +2257,7 @@ transform: scale(0.98);
   width: 98px;
 }
 .a12expandableappbar .group-288uq7 {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -2337,22 +2312,6 @@ transform: scale(0.98);
   top: 0px;
   width: 248px;
 }
-.a12expandableappbar .group-4OxlhP {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .group-4YSMwE {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
 .a12expandableappbar .group-4x8Fnt {
   background-color: transparent;
   height: 22px;
@@ -2362,7 +2321,7 @@ transform: scale(0.98);
   width: 126px;
 }
 .a12expandableappbar .group-60p8JY {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 104px;
   position: absolute;
@@ -2378,23 +2337,15 @@ transform: scale(0.98);
   width: 246px;
 }
 .a12expandableappbar .group-6wmIAU {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
   top: 0px;
   width: 71px;
 }
-.a12expandableappbar .group-7DngM7 {
-  background-color: transparent;
-  height: 39px;
-  left: 168px;
-  position: relative;
-  top: 0px;
-  width: 204px;
-}
 .a12expandableappbar .group-7SyXj9 {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -2417,16 +2368,8 @@ transform: scale(0.98);
   top: 0px;
   width: 225px;
 }
-.a12expandableappbar .group-D53uzo {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 800px;
-}
 .a12expandableappbar .group-DEjjTQ {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 67px;
   position: absolute;
@@ -2441,14 +2384,6 @@ transform: scale(0.98);
   top: 0px;
   width: 169px;
 }
-.a12expandableappbar .group-ElKdzv {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
 .a12expandableappbar .group-F6eVh8 {
   background-color: transparent;
   height: 22px;
@@ -2457,14 +2392,6 @@ transform: scale(0.98);
   top: 0px;
   width: 162px;
 }
-.a12expandableappbar .group-F9pTY1 {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
 .a12expandableappbar .group-FmRHby {
   background-color: transparent;
   height: 22px;
@@ -2472,14 +2399,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 146px;
-}
-.a12expandableappbar .group-GGEKQO {
-  background-color: transparent;
-  height: 99px;
-  left: 24px;
-  position: absolute;
-  top: 73px;
-  width: 312px;
 }
 .a12expandableappbar .group-GVEj8Z {
   background-color: transparent;
@@ -2490,7 +2409,7 @@ transform: scale(0.98);
   width: 1240px;
 }
 .a12expandableappbar .group-GsospX {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -2512,14 +2431,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 126px;
-}
-.a12expandableappbar .group-HrxMEE {
-  background-color: transparent;
-  height: 78px;
-  left: 24px;
-  position: absolute;
-  top: 83px;
-  width: 312px;
 }
 .a12expandableappbar .group-IpQLjZ {
   background-color: transparent;
@@ -2545,14 +2456,6 @@ transform: scale(0.98);
   top: 0px;
   width: 126px;
 }
-.a12expandableappbar .group-MsXi4b {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
 .a12expandableappbar .group-NAy38y {
   background-color: transparent;
   height: 22px;
@@ -2560,14 +2463,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 146px;
-}
-.a12expandableappbar .group-NFhtYG {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
 }
 .a12expandableappbar .group-Nmk22v {
   background-color: transparent;
@@ -2585,14 +2480,6 @@ transform: scale(0.98);
   top: 0px;
   width: 123px;
 }
-.a12expandableappbar .group-OXP6kF {
-  background-color: var(--concrete);
-  height: 45px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 1024px;
-}
 .a12expandableappbar .group-OlRCy7 {
   background-color: rgba(71,71,71,1.0);
   height: 22px;
@@ -2600,22 +2487,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 67px;
-}
-.a12expandableappbar .group-PBpohQ {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .group-PDIch5 {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
 }
 .a12expandableappbar .group-QdylLB {
   background-color: transparent;
@@ -2626,7 +2497,7 @@ transform: scale(0.98);
   width: 123px;
 }
 .a12expandableappbar .group-Qr2HB3 {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -2634,7 +2505,7 @@ transform: scale(0.98);
   width: 69px;
 }
 .a12expandableappbar .group-SWVycb {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -2690,7 +2561,7 @@ transform: scale(0.98);
   width: 146px;
 }
 .a12expandableappbar .group-UH4Hv3 {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -2712,30 +2583,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 125px;
-}
-.a12expandableappbar .group-W1ftlh {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .group-WSFCpt {
-  background-color: transparent;
-  height: 52px;
-  left: 224px;
-  position: relative;
-  top: 0px;
-  width: 272px;
-}
-.a12expandableappbar .group-WpFkHL {
-  background-color: transparent;
-  height: 89px;
-  left: 24px;
-  position: absolute;
-  top: 78px;
-  width: 312px;
 }
 .a12expandableappbar .group-XI2oMJ {
   background-color: transparent;
@@ -2833,14 +2680,6 @@ transform: scale(0.98);
   top: 15px;
   width: 260px;
 }
-.a12expandableappbar .group-jBtnBa {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
 .a12expandableappbar .group-jZ5A36 {
   background-color: transparent;
   height: 22px;
@@ -2865,22 +2704,6 @@ transform: scale(0.98);
   top: 15px;
   width: 260px;
 }
-.a12expandableappbar .group-m6vnsx {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .group-oXQN3d {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
 .a12expandableappbar .group-ohO6wF {
   background-color: transparent;
   height: 22px;
@@ -2898,20 +2721,12 @@ transform: scale(0.98);
   width: 125px;
 }
 .a12expandableappbar .group-rrTzkD {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
   top: 0px;
   width: 77px;
-}
-.a12expandableappbar .group-sVYQeE {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
 }
 .a12expandableappbar .group-t8Vkcq {
   background-color: transparent;
@@ -2968,22 +2783,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 126px;
-}
-.a12expandableappbar .group-xJIvb6 {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .group-xeSWtc {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
 }
 .a12expandableappbar .group-z37XcA {
   background-color: transparent;
@@ -4395,7 +4194,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-e-vertical-L5MGMS {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-F38F6F97-3A5D-4D51-AEDE-A11B459E5EDC@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-64A1670B-C3B1-426D-9552-3FCC03712F76@2x.png);
   background-size: 100% 100%;
   height: 168px;
   left: 23px;
@@ -4405,7 +4204,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-e-vertical-kpiPBD {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-F38F6F97-3A5D-4D51-AEDE-A11B459E5EDC@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-64A1670B-C3B1-426D-9552-3FCC03712F76@2x.png);
   background-size: 100% 100%;
   height: 168px;
   left: 0px;
@@ -4415,7 +4214,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-e-vertical-nmevvn {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-F38F6F97-3A5D-4D51-AEDE-A11B459E5EDC@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-64A1670B-C3B1-426D-9552-3FCC03712F76@2x.png);
   background-size: 100% 100%;
   height: 168px;
   left: 23px;
@@ -4425,7 +4224,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-e-vertical-xEja20 {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-F38F6F97-3A5D-4D51-AEDE-A11B459E5EDC@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-64A1670B-C3B1-426D-9552-3FCC03712F76@2x.png);
   background-size: 100% 100%;
   height: 168px;
   left: 0px;
@@ -4563,7 +4362,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-1F9wU1 {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-35458927-9402-4E77-8891-D30556BDBA4B.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-9E251C75-768D-4AD5-B329-DEA417AC3481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -4573,7 +4372,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-1vXAe4 {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-35458927-9402-4E77-8891-D30556BDBA4B.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-9E251C75-768D-4AD5-B329-DEA417AC3481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -4583,7 +4382,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-2LtN4x {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-35458927-9402-4E77-8891-D30556BDBA4B.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-9E251C75-768D-4AD5-B329-DEA417AC3481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -4593,7 +4392,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-2Mnnbs {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-952ECC76-8B3B-478B-8D9E-81846E83EB86.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-01C998AF-B44A-4A1B-94D9-8BD3829F6102.png);
   background-size: 100% 100%;
   height: 1px;
   left: 1px;
@@ -4603,7 +4402,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-5Hw4CM {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-35458927-9402-4E77-8891-D30556BDBA4B.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-9E251C75-768D-4AD5-B329-DEA417AC3481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -4613,7 +4412,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-5Up9Zp {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-DACABB5E-A8CD-4D3D-969E-03071AF7CE28@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-31C5AB10-1468-4D18-826F-58AEFBD62E33@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 312px;
@@ -4623,7 +4422,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-D5xWGj {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-35458927-9402-4E77-8891-D30556BDBA4B.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-9E251C75-768D-4AD5-B329-DEA417AC3481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -4633,7 +4432,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-EP5x1O {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-DACABB5E-A8CD-4D3D-969E-03071AF7CE28@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-31C5AB10-1468-4D18-826F-58AEFBD62E33@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 312px;
@@ -4643,7 +4442,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-G4Mfh9 {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-DACABB5E-A8CD-4D3D-969E-03071AF7CE28@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-31C5AB10-1468-4D18-826F-58AEFBD62E33@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 312px;
@@ -4653,7 +4452,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-IuprBP {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-952ECC76-8B3B-478B-8D9E-81846E83EB86.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-01C998AF-B44A-4A1B-94D9-8BD3829F6102.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -4663,7 +4462,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-J1He4L {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-35458927-9402-4E77-8891-D30556BDBA4B.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-9E251C75-768D-4AD5-B329-DEA417AC3481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -4673,7 +4472,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-MRzq3Y {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-35458927-9402-4E77-8891-D30556BDBA4B.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-9E251C75-768D-4AD5-B329-DEA417AC3481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -4683,7 +4482,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-RrZW44 {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-DACABB5E-A8CD-4D3D-969E-03071AF7CE28@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-31C5AB10-1468-4D18-826F-58AEFBD62E33@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 312px;
@@ -4693,7 +4492,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-SUHKnv {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-DACABB5E-A8CD-4D3D-969E-03071AF7CE28@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-31C5AB10-1468-4D18-826F-58AEFBD62E33@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 312px;
@@ -4703,7 +4502,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-YZl3Di {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-35458927-9402-4E77-8891-D30556BDBA4B.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-9E251C75-768D-4AD5-B329-DEA417AC3481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -4713,7 +4512,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-YzRyg1 {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-DACABB5E-A8CD-4D3D-969E-03071AF7CE28@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-31C5AB10-1468-4D18-826F-58AEFBD62E33@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 312px;
@@ -4723,7 +4522,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-e7AI5r {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-DACABB5E-A8CD-4D3D-969E-03071AF7CE28@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-31C5AB10-1468-4D18-826F-58AEFBD62E33@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 312px;
@@ -4733,7 +4532,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-hBN1nk {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-35458927-9402-4E77-8891-D30556BDBA4B.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-9E251C75-768D-4AD5-B329-DEA417AC3481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -4743,7 +4542,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-p5xyFN {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-DACABB5E-A8CD-4D3D-969E-03071AF7CE28@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-31C5AB10-1468-4D18-826F-58AEFBD62E33@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 312px;
@@ -4753,7 +4552,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-meas-horizontal-u6ENxQ {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-line-35458927-9402-4E77-8891-D30556BDBA4B.png);
+  background-image: url(../img/1-2-expandable-app-bar-line-9E251C75-768D-4AD5-B329-DEA417AC3481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -4794,7 +4593,7 @@ transform: scale(0.98);
   width: 204px;
 }
 .a12expandableappbar .guide-measure-area-0hxln4 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 78px;
   left: 0px;
   position: absolute;
@@ -4866,7 +4665,7 @@ transform: scale(0.98);
   width: 312px;
 }
 .a12expandableappbar .guide-measure-area-63q9S8 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -4874,7 +4673,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a12expandableappbar .guide-measure-area-6IramY {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -4882,7 +4681,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a12expandableappbar .guide-measure-area-6pk39Q {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -4906,7 +4705,7 @@ transform: scale(0.98);
   width: 72px;
 }
 .a12expandableappbar .guide-measure-area-8n80Mr {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 88px;
   left: 0px;
   position: absolute;
@@ -4930,7 +4729,7 @@ transform: scale(0.98);
   width: 312px;
 }
 .a12expandableappbar .guide-measure-area-AJh0nx {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -4946,7 +4745,7 @@ transform: scale(0.98);
   width: 312px;
 }
 .a12expandableappbar .guide-measure-area-BwnNMl {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 52px;
   left: 0px;
   position: absolute;
@@ -4970,7 +4769,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a12expandableappbar .guide-measure-area-CtgxT4 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 88px;
   left: 336px;
   position: absolute;
@@ -4994,7 +4793,7 @@ transform: scale(0.98);
   width: 312px;
 }
 .a12expandableappbar .guide-measure-area-EXPoGx {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -5002,7 +4801,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a12expandableappbar .guide-measure-area-FLYQ6v {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 52px;
   left: 0px;
   position: absolute;
@@ -5026,7 +4825,7 @@ transform: scale(0.98);
   width: 312px;
 }
 .a12expandableappbar .guide-measure-area-HZjnV8 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -5050,7 +4849,7 @@ transform: scale(0.98);
   width: 26px;
 }
 .a12expandableappbar .guide-measure-area-IL6aMg {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -5090,7 +4889,7 @@ transform: scale(0.98);
   width: 312px;
 }
 .a12expandableappbar .guide-measure-area-KDuCUS {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 78px;
   left: 336px;
   position: absolute;
@@ -5122,7 +4921,7 @@ transform: scale(0.98);
   width: 800px;
 }
 .a12expandableappbar .guide-measure-area-MTSE8x {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 39px;
   left: 0px;
   position: absolute;
@@ -5178,7 +4977,7 @@ transform: scale(0.98);
   width: 1024px;
 }
 .a12expandableappbar .guide-measure-area-Pvkdcg {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 122px;
   left: 336px;
   position: absolute;
@@ -5186,7 +4985,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a12expandableappbar .guide-measure-area-QUXKsg {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -5194,7 +4993,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a12expandableappbar .guide-measure-area-Qa5Uro {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -5226,7 +5025,7 @@ transform: scale(0.98);
   width: 312px;
 }
 .a12expandableappbar .guide-measure-area-UW5z6O {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -5250,7 +5049,7 @@ transform: scale(0.98);
   width: 312px;
 }
 .a12expandableappbar .guide-measure-area-Wu27s7 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -5338,7 +5137,7 @@ transform: scale(0.98);
   width: 204px;
 }
 .a12expandableappbar .guide-measure-area-hCXZyX {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 111px;
   left: 0px;
   position: absolute;
@@ -5346,7 +5145,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a12expandableappbar .guide-measure-area-hEKoHX {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -5354,7 +5153,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a12expandableappbar .guide-measure-area-jNETtr {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 67px;
   left: 336px;
   position: absolute;
@@ -5362,7 +5161,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a12expandableappbar .guide-measure-area-jp8kh4 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -5378,7 +5177,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a12expandableappbar .guide-measure-area-kpiPBD {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 44px;
   left: 0px;
   position: absolute;
@@ -5386,7 +5185,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a12expandableappbar .guide-measure-area-l4OReM {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 111px;
   left: 336px;
   position: absolute;
@@ -5426,7 +5225,7 @@ transform: scale(0.98);
   width: 312px;
 }
 .a12expandableappbar .guide-measure-area-p3ZZz8 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -5434,7 +5233,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a12expandableappbar .guide-measure-area-qThDKN {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -5450,7 +5249,7 @@ transform: scale(0.98);
   width: 108px;
 }
 .a12expandableappbar .guide-measure-area-qZPkTp {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 39px;
   left: 0px;
   position: absolute;
@@ -5466,7 +5265,7 @@ transform: scale(0.98);
   width: 312px;
 }
 .a12expandableappbar .guide-measure-area-rVF4se {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 39px;
   left: 372px;
   position: absolute;
@@ -5498,7 +5297,7 @@ transform: scale(0.98);
   width: 93px;
 }
 .a12expandableappbar .guide-measure-area-uD1ywg {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -5506,7 +5305,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a12expandableappbar .guide-measure-area-uP0nHM {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -5514,7 +5313,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a12expandableappbar .guide-measure-area-umIdxP {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 268px;
   left: 0px;
   position: absolute;
@@ -5538,7 +5337,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a12expandableappbar .guide-measure-area-weA58M {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 122px;
   left: 0px;
   position: absolute;
@@ -5546,7 +5345,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a12expandableappbar .guide-measure-area-xEja20 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 44px;
   left: 0px;
   position: absolute;
@@ -5570,7 +5369,7 @@ transform: scale(0.98);
   width: 312px;
 }
 .a12expandableappbar .guide-measure-area-z9UpHe {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 67px;
   left: 0px;
   position: absolute;
@@ -5611,7 +5410,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-numb-ring-shape-OxIwza {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-09A1AFAB-1072-4A62-8D63-97D03F89850C@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-0BD0944E-A1F1-47DC-82C1-B85F94260485@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 207px;
@@ -5621,7 +5420,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-numb-ring-shape-qYByPk {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-09A1AFAB-1072-4A62-8D63-97D03F89850C@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-0BD0944E-A1F1-47DC-82C1-B85F94260485@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 207px;
@@ -5631,7 +5430,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-numbering-icon-QQl99e {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-DB1BC1DE-85A5-4AA6-8521-0D73B30DBD05@2x.png);
+  background-image: url(../img/1-8-bottom-bar-oval-A54287F4-D2E0-4466-8E26-A3D50703BF38@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -5641,7 +5440,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-numbering-icon-rFhwcX {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-DB1BC1DE-85A5-4AA6-8521-0D73B30DBD05@2x.png);
+  background-image: url(../img/1-8-bottom-bar-oval-A54287F4-D2E0-4466-8E26-A3D50703BF38@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -5651,17 +5450,17 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-numbering-type-5iJbcT {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a12expandableappbar .guide-numbering-type-7FDxeB {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 94px;
@@ -5671,47 +5470,47 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-numbering-type-7OQNZy {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a12expandableappbar .guide-numbering-type-AxK87H {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a12expandableappbar .guide-numbering-type-FqA28b {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a12expandableappbar .guide-numbering-type-IxWfrI {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a12expandableappbar .guide-numbering-type-JAESKl {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 124px;
@@ -5721,7 +5520,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-numbering-type-MxxGW8 {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 124px;
@@ -5731,7 +5530,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-numbering-type-OxIwza {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-9F34EBD7-D81D-44D8-B09E-357BA52926A3@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-3AE2EA62-7EAB-4404-90FE-E0652BF4F0E8@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 239px;
@@ -5741,17 +5540,17 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-numbering-type-PIrULe {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a12expandableappbar .guide-numbering-type-R9HujV {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 94px;
@@ -5761,7 +5560,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-numbering-type-aHk5g1 {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 124px;
@@ -5771,7 +5570,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-numbering-type-cigSQg {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 124px;
@@ -5781,17 +5580,17 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-numbering-type-lkb99x {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a12expandableappbar .guide-numbering-type-qF7MgZ {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 95px;
@@ -5801,7 +5600,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-numbering-type-qYByPk {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-9F34EBD7-D81D-44D8-B09E-357BA52926A3@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-3AE2EA62-7EAB-4404-90FE-E0652BF4F0E8@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 239px;
@@ -5811,7 +5610,7 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-numbering-type-rjp2xa {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 94px;
@@ -5821,32 +5620,32 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-numbering-type-u3cyj0 {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a12expandableappbar .guide-numbering-type-v4XjBj {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a12expandableappbar .guide-numbering-type-wZJoBl {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-B3F438EC-395D-44AF-8F48-3F840DDF3B9A@2x.png);
+  background-image: url(../img/1-2-expandable-app-bar-oval-F7C2AE41-F991-42A0-8028-D1DFC45FE8E4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a12expandableappbar .guide-oTBxDG {
@@ -5875,7 +5674,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -5889,7 +5688,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -5903,7 +5702,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -5917,7 +5716,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -5931,7 +5730,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -5945,7 +5744,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -5973,7 +5772,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -6001,7 +5800,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -6015,7 +5814,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -6029,7 +5828,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -6059,83 +5858,83 @@ transform: scale(0.98);
 }
 .a12expandableappbar .guide-subject-type-1eSa1a {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a12expandableappbar .guide-subject-type-5eLiiE {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a12expandableappbar .guide-subject-type-DS2HLn {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a12expandableappbar .guide-subject-type-KakYQW {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a12expandableappbar .guide-subject-type-L6tZXS {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a12expandableappbar .guide-subject-type-LrFbZL {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a12expandableappbar .guide-subject-type-ZpOVFW {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a12expandableappbar .guide-subject-type-aLVBiG {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a12expandableappbar .guide-subject-type-auk6Y0 {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a12expandableappbar .guide-subject-type-vMaJP8 {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
   top: 30px;
-  width: 121px;
+  width: 465px;
 }
 .a12expandableappbar .guide-w3kCtX {
   background-color: transparent;
@@ -6155,8 +5954,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .history-JH8G1K {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -6202,83 +6004,22 @@ transform: scale(0.98);
   top: 83px;
   width: 1240px;
 }
-.a12expandableappbar .later-4IyHsY {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 13px;
-  height: auto;
-  left: 13px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 5px;
-  white-space: nowrap;
-  width: 36px;
-}
-.a12expandableappbar .later-BjYqbs {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 13px;
-  height: auto;
-  left: 13px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 5px;
-  white-space: nowrap;
-  width: 36px;
-}
-.a12expandableappbar .later-GJx6Cs {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 13px;
-  height: auto;
-  left: 13px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 5px;
-  white-space: nowrap;
-  width: 36px;
-}
-.a12expandableappbar .later-NLXOUx {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 26px;
-  height: auto;
-  left: 26px;
-  line-height: 30px;
-  position: absolute;
-  text-align: center;
-  top: 10px;
-  white-space: nowrap;
-  width: 204px;
-}
 .a12expandableappbar .later-SVURWm {
   background-color: transparent;
   color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
   font-size: 39px;
+  font-style: normal;
+  font-weight: 400;
   height: auto;
   left: 39px;
+  letter-spacing: 0.00px;
   line-height: 46px;
   position: absolute;
   text-align: center;
   top: 15px;
   white-space: nowrap;
   width: 108px;
-}
-.a12expandableappbar .later-V1j3y9 {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 19px;
-  height: auto;
-  left: 20px;
-  line-height: 23px;
-  position: absolute;
-  text-align: center;
-  top: 8px;
-  white-space: nowrap;
-  width: 54px;
 }
 .a12expandableappbar .later-button-OxIwza {
   background-color: transparent;
@@ -6294,51 +6035,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a12expandableappbar .later-dRBY4T {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 26px;
-  height: auto;
-  left: 26px;
-  line-height: 30px;
-  position: absolute;
-  text-align: center;
-  top: 10px;
-  white-space: nowrap;
-  width: 72px;
-}
-.a12expandableappbar .later-jvAMD3 {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 13px;
-  height: auto;
-  left: 13px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 5px;
-  white-space: nowrap;
-  width: 36px;
-}
-.a12expandableappbar .later-s9S8cc {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 13px;
-  height: auto;
-  left: 13px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 5px;
-  white-space: nowrap;
-  width: 36px;
-}
 .a12expandableappbar .light-theme-1eSa1a {
   background-color: transparent;
   height: 53px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a12expandableappbar .light-theme-5eLiiE {
@@ -6346,7 +6048,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a12expandableappbar .light-theme-8rQXn0 {
@@ -6362,7 +6064,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a12expandableappbar .light-theme-K1DuXa {
@@ -6378,7 +6080,7 @@ transform: scale(0.98);
   height: 53px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a12expandableappbar .light-theme-L6tZXS {
@@ -6386,7 +6088,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a12expandableappbar .light-theme-LrFbZL {
@@ -6394,7 +6096,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a12expandableappbar .light-theme-ZpOVFW {
@@ -6402,7 +6104,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a12expandableappbar .light-theme-aLVBiG {
@@ -6410,7 +6112,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a12expandableappbar .light-theme-auk6Y0 {
@@ -6418,7 +6120,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a12expandableappbar .light-theme-vMaJP8 {
@@ -6426,139 +6128,8 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
-}
-.a12expandableappbar .lorem-ipsum-8E3Jke {
-  background-color: transparent;
-  color: rgba(99,99,99,1.0);
-  font-size: 15px;
-  height: 18px;
-  left: 0px;
-  line-height: 18px;
-  position: absolute;
-  text-align: center;
-  top: 71px;
-  white-space: nowrap;
-  width: 312px;
-}
-.a12expandableappbar .lorem-ipsum-BF1tsJ {
-  background-color: transparent;
-  color: rgba(99,99,99,1.0);
-  font-size: 15px;
-  height: 18px;
-  left: 0px;
-  line-height: 18px;
-  position: absolute;
-  text-align: center;
-  top: 49px;
-  white-space: nowrap;
-  width: 312px;
-}
-.a12expandableappbar .lorem-ipsum-UTBTUn {
-  background-color: transparent;
-  color: rgba(99,99,99,1.0);
-  font-size: 15px;
-  height: 18px;
-  left: 0px;
-  line-height: 18px;
-  position: absolute;
-  text-align: center;
-  top: 93px;
-  white-space: nowrap;
-  width: 312px;
-}
-.a12expandableappbar .lorem-ipsum-dolor-si-8E3Jke {
-  background-color: transparent;
-  font-size: 28px;
-  height: 66px;
-  left: 0px;
-  line-height: 33px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  width: 312px;
-}
-.a12expandableappbar .lorem-ipsum-dolor-si-FQNeW8 {
-  background-color: transparent;
-  font-size: 28px;
-  height: 66px;
-  left: 24px;
-  line-height: 33px;
-  position: absolute;
-  text-align: center;
-  top: 89px;
-  width: 312px;
-}
-.a12expandableappbar .lorem-ipsum-dolor-si-UTYw8t {
-  background-color: transparent;
-  font-size: 32px;
-  height: 76px;
-  left: 0px;
-  line-height: 38px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  width: 312px;
-}
-.a12expandableappbar .lorem-ipsum-dolor-si-UhtFHt {
-  background-color: transparent;
-  font-size: 32px;
-  height: 76px;
-  left: 24px;
-  line-height: 38px;
-  position: absolute;
-  text-align: center;
-  top: 84px;
-  width: 312px;
-}
-.a12expandableappbar .lorem-ipsum-dolor-si-q4E43W {
-  background-color: transparent;
-  font-size: 32px;
-  height: 76px;
-  left: 0px;
-  line-height: 38px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  width: 312px;
-}
-.a12expandableappbar .lorem-ipsum-dolor-si-wTaYwp {
-  background-color: transparent;
-  font-size: 28px;
-  height: 66px;
-  left: 0px;
-  line-height: 33px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  width: 312px;
-}
-.a12expandableappbar .lorem-ipsum-q4E43W {
-  background-color: transparent;
-  color: rgba(99,99,99,1.0);
-  font-size: 15px;
-  height: 18px;
-  left: 0px;
-  line-height: 18px;
-  position: absolute;
-  text-align: center;
-  top: 81px;
-  white-space: nowrap;
-  width: 312px;
-}
-.a12expandableappbar .lorem-ipsum-wxxr6U {
-  background-color: transparent;
-  color: rgba(99,99,99,1.0);
-  font-size: 15px;
-  height: 18px;
-  left: 0px;
-  line-height: 18px;
-  position: absolute;
-  text-align: center;
-  top: 93px;
-  white-space: nowrap;
-  width: 312px;
 }
 .a12expandableappbar .main-title1-line-3696mq {
   background-color: transparent;
@@ -6852,925 +6423,6 @@ transform: scale(0.98);
   top: 40px;
   width: 439px;
 }
-.a12expandableappbar .mobile-lig--indicator-0LxlwV {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-wifi-899EBDE2-6335-45E1-BFD5-E202DAA4E556@2x.png);
-  background-size: 100% 100%;
-  height: 10px;
-  left: 24px;
-  position: absolute;
-  top: 7px;
-  width: 13px;
-}
-.a12expandableappbar .mobile-lig--indicator-129Swl {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-wifi-899EBDE2-6335-45E1-BFD5-E202DAA4E556@2x.png);
-  background-size: 100% 100%;
-  height: 10px;
-  left: 24px;
-  position: absolute;
-  top: 7px;
-  width: 13px;
-}
-.a12expandableappbar .mobile-lig--indicator-25yTEJ {
-  background-color: transparent;
-  height: 9px;
-  left: 19px;
-  position: absolute;
-  top: 5px;
-  width: 11px;
-}
-.a12expandableappbar .mobile-lig--indicator-5Uvaid {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-wifi-899EBDE2-6335-45E1-BFD5-E202DAA4E556@2x.png);
-  background-size: 100% 100%;
-  height: 10px;
-  left: 24px;
-  position: absolute;
-  top: 7px;
-  width: 13px;
-}
-.a12expandableappbar .mobile-lig--indicator-BCS9Tk {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-wifi-899EBDE2-6335-45E1-BFD5-E202DAA4E556@2x.png);
-  background-size: 100% 100%;
-  height: 10px;
-  left: 24px;
-  position: absolute;
-  top: 7px;
-  width: 13px;
-}
-.a12expandableappbar .mobile-lig--indicator-DXNAwO {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-wifi-899EBDE2-6335-45E1-BFD5-E202DAA4E556@2x.png);
-  background-size: 100% 100%;
-  height: 10px;
-  left: 24px;
-  position: absolute;
-  top: 7px;
-  width: 13px;
-}
-.a12expandableappbar .mobile-lig--indicator-FW0SzV {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-wifi-899EBDE2-6335-45E1-BFD5-E202DAA4E556@2x.png);
-  background-size: 100% 100%;
-  height: 10px;
-  left: 24px;
-  position: absolute;
-  top: 7px;
-  width: 13px;
-}
-.a12expandableappbar .mobile-lig--indicator-XzKJB9 {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-wifi-899EBDE2-6335-45E1-BFD5-E202DAA4E556@2x.png);
-  background-size: 100% 100%;
-  height: 10px;
-  left: 24px;
-  position: absolute;
-  top: 7px;
-  width: 13px;
-}
-.a12expandableappbar .mobile-lig--indicator-vyA7Cu {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-wifi-899EBDE2-6335-45E1-BFD5-E202DAA4E556@2x.png);
-  background-size: 100% 100%;
-  height: 10px;
-  left: 24px;
-  position: absolute;
-  top: 7px;
-  width: 13px;
-}
-.a12expandableappbar .mobile-lig-edium2line-7YH7S3 {
-  background-color: var(--concrete);
-  height: 268px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-fault1line-FW0SzV {
-  background-color: var(--concrete);
-  height: 268px;
-  left: 0px;
-  position: absolute;
-  top: 24px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-fault2line-129Swl {
-  background-color: var(--concrete);
-  height: 268px;
-  left: 0px;
-  position: absolute;
-  top: 24px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-fault2line-VL84WW {
-  background-color: var(--concrete);
-  height: 268px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-fault2line-XzKJB9 {
-  background-color: var(--concrete);
-  height: 268px;
-  left: 0px;
-  position: absolute;
-  top: 24px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-inesubinfo-DXNAwO {
-  background-color: var(--concrete);
-  height: 268px;
-  left: 0px;
-  position: absolute;
-  top: 24px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-inesubinfo-LIsJpW {
-  background-color: var(--concrete);
-  height: 268px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-inesubinfo-UN0uNn {
-  background-color: var(--concrete);
-  height: 268px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-inesubinfo-vyA7Cu {
-  background-color: var(--concrete);
-  height: 268px;
-  left: 0px;
-  position: absolute;
-  top: 24px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-inesubinfo-x2QRjd {
-  background-color: var(--concrete);
-  height: 268px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-ll2linesub-O4dp4m {
-  background-color: var(--concrete);
-  height: 268px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-lt1linesub-5Uvaid {
-  background-color: var(--concrete);
-  height: 268px;
-  left: 0px;
-  position: absolute;
-  top: 24px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-lt2linesub-0LxlwV {
-  background-color: var(--concrete);
-  height: 268px;
-  left: 0px;
-  position: absolute;
-  top: 24px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-lt2linesub-LdGIQx {
-  background-color: var(--concrete);
-  height: 268px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-0m9U1D {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 204px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-FQNeW8 {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 204px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-FSnihR {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 238px;
-  width: 800px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-Fr1qUY {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 204px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-GGEKQO {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 204px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-HrxMEE {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 204px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-Ktulxc {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 204px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-LvZLdQ {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 204px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-NxS8Ug {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 204px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-UO6Iy0 {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 204px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-UhtFHt {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 204px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-WpFkHL {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 204px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-bPuq4d {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 204px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-etQ0xA {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 204px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-gIQeeP {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 204px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-qxxYkc {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 204px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-v4QmBD {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 204px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-n2btn-back-zocWlx {
-  background-color: transparent;
-  height: 45px;
-  left: 0px;
-  position: absolute;
-  top: 124px;
-  width: 1024px;
-}
-.a12expandableappbar .mobile-lig-small2line-Zqlv8Z {
-  background-color: var(--concrete);
-  height: 268px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .mobile-lig-title-back-1ACSbY {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-back-8oTLP0 {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-back-A2WUG7 {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-back-B0SDUD {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-73CB7BB1-180E-4A52-958B-CDF39C1F3F70@2x.png);
-  background-size: 100% 100%;
-  height: 15px;
-  left: 20px;
-  position: absolute;
-  top: 14px;
-  width: 9px;
-}
-.a12expandableappbar .mobile-lig-title-back-HFLxXl {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-back-P9O4xP {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-back-aEsCQ8 {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-back-ewnThk {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-back-fBMP1w {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-back-hlZTzS {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-back-hnYFtR {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-back-jD8hgE {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-back-mox12G {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-back-pbR2QM {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-back-rre5P9 {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-back-saXxjl {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-back-yWIeay {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-back-zbDJoV {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitleback-100E52B2-001A-4055-ADE4-2B3A29EA03D0@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a12expandableappbar .mobile-lig-title-more-1ACSbY {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-title-more-8oTLP0 {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-title-more-A2WUG7 {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-title-more-B0SDUD {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-8377BC92-0F08-4215-9728-58A4D3704F4E@2x.png);
-  background-size: 100% 100%;
-  height: 13px;
-  left: 997px;
-  position: absolute;
-  top: 15px;
-  width: 3px;
-}
-.a12expandableappbar .mobile-lig-title-more-HFLxXl {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-title-more-P9O4xP {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 766px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-title-more-aEsCQ8 {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-title-more-ewnThk {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-title-more-fBMP1w {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-title-more-hlZTzS {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-title-more-hnYFtR {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-title-more-jD8hgE {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-title-more-mox12G {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-title-more-pbR2QM {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-title-more-rre5P9 {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-title-more-saXxjl {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-title-more-yWIeay {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-title-more-zbDJoV {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlemore-6694064A-1773-46BB-9381-7E3C9C348E0E@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a12expandableappbar .mobile-lig-tle-search-1ACSbY {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-tle-search-8oTLP0 {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-tle-search-A2WUG7 {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-tle-search-B0SDUD {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-01531EF4-ACF1-43F6-8A00-5FCA4813E9AA@2x.png);
-  background-size: 100% 100%;
-  height: 15px;
-  left: 960px;
-  position: absolute;
-  top: 14px;
-  width: 15px;
-}
-.a12expandableappbar .mobile-lig-tle-search-HFLxXl {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-tle-search-P9O4xP {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 720px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-tle-search-aEsCQ8 {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-tle-search-ewnThk {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-tle-search-fBMP1w {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-tle-search-hlZTzS {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-tle-search-hnYFtR {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-tle-search-jD8hgE {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-tle-search-mox12G {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-tle-search-pbR2QM {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-tle-search-rre5P9 {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-tle-search-saXxjl {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-tle-search-yWIeay {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-tle-search-zbDJoV {
-  background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-mobilelightthemeicon01actionbartitlesearch-8CB54FCE-9389-4FD5-B72E-E33BEFB904C7@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
-.a12expandableappbar .mobile-lig-ubinfobtn1-Oix2tM {
-  background-color: rgba(57,57,57,1.0);
-  border-radius: 13px;
-  height: 26px;
-  left: 162px;
-  position: absolute;
-  top: 52px;
-  width: 62px;
-}
-.a12expandableappbar .mobile-lig-ubinfobtn1-PEUDMk {
-  background-color: rgba(57,57,57,1.0);
-  border-radius: 13px;
-  height: 26px;
-  left: 162px;
-  position: absolute;
-  top: 96px;
-  width: 62px;
-}
-.a12expandableappbar .mobile-lig-ubinfobtn1-UTYw8t {
-  background-color: rgba(57,57,57,1.0);
-  border-radius: 13px;
-  height: 26px;
-  left: 162px;
-  position: absolute;
-  top: 84px;
-  width: 62px;
-}
 .a12expandableappbar .mobile-lig-ubinfobtn1-WeFTRY {
   background-color: rgba(57,57,57,1.0);
   border-radius: 39px;
@@ -7779,78 +6431,6 @@ transform: scale(0.98);
   position: absolute;
   top: 851px;
   width: 186px;
-}
-.a12expandableappbar .mobile-lig-ubinfobtn1-fvIdWp {
-  background-color: rgba(57,57,57,1.0);
-  border-radius: 19.5px;
-  height: 39px;
-  left: 111px;
-  position: absolute;
-  top: 0px;
-  width: 93px;
-}
-.a12expandableappbar .mobile-lig-ubinfobtn1-mhhqU8 {
-  background-color: rgba(57,57,57,1.0);
-  border-radius: 26px;
-  height: 52px;
-  left: 148px;
-  position: absolute;
-  top: 0px;
-  width: 124px;
-}
-.a12expandableappbar .mobile-lig-ubinfobtn1-ryeswm {
-  background-color: rgba(57,57,57,1.0);
-  border-radius: 26px;
-  height: 52px;
-  left: 280px;
-  position: absolute;
-  top: 0px;
-  width: 256px;
-}
-.a12expandableappbar .mobile-lig-ubinfobtn1-wTaYwp {
-  background-color: rgba(57,57,57,1.0);
-  border-radius: 13px;
-  height: 26px;
-  left: 162px;
-  position: absolute;
-  top: 74px;
-  width: 62px;
-}
-.a12expandableappbar .mobile-lig-ubinfobtn1-xxyuxJ {
-  background-color: rgba(57,57,57,1.0);
-  border-radius: 13px;
-  height: 26px;
-  left: 162px;
-  position: absolute;
-  top: 96px;
-  width: 62px;
-}
-.a12expandableappbar .mobile-lig-ubinfobtn2-Oix2tM {
-  background-color: rgba(0,0,0,0.1);
-  border-radius: 13px;
-  height: 26px;
-  left: 88px;
-  position: absolute;
-  top: 52px;
-  width: 62px;
-}
-.a12expandableappbar .mobile-lig-ubinfobtn2-PEUDMk {
-  background-color: rgba(0,0,0,0.1);
-  border-radius: 13px;
-  height: 26px;
-  left: 88px;
-  position: absolute;
-  top: 96px;
-  width: 62px;
-}
-.a12expandableappbar .mobile-lig-ubinfobtn2-UTYw8t {
-  background-color: rgba(0,0,0,0.1);
-  border-radius: 13px;
-  height: 26px;
-  left: 88px;
-  position: absolute;
-  top: 84px;
-  width: 62px;
 }
 .a12expandableappbar .mobile-lig-ubinfobtn2-WeFTRY {
   background-color: rgba(0,0,0,0.1);
@@ -7861,169 +6441,16 @@ transform: scale(0.98);
   top: 693px;
   width: 186px;
 }
-.a12expandableappbar .mobile-lig-ubinfobtn2-fvIdWp {
-  background-color: rgba(0,0,0,0.1);
-  border-radius: 19.5px;
-  height: 39px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 93px;
-}
-.a12expandableappbar .mobile-lig-ubinfobtn2-mhhqU8 {
-  background-color: rgba(0,0,0,0.1);
-  border-radius: 26px;
-  height: 52px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 124px;
-}
-.a12expandableappbar .mobile-lig-ubinfobtn2-ryeswm {
-  background-color: rgba(0,0,0,0.1);
-  border-radius: 26px;
-  height: 52px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 256px;
-}
-.a12expandableappbar .mobile-lig-ubinfobtn2-wTaYwp {
-  background-color: rgba(0,0,0,0.1);
-  border-radius: 13px;
-  height: 26px;
-  left: 88px;
-  position: absolute;
-  top: 74px;
-  width: 62px;
-}
-.a12expandableappbar .mobile-lig-ubinfobtn2-xxyuxJ {
-  background-color: rgba(0,0,0,0.1);
-  border-radius: 13px;
-  height: 26px;
-  left: 88px;
-  position: absolute;
-  top: 96px;
-  width: 62px;
-}
-.a12expandableappbar .mobile-lig-um2linesub-LbXyCm {
-  background-color: var(--concrete);
-  height: 268px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .open-BJOzfZ {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 13px;
-  height: auto;
-  left: 13px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 5px;
-  white-space: nowrap;
-  width: 36px;
-}
-.a12expandableappbar .open-QxqFi9 {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 13px;
-  height: auto;
-  left: 13px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 5px;
-  white-space: nowrap;
-  width: 36px;
-}
-.a12expandableappbar .open-ZFu0Qx {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 26px;
-  height: auto;
-  left: 26px;
-  line-height: 30px;
-  position: absolute;
-  text-align: center;
-  top: 10px;
-  white-space: nowrap;
-  width: 72px;
-}
-.a12expandableappbar .open-b2K833 {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 13px;
-  height: auto;
-  left: 13px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 5px;
-  white-space: nowrap;
-  width: 36px;
-}
-.a12expandableappbar .open-fGxxIx {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 26px;
-  height: auto;
-  left: 26px;
-  line-height: 30px;
-  position: absolute;
-  text-align: center;
-  top: 10px;
-  white-space: nowrap;
-  width: 204px;
-}
-.a12expandableappbar .open-w4iJ7b {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 19px;
-  height: auto;
-  left: 20px;
-  line-height: 23px;
-  position: absolute;
-  text-align: center;
-  top: 8px;
-  white-space: nowrap;
-  width: 54px;
-}
-.a12expandableappbar .open-xUW341 {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 13px;
-  height: auto;
-  left: 13px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 5px;
-  white-space: nowrap;
-  width: 36px;
-}
-.a12expandableappbar .open-yk4EfK {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 13px;
-  height: auto;
-  left: 13px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 5px;
-  white-space: nowrap;
-  width: 36px;
-}
 .a12expandableappbar .open-zGyd2L {
   background-color: transparent;
   color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
   font-size: 39px;
+  font-style: normal;
+  font-weight: 400;
   height: auto;
   left: 39px;
+  letter-spacing: 0.00px;
   line-height: 46px;
   position: absolute;
   text-align: center;
@@ -9037,14 +7464,6 @@ transform: scale(0.98);
   position: absolute;
   top: 12px;
   width: 9px;
-}
-.a12expandableappbar .rectangle-25yTEJ {
-  background-color: var(--concrete);
-  height: 194px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 1024px;
 }
 .a12expandableappbar .rectangle-2UIdBi {
   background-color: rgba(255,204,0,1.0);
@@ -11246,375 +9665,6 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
-.a12expandableappbar .sample-title-1ACSbY {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
-.a12expandableappbar .sample-title-8oTLP0 {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
-.a12expandableappbar .sample-title-A2WUG7 {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
-.a12expandableappbar .sample-title-B0SDUD {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 15px;
-  height: auto;
-  left: 45px;
-  line-height: 18px;
-  position: absolute;
-  text-align: left;
-  top: 12px;
-  white-space: nowrap;
-  width: 664px;
-}
-.a12expandableappbar .sample-title-BF1tsJ {
-  background-color: transparent;
-  font-size: 38px;
-  height: 44px;
-  left: 0px;
-  line-height: 44px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 312px;
-}
-.a12expandableappbar .sample-title-FSnihR {
-  background-color: transparent;
-  font-size: 38px;
-  height: 88px;
-  left: 24px;
-  line-height: 44px;
-  position: absolute;
-  text-align: center;
-  top: 95px;
-  width: 752px;
-}
-.a12expandableappbar .sample-title-HFLxXl {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
-.a12expandableappbar .sample-title-Ktulxc {
-  background-color: transparent;
-  font-size: 38px;
-  height: 44px;
-  left: 24px;
-  line-height: 44px;
-  position: absolute;
-  text-align: center;
-  top: 100px;
-  white-space: nowrap;
-  width: 312px;
-}
-.a12expandableappbar .sample-title-Oix2tM {
-  background-color: transparent;
-  font-size: 38px;
-  height: 44px;
-  left: 0px;
-  line-height: 44px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: 312px;
-}
-.a12expandableappbar .sample-title-P9O4xP {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 504px;
-}
-.a12expandableappbar .sample-title-PEUDMk {
-  background-color: transparent;
-  font-size: 38px;
-  height: 88px;
-  left: 0px;
-  line-height: 44px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  width: 312px;
-}
-.a12expandableappbar .sample-title-UTBTUn {
-  background-color: transparent;
-  font-size: 38px;
-  height: 88px;
-  left: 0px;
-  line-height: 44px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  width: 312px;
-}
-.a12expandableappbar .sample-title-aEsCQ8 {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
-.a12expandableappbar .sample-title-ewnThk {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
-.a12expandableappbar .sample-title-fBMP1w {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
-.a12expandableappbar .sample-title-gIQeeP {
-  background-color: transparent;
-  font-size: 38px;
-  height: 88px;
-  left: 24px;
-  line-height: 44px;
-  position: absolute;
-  text-align: center;
-  top: 78px;
-  width: 312px;
-}
-.a12expandableappbar .sample-title-hlZTzS {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
-.a12expandableappbar .sample-title-hnYFtR {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
-.a12expandableappbar .sample-title-jD8hgE {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
-.a12expandableappbar .sample-title-mox12G {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
-.a12expandableappbar .sample-title-pbR2QM {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
-.a12expandableappbar .sample-title-qxxYkc {
-  background-color: transparent;
-  font-size: 38px;
-  height: 88px;
-  left: 24px;
-  line-height: 44px;
-  position: absolute;
-  text-align: center;
-  top: 78px;
-  width: 312px;
-}
-.a12expandableappbar .sample-title-rre5P9 {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
-.a12expandableappbar .sample-title-saXxjl {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
-.a12expandableappbar .sample-title-v4QmBD {
-  background-color: transparent;
-  font-size: 38px;
-  height: 88px;
-  left: 24px;
-  line-height: 44px;
-  position: absolute;
-  text-align: center;
-  top: 78px;
-  width: 312px;
-}
-.a12expandableappbar .sample-title-wxxr6U {
-  background-color: transparent;
-  font-size: 38px;
-  height: 88px;
-  left: 0px;
-  line-height: 44px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  width: 312px;
-}
-.a12expandableappbar .sample-title-xxyuxJ {
-  background-color: transparent;
-  font-size: 38px;
-  height: 88px;
-  left: 0px;
-  line-height: 44px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  width: 312px;
-}
-.a12expandableappbar .sample-title-yWIeay {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
-.a12expandableappbar .sample-title-zbDJoV {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
-.a12expandableappbar .sample-title-zocWlx {
-  background-color: transparent;
-  font-size: 30px;
-  height: 71px;
-  left: 19px;
-  line-height: 35px;
-  position: absolute;
-  text-align: center;
-  top: 43px;
-  width: 986px;
-}
 .a12expandableappbar .screeh-height-580-9-w3kCtX {
   background-color: transparent;
   color: var(--black);
@@ -11629,34 +9679,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 1240px;
 }
-.a12expandableappbar .screen-height-580--oTBxDG {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 27px;
-  opacity: 0.6;
-  position: absolute;
-  text-align: left;
-  top: 36px;
-  white-space: nowrap;
-  width: 1240px;
-}
-.a12expandableappbar .screen-height-580--w3kCtX {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 27px;
-  opacity: 0.6;
-  position: absolute;
-  text-align: left;
-  top: 36px;
-  white-space: nowrap;
-  width: 1240px;
-}
 .a12expandableappbar .screen-height-580-9-oTBxDG {
   background-color: transparent;
   color: var(--black);
@@ -11668,6 +9690,34 @@ transform: scale(0.98);
   position: absolute;
   text-align: left;
   top: 0px;
+  white-space: nowrap;
+  width: 1240px;
+}
+.a12expandableappbar .screen-height-580-oTBxDG {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 27px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 36px;
+  white-space: nowrap;
+  width: 1240px;
+}
+.a12expandableappbar .screen-height-580-w3kCtX {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 27px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 36px;
   white-space: nowrap;
   width: 1240px;
 }
@@ -12398,6 +10448,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .symbol-0xubsO {
   background-color: transparent;
+  background-image: url(../img/1-2-expandable-app-bar-1-02measurew360mpl012extendedappbar32-20AB6551-5685-4166-B859-EFF382960718@2x.png);
+  background-size: 100% 100%;
   height: 292px;
   left: 177px;
   position: absolute;
@@ -12406,6 +10458,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .symbol-AuTFDm {
   background-color: transparent;
+  background-image: url(../img/1-2-expandable-app-bar-1-02measurew360mpl012extendedappbar31-F9ACA2F9-0AAF-4B2D-82BE-DCEDADEA3AB3@2x.png);
+  background-size: 100% 100%;
   height: 292px;
   left: 178px;
   position: absolute;
@@ -12414,6 +10468,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .symbol-COKfJo {
   background-color: transparent;
+  background-image: url(../img/1-2-expandable-app-bar-1-02measurew360mpl012extendedappbar21-45773001-AC74-481A-AC9A-DA8BE0D2D4B8@2x.png);
+  background-size: 100% 100%;
   height: 292px;
   left: 177px;
   position: absolute;
@@ -12430,6 +10486,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .symbol-PTTxfc {
   background-color: transparent;
+  background-image: url(../img/1-2-expandable-app-bar-1-02measurew1280tll012extendedappbar12-BF899F2F-A259-46C8-ACB3-8123F2FDF916@2x.png);
+  background-size: 100% 100%;
   height: 195px;
   left: 123px;
   position: absolute;
@@ -12438,7 +10496,9 @@ transform: scale(0.98);
 }
 .a12expandableappbar .symbol-Q5Zn43 {
   background-color: transparent;
-  height: 316px;
+  background-image: url(../img/1-2-expandable-app-bar-1-02measurew360mpl012extendedappbar12-544FCE9B-B3D6-4A6C-912E-BC7872E6FBDB@2x.png);
+  background-size: 100% 100%;
+  height: 292px;
   left: 440px;
   position: absolute;
   top: 40px;
@@ -12462,6 +10522,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .symbol-Xjup9w {
   background-color: transparent;
+  background-image: url(../img/1-2-expandable-app-bar-1-02measurew360mpl012extendedappbar22-B1A13A81-C6B7-4C51-9DB5-499B18D02F62@2x.png);
+  background-size: 100% 100%;
   height: 292px;
   left: 178px;
   position: absolute;
@@ -12470,6 +10532,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .symbol-eYrc0G {
   background-color: transparent;
+  background-image: url(../img/1-2-expandable-app-bar-1-02measurew360mpl012extendedappbar11-E561CAE3-309E-4417-9D51-43AE370FD2C7@2x.png);
+  background-size: 100% 100%;
   height: 292px;
   left: 177px;
   position: absolute;
@@ -12478,7 +10542,9 @@ transform: scale(0.98);
 }
 .a12expandableappbar .symbol-lHbJe1 {
   background-color: transparent;
-  height: 338px;
+  background-image: url(../img/1-2-expandable-app-bar-1-02measurew800tpl012extendedappbar12-D1D2362D-D7C1-4552-A464-05E3C7F8B358@2x.png);
+  background-size: 100% 100%;
+  height: 326px;
   left: 220px;
   position: absolute;
   top: 40px;
@@ -12486,6 +10552,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .symbol-lrlIVN {
   background-color: transparent;
+  background-image: url(../img/1-2-expandable-app-bar-1-02measurew360mpl012extendedappbar12-544FCE9B-B3D6-4A6C-912E-BC7872E6FBDB@2x.png);
+  background-size: 100% 100%;
   height: 292px;
   left: 178px;
   position: absolute;
@@ -12504,7 +10572,6 @@ transform: scale(0.98);
   background-color: transparent;
   height: 52px;
   left: 0px;
-  overflow: hidden;
   position: absolute;
   top: 275px;
   width: 540px;
@@ -12513,7 +10580,6 @@ transform: scale(0.98);
   background-color: transparent;
   height: 52px;
   left: 0px;
-  overflow: hidden;
   position: absolute;
   top: 443px;
   width: 540px;
@@ -12790,30 +10856,6 @@ transform: scale(0.98);
   top: 0px;
   width: 202px;
 }
-.a12expandableappbar .tablet-lig-ault2linel-25yTEJ {
-  background-color: var(--concrete);
-  height: 175px;
-  left: 0px;
-  position: absolute;
-  top: 19px;
-  width: 1024px;
-}
-.a12expandableappbar .tablet-lig-fault2line-BCS9Tk {
-  background-color: var(--concrete);
-  height: 302px;
-  left: 0px;
-  position: absolute;
-  top: 24px;
-  width: 800px;
-}
-.a12expandableappbar .text-0m9U1D {
-  background-color: transparent;
-  height: 122px;
-  left: 24px;
-  position: absolute;
-  top: 61px;
-  width: 312px;
-}
 .a12expandableappbar .text-1NxwNP {
   background-color: transparent;
   color: var(--black);
@@ -12944,14 +10986,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a12expandableappbar .text-Fr1qUY {
-  background-color: transparent;
-  height: 111px;
-  left: 24px;
-  position: absolute;
-  top: 67px;
-  width: 312px;
-}
 .a12expandableappbar .text-FtEi0A {
   background-color: transparent;
   color: var(--black);
@@ -13002,14 +11036,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a12expandableappbar .text-LvZLdQ {
-  background-color: transparent;
-  height: 122px;
-  left: 24px;
-  position: absolute;
-  top: 61px;
-  width: 312px;
-}
 .a12expandableappbar .text-M7Ag1x {
   background-color: transparent;
   height: 88px;
@@ -13040,14 +11066,6 @@ transform: scale(0.98);
   left: 24px;
   position: absolute;
   top: 113px;
-  width: 312px;
-}
-.a12expandableappbar .text-NxS8Ug {
-  background-color: transparent;
-  height: 111px;
-  left: 24px;
-  position: absolute;
-  top: 67px;
   width: 312px;
 }
 .a12expandableappbar .text-OnVlwf {
@@ -13181,8 +11199,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .text-X2VOUo {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -13234,8 +11255,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .text-XwkQxW {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -13299,14 +11323,6 @@ transform: scale(0.98);
   left: 64px;
   position: absolute;
   top: 66px;
-  width: 312px;
-}
-.a12expandableappbar .text-bPuq4d {
-  background-color: transparent;
-  height: 67px;
-  left: 24px;
-  position: absolute;
-  top: 89px;
   width: 312px;
 }
 .a12expandableappbar .text-cIykfj {
@@ -13425,8 +11441,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .text-lxhwOD {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -13488,8 +11507,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .text-s4QoFE {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -13499,8 +11521,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .text-sTfeh3 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -13538,8 +11563,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .text-w7XwJI {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -13563,8 +11591,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .text-x5SoRQ {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -13688,13 +11719,8 @@ transform: scale(0.98);
 }
 .a12expandableappbar .title-C61RwL {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
   height: auto;
   left: 380px;
-  letter-spacing: 0.00px;
-  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -13895,82 +11921,82 @@ transform: scale(0.98);
 }
 .a12expandableappbar .typeface-0FlGdx {
   background-color: transparent;
-  height: 377px;
+  height: 379px;
   left: 735px;
   position: absolute;
-  top: 479px;
+  top: 477px;
   width: 505px;
 }
 .a12expandableappbar .typeface-Cl2Jzf {
   background-color: transparent;
-  height: 374px;
+  height: 376px;
   left: 735px;
   position: absolute;
-  top: 442px;
+  top: 440px;
   width: 505px;
 }
 .a12expandableappbar .typeface-EO5m28 {
   background-color: transparent;
-  height: 374px;
+  height: 376px;
   left: 735px;
   position: absolute;
-  top: 43px;
+  top: 41px;
   width: 505px;
 }
 .a12expandableappbar .typeface-Kg0Nh8 {
   background-color: transparent;
-  height: 379px;
+  height: 381px;
   left: 735px;
   position: absolute;
-  top: 43px;
+  top: 41px;
   width: 505px;
 }
 .a12expandableappbar .typeface-LdXtA0 {
   background-color: transparent;
-  height: 374px;
+  height: 376px;
   left: 735px;
   position: absolute;
-  top: 43px;
+  top: 41px;
   width: 505px;
 }
 .a12expandableappbar .typeface-ab3ECQ {
   background-color: transparent;
-  height: 374px;
+  height: 376px;
   left: 735px;
   position: absolute;
-  top: 442px;
+  top: 440px;
   width: 505px;
 }
 .a12expandableappbar .typeface-nVJU1d {
   background-color: transparent;
-  height: 374px;
+  height: 376px;
   left: 735px;
   position: absolute;
-  top: 43px;
+  top: 41px;
   width: 505px;
 }
 .a12expandableappbar .typeface-pGPlai {
   background-color: transparent;
-  height: 377px;
+  height: 379px;
   left: 735px;
   position: absolute;
-  top: 1221px;
+  top: 1219px;
   width: 505px;
 }
 .a12expandableappbar .typeface-qqxiWi {
   background-color: transparent;
-  height: 374px;
+  height: 376px;
   left: 735px;
   position: absolute;
-  top: 43px;
+  top: 41px;
   width: 505px;
 }
 .a12expandableappbar .typeface-rEqCvT {
   background-color: transparent;
-  height: 374px;
+  height: 376px;
   left: 735px;
   position: absolute;
-  top: 43px;
+  top: 41px;
   width: 505px;
 }
 .a12expandableappbar .value-0L9FdJ {
@@ -15518,28 +13544,14 @@ transform: scale(0.98);
 }
 .a12expandableappbar .web-app-ldhYbP {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size: 15px;
   height: auto;
   left: 0px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
   top: 0px;
   white-space: nowrap;
   width: 260px;
-}
-.a12expandableappbar .wifi-fx2zWI {
-  background-color: transparent;
-  height: 8px;
-  left: 0px;
-  opacity: 0.5;
-  position: absolute;
-  top: 1px;
-  width: 10px;
 }
 .a12expandableappbar .x-0M1sWn {
   background-color: transparent;
@@ -17628,8 +15640,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x0-overview-F1D8mf {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -17929,7 +15944,7 @@ transform: scale(0.98);
   width: 240px;
 }
 .a12expandableappbar .x1-02-measu-dappbar121-JtOmap {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 268px;
   left: 0px;
   position: absolute;
@@ -17937,7 +15952,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a12expandableappbar .x1-02-measu-dappbar122-JtOmap {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 268px;
   left: 400px;
   position: absolute;
@@ -17945,7 +15960,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a12expandableappbar .x1-02-measu-dappbar123-JtOmap {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 268px;
   left: 800px;
   position: absolute;
@@ -17953,7 +15968,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a12expandableappbar .x1-02-measu-dappbar221-Jf7GJ0 {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 268px;
   left: 0px;
   position: absolute;
@@ -17961,7 +15976,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a12expandableappbar .x1-02-measu-dappbar222-Jf7GJ0 {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 268px;
   left: 400px;
   position: absolute;
@@ -17969,39 +15984,23 @@ transform: scale(0.98);
   width: 360px;
 }
 .a12expandableappbar .x1-02-measu-dappbar223-Jf7GJ0 {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 268px;
   left: 800px;
   position: absolute;
   top: 0px;
   width: 360px;
 }
-.a12expandableappbar .x1-02-measu-dappbar311-2eJtBb {
-  background-color: var(--concrete);
-  height: 52px;
-  left: -90px;
-  position: relative;
-  top: 0px;
-  width: 720px;
-}
 .a12expandableappbar .x1-02-measu-dappbar311-WeFTRY {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 39px;
   left: 0px;
   position: absolute;
   top: 0px;
   width: 540px;
 }
-.a12expandableappbar .x1-02-measu-dappbar312-pbx1Nf {
-  background-color: var(--concrete);
-  height: 52px;
-  left: -90px;
-  position: relative;
-  top: 0px;
-  width: 720px;
-}
 .a12expandableappbar .x1-02-measu-dappbar321-mhP8tn {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 268px;
   left: 0px;
   position: absolute;
@@ -18009,7 +16008,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a12expandableappbar .x1-02-measu-dappbar322-mhP8tn {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 268px;
   left: 400px;
   position: absolute;
@@ -18017,82 +16016,10 @@ transform: scale(0.98);
   width: 360px;
 }
 .a12expandableappbar .x1-02-measu-dappbar323-mhP8tn {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 268px;
   left: 800px;
   position: absolute;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .x1-02-measu-edappbar11-SBUiLv {
-  background-color: var(--concrete);
-  height: 292px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .x1-02-measu-edappbar12-77BxLw {
-  background-color: var(--concrete);
-  height: 292px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .x1-02-measu-edappbar12-bakq2K {
-  background-color: transparent;
-  height: 195px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 1024px;
-}
-.a12expandableappbar .x1-02-measu-edappbar12-eN0eWQ {
-  background-color: var(--concrete);
-  height: 326px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 800px;
-}
-.a12expandableappbar .x1-02-measu-edappbar12-fm4uDG {
-  background-color: var(--concrete);
-  height: 292px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .x1-02-measu-edappbar21-c75rrt {
-  background-color: var(--concrete);
-  height: 292px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .x1-02-measu-edappbar22-sOxW92 {
-  background-color: var(--concrete);
-  height: 292px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .x1-02-measu-edappbar31-GIQn9a {
-  background-color: var(--concrete);
-  height: 292px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a12expandableappbar .x1-02-measu-edappbar32-105Eck {
-  background-color: var(--concrete);
-  height: 292px;
-  left: 0px;
-  position: relative;
   top: 0px;
   width: 360px;
 }
@@ -18400,8 +16327,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x10-search-NNxG7n {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -18411,8 +16341,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x11-toast-btzW57 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -18422,8 +16355,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x12-text-fields-HeAxYm {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -18433,8 +16369,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x13-view-controls-zQ2cQp {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -18444,8 +16383,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x14-description-0gVYB0 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -18455,8 +16397,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x15-notification-bad-PxzSYi {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -18466,8 +16411,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x16-thumbnail-u4LPIm {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -18477,8 +16425,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x17-copy-paste-mCSYrc {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -18488,8 +16439,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x2-buttons-m5qrCr {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -18499,8 +16453,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x3-controllers-dFIj0O {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -18510,8 +16467,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x4-dialogs-E6vWNu {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -18521,8 +16481,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x5-dividers-tpx2qA {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -18532,8 +16495,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x6-lists-evwMFw {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -18543,8 +16509,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x7-no-item-RNT9bT {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -18554,8 +16523,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x8-progress-O0jxdc {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -18565,8 +16537,11 @@ transform: scale(0.98);
 }
 .a12expandableappbar .x9-scrolling-0yxMw6 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -18584,42 +16559,44 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
 }
 .font-class-2 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
 }
 .font-class-3 {
-  color: var(--black);
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-  font-size: 15px;
-  line-height: 18px;
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
 .font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
-.font-class-5 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
+.font-class-5 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
+  line-height: 84px;
+}
 .font-class-6 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 500;
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
 }
 .font-class-7 {
-  color: var(--shark);
+  color: var(--black);
   font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 25px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
+  line-height: 30px;
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
-  --concrete: rgba(242,242,242,1.0);
+  --ebb: rgba(227,227,227,1.0);
   --electric-violet: rgba(102,0,255,1.0);
   --harlequin: rgba(51,204,0,1.0);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --royal-blue: rgba(75,99,250,1.0);
-  --shark: rgba(37,37,37,1.0);
   --white: rgba(255,255,255,1.0);
 }
