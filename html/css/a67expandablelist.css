@@ -3,9 +3,16 @@
 .a67expandablelist {
   background-color: rgba(245,246,247,1.0);
   height: 2918px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
+}
+.a67expandablelist .background-2VONx3 {
+  background-color: var(--white);
+  height: 1251px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
 }
 .a67expandablelist .basic-6bZd7E {
   background-color: transparent;
@@ -23,7 +30,7 @@
 }
 .a67expandablelist .basic-component-gui-uWkrmC {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 20px;
   height: auto;
   left: 0px;
@@ -173,85 +180,6 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: 1240px;
-}
-.a67expandablelist .dan-1I1P31 {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 272px;
-}
-.a67expandablelist .dan-IEW8fe {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 272px;
-}
-.a67expandablelist .dan-IyexFf {
-  background-color: transparent;
-  color: rgba(102,102,102,1.0);
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 294px;
-}
-.a67expandablelist .dan-Ztvt1x {
-  background-color: transparent;
-  color: rgba(102,102,102,1.0);
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 294px;
-}
-.a67expandablelist .dan-hwrZSx {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 272px;
-}
-.a67expandablelist .dan-jrxpbw {
-  background-color: transparent;
-  color: rgba(0,114,222,1.0);
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  opacity: 0.91;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 272px;
 }
 .a67expandablelist .dark-theme-LWmIFj {
   background-color: transparent;
@@ -881,7 +809,7 @@ transform: scale(0.98);
   width: 123px;
 }
 .a67expandablelist .group-9UqXix {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -1202,7 +1130,7 @@ transform: scale(0.98);
 }
 .a67expandablelist .guide-meas-horizontal-FmrkaA {
   background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-line-ACF89037-54C6-4853-9CE5-7721F6C2A9DD.png);
+  background-image: url(../img/6-7-expandable-list-line-F50B9326-2E96-4C41-83CE-05042DC4C6E8.png);
   background-size: 100% 100%;
   height: 2px;
   left: 0px;
@@ -1212,7 +1140,7 @@ transform: scale(0.98);
 }
 .a67expandablelist .guide-meas-horizontal-Zhwmj2 {
   background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-line-ACF89037-54C6-4853-9CE5-7721F6C2A9DD.png);
+  background-image: url(../img/6-7-expandable-list-line-F50B9326-2E96-4C41-83CE-05042DC4C6E8.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1222,7 +1150,7 @@ transform: scale(0.98);
 }
 .a67expandablelist .guide-meas-horizontal-gJfY2Y {
   background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-line-ACF89037-54C6-4853-9CE5-7721F6C2A9DD.png);
+  background-image: url(../img/6-7-expandable-list-line-F50B9326-2E96-4C41-83CE-05042DC4C6E8.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1295,7 +1223,7 @@ transform: scale(0.98);
   width: 294px;
 }
 .a67expandablelist .guide-measure-area-GWcjo7 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 170px;
   left: 0px;
   position: absolute;
@@ -1311,7 +1239,7 @@ transform: scale(0.98);
   width: 32px;
 }
 .a67expandablelist .guide-measure-area-I9FlNf {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 170px;
   left: 0px;
   position: absolute;
@@ -1319,7 +1247,7 @@ transform: scale(0.98);
   width: 16px;
 }
 .a67expandablelist .guide-measure-area-UvFrAd {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 170px;
   left: 0px;
   position: absolute;
@@ -1327,7 +1255,7 @@ transform: scale(0.98);
   width: 16px;
 }
 .a67expandablelist .guide-measure-area-Y6ZqE2 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 170px;
   left: 0px;
   position: absolute;
@@ -1335,7 +1263,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a67expandablelist .guide-measure-area-bDLjIp {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 56px;
   left: 0px;
   position: absolute;
@@ -1343,7 +1271,7 @@ transform: scale(0.98);
   width: 16px;
 }
 .a67expandablelist .guide-measure-area-cEnMWv {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 56px;
   left: 0px;
   position: absolute;
@@ -1400,7 +1328,7 @@ transform: scale(0.98);
 }
 .a67expandablelist .guide-numb-ring-image-hJDY3x {
   background-color: transparent;
-  background-image: url(../img/6-6-subheader-oval-B6C33896-5970-4844-B59B-2D416C63F194@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-67E53E6F-3704-4481-B7EF-881128117ECC@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 300px;
@@ -1410,27 +1338,27 @@ transform: scale(0.98);
 }
 .a67expandablelist .guide-numbering-icon-vcSZKy {
   background-color: transparent;
-  background-image: url(../img/6-6-subheader-oval-B6C33896-5970-4844-B59B-2D416C63F194@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-67E53E6F-3704-4481-B7EF-881128117ECC@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 2px;
+  top: 4px;
   width: 22px;
 }
 .a67expandablelist .guide-numbering-type-OuvhPW {
   background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-oval-83095BD0-9E9A-4717-853D-FD60374AAA97@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a67expandablelist .guide-numbering-type-hJDY3x {
   background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-oval-83095BD0-9E9A-4717-853D-FD60374AAA97@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 23px;
   left: 71px;
@@ -1440,17 +1368,17 @@ transform: scale(0.98);
 }
 .a67expandablelist .guide-numbering-type-iqxaPd {
   background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-oval-83095BD0-9E9A-4717-853D-FD60374AAA97@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a67expandablelist .guide-numbering-type-mJMkkv {
   background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-oval-83095BD0-9E9A-4717-853D-FD60374AAA97@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 31px;
@@ -1460,7 +1388,7 @@ transform: scale(0.98);
 }
 .a67expandablelist .guide-numbering-type-rVVwmp {
   background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-oval-83095BD0-9E9A-4717-853D-FD60374AAA97@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 12px;
@@ -1470,12 +1398,12 @@ transform: scale(0.98);
 }
 .a67expandablelist .guide-numbering-type-zRPYqH {
   background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-oval-83095BD0-9E9A-4717-853D-FD60374AAA97@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a67expandablelist .guide-property-OuvhPW {
@@ -1488,7 +1416,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -1502,7 +1430,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -1516,7 +1444,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -1530,41 +1458,41 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
 .a67expandablelist .guide-subject-image-OYko55 {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
-  top: 32px;
-  width: 135px;
+  top: 30px;
+  width: 465px;
 }
 .a67expandablelist .guide-subject-type-6UbOxf {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
-  top: 32px;
-  width: 121px;
+  top: 30px;
+  width: 465px;
 }
 .a67expandablelist .guide-subject-type-LWmIFj {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
-  top: 32px;
-  width: 121px;
+  top: 30px;
+  width: 465px;
 }
 .a67expandablelist .guide-subject-type-p0LLUH {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
-  top: 32px;
-  width: 121px;
+  top: 30px;
+  width: 465px;
 }
 .a67expandablelist .history-sqaDMv {
   background-color: transparent;
@@ -1664,22 +1592,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 333px;
 }
-.a67expandablelist .list01-afgbJj {
-  background-color: transparent;
-  height: 170px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a67expandablelist .list01-m0bn7Y {
-  background-color: transparent;
-  height: 170px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
 .a67expandablelist .measure-4ptlra {
   background-color: transparent;
   height: 246px;
@@ -1695,144 +1607,6 @@ transform: scale(0.98);
   position: absolute;
   top: 54px;
   width: 360px;
-}
-.a67expandablelist .mobile-dar-expandopen-X95VtU {
-  background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-mobiledarktheme03controllersexpandexpandopen-D585F225-12AF-4827-8BF6-0698E59D83C2@2x.png);
-  background-size: 100% 100%;
-  height: 10px;
-  left: 295px;
-  position: absolute;
-  top: 6px;
-  width: 19px;
-}
-.a67expandablelist .mobile-lig--list-text-0iB6TE {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 56px;
-  width: 320px;
-}
-.a67expandablelist .mobile-lig--list-text-CvyM0C {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 56px;
-  width: 320px;
-}
-.a67expandablelist .mobile-lig--list-text-G5NroW {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 113px;
-  width: 320px;
-}
-.a67expandablelist .mobile-lig--list-text-a6MJx9 {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 113px;
-  width: 320px;
-}
-.a67expandablelist .mobile-lig-expandable-0iB6TE {
-  background-color: transparent;
-  height: 21px;
-  left: 24px;
-  position: absolute;
-  top: 74px;
-  width: 314px;
-}
-.a67expandablelist .mobile-lig-expandable-G5NroW {
-  background-color: transparent;
-  height: 21px;
-  left: 24px;
-  position: absolute;
-  top: 131px;
-  width: 314px;
-}
-.a67expandablelist .mobile-lig-expandable-rhQARI {
-  background-color: transparent;
-  height: 21px;
-  left: 24px;
-  position: absolute;
-  top: 17px;
-  width: 314px;
-}
-.a67expandablelist .mobile-lig-leopenlist-CvyM0C {
-  background-color: transparent;
-  height: 21px;
-  left: 42px;
-  position: absolute;
-  top: 74px;
-  width: 294px;
-}
-.a67expandablelist .mobile-lig-leopenlist-a6MJx9 {
-  background-color: transparent;
-  height: 21px;
-  left: 42px;
-  position: absolute;
-  top: 131px;
-  width: 294px;
-}
-.a67expandablelist .mobile-lig-ndableopen-a6MJx9 {
-  background-color: transparent;
-  height: 21px;
-  left: 24px;
-  position: absolute;
-  top: 17px;
-  width: 314px;
-}
-.a67expandablelist .mobile-lig-rouplistbg-G5NroW {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 26px;
-  height: 170px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 360px;
-}
-.a67expandablelist .mobile-lig-rouplistbg-a6MJx9 {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 26px;
-  height: 170px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 360px;
-}
-.a67expandablelist .mobile-lig-xpandclose-1wtT0h {
-  background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-mobilelighttheme03controllersexpandexpandclose-0DDC38A2-12AF-4AD6-9B74-AE2732ED29D5@2x.png);
-  background-size: 100% 100%;
-  height: 10px;
-  left: 295px;
-  position: absolute;
-  top: 6px;
-  width: 19px;
-}
-.a67expandablelist .mobile-lig-xpandclose-K71o4L {
-  background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-mobilelighttheme03controllersexpandexpandclose-0DDC38A2-12AF-4AD6-9B74-AE2732ED29D5@2x.png);
-  background-size: 100% 100%;
-  height: 10px;
-  left: 295px;
-  position: absolute;
-  top: 6px;
-  width: 19px;
-}
-.a67expandablelist .mobile-lig-xpandclose-hSLrOA {
-  background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-mobilelighttheme03controllersexpandexpandclose-0DDC38A2-12AF-4AD6-9B74-AE2732ED29D5@2x.png);
-  background-size: 100% 100%;
-  height: 10px;
-  left: 295px;
-  position: absolute;
-  top: 6px;
-  width: 19px;
 }
 .a67expandablelist .note-6UbOxf {
   background-color: transparent;
@@ -2375,6 +2149,8 @@ transform: scale(0.98);
 }
 .a67expandablelist .symbol-4ptlra {
   background-color: transparent;
+  background-image: url(../img/6-7-expandable-list-6-07measurew360mpl068expandablelist2-661A6418-E138-4245-BA39-3B6450F3C89B@2x.png);
+  background-size: 100% 100%;
   height: 170px;
   left: 178px;
   position: absolute;
@@ -2383,6 +2159,8 @@ transform: scale(0.98);
 }
 .a67expandablelist .symbol-awjhiu {
   background-color: transparent;
+  background-image: url(../img/6-7-expandable-list-6-07measurew360mpl068expandablelist1-C20CC43A-7AFF-442A-8CB3-3B153584B2E1@2x.png);
+  background-size: 100% 100%;
   height: 170px;
   left: 178px;
   position: absolute;
@@ -2623,54 +2401,6 @@ transform: scale(0.98);
   top: 12px;
   white-space: nowrap;
   width: 218px;
-}
-.a67expandablelist .title-1wtT0h {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 272px;
-}
-.a67expandablelist .title-K71o4L {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 272px;
-}
-.a67expandablelist .title-QQBd6x {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 294px;
-}
-.a67expandablelist .title-X95VtU {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 272px;
-}
-.a67expandablelist .title-hSLrOA {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 272px;
-}
-.a67expandablelist .title-pDELjb {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 294px;
 }
 .a67expandablelist .type-XfSRJ3 {
   background-color: transparent;
@@ -3479,22 +3209,6 @@ transform: scale(0.98);
   top: 40px;
   width: 240px;
 }
-.a67expandablelist .x6-07-measu-dablelist1-HS675R {
-  background-color: var(--concrete);
-  height: 170px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a67expandablelist .x6-07-measu-dablelist2-ygPx6N {
-  background-color: var(--concrete);
-  height: 170px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
 .a67expandablelist .x6-7-expandable-list-C61RwL {
   background-color: transparent;
   height: auto;
@@ -3568,9 +3282,6 @@ transform: scale(0.98);
 .border-class-2 {
   border: 1px solid rgba(135,135,135,1.0);
 }
-.border-class-3 {
-  border: 1px solid rgba(143,143,143,1.0);
-}
 .font-class-1 {
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
 }
@@ -3581,25 +3292,15 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
 .font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
-.font-class-5 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
-.font-class-6 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 500;
-}
-.font-class-7 {
+.font-class-5 {
   color: var(--black);
   font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
   font-size: 70px;
   line-height: 84px;
 }
-.font-class-8 {
+.font-class-6 {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
@@ -3608,13 +3309,13 @@ transform: scale(0.98);
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
-  --concrete: rgba(242,242,242,1.0);
   --ebb: rgba(227,227,227,1.0);
   --harlequin: rgba(51,204,0,1.0);
+  --harlequin-2: rgba(51,204,0,0.37);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --royal-blue: rgba(75,99,250,1.0);
-  --shark: rgba(37,37,37,1.0);
   --white: rgba(255,255,255,1.0);
 }

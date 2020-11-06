@@ -3,61 +3,8 @@
 .a68multipleselectionlist {
   background-color: rgba(245,246,247,1.0);
   height: 3321px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
-}
-.a68multipleselectionlist .all-IzMp61 {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: center;
-  top: 43px;
-  white-space: nowrap;
-  width: 48px;
-}
-.a68multipleselectionlist .all-jGJyF0 {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 36px;
-  height: 42px;
-  left: 0px;
-  line-height: 42px;
-  position: absolute;
-  text-align: center;
-  top: 87px;
-  white-space: nowrap;
-  width: 96px;
-}
-.a68multipleselectionlist .all-lVwJub {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: center;
-  top: 44px;
-  white-space: nowrap;
-  width: 48px;
-}
-.a68multipleselectionlist .all-xeYx4N {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 36px;
-  height: 42px;
-  left: 0px;
-  line-height: 42px;
-  position: absolute;
-  text-align: center;
-  top: 87px;
-  white-space: nowrap;
-  width: 96px;
 }
 .a68multipleselectionlist .app-bar-BmCSwq {
   background-color: transparent;
@@ -80,6 +27,14 @@
   position: absolute;
   top: 194px;
   width: 1241px;
+}
+.a68multipleselectionlist .background-2VONx3 {
+  background-color: var(--white);
+  height: 1251px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
 }
 .a68multipleselectionlist .background-qY13tb {
   background-color: rgba(71,71,71,1.0);
@@ -119,7 +74,7 @@
 }
 .a68multipleselectionlist .basic-component-gui-uWkrmC {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 20px;
   height: auto;
   left: 0px;
@@ -861,22 +816,6 @@ transform: scale(0.98);
   top: 0px;
   width: 125px;
 }
-.a68multipleselectionlist .group-BxI3fx {
-  background-color: transparent;
-  height: 129px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 96px;
-}
-.a68multipleselectionlist .group-LLr6Is {
-  background-color: var(--concrete);
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a68multipleselectionlist .group-NurqJQ {
   background-color: transparent;
   height: 22px;
@@ -893,14 +832,6 @@ transform: scale(0.98);
   top: 0px;
   width: 68px;
 }
-.a68multipleselectionlist .group-Zmj8s3 {
-  background-color: var(--concrete);
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a68multipleselectionlist .group-g7Arx8 {
   background-color: transparent;
   height: 45px;
@@ -910,7 +841,7 @@ transform: scale(0.98);
   width: 260px;
 }
 .a68multipleselectionlist .group-iqYRN2 {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -932,14 +863,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 146px;
-}
-.a68multipleselectionlist .group-uVLWAV {
-  background-color: transparent;
-  height: 129px;
-  left: 54px;
-  position: relative;
-  top: 30px;
-  width: 96px;
 }
 .a68multipleselectionlist .group-x3qURV {
   background-color: transparent;
@@ -1143,7 +1066,7 @@ transform: scale(0.98);
 }
 .a68multipleselectionlist .guide-meas-e-vertical-5OvmKM {
   background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-line-9A374293-042B-46C4-A511-FC2654BD8218@2x.png);
+  background-image: url(../img/6-8-multiple-selection-list-line-6E5E800B-F27C-4FE2-BA4D-D5370E75BA8D@2x.png);
   background-size: 100% 100%;
   height: 33px;
   left: 112px;
@@ -1153,7 +1076,7 @@ transform: scale(0.98);
 }
 .a68multipleselectionlist .guide-meas-e-vertical-pbTJ1m {
   background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-line-9A374293-042B-46C4-A511-FC2654BD8218@2x.png);
+  background-image: url(../img/6-8-multiple-selection-list-line-6E5E800B-F27C-4FE2-BA4D-D5370E75BA8D@2x.png);
   background-size: 100% 100%;
   height: 33px;
   left: 112px;
@@ -1163,7 +1086,7 @@ transform: scale(0.98);
 }
 .a68multipleselectionlist .guide-meas-e-vertical-rhky3B {
   background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-line-9A374293-042B-46C4-A511-FC2654BD8218@2x.png);
+  background-image: url(../img/6-8-multiple-selection-list-line-6E5E800B-F27C-4FE2-BA4D-D5370E75BA8D@2x.png);
   background-size: 100% 100%;
   height: 33px;
   left: 65px;
@@ -1173,7 +1096,7 @@ transform: scale(0.98);
 }
 .a68multipleselectionlist .guide-meas-e-vertical-xzFq9W {
   background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-line-9A374293-042B-46C4-A511-FC2654BD8218@2x.png);
+  background-image: url(../img/6-8-multiple-selection-list-line-6E5E800B-F27C-4FE2-BA4D-D5370E75BA8D@2x.png);
   background-size: 100% 100%;
   height: 33px;
   left: 65px;
@@ -1239,7 +1162,7 @@ transform: scale(0.98);
 }
 .a68multipleselectionlist .guide-meas-horizontal-5OvmKM {
   background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-line-AFE72108-A938-4F05-BFD1-8870EED1CADE@2x.png);
+  background-image: url(../img/6-8-multiple-selection-list-line-E3CB5769-9D48-4E09-B756-FF4369F90DDF@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1249,7 +1172,7 @@ transform: scale(0.98);
 }
 .a68multipleselectionlist .guide-meas-horizontal-VxbDVE {
   background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-line-5DDF47F8-A3EE-4F6B-8901-CFF5B883D8AF@2x.png);
+  background-image: url(../img/6-8-multiple-selection-list-line-3C237DD1-F7CF-4397-8F96-BC07B5AA5543@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1259,7 +1182,7 @@ transform: scale(0.98);
 }
 .a68multipleselectionlist .guide-meas-horizontal-iFXPlx {
   background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-line-5DDF47F8-A3EE-4F6B-8901-CFF5B883D8AF@2x.png);
+  background-image: url(../img/6-8-multiple-selection-list-line-3C237DD1-F7CF-4397-8F96-BC07B5AA5543@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1269,7 +1192,7 @@ transform: scale(0.98);
 }
 .a68multipleselectionlist .guide-meas-horizontal-pbTJ1m {
   background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-line-AFE72108-A938-4F05-BFD1-8870EED1CADE@2x.png);
+  background-image: url(../img/6-8-multiple-selection-list-line-E3CB5769-9D48-4E09-B756-FF4369F90DDF@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1279,7 +1202,7 @@ transform: scale(0.98);
 }
 .a68multipleselectionlist .guide-meas-horizontal-rhky3B {
   background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-line-AFE72108-A938-4F05-BFD1-8870EED1CADE@2x.png);
+  background-image: url(../img/6-8-multiple-selection-list-line-E3CB5769-9D48-4E09-B756-FF4369F90DDF@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1289,7 +1212,7 @@ transform: scale(0.98);
 }
 .a68multipleselectionlist .guide-meas-horizontal-vqGbRx {
   background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-line-610E7725-9AA9-4128-A19D-2CD23E434851.png);
+  background-image: url(../img/6-8-multiple-selection-list-line-A76BC2D7-7942-407D-978E-27D2E065C0AB.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1299,7 +1222,7 @@ transform: scale(0.98);
 }
 .a68multipleselectionlist .guide-meas-horizontal-xzFq9W {
   background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-line-AFE72108-A938-4F05-BFD1-8870EED1CADE@2x.png);
+  background-image: url(../img/6-8-multiple-selection-list-line-E3CB5769-9D48-4E09-B756-FF4369F90DDF@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1340,7 +1263,7 @@ transform: scale(0.98);
   width: 48px;
 }
 .a68multipleselectionlist .guide-measure-area-B4cr4v {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 168px;
   left: 0px;
   position: absolute;
@@ -1356,7 +1279,7 @@ transform: scale(0.98);
   width: 96px;
 }
 .a68multipleselectionlist .guide-measure-area-IxJLMh {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1372,7 +1295,7 @@ transform: scale(0.98);
   width: 248px;
 }
 .a68multipleselectionlist .guide-measure-area-YxG6nt {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 9px;
   left: 0px;
   position: absolute;
@@ -1380,7 +1303,7 @@ transform: scale(0.98);
   width: 96px;
 }
 .a68multipleselectionlist .guide-measure-area-eXPtlE {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1388,7 +1311,7 @@ transform: scale(0.98);
   width: 27px;
 }
 .a68multipleselectionlist .guide-measure-area-g21igo {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 30px;
   left: 0px;
   position: absolute;
@@ -1396,7 +1319,7 @@ transform: scale(0.98);
   width: 96px;
 }
 .a68multipleselectionlist .guide-measure-area-i16Vi1 {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 12px;
   left: 0px;
   position: relative;
@@ -1428,7 +1351,7 @@ transform: scale(0.98);
   width: 96px;
 }
 .a68multipleselectionlist .guide-measure-area-xBVxmp {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1444,7 +1367,7 @@ transform: scale(0.98);
   width: 96px;
 }
 .a68multipleselectionlist .guide-measure-area-zar761 {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 12px;
   left: 0px;
   position: relative;
@@ -1453,7 +1376,7 @@ transform: scale(0.98);
 }
 .a68multipleselectionlist .guide-numb-ring-image-ieFODn {
   background-color: transparent;
-  background-image: url(../img/6-6-subheader-oval-B6C33896-5970-4844-B59B-2D416C63F194@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-67E53E6F-3704-4481-B7EF-881128117ECC@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 54px;
@@ -1463,37 +1386,37 @@ transform: scale(0.98);
 }
 .a68multipleselectionlist .guide-numbering-icon-hrpAMx {
   background-color: transparent;
-  background-image: url(../img/6-6-subheader-oval-B6C33896-5970-4844-B59B-2D416C63F194@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-67E53E6F-3704-4481-B7EF-881128117ECC@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 2px;
+  top: 4px;
   width: 22px;
 }
 .a68multipleselectionlist .guide-numbering-type-9dxuGK {
   background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-oval-83095BD0-9E9A-4717-853D-FD60374AAA97@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a68multipleselectionlist .guide-numbering-type-fVKthm {
   background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-oval-83095BD0-9E9A-4717-853D-FD60374AAA97@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a68multipleselectionlist .guide-numbering-type-ieFODn {
   background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-oval-83095BD0-9E9A-4717-853D-FD60374AAA97@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 23px;
   left: 280px;
@@ -1503,7 +1426,7 @@ transform: scale(0.98);
 }
 .a68multipleselectionlist .guide-numbering-type-zpqkZx {
   background-color: transparent;
-  background-image: url(../img/6-7-expandable-list-oval-83095BD0-9E9A-4717-853D-FD60374AAA97@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 89px;
@@ -1521,7 +1444,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -1535,7 +1458,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -1549,33 +1472,33 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
 .a68multipleselectionlist .guide-subject-image-WwLKak {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
-  top: 32px;
-  width: 135px;
+  top: 30px;
+  width: 465px;
 }
 .a68multipleselectionlist .guide-subject-type-IG7jTy {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
-  top: 32px;
-  width: 121px;
+  top: 30px;
+  width: 465px;
 }
 .a68multipleselectionlist .guide-subject-type-kEklxo {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
-  top: 32px;
-  width: 121px;
+  top: 30px;
+  width: 465px;
 }
 .a68multipleselectionlist .history-sqaDMv {
   background-color: transparent;
@@ -1682,116 +1605,6 @@ transform: scale(0.98);
   position: absolute;
   top: 347px;
   width: 616px;
-}
-.a68multipleselectionlist .menu-LNogO8 {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 27px;
-  height: auto;
-  left: 367px;
-  line-height: 32px;
-  position: absolute;
-  text-align: right;
-  top: 26px;
-  white-space: nowrap;
-  width: auto;
-}
-.a68multipleselectionlist .menu-ubSlxx {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 27px;
-  height: auto;
-  left: 367px;
-  line-height: 32px;
-  position: absolute;
-  text-align: right;
-  top: 25px;
-  white-space: nowrap;
-  width: auto;
-}
-.a68multipleselectionlist .mobile-lig-heckboxoff-IzMp61 {
-  background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-check-D9D0D917-BBC0-48C1-B45E-377B7EB85E93@2x.png);
-  background-size: 100% 100%;
-  height: 32px;
-  left: 8px;
-  position: absolute;
-  top: 8px;
-  width: 32px;
-}
-.a68multipleselectionlist .mobile-lig-heckboxoff-jGJyF0 {
-  background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-check-71AB0167-237D-4BA8-8DA5-2F809965E93B@2x.png);
-  background-size: 100% 100%;
-  height: 62px;
-  left: 17px;
-  position: absolute;
-  top: 17px;
-  width: 62px;
-}
-.a68multipleselectionlist .mobile-lig-heckboxoff-lVwJub {
-  background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-check-D9D0D917-BBC0-48C1-B45E-377B7EB85E93@2x.png);
-  background-size: 100% 100%;
-  height: 32px;
-  left: 8px;
-  position: absolute;
-  top: 8px;
-  width: 32px;
-}
-.a68multipleselectionlist .mobile-lig-heckboxoff-xeYx4N {
-  background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-check-71AB0167-237D-4BA8-8DA5-2F809965E93B@2x.png);
-  background-size: 100% 100%;
-  height: 62px;
-  left: 17px;
-  position: absolute;
-  top: 17px;
-  width: 62px;
-}
-.a68multipleselectionlist .mobile-lig-le2btntext-248WIU {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a68multipleselectionlist .mobile-lig-le2btntext-g245WJ {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: absolute;
-  top: 306px;
-  width: 540px;
-}
-.a68multipleselectionlist .mobile-lig-textbutton-3XWkte {
-  background-color: var(--concrete);
-  height: 402px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a68multipleselectionlist .mobile-lig-title-more-LNogO8 {
-  background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-mobilelightthemeicon01actionbartitlemore-8CEAF032-1972-4286-842F-A17C8C9933D6@2x.png);
-  background-size: 100% 100%;
-  height: 24px;
-  left: 489px;
-  position: absolute;
-  top: 30px;
-  width: 6px;
-}
-.a68multipleselectionlist .mobile-lig-title-more-ubSlxx {
-  background-color: transparent;
-  background-image: url(../img/6-8-multiple-selection-list-mobilelightthemeicon01actionbartitlemore-8CEAF032-1972-4286-842F-A17C8C9933D6@2x.png);
-  background-size: 100% 100%;
-  height: 24px;
-  left: 489px;
-  position: absolute;
-  top: 30px;
-  width: 6px;
 }
 .a68multipleselectionlist .note-WwLKak {
   background-color: transparent;
@@ -2368,23 +2181,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a68multipleselectionlist .sample-title-g245WJ {
-  background-color: transparent;
-  color: var(--shark);
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-size: 57px;
-  font-style: normal;
-  font-weight: 300;
-  height: 66px;
-  left: 36px;
-  letter-spacing: 0.00px;
-  line-height: 67px;
-  position: absolute;
-  text-align: center;
-  top: 150px;
-  white-space: nowrap;
-  width: 468px;
-}
 .a68multipleselectionlist .selected-addwp2 {
   background-color: transparent;
   color: var(--black);
@@ -2529,6 +2325,8 @@ transform: scale(0.98);
 }
 .a68multipleselectionlist .symbol-YJ5yxP {
   background-color: transparent;
+  background-image: url(../img/6-8-multiple-selection-list-6-08measurew360mpl069multipleselectionlist11-42095B45-7FCE-4096-A68C-58F43805864F@2x.png);
+  background-size: 100% 100%;
   height: 96px;
   left: 87px;
   position: absolute;
@@ -2537,6 +2335,8 @@ transform: scale(0.98);
 }
 .a68multipleselectionlist .symbol-kYWYBf {
   background-color: transparent;
+  background-image: url(../img/6-8-multiple-selection-list-6-08measurew360mpl069multipleselectionlist21-ACB3114E-38EA-4F0A-8CE3-3AC27A7548C5@2x.png);
+  background-size: 100% 100%;
   height: 402px;
   left: 369px;
   position: absolute;
@@ -2793,22 +2593,6 @@ transform: scale(0.98);
   position: absolute;
   top: 87px;
   width: 185px;
-}
-.a68multipleselectionlist .title-LNogO8 {
-  background-color: transparent;
-  height: 65px;
-  left: 27px;
-  position: absolute;
-  top: 15px;
-  width: 48px;
-}
-.a68multipleselectionlist .title-ubSlxx {
-  background-color: transparent;
-  height: 65px;
-  left: 27px;
-  position: absolute;
-  top: 15px;
-  width: 48px;
 }
 .a68multipleselectionlist .type-ACJZay {
   background-color: transparent;
@@ -3647,39 +3431,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.a68multipleselectionlist .x6-08-keysc-ctionlist1-6xApmx {
-  background-color: transparent;
-  height: 508px;
-  left: 330px;
-  position: absolute;
-  top: 40px;
-  width: 240px;
-}
-.a68multipleselectionlist .x6-08-keysc-ctionlist1-FWmKXP {
-  background-color: transparent;
-  height: 508px;
-  left: 70px;
-  position: absolute;
-  top: 40px;
-  width: 240px;
-}
-.a68multipleselectionlist .x6-08-keysc-ctionlist2-6xApmx {
-  background-color: transparent;
-  height: 508px;
-  left: 930px;
-  position: absolute;
-  top: 40px;
-  width: 240px;
-}
-.a68multipleselectionlist .x6-08-keysc-ctionlist2-FWmKXP {
-  background-color: transparent;
-  height: 508px;
-  left: 670px;
-  position: absolute;
-  top: 40px;
-  width: 240px;
-}
-.a68multipleselectionlist .x6-08-keysc-ctionlist3-1E55qy {
+.a68multipleselectionlist .x6-08-keysc-ctionlist1-1E55qy {
   background-color: transparent;
   height: 508px;
   left: 630px;
@@ -3687,7 +3439,7 @@ transform: scale(0.98);
   top: 40px;
   width: 240px;
 }
-.a68multipleselectionlist .x6-08-keysc-ctionlist3-lqAIBZ {
+.a68multipleselectionlist .x6-08-keysc-ctionlist1-lqAIBZ {
   background-color: transparent;
   height: 508px;
   left: 370px;
@@ -3695,16 +3447,40 @@ transform: scale(0.98);
   top: 40px;
   width: 240px;
 }
-.a68multipleselectionlist .x6-08-measu-tionlist11-bYVCo0 {
-  background-color: var(--concrete);
-  height: 96px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
+.a68multipleselectionlist .x6-08-keysc-tionlist21-6xApmx {
+  background-color: transparent;
+  height: 508px;
+  left: 330px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a68multipleselectionlist .x6-08-keysc-tionlist21-FWmKXP {
+  background-color: transparent;
+  height: 508px;
+  left: 70px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a68multipleselectionlist .x6-08-keysc-tionlist22-6xApmx {
+  background-color: transparent;
+  height: 508px;
+  left: 930px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a68multipleselectionlist .x6-08-keysc-tionlist22-FWmKXP {
+  background-color: transparent;
+  height: 508px;
+  left: 670px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
 }
 .a68multipleselectionlist .x6-08-measu-tionlist12-guNWYT {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 168px;
   left: 0px;
   position: absolute;
@@ -3712,20 +3488,12 @@ transform: scale(0.98);
   width: 150px;
 }
 .a68multipleselectionlist .x6-08-measu-tionlist13-guNWYT {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 129px;
   left: 363px;
   position: absolute;
   top: 30px;
   width: 96px;
-}
-.a68multipleselectionlist .x6-08-measu-tionlist21-gSEqTx {
-  background-color: var(--concrete);
-  height: 402px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
 }
 .a68multipleselectionlist .x6-8-multip-citon-list-C61RwL {
   background-color: transparent;
@@ -3751,32 +3519,6 @@ transform: scale(0.98);
   top: 12px;
   white-space: nowrap;
   width: 260px;
-}
-.a68multipleselectionlist .x6-selected-LNogO8 {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 28px;
-  height: auto;
-  left: 102px;
-  line-height: 33px;
-  position: absolute;
-  text-align: left;
-  top: 24px;
-  white-space: nowrap;
-  width: 262px;
-}
-.a68multipleselectionlist .x6-selected-ubSlxx {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 28px;
-  height: auto;
-  left: 102px;
-  line-height: 33px;
-  position: absolute;
-  text-align: left;
-  top: 24px;
-  white-space: nowrap;
-  width: 262px;
 }
 .a68multipleselectionlist .x7-no-item-BxN9Cc {
   background-color: transparent;
@@ -3826,9 +3568,6 @@ transform: scale(0.98);
 .border-class-2 {
   border: 1px solid rgba(135,135,135,1.0);
 }
-.border-class-3 {
-  border: 1px solid rgba(143,143,143,1.0);
-}
 .font-class-1 {
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
 }
@@ -3839,25 +3578,15 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
 .font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
-.font-class-5 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
-.font-class-6 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 500;
-}
-.font-class-7 {
+.font-class-5 {
   color: var(--black);
   font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
   font-size: 70px;
   line-height: 84px;
 }
-.font-class-8 {
+.font-class-6 {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
@@ -3866,13 +3595,13 @@ transform: scale(0.98);
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
-  --concrete: rgba(242,242,242,1.0);
   --ebb: rgba(227,227,227,1.0);
   --harlequin: rgba(51,204,0,1.0);
+  --harlequin-2: rgba(51,204,0,0.37);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --royal-blue: rgba(75,99,250,1.0);
-  --shark: rgba(37,37,37,1.0);
   --white: rgba(255,255,255,1.0);
 }

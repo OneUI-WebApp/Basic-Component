@@ -3,9 +3,16 @@
 .a64basiclist {
   background-color: rgba(245,246,247,1.0);
   height: 3890px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
+}
+.a64basiclist .background-2VONx3 {
+  background-color: var(--white);
+  height: 1251px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 320px;
 }
 .a64basiclist .background-xggNN8 {
   background-color: rgba(71,71,71,1.0);
@@ -112,7 +119,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-6N6Bm5 {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 203px;
@@ -125,7 +132,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-9zoeWa {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 127px;
@@ -138,7 +145,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-AJoQDZ {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 264px;
@@ -151,7 +158,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-CvnzBb {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 101px;
@@ -164,7 +171,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-OpgM2l {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 203px;
@@ -177,7 +184,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-QTvoMR {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 101px;
@@ -190,7 +197,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-R20UdH {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 127px;
@@ -203,7 +210,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-RQCDzH {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 129px;
@@ -216,7 +223,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-Sv9X0h {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 101px;
@@ -229,7 +236,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-Z1Tz3V {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 129px;
@@ -242,7 +249,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-cx7D6j {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 101px;
@@ -255,7 +262,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-f1bxVw {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 264px;
@@ -268,7 +275,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-i6PrwJ {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 132px;
@@ -281,7 +288,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-kArKNo {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 264px;
@@ -294,7 +301,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-m0KDpm {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 101px;
@@ -307,7 +314,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-pLnFcs {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 132px;
@@ -320,7 +327,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-rV0EeI {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 264px;
@@ -333,7 +340,7 @@ transform: scale(0.98);
 }
 .a64basiclist .comment-x8l1Yd {
   background-color: transparent;
-  color: var(--gray);
+  color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
   left: 101px;
@@ -1178,7 +1185,7 @@ transform: scale(0.98);
   width: 1240px;
 }
 .a64basiclist .group-9zoeWa {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -1249,14 +1256,6 @@ transform: scale(0.98);
   top: 83px;
   width: 1240px;
 }
-.a64basiclist .group-OnjxVd {
-  background-color: transparent;
-  height: 128px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a64basiclist .group-QTvoMR {
   background-color: rgba(71,71,71,1.0);
   height: 22px;
@@ -1274,7 +1273,7 @@ transform: scale(0.98);
   width: 122px;
 }
 .a64basiclist .group-R20UdH {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -1290,7 +1289,7 @@ transform: scale(0.98);
   width: 71px;
 }
 .a64basiclist .group-Sv9X0h {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 67px;
   position: absolute;
@@ -1305,16 +1304,8 @@ transform: scale(0.98);
   top: 0px;
   width: 71px;
 }
-.a64basiclist .group-aksgxl {
-  background-color: transparent;
-  height: 128px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a64basiclist .group-cx7D6j {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 67px;
   position: absolute;
@@ -1330,20 +1321,12 @@ transform: scale(0.98);
   width: 260px;
 }
 .a64basiclist .group-i6PrwJ {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
   top: 0px;
   width: 74px;
-}
-.a64basiclist .group-kdjxCW {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
 }
 .a64basiclist .group-lJyhNx {
   background-color: transparent;
@@ -1361,14 +1344,6 @@ transform: scale(0.98);
   top: 0px;
   width: 130px;
 }
-.a64basiclist .group-nOcers {
-  background-color: transparent;
-  height: 105px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a64basiclist .group-oO4Xug {
   background-color: transparent;
   height: 22px;
@@ -1378,7 +1353,7 @@ transform: scale(0.98);
   width: 122px;
 }
 .a64basiclist .group-pLnFcs {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
   position: absolute;
@@ -1400,14 +1375,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 141px;
-}
-.a64basiclist .group-sJT9ux {
-  background-color: transparent;
-  height: 105px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
 }
 .a64basiclist .group-vIbRmt {
   background-color: transparent;
@@ -1970,7 +1937,7 @@ transform: scale(0.98);
   width: 29px;
 }
 .a64basiclist .guide-measure-area-8NhYtf {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1978,7 +1945,7 @@ transform: scale(0.98);
   width: 36px;
 }
 .a64basiclist .guide-measure-area-9FvyXl {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 128px;
   left: 0px;
   position: absolute;
@@ -1986,7 +1953,7 @@ transform: scale(0.98);
   width: 36px;
 }
 .a64basiclist .guide-measure-area-AuxlB1 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 105px;
   left: 0px;
   position: absolute;
@@ -2002,7 +1969,7 @@ transform: scale(0.98);
   width: 468px;
 }
 .a64basiclist .guide-measure-area-Jj7J4Q {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 5px;
   left: 0px;
   position: absolute;
@@ -2018,7 +1985,7 @@ transform: scale(0.98);
   width: 468px;
 }
 .a64basiclist .guide-measure-area-RQuyXW {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 23px;
   left: 0px;
   position: absolute;
@@ -2026,7 +1993,7 @@ transform: scale(0.98);
   width: 468px;
 }
 .a64basiclist .guide-measure-area-SF23ck {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 22px;
   left: 0px;
   position: absolute;
@@ -2042,7 +2009,7 @@ transform: scale(0.98);
   width: 468px;
 }
 .a64basiclist .guide-measure-area-XceAev {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -2074,7 +2041,7 @@ transform: scale(0.98);
   width: 468px;
 }
 .a64basiclist .guide-measure-area-h8Qsp3 {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 128px;
   left: 0px;
   position: absolute;
@@ -2082,7 +2049,7 @@ transform: scale(0.98);
   width: 36px;
 }
 .a64basiclist .guide-measure-area-mnRdGL {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 23px;
   left: 0px;
   position: absolute;
@@ -2090,7 +2057,7 @@ transform: scale(0.98);
   width: 468px;
 }
 .a64basiclist .guide-measure-area-pXgZm5 {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 27px;
   left: 0px;
   position: absolute;
@@ -2098,7 +2065,7 @@ transform: scale(0.98);
   width: 468px;
 }
 .a64basiclist .guide-measure-area-qAKLES {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 6px;
   left: 0px;
   position: absolute;
@@ -2106,7 +2073,7 @@ transform: scale(0.98);
   width: 468px;
 }
 .a64basiclist .guide-measure-area-u14al0 {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 25px;
   left: 0px;
   position: absolute;
@@ -2114,7 +2081,7 @@ transform: scale(0.98);
   width: 468px;
 }
 .a64basiclist .guide-measure-area-u5bzxo {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 105px;
   left: 0px;
   position: absolute;
@@ -2122,7 +2089,7 @@ transform: scale(0.98);
   width: 36px;
 }
 .a64basiclist .guide-measure-area-xWff7n {
-  background-color: rgba(51,204,0,0.37);
+  background-color: var(--harlequin-2);
   height: 22px;
   left: 0px;
   position: absolute;
@@ -2139,17 +2106,17 @@ transform: scale(0.98);
 }
 .a64basiclist .guide-numbering-type-DxknPV {
   background-color: transparent;
-  background-image: url(../img/6-4-basic-list-oval-EBCDD170-C69B-4690-8E8B-E4BDF8D15A7A@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a64basiclist .guide-numbering-type-FQsYdl {
   background-color: transparent;
-  background-image: url(../img/6-4-basic-list-oval-EBCDD170-C69B-4690-8E8B-E4BDF8D15A7A@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 67px;
@@ -2159,7 +2126,7 @@ transform: scale(0.98);
 }
 .a64basiclist .guide-numbering-type-PX2xoC {
   background-color: transparent;
-  background-image: url(../img/6-4-basic-list-oval-EBCDD170-C69B-4690-8E8B-E4BDF8D15A7A@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 64px;
@@ -2169,27 +2136,27 @@ transform: scale(0.98);
 }
 .a64basiclist .guide-numbering-type-QGLlUN {
   background-color: transparent;
-  background-image: url(../img/6-4-basic-list-oval-EBCDD170-C69B-4690-8E8B-E4BDF8D15A7A@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a64basiclist .guide-numbering-type-TC9Vb6 {
   background-color: transparent;
-  background-image: url(../img/6-4-basic-list-oval-EBCDD170-C69B-4690-8E8B-E4BDF8D15A7A@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a64basiclist .guide-numbering-type-iQqyXg {
   background-color: transparent;
-  background-image: url(../img/6-4-basic-list-oval-EBCDD170-C69B-4690-8E8B-E4BDF8D15A7A@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2199,7 +2166,7 @@ transform: scale(0.98);
 }
 .a64basiclist .guide-numbering-type-juJKdQ {
   background-color: transparent;
-  background-image: url(../img/6-4-basic-list-oval-EBCDD170-C69B-4690-8E8B-E4BDF8D15A7A@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 58px;
@@ -2209,17 +2176,17 @@ transform: scale(0.98);
 }
 .a64basiclist .guide-numbering-type-kuFZ8t {
   background-color: transparent;
-  background-image: url(../img/6-4-basic-list-oval-EBCDD170-C69B-4690-8E8B-E4BDF8D15A7A@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a64basiclist .guide-numbering-type-tQopQC {
   background-color: transparent;
-  background-image: url(../img/6-4-basic-list-oval-EBCDD170-C69B-4690-8E8B-E4BDF8D15A7A@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2229,12 +2196,12 @@ transform: scale(0.98);
 }
 .a64basiclist .guide-numbering-type-vNCP1x {
   background-color: transparent;
-  background-image: url(../img/6-4-basic-list-oval-EBCDD170-C69B-4690-8E8B-E4BDF8D15A7A@2x.png);
+  background-image: url(../img/6-7-expandable-list-oval-1AB442EB-EC2E-4E8A-A8EC-82F2568389D0@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
   position: absolute;
-  top: 1px;
+  top: 3px;
   width: 22px;
 }
 .a64basiclist .guide-property-DxknPV {
@@ -2247,7 +2214,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -2261,7 +2228,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -2275,7 +2242,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -2289,7 +2256,7 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
@@ -2303,49 +2270,49 @@ transform: scale(0.98);
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  top: 0px;
+  top: 2px;
   white-space: nowrap;
   width: auto;
 }
 .a64basiclist .guide-subject-type-0pYDZe {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
-  top: 32px;
-  width: 121px;
+  top: 30px;
+  width: 465px;
 }
 .a64basiclist .guide-subject-type-nNKN2i {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
-  top: 32px;
-  width: 121px;
+  top: 30px;
+  width: 465px;
 }
 .a64basiclist .guide-subject-type-s0zfgg {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
-  top: 32px;
-  width: 121px;
+  top: 30px;
+  width: 465px;
 }
 .a64basiclist .guide-subject-type-sh7K0m {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
-  top: 32px;
-  width: 121px;
+  top: 30px;
+  width: 465px;
 }
 .a64basiclist .guide-subject-type-vo4ZNy {
   background-color: transparent;
-  height: 26px;
+  height: 54px;
   left: 20px;
   position: absolute;
-  top: 32px;
-  width: 121px;
+  top: 30px;
+  width: 465px;
 }
 .a64basiclist .guide-xxxgXJ {
   background-color: transparent;
@@ -2357,8 +2324,11 @@ transform: scale(0.98);
 }
 .a64basiclist .history-sqaDMv {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2412,71 +2382,6 @@ transform: scale(0.98);
   top: 246px;
   width: 465px;
 }
-.a64basiclist .main-text-1-line-cqFZWr {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 27px;
-  height: 32px;
-  left: 0px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 468px;
-}
-.a64basiclist .main-text-CrdKEx {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 27px;
-  height: 32px;
-  left: 0px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 468px;
-}
-.a64basiclist .main-text-Ipyi3M {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 27px;
-  height: 32px;
-  left: 0px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 468px;
-}
-.a64basiclist .main-text-TuY7tS {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 27px;
-  height: 32px;
-  left: 0px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 468px;
-}
-.a64basiclist .main-text-b2WSDA {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 27px;
-  height: 32px;
-  left: 0px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 468px;
-}
 .a64basiclist .measure-EwE3sv {
   background-color: transparent;
   height: 61px;
@@ -2516,91 +2421,6 @@ transform: scale(0.98);
   position: absolute;
   top: 230px;
   width: 616px;
-}
-.a64basiclist .mobile-lig-basic1line-9Zb27Q {
-  background-color: transparent;
-  height: 33px;
-  left: 36px;
-  position: absolute;
-  top: 25px;
-  width: 468px;
-}
-.a64basiclist .mobile-lig-basic3line-PcFO1E {
-  background-color: transparent;
-  height: 85px;
-  left: 36px;
-  position: absolute;
-  top: 22px;
-  width: 468px;
-}
-.a64basiclist .mobile-lig-basic3line-pZFyJm {
-  background-color: transparent;
-  height: 85px;
-  left: 36px;
-  position: absolute;
-  top: 22px;
-  width: 468px;
-}
-.a64basiclist .mobile-lig-primarysub-20zmyX {
-  background-color: transparent;
-  height: 62px;
-  left: 36px;
-  position: absolute;
-  top: 22px;
-  width: 468px;
-}
-.a64basiclist .mobile-lig-primarysub-YxSVoH {
-  background-color: transparent;
-  height: 62px;
-  left: 36px;
-  position: absolute;
-  top: 22px;
-  width: 468px;
-}
-.a64basiclist .mobile-lig-rouplistbg-20zmyX {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 39px;
-  height: 105px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 540px;
-}
-.a64basiclist .mobile-lig-rouplistbg-9Zb27Q {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 39px;
-  height: 84px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 540px;
-}
-.a64basiclist .mobile-lig-rouplistbg-PcFO1E {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 39px;
-  height: 128px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 540px;
-}
-.a64basiclist .mobile-lig-rouplistbg-YxSVoH {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 39px;
-  height: 105px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 540px;
-}
-.a64basiclist .mobile-lig-rouplistbg-pZFyJm {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 39px;
-  height: 128px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 540px;
 }
 .a64basiclist .property-0iV4xV {
   background-color: transparent;
@@ -3579,58 +3399,10 @@ transform: scale(0.98);
   top: 57px;
   width: 542px;
 }
-.a64basiclist .subtext-CrdKEx {
-  background-color: transparent;
-  color: rgba(144,144,144,1.0);
-  font-size: 19px;
-  height: 46px;
-  left: 0px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 37px;
-  width: 468px;
-}
-.a64basiclist .subtext-Ipyi3M {
-  background-color: transparent;
-  color: rgba(144,144,144,1.0);
-  font-size: 19px;
-  height: 46px;
-  left: 0px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 37px;
-  width: 468px;
-}
-.a64basiclist .subtext-TuY7tS {
-  background-color: transparent;
-  color: rgba(0,114,222,1.0);
-  font-size: 19px;
-  height: 23px;
-  left: 0px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 37px;
-  white-space: nowrap;
-  width: 468px;
-}
-.a64basiclist .subtext-b2WSDA {
-  background-color: transparent;
-  color: rgba(0,114,222,1.0);
-  font-size: 19px;
-  height: 23px;
-  left: 0px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 38px;
-  white-space: nowrap;
-  width: 468px;
-}
 .a64basiclist .symbol-EwE3sv {
   background-color: transparent;
+  background-image: url(../img/6-4-basic-list-6-04measurew360mpl064basiclist13-31554871-CDFA-40F7-AF1C-62071385F067@2x.png);
+  background-size: 100% 100%;
   height: 128px;
   left: 88px;
   position: absolute;
@@ -3639,6 +3411,8 @@ transform: scale(0.98);
 }
 .a64basiclist .symbol-J9Kynj {
   background-color: transparent;
+  background-image: url(../img/6-4-basic-list-6-04measurew360mpl064basiclist13-31554871-CDFA-40F7-AF1C-62071385F067@2x.png);
+  background-size: 100% 100%;
   height: 128px;
   left: 88px;
   position: absolute;
@@ -3647,6 +3421,8 @@ transform: scale(0.98);
 }
 .a64basiclist .symbol-JkSMYE {
   background-color: transparent;
+  background-image: url(../img/6-4-basic-list-6-04measurew360mpl064basiclist12-9D584771-3DFC-47B9-B8D9-971E6451ED4C@2x.png);
+  background-size: 100% 100%;
   height: 105px;
   left: 88px;
   position: absolute;
@@ -3655,6 +3431,8 @@ transform: scale(0.98);
 }
 .a64basiclist .symbol-kn8KCV {
   background-color: transparent;
+  background-image: url(../img/6-4-basic-list-6-04measurew360mpl064basiclist12-9D584771-3DFC-47B9-B8D9-971E6451ED4C@2x.png);
+  background-size: 100% 100%;
   height: 105px;
   left: 88px;
   position: absolute;
@@ -3663,6 +3441,8 @@ transform: scale(0.98);
 }
 .a64basiclist .symbol-qI3xfA {
   background-color: transparent;
+  background-image: url(../img/6-4-basic-list-6-04measurew360mpl064basiclist11-369CE924-6C2A-4867-9B8E-AFD4E8FEB551@2x.png);
+  background-size: 100% 100%;
   height: 84px;
   left: 88px;
   position: absolute;
@@ -3671,8 +3451,11 @@ transform: scale(0.98);
 }
 .a64basiclist .text-5YI8Yt {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3696,8 +3479,11 @@ transform: scale(0.98);
 }
 .a64basiclist .text-6Oe3De {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3737,8 +3523,11 @@ transform: scale(0.98);
 }
 .a64basiclist .text-Rz9tRi {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3803,8 +3592,11 @@ transform: scale(0.98);
 }
 .a64basiclist .text-Yax7ap {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3828,8 +3620,11 @@ transform: scale(0.98);
 }
 .a64basiclist .text-fLVbfk {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3855,8 +3650,11 @@ transform: scale(0.98);
 }
 .a64basiclist .text-o08Gqg {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3888,54 +3686,17 @@ transform: scale(0.98);
 }
 .a64basiclist .text-xnufTh {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
   top: 12px;
   white-space: nowrap;
   width: 218px;
-}
-.a64basiclist .title-Muyg5y {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 1px;
-  width: 468px;
-}
-.a64basiclist .title-Y9PS6o {
-  background-color: transparent;
-  height: 32px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 468px;
-}
-.a64basiclist .title-eKeliO {
-  background-color: transparent;
-  height: 61px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 468px;
-}
-.a64basiclist .title-fKKR9o {
-  background-color: transparent;
-  height: 61px;
-  left: 0px;
-  position: relative;
-  top: 1px;
-  width: 468px;
-}
-.a64basiclist .title-o0kU33 {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 1px;
-  width: 468px;
 }
 .a64basiclist .type-9Vf7jY {
   background-color: transparent;
@@ -4518,13 +4279,8 @@ transform: scale(0.98);
 }
 .a64basiclist .web-app-uWkrmC {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size: 15px;
   height: auto;
   left: 0px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5289,8 +5045,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x0-overview-mG9dio {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5414,8 +5173,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x1-app-bar-MoIq6x {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5473,8 +5235,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x10-search-dKzFAO {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5484,8 +5249,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x11-toast-ZFBMgo {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5495,8 +5263,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x12-text-fields-uistzh {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5506,8 +5277,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x13-view-controls-ADKFwL {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5517,8 +5291,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x14-description-hlHzCO {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5528,8 +5305,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x15-notification-bad-VYA6Mh {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5539,8 +5319,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x16-thumbnail-saB2O5 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5550,8 +5333,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x17-copy-paste-XrAYc4 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5583,8 +5369,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x2-buttons-cfscnQ {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5616,8 +5405,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x3-controllers-B52sLV {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5649,8 +5441,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x4-dialogs-t91r2X {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5660,8 +5455,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x5-dividers-AFQcG2 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5669,7 +5467,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.a64basiclist .x6-04-keysc-basiclist1-SyEuNN {
+.a64basiclist .x6-04-keysc--basiclist-SyEuNN {
   background-color: transparent;
   height: 508px;
   left: 370px;
@@ -5677,7 +5475,7 @@ transform: scale(0.98);
   top: 40px;
   width: 240px;
 }
-.a64basiclist .x6-04-keysc-basiclist1-TDa2X0 {
+.a64basiclist .x6-04-keysc--basiclist-TDa2X0 {
   background-color: transparent;
   height: 508px;
   left: 630px;
@@ -5685,55 +5483,10 @@ transform: scale(0.98);
   top: 40px;
   width: 240px;
 }
-.a64basiclist .x6-04-measu-asiclist11-Yv3Sxn {
-  background-color: var(--concrete);
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a64basiclist .x6-04-measu-asiclist12-bHh4bU {
-  background-color: var(--concrete);
-  height: 105px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a64basiclist .x6-04-measu-asiclist12-xy4Ksu {
-  background-color: var(--concrete);
-  height: 105px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a64basiclist .x6-04-measu-asiclist13-GUl2J4 {
-  background-color: var(--concrete);
-  height: 128px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a64basiclist .x6-04-measu-asiclist13-W4NNTC {
-  background-color: var(--concrete);
-  height: 128px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a64basiclist .x6-4-basic-list-C61RwL {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
   height: auto;
   left: 380px;
-  letter-spacing: 0.00px;
-  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -5757,8 +5510,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x7-no-item-BxN9Cc {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5768,8 +5524,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x8-progress-S7Q5wn {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5779,8 +5538,11 @@ transform: scale(0.98);
 }
 .a64basiclist .x9-scrolling-eyiB4A {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -5788,33 +5550,44 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
+.border-class-1 {
+  border: 1px solid rgba(237,237,237,1.0);
+}
+.border-class-2 {
+  border: 1px solid rgba(135,135,135,1.0);
+}
 .font-class-1 {
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
 }
 .font-class-2 {
-  color: var(--black);
   font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-  font-size: 15px;
-  line-height: 18px;
 }
 .font-class-3 {
   font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
 .font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
 .font-class-5 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
+  line-height: 84px;
+}
+.font-class-6 {
+  color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
-  --concrete: rgba(242,242,242,1.0);
   --ebb: rgba(227,227,227,1.0);
-  --gray: rgba(145,145,145,1.0);
   --harlequin: rgba(51,204,0,1.0);
+  --harlequin-2: rgba(51,204,0,0.37);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --royal-blue: rgba(75,99,250,1.0);

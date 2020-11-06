@@ -3,7 +3,6 @@
 .a92boundaryfeedback {
   background-color: rgba(245,246,247,1.0);
   height: 1476px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
 }
@@ -16,7 +15,7 @@
   width: 1240px;
 }
 .a92boundaryfeedback .background-8CKIxa {
-  background-color: rgba(71,71,71,1.0);
+  background-color: var(--gravel);
   height: 22px;
   left: 0px;
   position: absolute;
@@ -33,7 +32,7 @@
 }
 .a92boundaryfeedback .basic-component-gui-XPalTL {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 20px;
   height: auto;
   left: 0px;
@@ -102,15 +101,6 @@ transform: scale(0.98);
   position: absolute;
   top: 1351px;
   width: 274px;
-}
-.a92boundaryfeedback .feedback-6NCW5U {
-  background-color: transparent;
-  height: 23px;
-  left: 0px;
-  opacity: 0.15;
-  position: absolute;
-  top: 280px;
-  width: 360px;
 }
 .a92boundaryfeedback .fn-8CKIxa {
   background-color: transparent;
@@ -560,14 +550,6 @@ transform: scale(0.98);
   top: 688px;
   width: 1240px;
 }
-.a92boundaryfeedback .group-ExHZnj {
-  background-color: var(--concrete);
-  height: 56px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
 .a92boundaryfeedback .group-NdGADx {
   background-color: transparent;
   height: 45px;
@@ -585,7 +567,7 @@ transform: scale(0.98);
   width: 33px;
 }
 .a92boundaryfeedback .group-pt6Rux {
-  background-color: rgba(71,71,71,1.0);
+  background-color: var(--gravel);
   height: 22px;
   left: 67px;
   position: absolute;
@@ -650,7 +632,7 @@ transform: scale(0.98);
 }
 .a92boundaryfeedback .guide-numb-ring-shape-GCl1Xj {
   background-color: transparent;
-  background-image: url(../img/9-2-boundary-feedback-oval-EE35EDAD-8CCA-4184-9E46-CD59D00BB25A@2x.png);
+  background-image: url(../img/9-2-boundary-feedback-oval-1010FB9A-EE66-4217-8075-DCAB3AF70B1B@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 346px;
@@ -660,7 +642,7 @@ transform: scale(0.98);
 }
 .a92boundaryfeedback .guide-numbering-icon-dHhFRf {
   background-color: transparent;
-  background-image: url(../img/9-2-boundary-feedback-oval-EE35EDAD-8CCA-4184-9E46-CD59D00BB25A@2x.png);
+  background-image: url(../img/9-2-boundary-feedback-oval-1010FB9A-EE66-4217-8075-DCAB3AF70B1B@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -725,52 +707,6 @@ transform: scale(0.98);
   top: 82px;
   width: 465px;
 }
-.a92boundaryfeedback .mobile-lig-fault2line-6NCW5U {
-  background-color: var(--concrete);
-  height: 292px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 360px;
-}
-.a92boundaryfeedback .mobile-lig-n2btn-back-sKHkpl {
-  background-color: transparent;
-  height: 56px;
-  left: 0px;
-  position: absolute;
-  top: 222px;
-  width: 360px;
-}
-.a92boundaryfeedback .mobile-lig-title-back-sXGrox {
-  background-color: transparent;
-  background-image: url(../img/9-2-boundary-feedback-mobilelightthemeicon01actionbartitleback-C7651D55-6FA2-41BE-A248-8DE8ECFE71BA@2x.png);
-  background-size: 100% 100%;
-  height: 20px;
-  left: 26px;
-  position: absolute;
-  top: 18px;
-  width: 10px;
-}
-.a92boundaryfeedback .mobile-lig-title-more-sXGrox {
-  background-color: transparent;
-  background-image: url(../img/9-2-boundary-feedback-mobilelightthemeicon01actionbartitlemore-A0838637-7D49-4E32-AF2E-75DAC8683C1A@2x.png);
-  background-size: 100% 100%;
-  height: 16px;
-  left: 326px;
-  position: absolute;
-  top: 20px;
-  width: 4px;
-}
-.a92boundaryfeedback .mobile-lig-tle-search-sXGrox {
-  background-color: transparent;
-  background-image: url(../img/9-2-boundary-feedback-mobilelightthemeicon01actionbartitlesearch-64C6F0D1-1846-4019-85D0-89B4670636B5@2x.png);
-  background-size: 100% 100%;
-  height: 18px;
-  left: 280px;
-  position: absolute;
-  top: 19px;
-  width: 18px;
-}
 .a92boundaryfeedback .property-6sIM4x {
   background-color: transparent;
   color: var(--masala);
@@ -831,37 +767,10 @@ transform: scale(0.98);
   top: 0px;
   width: 320px;
 }
-.a92boundaryfeedback .sample-title-sKHkpl {
-  background-color: transparent;
-  color: var(--shark);
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-size: 38px;
-  font-style: normal;
-  font-weight: 300;
-  height: 96px;
-  left: 24px;
-  letter-spacing: 0.00px;
-  line-height: 44px;
-  position: absolute;
-  text-align: center;
-  top: 85px;
-  width: 312px;
-}
-.a92boundaryfeedback .sample-title-sXGrox {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 19px;
-  height: auto;
-  left: 56px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 206px;
-}
 .a92boundaryfeedback .symbol-GCl1Xj {
   background-color: transparent;
+  background-image: url(../img/9-2-boundary-feedback-9-02measurew360mpl092boundaryfeedback-F73EAC5C-0902-4EE7-A523-CBE4B5AD2FAE@2x.png);
+  background-size: 100% 100%;
   height: 304px;
   left: 177px;
   position: absolute;
@@ -1365,14 +1274,6 @@ transform: scale(0.98);
   top: 40px;
   width: 240px;
 }
-.a92boundaryfeedback .x9-02-measu-ryfeedback-9HUTUj {
-  background-color: var(--concrete);
-  height: 304px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
 .a92boundaryfeedback .x9-scrolling-ghUwrY {
   background-color: transparent;
   color: var(--black);
@@ -1402,20 +1303,15 @@ transform: scale(0.98);
 .font-class-4 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
-.font-class-5 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
 :root {
   --black: rgba(0,0,0,1.0);
   --bon-jour: rgba(224,224,224,1.0);
   --concrete: rgba(242,242,242,1.0);
   --ebb: rgba(227,227,227,1.0);
+  --gravel: rgba(71,71,71,1.0);
   --harlequin: rgba(51,204,0,1.0);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --royal-blue: rgba(75,99,250,1.0);
-  --shark: rgba(37,37,37,1.0);
   --white: rgba(255,255,255,1.0);
 }

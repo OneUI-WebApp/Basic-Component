@@ -3,7 +3,6 @@
 .a22containedbutton {
   background-color: rgba(245,246,247,1.0);
   height: 10353px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
 }
@@ -229,9 +228,13 @@ transform: scale(0.98);
 .a22containedbutton .button-4OvRxx {
   background-color: transparent;
   color: rgba(37,37,37,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
   font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
   height: 40px;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 40px;
   position: absolute;
   text-align: center;
@@ -239,213 +242,22 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 334px;
 }
-.a22containedbutton .button-6VFKxd {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 17px;
-  height: 20px;
-  left: 16px;
-  line-height: 20px;
-  position: absolute;
-  text-align: center;
-  top: 12px;
-  white-space: nowrap;
-  width: 292px;
-}
-.a22containedbutton .button-7j8lb6 {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 22px;
-  height: 26px;
-  left: 24px;
-  line-height: 26px;
-  opacity: 0.4;
-  position: absolute;
-  text-align: center;
-  top: 13px;
-  white-space: nowrap;
-  width: 81px;
-}
-.a22containedbutton .button-7nmip5 {
-  background-color: rgba(0,0,0,0.06);
-  border-radius: 27px;
-  height: 54px;
-  left: 0px;
-  opacity: 0.4;
-  position: absolute;
-  top: 0px;
-  width: 129px;
-}
-.a22containedbutton .button-FOKow3 {
-  background-color: transparent;
-  color: var(--alabaster);
-  font-size: 17px;
-  height: 20px;
-  left: 16px;
-  line-height: 20px;
-  position: absolute;
-  text-align: center;
-  top: 12px;
-  white-space: nowrap;
-  width: 292px;
-}
-.a22containedbutton .button-KOPFz4 {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 17px;
-  height: 20px;
-  left: 16px;
-  line-height: 20px;
-  position: absolute;
-  text-align: center;
-  top: 12px;
-  white-space: nowrap;
-  width: 238px;
-}
-.a22containedbutton .button-KxVEaz {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 25px;
-  height: 30px;
-  left: 24px;
-  line-height: 30px;
-  position: absolute;
-  text-align: center;
-  top: 18px;
-  white-space: nowrap;
-  width: 180px;
-}
 .a22containedbutton .button-MalDXo {
   background-color: transparent;
   color: rgba(37,37,37,1.0);
+  font-family: 'Roboto', Helvetica, Arial, serif;
   font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
   height: 35px;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 35px;
   position: absolute;
   text-align: center;
   top: 18px;
   white-space: nowrap;
   width: 108px;
-}
-.a22containedbutton .button-NxsxMF {
-  background-color: transparent;
-  height: 44px;
-  left: 64px;
-  position: absolute;
-  top: 120px;
-  width: 672px;
-}
-.a22containedbutton .button-RNiRMZ {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 17px;
-  height: 40px;
-  left: 16px;
-  line-height: 20px;
-  position: absolute;
-  text-align: center;
-  top: 12px;
-  width: 238px;
-}
-.a22containedbutton .button-ecjthx {
-  background-color: transparent;
-  color: var(--alabaster);
-  font-size: 17px;
-  height: 20px;
-  left: 16px;
-  line-height: 20px;
-  position: absolute;
-  text-align: center;
-  top: 12px;
-  white-space: nowrap;
-  width: 208px;
-}
-.a22containedbutton .button-ixlYVi {
-  background-color: transparent;
-  color: var(--alabaster);
-  font-size: 30px;
-  height: 35px;
-  left: 32px;
-  line-height: 35px;
-  position: absolute;
-  text-align: center;
-  top: 18px;
-  white-space: nowrap;
-  width: 148px;
-}
-.a22containedbutton .button-k21jdB {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 25px;
-  height: 30px;
-  left: 24px;
-  line-height: 30px;
-  position: absolute;
-  text-align: center;
-  top: 18px;
-  white-space: nowrap;
-  width: 180px;
-}
-.a22containedbutton .button-pS5u6X {
-  background-color: transparent;
-  color: var(--alabaster);
-  font-size: 25px;
-  height: 30px;
-  left: 24px;
-  line-height: 30px;
-  position: absolute;
-  text-align: center;
-  top: 18px;
-  white-space: nowrap;
-  width: 180px;
-}
-.a22containedbutton .button-rzRVAX {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 22px;
-  height: 26px;
-  left: 24px;
-  line-height: 26px;
-  position: absolute;
-  text-align: center;
-  top: 13px;
-  white-space: nowrap;
-  width: 81px;
-}
-.a22containedbutton .button-tJJDeY {
-  background-color: transparent;
-  color: var(--alabaster);
-  font-size: 25px;
-  height: 30px;
-  left: 24px;
-  line-height: 30px;
-  position: absolute;
-  text-align: center;
-  top: 18px;
-  white-space: nowrap;
-  width: 180px;
-}
-.a22containedbutton .button-xOftnx {
-  background-color: transparent;
-  height: 44px;
-  left: 64px;
-  position: absolute;
-  top: 120px;
-  width: 672px;
-}
-.a22containedbutton .button-yMxC7c {
-  background-color: transparent;
-  color: rgba(37,37,37,1.0);
-  font-size: 17px;
-  height: 20px;
-  left: 16px;
-  line-height: 20px;
-  position: absolute;
-  text-align: center;
-  top: 12px;
-  white-space: nowrap;
-  width: 208px;
 }
 .a22containedbutton .case-1-high-emphasis-Yv8bnx {
   background-color: transparent;
@@ -931,7 +743,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-16PBHL {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 275px;
   left: 0px;
   position: absolute;
@@ -940,7 +752,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-1OxNzI {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -949,7 +761,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-4GnsOa {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 301px;
   left: 0px;
   position: absolute;
@@ -958,7 +770,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-5XslZR {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 1054px;
   left: 0px;
   position: absolute;
@@ -967,7 +779,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-85cEAC {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 377px;
   left: 0px;
   position: absolute;
@@ -976,7 +788,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-A9aoxY {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -985,7 +797,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-BdsFKW {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 326px;
   left: 0px;
   position: absolute;
@@ -994,7 +806,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-I9jW9q {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 515px;
   left: 0px;
   position: absolute;
@@ -1003,7 +815,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-IVNWh6 {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 303px;
   left: 0px;
   position: absolute;
@@ -1012,7 +824,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-L2ylWz {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 200px;
   left: 0px;
   position: absolute;
@@ -1021,7 +833,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-PVNDSN {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 558px;
   left: 0px;
   position: absolute;
@@ -1030,7 +842,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-Rz1z7J {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 515px;
   left: 0px;
   position: absolute;
@@ -1039,7 +851,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-YOVf0a {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 238px;
   left: 0px;
   position: absolute;
@@ -1048,7 +860,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-YS4HFf {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 1201px;
   left: 0px;
   position: absolute;
@@ -1057,7 +869,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-YpxXkC {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 916px;
   left: 0px;
   position: absolute;
@@ -1066,7 +878,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-bhBWwg {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 326px;
   left: 0px;
   position: absolute;
@@ -1075,7 +887,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-bz3uxC {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 219px;
   left: 0px;
   position: absolute;
@@ -1084,7 +896,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-dPpKsx {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 512px;
   left: 0px;
   position: absolute;
@@ -1093,7 +905,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-g5wJq4 {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 238px;
   left: 0px;
   position: absolute;
@@ -1102,7 +914,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-n8NrV0 {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 259px;
   left: 0px;
   position: absolute;
@@ -1111,7 +923,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-rZOiIF {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 257px;
   left: 0px;
   position: absolute;
@@ -1120,7 +932,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-xTGskI {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -1159,7 +971,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .fn-1xAWQD {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -1172,7 +984,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .fn-4AjWZx {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -1198,7 +1010,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .fn-GBv7Lx {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -1263,7 +1075,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .fn-dxp46S {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -1276,7 +1088,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .fn-eus53X {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -1302,7 +1114,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .fn-o8Wt6m {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -1328,7 +1140,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .fn-u2sHH3 {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -3261,7 +3073,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-2Ma41A {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9AD00F45-89EE-4CA6-BB6B-DA62E44AA218@2x.png);
+  background-image: url(../img/2-2-contained-button-line-C5BEA047-0EFA-4764-8647-173E60E4727D@2x.png);
   background-size: 100% 100%;
   height: 114px;
   left: 31px;
@@ -3271,7 +3083,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-3XlFDH {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-C20F7D08-0C08-43C9-8D00-13128BEBF7B2@2x.png);
+  background-image: url(../img/2-2-contained-button-line-0D81CE9C-9C60-47BE-85F9-3215FC79DA3F@2x.png);
   background-size: 100% 100%;
   height: 9px;
   left: 29px;
@@ -3281,7 +3093,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-6mBDAv {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-F7033824-B326-43DD-9D1E-C251A7ED2C27@2x.png);
+  background-image: url(../img/2-2-contained-button-line-1E4247A9-52E6-49B2-A9EB-F5B1815463DB@2x.png);
   background-size: 100% 100%;
   height: 63px;
   left: 269px;
@@ -3291,7 +3103,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-BG5kti {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-F7033824-B326-43DD-9D1E-C251A7ED2C27@2x.png);
+  background-image: url(../img/2-2-contained-button-line-1E4247A9-52E6-49B2-A9EB-F5B1815463DB@2x.png);
   background-size: 100% 100%;
   height: 63px;
   left: 0px;
@@ -3301,7 +3113,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-CRAk3m {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9EC33885-8A57-4800-AAD1-8F96BC11F7A3@2x.png);
+  background-image: url(../img/2-2-contained-button-line-177D86DD-346E-4485-9535-9C46BFB361E8@2x.png);
   background-size: 100% 100%;
   height: 44px;
   left: 239px;
@@ -3311,7 +3123,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-Ct0JYP {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9EC33885-8A57-4800-AAD1-8F96BC11F7A3@2x.png);
+  background-image: url(../img/2-2-contained-button-line-177D86DD-346E-4485-9535-9C46BFB361E8@2x.png);
   background-size: 100% 100%;
   height: 44px;
   left: 431px;
@@ -3321,7 +3133,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-FKG83Z {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9EC33885-8A57-4800-AAD1-8F96BC11F7A3@2x.png);
+  background-image: url(../img/2-2-contained-button-line-177D86DD-346E-4485-9535-9C46BFB361E8@2x.png);
   background-size: 100% 100%;
   height: 44px;
   left: 0px;
@@ -3331,7 +3143,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-GKxlL3 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9EC33885-8A57-4800-AAD1-8F96BC11F7A3@2x.png);
+  background-image: url(../img/2-2-contained-button-line-177D86DD-346E-4485-9535-9C46BFB361E8@2x.png);
   background-size: 100% 100%;
   height: 44px;
   left: 0px;
@@ -3341,7 +3153,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-HN7bnx {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9AD00F45-89EE-4CA6-BB6B-DA62E44AA218@2x.png);
+  background-image: url(../img/2-2-contained-button-line-C5BEA047-0EFA-4764-8647-173E60E4727D@2x.png);
   background-size: 100% 100%;
   height: 114px;
   left: 0px;
@@ -3351,7 +3163,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-JSGdxZ {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-4D1A0113-87A6-4F1F-AA4B-39E0A3103788@2x.png);
+  background-image: url(../img/2-2-contained-button-line-B07CE19E-FAF5-4F80-A7CF-C09660C8C37E@2x.png);
   background-size: 100% 100%;
   height: 9px;
   left: 227px;
@@ -3361,7 +3173,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-Ki0PhN {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-C20F7D08-0C08-43C9-8D00-13128BEBF7B2@2x.png);
+  background-image: url(../img/2-2-contained-button-line-0D81CE9C-9C60-47BE-85F9-3215FC79DA3F@2x.png);
   background-size: 100% 100%;
   height: 9px;
   left: 29px;
@@ -3371,7 +3183,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-LAr2Wv {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-F7033824-B326-43DD-9D1E-C251A7ED2C27@2x.png);
+  background-image: url(../img/2-2-contained-button-line-1E4247A9-52E6-49B2-A9EB-F5B1815463DB@2x.png);
   background-size: 100% 100%;
   height: 63px;
   left: 431px;
@@ -3381,7 +3193,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-MrnsUJ {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-5CCA3467-F0E0-4F5A-9E10-B709DF2D8D22@2x.png);
+  background-image: url(../img/2-2-contained-button-line-C496F67D-6D96-4C93-A42E-9461C7111A27@2x.png);
   background-size: 100% 100%;
   height: 38px;
   left: 719px;
@@ -3391,7 +3203,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-NF1KYc {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9EC33885-8A57-4800-AAD1-8F96BC11F7A3@2x.png);
+  background-image: url(../img/2-2-contained-button-line-177D86DD-346E-4485-9535-9C46BFB361E8@2x.png);
   background-size: 100% 100%;
   height: 44px;
   left: 269px;
@@ -3401,7 +3213,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-OduDyD {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-4D1A0113-87A6-4F1F-AA4B-39E0A3103788@2x.png);
+  background-image: url(../img/2-2-contained-button-line-B07CE19E-FAF5-4F80-A7CF-C09660C8C37E@2x.png);
   background-size: 100% 100%;
   height: 9px;
   left: 0px;
@@ -3411,7 +3223,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-RqosVm {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-5CCA3467-F0E0-4F5A-9E10-B709DF2D8D22@2x.png);
+  background-image: url(../img/2-2-contained-button-line-C496F67D-6D96-4C93-A42E-9461C7111A27@2x.png);
   background-size: 100% 100%;
   height: 38px;
   left: 719px;
@@ -3421,7 +3233,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-Ty810Y {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-5CCA3467-F0E0-4F5A-9E10-B709DF2D8D22@2x.png);
+  background-image: url(../img/2-2-contained-button-line-C496F67D-6D96-4C93-A42E-9461C7111A27@2x.png);
   background-size: 100% 100%;
   height: 38px;
   left: 719px;
@@ -3431,7 +3243,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-UAUJrD {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-C20F7D08-0C08-43C9-8D00-13128BEBF7B2@2x.png);
+  background-image: url(../img/2-2-contained-button-line-0D81CE9C-9C60-47BE-85F9-3215FC79DA3F@2x.png);
   background-size: 100% 100%;
   height: 9px;
   left: 6px;
@@ -3441,7 +3253,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-XHTR58 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-5CCA3467-F0E0-4F5A-9E10-B709DF2D8D22@2x.png);
+  background-image: url(../img/2-2-contained-button-line-C496F67D-6D96-4C93-A42E-9461C7111A27@2x.png);
   background-size: 100% 100%;
   height: 38px;
   left: 0px;
@@ -3451,7 +3263,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-YvoMCx {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-F7033824-B326-43DD-9D1E-C251A7ED2C27@2x.png);
+  background-image: url(../img/2-2-contained-button-line-1E4247A9-52E6-49B2-A9EB-F5B1815463DB@2x.png);
   background-size: 100% 100%;
   height: 63px;
   left: 0px;
@@ -3461,7 +3273,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-gbXo0R {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-5CCA3467-F0E0-4F5A-9E10-B709DF2D8D22@2x.png);
+  background-image: url(../img/2-2-contained-button-line-C496F67D-6D96-4C93-A42E-9461C7111A27@2x.png);
   background-size: 100% 100%;
   height: 38px;
   left: 0px;
@@ -3471,7 +3283,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-iXLekp {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-4D1A0113-87A6-4F1F-AA4B-39E0A3103788@2x.png);
+  background-image: url(../img/2-2-contained-button-line-B07CE19E-FAF5-4F80-A7CF-C09660C8C37E@2x.png);
   background-size: 100% 100%;
   height: 9px;
   left: 227px;
@@ -3481,7 +3293,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-jlTKEY {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9EC33885-8A57-4800-AAD1-8F96BC11F7A3@2x.png);
+  background-image: url(../img/2-2-contained-button-line-177D86DD-346E-4485-9535-9C46BFB361E8@2x.png);
   background-size: 100% 100%;
   height: 44px;
   left: 0px;
@@ -3491,7 +3303,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-jxtGMV {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-C20F7D08-0C08-43C9-8D00-13128BEBF7B2@2x.png);
+  background-image: url(../img/2-2-contained-button-line-0D81CE9C-9C60-47BE-85F9-3215FC79DA3F@2x.png);
   background-size: 100% 100%;
   height: 9px;
   left: 6px;
@@ -3501,7 +3313,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-lcItWt {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-C20F7D08-0C08-43C9-8D00-13128BEBF7B2@2x.png);
+  background-image: url(../img/2-2-contained-button-line-0D81CE9C-9C60-47BE-85F9-3215FC79DA3F@2x.png);
   background-size: 100% 100%;
   height: 9px;
   left: 29px;
@@ -3511,7 +3323,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-mAgzIW {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-C20F7D08-0C08-43C9-8D00-13128BEBF7B2@2x.png);
+  background-image: url(../img/2-2-contained-button-line-0D81CE9C-9C60-47BE-85F9-3215FC79DA3F@2x.png);
   background-size: 100% 100%;
   height: 9px;
   left: 6px;
@@ -3521,7 +3333,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-nYe3AS {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9AD00F45-89EE-4CA6-BB6B-DA62E44AA218@2x.png);
+  background-image: url(../img/2-2-contained-button-line-C5BEA047-0EFA-4764-8647-173E60E4727D@2x.png);
   background-size: 100% 100%;
   height: 114px;
   left: 719px;
@@ -3531,7 +3343,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-nq3RbY {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9AD00F45-89EE-4CA6-BB6B-DA62E44AA218@2x.png);
+  background-image: url(../img/2-2-contained-button-line-C5BEA047-0EFA-4764-8647-173E60E4727D@2x.png);
   background-size: 100% 100%;
   height: 114px;
   left: 750px;
@@ -3541,7 +3353,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-tnnjol {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-4D1A0113-87A6-4F1F-AA4B-39E0A3103788@2x.png);
+  background-image: url(../img/2-2-contained-button-line-B07CE19E-FAF5-4F80-A7CF-C09660C8C37E@2x.png);
   background-size: 100% 100%;
   height: 9px;
   left: 0px;
@@ -3551,7 +3363,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-uPxfGl {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-5CCA3467-F0E0-4F5A-9E10-B709DF2D8D22@2x.png);
+  background-image: url(../img/2-2-contained-button-line-C496F67D-6D96-4C93-A42E-9461C7111A27@2x.png);
   background-size: 100% 100%;
   height: 38px;
   left: 0px;
@@ -3561,7 +3373,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-uSbxxm {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-C20F7D08-0C08-43C9-8D00-13128BEBF7B2@2x.png);
+  background-image: url(../img/2-2-contained-button-line-0D81CE9C-9C60-47BE-85F9-3215FC79DA3F@2x.png);
   background-size: 100% 100%;
   height: 9px;
   left: 314px;
@@ -3571,7 +3383,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-uXOxnd {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-C20F7D08-0C08-43C9-8D00-13128BEBF7B2@2x.png);
+  background-image: url(../img/2-2-contained-button-line-0D81CE9C-9C60-47BE-85F9-3215FC79DA3F@2x.png);
   background-size: 100% 100%;
   height: 9px;
   left: 337px;
@@ -3653,7 +3465,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-horizontal-2Ma41A {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-3927E837-0A39-4319-89F7-8633F429AC73@2x.png);
+  background-image: url(../img/2-2-contained-button-line-BE31DF40-C0A0-4332-A5F1-2CD78F8B8FF3@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 727px;
@@ -3663,7 +3475,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-horizontal-DFbugx {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-3927E837-0A39-4319-89F7-8633F429AC73@2x.png);
+  background-image: url(../img/2-2-contained-button-line-BE31DF40-C0A0-4332-A5F1-2CD78F8B8FF3@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 734px;
@@ -3673,7 +3485,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-horizontal-KxHwaI {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-3927E837-0A39-4319-89F7-8633F429AC73@2x.png);
+  background-image: url(../img/2-2-contained-button-line-BE31DF40-C0A0-4332-A5F1-2CD78F8B8FF3@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 734px;
@@ -3683,7 +3495,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-horizontal-OgMj7u {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-0596FD8D-2F0B-4724-8835-2435588E0AD4@2x.png);
+  background-image: url(../img/2-2-contained-button-line-CBF273B3-21C7-4D06-8808-C84E2F950FBE@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 129px;
@@ -3693,7 +3505,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-horizontal-ZzJSId {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-0596FD8D-2F0B-4724-8835-2435588E0AD4@2x.png);
+  background-image: url(../img/2-2-contained-button-line-CBF273B3-21C7-4D06-8808-C84E2F950FBE@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 129px;
@@ -3703,7 +3515,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-horizontal-eYmTgQ {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-0596FD8D-2F0B-4724-8835-2435588E0AD4@2x.png);
+  background-image: url(../img/2-2-contained-button-line-CBF273B3-21C7-4D06-8808-C84E2F950FBE@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 542px;
@@ -3713,7 +3525,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-horizontal-nq3RbY {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-3927E837-0A39-4319-89F7-8633F429AC73@2x.png);
+  background-image: url(../img/2-2-contained-button-line-BE31DF40-C0A0-4332-A5F1-2CD78F8B8FF3@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 727px;
@@ -3723,7 +3535,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-horizontal-uR4pQu {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-0596FD8D-2F0B-4724-8835-2435588E0AD4@2x.png);
+  background-image: url(../img/2-2-contained-button-line-CBF273B3-21C7-4D06-8808-C84E2F950FBE@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 542px;
@@ -4381,7 +4193,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numb-ring-shape-3lcOVf {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-A14DD227-1043-4E07-AB99-7938087A3288@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-1F206272-DBF5-4D4C-AC12-4E8B68548ECF@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 25px;
@@ -4391,7 +4203,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numb-ring-shape-IVNWh6 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-A14DD227-1043-4E07-AB99-7938087A3288@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-1F206272-DBF5-4D4C-AC12-4E8B68548ECF@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 253px;
@@ -4401,7 +4213,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numb-ring-shape-i61Uqa {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-A14DD227-1043-4E07-AB99-7938087A3288@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-1F206272-DBF5-4D4C-AC12-4E8B68548ECF@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 2px;
@@ -4411,7 +4223,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numb-ring-shape-xJF9iY {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-A14DD227-1043-4E07-AB99-7938087A3288@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-1F206272-DBF5-4D4C-AC12-4E8B68548ECF@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 314px;
@@ -4421,7 +4233,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-icon-j3aFZz {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-A14DD227-1043-4E07-AB99-7938087A3288@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-1F206272-DBF5-4D4C-AC12-4E8B68548ECF@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4431,7 +4243,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-icon-tSbidp {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-A14DD227-1043-4E07-AB99-7938087A3288@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-1F206272-DBF5-4D4C-AC12-4E8B68548ECF@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4441,7 +4253,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-icon-xsiLM2 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-A14DD227-1043-4E07-AB99-7938087A3288@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-1F206272-DBF5-4D4C-AC12-4E8B68548ECF@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4451,7 +4263,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-icon-zYBxRV {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-A14DD227-1043-4E07-AB99-7938087A3288@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-1F206272-DBF5-4D4C-AC12-4E8B68548ECF@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4461,7 +4273,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-type-3lcOVf {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F9D8CE40-4329-412F-A727-9CF5AE6EFC49@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-EE5ED45A-5EAF-4264-B19C-17992D206224@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 51px;
@@ -4471,7 +4283,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-type-BUufxp {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F9D8CE40-4329-412F-A727-9CF5AE6EFC49@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-EE5ED45A-5EAF-4264-B19C-17992D206224@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4481,7 +4293,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-type-g5BcN4 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F9D8CE40-4329-412F-A727-9CF5AE6EFC49@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-EE5ED45A-5EAF-4264-B19C-17992D206224@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4491,7 +4303,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-type-i61Uqa {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F9D8CE40-4329-412F-A727-9CF5AE6EFC49@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-EE5ED45A-5EAF-4264-B19C-17992D206224@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 34px;
@@ -4501,7 +4313,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-type-uSbxxm {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F9D8CE40-4329-412F-A727-9CF5AE6EFC49@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-EE5ED45A-5EAF-4264-B19C-17992D206224@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 365px;
@@ -4511,7 +4323,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-type-x1TmZy {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F9D8CE40-4329-412F-A727-9CF5AE6EFC49@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-EE5ED45A-5EAF-4264-B19C-17992D206224@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4781,24 +4593,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 1240px;
 }
-.a22containedbutton .list01-NxsxMF {
-  background-color: transparent;
-  height: 114px;
-  left: 40px;
-  overflow: hidden;
-  position: absolute;
-  top: 0px;
-  width: 720px;
-}
-.a22containedbutton .list01-xOftnx {
-  background-color: transparent;
-  height: 114px;
-  left: 40px;
-  overflow: hidden;
-  position: absolute;
-  top: 0px;
-  width: 720px;
-}
 .a22containedbutton .listbutton-DzYEXv {
   background-color: transparent;
   height: 1132px;
@@ -4806,54 +4600,6 @@ transform: scale(0.98);
   position: absolute;
   top: 730px;
   width: 1240px;
-}
-.a22containedbutton .main-text-1-line-K7GPJl {
-  background-color: transparent;
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 672px;
-}
-.a22containedbutton .main-text-1-line-U5kYsW {
-  background-color: transparent;
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 672px;
-}
-.a22containedbutton .main-text-1-line-oZhSfN {
-  background-color: transparent;
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 672px;
-}
-.a22containedbutton .main-text-1-line-vt2xx0 {
-  background-color: transparent;
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 672px;
 }
 .a22containedbutton .max-width-7XKOu4 {
   background-color: transparent;
@@ -5033,70 +4779,6 @@ transform: scale(0.98);
   top: 83px;
   width: 1240px;
 }
-.a22containedbutton .mobile-lig--list-text-Rbt9Og {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 0px;
-  width: 680px;
-}
-.a22containedbutton .mobile-lig--list-text-UiRIGh {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 61px;
-  width: 680px;
-}
-.a22containedbutton .mobile-lig--list-text-eyd1RW {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 0px;
-  width: 680px;
-}
-.a22containedbutton .mobile-lig--list-text-x1Hf8K {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 61px;
-  width: 680px;
-}
-.a22containedbutton .mobile-lig-basic1line-Rbt9Og {
-  background-color: transparent;
-  height: 21px;
-  left: 24px;
-  position: absolute;
-  top: 18px;
-  width: 672px;
-}
-.a22containedbutton .mobile-lig-basic1line-UiRIGh {
-  background-color: transparent;
-  height: 21px;
-  left: 24px;
-  position: absolute;
-  top: 75px;
-  width: 672px;
-}
-.a22containedbutton .mobile-lig-basic1line-eyd1RW {
-  background-color: transparent;
-  height: 21px;
-  left: 24px;
-  position: absolute;
-  top: 18px;
-  width: 672px;
-}
-.a22containedbutton .mobile-lig-basic1line-x1Hf8K {
-  background-color: transparent;
-  height: 21px;
-  left: 24px;
-  position: absolute;
-  top: 75px;
-  width: 672px;
-}
 .a22containedbutton .mobile-lig-buttonbody-8quCoL {
   background-color: rgba(0,0,0,0.06);
   border-radius: 44px;
@@ -5106,93 +4788,6 @@ transform: scale(0.98);
   top: 0px;
   width: 398px;
 }
-.a22containedbutton .mobile-lig-buttonbody-OuUdFJ {
-  background-color: rgba(0,0,0,0.06);
-  border-radius: 22px;
-  height: 63px;
-  left: 45px;
-  position: relative;
-  top: 0px;
-  width: 270px;
-}
-.a22containedbutton .mobile-lig-buttonbody-SQJw10 {
-  background-color: rgba(0,0,0,0.06);
-  border-radius: 22px;
-  height: 44px;
-  left: 45px;
-  position: relative;
-  top: 0px;
-  width: 270px;
-}
-.a22containedbutton .mobile-lig-buttonbody-hRtdYd {
-  background-color: rgba(0,0,0,0.06);
-  border-radius: 33px;
-  height: 66px;
-  left: 36px;
-  position: absolute;
-  top: 9px;
-  width: 228px;
-}
-.a22containedbutton .mobile-lig-buttonbody-m3jMsP {
-  background-color: rgba(0,0,0,0.06);
-  border-radius: 22px;
-  height: 44px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 324px;
-}
-.a22containedbutton .mobile-lig-buttonbody-mAkTCe {
-  background-color: rgba(0,0,0,0.06);
-  border-radius: 33px;
-  height: 66px;
-  left: 36px;
-  position: absolute;
-  top: 9px;
-  width: 228px;
-}
-.a22containedbutton .mobile-lig-buttonbody-xSogdd {
-  background-color: rgba(0,0,0,0.06);
-  border-radius: 22px;
-  height: 44px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 240px;
-}
-.a22containedbutton .mobile-lig-buttonlist-LNxDd2 {
-  background-color: transparent;
-  height: 54px;
-  left: 36px;
-  position: absolute;
-  top: 15px;
-  width: 468px;
-}
-.a22containedbutton .mobile-lig-buttonlist-mLSHUR {
-  background-color: transparent;
-  height: 54px;
-  left: 36px;
-  position: absolute;
-  top: 99px;
-  width: 468px;
-}
-.a22containedbutton .mobile-lig-isedbutton-FOZ0x9 {
-  background-color: transparent;
-  height: 54px;
-  left: 339px;
-  position: absolute;
-  top: 0px;
-  width: 129px;
-}
-.a22containedbutton .mobile-lig-isedbutton-IQ1mZo {
-  background-color: rgba(0,0,0,0.06);
-  border-radius: 27px;
-  height: 54px;
-  left: 339px;
-  position: absolute;
-  top: 0px;
-  width: 129px;
-}
 .a22containedbutton .mobile-lig-isedbutton-UdSsFA {
   background-color: rgba(0,0,0,0.06);
   border-radius: 36px;
@@ -5201,79 +4796,6 @@ transform: scale(0.98);
   position: absolute;
   top: 286px;
   width: 172px;
-}
-.a22containedbutton .mobile-lig-odycolored-hRtdYd {
-  background-color: rgba(0,114,222,1.0);
-  border-radius: 33px;
-  height: 66px;
-  left: 276px;
-  position: absolute;
-  top: 9px;
-  width: 228px;
-}
-.a22containedbutton .mobile-lig-odycolored-m3jMsP {
-  background-color: rgba(0,114,222,1.0);
-  border-radius: 22px;
-  height: 44px;
-  left: 348px;
-  position: absolute;
-  top: 0px;
-  width: 324px;
-}
-.a22containedbutton .mobile-lig-odycolored-mAkTCe {
-  background-color: rgba(0,114,222,1.0);
-  border-radius: 33px;
-  height: 66px;
-  left: 276px;
-  position: absolute;
-  top: 9px;
-  width: 228px;
-}
-.a22containedbutton .mobile-lig-odycolored-xSogdd {
-  background-color: rgba(0,114,222,1.0);
-  border-radius: 22px;
-  height: 44px;
-  left: 432px;
-  position: absolute;
-  top: 0px;
-  width: 240px;
-}
-.a22containedbutton .mobile-lig-rokebutton-ukKnzZ {
-  background-color: rgba(250,250,250,0.2);
-  border: 2px solid var(--alabaster);
-  border-radius: 36px;
-  height: 72px;
-  left: 20px;
-  position: relative;
-  top: 20px;
-  width: 212px;
-}
-.a22containedbutton .mobile-lig-rouplistbg-Rbt9Og {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 26px;
-  height: 140px;
-  left: 0px;
-  position: absolute;
-  top: -26px;
-  width: 720px;
-}
-.a22containedbutton .mobile-lig-rouplistbg-eyd1RW {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 26px;
-  height: 140px;
-  left: 0px;
-  position: absolute;
-  top: -26px;
-  width: 720px;
-}
-.a22containedbutton .mobile-lig-rouplistbg-mLSHUR {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 39px;
-  height: 168px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 540px;
 }
 .a22containedbutton .mobile-wdVwiR {
   background-color: transparent;
@@ -5938,30 +5460,6 @@ transform: scale(0.98);
   top: 36px;
   white-space: nowrap;
   width: 1240px;
-}
-.a22containedbutton .raised-button-FOZ0x9 {
-  background-color: transparent;
-  font-size: 27px;
-  height: 32px;
-  left: 0px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 10px;
-  white-space: nowrap;
-  width: 327px;
-}
-.a22containedbutton .raised-button-IQ1mZo {
-  background-color: transparent;
-  font-size: 27px;
-  height: 32px;
-  left: 0px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 10px;
-  white-space: nowrap;
-  width: 327px;
 }
 .a22containedbutton .raised-stroke-case-Exh1Uy {
   background-color: transparent;
@@ -8319,6 +7817,8 @@ transform: scale(0.98);
 }
 .a22containedbutton .symbol-BdsFKW {
   background-color: transparent;
+  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton33-D6EE9759-28DF-4DC6-B95E-F4E7C337D97E@2x.png);
+  background-size: 100% 100%;
   height: 170px;
   left: 220px;
   position: absolute;
@@ -8327,6 +7827,8 @@ transform: scale(0.98);
 }
 .a22containedbutton .symbol-IVNWh6 {
   background-color: transparent;
+  background-image: url(../img/2-2-contained-button-2-02measurew360mpl022containedbutton3-D7A4ED23-C30E-4490-B145-5874D7CD679D@2x.png);
+  background-size: 100% 100%;
   height: 112px;
   left: 232px;
   position: absolute;
@@ -8335,6 +7837,8 @@ transform: scale(0.98);
 }
 .a22containedbutton .symbol-L2ylWz {
   background-color: transparent;
+  background-image: url(../img/2-2-contained-button-2-02measurew360mpl022containedbutton311-687EE68B-D77E-4EE6-8F05-98F6B54CB732@2x.png);
+  background-size: 100% 100%;
   height: 44px;
   left: 440px;
   position: absolute;
@@ -8351,7 +7855,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .symbol-YOVf0a {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton311-F2F08AC5-BF62-49CA-9119-D92C8F2C88E7.png);
+  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton311-A3870DF1-C980-4927-A760-D403CEC42361@2x.png);
   background-size: 100% 100%;
   height: 44px;
   left: 220px;
@@ -8369,6 +7873,8 @@ transform: scale(0.98);
 }
 .a22containedbutton .symbol-bhBWwg {
   background-color: transparent;
+  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton32-3AF14307-490D-4D76-AE1E-763CB9D914D9@2x.png);
+  background-size: 100% 100%;
   height: 170px;
   left: 220px;
   position: absolute;
@@ -8377,6 +7883,8 @@ transform: scale(0.98);
 }
 .a22containedbutton .symbol-bz3uxC {
   background-color: transparent;
+  background-image: url(../img/2-2-contained-button-2-02measurew360mpl022containedbutton312-DE1425D3-91B9-48FB-9723-E4E1F661E731@2x.png);
+  background-size: 100% 100%;
   height: 63px;
   left: 440px;
   position: absolute;
@@ -8385,7 +7893,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .symbol-g5wJq4 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton312-9433612D-6E61-4D18-87F8-6BE0575EF688.png);
+  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton312-9CF1B7F5-6A6D-4512-BBE9-891BD91DD8B6@2x.png);
   background-size: 100% 100%;
   height: 44px;
   left: 220px;
@@ -8395,7 +7903,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .symbol-rZOiIF {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton313-C7C59229-C4AE-46C1-BAD2-A139668297AC.png);
+  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton313-4DE27C06-60FD-4997-8D94-786235FBE34E@2x.png);
   background-size: 100% 100%;
   height: 63px;
   left: 220px;
@@ -8768,30 +8276,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 1240px;
 }
-.a22containedbutton .title-HfUSQh {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 672px;
-}
-.a22containedbutton .title-REmONC {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 672px;
-}
-.a22containedbutton .title-U8lfpB {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 672px;
-}
 .a22containedbutton .title-YS4HFf {
   background-color: transparent;
   color: var(--black);
@@ -8805,14 +8289,6 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: 1240px;
-}
-.a22containedbutton .title-ZtQqPe {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 672px;
 }
 .a22containedbutton .typeface-MO6xdK {
   background-color: transparent;
@@ -9865,13 +9341,8 @@ transform: scale(0.98);
 }
 .a22containedbutton .web-app-mK9PxT {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size: 15px;
   height: auto;
   left: 0px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -9908,7 +9379,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-2Ldb6F {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -9921,7 +9392,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-3JNEci {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -9960,7 +9431,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-7YgAfV {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -10025,7 +9496,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-AysNMl {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -10129,7 +9600,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-HxJ6M9 {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -10259,7 +9730,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-RFbpxM {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -10285,7 +9756,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-URi5Ak {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -10337,7 +9808,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-W9D03M {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -10415,7 +9886,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-alnvTU {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -10519,7 +9990,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-gZcn12 {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -10558,7 +10029,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-ke6JIS {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -10714,7 +10185,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-t6rqTe {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -10727,7 +10198,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-t8rirx {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -10766,7 +10237,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-x3XrIk {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -12196,32 +11667,8 @@ transform: scale(0.98);
   top: 788px;
   width: 216px;
 }
-.a22containedbutton .x2-02-measu-dbutton311-a20iJj {
-  background-color: rgba(242,242,242,1.0);
-  height: 44px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a22containedbutton .x2-02-measu-dbutton312-Qa4o5U {
-  background-color: rgba(242,242,242,1.0);
-  height: 63px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a22containedbutton .x2-02-measu-edbutton32-c6CIGT {
-  background-color: rgba(242,242,242,1.0);
-  height: 170px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 800px;
-}
 .a22containedbutton .x2-02-measu-edbutton32-xfhrql {
-  background-color: rgba(242,242,242,1.0);
+  background-color: transparent;
   height: 84px;
   left: 0px;
   position: absolute;
@@ -12229,46 +11676,25 @@ transform: scale(0.98);
   width: 540px;
 }
 .a22containedbutton .x2-02-measu-edbutton32-xjTkXw {
-  background-color: rgba(242,242,242,1.0);
+  background-color: transparent;
   height: 84px;
   left: 0px;
   position: absolute;
   top: 0px;
   width: 540px;
 }
-.a22containedbutton .x2-02-measu-edbutton33-oOQdcI {
-  background-color: rgba(242,242,242,1.0);
-  height: 170px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 800px;
-}
 .a22containedbutton .x2-02-measu-nedbutton2-UdSsFA {
-  background-color: rgba(242,242,242,1.0);
+  background-color: transparent;
   height: 168px;
   left: 0px;
   position: absolute;
   top: 0px;
   width: 540px;
 }
-.a22containedbutton .x2-02-measu-nedbutton3-gHr8Yj {
-  background-color: rgba(1,1,1,1.0);
-  height: 112px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 252px;
-}
 .a22containedbutton .x2-2-contained-butt-C61RwL {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
   height: auto;
   left: 380px;
-  letter-spacing: 0.00px;
-  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -12392,30 +11818,32 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
 }
 .font-class-2 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
 }
 .font-class-3 {
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
 .font-class-4 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
 .font-class-5 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 500;
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
+  line-height: 84px;
 }
 .font-class-6 {
-  color: rgba(37,37,37,1.0);
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
 }
 :root {
-  --alabaster: rgba(250,250,250,1.0);
   --azure-radiance: rgba(0,153,255,1.0);
   --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
+  --ebb: rgba(227,227,227,1.0);
   --electric-violet: rgba(102,0,255,1.0);
   --gray: rgba(145,145,145,1.0);
   --masala: rgba(59,59,59,1.0);

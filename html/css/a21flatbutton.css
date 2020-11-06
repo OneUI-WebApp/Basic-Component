@@ -7,7 +7,7 @@
   width: 1680px;
 }
 .a21flatbutton .background-AOY7pQ {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 0px;
   position: absolute;
@@ -31,7 +31,7 @@
   width: 206px;
 }
 .a21flatbutton .background-tyBobm {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 0px;
   position: absolute;
@@ -203,7 +203,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .fn-ClUVJg {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -216,7 +216,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .fn-RYY6TO {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -681,7 +681,7 @@ transform: scale(0.98);
   width: 203px;
 }
 .a21flatbutton .group-4PueZg {
-  background-color: var(--concrete);
+  background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 67px;
   position: absolute;
@@ -930,7 +930,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .guide-meas-horizontal-THm08Q {
   background-color: transparent;
-  background-image: url(../img/2-1-flat-button-line-68D92997-8BF3-4DFE-BD4E-0BA85F1923B6@2x.png);
+  background-image: url(../img/2-1-flat-button-line-13606F8D-F04B-4464-A12C-70390581FF06@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 81px;
@@ -940,7 +940,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .guide-meas-horizontal-rixyUT {
   background-color: transparent;
-  background-image: url(../img/2-1-flat-button-line-68D92997-8BF3-4DFE-BD4E-0BA85F1923B6@2x.png);
+  background-image: url(../img/2-1-flat-button-line-13606F8D-F04B-4464-A12C-70390581FF06@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 81px;
@@ -957,7 +957,7 @@ transform: scale(0.98);
   width: 24px;
 }
 .a21flatbutton .guide-measure-area-UxBows {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -965,7 +965,7 @@ transform: scale(0.98);
   width: 12px;
 }
 .a21flatbutton .guide-measure-area-bWSJBi {
-  background-color: rgba(0,153,255,0.37);
+  background-color: var(--azure-radiance-2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -990,7 +990,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .guide-numbering-type-5enw91 {
   background-color: transparent;
-  background-image: url(../img/2-1-flat-button-oval-953FB981-D0F9-4791-A5BF-98CE9C267846@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-EE5ED45A-5EAF-4264-B19C-17992D206224@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1000,7 +1000,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .guide-numbering-type-XjX2Of {
   background-color: transparent;
-  background-image: url(../img/2-1-flat-button-oval-953FB981-D0F9-4791-A5BF-98CE9C267846@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-EE5ED45A-5EAF-4264-B19C-17992D206224@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 25px;
@@ -1032,8 +1032,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .history-k5CNv8 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1378,7 +1381,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .symbol-hh1Mvx {
   background-color: transparent;
-  background-image: url(../img/2-1-flat-button-2-01measurew360mpl021flatbutton-3435028A-9A77-442B-B83F-1138D0E7536A@2x.png);
+  background-image: url(../img/2-1-flat-button-2-01measurew360mpl021flatbutton-D3092EA2-6732-4DDC-BEBE-A51DB606F36C@2x.png);
   background-size: 100% 100%;
   height: 84px;
   left: 88px;
@@ -1388,8 +1391,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .text-94tRfz {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1399,8 +1405,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .text-EEe8Q9 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1686,13 +1695,8 @@ transform: scale(0.98);
 }
 .a21flatbutton .web-app-mK9PxT {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size: 15px;
   height: auto;
   left: 0px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1741,7 +1745,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .x-BXq1YQ {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -1767,7 +1771,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .x-HmyCYx {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -1884,7 +1888,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .x-rpi2gr {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 200px;
@@ -1897,7 +1901,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .x-tVzlja {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 200px;
@@ -2005,8 +2009,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x0-overview-WS6WQj {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2042,8 +2049,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x1-app-bar-eLzewR {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2065,8 +2075,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x10-search-YPkNvM {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2076,8 +2089,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x11-toast-xiTBtP {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2087,8 +2103,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x12-text-fields-dExET3 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2098,8 +2117,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x13-view-controls-MTh05c {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2109,8 +2131,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x14-description-ln0S8c {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2120,8 +2145,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x15-notification-bad-Nlwdug {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2131,8 +2159,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x16-thumbnail-be2hM8 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2142,8 +2173,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x17-copy-paste-034OGS {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2169,13 +2203,8 @@ transform: scale(0.98);
 }
 .a21flatbutton .x2-1-flat-button-C61RwL {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
   height: auto;
   left: 380px;
-  letter-spacing: 0.00px;
-  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -2199,8 +2228,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x3-controllers-h9KJK1 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2210,8 +2242,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x4-dialogs-gagmKd {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2221,8 +2256,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x5-dividers-OzTxVf {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2232,8 +2270,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x6-lists-4BRmK3 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2243,8 +2284,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x7-no-item-sh6abE {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2254,8 +2298,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x8-progress-xvOUMU {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2265,8 +2312,11 @@ transform: scale(0.98);
 }
 .a21flatbutton .x9-scrolling-qxqUQ7 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2278,10 +2328,7 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
 }
 .font-class-2 {
-  color: var(--black);
   font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-  font-size: 15px;
-  line-height: 18px;
 }
 .font-class-3 {
   font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
@@ -2289,15 +2336,28 @@ transform: scale(0.98);
 .font-class-4 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
+.font-class-5 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
+  line-height: 84px;
+}
+.font-class-6 {
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
+}
 :root {
-  --alabaster: rgba(250,250,250,1.0);
   --azure-radiance: rgba(0,153,255,1.0);
+  --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
-  --concrete: rgba(242,242,242,1.0);
   --ebb: rgba(227,227,227,1.0);
   --electric-violet: rgba(102,0,255,1.0);
   --gray: rgba(145,145,145,1.0);
   --masala: rgba(59,59,59,1.0);
+  --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --royal-blue: rgba(75,99,250,1.0);
   --white: rgba(255,255,255,1.0);
 }

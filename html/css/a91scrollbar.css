@@ -3,13 +3,12 @@
 .a91scrollbar {
   background-color: rgba(245,246,247,1.0);
   height: 1687px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
 }
 .a91scrollbar .basic-component-gui-XPalTL {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 20px;
   height: auto;
   left: 0px;
@@ -504,7 +503,7 @@ transform: scale(0.98);
   width: 260px;
 }
 .a91scrollbar .group-U2mCZa {
-  background-color: rgba(71,71,71,1.0);
+  background-color: var(--gravel);
   height: 22px;
   left: 104px;
   position: absolute;
@@ -617,7 +616,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .guide-meas-e-vertical-OgM7RX {
   background-color: transparent;
-  background-image: url(../img/9-1-scroll-bar-line-747D81BB-7A8D-4E7E-A9F1-E84C94A0A839@2x.png);
+  background-image: url(../img/9-1-scroll-bar-line-4994644E-02A0-4F77-B3F1-312A35F9C568@2x.png);
   background-size: 100% 100%;
   height: 40px;
   left: 40px;
@@ -627,7 +626,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .guide-meas-e-vertical-fweJf5 {
   background-color: transparent;
-  background-image: url(../img/9-1-scroll-bar-line-208E1AF3-5FC9-4D63-A3A1-E785CECCF3BF@2x.png);
+  background-image: url(../img/9-1-scroll-bar-line-DBD3F295-CAE5-4B08-B33F-3BA224CDBCC6@2x.png);
   background-size: 100% 100%;
   height: 52px;
   left: 23px;
@@ -637,7 +636,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .guide-meas-e-vertical-xMtxpl {
   background-color: transparent;
-  background-image: url(../img/9-1-scroll-bar-line-208E1AF3-5FC9-4D63-A3A1-E785CECCF3BF@2x.png);
+  background-image: url(../img/9-1-scroll-bar-line-DBD3F295-CAE5-4B08-B33F-3BA224CDBCC6@2x.png);
   background-size: 100% 100%;
   height: 52px;
   left: 0px;
@@ -647,7 +646,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .guide-meas-e-vertical-xYMsNr {
   background-color: transparent;
-  background-image: url(../img/9-1-scroll-bar-line-747D81BB-7A8D-4E7E-A9F1-E84C94A0A839@2x.png);
+  background-image: url(../img/9-1-scroll-bar-line-4994644E-02A0-4F77-B3F1-312A35F9C568@2x.png);
   background-size: 100% 100%;
   height: 40px;
   left: 55px;
@@ -713,7 +712,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .guide-numb-ring-shape-xRkPbj {
   background-color: transparent;
-  background-image: url(../img/9-2-boundary-feedback-oval-EE35EDAD-8CCA-4184-9E46-CD59D00BB25A@2x.png);
+  background-image: url(../img/9-2-boundary-feedback-oval-1010FB9A-EE66-4217-8075-DCAB3AF70B1B@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 18px;
@@ -723,7 +722,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .guide-numbering-icon-ia9Mkk {
   background-color: transparent;
-  background-image: url(../img/9-2-boundary-feedback-oval-EE35EDAD-8CCA-4184-9E46-CD59D00BB25A@2x.png);
+  background-image: url(../img/9-2-boundary-feedback-oval-1010FB9A-EE66-4217-8075-DCAB3AF70B1B@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -788,66 +787,6 @@ transform: scale(0.98);
   top: 216px;
   width: 465px;
 }
-.a91scrollbar .list01-oPoZe2 {
-  background-color: transparent;
-  height: 270px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 360px;
-}
-.a91scrollbar .main-text-1-line-L2dQX5 {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 312px;
-}
-.a91scrollbar .main-text-1-line-bdBtYr {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 312px;
-}
-.a91scrollbar .main-text-55xdp3 {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 312px;
-}
-.a91scrollbar .main-text-xEDAdx {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 18px;
-  height: 21px;
-  left: 0px;
-  line-height: 21px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 312px;
-}
 .a91scrollbar .measure-1-hh1Mvx {
   background-color: transparent;
   height: 185px;
@@ -863,89 +802,6 @@ transform: scale(0.98);
   position: absolute;
   top: 388px;
   width: 134px;
-}
-.a91scrollbar .mobile-lig--list-text-TnEnWM {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 70px;
-  width: 320px;
-}
-.a91scrollbar .mobile-lig--list-text-dGDsH5 {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 213px;
-  width: 320px;
-}
-.a91scrollbar .mobile-lig--list-text-j4XKYz {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 127px;
-  width: 320px;
-}
-.a91scrollbar .mobile-lig-basic1line-dGDsH5 {
-  background-color: transparent;
-  height: 21px;
-  left: 24px;
-  position: absolute;
-  top: 231px;
-  width: 312px;
-}
-.a91scrollbar .mobile-lig-basic1line-j4XKYz {
-  background-color: transparent;
-  height: 21px;
-  left: 24px;
-  position: absolute;
-  top: 88px;
-  width: 312px;
-}
-.a91scrollbar .mobile-lig-basic2line-dGDsH5 {
-  background-color: transparent;
-  height: 55px;
-  left: 24px;
-  position: absolute;
-  top: 143px;
-  width: 312px;
-}
-.a91scrollbar .mobile-lig-ing-scroll-E0K74S {
-  background-color: rgba(222,222,222,1.0);
-  border-radius: 8px;
-  height: 97px;
-  left: 40px;
-  position: relative;
-  top: 40px;
-  width: 16px;
-}
-.a91scrollbar .mobile-lig-ing-scroll-dGDsH5 {
-  background-color: rgba(222,222,222,1.0);
-  border-radius: 2px;
-  height: 82px;
-  left: 346px;
-  position: absolute;
-  top: 126px;
-  width: 4px;
-}
-.a91scrollbar .mobile-lig-primarysub-dGDsH5 {
-  background-color: transparent;
-  height: 40px;
-  left: 24px;
-  position: absolute;
-  top: 15px;
-  width: 312px;
-}
-.a91scrollbar .mobile-lig-rouplistbg-dGDsH5 {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 26px;
-  height: 270px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 360px;
 }
 .a91scrollbar .property-0eC2VC {
   background-color: transparent;
@@ -1164,31 +1020,6 @@ transform: scale(0.98);
   top: 38px;
   width: 134px;
 }
-.a91scrollbar .subtext-55xdp3 {
-  background-color: transparent;
-  color: rgba(144,144,144,1.0);
-  font-size: 13px;
-  height: 30px;
-  left: 0px;
-  line-height: 15px;
-  position: absolute;
-  text-align: left;
-  top: 25px;
-  width: 312px;
-}
-.a91scrollbar .subtext-xEDAdx {
-  background-color: transparent;
-  color: rgba(0,114,222,1.0);
-  font-size: 13px;
-  height: 15px;
-  left: 0px;
-  line-height: 15px;
-  position: absolute;
-  text-align: left;
-  top: 25px;
-  white-space: nowrap;
-  width: 312px;
-}
 .a91scrollbar .symbol-hh1Mvx {
   background-color: transparent;
   height: 563px;
@@ -1276,38 +1107,6 @@ transform: scale(0.98);
   top: 12px;
   white-space: nowrap;
   width: 218px;
-}
-.a91scrollbar .title-Ir0UkL {
-  background-color: transparent;
-  height: 40px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 312px;
-}
-.a91scrollbar .title-M0LvPA {
-  background-color: transparent;
-  height: 55px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 312px;
-}
-.a91scrollbar .title-VAa90N {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 312px;
-}
-.a91scrollbar .title-ZrxfRU {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 312px;
 }
 .a91scrollbar .value-0eC2VC {
   background-color: transparent;
@@ -1793,7 +1592,7 @@ transform: scale(0.98);
   width: 240px;
 }
 .a91scrollbar .x9-01-measu--scrollbar-2LAIZG {
-  background-color: var(--concrete);
+  background-color: transparent;
   height: 270px;
   left: 0px;
   position: absolute;
@@ -1801,7 +1600,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a91scrollbar .x9-01-measu-scrollbar1-2LAIZG {
-  background-color: rgba(252,252,252,1.0);
+  background-color: transparent;
   height: 177px;
   left: 132px;
   position: absolute;
@@ -1837,20 +1636,15 @@ transform: scale(0.98);
 .font-class-4 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
-.font-class-5 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
 :root {
   --black: rgba(0,0,0,1.0);
   --bon-jour: rgba(224,224,224,1.0);
   --concrete: rgba(242,242,242,1.0);
   --ebb: rgba(227,227,227,1.0);
+  --gravel: rgba(71,71,71,1.0);
   --harlequin: rgba(51,204,0,1.0);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --royal-blue: rgba(75,99,250,1.0);
-  --shark: rgba(37,37,37,1.0);
   --white: rgba(255,255,255,1.0);
 }

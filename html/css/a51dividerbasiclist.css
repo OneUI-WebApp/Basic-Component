@@ -3,7 +3,6 @@
 .a51dividerbasiclist {
   background-color: rgba(245,246,247,1.0);
   height: 1416px;
-  overflow: hidden;
   position: relative;
   width: 1680px;
 }
@@ -23,7 +22,7 @@
 }
 .a51dividerbasiclist .basic-component-gui-fvtKPz {
   background-color: transparent;
-  color: var(--shark);
+  color: rgba(37,37,37,1.0);
   font-size: 20px;
   height: auto;
   left: 0px;
@@ -670,7 +669,7 @@ transform: scale(0.98);
 }
 .a51dividerbasiclist .guide-meas-e-vertical-THm08Q {
   background-color: transparent;
-  background-image: url(../img/5-1-dividerbasic-list-line-CCA4E25A-CD7E-4A89-9B3B-F6C3EDF56A78@2x.png);
+  background-image: url(../img/5-1-dividerbasic-list-line-C93097C9-B09F-4EF5-9FD0-EC7BE282DBF3@2x.png);
   background-size: 100% 100%;
   height: 129px;
   left: 479px;
@@ -680,7 +679,7 @@ transform: scale(0.98);
 }
 .a51dividerbasiclist .guide-meas-e-vertical-rixyUT {
   background-color: transparent;
-  background-image: url(../img/5-1-dividerbasic-list-line-CCA4E25A-CD7E-4A89-9B3B-F6C3EDF56A78@2x.png);
+  background-image: url(../img/5-1-dividerbasic-list-line-C93097C9-B09F-4EF5-9FD0-EC7BE282DBF3@2x.png);
   background-size: 100% 100%;
   height: 129px;
   left: 0px;
@@ -762,7 +761,7 @@ transform: scale(0.98);
 }
 .a51dividerbasiclist .guide-numb-ring-shape-XjX2Of {
   background-color: transparent;
-  background-image: url(../img/5-2-dividerimage-list-oval-03A168EC-D09B-4C9C-8DAD-A134B1A741F7@2x.png);
+  background-image: url(../img/5-1-dividerbasic-list-oval-379B6877-35B6-4EB0-BFA1-F5FDBF9B7DF4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 259px;
@@ -772,7 +771,7 @@ transform: scale(0.98);
 }
 .a51dividerbasiclist .guide-numbering-icon-13N3y0 {
   background-color: transparent;
-  background-image: url(../img/5-2-dividerimage-list-oval-03A168EC-D09B-4C9C-8DAD-A134B1A741F7@2x.png);
+  background-image: url(../img/5-1-dividerbasic-list-oval-379B6877-35B6-4EB0-BFA1-F5FDBF9B7DF4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -832,48 +831,6 @@ transform: scale(0.98);
   top: 153px;
   width: 465px;
 }
-.a51dividerbasiclist .line-Q7nn8K {
-  background-color: rgba(230,230,230,1.0);
-  height: 1px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 480px;
-}
-.a51dividerbasiclist .list01-poexXZ {
-  background-color: transparent;
-  height: 213px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
-.a51dividerbasiclist .main-text-1-line-68bpmh {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 27px;
-  height: 32px;
-  left: 0px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 468px;
-}
-.a51dividerbasiclist .main-text-M8urrQ {
-  background-color: transparent;
-  color: var(--shark);
-  font-size: 27px;
-  height: 32px;
-  left: 0px;
-  line-height: 32px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: 468px;
-}
 .a51dividerbasiclist .measure-hh1Mvx {
   background-color: transparent;
   height: 289px;
@@ -881,39 +838,6 @@ transform: scale(0.98);
   position: absolute;
   top: 81px;
   width: 582px;
-}
-.a51dividerbasiclist .mobile-lig--list-text-Mtupjr {
-  background-color: transparent;
-  height: 2px;
-  left: 30px;
-  position: absolute;
-  top: 84px;
-  width: 480px;
-}
-.a51dividerbasiclist .mobile-lig-basic1line-Mtupjr {
-  background-color: transparent;
-  height: 33px;
-  left: 36px;
-  position: absolute;
-  top: 25px;
-  width: 468px;
-}
-.a51dividerbasiclist .mobile-lig-basic2line-Mtupjr {
-  background-color: transparent;
-  height: 84px;
-  left: 36px;
-  position: absolute;
-  top: 108px;
-  width: 468px;
-}
-.a51dividerbasiclist .mobile-lig-rouplistbg-Mtupjr {
-  background-color: rgba(252,252,252,1.0);
-  border-radius: 39px;
-  height: 213px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 540px;
 }
 .a51dividerbasiclist .page-name-X6ALtt {
   background-color: transparent;
@@ -1204,20 +1128,10 @@ transform: scale(0.98);
   top: 38px;
   width: 30px;
 }
-.a51dividerbasiclist .subtext-M8urrQ {
-  background-color: transparent;
-  color: rgba(144,144,144,1.0);
-  font-size: 19px;
-  height: 46px;
-  left: 0px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 38px;
-  width: 468px;
-}
 .a51dividerbasiclist .symbol-hh1Mvx {
   background-color: transparent;
+  background-image: url(../img/5-1-dividerbasic-list-5-01measurew360mpl051dividerbasiclist-A9CD92CB-CA95-4952-91BD-C55AEBA1CC6F@2x.png);
+  background-size: 100% 100%;
   height: 213px;
   left: 88px;
   position: absolute;
@@ -1336,22 +1250,6 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: auto;
-}
-.a51dividerbasiclist .title-FZjuTK {
-  background-color: transparent;
-  height: 32px;
-  left: 0px;
-  position: relative;
-  top: 1px;
-  width: 468px;
-}
-.a51dividerbasiclist .title-eLOniG {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 468px;
 }
 .a51dividerbasiclist .value-Au6t1a {
   background-color: transparent;
@@ -1820,14 +1718,6 @@ transform: scale(0.98);
   top: 40px;
   width: 240px;
 }
-.a51dividerbasiclist .x5-01-measu--basiclist-2LAIZG {
-  background-color: rgba(242,242,242,1.0);
-  height: 213px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 540px;
-}
 .a51dividerbasiclist .x5-1-divide-basic-list-C61RwL {
   background-color: transparent;
   height: auto;
@@ -1919,20 +1809,15 @@ transform: scale(0.98);
   font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
 }
 .font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
-.font-class-5 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
 }
-.font-class-6 {
+.font-class-5 {
   color: var(--black);
   font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
   font-size: 70px;
   line-height: 84px;
 }
-.font-class-7 {
+.font-class-6 {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
@@ -1947,7 +1832,7 @@ transform: scale(0.98);
   --electric-violet: rgba(102,0,255,1.0);
   --masala: rgba(59,59,59,1.0);
   --purple-pizzazz: rgba(255,0,204,1.0);
-  --shark: rgba(37,37,37,1.0);
+  --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --supernova: rgba(255,204,0,1.0);
   --white: rgba(255,255,255,1.0);
 }
