@@ -394,8 +394,9 @@
       });
     </script>
     <style>
-        @font-face{
-            font-family: unset !important;
+        :not(@font-face) {
+            @import 'my-sass-file';
+            @import 'my-other-sass-file';
             }
         
         
