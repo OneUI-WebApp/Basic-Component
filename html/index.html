@@ -394,12 +394,7 @@
       });
     </script>
     <style>
-        :not(@font-face) {
-            @import 'my-sass-file';
-            @import 'my-other-sass-file';
-            }
-        
-        
+        @media all and (min-width: 200px){
           @font-face {
                   font-family: "SamsungOneKorean-700";
                   src: local("SamsungOneKorean-700"),
@@ -427,7 +422,7 @@
               font-family: "SamsungOneKorean-300";
               src: local("SamsungOneKorean-300"),
                    url("fonts/SamsungOneKorean_300.woff2") format("woff2");
-              }
+              }}
     </style>
   </body>
 </html>
