@@ -9,16 +9,14 @@
     <link href="../custom/custom.css" rel="stylesheet" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="../custom/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="preload" href="./fonts/SamsungOneKorean-700.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./fonts/SamsungOneKorean-600.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./fonts/SamsungOneKorean-500.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./fonts/SamsungOneKorean-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./fonts/SamsungOneKorean-300.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" type="text/css" href="css/a04touchfeedbackrippleeffect.css" />
     <style>
-      @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
-
-      @font-face {
-        font-family: "SamsungOneKorean-600";
-        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 600_0.ttf")
-          format("truetype");
-      }
+      @import url("https://fonts.googleapis.com/css?family=Roboto:500,400");
 
       @font-face {
         font-family: "SamsungOneKorean-700";
@@ -29,6 +27,12 @@
       @font-face {
         font-family: "SamsungOneKorean-400";
         src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-400_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-600";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 600_0.ttf")
           format("truetype");
       }
 
@@ -267,7 +271,7 @@
                 <div class="bg-TIcAGP border-class-1"></div>
                 <div class="group-TIcAGP">
                   <div class="content-qImOk6 anima-valign-text-middle font-class-1">
-                    background-color: #ffffff;<br />opacity: 0.2;
+                    background-color: #ffffff;<br />opacity: 0.16;
                   </div>
                   <div class="content-C0TXvw anima-valign-text-bottom font-class-3">Mask ON</div>
                 </div>
@@ -286,8 +290,7 @@
                 <div class="rectangle-zucTRz"></div>
                 <div class="bg-zucTRz border-class-1"></div>
                 <div class="content-zucTRz anima-valign-text-middle font-class-1">
-                  width: /*(Text width+좌우 8px 마진)*/<br />height: /*(Text width+상하 4px 마진)*/<br />height:
-                  /*(button height)*/<br />border-radius: 6px;
+                  width: /*(Text width + 좌우 8px 마진)*/<br />height: 36px;<br />border-radius: 6px;
                 </div>
               </div>
               <div class="cell-A3vT9h">
@@ -332,30 +335,8 @@
                       <div class="rectangle-70dzAd"></div>
                       <div class="bg-70dzAd border-class-1"></div>
                       <div class="content-70dzAd anima-valign-text-middle font-class-1">
-                        border-radius : 22px;<br /><br /><br />
-                      </div>
-                    </div>
-                    <div class="guide-yxLRlq">
-                      <div class="symbol-xX6ZTS"></div>
-                      <div class="measure-xX6ZTS">
-                        <div class="spacing-qFxd5B">
-                          <div class="guide-measure-area-XkyExM"></div>
-                          <div class="guide-meas--spacing-2-XkyExM">
-                            <div class="x0-8uMVMr font-class-1">16</div>
-                            <div class="rectangle-8uMVMr"></div>
-                            <div class="rectangle-HAxB0l"></div>
-                            <div class="rectangle-Bv9Vzb"></div>
-                          </div>
-                        </div>
-                        <div class="spacing-pylEjj">
-                          <div class="guide-measure-area-348ApU"></div>
-                          <div class="guide-meas--spacing-2-348ApU">
-                            <div class="x0-mDacM0 font-class-1">16</div>
-                            <div class="rectangle-mDacM0"></div>
-                            <div class="rectangle-x7rKQw"></div>
-                            <div class="rectangle-PDa1Aj"></div>
-                          </div>
-                        </div>
+                        width: /*(Text width + 좌우 16px 마진)*/;<br />height:&nbsp;&nbsp;36px;<br />border-radius :
+                        18px;
                       </div>
                     </div>
                   </div>
@@ -399,7 +380,7 @@
                       <div class="rectangle-9rHXnb"></div>
                       <div class="bg-9rHXnb border-class-1"></div>
                       <div class="content-9rHXnb anima-valign-text-middle font-class-1">
-                        width: 32px;<br />height: 32px;
+                        width: 32px;<br />height: 32px;<br />border-radius: 50%;
                       </div>
                     </div>
                   </div>
@@ -484,7 +465,9 @@
                       <div class="table-gene-ight1style-DXiidt">
                         <div class="rectangle-pXTOl9"></div>
                         <div class="bg-pXTOl9 border-class-1"></div>
-                        <div class="content-pXTOl9 anima-valign-text-middle font-class-1">border-radius: 22px;</div>
+                        <div class="content-pXTOl9 anima-valign-text-middle font-class-1">
+                          width: /*(Button width)*/;<br />height:&nbsp;&nbsp;44px;<br />border-radius: 22px;
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -506,7 +489,9 @@
                       <div class="table-gene-ight1style-vskco0">
                         <div class="rectangle-xJAjLf"></div>
                         <div class="bg-xJAjLf border-class-1"></div>
-                        <div class="content-xJAjLf anima-valign-text-middle font-class-1">border-radius: 22px;</div>
+                        <div class="content-xJAjLf anima-valign-text-middle font-class-1">
+                          width: /*(Button width)*/;<br />height:&nbsp;&nbsp;44px;<br />border-radius: 22px;
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -547,7 +532,7 @@
                       <div class="rectangle-JFTYHb"></div>
                       <div class="bg-JFTYHb border-class-1"></div>
                       <div class="content-JFTYHb anima-valign-text-middle font-class-1">
-                        width: 52px;<br />height: 52px;
+                        width: 52px;<br />height: 52px;<br />border-radius: 50%;
                       </div>
                     </div>
                   </div>
@@ -587,7 +572,7 @@
                     <div class="rectangle-4LfaBL"></div>
                     <div class="bg-4LfaBL border-class-1"></div>
                     <div class="content-4LfaBL anima-valign-text-middle font-class-1">
-                      width: /*Screen width*/<br />border-radius: 0 0 26px 26px;
+                      width: /*(List width)*/<br />height: 52px<br />border-radius: 0 0 26px 26px;
                     </div>
                   </div>
                 </div>
@@ -624,7 +609,7 @@
                       <div class="rectangle-YyLJgX"></div>
                       <div class="bg-YyLJgX border-class-1"></div>
                       <div class="content-YyLJgX anima-valign-text-middle font-class-1">
-                        width: 50px;<br />height: 36px;
+                        width: 50px;<br />height: 36px;<br />border-radius: 50%;
                       </div>
                     </div>
                   </div>
@@ -683,7 +668,7 @@
                 <div class="rectangle-PC6AXP"></div>
                 <div class="bg-PC6AXP border-class-1"></div>
                 <div class="content-PC6AXP anima-valign-text-middle font-class-1">
-                  width: /*(Text width-좌우 20px마진)*/<br />height: 44px;<br />border-radius: 22px;
+                  width: /*(Text width + 좌우 20px 마진)*/<br />height: 44px;<br />border-radius: 22px;
                 </div>
               </div>
               <div class="cell-ATNlr3">
@@ -725,7 +710,7 @@
                 <div class="rectangle-3BK4pz"></div>
                 <div class="bg-3BK4pz border-class-1"></div>
                 <div class="content-3BK4pz anima-valign-text-middle font-class-1">
-                  width: /*(Text width - 좌우 4px 마진) */;<br />height: /*(Button height)*/;<br />border-radius: 26px;
+                  width: /*(Text width + 좌우 16px 마진) */;<br />height: 36px;<br />border-radius: 18px;
                 </div>
               </div>
               <div class="cell-oVh9F8">
@@ -767,7 +752,7 @@
                 <div class="rectangle-wcjyK2"></div>
                 <div class="bg-wcjyK2 border-class-1"></div>
                 <div class="content-wcjyK2 anima-valign-text-middle font-class-1">
-                  width: /*(Screen width)*/;<br />height : 64px;<br />border-radius: 26px;
+                  width: /*(List width)*/;<br />height : 64px;<br />border-radius: 26px;
                 </div>
               </div>
               <div class="cell-Hxtjm9">
@@ -805,7 +790,11 @@
                     <div class="bg-OJBsWi border-class-1"></div>
                     <div class="content-OJBsWi anima-valign-text-middle font-class-1">border-radius: 24px;</div>
                   </div>
-                  <div class="rectangle-ZzakqK"></div>
+                  <div class="table-gene-ight1style-IqWFjk">
+                    <div class="rectangle-9mc4LP"></div>
+                    <div class="bg-9mc4LP border-class-1"></div>
+                    <div class="content-9mc4LP anima-valign-text-middle font-class-1">&nbsp;&nbsp;</div>
+                  </div>
                   <div class="symbol-ZzakqK">
                     <div class="guide-eN1B44"></div>
                     <div class="size-eN1B44">
@@ -1044,7 +1033,7 @@
                   <div class="rectangle-oCIJaR"></div>
                   <div class="bg-oCIJaR border-class-1"></div>
                   <div class="content-oCIJaR anima-valign-text-middle font-class-1">
-                    width: 48px;<br />height: 48px;
+                    width: 48px;<br />height: 48px;<br />border-radius: 50%
                   </div>
                 </div>
               </div>
@@ -1063,7 +1052,7 @@
                   <div class="symbol-S0xd1r">
                     <img
                       class="x0-04-measu-llerswitch-KIE43k"
-                      src="img/0-4-touch-feedback--ripple-effect-0-04measurecontrollerswitch-402303A5-1B9C-4767-93F3-D1902723472D@2x.png"
+                      src="img/0-4-touch-feedback--ripple-effect-0-04measurecontrollerswitch-975DC6CB-9BB1-4D1B-B150-4316608FE2E0@2x.png"
                     />
                   </div>
                 </div>
@@ -1071,7 +1060,7 @@
                   <div class="rectangle-x3oNJB"></div>
                   <div class="bg-x3oNJB border-class-1"></div>
                   <div class="content-x3oNJB anima-valign-text-middle font-class-1">
-                    width: 27px;<br />height: 27px;
+                    width: 27px;<br />height: 27px;<br />border-radius: 50%;
                   </div>
                 </div>
               </div>
@@ -1110,7 +1099,7 @@
                   <div class="rectangle-LBMHAs"></div>
                   <div class="bg-LBMHAs border-class-1"></div>
                   <div class="content-LBMHAs anima-valign-text-middle font-class-1">
-                    width: 32px;<br />height: 32px;
+                    width: 32px;<br />height: 32px;<br />border-radius: 50%;
                   </div>
                 </div>
                 <div class="slider-QJCxB5">
@@ -1174,7 +1163,7 @@
                   <div class="rectangle-EgpOur"></div>
                   <div class="bg-EgpOur border-class-1"></div>
                   <div class="content-EgpOur anima-valign-text-middle font-class-1">
-                    width: /*(Sub tab width)*/;<br />height: /*(Sub tab height)*/;<br />border-radius: 26px;
+                    width: /*(Sub tab width)*/;<br />height: 36px;<br />border-radius: 18px;
                   </div>
                 </div>
               </div>
@@ -1196,7 +1185,7 @@
                   <div class="rectangle-xpjiwp"></div>
                   <div class="bg-xpjiwp border-class-1"></div>
                   <div class="content-xpjiwp anima-valign-text-middle font-class-1">
-                    width: /*(Screen width / tab개수)*/;<br />height: 43px;<br />border-radius: 26px;
+                    width: /*(Main tab width)*/;<br />height: 43px;<br />border-radius: 21.5px;
                   </div>
                 </div>
               </div>
@@ -1212,7 +1201,7 @@
                 <div class="bg-eMY8G4 border-class-1"></div>
                 <div class="group-eMY8G4">
                   <div class="content-5V2Yd3 anima-valign-text-middle font-class-1">
-                    background-color: #ffffff;<br />opacity: 0.2;
+                    background-color: #ffffff;<br />opacity: 0.16;
                   </div>
                   <div class="content-hmkcn2 anima-valign-text-bottom font-class-3">Mask ON</div>
                 </div>
@@ -1260,7 +1249,7 @@
                   <div class="rectangle-MxYT1d"></div>
                   <div class="bg-MxYT1d border-class-1"></div>
                   <div class="content-MxYT1d anima-valign-text-middle font-class-1">
-                    width: /*(Screen width)*/;<br />height: /*(List height)*/;
+                    width: /*(List width)*/;<br />height: /*(List height)*/;
                   </div>
                 </div>
                 <div class="cell-kStb3w">
@@ -1282,7 +1271,7 @@
                   <div class="rectangle-R3I3sc"></div>
                   <div class="bg-R3I3sc border-class-1"></div>
                   <div class="content-R3I3sc anima-valign-text-middle font-class-1">
-                    width: /*(Dropdown width)*/;<br />height: /*(List height)*/;
+                    width: /*(Dropdown width)*/;<br />height: 50px;
                   </div>
                 </div>
                 <div class="cell-sOmsnA">
@@ -1339,7 +1328,7 @@
                   <div class="rectangle-JsaEm0"></div>
                   <div class="bg-JsaEm0 border-class-1"></div>
                   <div class="content-JsaEm0 anima-valign-text-middle font-class-1">
-                    width: /*(Screen width/Button개수)*/;<br />height: 60px; /*(상하-4px)*/<br />border-radius : 12px;
+                    width: /*(Button width)*/;<br />height: 52px; <br />border-radius : 12px;
                   </div>
                 </div>
               </div>
@@ -1361,7 +1350,7 @@
                   <div class="rectangle-NVIAHJ"></div>
                   <div class="bg-NVIAHJ border-class-1"></div>
                   <div class="content-NVIAHJ anima-valign-text-middle font-class-1">
-                    width: /*(Screen width-좌우 24px / Button 개수)*/;<br />height: 48px;<br />border-radius: 24px;
+                    width: /*(Button width)*/;<br />height: 48px;<br />border-radius: 24px;
                   </div>
                 </div>
               </div>
@@ -1404,7 +1393,7 @@
                   <div class="rectangle-82UMLE"></div>
                   <div class="bg-82UMLE border-class-1"></div>
                   <div class="content-82UMLE anima-valign-text-middle font-class-1">
-                    width: /*(Text width)*/;<br />height : 48px;<br />border-radius : 24px;
+                    width: /*(Text width + 좌우 12px 마진)*/;<br />height : 48px;<br />border-radius: 24px;
                   </div>
                 </div>
               </div>
@@ -1443,7 +1432,7 @@
                   <div class="rectangle-KjZ3dJ"></div>
                   <div class="bg-KjZ3dJ border-class-1"></div>
                   <div class="content-KjZ3dJ anima-valign-text-middle font-class-1">
-                    width: 48px;<br />height: 48px;
+                    width: 48px;<br />height: 48px;<br />border-radius: 50%;
                   </div>
                 </div>
               </div>
@@ -1716,14 +1705,67 @@
                 <div class="gotohome-quwRun">
                   <div class="group-1HrZwx">
                     <div class="web-app-E5nOUr font-class-6">Web app</div>
-                    <div class="basic-component-gui-E5nOUr font-class-4">Basic component GUI V1.0.0</div>
+                    <div class="basic-component-gui-E5nOUr font-class-4">Basic component GUI V1.1.0</div>
                   </div>
                 </div></a
               >
             </div></a
           >
         </div>
+        <div class="tag-update-C61RwL">
+          <a href="history.html">
+            <div class="btn-xpyOiF anima-smart-layers-pointers">
+              <div class="group-U3E5ew">
+                <div class="version-N0mG4b font-class-4">1.1</div>
+                <div class="v-N0mG4b font-class-4">V</div>
+                <div class="updated-N0mG4b font-class-2">Updated</div>
+              </div>
+            </div></a
+          >
+        </div>
       </div>
     </div>
+    <style>
+      @font-face {
+        font-family: "SamsungOneKorean-600";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/None") format("None");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-700";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/None") format("None");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-300";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/None") format("None");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-400";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/None") format("None");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-500";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/None") format("None");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-300";
+        src: url("./fonts/SamsungOneKorean-300.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-400";
+        src: url("./fonts/SamsungOneKorean-400.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-500";
+        src: url("./fonts/SamsungOneKorean-500.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-600";
+        src: url("./fonts/SamsungOneKorean-600.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-700";
+        src: url("./fonts/SamsungOneKorean-700.woff2") format("woff2");
+      }
+    </style>
   </body>
 </html>

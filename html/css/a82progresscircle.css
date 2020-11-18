@@ -2,7 +2,7 @@
 
 .a82progresscircle {
   background-color: rgba(245,246,247,1.0);
-  height: 4135px;
+  height: 4243px;
   position: relative;
   width: 1680px;
 }
@@ -213,6 +213,21 @@ transform: scale(0.98);
   width: 274px;
 }
 .a82progresscircle .btn-mwblLs:hover {
+
+transform: scale(0.98);
+}
+.a82progresscircle .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 138px;
+}
+.a82progresscircle .btn-xpyOiF:hover {
 
 transform: scale(0.98);
 }
@@ -444,6 +459,14 @@ transform: scale(0.98);
   top: 224px;
   width: auto;
 }
+.a82progresscircle .dark-theme-I6J70C {
+  background-color: transparent;
+  height: 107px;
+  left: 20px;
+  position: absolute;
+  top: 406px;
+  width: 465px;
+}
 .a82progresscircle .default-color-dZpJ1S {
   background-color: transparent;
   color: var(--black);
@@ -460,7 +483,7 @@ transform: scale(0.98);
 }
 .a82progresscircle .determinate-C61RwL {
   background-color: transparent;
-  height: 2200px;
+  height: 2308px;
   left: 380px;
   position: absolute;
   top: 194px;
@@ -480,7 +503,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 1240px;
 }
-.a82progresscircle .determinate-use-to-f-U96Ax7 {
+.a82progresscircle .determinate-use-to-f-cnO7Zc {
   background-color: transparent;
   color: var(--black);
   font-size: 18px;
@@ -508,25 +531,41 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 1240px;
 }
-.a82progresscircle .document-b-x-contents-KeWpqp {
+.a82progresscircle .document-b-pdate-copy-9sXMuu {
+  background-color: rgba(0,204,153,0.2);
+  height: 54px;
+  left: 25px;
+  position: absolute;
+  top: 52px;
+  width: 343px;
+}
+.a82progresscircle .document-b-textupdate-4lPQZu {
+  background-color: rgba(0,204,153,0.2);
+  height: 54px;
+  left: 25px;
+  position: absolute;
+  top: 53px;
+  width: 343px;
+}
+.a82progresscircle .document-b-x-contents-Dx30ed {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
-  height: 279px;
+  border: 2px solid rgba(0,204,153,1.0);
+  height: 1156px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 715px;
+}
+.a82progresscircle .document-b-x-contents-I6J70C {
+  background-color: var(--white);
+  border: 2px solid rgba(0,204,153,1.0);
+  height: 543px;
   left: 0px;
   position: absolute;
   top: 0px;
   width: 505px;
 }
-.a82progresscircle .document-b-x-contents-Qj41Y4 {
-  background-color: var(--white);
-  border: 1px solid var(--ebb);
-  height: 587px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 1240px;
-}
-.a82progresscircle .document-b-x-contents-U8XPoL {
+.a82progresscircle .document-b-x-contents-PalbX3 {
   background-color: var(--white);
   border: 1px solid var(--ebb);
   height: 294px;
@@ -535,14 +574,14 @@ transform: scale(0.98);
   top: 0px;
   width: 505px;
 }
-.a82progresscircle .document-b-x-contents-ag13ix {
+.a82progresscircle .document-b-x-contents-Qj41Y4 {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
-  height: 435px;
+  border: 2px solid rgba(0,204,153,1.0);
+  height: 587px;
   left: 0px;
   position: absolute;
   top: 0px;
-  width: 505px;
+  width: 1240px;
 }
 .a82progresscircle .document-b-x-contents-c1lSdO {
   background-color: var(--white);
@@ -582,21 +621,21 @@ transform: scale(0.98);
 }
 .a82progresscircle .document-b-x-contents-nhzBd4 {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 243px;
   left: 0px;
   position: absolute;
   top: 0px;
   width: 1240px;
 }
-.a82progresscircle .document-b-x-contents-rLmJK8 {
+.a82progresscircle .document-b-x-contents-rbeJJN {
   background-color: var(--white);
   border: 1px solid var(--ebb);
-  height: 1048px;
+  height: 279px;
   left: 0px;
   position: absolute;
   top: 0px;
-  width: 715px;
+  width: 505px;
 }
 .a82progresscircle .document-b-x-contents-xJtcKx {
   background-color: var(--white);
@@ -621,23 +660,10 @@ transform: scale(0.98);
   height: 45px;
   left: 863px;
   position: absolute;
-  top: 4010px;
+  top: 4118px;
   width: 274px;
 }
-.a82progresscircle .fn-BEJ0H2 {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 138px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .fn-DKwwKN {
+.a82progresscircle .fn-HhtOx3 {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -656,6 +682,19 @@ transform: scale(0.98);
   font-size: 18px;
   height: auto;
   left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .fn-NzOejG {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 138px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -689,7 +728,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .fn-sb3Iqz {
+.a82progresscircle .fn-o7Od4L {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -702,7 +741,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .fn-vW30xx {
+.a82progresscircle .fn-uZxG5O {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -715,7 +754,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .fn-value-BEJ0H2 {
+.a82progresscircle .fn-value-NzOejG {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
@@ -728,7 +767,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .general-KeWpqp {
+.a82progresscircle .general-I6J70C {
   background-color: transparent;
   height: 165px;
   left: 20px;
@@ -736,7 +775,7 @@ transform: scale(0.98);
   top: 84px;
   width: 465px;
 }
-.a82progresscircle .general-ag13ix {
+.a82progresscircle .general-rbeJJN {
   background-color: transparent;
   height: 165px;
   left: 20px;
@@ -1216,15 +1255,15 @@ transform: scale(0.98);
   top: 78px;
   width: 1240px;
 }
-.a82progresscircle .group-1-ZMGxoE {
+.a82progresscircle .group-2-179V6x {
   background-color: transparent;
-  height: 1126px;
+  height: 22px;
   left: 0px;
-  position: absolute;
-  top: 730px;
-  width: 1240px;
+  position: relative;
+  top: 0px;
+  width: 273px;
 }
-.a82progresscircle .group-2-1HWiI5 {
+.a82progresscircle .group-2-28Jz6P {
   background-color: transparent;
   height: 22px;
   left: 0px;
@@ -1240,13 +1279,13 @@ transform: scale(0.98);
   top: 16px;
   width: 129px;
 }
-.a82progresscircle .group-2-9aZtoQ {
+.a82progresscircle .group-2-4t1xx1 {
   background-color: transparent;
   height: 22px;
   left: 0px;
   position: relative;
   top: 0px;
-  width: 273px;
+  width: 206px;
 }
 .a82progresscircle .group-2-BMojZC {
   background-color: transparent;
@@ -1264,13 +1303,13 @@ transform: scale(0.98);
   top: 0px;
   width: 200px;
 }
-.a82progresscircle .group-2-KR0mLQ {
+.a82progresscircle .group-2-IhCHfA {
   background-color: transparent;
   height: 22px;
   left: 0px;
   position: relative;
   top: 0px;
-  width: 206px;
+  width: 212px;
 }
 .a82progresscircle .group-2-LVmgpF {
   background-color: transparent;
@@ -1279,14 +1318,6 @@ transform: scale(0.98);
   position: absolute;
   top: 16px;
   width: 140px;
-}
-.a82progresscircle .group-2-MpSanK {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 212px;
 }
 .a82progresscircle .group-2-QxGQ20 {
   background-color: transparent;
@@ -1317,10 +1348,26 @@ transform: scale(0.98);
   height: 284px;
   left: 0px;
   position: absolute;
-  top: 1916px;
+  top: 2024px;
   width: 1240px;
 }
-.a82progresscircle .group-2-eEjafd {
+.a82progresscircle .group-2-aERlgP {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 405px;
+}
+.a82progresscircle .group-2-c922lZ {
+  background-color: transparent;
+  height: 22px;
+  left: 107px;
+  position: absolute;
+  top: 22px;
+  width: 198px;
+}
+.a82progresscircle .group-2-gzr62W {
   background-color: transparent;
   height: 22px;
   left: 0px;
@@ -1328,13 +1375,13 @@ transform: scale(0.98);
   top: 0px;
   width: 307px;
 }
-.a82progresscircle .group-2-kdD10K {
+.a82progresscircle .group-2-wi3UrW {
   background-color: transparent;
   height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 405px;
+  left: 107px;
+  position: absolute;
+  top: 22px;
+  width: 212px;
 }
 .a82progresscircle .group-2-xQWR6S {
   background-color: transparent;
@@ -1344,14 +1391,6 @@ transform: scale(0.98);
   top: 0px;
   width: 182px;
 }
-.a82progresscircle .group-4xRV2f {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 162px;
-}
 .a82progresscircle .group-A0Cqhx {
   background-color: transparent;
   height: 22px;
@@ -1360,13 +1399,13 @@ transform: scale(0.98);
   top: 0px;
   width: 110px;
 }
-.a82progresscircle .group-ArQwHx {
+.a82progresscircle .group-BG3Yug {
   background-color: transparent;
   height: 22px;
   left: 0px;
   position: relative;
   top: 0px;
-  width: 187px;
+  width: 162px;
 }
 .a82progresscircle .group-BhTqG2 {
   background-color: transparent;
@@ -1376,7 +1415,7 @@ transform: scale(0.98);
   top: 0px;
   width: 36px;
 }
-.a82progresscircle .group-Grsgqm {
+.a82progresscircle .group-DpnuTI {
   background-color: transparent;
   height: 22px;
   left: 0px;
@@ -1384,13 +1423,13 @@ transform: scale(0.98);
   top: 0px;
   width: 100px;
 }
-.a82progresscircle .group-JBiyxx {
+.a82progresscircle .group-FosN3l {
   background-color: transparent;
   height: 22px;
   left: 0px;
   position: relative;
   top: 0px;
-  width: 106px;
+  width: 100px;
 }
 .a82progresscircle .group-KL1xXl {
   background-color: transparent;
@@ -1400,14 +1439,6 @@ transform: scale(0.98);
   top: 0px;
   width: 26px;
 }
-.a82progresscircle .group-Krbl7p {
-  background-color: rgba(71,71,71,1.0);
-  height: 22px;
-  left: 63px;
-  position: absolute;
-  top: 0px;
-  width: 143px;
-}
 .a82progresscircle .group-LF0Won {
   background-color: transparent;
   height: 45px;
@@ -1415,6 +1446,14 @@ transform: scale(0.98);
   position: relative;
   top: 22px;
   width: 260px;
+}
+.a82progresscircle .group-MD3efS {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 162px;
 }
 .a82progresscircle .group-MUoWik {
   background-color: transparent;
@@ -1424,7 +1463,31 @@ transform: scale(0.98);
   top: 0px;
   width: 37px;
 }
-.a82progresscircle .group-QaTiO7 {
+.a82progresscircle .group-Pv04HI {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 187px;
+}
+.a82progresscircle .group-So4yh2 {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 106px;
+}
+.a82progresscircle .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 118px;
+}
+.a82progresscircle .group-WroxPg {
   background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 63px;
@@ -1432,13 +1495,13 @@ transform: scale(0.98);
   top: 0px;
   width: 137px;
 }
-.a82progresscircle .group-S91uw8 {
-  background-color: transparent;
+.a82progresscircle .group-Xmp8A3 {
+  background-color: rgba(71,71,71,1.0);
   height: 22px;
-  left: 0px;
-  position: relative;
+  left: 63px;
+  position: absolute;
   top: 0px;
-  width: 187px;
+  width: 143px;
 }
 .a82progresscircle .group-Y1733A {
   background-color: transparent;
@@ -1448,21 +1511,13 @@ transform: scale(0.98);
   top: 0px;
   width: 33px;
 }
-.a82progresscircle .group-Y1n23j {
+.a82progresscircle .group-ZMGxoE {
   background-color: transparent;
-  height: 22px;
+  height: 1234px;
   left: 0px;
-  position: relative;
-  top: 0px;
-  width: 106px;
-}
-.a82progresscircle .group-Z2P0uO {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 100px;
+  position: absolute;
+  top: 730px;
+  width: 1240px;
 }
 .a82progresscircle .group-Zlo0k6 {
   background-color: transparent;
@@ -1472,6 +1527,14 @@ transform: scale(0.98);
   top: 0px;
   width: 35px;
 }
+.a82progresscircle .group-a7x7iE {
+  background-color: transparent;
+  height: 44px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 319px;
+}
 .a82progresscircle .group-bYYcxf {
   background-color: transparent;
   height: 22px;
@@ -1480,21 +1543,13 @@ transform: scale(0.98);
   top: 0px;
   width: 99px;
 }
-.a82progresscircle .group-hXjIrh {
+.a82progresscircle .group-dZ7b2x {
   background-color: transparent;
-  height: 22px;
+  height: 44px;
   left: 0px;
   position: relative;
   top: 0px;
-  width: 162px;
-}
-.a82progresscircle .group-jx4lOZ {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 106px;
+  width: 310px;
 }
 .a82progresscircle .group-kmlApT {
   background-color: transparent;
@@ -1503,6 +1558,14 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 33px;
+}
+.a82progresscircle .group-kvm9iW {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100px;
 }
 .a82progresscircle .group-mCdeqi {
   background-color: transparent;
@@ -1520,13 +1583,29 @@ transform: scale(0.98);
   top: 0px;
   width: 36px;
 }
-.a82progresscircle .group-r163Pl {
+.a82progresscircle .group-tfwhif {
   background-color: transparent;
   height: 22px;
   left: 0px;
   position: relative;
   top: 0px;
-  width: 100px;
+  width: 187px;
+}
+.a82progresscircle .group-ttlRbw {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 106px;
+}
+.a82progresscircle .group-vF03P5 {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 106px;
 }
 .a82progresscircle .group-vHBOd3 {
   background-color: transparent;
@@ -1576,14 +1655,6 @@ transform: scale(0.98);
   top: 0px;
   width: 715px;
 }
-.a82progresscircle .guide-U96Ax7 {
-  background-color: transparent;
-  height: 1048px;
-  left: 0px;
-  position: absolute;
-  top: 78px;
-  width: 715px;
-}
 .a82progresscircle .guide-YDms4V {
   background-color: transparent;
   height: 243px;
@@ -1592,7 +1663,23 @@ transform: scale(0.98);
   top: 41px;
   width: 1240px;
 }
-.a82progresscircle .guide-form-ction1line-5x3jXK {
+.a82progresscircle .guide-cnO7Zc {
+  background-color: transparent;
+  height: 1156px;
+  left: 0px;
+  position: absolute;
+  top: 78px;
+  width: 715px;
+}
+.a82progresscircle .guide-form--dark-copy-9sXMuu {
+  background-color: transparent;
+  height: 44px;
+  left: 32px;
+  position: absolute;
+  top: 56px;
+  width: 310px;
+}
+.a82progresscircle .guide-form-ction1line-LyML4t {
   background-color: transparent;
   height: 22px;
   left: 32px;
@@ -1600,7 +1687,7 @@ transform: scale(0.98);
   top: 140px;
   width: 273px;
 }
-.a82progresscircle .guide-form-ction1line-U8XPoL {
+.a82progresscircle .guide-form-ction1line-PalbX3 {
   background-color: transparent;
   height: 22px;
   left: 52px;
@@ -1624,14 +1711,6 @@ transform: scale(0.98);
   top: 87px;
   width: 200px;
 }
-.a82progresscircle .guide-form-ction1line-mXYtw4 {
-  background-color: transparent;
-  height: 22px;
-  left: 52px;
-  position: absolute;
-  top: 155px;
-  width: 405px;
-}
 .a82progresscircle .guide-form-ction1line-xxL2Iv {
   background-color: transparent;
   height: 22px;
@@ -1640,7 +1719,15 @@ transform: scale(0.98);
   top: 87px;
   width: 182px;
 }
-.a82progresscircle .guide-form-dwich1line-yOZaC5 {
+.a82progresscircle .guide-form-ction1line-zf0b0b {
+  background-color: transparent;
+  height: 22px;
+  left: 52px;
+  position: absolute;
+  top: 155px;
+  width: 405px;
+}
+.a82progresscircle .guide-form-dwich1line-HzidYx {
   background-color: transparent;
   height: 22px;
   left: 32px;
@@ -1648,15 +1735,7 @@ transform: scale(0.98);
   top: 112px;
   width: 307px;
 }
-.a82progresscircle .guide-form-e-subtitle-5x3jXK {
-  background-color: transparent;
-  height: 19px;
-  left: 32px;
-  position: absolute;
-  top: 0px;
-  width: 57px;
-}
-.a82progresscircle .guide-form-e-subtitle-hEiESh {
+.a82progresscircle .guide-form-e-subtitle-4lPQZu {
   background-color: transparent;
   height: 19px;
   left: 32px;
@@ -1664,7 +1743,7 @@ transform: scale(0.98);
   top: 0px;
   width: 87px;
 }
-.a82progresscircle .guide-form-e-subtitle-tyv5Q9 {
+.a82progresscircle .guide-form-e-subtitle-9sXMuu {
   background-color: transparent;
   height: 19px;
   left: 32px;
@@ -1672,7 +1751,7 @@ transform: scale(0.98);
   top: 0px;
   width: 84px;
 }
-.a82progresscircle .guide-form-e-subtitle-yOZaC5 {
+.a82progresscircle .guide-form-e-subtitle-HzidYx {
   background-color: transparent;
   height: 19px;
   left: 32px;
@@ -1680,7 +1759,23 @@ transform: scale(0.98);
   top: 0px;
   width: 57px;
 }
-.a82progresscircle .guide-form-me-imagebg-kdeWOT {
+.a82progresscircle .guide-form-e-subtitle-LyML4t {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 57px;
+}
+.a82progresscircle .guide-form-light-copy-4lPQZu {
+  background-color: transparent;
+  height: 44px;
+  left: 32px;
+  position: absolute;
+  top: 56px;
+  width: 319px;
+}
+.a82progresscircle .guide-form-me-imagebg-JpRjW1 {
   background-color: rgba(255,102,255,1.0);
   height: 48px;
   left: 0px;
@@ -1688,7 +1783,7 @@ transform: scale(0.98);
   top: 0px;
   width: 48px;
 }
-.a82progresscircle .guide-form-ormal-dark-tyv5Q9 {
+.a82progresscircle .guide-form-ormal-dark-9sXMuu {
   background-color: transparent;
   height: 22px;
   left: 32px;
@@ -1696,15 +1791,7 @@ transform: scale(0.98);
   top: 28px;
   width: 212px;
 }
-.a82progresscircle .guide-form-ormal1line-1LauS5 {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 84px;
-  width: 162px;
-}
-.a82progresscircle .guide-form-ormal1line-5x3jXK {
+.a82progresscircle .guide-form-ormal1line-HzidYx {
   background-color: transparent;
   height: 22px;
   left: 32px;
@@ -1712,15 +1799,7 @@ transform: scale(0.98);
   top: 28px;
   width: 100px;
 }
-.a82progresscircle .guide-form-ormal1line-6jOmB4 {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 84px;
-  width: 162px;
-}
-.a82progresscircle .guide-form-ormal1line-NRNO6V {
+.a82progresscircle .guide-form-ormal1line-KxZ5lJ {
   background-color: transparent;
   height: 22px;
   left: 32px;
@@ -1728,13 +1807,37 @@ transform: scale(0.98);
   top: 56px;
   width: 106px;
 }
-.a82progresscircle .guide-form-ormal1line-U8XPoL {
+.a82progresscircle .guide-form-ormal1line-LyML4t {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 100px;
+}
+.a82progresscircle .guide-form-ormal1line-PalbX3 {
   background-color: transparent;
   height: 22px;
   left: 52px;
   position: absolute;
   top: 183px;
   width: 100px;
+}
+.a82progresscircle .guide-form-ormal1line-ULOJDO {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 112px;
+  width: 187px;
+}
+.a82progresscircle .guide-form-ormal1line-a7OjJC {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 56px;
+  width: 106px;
 }
 .a82progresscircle .guide-form-ormal1line-c1lSdO {
   background-color: transparent;
@@ -1744,14 +1847,6 @@ transform: scale(0.98);
   top: 87px;
   width: 110px;
 }
-.a82progresscircle .guide-form-ormal1line-csD9dB {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 112px;
-  width: 187px;
-}
 .a82progresscircle .guide-form-ormal1line-dEXN0B {
   background-color: transparent;
   height: 22px;
@@ -1760,7 +1855,15 @@ transform: scale(0.98);
   top: 115px;
   width: 99px;
 }
-.a82progresscircle .guide-form-ormal1line-i15nXk {
+.a82progresscircle .guide-form-ormal1line-jRToSp {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 84px;
+  width: 162px;
+}
+.a82progresscircle .guide-form-ormal1line-rxxDqf {
   background-color: transparent;
   height: 22px;
   left: 32px;
@@ -1768,15 +1871,15 @@ transform: scale(0.98);
   top: 140px;
   width: 187px;
 }
-.a82progresscircle .guide-form-ormal1line-ix53QD {
+.a82progresscircle .guide-form-ormal1line-wULvjl {
   background-color: transparent;
   height: 22px;
   left: 32px;
   position: absolute;
-  top: 56px;
-  width: 106px;
+  top: 84px;
+  width: 162px;
 }
-.a82progresscircle .guide-form-ormal1line-mXYtw4 {
+.a82progresscircle .guide-form-ormal1line-zf0b0b {
   background-color: transparent;
   height: 22px;
   left: 52px;
@@ -1784,15 +1887,7 @@ transform: scale(0.98);
   top: 211px;
   width: 106px;
 }
-.a82progresscircle .guide-form-ormal1line-yOZaC5 {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 28px;
-  width: 100px;
-}
-.a82progresscircle .guide-form-rmal-light-hEiESh {
+.a82progresscircle .guide-form-rmal-light-4lPQZu {
   background-color: transparent;
   height: 22px;
   left: 32px;
@@ -1800,9 +1895,19 @@ transform: scale(0.98);
   top: 28px;
   width: 206px;
 }
-.a82progresscircle .guide-meas-e-vertical-CYwHqH {
+.a82progresscircle .guide-meas-e-vertical-1j60on {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-line-7C904151-BC03-4165-AB71-F6F9F71713B0@2x.png);
+  background-image: url(../img/8-2-progress-circle-line-55EE2533-FDE2-43C3-942E-A30B66A7DB1E@2x.png);
+  background-size: 100% 100%;
+  height: 64px;
+  left: 0px;
+  position: absolute;
+  top: 96px;
+  width: 1px;
+}
+.a82progresscircle .guide-meas-e-vertical-bnxWp5 {
+  background-color: transparent;
+  background-image: url(../img/8-2-progress-circle-line-55EE2533-FDE2-43C3-942E-A30B66A7DB1E@2x.png);
   background-size: 100% 100%;
   height: 64px;
   left: 95px;
@@ -1810,17 +1915,7 @@ transform: scale(0.98);
   top: 96px;
   width: 1px;
 }
-.a82progresscircle .guide-meas-e-vertical-mrUOJt {
-  background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-line-7C904151-BC03-4165-AB71-F6F9F71713B0@2x.png);
-  background-size: 100% 100%;
-  height: 64px;
-  left: 0px;
-  position: absolute;
-  top: 96px;
-  width: 1px;
-}
-.a82progresscircle .guide-meas-eft-size-1-7ACIDq {
+.a82progresscircle .guide-meas-eft-size-1-RJXhsw {
   background-color: transparent;
   height: 224px;
   left: 0px;
@@ -1828,7 +1923,7 @@ transform: scale(0.98);
   top: 31px;
   width: 29px;
 }
-.a82progresscircle .guide-meas-ght-size-1-mrUOJt {
+.a82progresscircle .guide-meas-ght-size-1-1j60on {
   background-color: transparent;
   height: 96px;
   left: 162px;
@@ -1836,9 +1931,19 @@ transform: scale(0.98);
   top: 0px;
   width: 29px;
 }
-.a82progresscircle .guide-meas-horizontal-CYwHqH {
+.a82progresscircle .guide-meas-horizontal-1j60on {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-line-4696E92F-B7C6-49F9-9468-501136B520F6@2x.png);
+  background-image: url(../img/8-2-progress-circle-line-490C5B0D-317A-46EC-B20B-2C85842CC332@2x.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 96px;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+.a82progresscircle .guide-meas-horizontal-bnxWp5 {
+  background-color: transparent;
+  background-image: url(../img/8-2-progress-circle-line-490C5B0D-317A-46EC-B20B-2C85842CC332@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 96px;
@@ -1846,17 +1951,7 @@ transform: scale(0.98);
   top: 95px;
   width: 64px;
 }
-.a82progresscircle .guide-meas-horizontal-mrUOJt {
-  background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-line-4696E92F-B7C6-49F9-9468-501136B520F6@2x.png);
-  background-size: 100% 100%;
-  height: 1px;
-  left: 96px;
-  position: absolute;
-  top: 0px;
-  width: 64px;
-}
-.a82progresscircle .guide-meas-tom-size-1-mrUOJt {
+.a82progresscircle .guide-meas-tom-size-1-1j60on {
   background-color: transparent;
   height: 29px;
   left: 0px;
@@ -1864,7 +1959,7 @@ transform: scale(0.98);
   top: 162px;
   width: 96px;
 }
-.a82progresscircle .guide-meas-top-size-1-7ACIDq {
+.a82progresscircle .guide-meas-top-size-1-RJXhsw {
   background-color: transparent;
   height: 29px;
   left: 31px;
@@ -1872,7 +1967,7 @@ transform: scale(0.98);
   top: 0px;
   width: 224px;
 }
-.a82progresscircle .guide-measure-area-mrUOJt {
+.a82progresscircle .guide-measure-area-1j60on {
   background-color: rgba(255,51,255,0.37);
   height: 96px;
   left: 0px;
@@ -1880,9 +1975,9 @@ transform: scale(0.98);
   top: 0px;
   width: 96px;
 }
-.a82progresscircle .guide-numb-ring-image-7ACIDq {
+.a82progresscircle .guide-numb-ring-image-RJXhsw {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-oval-9724E67C-E5FA-4643-B35E-A77AC7AC738D@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-oval-CC3CB7EB-F3EC-4B15-AA76-CE107AA9148D@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 95px;
@@ -1892,7 +1987,7 @@ transform: scale(0.98);
 }
 .a82progresscircle .guide-numb-ring-shape-49xPoo {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-oval-64EB44A6-8B14-4EAB-9054-0E1A06F866A7@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-oval-0AE44D87-5A5A-45B4-A358-A34B168A8EFD@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1900,19 +1995,9 @@ transform: scale(0.98);
   top: 0px;
   width: 22px;
 }
-.a82progresscircle .guide-numb-ring-shape-7ACIDq {
-  background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-oval-64EB44A6-8B14-4EAB-9054-0E1A06F866A7@2x.png);
-  background-size: 100% 100%;
-  height: 22px;
-  left: 31px;
-  position: absolute;
-  top: 95px;
-  width: 22px;
-}
 .a82progresscircle .guide-numb-ring-shape-A09cLU {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-oval-64EB44A6-8B14-4EAB-9054-0E1A06F866A7@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-oval-0AE44D87-5A5A-45B4-A358-A34B168A8EFD@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 74px;
@@ -1920,9 +2005,19 @@ transform: scale(0.98);
   top: 74px;
   width: 22px;
 }
-.a82progresscircle .guide-numb-ring-shape-MQpjnD {
+.a82progresscircle .guide-numb-ring-shape-RJXhsw {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-oval-64EB44A6-8B14-4EAB-9054-0E1A06F866A7@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-oval-0AE44D87-5A5A-45B4-A358-A34B168A8EFD@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 31px;
+  position: absolute;
+  top: 95px;
+  width: 22px;
+}
+.a82progresscircle .guide-numb-ring-shape-RqCKuv {
+  background-color: transparent;
+  background-image: url(../img/8-8-pull-down-refresh-oval-0AE44D87-5A5A-45B4-A358-A34B168A8EFD@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 214px;
@@ -1932,7 +2027,7 @@ transform: scale(0.98);
 }
 .a82progresscircle .guide-numb-ring-shape-SWarmn {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-oval-64EB44A6-8B14-4EAB-9054-0E1A06F866A7@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-oval-0AE44D87-5A5A-45B4-A358-A34B168A8EFD@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1942,7 +2037,7 @@ transform: scale(0.98);
 }
 .a82progresscircle .guide-numb-ring-shape-uEHLec {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-oval-64EB44A6-8B14-4EAB-9054-0E1A06F866A7@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-oval-0AE44D87-5A5A-45B4-A358-A34B168A8EFD@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 74px;
@@ -1950,9 +2045,9 @@ transform: scale(0.98);
   top: 74px;
   width: 22px;
 }
-.a82progresscircle .guide-numbering-icon-HROQ2Q {
+.a82progresscircle .guide-numbering-icon-4vIu6C {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-oval-64EB44A6-8B14-4EAB-9054-0E1A06F866A7@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-oval-0AE44D87-5A5A-45B4-A358-A34B168A8EFD@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1960,9 +2055,9 @@ transform: scale(0.98);
   top: 2px;
   width: 22px;
 }
-.a82progresscircle .guide-numbering-icon-K5rLmh {
+.a82progresscircle .guide-numbering-icon-HROQ2Q {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-oval-9724E67C-E5FA-4643-B35E-A77AC7AC738D@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-oval-0AE44D87-5A5A-45B4-A358-A34B168A8EFD@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1972,7 +2067,7 @@ transform: scale(0.98);
 }
 .a82progresscircle .guide-numbering-icon-PYM5lT {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-oval-64EB44A6-8B14-4EAB-9054-0E1A06F866A7@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-oval-0AE44D87-5A5A-45B4-A358-A34B168A8EFD@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1982,27 +2077,7 @@ transform: scale(0.98);
 }
 .a82progresscircle .guide-numbering-icon-SmNJu0 {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-oval-64EB44A6-8B14-4EAB-9054-0E1A06F866A7@2x.png);
-  background-size: 100% 100%;
-  height: 22px;
-  left: 0px;
-  position: absolute;
-  top: 2px;
-  width: 22px;
-}
-.a82progresscircle .guide-numbering-icon-WejR5e {
-  background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-oval-64EB44A6-8B14-4EAB-9054-0E1A06F866A7@2x.png);
-  background-size: 100% 100%;
-  height: 22px;
-  left: 0px;
-  position: absolute;
-  top: 2px;
-  width: 22px;
-}
-.a82progresscircle .guide-numbering-icon-cZmHJ6 {
-  background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-oval-64EB44A6-8B14-4EAB-9054-0E1A06F866A7@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-oval-0AE44D87-5A5A-45B4-A358-A34B168A8EFD@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2012,7 +2087,7 @@ transform: scale(0.98);
 }
 .a82progresscircle .guide-numbering-icon-dQReYA {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-oval-64EB44A6-8B14-4EAB-9054-0E1A06F866A7@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-oval-0AE44D87-5A5A-45B4-A358-A34B168A8EFD@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2020,7 +2095,27 @@ transform: scale(0.98);
   top: 2px;
   width: 22px;
 }
-.a82progresscircle .guide-property-HROQ2Q {
+.a82progresscircle .guide-numbering-icon-vTxLv8 {
+  background-color: transparent;
+  background-image: url(../img/8-8-pull-down-refresh-oval-CC3CB7EB-F3EC-4B15-AA76-CE107AA9148D@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 2px;
+  width: 22px;
+}
+.a82progresscircle .guide-numbering-icon-xRRDcd {
+  background-color: transparent;
+  background-image: url(../img/8-8-pull-down-refresh-oval-0AE44D87-5A5A-45B4-A358-A34B168A8EFD@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 2px;
+  width: 22px;
+}
+.a82progresscircle .guide-property-4vIu6C {
   background-color: transparent;
   color: var(--black);
   font-size: 22px;
@@ -2034,7 +2129,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .guide-property-K5rLmh {
+.a82progresscircle .guide-property-HROQ2Q {
   background-color: transparent;
   color: var(--black);
   font-size: 22px;
@@ -2076,34 +2171,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .guide-property-WejR5e {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
-  height: auto;
-  left: 32px;
-  line-height: 26px;
-  opacity: 0.8;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .guide-property-cZmHJ6 {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
-  height: auto;
-  left: 32px;
-  line-height: 26px;
-  opacity: 0.8;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a82progresscircle .guide-property-dQReYA {
   background-color: transparent;
   color: var(--black);
@@ -2118,7 +2185,35 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .guide-subject-image-U8XPoL {
+.a82progresscircle .guide-property-vTxLv8 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 32px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .guide-property-xRRDcd {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 32px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .guide-subject-image-PalbX3 {
   background-color: transparent;
   height: 26px;
   left: 20px;
@@ -2126,15 +2221,7 @@ transform: scale(0.98);
   top: 32px;
   width: 135px;
 }
-.a82progresscircle .guide-subject-shape-KeWpqp {
-  background-color: transparent;
-  height: 26px;
-  left: 20px;
-  position: absolute;
-  top: 32px;
-  width: 135px;
-}
-.a82progresscircle .guide-subject-shape-ag13ix {
+.a82progresscircle .guide-subject-shape-I6J70C {
   background-color: transparent;
   height: 26px;
   left: 20px;
@@ -2159,6 +2246,14 @@ transform: scale(0.98);
   width: 135px;
 }
 .a82progresscircle .guide-subject-shape-kNUtVQ {
+  background-color: transparent;
+  height: 26px;
+  left: 20px;
+  position: absolute;
+  top: 32px;
+  width: 135px;
+}
+.a82progresscircle .guide-subject-shape-rbeJJN {
   background-color: transparent;
   height: 26px;
   left: 20px;
@@ -2210,12 +2305,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .image-U96Ax7 {
+.a82progresscircle .image-cnO7Zc {
   background-color: transparent;
   height: 294px;
   left: 735px;
   position: absolute;
-  top: 832px;
+  top: 940px;
   width: 505px;
 }
 .a82progresscircle .indeterminate-3dpJNz {
@@ -2237,7 +2332,7 @@ transform: scale(0.98);
   height: 1376px;
   left: 379px;
   position: absolute;
-  top: 2554px;
+  top: 2662px;
   width: 1242px;
 }
 .a82progresscircle .keyscreen-ZMGxoE {
@@ -2248,21 +2343,21 @@ transform: scale(0.98);
   top: 83px;
   width: 1240px;
 }
-.a82progresscircle .light-theme-Pip4kI {
+.a82progresscircle .light-theme-I6J70C {
   background-color: transparent;
-  height: 53px;
-  left: 20px;
-  position: absolute;
-  top: 352px;
-  width: 465px;
-}
-.a82progresscircle .light-theme-ag13ix {
-  background-color: transparent;
-  height: 53px;
+  height: 107px;
   left: 20px;
   position: absolute;
   top: 274px;
   width: 465px;
+}
+.a82progresscircle .measure-Dx30ed {
+  background-color: transparent;
+  height: 286px;
+  left: 215px;
+  position: absolute;
+  top: 435px;
+  width: 293px;
 }
 .a82progresscircle .measure-dZpJ1S {
   background-color: transparent;
@@ -2271,14 +2366,6 @@ transform: scale(0.98);
   position: absolute;
   top: 104px;
   width: 96px;
-}
-.a82progresscircle .measure-rLmJK8 {
-  background-color: transparent;
-  height: 286px;
-  left: 215px;
-  position: absolute;
-  top: 381px;
-  width: 293px;
 }
 .a82progresscircle .measure-xJtcKx {
   background-color: transparent;
@@ -2328,9 +2415,9 @@ transform: scale(0.98);
   top: 21px;
   width: 60px;
 }
-.a82progresscircle .mobile-lig-ssdownload-kdeWOT {
+.a82progresscircle .mobile-lig-ssdownload-JpRjW1 {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-mobilelightthemeicon08progressprogressdownload-5D9D661F-96B9-4645-AF2F-0FCBF84563F9@2x.png);
+  background-image: url(../img/8-2-progress-circle-mobilelightthemeicon08progressprogressdownload-2EC0EE33-E7C5-4769-B1A9-5F3DA58B2512@2x.png);
   background-size: 100% 100%;
   height: 38px;
   left: 10px;
@@ -2351,7 +2438,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .progress-circle-U96Ax7 {
+.a82progresscircle .progress-circle-cnO7Zc {
   background-color: transparent;
   color: var(--black);
   font-size: 22px;
@@ -2379,7 +2466,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 1240px;
 }
-.a82progresscircle .property-0m3PDi {
+.a82progresscircle .property-4QaWvv {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2393,32 +2480,6 @@ transform: scale(0.98);
   width: auto;
 }
 .a82progresscircle .property-5WIfx2 {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .property-8Q9hKR {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .property-BEJ0H2 {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2445,33 +2506,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .property-DL1Wk1 {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a82progresscircle .property-Dcnq5P {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .property-F2TeXF {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2498,7 +2533,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .property-Krbl7p {
+.a82progresscircle .property-LSgAWe {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2511,7 +2546,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .property-LSgAWe {
+.a82progresscircle .property-LdEBAo {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2538,7 +2573,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .property-PHLwH8 {
+.a82progresscircle .property-NzOejG {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2551,7 +2586,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .property-QaTiO7 {
+.a82progresscircle .property-PikUha {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2564,7 +2599,33 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .property-VmxklR {
+.a82progresscircle .property-QiXAUX {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .property-WroxPg {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .property-Xmp8A3 {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2605,7 +2666,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .property-ax0IQG {
+.a82progresscircle .property-brn8s0 {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2618,7 +2679,20 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .property-ewsAx8 {
+.a82progresscircle .property-c922lZ {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .property-dlD4ot {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2644,20 +2718,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .property-g0uXvJ {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .property-k8NzDe {
+.a82progresscircle .property-ftF95k {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2678,19 +2739,6 @@ transform: scale(0.98);
   left: 0px;
   line-height: 26px;
   opacity: 0.8;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .property-lc0NlO {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
   position: absolute;
   text-align: left;
   top: 0px;
@@ -2738,7 +2786,20 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .property-sfNet9 {
+.a82progresscircle .property-q7KbN2 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .property-thtiNO {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2779,6 +2840,32 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a82progresscircle .property-wKv4q3 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .property-wi3UrW {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a82progresscircle .property-wnepx5 {
   background-color: transparent;
   color: var(--black);
@@ -2807,7 +2894,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .property-zb9Sro {
+.a82progresscircle .property-xVjxzS {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2820,6 +2907,40 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a82progresscircle .property-xYUULP {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .property-xybeqm {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .rectangle-13JdOn {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 96px;
+}
 .a82progresscircle .rectangle-2y9KqF {
   background-color: var(--white);
   height: 108px;
@@ -2828,13 +2949,13 @@ transform: scale(0.98);
   top: 1px;
   width: 235px;
 }
-.a82progresscircle .rectangle-33xBr8 {
+.a82progresscircle .rectangle-4kchNM {
   background-color: var(--razzle-dazzle-rose);
-  height: 9px;
-  left: 95px;
+  height: 1px;
+  left: 0px;
   position: absolute;
-  top: 0px;
-  width: 1px;
+  top: 95px;
+  width: 9px;
 }
 .a82progresscircle .rectangle-APLBIe {
   background-color: transparent;
@@ -2844,6 +2965,14 @@ transform: scale(0.98);
   top: 0px;
   width: 320px;
 }
+.a82progresscircle .rectangle-APyO19 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 20px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
 .a82progresscircle .rectangle-BMojZC {
   background-color: var(--white);
   height: 108px;
@@ -2852,14 +2981,6 @@ transform: scale(0.98);
   top: 1px;
   width: 235px;
 }
-.a82progresscircle .rectangle-BiexWA {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 0px;
-  width: 9px;
-}
 .a82progresscircle .rectangle-CwWjDX {
   background-color: rgba(116,116,116,1.0);
   height: 58px;
@@ -2867,14 +2988,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 237px;
-}
-.a82progresscircle .rectangle-D2lVzF {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 95px;
-  width: 9px;
 }
 .a82progresscircle .rectangle-EjHP0n {
   background-color: var(--white);
@@ -2924,18 +3037,10 @@ transform: scale(0.98);
   top: 1px;
   width: 235px;
 }
-.a82progresscircle .rectangle-KnLeFm {
+.a82progresscircle .rectangle-Kzcn2c {
   background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 223px;
-  width: 9px;
-}
-.a82progresscircle .rectangle-KxujA6 {
-  background-color: var(--razzle-dazzle-rose);
-  height: 96px;
-  left: 4px;
+  height: 9px;
+  left: 95px;
   position: absolute;
   top: 0px;
   width: 1px;
@@ -2948,20 +3053,20 @@ transform: scale(0.98);
   top: 1px;
   width: 235px;
 }
-.a82progresscircle .rectangle-NVJbjK {
+.a82progresscircle .rectangle-LvFzQs {
   background-color: var(--razzle-dazzle-rose);
-  height: 9px;
-  left: 0px;
+  height: 96px;
+  left: 4px;
   position: absolute;
   top: 0px;
   width: 1px;
 }
-.a82progresscircle .rectangle-O9wqc9 {
+.a82progresscircle .rectangle-Oa31Qj {
   background-color: var(--razzle-dazzle-rose);
-  height: 9px;
-  left: 0px;
+  height: 223px;
+  left: 24px;
   position: absolute;
-  top: 20px;
+  top: 0px;
   width: 1px;
 }
 .a82progresscircle .rectangle-QxGQ20 {
@@ -2980,14 +3085,6 @@ transform: scale(0.98);
   top: 0px;
   width: 202px;
 }
-.a82progresscircle .rectangle-VUa3xq {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 4px;
-  width: 96px;
-}
 .a82progresscircle .rectangle-Vkxqr2 {
   background-color: var(--white);
   height: 100px;
@@ -2995,6 +3092,14 @@ transform: scale(0.98);
   position: absolute;
   top: 1px;
   width: 200px;
+}
+.a82progresscircle .rectangle-YSsJAk {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 223px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
 }
 .a82progresscircle .rectangle-Z3PgK4 {
   background-color: var(--white);
@@ -3004,6 +3109,14 @@ transform: scale(0.98);
   top: 1px;
   width: 200px;
 }
+.a82progresscircle .rectangle-bRkdV0 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
 .a82progresscircle .rectangle-cqrdJ1 {
   background-color: var(--white);
   height: 100px;
@@ -3011,6 +3124,14 @@ transform: scale(0.98);
   position: absolute;
   top: 1px;
   width: 100px;
+}
+.a82progresscircle .rectangle-fMbIIH {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 224px;
 }
 .a82progresscircle .rectangle-iMWgtQ {
   background-color: var(--white);
@@ -3020,6 +3141,14 @@ transform: scale(0.98);
   top: 1px;
   width: 235px;
 }
+.a82progresscircle .rectangle-jZHR9Y {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
 .a82progresscircle .rectangle-mY2Y4u {
   background-color: rgba(132,131,131,1.0);
   height: 56px;
@@ -3028,7 +3157,15 @@ transform: scale(0.98);
   top: 1px;
   width: 235px;
 }
-.a82progresscircle .rectangle-oLxOB7 {
+.a82progresscircle .rectangle-oZgSl2 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 20px;
+  position: absolute;
+  top: 223px;
+  width: 9px;
+}
+.a82progresscircle .rectangle-q5qFrc {
   background-color: var(--razzle-dazzle-rose);
   height: 1px;
   left: 0px;
@@ -3100,14 +3237,6 @@ transform: scale(0.98);
   top: 1px;
   width: 235px;
 }
-.a82progresscircle .rectangle-utuK6x {
-  background-color: var(--razzle-dazzle-rose);
-  height: 9px;
-  left: 223px;
-  position: absolute;
-  top: 20px;
-  width: 1px;
-}
 .a82progresscircle .rectangle-ux67m4 {
   background-color: rgba(116,116,116,1.0);
   height: 58px;
@@ -3140,14 +3269,6 @@ transform: scale(0.98);
   top: 1px;
   width: 235px;
 }
-.a82progresscircle .rectangle-xf5SSU {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 24px;
-  width: 224px;
-}
 .a82progresscircle .rectangle-ybJ9JT {
   background-color: var(--white);
   height: 108px;
@@ -3156,13 +3277,13 @@ transform: scale(0.98);
   top: 1px;
   width: 100px;
 }
-.a82progresscircle .rectangle-zjicJF {
-  background-color: var(--razzle-dazzle-rose);
-  height: 223px;
-  left: 24px;
+.a82progresscircle .shape-6QvaQx {
+  background-color: transparent;
+  height: 543px;
+  left: 735px;
   position: absolute;
-  top: 0px;
-  width: 1px;
+  top: 78px;
+  width: 505px;
 }
 .a82progresscircle .shape-713CfK {
   background-color: transparent;
@@ -3188,12 +3309,12 @@ transform: scale(0.98);
   top: 0px;
   width: 505px;
 }
-.a82progresscircle .shape-U96Ax7 {
+.a82progresscircle .shape-cnO7Zc {
   background-color: transparent;
   height: 279px;
   left: 735px;
   position: absolute;
-  top: 533px;
+  top: 641px;
   width: 505px;
 }
 .a82progresscircle .shape-iwbhTg {
@@ -3204,21 +3325,23 @@ transform: scale(0.98);
   top: 0px;
   width: 505px;
 }
-.a82progresscircle .shape-rKTQdB {
-  background-color: transparent;
-  height: 435px;
-  left: 735px;
-  position: absolute;
-  top: 78px;
-  width: 505px;
-}
-.a82progresscircle .size-7ACIDq {
+.a82progresscircle .size-RJXhsw {
   background-color: transparent;
   height: 191px;
   left: 95px;
   position: absolute;
   top: 95px;
   width: 198px;
+}
+.a82progresscircle .symbol-Dx30ed {
+  background-color: transparent;
+  background-image: url(../img/8-2-progress-circle-mobilelighttheme08progressprogresscircledownload-B1F26DB4-A09C-4C4B-93DF-6CFF2D1F44EA@2x.png);
+  background-size: 100% 100%;
+  height: 256px;
+  left: 230px;
+  position: absolute;
+  top: 454px;
+  width: 256px;
 }
 .a82progresscircle .symbol-dZpJ1S {
   background-color: transparent;
@@ -3230,25 +3353,15 @@ transform: scale(0.98);
 }
 .a82progresscircle .symbol-nhzBd4 {
   background-color: transparent;
-  height: 112px;
-  left: 114px;
+  height: 128px;
+  left: 106px;
   position: absolute;
-  top: 56px;
-  width: 1012px;
-}
-.a82progresscircle .symbol-rLmJK8 {
-  background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-mobilelighttheme08progressprogresscircledownload-CF50F1D7-097E-438A-9208-E2B13DA1CDB0@2x.png);
-  background-size: 100% 100%;
-  height: 224px;
-  left: 246px;
-  position: absolute;
-  top: 412px;
-  width: 224px;
+  top: 50px;
+  width: 1028px;
 }
 .a82progresscircle .symbol-xJtcKx {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-8-02measureprogresscirclewhite-A7AD179D-2C87-447F-ACBB-C1F1F7109482@2x.png);
+  background-image: url(../img/8-2-progress-circle-8-02measureprogresscirclewhite-0D59F481-4D13-4A0C-A43A-D16B5E754FE1@2x.png);
   background-size: 100% 100%;
   height: 96px;
   left: 310px;
@@ -3464,6 +3577,28 @@ transform: scale(0.98);
   top: 464px;
   width: 230px;
 }
+.a82progresscircle .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 1007px;
+  position: absolute;
+  top: 81px;
+  width: 138px;
+}
+.a82progresscircle .text-0jex3R {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a82progresscircle .text-5xwGX0 {
   background-color: transparent;
   color: var(--black);
@@ -3478,7 +3613,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 218px;
 }
-.a82progresscircle .text-E4oiAT {
+.a82progresscircle .text-IOclF9 {
   background-color: transparent;
   color: var(--black);
   font-size: 16px;
@@ -3506,20 +3641,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 218px;
 }
-.a82progresscircle .text-M5pU4W {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
-  height: auto;
-  left: 0px;
-  line-height: 19px;
-  opacity: 0.35;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a82progresscircle .text-Q03UO4 {
   background-color: transparent;
   color: var(--black);
@@ -3533,6 +3654,20 @@ transform: scale(0.98);
   top: 12px;
   white-space: nowrap;
   width: 218px;
+}
+.a82progresscircle .text-Qgja6a {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a82progresscircle .text-WvbxKh {
   background-color: transparent;
@@ -3560,20 +3695,6 @@ transform: scale(0.98);
   top: 12px;
   white-space: nowrap;
   width: 218px;
-}
-.a82progresscircle .text-eSaCeU {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
-  height: auto;
-  left: 0px;
-  line-height: 19px;
-  opacity: 0.35;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
 }
 .a82progresscircle .text-hn7fDE {
   background-color: transparent;
@@ -3617,6 +3738,20 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 218px;
 }
+.a82progresscircle .text-vDbo11 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a82progresscircle .text-wvPFyP {
   background-color: transparent;
   color: var(--black);
@@ -3630,20 +3765,6 @@ transform: scale(0.98);
   top: 12px;
   white-space: nowrap;
   width: 218px;
-}
-.a82progresscircle .text-xrILah {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
-  height: auto;
-  left: 0px;
-  line-height: 19px;
-  opacity: 0.35;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
 }
 .a82progresscircle .title-FcwJQ5 {
   background-color: transparent;
@@ -3723,13 +3844,26 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 60px;
 }
-.a82progresscircle .value-0m3PDi {
+.a82progresscircle .updated-N0mG4b {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
+  color: var(--white);
+  font-size: 20px;
   height: auto;
-  left: 55px;
-  line-height: 22px;
+  left: 42px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
   position: absolute;
   text-align: left;
   top: 0px;
@@ -3749,6 +3883,32 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a82progresscircle .value-1line-c922lZ {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 107px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .value-1line-wi3UrW {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 107px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a82progresscircle .value-1mu8sx {
   background-color: transparent;
   color: var(--royal-blue);
@@ -3761,6 +3921,40 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: auto;
+}
+.a82progresscircle .value-2line-Thof8X {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .value-2line-pfTxKd {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .value-4QaWvv {
+  background-color: transparent;
+  height: 22px;
+  left: 104px;
+  position: absolute;
+  top: 0px;
+  width: 169px;
 }
 .a82progresscircle .value-5WIfx2 {
   background-color: transparent;
@@ -3796,32 +3990,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .value-8Q9hKR {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 55px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .value-BEJ0H2 {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 63px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a82progresscircle .value-C1rvZK {
   background-color: transparent;
   color: var(--royal-blue);
@@ -3848,32 +4016,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .value-DKwwKN {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 32px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .value-DL1Wk1 {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 119px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a82progresscircle .value-Dcnq5P {
   background-color: transparent;
   color: var(--royal-blue);
@@ -3887,13 +4029,18 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .value-F2TeXF {
+.a82progresscircle .value-HhtOx3 {
   background-color: transparent;
-  height: 22px;
-  left: 104px;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 29px;
+  line-height: 22px;
   position: absolute;
+  text-align: left;
   top: 0px;
-  width: 301px;
+  white-space: nowrap;
+  width: auto;
 }
 .a82progresscircle .value-IWQVSj {
   background-color: transparent;
@@ -3921,27 +4068,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .value-KJpnEk {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .value-KnLeFm {
-  background-color: transparent;
-  height: 19px;
-  left: 0px;
-  position: absolute;
-  top: 105px;
-  width: 17px;
-}
 .a82progresscircle .value-LFxVyI {
   background-color: transparent;
   color: var(--royal-blue);
@@ -3963,21 +4089,60 @@ transform: scale(0.98);
   top: 0px;
   width: 169px;
 }
-.a82progresscircle .value-O9wqc9 {
-  background-color: transparent;
-  height: 18px;
-  left: 103px;
-  position: absolute;
-  top: 0px;
-  width: 18px;
-}
-.a82progresscircle .value-PHLwH8 {
+.a82progresscircle .value-LdEBAo {
   background-color: transparent;
   height: 22px;
   left: 104px;
   position: absolute;
   top: 0px;
-  width: 169px;
+  width: 301px;
+}
+.a82progresscircle .value-NzOejG {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 63px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .value-PikUha {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 55px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .value-QiXAUX {
+  background-color: transparent;
+  height: 22px;
+  left: 31px;
+  position: absolute;
+  top: 0px;
+  width: 151px;
+}
+.a82progresscircle .value-TMSMul {
+  background-color: transparent;
+  color: rgba(193,206,254,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a82progresscircle .value-UsOT3o {
   background-color: transparent;
@@ -3992,12 +4157,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .value-VmxklR {
+.a82progresscircle .value-Vp4D8x {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
   height: auto;
-  left: 91px;
+  left: 0px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4005,7 +4170,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .value-ax0IQG {
+.a82progresscircle .value-brn8s0 {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
@@ -4031,12 +4196,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .value-ewsAx8 {
+.a82progresscircle .value-dlD4ot {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
   height: auto;
-  left: 61px;
+  left: 91px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4057,12 +4222,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .value-g0uXvJ {
+.a82progresscircle .value-ftF95k {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
   height: auto;
-  left: 61px;
+  left: 55px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4083,38 +4248,20 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a82progresscircle .value-jZHR9Y {
+  background-color: transparent;
+  height: 18px;
+  left: 103px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
 .a82progresscircle .value-jgupdJ {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
   height: auto;
   left: 32px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .value-k8NzDe {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 55px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .value-lc0NlO {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 119px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4130,20 +4277,12 @@ transform: scale(0.98);
   top: 0px;
   width: 151px;
 }
-.a82progresscircle .value-oLxOB7 {
-  background-color: transparent;
-  height: 18px;
-  left: 12px;
-  position: absolute;
-  top: 39px;
-  width: 17px;
-}
-.a82progresscircle .value-sb3Iqz {
+.a82progresscircle .value-o7Od4L {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
   height: auto;
-  left: 29px;
+  left: 32px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4151,12 +4290,41 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .value-sfNet9 {
+.a82progresscircle .value-oZgSl2 {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 105px;
+  width: 17px;
+}
+.a82progresscircle .value-q5qFrc {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 39px;
+  width: 17px;
+}
+.a82progresscircle .value-q7KbN2 {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
   height: auto;
-  left: 91px;
+  left: 55px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .value-thtiNO {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 61px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4177,6 +4345,19 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a82progresscircle .value-uZxG5O {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 32px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a82progresscircle .value-upLckr {
   background-color: transparent;
   color: var(--royal-blue);
@@ -4190,12 +4371,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .value-vW30xx {
+.a82progresscircle .value-wKv4q3 {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
   height: auto;
-  left: 32px;
+  left: 119px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4203,12 +4384,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .value-zV41H5 {
+.a82progresscircle .value-xVjxzS {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
+  color: var(--royal-blue);
   font-size: 18px;
   height: auto;
-  left: 0px;
+  left: 119px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4216,13 +4397,44 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .value-zb9Sro {
+.a82progresscircle .value-xYUULP {
   background-color: transparent;
-  height: 22px;
-  left: 31px;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 61px;
+  line-height: 22px;
   position: absolute;
+  text-align: left;
   top: 0px;
-  width: 151px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .value-xybeqm {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 91px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a82progresscircle .vi-guideline-T29asG {
   background-color: transparent;
@@ -4249,12 +4461,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.a82progresscircle .x-0m3PDi {
+.a82progresscircle .x-2Xv3xL {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 94px;
+  left: 23px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4262,25 +4474,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x-76KJ8Z {
+.a82progresscircle .x-6jxVvF {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 26px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .x-8Q9hKR {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 94px;
+  left: 289px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4301,12 +4500,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x-BEJ0H2 {
+.a82progresscircle .x-AyQ85D {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 164px;
+  left: 26px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4328,51 +4527,25 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x-D28u8n {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 157px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .x-DKwwKN {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 163px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .x-DL1Wk1 {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 156px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a82progresscircle .x-Dcnq5P {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
   left: 104px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .x-HhtOx3 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 295px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4433,19 +4606,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x-Krbl7p {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 206px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a82progresscircle .x-MUoWik {
   background-color: transparent;
   color: var(--black);
@@ -4454,6 +4614,32 @@ transform: scale(0.98);
   left: 135px;
   line-height: 26px;
   opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .x-NzOejG {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 164px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .x-PikUha {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 94px;
+  line-height: 22px;
   position: absolute;
   text-align: left;
   top: 0px;
@@ -4473,12 +4659,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x-QaTiO7 {
+.a82progresscircle .x-TFx8ar {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 200px;
+  left: 295px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4486,12 +4672,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x-SZCSXS {
+.a82progresscircle .x-Thof8X {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 139px;
+  left: 206px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4512,12 +4698,38 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x-VmxklR {
+.a82progresscircle .x-WroxPg {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 181px;
+  left: 200px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .x-Xmp8A3 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 206px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .x-XxvUrQ {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 157px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4553,7 +4765,20 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x-ax0IQG {
+.a82progresscircle .x-Zo7Emi {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 139px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .x-brn8s0 {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -4566,25 +4791,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x-cWh56s {
+.a82progresscircle .x-dlD4ot {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 289px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .x-coNhxT {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 23px;
+  left: 181px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4605,19 +4817,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x-ewsAx8 {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 100px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a82progresscircle .x-fQl8mm {
   background-color: transparent;
   color: var(--masala);
@@ -4631,12 +4830,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x-g0uXvJ {
+.a82progresscircle .x-ftF95k {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 100px;
+  left: 94px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4650,19 +4849,6 @@ transform: scale(0.98);
   font-size: 18px;
   height: auto;
   left: 163px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .x-k8NzDe {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 94px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4684,19 +4870,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x-lc0NlO {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 156px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a82progresscircle .x-mCdeqi {
   background-color: transparent;
   color: var(--black);
@@ -4705,6 +4878,19 @@ transform: scale(0.98);
   left: 90px;
   line-height: 26px;
   opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .x-o7Od4L {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 163px;
+  line-height: 22px;
   position: absolute;
   text-align: left;
   top: 0px;
@@ -4725,38 +4911,64 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x-sb3Iqz {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 295px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .x-sfNet9 {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 181px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .x-tybAuT {
+.a82progresscircle .x-osQyNT {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
   left: 26px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .x-pfTxKd {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 192px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .x-pumd7n {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 301px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .x-q7KbN2 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 94px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .x-thtiNO {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 100px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4770,6 +4982,19 @@ transform: scale(0.98);
   font-size: 18px;
   height: auto;
   left: 157px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .x-uZxG5O {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 145px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4791,19 +5016,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x-vW30xx {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 145px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a82progresscircle .x-wHeUlE {
   background-color: transparent;
   color: var(--black);
@@ -4818,12 +5030,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x-wiMl7z {
+.a82progresscircle .x-wKv4q3 {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 295px;
+  left: 156px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4859,12 +5071,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x-yEtCRH {
+.a82progresscircle .x-xVjxzS {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 301px;
+  left: 156px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4872,7 +5084,33 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x0-CXEjV5 {
+.a82progresscircle .x-xYUULP {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 100px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .x-xybeqm {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 181px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a82progresscircle .x0-EMJfeL {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
@@ -4886,21 +5124,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x0-NVJbjK {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
-  height: auto;
-  left: 39px;
-  line-height: 18px;
-  opacity: 0.6;
-  position: absolute;
-  text-align: center;
-  top: 11px;
-  white-space: nowrap;
-  width: auto;
-}
-.a82progresscircle .x0-Vxyn2x {
+.a82progresscircle .x0-PDHgLM {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
@@ -4914,17 +5138,17 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a82progresscircle .x0-bn0Foo {
+.a82progresscircle .x0-bRkdV0 {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
   height: auto;
-  left: 0px;
+  left: 39px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
-  text-align: left;
-  top: 0px;
+  text-align: center;
+  top: 11px;
   white-space: nowrap;
   width: auto;
 }
@@ -4942,19 +5166,21 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.a82progresscircle .x1-A4TOTP {
+.a82progresscircle .x0-tzwRHI {
   background-color: transparent;
-  color: var(--white);
+  color: var(--black);
   font-size: 15px;
-  height: 22px;
+  height: auto;
   left: 0px;
   line-height: 18px;
+  opacity: 0.6;
   position: absolute;
-  text-align: center;
+  text-align: left;
   top: 0px;
-  width: 22px;
+  white-space: nowrap;
+  width: auto;
 }
-.a82progresscircle .x1-Aaav8q {
+.a82progresscircle .x1-05ix7k {
   background-color: transparent;
   color: var(--white);
   font-size: 15px;
@@ -4990,7 +5216,7 @@ transform: scale(0.98);
   top: 0px;
   width: 22px;
 }
-.a82progresscircle .x1-H6KNtT {
+.a82progresscircle .x1-FbAWhI {
   background-color: transparent;
   color: var(--white);
   font-size: 15px;
@@ -5026,7 +5252,7 @@ transform: scale(0.98);
   top: 0px;
   width: 22px;
 }
-.a82progresscircle .x1-P35Rr4 {
+.a82progresscircle .x1-aiFAcY {
   background-color: transparent;
   color: var(--white);
   font-size: 15px;
@@ -5100,7 +5326,7 @@ transform: scale(0.98);
   top: 0px;
   width: 22px;
 }
-.a82progresscircle .x1-lwJD3W {
+.a82progresscircle .x1-kgoBeC {
   background-color: transparent;
   color: var(--white);
   font-size: 15px;
@@ -5112,7 +5338,19 @@ transform: scale(0.98);
   top: 0px;
   width: 22px;
 }
-.a82progresscircle .x1-xLNWLl {
+.a82progresscircle .x1-lKZt1G {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 15px;
+  height: 22px;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a82progresscircle .x1-pe7JAu {
   background-color: transparent;
   color: var(--white);
   font-size: 15px;
@@ -5440,7 +5678,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.a82progresscircle .x8-02-image-n-download-U8XPoL {
+.a82progresscircle .x8-02-image-n-download-PalbX3 {
   background-color: transparent;
   height: 48px;
   left: 52px;
@@ -5466,51 +5704,51 @@ transform: scale(0.98);
 }
 .a82progresscircle .x8-02-measurefab-5o2KPA {
   background-color: transparent;
-  height: 112px;
+  height: 128px;
   left: 0px;
   position: absolute;
   top: 0px;
-  width: 112px;
+  width: 128px;
 }
 .a82progresscircle .x8-02-measurefab0-5o2KPA {
   background-color: transparent;
-  height: 112px;
+  height: 128px;
   left: 180px;
   position: absolute;
   top: 0px;
-  width: 112px;
+  width: 128px;
 }
 .a82progresscircle .x8-02-measurefab100-5o2KPA {
   background-color: transparent;
-  height: 112px;
+  height: 128px;
   left: 900px;
   position: absolute;
   top: 0px;
-  width: 112px;
+  width: 128px;
 }
 .a82progresscircle .x8-02-measurefab25-5o2KPA {
   background-color: transparent;
-  height: 112px;
+  height: 128px;
   left: 360px;
   position: absolute;
   top: 0px;
-  width: 112px;
+  width: 128px;
 }
 .a82progresscircle .x8-02-measurefab50-5o2KPA {
   background-color: transparent;
-  height: 112px;
+  height: 128px;
   left: 540px;
   position: absolute;
   top: 0px;
-  width: 112px;
+  width: 128px;
 }
 .a82progresscircle .x8-02-measurefab75-5o2KPA {
   background-color: transparent;
-  height: 112px;
+  height: 128px;
   left: 720px;
   position: absolute;
   top: 0px;
-  width: 112px;
+  width: 128px;
 }
 .a82progresscircle .x8-2-progress-circle-C61RwL {
   background-color: transparent;

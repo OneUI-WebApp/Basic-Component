@@ -35,18 +35,33 @@
 
 transform: scale(0.98);
 }
+.a91scrollbar .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 138px;
+}
+.a91scrollbar .btn-xpyOiF:hover {
+
+transform: scale(0.98);
+}
 .a91scrollbar .dark-theme-PHONBE {
   background-color: transparent;
   height: 53px;
   left: 20px;
   position: absolute;
-  top: 294px;
+  top: 296px;
   width: 465px;
 }
 .a91scrollbar .document-b-x-contents-PHONBE {
   background-color: var(--white);
   border: 1px solid var(--ebb);
-  height: 377px;
+  height: 379px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -54,7 +69,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .document-b-x-contents-V6KZ2v {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -83,7 +98,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a91scrollbar .gnb-bar09-scrolling-C61RwL {
@@ -510,6 +525,14 @@ transform: scale(0.98);
   top: 0px;
   width: 71px;
 }
+.a91scrollbar .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 118px;
+}
 .a91scrollbar .group-VQsoaz {
   background-color: transparent;
   height: 22px;
@@ -616,7 +639,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .guide-meas-e-vertical-OgM7RX {
   background-color: transparent;
-  background-image: url(../img/9-1-scroll-bar-line-4994644E-02A0-4F77-B3F1-312A35F9C568@2x.png);
+  background-image: url(../img/9-1-scroll-bar-line-63B971C2-E544-4DE0-A163-7A85A83D1CF6@2x.png);
   background-size: 100% 100%;
   height: 40px;
   left: 40px;
@@ -626,7 +649,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .guide-meas-e-vertical-fweJf5 {
   background-color: transparent;
-  background-image: url(../img/9-1-scroll-bar-line-DBD3F295-CAE5-4B08-B33F-3BA224CDBCC6@2x.png);
+  background-image: url(../img/9-1-scroll-bar-line-7589848D-C5C1-4AF7-9D1C-24BEAED5E8DE@2x.png);
   background-size: 100% 100%;
   height: 52px;
   left: 23px;
@@ -636,7 +659,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .guide-meas-e-vertical-xMtxpl {
   background-color: transparent;
-  background-image: url(../img/9-1-scroll-bar-line-DBD3F295-CAE5-4B08-B33F-3BA224CDBCC6@2x.png);
+  background-image: url(../img/9-1-scroll-bar-line-7589848D-C5C1-4AF7-9D1C-24BEAED5E8DE@2x.png);
   background-size: 100% 100%;
   height: 52px;
   left: 0px;
@@ -646,7 +669,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .guide-meas-e-vertical-xYMsNr {
   background-color: transparent;
-  background-image: url(../img/9-1-scroll-bar-line-4994644E-02A0-4F77-B3F1-312A35F9C568@2x.png);
+  background-image: url(../img/9-1-scroll-bar-line-63B971C2-E544-4DE0-A163-7A85A83D1CF6@2x.png);
   background-size: 100% 100%;
   height: 40px;
   left: 55px;
@@ -712,7 +735,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .guide-numb-ring-shape-xRkPbj {
   background-color: transparent;
-  background-image: url(../img/9-2-boundary-feedback-oval-1010FB9A-EE66-4217-8075-DCAB3AF70B1B@2x.png);
+  background-image: url(../img/9-2-boundary-feedback-oval-07414E3A-689B-4FC8-A813-7B8E00470E9B@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 18px;
@@ -722,7 +745,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .guide-numbering-icon-ia9Mkk {
   background-color: transparent;
-  background-image: url(../img/9-2-boundary-feedback-oval-1010FB9A-EE66-4217-8075-DCAB3AF70B1B@2x.png);
+  background-image: url(../img/9-2-boundary-feedback-oval-07414E3A-689B-4FC8-A813-7B8E00470E9B@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -749,13 +772,16 @@ transform: scale(0.98);
   height: 26px;
   left: 20px;
   position: absolute;
-  top: 30px;
+  top: 32px;
   width: 135px;
 }
 .a91scrollbar .history-1xV3px {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -765,10 +791,10 @@ transform: scale(0.98);
 }
 .a91scrollbar .image-NOXmfT {
   background-color: transparent;
-  height: 377px;
+  height: 379px;
   left: 735px;
   position: absolute;
-  top: 2px;
+  top: 0px;
   width: 505px;
 }
 .a91scrollbar .keyscreen-C61RwL {
@@ -784,7 +810,7 @@ transform: scale(0.98);
   height: 50px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a91scrollbar .measure-1-hh1Mvx {
@@ -1028,6 +1054,14 @@ transform: scale(0.98);
   top: 40px;
   width: 360px;
 }
+.a91scrollbar .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 841px;
+  position: absolute;
+  top: 81px;
+  width: 138px;
+}
 .a91scrollbar .text-WvbxKh {
   background-color: transparent;
   color: var(--white);
@@ -1099,14 +1133,43 @@ transform: scale(0.98);
 }
 .a91scrollbar .text-x7reDN {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
   top: 12px;
   white-space: nowrap;
   width: 218px;
+}
+.a91scrollbar .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 42px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a91scrollbar .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a91scrollbar .value-0eC2VC {
   background-color: transparent;
@@ -1191,6 +1254,19 @@ transform: scale(0.98);
   height: auto;
   left: 0px;
   line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a91scrollbar .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  line-height: 24px;
   position: absolute;
   text-align: left;
   top: 0px;
@@ -1336,8 +1412,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x0-overview-GbXlcV {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1385,8 +1464,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x1-app-bar-GLnZLR {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1396,8 +1478,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x10-search-cuwYYm {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1407,8 +1492,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x11-toast-Mi8kpr {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1418,8 +1506,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x12-text-fields-gg9Lxx {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1429,8 +1520,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x13-view-controls-UCwItl {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1440,8 +1534,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x14-description-6iNFN3 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1451,8 +1548,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x15-notification-bad-km1xjn {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1462,8 +1562,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x16-thumbnail-Zll4BS {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1473,8 +1576,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x17-copy-paste-fs6ssm {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1484,8 +1590,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x2-buttons-WePX4V {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1495,8 +1604,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x3-controllers-b9X1Uz {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1506,8 +1618,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x4-dialogs-YPSh2q {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1517,8 +1632,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x5-dividers-SN3Z2Z {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1528,8 +1646,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x6-lists-LTNx8u {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1555,8 +1676,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x7-no-item-3k8xsC {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1566,8 +1690,11 @@ transform: scale(0.98);
 }
 .a91scrollbar .x8-progress-DxrwET {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1622,13 +1749,10 @@ transform: scale(0.98);
   width: 260px;
 }
 .font-class-1 {
-  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
 }
 .font-class-2 {
-  color: var(--black);
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-  font-size: 15px;
-  line-height: 18px;
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
 }
 .font-class-3 {
   font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;

@@ -9,16 +9,14 @@
     <link href="../custom/custom.css" rel="stylesheet" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="../custom/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="preload" href="./fonts/SamsungOneKorean-700.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./fonts/SamsungOneKorean-600.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./fonts/SamsungOneKorean-500.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./fonts/SamsungOneKorean-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./fonts/SamsungOneKorean-300.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" type="text/css" href="css/a05responsiveui.css" />
     <style>
-      @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
-
-      @font-face {
-        font-family: "SamsungOneKorean-600";
-        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 600_0.ttf")
-          format("truetype");
-      }
+      @import url("https://fonts.googleapis.com/css?family=Roboto:500,400");
 
       @font-face {
         font-family: "SamsungOneKorean-700";
@@ -29,6 +27,12 @@
       @font-face {
         font-family: "SamsungOneKorean-400";
         src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/SamsungOneKorean-400_v1.2_hinted_20180830.ttf")
+          format("truetype");
+      }
+
+      @font-face {
+        font-family: "SamsungOneKorean-600";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/SamsungOneKorean 600_0.ttf")
           format("truetype");
       }
 
@@ -287,277 +291,337 @@
                 </div>
               </div>
             </div>
-            <div class="p-portrait-l-CVQyb3 font-class-1">(P) : Portrait, (L) : Landscape</div>
+            <div class="p-portrait-l-CVQyb3 font-class-3">(P) : Portrait, (L) : Landscape</div>
             <div class="ubcf8-uac0-ud5a5uc5d0-CVQyb3 font-class-1">
               본 가이드에서는 Screen의 방향에 따라 component의 크기나 padding 값이 다르게 적용되어야 하는 경우 다음과
               같이 표기한다.
             </div>
           </div>
           <div class="landscape-9xH4VB">
-            <div class="landscape-screen-wi-cFtjTn font-class-1">
-              Landscape: screen width &gt; screen height&nbsp;&nbsp;
-            </div>
-            <div class="document-b-x-contents-cFtjTn"></div>
-            <div class="phone-landscape-cFtjTn">
-              <div class="phone-7OQSvU font-class-1">Phone</div>
-              <div class="landscape-7OQSvU font-class-1">landscape</div>
-              <div class="phoneland-7OQSvU">
-                <div class="rectangle-reS4fd"></div>
-                <div class="rectangle-fCKGWC"></div>
-                <img class="oval-reS4fd" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-              </div>
-              <div class="ruler-7OQSvU">
-                <img
-                  class="combined-shape-Bsfwxi"
-                  src="img/0-5-responsive-ui-combined-shape-7B28ADEB-025E-4C8A-86E3-60E537998440@2x.png"
-                />
-                <div class="value-Bsfwxi">
-                  <div class="value-9z827x font-class-3">336</div>
+            <div class="guide-copy-cFtjTn">
+              <div class="document-b-x-contents-xyUuBi"></div>
+              <div class="x0-05-measu--phoneland-xyUuBi">
+                <div class="x0-05-measu--phoneport-bo3zA0">
+                  <div class="phoneport-aCuYV2">
+                    <div class="screen-zzAMqp"></div>
+                    <img
+                      class="oval-zzAMqp"
+                      src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                    />
+                  </div>
+                  <div class="area-aCuYV2">
+                    <div class="rectangle-9hAxm7"></div>
+                  </div>
                 </div>
-                <div class="guide-measure-area-Bsfwxi"></div>
-              </div>
-              <div class="ruler-fgNxrs">
-                <img
-                  class="combined-shape-bV8XMS"
-                  src="img/0-5-responsive-ui-combined-shape-6ACF286A-F712-47F2-8439-FF69BCDBC79A@2x.png"
-                />
-                <div class="value-bV8XMS">
-                  <div class="value-xJxcsY font-class-3">760</div>
+                <div class="area-bo3zA0">
+                  <div class="guide-measure-area-mgnHVl"></div>
                 </div>
               </div>
-            </div>
-            <div class="tablet-landscape-cFtjTn">
-              <div class="tablet-3c2VGx font-class-1">Tablet</div>
-              <div class="landscape-3c2VGx font-class-1">landscape</div>
-              <div class="tabletand-3c2VGx">
-                <div class="rectangle-Qx2tul"></div>
-                <div class="rectangle-oSuZm4"></div>
-              </div>
-              <div class="ruler-3c2VGx">
-                <img
-                  class="combined-shape-df01dP"
-                  src="img/0-5-responsive-ui-combined-shape-C42E0F0E-0909-49AD-9F48-34180CC51A43@2x.png"
-                />
-                <div class="value-df01dP">
-                  <div class="value-L1xs9J font-class-3">776</div>
+              <div class="x0-05-measu-winnerland-xyUuBi">
+                <div class="x0-05-measu-winnerport-OjVM09">
+                  <div class="winnerport-SSc8lx">
+                    <div class="device-xhTSWd"></div>
+                    <div class="screen-xhTSWd"></div>
+                    <img
+                      class="line-xhTSWd"
+                      src="img/0-5-responsive-ui-line-A26423EC-38FC-4966-9C58-F5DE196D3A85@2x.png"
+                    />
+                    <img
+                      class="lcut-xhTSWd"
+                      src="img/0-5-responsive-ui-lcut-F26E1ABD-10C2-4096-9456-166E37BB2AB7@2x.png"
+                    />
+                  </div>
+                  <div class="area-SSc8lx"></div>
                 </div>
-                <div class="guide-measure-area-df01dP"></div>
-              </div>
-              <div class="ruler-p6P0eO">
-                <img
-                  class="combined-shape-PLgGz5"
-                  src="img/0-5-responsive-ui-combined-shape-A5F3A7D8-5C22-425D-ACF7-8989C9EE130A@2x.png"
-                />
-                <div class="value-PLgGz5">
-                  <div class="value-FwLN6O font-class-3">1280</div>
+                <div class="area-OjVM09">
+                  <div class="guide-measure-area-vO2HyF"></div>
                 </div>
               </div>
-            </div>
-            <div class="winner1-landscape-cFtjTn">
-              <div class="winner-1-kB4RjJ font-class-1">Winner 1</div>
-              <div class="landscape-kB4RjJ font-class-1">landscape</div>
-              <div class="winner1port-kB4RjJ">
-                <div class="rectangle-pwmp3a"></div>
-                <div class="group-9-pwmp3a">
-                  <div class="rectangle-nDVKhr"></div>
+              <div class="x0-05-measu-tabletland-xyUuBi">
+                <div class="x0-05-measu-tabletport-xonYVE">
+                  <div class="tabletport-bG30xu">
+                    <div class="screen-8bkp2R"></div>
+                  </div>
+                  <div class="area-bG30xu"></div>
+                </div>
+                <div class="area-xonYVE">
+                  <div class="guide-measure-area-4DTP2j"></div>
+                </div>
+              </div>
+              <div class="x0-05-measure-topland-xyUuBi">
+                <div class="x0-05-measure-topport-8P5d70">
+                  <div class="topport-6yIWUx">
+                    <div class="device-Yxg6P4"></div>
+                    <div class="screen-Yxg6P4"></div>
+                    <img
+                      class="oval-Yxg6P4"
+                      src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                    />
+                    <img
+                      class="oval-i7iu0k"
+                      src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                    />
+                    <img
+                      class="line-Yxg6P4"
+                      src="img/0-5-responsive-ui-line-D9B5936D-11AA-4B21-BDEF-0828DDE4F014@2x.png"
+                    />
+                  </div>
+                  <div class="area-6yIWUx"></div>
+                </div>
+                <div class="area-8P5d70">
+                  <div class="guide-measure-area-lYvPSF"></div>
+                </div>
+              </div>
+              <div class="group-5-xyUuBi">
+                <div class="phone-Lbn7kS font-class-1">Phone</div>
+                <div class="landscape-Lbn7kS font-class-1">landscape</div>
+              </div>
+              <div class="group-10-xyUuBi">
+                <div class="tablet-fagF7T font-class-1">Tablet</div>
+                <div class="landscape-fagF7T font-class-1">landscape</div>
+              </div>
+              <div class="group-6-xyUuBi">
+                <div class="winner-HiVSOx font-class-1">Winner</div>
+                <div class="landscape-HiVSOx font-class-1">landscape</div>
+              </div>
+              <div class="group-8-xyUuBi">
+                <div class="top-JOtARo font-class-1">TOP</div>
+                <div class="landscape-JOtARo font-class-1">landscape</div>
+              </div>
+              <div class="measure-xyUuBi">
+                <div class="x0-05-guide-eenheight1-WwpaDi">
                   <img
-                    class="lcut-nDVKhr"
-                    src="img/0-5-responsive-ui-lcut-1E13BBA8-6534-4B17-8ECB-F26624DEB0F8@2x.png"
+                    class="combined-shape-MaGxCV"
+                    src="img/0-5-responsive-ui-combined-shape-F2E3500E-1263-4047-97C4-A5A975619621@2x.png"
                   />
+                  <div class="group-MaGxCV">
+                    <div class="value-1cSfB3 font-class-3">226</div>
+                  </div>
                 </div>
-                <img class="line-pwmp3a" src="img/0-5-responsive-ui-line-78F2F889-2C78-4270-BFB9-E9C6307052C3@2x.png" />
-              </div>
-              <div class="ruler-kB4RjJ">
-                <img
-                  class="combined-shape-2kLi0U"
-                  src="img/0-5-responsive-ui-combined-shape-4D492B3D-6823-4677-A7E3-F561FAF97D58@2x.png"
-                />
-                <div class="value-2kLi0U">
-                  <div class="value-vJzkWV font-class-3">561</div>
+                <div class="x0-05-guide-eenheight1-3x4kPd">
+                  <img
+                    class="combined-shape-N92BAd"
+                    src="img/0-5-responsive-ui-combined-shape-3C52DE8B-AB25-485B-9E59-54F661C2730B@2x.png"
+                  />
+                  <div class="group-N92BAd">
+                    <div class="value-f1dLco font-class-3">513</div>
+                  </div>
                 </div>
-                <div class="guide-measure-area-2kLi0U"></div>
-              </div>
-              <div class="ruler-oqxLnw">
-                <img
-                  class="combined-shape-FTDHxQ"
-                  src="img/0-5-responsive-ui-combined-shape-2321499E-1A26-4662-BC13-9D6B029BD023@2x.png"
-                />
-                <div class="value-FTDHxQ">
-                  <div class="value-IRWpcn font-class-3">780</div>
+                <div class="x0-05-guide-eenheight1-d6Cx7D">
+                  <img
+                    class="combined-shape-TksSTx"
+                    src="img/0-5-responsive-ui-combined-shape-2F295DD9-911A-407D-A6EC-FA1C83DF2908@2x.png"
+                  />
+                  <div class="group-TksSTx">
+                    <div class="value-kGPLl7 font-class-3">602</div>
+                  </div>
+                </div>
+                <div class="x0-05-guide-eenheight1-UGGNz5">
+                  <img
+                    class="combined-shape-MnpEDP"
+                    src="img/0-5-responsive-ui-combined-shape-DF2C9ABD-2AEF-472C-B6D7-4D62DA348EE1@2x.png"
+                  />
+                  <div class="group-MnpEDP">
+                    <div class="value-3uDKF9 font-class-3">728</div>
+                  </div>
+                </div>
+                <div class="x0-05-guide-reenwidth1-WwpaDi">
+                  <img
+                    class="combined-shape-z6DcyO"
+                    src="img/0-5-responsive-ui-combined-shape-BBBDD5F7-8EE7-47F2-A1BB-6880B38DD1FD@2x.png"
+                  />
+                  <div class="value-z6DcyO">
+                    <div class="value-i3EBN4 font-class-3">712</div>
+                  </div>
+                </div>
+                <div class="x0-05-guide-reenwidth1-3x4kPd">
+                  <img
+                    class="combined-shape-MhEeNW"
+                    src="img/0-5-responsive-ui-combined-shape-B1920CDE-94F3-47FF-8284-C9F6598518E4@2x.png"
+                  />
+                  <div class="value-MhEeNW">
+                    <div class="value-FdS2Ex font-class-3">780</div>
+                  </div>
+                </div>
+                <div class="x0-05-guide-reenwidth1-d6Cx7D">
+                  <img
+                    class="combined-shape-yrKFNC"
+                    src="img/0-5-responsive-ui-combined-shape-05575342-DEC4-402A-95E2-3E917220B597@2x.png"
+                  />
+                  <div class="value-yrKFNC">
+                    <div class="value-8IHIrI font-class-3">807</div>
+                  </div>
+                </div>
+                <div class="x0-05-guide-reenwidth1-UGGNz5">
+                  <img
+                    class="combined-shape-pmUxdG"
+                    src="img/0-5-responsive-ui-combined-shape-24D9DC6A-46C7-4B9F-9D61-CFC90F9268B2@2x.png"
+                  />
+                  <div class="value-pmUxdG">
+                    <div class="value-xGRYuw font-class-3">1280</div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="winner2-landscape-cFtjTn">
-              <div class="winner-2-tFt8f7 font-class-1">Winner 2</div>
-              <div class="landscape-tFt8f7 font-class-1">landscape</div>
-              <div class="winner2port-tFt8f7">
-                <div class="rectangle-ybBbou"></div>
-                <img class="oval-ybBbou" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-                <img class="oval-FXxbke" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-                <img class="line-ybBbou" src="img/0-5-responsive-ui-line-DC506717-85B0-4F8C-A06E-26116413E9C7@2x.png" />
-              </div>
-              <div class="ruler-tFt8f7">
-                <img
-                  class="combined-shape-RxsRAI"
-                  src="img/0-5-responsive-ui-combined-shape-BD9980D8-C091-4AF5-ABB0-E669204F7A91@2x.png"
-                />
-                <div class="value-RxsRAI">
-                  <div class="value-H3Wes7 font-class-3">650</div>
-                </div>
-                <div class="guide-measure-area-RxsRAI"></div>
-              </div>
-              <div class="ruler-MnjlyQ">
-                <img
-                  class="combined-shape-M19Kmh"
-                  src="img/0-5-responsive-ui-combined-shape-2A8933DB-034F-472E-95AA-A019D00C06E7@2x.png"
-                />
-                <div class="value-M19Kmh">
-                  <div class="value-0Ssk11 font-class-3">803</div>
-                </div>
-              </div>
+            <div class="landscape-screen-wi-cFtjTn font-class-3">
+              Landscape: screen width &gt; screen height&nbsp;&nbsp;
             </div>
           </div>
           <div class="portrait-9xH4VB">
-            <div class="portrait-screen-wi-66Gn9R font-class-1">Portrait : screen width ≤ screen height</div>
-            <div class="document-b-x-contents-66Gn9R"></div>
-            <div class="winner-12-sub-lcd-66Gn9R">
-              <div class="winner-12-1zLSQj font-class-1">Winner 1,2</div>
-              <div class="sub-lcd-1zLSQj font-class-1">sub lcd</div>
-              <div class="winner1sub-1zLSQj">
-                <div class="rectangle-x1pRiM"></div>
-              </div>
-              <div class="ruler-1zLSQj">
-                <img
-                  class="combined-shape-jMKoG2"
-                  src="img/0-5-responsive-ui-combined-shape-AD694ADA-6895-45D9-A6BD-450CFC913401@2x.png"
-                />
-                <div class="value-jMKoG2">
-                  <div class="value-1qkV2e font-class-3">722</div>
+            <div class="portrait-screen-wi-66Gn9R font-class-3">Portrait : screen width ≤ screen height</div>
+            <div class="guide-66Gn9R">
+              <div class="document-b-x-contents-eQTsPE"></div>
+              <div class="symbol-eQTsPE">
+                <div class="x0-05-measu-winnerport-Zgd8Bx">
+                  <div class="winnerport-AxVOUp">
+                    <div class="screen-5x4ojN"></div>
+                    <img
+                      class="line-5x4ojN"
+                      src="img/0-5-responsive-ui-line-A26423EC-38FC-4966-9C58-F5DE196D3A85@2x.png"
+                    />
+                    <img
+                      class="lcut-5x4ojN"
+                      src="img/0-5-responsive-ui-lcut-F26E1ABD-10C2-4096-9456-166E37BB2AB7@2x.png"
+                    />
+                  </div>
+                  <div class="area-AxVOUp">
+                    <div class="guide-measure-area-JEiXrf"></div>
+                  </div>
                 </div>
-                <div class="guide-measure-area-jMKoG2"></div>
-              </div>
-              <div class="ruler-UuBxcm">
-                <img
-                  class="combined-shape-nOBa5A"
-                  src="img/0-5-responsive-ui-combined-shape-8C751174-4AC9-4986-A233-A1F81F2BE38C@2x.png"
-                />
-                <div class="value-nOBa5A">
-                  <div class="value-1kF2Uf font-class-3">320</div>
+                <div class="x0-05-measure-topport-Zgd8Bx">
+                  <div class="topport-s6NEmv">
+                    <div class="screen-Ix0LWx"></div>
+                    <img
+                      class="oval-Ix0LWx"
+                      src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                    />
+                    <img
+                      class="oval-tbm7MR"
+                      src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                    />
+                    <img
+                      class="line-Ix0LWx"
+                      src="img/0-5-responsive-ui-line-D9B5936D-11AA-4B21-BDEF-0828DDE4F014@2x.png"
+                    />
+                  </div>
+                  <div class="area-s6NEmv">
+                    <div class="guide-measure-area-usewwp"></div>
+                  </div>
+                </div>
+                <div class="x0-05-measu-tabletport-Zgd8Bx">
+                  <div class="tabletport-EZO13p">
+                    <div class="screen-UNTha3"></div>
+                  </div>
+                  <div class="area-EZO13p">
+                    <div class="guide-measure-area-uxy5xh"></div>
+                  </div>
+                </div>
+                <div class="x0-05-measu--phoneport-Zgd8Bx">
+                  <div class="phoneport-XLq7wI">
+                    <div class="screen-FYq8Jk"></div>
+                    <img
+                      class="oval-FYq8Jk"
+                      src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                    />
+                  </div>
+                  <div class="area-XLq7wI">
+                    <div class="rectangle-zhp6Oi"></div>
+                    <div class="guide-measure-area-zhp6Oi"></div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="phone-portrait-66Gn9R">
-              <div class="phone-PxfYBP font-class-1">Phone</div>
-              <div class="portrait-PxfYBP font-class-1">portrait</div>
-              <div class="phoneport-PxfYBP">
-                <div class="rectangle-3kwoQL"></div>
-                <img class="oval-3kwoQL" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-              </div>
-              <div class="ruler-PxfYBP">
-                <img
-                  class="combined-shape-QWMDxO"
-                  src="img/0-5-responsive-ui-combined-shape-E5B8EA66-FA04-481B-B4E5-0B94CAED2E90@2x.png"
-                />
-                <div class="value-QWMDxO">
-                  <div class="value-CPi0Ng font-class-3">736</div>
+              <div class="text-eQTsPE">
+                <div class="group-2-yeAdjz">
+                  <div class="phone-E6S4XR font-class-1">Phone</div>
+                  <div class="portrait-E6S4XR font-class-1">portrait</div>
                 </div>
-                <div class="guide-measure-area-QWMDxO"></div>
-              </div>
-              <div class="ruler-PBxaw4">
-                <img
-                  class="combined-shape-LfzLPN"
-                  src="img/0-5-responsive-ui-combined-shape-A5CF9D55-CE23-4EA7-B75A-C76C7CC9AC12@2x.png"
-                />
-                <div class="value-LfzLPN">
-                  <div class="value-6xsM1p font-class-3">360</div>
+                <div class="group-3-yeAdjz">
+                  <div class="winner-6gAEUs font-class-1">Winner</div>
+                  <div class="portrait-6gAEUs font-class-1">portrait</div>
+                </div>
+                <div class="group-4-yeAdjz">
+                  <div class="top-318LZL font-class-1">TOP</div>
+                  <div class="portrait-318LZL font-class-1">portrait</div>
+                </div>
+                <div class="group-7-yeAdjz">
+                  <div class="group-11-zOywR1">
+                    <div class="tablet-xez6PX font-class-1">Tablet</div>
+                    <div class="portrait-xez6PX font-class-1">portrait</div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="winner-1-portrait-66Gn9R">
-              <div class="portrait-vk5vKx font-class-1">portrait</div>
-              <div class="winner-1-vk5vKx font-class-1">Winner 1</div>
-              <div class="winner1land-vk5vKx">
-                <div class="group-9-4qYFcV">
-                  <div class="rectangle-qJe5fx"></div>
+              <div class="measure-eQTsPE">
+                <div class="x0-05-guide-eenheight2-xlsHFx">
                   <img
-                    class="lcut-qJe5fx"
-                    src="img/0-5-responsive-ui-lcut-1E13BBA8-6534-4B17-8ECB-F26624DEB0F8@2x.png"
+                    class="combined-shape-P3Bwe1"
+                    src="img/0-5-responsive-ui-combined-shape-6FCE4641-FF31-45F6-A0BB-67AC783B2B36@2x.png"
                   />
+                  <div class="group-P3Bwe1">
+                    <div class="value-17xlmO font-class-3">688</div>
+                  </div>
                 </div>
-                <img class="line-4qYFcV" src="img/0-5-responsive-ui-line-78F2F889-2C78-4270-BFB9-E9C6307052C3@2x.png" />
-              </div>
-              <div class="ruler-vk5vKx">
-                <img
-                  class="combined-shape-UCToo0"
-                  src="img/0-5-responsive-ui-combined-shape-B2FEFECA-2DA4-45A9-9CB7-5BD98950EE8A@2x.png"
-                />
-                <div class="value-UCToo0">
-                  <div class="value-yRADkE font-class-3">780</div>
+                <div class="x0-05-guide-eenheight2-R7JZxM">
+                  <img
+                    class="combined-shape-uLxTgB"
+                    src="img/0-5-responsive-ui-combined-shape-290E0675-0A74-4866-83E1-E597D0A0937A@2x.png"
+                  />
+                  <div class="group-uLxTgB">
+                    <div class="value-DqvGNa font-class-3">732</div>
+                  </div>
                 </div>
-                <div class="guide-measure-area-UCToo0"></div>
-              </div>
-              <div class="ruler-yfflHm">
-                <img
-                  class="combined-shape-ByKf7S"
-                  src="img/0-5-responsive-ui-combined-shape-FDEB546A-DD1E-4AA4-B367-3EC251A04185@2x.png"
-                />
-                <div class="value-ByKf7S">
-                  <div class="value-R1JCwC font-class-3">585</div>
+                <div class="x0-05-guide-eenheight2-rxxZ3T">
+                  <img
+                    class="combined-shape-rxq8By"
+                    src="img/0-5-responsive-ui-combined-shape-8908F778-E013-4FD2-B288-9FA0BB673149@2x.png"
+                  />
+                  <div class="group-rxq8By">
+                    <div class="value-6zzlDA font-class-3">759</div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="winner-2-portrait-66Gn9R">
-              <div class="winner-2-de8AZx font-class-1">Winner 2</div>
-              <div class="portrait-de8AZx font-class-1">portrait</div>
-              <div class="winner2land-de8AZx">
-                <div class="rectangle-gMnxqf"></div>
-                <div class="rectangle-nuxxU1"></div>
-                <img class="oval-gMnxqf" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-                <img class="oval-nuxxU1" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-              </div>
-              <div class="ruler-de8AZx">
-                <img
-                  class="combined-shape-HxAkvA"
-                  src="img/0-5-responsive-ui-combined-shape-252F09D2-6EE9-4000-95AE-565AA7C04545@2x.png"
-                />
-                <div class="value-HxAkvA">
-                  <div class="value-af4oWy font-class-3">801</div>
+                <div class="x0-05-guide-eenheight2-p0BX8i">
+                  <img
+                    class="combined-shape-qIMpxF"
+                    src="img/0-5-responsive-ui-combined-shape-74456788-173E-4C3C-A293-71749B6DC4EC@2x.png"
+                  />
+                  <div class="group-qIMpxF">
+                    <div class="value-2vog6x font-class-3">1208</div>
+                  </div>
                 </div>
-                <div class="guide-measure-area-HxAkvA"></div>
-              </div>
-              <div class="ruler-MAQ5L3">
-                <img
-                  class="combined-shape-CBxVHt"
-                  src="img/0-5-responsive-ui-combined-shape-FD098A4C-9D04-4B7D-BD0C-C04D1E138B17@2x.png"
-                />
-                <div class="value-CBxVHt">
-                  <div class="value-0UyNxb font-class-3">674</div>
+                <div class="x0-05-guide-reenwidth1-xlsHFx">
+                  <img
+                    class="combined-shape-1zXx8P"
+                    src="img/0-5-responsive-ui-combined-shape-C31691B3-A6FE-4263-8C46-F39BC24F8D6A@2x.png"
+                  />
+                  <div class="value-1zXx8P">
+                    <div class="value-aWtrdB font-class-3">360</div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="tablet-portrait-66Gn9R">
-              <div class="tablet-NnuPHT font-class-1">Tablet</div>
-              <div class="portrait-NnuPHT font-class-1">portrait</div>
-              <div class="tabletport-NnuPHT">
-                <div class="rectangle-8krLHz"></div>
-              </div>
-              <div class="ruler-NnuPHT">
-                <img
-                  class="combined-shape-3vjeIX"
-                  src="img/0-5-responsive-ui-combined-shape-A8F4B2D1-FDB9-4619-BBB1-9954FF3C347E@2x.png"
-                />
-                <div class="value-3vjeIX">
-                  <div class="value-uuwjuW font-class-3">1256</div>
+                <div class="x0-05-guide-reenwidth1-R7JZxM">
+                  <img
+                    class="combined-shape-WGQ6Te"
+                    src="img/0-5-responsive-ui-combined-shape-B8528BFF-D6FA-4CD0-AF2C-A21FE8429814@2x.png"
+                  />
+                  <div class="value-WGQ6Te">
+                    <div class="value-jmWirH font-class-3">585</div>
+                  </div>
                 </div>
-                <div class="guide-measure-area-3vjeIX"></div>
-              </div>
-              <div class="ruler-NAPTK8">
-                <img
-                  class="combined-shape-745txn"
-                  src="img/0-5-responsive-ui-combined-shape-0BCB34FF-B1C3-432B-9DC0-FFE215DCFA75@2x.png"
-                />
-                <div class="value-745txn">
-                  <div class="value-PXW0pi font-class-3">800</div>
+                <div class="x0-05-guide-reenwidth1-rxxZ3T">
+                  <img
+                    class="combined-shape-uOoxus"
+                    src="img/0-5-responsive-ui-combined-shape-BFEAD852-5D36-4F6D-99F9-418E760659F3@2x.png"
+                  />
+                  <div class="value-uOoxus">
+                    <div class="value-4p4TAS font-class-3">674</div>
+                  </div>
+                </div>
+                <div class="x0-05-guide-reenwidth1-p0BX8i">
+                  <img
+                    class="combined-shape-ig9tD5"
+                    src="img/0-5-responsive-ui-combined-shape-F8E0C20E-D09E-4109-814F-ABE9D35E028A@2x.png"
+                  />
+                  <div class="value-ig9tD5">
+                    <div class="value-tIlFbQ font-class-3">800</div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -570,262 +634,255 @@
           <div class="screen-orientation-9xH4VB font-class-3">Screen orientation</div>
         </div>
         <div class="screen-height-C61RwL">
+          <div class="guide-TaO6Uo">
+            <div class="document-b-x-contents-dnCKjM"></div>
+            <div class="symbol-dnCKjM">
+              <div class="x0-05-measu-winnerport-pPVk2X">
+                <div class="winnerport-hpYPGK">
+                  <div class="screen-AX1txO"></div>
+                  <img
+                    class="line-AX1txO"
+                    src="img/0-5-responsive-ui-line-A26423EC-38FC-4966-9C58-F5DE196D3A85@2x.png"
+                  />
+                  <img
+                    class="lcut-AX1txO"
+                    src="img/0-5-responsive-ui-lcut-F26E1ABD-10C2-4096-9456-166E37BB2AB7@2x.png"
+                  />
+                </div>
+                <div class="area-hpYPGK">
+                  <div class="guide-measure-area-WVlXLl"></div>
+                </div>
+              </div>
+              <div class="x0-05-measure-topport-pPVk2X">
+                <div class="topport-gIehEF">
+                  <div class="screen-iXaG1n"></div>
+                  <img
+                    class="oval-iXaG1n"
+                    src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                  />
+                  <img
+                    class="oval-ECiqpc"
+                    src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                  />
+                  <img
+                    class="line-iXaG1n"
+                    src="img/0-5-responsive-ui-line-D9B5936D-11AA-4B21-BDEF-0828DDE4F014@2x.png"
+                  />
+                </div>
+                <div class="area-gIehEF">
+                  <div class="guide-measure-area-4U2xAb"></div>
+                </div>
+              </div>
+              <div class="x0-05-measu--phoneland-pPVk2X">
+                <div class="x0-05-measu--phoneport-4f1C4m">
+                  <div class="phoneport-u5f3zG">
+                    <div class="screen-Z4qlki"></div>
+                    <img
+                      class="oval-Z4qlki"
+                      src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                    />
+                  </div>
+                  <div class="area-u5f3zG">
+                    <div class="rectangle-HwcSGD"></div>
+                  </div>
+                </div>
+                <div class="area-4f1C4m">
+                  <div class="guide-measure-area-rBA9RN"></div>
+                </div>
+              </div>
+              <div class="x0-05-measu-winnerland-pPVk2X">
+                <div class="x0-05-measu-winnerport-xZaAr9">
+                  <div class="winnerport-YikP0y">
+                    <div class="device-8WCVs9"></div>
+                    <div class="screen-8WCVs9"></div>
+                    <img
+                      class="line-8WCVs9"
+                      src="img/0-5-responsive-ui-line-A26423EC-38FC-4966-9C58-F5DE196D3A85@2x.png"
+                    />
+                    <img
+                      class="lcut-8WCVs9"
+                      src="img/0-5-responsive-ui-lcut-F26E1ABD-10C2-4096-9456-166E37BB2AB7@2x.png"
+                    />
+                  </div>
+                  <div class="area-YikP0y"></div>
+                </div>
+                <div class="area-xZaAr9">
+                  <div class="guide-measure-area-r4eLNo"></div>
+                </div>
+              </div>
+              <div class="x0-05-measu-tabletport-pPVk2X">
+                <div class="tabletport-VxDa0C">
+                  <div class="screen-JI3X4R"></div>
+                </div>
+                <div class="area-VxDa0C">
+                  <div class="guide-measure-area-14TLa5"></div>
+                </div>
+              </div>
+              <div class="x0-05-measu-tabletland-pPVk2X">
+                <div class="x0-05-measu-tabletport-sW4zyG">
+                  <div class="tabletport-deazrP">
+                    <div class="screen-mmPwdw"></div>
+                  </div>
+                  <div class="area-deazrP"></div>
+                </div>
+                <div class="area-sW4zyG">
+                  <div class="guide-measure-area-a9XvWT"></div>
+                </div>
+              </div>
+              <div class="x0-05-measure-topland-pPVk2X">
+                <div class="x0-05-measure-topport-Cmryxq">
+                  <div class="topport-cHuSgt">
+                    <div class="device-BL6S4Z"></div>
+                    <div class="screen-BL6S4Z"></div>
+                    <img
+                      class="oval-BL6S4Z"
+                      src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                    />
+                    <img
+                      class="oval-JFTZoh"
+                      src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                    />
+                    <img
+                      class="line-BL6S4Z"
+                      src="img/0-5-responsive-ui-line-D9B5936D-11AA-4B21-BDEF-0828DDE4F014@2x.png"
+                    />
+                  </div>
+                  <div class="area-cHuSgt"></div>
+                </div>
+                <div class="area-Cmryxq">
+                  <div class="guide-measure-area-fzrp0J"></div>
+                </div>
+              </div>
+              <div class="x0-05-measu--phoneport-pPVk2X">
+                <div class="phoneport-dutHi3">
+                  <div class="screen-CCQp11"></div>
+                  <img
+                    class="oval-CCQp11"
+                    src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                  />
+                </div>
+                <div class="area-dutHi3">
+                  <div class="rectangle-tege21"></div>
+                  <div class="guide-measure-area-tege21"></div>
+                </div>
+              </div>
+            </div>
+            <div class="text-dnCKjM">
+              <div class="group-2-r5vjFG">
+                <div class="phone-yxrm7x font-class-1">Phone</div>
+                <div class="portrait-yxrm7x font-class-1">portrait</div>
+              </div>
+              <div class="group-3-r5vjFG">
+                <div class="winner-LlGrQu font-class-1">Winner</div>
+                <div class="portrait-LlGrQu font-class-1">portrait</div>
+              </div>
+              <div class="group-4-r5vjFG">
+                <div class="top-yBnHg3 font-class-1">TOP</div>
+                <div class="portrait-yBnHg3 font-class-1">portrait</div>
+              </div>
+              <div class="group-5-r5vjFG">
+                <div class="phone-qjcAdK font-class-1">Phone</div>
+                <div class="landscape-qjcAdK font-class-1">landscape</div>
+              </div>
+              <div class="group-10-r5vjFG">
+                <div class="tablet-hLm37P font-class-1">Tablet</div>
+                <div class="landscape-hLm37P font-class-1">landscape</div>
+              </div>
+              <div class="group-7-r5vjFG">
+                <div class="group-11-3Fjlt7">
+                  <div class="tablet-F6PxMS font-class-1">Tablet</div>
+                  <div class="portrait-F6PxMS font-class-1">portrait</div>
+                </div>
+              </div>
+              <div class="group-6-r5vjFG">
+                <div class="winner-URDrlv font-class-1">Winner</div>
+                <div class="landscape-URDrlv font-class-1">landscape</div>
+              </div>
+              <div class="group-8-r5vjFG">
+                <div class="top-FIteAf font-class-1">TOP</div>
+                <div class="landscape-FIteAf font-class-1">landscape</div>
+              </div>
+            </div>
+            <div class="measure-dnCKjM">
+              <div class="x0-05-guide-eenheight1-yOEeNB">
+                <img
+                  class="combined-shape-oVov4h"
+                  src="img/0-5-responsive-ui-combined-shape-F2E3500E-1263-4047-97C4-A5A975619621@2x.png"
+                />
+                <div class="group-oVov4h">
+                  <div class="value-Y1Ty6x font-class-3">226</div>
+                </div>
+              </div>
+              <div class="x0-05-guide-eenheight1-BytFLE">
+                <img
+                  class="combined-shape-r2HWyw"
+                  src="img/0-5-responsive-ui-combined-shape-3C52DE8B-AB25-485B-9E59-54F661C2730B@2x.png"
+                />
+                <div class="group-r2HWyw">
+                  <div class="value-lWhpkx font-class-3">513</div>
+                </div>
+              </div>
+              <div class="x0-05-guide-eenheight1-CGJnSV">
+                <img
+                  class="combined-shape-Lr8eEM"
+                  src="img/0-5-responsive-ui-combined-shape-2F295DD9-911A-407D-A6EC-FA1C83DF2908@2x.png"
+                />
+                <div class="group-Lr8eEM">
+                  <div class="value-1nucD6 font-class-3">602</div>
+                </div>
+              </div>
+              <div class="x0-05-guide-eenheight1-3GaTJ7">
+                <img
+                  class="combined-shape-JfV4BJ"
+                  src="img/0-5-responsive-ui-combined-shape-6FCE4641-FF31-45F6-A0BB-67AC783B2B36@2x.png"
+                />
+                <div class="group-JfV4BJ">
+                  <div class="value-z6x82l font-class-3">688</div>
+                </div>
+              </div>
+              <div class="x0-05-guide-eenheight1-YvIeJ9">
+                <img
+                  class="combined-shape-KF4rA6"
+                  src="img/0-5-responsive-ui-combined-shape-DF2C9ABD-2AEF-472C-B6D7-4D62DA348EE1@2x.png"
+                />
+                <div class="group-KF4rA6">
+                  <div class="value-1p6n3n font-class-3">728</div>
+                </div>
+              </div>
+              <div class="x0-05-guide-eenheight1-D0lx17">
+                <img
+                  class="combined-shape-AG9DR8"
+                  src="img/0-5-responsive-ui-combined-shape-290E0675-0A74-4866-83E1-E597D0A0937A@2x.png"
+                />
+                <div class="group-AG9DR8">
+                  <div class="value-YUBCWT font-class-3">732</div>
+                </div>
+              </div>
+              <div class="x0-05-guide-eenheight1-GUFmxG">
+                <img
+                  class="combined-shape-0AXZYK"
+                  src="img/0-5-responsive-ui-combined-shape-8908F778-E013-4FD2-B288-9FA0BB673149@2x.png"
+                />
+                <div class="group-0AXZYK">
+                  <div class="value-xgn6Gh font-class-3">759</div>
+                </div>
+              </div>
+              <div class="x0-05-guide-eenheight1-ZsM5gH">
+                <img
+                  class="combined-shape-FtLPsf"
+                  src="img/0-5-responsive-ui-combined-shape-74456788-173E-4C3C-A293-71749B6DC4EC@2x.png"
+                />
+                <div class="group-FtLPsf">
+                  <div class="value-JpRuY1 font-class-3">1208</div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="ubcf8-uac0-294-screen-TaO6Uo font-class-1">
             본 가이드에서 지칭하는 Screen height는 Viewport의 100% height와 동일하다.<br />기기에 웹브라우저가 표시되지
             않는 영역이 있다면 Device height와 Screen height는 다를 수 있다.&nbsp;&nbsp;
           </div>
           <div class="screen-height-TaO6Uo font-class-3">Screen height</div>
-          <div class="guide-TaO6Uo">
-            <div class="document-b-x-contents-dnCKjM"></div>
-            <div class="winner-2-portrait-dnCKjM">
-              <div class="winner-2-o0XZ1J font-class-1">Winner 2</div>
-              <div class="portrait-o0XZ1J font-class-1">portrait</div>
-              <div class="winner2land-o0XZ1J">
-                <div class="rectangle-ScmDKx"></div>
-                <div class="rectangle-i0oslU"></div>
-                <img class="oval-ScmDKx" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-                <img class="oval-i0oslU" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-                <img class="line-ScmDKx" src="img/0-5-responsive-ui-line-10C95108-F688-4F9F-9A39-17EC5E984BC1@2x.png" />
-              </div>
-              <div class="ruler-o0XZ1J">
-                <img
-                  class="combined-shape-ehp6ZQ"
-                  src="img/0-5-responsive-ui-combined-shape-2A8933DB-034F-472E-95AA-A019D00C06E7@2x.png"
-                />
-                <div class="value-ehp6ZQ">
-                  <div class="value-mYYeYh font-class-3">801</div>
-                </div>
-              </div>
-              <div class="ruler-RMrgrW">
-                <div class="value-ZFmx8L">
-                  <div class="value-8xBYFc font-class-3">40</div>
-                </div>
-                <img
-                  class="combined-shape-ZFmx8L"
-                  src="img/0-5-responsive-ui-combined-shape-E15CC631-98DB-4366-A061-AB1EA3C9F70A@2x.png"
-                />
-                <div class="guide-measure-area-ZFmx8L"></div>
-              </div>
-            </div>
-            <div class="tablet-portrait-dnCKjM">
-              <div class="tablet-LN4Q2h font-class-1">Tablet</div>
-              <div class="portrait-LN4Q2h font-class-1">portrait</div>
-              <div class="tabletport-LN4Q2h">
-                <div class="rectangle-QnY98j"></div>
-              </div>
-              <div class="ruler-LN4Q2h">
-                <img
-                  class="combined-shape-N9XiFf"
-                  src="img/0-5-responsive-ui-combined-shape-3B8D6C10-C699-42F4-BEBA-EFF2258B26FB@2x.png"
-                />
-                <div class="value-N9XiFf">
-                  <div class="value-CXS1Tt font-class-3">1256</div>
-                </div>
-              </div>
-              <div class="ruler-23mdTR">
-                <div class="value-sKCT7p">
-                  <div class="value-xe0dLj font-class-3">24</div>
-                </div>
-                <img
-                  class="combined-shape-sKCT7p"
-                  src="img/0-5-responsive-ui-combined-shape-E15CC631-98DB-4366-A061-AB1EA3C9F70A@2x.png"
-                />
-                <div class="guide-measure-area-sKCT7p"></div>
-              </div>
-            </div>
-            <div class="winner-1-portrait-dnCKjM">
-              <div class="winner-1-0V4F4O font-class-1">Winner 1</div>
-              <div class="portrait-0V4F4O font-class-1">portrait</div>
-              <div class="winner1land-0V4F4O">
-                <div class="group-9-0MVmHv"></div>
-                <img class="line-0MVmHv" src="img/0-5-responsive-ui-line-78F2F889-2C78-4270-BFB9-E9C6307052C3@2x.png" />
-              </div>
-              <div class="ruler-0V4F4O">
-                <img
-                  class="combined-shape-dH5V60"
-                  src="img/0-5-responsive-ui-combined-shape-2321499E-1A26-4662-BC13-9D6B029BD023@2x.png"
-                />
-                <div class="value-dH5V60">
-                  <div class="value-0d76Xn font-class-3">780</div>
-                </div>
-              </div>
-              <div class="ruler-HhSxHW">
-                <div class="value-9xv9Wz">
-                  <div class="value-0ukWmX font-class-3">40</div>
-                </div>
-                <img
-                  class="combined-shape-9xv9Wz"
-                  src="img/0-5-responsive-ui-combined-shape-E15CC631-98DB-4366-A061-AB1EA3C9F70A@2x.png"
-                />
-                <div class="guide-measure-area-9xv9Wz"></div>
-              </div>
-            </div>
-            <div class="tablet-landscape-dnCKjM">
-              <div class="landscape-Mgbqi2 font-class-1">landscape</div>
-              <div class="tablet-Mgbqi2 font-class-1">Tablet</div>
-              <div class="tabletand-Mgbqi2">
-                <div class="rectangle-OljHni"></div>
-                <div class="rectangle-ENnQVG"></div>
-              </div>
-              <div class="ruler-Mgbqi2">
-                <img
-                  class="combined-shape-PpG8nZ"
-                  src="img/0-5-responsive-ui-combined-shape-9C94E66B-966C-4B55-A814-2C1CFBF29EE9@2x.png"
-                />
-                <div class="value-PpG8nZ">
-                  <div class="value-Xi9IOV font-class-3">776</div>
-                </div>
-              </div>
-              <div class="ruler-j5t80x">
-                <div class="value-jK1oD3">
-                  <div class="value-6ySxnE font-class-3">24</div>
-                </div>
-                <img
-                  class="combined-shape-jK1oD3"
-                  src="img/0-5-responsive-ui-combined-shape-E15CC631-98DB-4366-A061-AB1EA3C9F70A@2x.png"
-                />
-                <div class="guide-measure-area-jK1oD3"></div>
-              </div>
-            </div>
-            <div class="phone-portrait-dnCKjM">
-              <div class="phone-aiCqHO font-class-1">Phone</div>
-              <div class="portrait-aiCqHO font-class-1">portrait</div>
-              <div class="phoneport-aiCqHO">
-                <div class="rectangle-WDL4kE"></div>
-                <img class="oval-WDL4kE" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-              </div>
-              <div class="ruler-aiCqHO">
-                <img
-                  class="combined-shape-o1ZKMo"
-                  src="img/0-5-responsive-ui-combined-shape-DF9BD32C-9C97-4612-815A-74789C3859FD@2x.png"
-                />
-                <div class="value-o1ZKMo">
-                  <div class="value-lzRq2H font-class-3">736</div>
-                </div>
-              </div>
-              <div class="ruler-H3Cqs3">
-                <div class="value-My31rx">
-                  <div class="value-8fmxxe font-class-3">24</div>
-                </div>
-                <img
-                  class="combined-shape-My31rx"
-                  src="img/0-5-responsive-ui-combined-shape-E15CC631-98DB-4366-A061-AB1EA3C9F70A@2x.png"
-                />
-                <div class="guide-measure-area-My31rx"></div>
-              </div>
-            </div>
-            <div class="winner-12-sub-lcd-dnCKjM">
-              <div class="winner-12-PlqmBk font-class-1">Winner 1,2</div>
-              <div class="sub-lcd-PlqmBk font-class-1">sub lcd</div>
-              <div class="winner1sub-PlqmBk">
-                <div class="rectangle-9nOxG1"></div>
-              </div>
-              <div class="ruler-PlqmBk">
-                <img
-                  class="combined-shape-qAzYxD"
-                  src="img/0-5-responsive-ui-combined-shape-6222EDCC-EC18-4405-B086-537A13C16418@2x.png"
-                />
-                <div class="value-qAzYxD">
-                  <div class="value-ex8wGu font-class-3">722</div>
-                </div>
-              </div>
-              <div class="ruler-M2RExk">
-                <div class="value-j5zg8l">
-                  <div class="value-YIEGJT font-class-3">24</div>
-                </div>
-                <img
-                  class="combined-shape-j5zg8l"
-                  src="img/0-5-responsive-ui-combined-shape-E15CC631-98DB-4366-A061-AB1EA3C9F70A@2x.png"
-                />
-                <div class="guide-measure-area-j5zg8l"></div>
-              </div>
-            </div>
-            <div class="winner2-landscape-dnCKjM">
-              <div class="winner-2-O6bl71 font-class-1">Winner 2</div>
-              <div class="landscape-O6bl71 font-class-1">landscape</div>
-              <div class="winner2port-O6bl71">
-                <div class="rectangle-qNRBED"></div>
-                <img class="oval-qNRBED" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-                <img class="oval-UeIIqT" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-                <img class="line-qNRBED" src="img/0-5-responsive-ui-line-4B913A6D-0D19-4B16-A478-6B013D42C52A@2x.png" />
-              </div>
-              <div class="ruler-O6bl71">
-                <img
-                  class="combined-shape-N33CGi"
-                  src="img/0-5-responsive-ui-combined-shape-E362A922-66FC-488C-8D5C-D30EB60AFB70@2x.png"
-                />
-                <div class="value-N33CGi">
-                  <div class="value-mxiXXg font-class-3">650</div>
-                </div>
-              </div>
-              <div class="ruler-Wsikaj">
-                <div class="value-ioyDuv">
-                  <div class="value-gPiPgm font-class-3">24</div>
-                </div>
-                <img
-                  class="combined-shape-ioyDuv"
-                  src="img/0-5-responsive-ui-combined-shape-E15CC631-98DB-4366-A061-AB1EA3C9F70A@2x.png"
-                />
-                <div class="guide-measure-area-ioyDuv"></div>
-              </div>
-            </div>
-            <div class="winner1-landscape-dnCKjM">
-              <div class="landscape-wHWoqQ font-class-1">landscape</div>
-              <div class="winner-1-wHWoqQ font-class-1">Winner 1</div>
-              <div class="winner1port-wHWoqQ">
-                <div class="rectangle-6RzntZ"></div>
-                <div class="group-9-6RzntZ"></div>
-                <img class="line-6RzntZ" src="img/0-5-responsive-ui-line-78F2F889-2C78-4270-BFB9-E9C6307052C3@2x.png" />
-              </div>
-              <div class="ruler-wHWoqQ">
-                <img
-                  class="combined-shape-q83Eqr"
-                  src="img/0-5-responsive-ui-combined-shape-A17D51D0-2B08-4518-B3AC-2075C54FCA12@2x.png"
-                />
-                <div class="value-q83Eqr">
-                  <div class="value-q6FvJN font-class-3">561</div>
-                </div>
-              </div>
-              <div class="ruler-ZH3Ssi">
-                <div class="value-v6HOdK">
-                  <div class="value-mm68ZL font-class-3">24</div>
-                </div>
-                <img
-                  class="combined-shape-v6HOdK"
-                  src="img/0-5-responsive-ui-combined-shape-E15CC631-98DB-4366-A061-AB1EA3C9F70A@2x.png"
-                />
-                <div class="guide-measure-area-v6HOdK"></div>
-              </div>
-            </div>
-            <div class="phone-landscape-dnCKjM">
-              <div class="landscape-KxWH6p font-class-1">landscape</div>
-              <div class="phone-KxWH6p font-class-1">Phone</div>
-              <div class="phoneland-KxWH6p">
-                <div class="rectangle-gtxV08"></div>
-                <img class="oval-gtxV08" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-              </div>
-              <div class="ruler-KxWH6p">
-                <img
-                  class="combined-shape-gjMMmX"
-                  src="img/0-5-responsive-ui-combined-shape-04C427C5-7B7A-4DC8-997F-E6B76CF23D09@2x.png"
-                />
-                <div class="value-gjMMmX">
-                  <div class="value-aVcxrH font-class-3">336</div>
-                </div>
-              </div>
-              <div class="ruler-QhMSiq">
-                <div class="value-Wbrsip">
-                  <div class="value-emWfLd font-class-3">24</div>
-                </div>
-                <img
-                  class="combined-shape-Wbrsip"
-                  src="img/0-5-responsive-ui-combined-shape-E15CC631-98DB-4366-A061-AB1EA3C9F70A@2x.png"
-                />
-                <div class="guide-measure-area-Wbrsip"></div>
-              </div>
-              <div class="status-bar-5ed-screen-KxWH6p font-class-1">Status bar 영역<br />Screen width에 미포함</div>
-            </div>
-          </div>
         </div>
         <div class="screen-width-C61RwL">
           <div class="ubcf8-uac0-294-screen-Ie40Jz font-class-1">
@@ -846,192 +903,244 @@
           <div class="screen-width-Ie40Jz font-class-3">Screen width</div>
           <div class="guide-Ie40Jz">
             <div class="document-b-x-contents-DdyOA7"></div>
-            <div class="winner-12-sub-lcd-DdyOA7">
-              <div class="winner-12-M1nYkx font-class-1">Winner 1,2</div>
-              <div class="sub-lcd-M1nYkx font-class-1">sub lcd</div>
-              <div class="winner1sub-M1nYkx">
-                <div class="rectangle-519fy3"></div>
+            <div class="symbol-DdyOA7">
+              <div class="x0-05-measu-winnerport-LebUiw">
+                <div class="winnerport-sPdqnk">
+                  <div class="screen-E188M4"></div>
+                  <img
+                    class="line-E188M4"
+                    src="img/0-5-responsive-ui-line-A26423EC-38FC-4966-9C58-F5DE196D3A85@2x.png"
+                  />
+                  <img
+                    class="lcut-E188M4"
+                    src="img/0-5-responsive-ui-lcut-F26E1ABD-10C2-4096-9456-166E37BB2AB7@2x.png"
+                  />
+                </div>
+                <div class="area-sPdqnk">
+                  <div class="guide-measure-area-dF4xVl"></div>
+                </div>
               </div>
-              <div class="ruler-M1nYkx">
-                <img
-                  class="combined-shape-5iE009"
-                  src="img/0-5-responsive-ui-combined-shape-8C751174-4AC9-4986-A233-A1F81F2BE38C@2x.png"
-                />
-                <div class="value-5iE009">
-                  <div class="rectangle-zoczq3"></div>
-                  <div class="value-zoczq3 font-class-3">320</div>
+              <div class="x0-05-measure-topport-LebUiw">
+                <div class="topport-VSZ4N6">
+                  <div class="screen-kx1dgk"></div>
+                  <img
+                    class="oval-kx1dgk"
+                    src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                  />
+                  <img
+                    class="oval-tyLjx0"
+                    src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                  />
+                  <img
+                    class="line-kx1dgk"
+                    src="img/0-5-responsive-ui-line-D9B5936D-11AA-4B21-BDEF-0828DDE4F014@2x.png"
+                  />
+                </div>
+                <div class="area-VSZ4N6">
+                  <div class="guide-measure-area-UEMlxk"></div>
+                </div>
+              </div>
+              <div class="x0-05-measu--phoneland-LebUiw">
+                <div class="x0-05-measu--phoneport-Y81WxY">
+                  <div class="phoneport-ccO6K2">
+                    <div class="screen-xU1qQS"></div>
+                    <img
+                      class="oval-xU1qQS"
+                      src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                    />
+                  </div>
+                  <div class="area-ccO6K2">
+                    <div class="rectangle-1xiZBY"></div>
+                  </div>
+                </div>
+                <div class="area-Y81WxY">
+                  <div class="guide-measure-area-oJW3N1"></div>
+                </div>
+              </div>
+              <div class="x0-05-measu-winnerland-LebUiw">
+                <div class="x0-05-measu-winnerport-kssj9p">
+                  <div class="winnerport-s5aY4v">
+                    <div class="device-299U9S"></div>
+                    <div class="screen-299U9S"></div>
+                    <img
+                      class="line-299U9S"
+                      src="img/0-5-responsive-ui-line-A26423EC-38FC-4966-9C58-F5DE196D3A85@2x.png"
+                    />
+                    <img
+                      class="lcut-299U9S"
+                      src="img/0-5-responsive-ui-lcut-F26E1ABD-10C2-4096-9456-166E37BB2AB7@2x.png"
+                    />
+                  </div>
+                  <div class="area-s5aY4v"></div>
+                </div>
+                <div class="area-kssj9p">
+                  <div class="guide-measure-area-v32xw3"></div>
+                </div>
+              </div>
+              <div class="x0-05-measu-tabletport-LebUiw">
+                <div class="tabletport-Gl7nfy">
+                  <div class="screen-JqxJKR"></div>
+                </div>
+                <div class="area-Gl7nfy">
+                  <div class="guide-measure-area-xOGTyv"></div>
+                </div>
+              </div>
+              <div class="x0-05-measu-tabletland-LebUiw">
+                <div class="x0-05-measu-tabletport-11wiXF">
+                  <div class="tabletport-FVTWV4">
+                    <div class="screen-xmTHIg"></div>
+                  </div>
+                  <div class="area-FVTWV4"></div>
+                </div>
+                <div class="area-11wiXF">
+                  <div class="guide-measure-area-7CBDNa"></div>
+                </div>
+              </div>
+              <div class="x0-05-measure-topland-LebUiw">
+                <div class="x0-05-measure-topport-xirfOQ">
+                  <div class="topport-vZuZxn">
+                    <div class="device-UmGakb"></div>
+                    <div class="screen-UmGakb"></div>
+                    <img
+                      class="oval-UmGakb"
+                      src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                    />
+                    <img
+                      class="oval-HGcK6Y"
+                      src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                    />
+                    <img
+                      class="line-UmGakb"
+                      src="img/0-5-responsive-ui-line-D9B5936D-11AA-4B21-BDEF-0828DDE4F014@2x.png"
+                    />
+                  </div>
+                  <div class="area-vZuZxn"></div>
+                </div>
+                <div class="area-xirfOQ">
+                  <div class="guide-measure-area-5HCqBV"></div>
+                </div>
+              </div>
+              <div class="x0-05-measu--phoneport-LebUiw">
+                <div class="phoneport-XCDP3E">
+                  <div class="screen-vXrnzB"></div>
+                  <img
+                    class="oval-vXrnzB"
+                    src="img/0-5-responsive-ui-oval-674B5760-FF95-4C33-91FF-0A86BB829FCA@2x.png"
+                  />
+                </div>
+                <div class="area-XCDP3E">
+                  <div class="rectangle-Cr8SjP"></div>
+                  <div class="guide-measure-area-Cr8SjP"></div>
                 </div>
               </div>
             </div>
-            <div class="phone-portrait-DdyOA7">
-              <div class="phone-VPGkxK font-class-1">Phone</div>
-              <div class="portrait-VPGkxK font-class-1">portrait</div>
-              <div class="phoneport-VPGkxK">
-                <div class="rectangle-B8eCDi"></div>
-                <img class="oval-B8eCDi" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
+            <div class="text-DdyOA7">
+              <div class="group-2-Uswn3Q">
+                <div class="phone-2xyEOr font-class-1">Phone</div>
+                <div class="portrait-2xyEOr font-class-1">portrait</div>
               </div>
-              <div class="ruler-VPGkxK">
-                <img
-                  class="combined-shape-LfBjoR"
-                  src="img/0-5-responsive-ui-combined-shape-A5CF9D55-CE23-4EA7-B75A-C76C7CC9AC12@2x.png"
-                />
-                <div class="value-LfBjoR">
-                  <div class="rectangle-xGwjgA"></div>
-                  <div class="value-xGwjgA font-class-3">360</div>
+              <div class="group-3-Uswn3Q">
+                <div class="winner-LcyeUB font-class-1">Winner</div>
+                <div class="portrait-LcyeUB font-class-1">portrait</div>
+              </div>
+              <div class="group-4-Uswn3Q">
+                <div class="top-JwRhKt font-class-1">TOP</div>
+                <div class="portrait-JwRhKt font-class-1">portrait</div>
+              </div>
+              <div class="group-5-Uswn3Q">
+                <div class="phone-S8nETR font-class-1">Phone</div>
+                <div class="landscape-S8nETR font-class-1">landscape</div>
+              </div>
+              <div class="group-10-Uswn3Q">
+                <div class="tablet-rVFJBD font-class-1">Tablet</div>
+                <div class="landscape-rVFJBD font-class-1">landscape</div>
+              </div>
+              <div class="group-7-Uswn3Q">
+                <div class="group-11-RDbUy0">
+                  <div class="tablet-KxPoam font-class-1">Tablet</div>
+                  <div class="portrait-KxPoam font-class-1">portrait</div>
                 </div>
+              </div>
+              <div class="group-6-Uswn3Q">
+                <div class="winner-wVR3tY font-class-1">Winner</div>
+                <div class="landscape-wVR3tY font-class-1">landscape</div>
+              </div>
+              <div class="group-8-Uswn3Q">
+                <div class="top-XVqsR6 font-class-1">TOP</div>
+                <div class="landscape-XVqsR6 font-class-1">landscape</div>
               </div>
             </div>
-            <div class="winner-1-portrait-DdyOA7">
-              <div class="winner-1-Twsyb2 font-class-1">Winner 1</div>
-              <div class="portrait-Twsyb2 font-class-1">portrait</div>
-              <div class="winner1land-Twsyb2">
-                <div class="group-9-CYuSlO"></div>
-                <img class="line-CYuSlO" src="img/0-5-responsive-ui-line-78F2F889-2C78-4270-BFB9-E9C6307052C3@2x.png" />
-              </div>
-              <div class="ruler-Twsyb2">
+            <div class="measure-DdyOA7">
+              <div class="x0-05-guide-reenwidth1-3mdNs0">
                 <img
-                  class="combined-shape-xO4x2r"
-                  src="img/0-5-responsive-ui-combined-shape-FDEB546A-DD1E-4AA4-B367-3EC251A04185@2x.png"
+                  class="combined-shape-QcVZSB"
+                  src="img/0-5-responsive-ui-combined-shape-C31691B3-A6FE-4263-8C46-F39BC24F8D6A@2x.png"
                 />
-                <div class="value-xO4x2r">
-                  <div class="rectangle-0YbVGn"></div>
-                  <div class="value-0YbVGn font-class-3">585</div>
+                <div class="value-QcVZSB">
+                  <div class="value-WSgvD9 font-class-3">360</div>
                 </div>
               </div>
-            </div>
-            <div class="winner-2-portrait-DdyOA7">
-              <div class="winner-2-mnfGJ7 font-class-1">Winner 2</div>
-              <div class="portrait-mnfGJ7 font-class-1">portrait</div>
-              <div class="winner2land-mnfGJ7">
-                <div class="rectangle-PNVFho"></div>
-                <div class="rectangle-hljTfi"></div>
-                <img class="oval-PNVFho" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-                <img class="oval-hljTfi" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-                <img class="line-PNVFho" src="img/0-5-responsive-ui-line-DC506717-85B0-4F8C-A06E-26116413E9C7@2x.png" />
-              </div>
-              <div class="ruler-mnfGJ7">
+              <div class="x0-05-guide-reenwidth1-2Ge2mP">
                 <img
-                  class="combined-shape-4pxSWd"
-                  src="img/0-5-responsive-ui-combined-shape-FD098A4C-9D04-4B7D-BD0C-C04D1E138B17@2x.png"
+                  class="combined-shape-NmmqTJ"
+                  src="img/0-5-responsive-ui-combined-shape-B8528BFF-D6FA-4CD0-AF2C-A21FE8429814@2x.png"
                 />
-                <div class="value-4pxSWd">
-                  <div class="rectangle-9l3qJZ"></div>
-                  <div class="value-9l3qJZ font-class-3">674</div>
+                <div class="value-NmmqTJ">
+                  <div class="value-RXhxlk font-class-3">585</div>
                 </div>
               </div>
-            </div>
-            <div class="phone-landscape-DdyOA7">
-              <div class="phone-FixY79 font-class-1">Phone</div>
-              <div class="landscape-FixY79 font-class-1">landscape</div>
-              <div class="phoneland-FixY79">
-                <div class="rectangle-wBPFzf"></div>
-                <img class="oval-wBPFzf" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-              </div>
-              <div class="ruler-FixY79">
+              <div class="x0-05-guide-reenwidth1-wvrIS0">
                 <img
-                  class="combined-shape-DNA4xe"
-                  src="img/0-5-responsive-ui-combined-shape-6ACF286A-F712-47F2-8439-FF69BCDBC79A@2x.png"
+                  class="combined-shape-xAPwnE"
+                  src="img/0-5-responsive-ui-combined-shape-BFEAD852-5D36-4F6D-99F9-418E760659F3@2x.png"
                 />
-                <div class="value-DNA4xe">
-                  <div class="rectangle-pykg8k"></div>
-                  <div class="value-pykg8k font-class-3">760</div>
+                <div class="value-xAPwnE">
+                  <div class="value-w0CTcI font-class-3">674</div>
                 </div>
               </div>
-            </div>
-            <div class="tablet-landscape-DdyOA7">
-              <div class="tablet-tjyY0L font-class-1">Tablet</div>
-              <div class="landscape-tjyY0L font-class-1">landscape</div>
-              <div class="tabletand-tjyY0L">
-                <div class="rectangle-4mhjPe"></div>
-                <div class="rectangle-05GT2x"></div>
-              </div>
-              <div class="ruler-tjyY0L">
+              <div class="x0-05-guide-reenwidth1-wPxCRv">
                 <img
-                  class="combined-shape-R8h2um"
-                  src="img/0-5-responsive-ui-combined-shape-A5F3A7D8-5C22-425D-ACF7-8989C9EE130A@2x.png"
+                  class="combined-shape-AU3NoQ"
+                  src="img/0-5-responsive-ui-combined-shape-BBBDD5F7-8EE7-47F2-A1BB-6880B38DD1FD@2x.png"
                 />
-                <div class="value-R8h2um">
-                  <div class="rectangle-2znHOD"></div>
-                  <div class="value-2znHOD font-class-3">1280</div>
+                <div class="value-AU3NoQ">
+                  <div class="value-7Ilbxx font-class-3">712</div>
                 </div>
               </div>
-            </div>
-            <div class="tablet-portrait-DdyOA7">
-              <div class="tablet-yVsUdm font-class-1">Tablet</div>
-              <div class="portrait-yVsUdm font-class-1">portrait</div>
-              <div class="tabletport-yVsUdm">
-                <div class="rectangle-zyk4xJ"></div>
-              </div>
-              <div class="ruler-yVsUdm">
+              <div class="x0-05-guide-reenwidth1-KCga8x">
                 <img
-                  class="combined-shape-agx8sU"
-                  src="img/0-5-responsive-ui-combined-shape-0BCB34FF-B1C3-432B-9DC0-FFE215DCFA75@2x.png"
+                  class="combined-shape-s6wxZD"
+                  src="img/0-5-responsive-ui-combined-shape-B1920CDE-94F3-47FF-8284-C9F6598518E4@2x.png"
                 />
-                <div class="value-agx8sU">
-                  <div class="rectangle-t65Pvl"></div>
-                  <div class="value-t65Pvl font-class-3">800</div>
+                <div class="value-s6wxZD">
+                  <div class="value-wYNLOx font-class-3">780</div>
                 </div>
               </div>
-            </div>
-            <div class="winner1-landscape-DdyOA7">
-              <div class="winner-1-eDdJak font-class-1">Winner 1</div>
-              <div class="landscape-eDdJak font-class-1">landscape</div>
-              <div class="uce74uba54-widthuc5d0-eDdJak font-class-1">카메라 영역<br />Screen width에 미포함</div>
-              <div class="winner1port-eDdJak">
-                <div class="rectangle-jmerAU"></div>
-                <div class="group-9-jmerAU"></div>
-                <img class="line-jmerAU" src="img/0-5-responsive-ui-line-78F2F889-2C78-4270-BFB9-E9C6307052C3@2x.png" />
-              </div>
-              <div class="ruler-eDdJak">
+              <div class="x0-05-guide-reenwidth1-RxlOEm">
                 <img
-                  class="combined-shape-cKs4LY"
-                  src="img/0-5-responsive-ui-combined-shape-597FF3A3-322D-4C9F-B60B-D17BAFC2665E@2x.png"
+                  class="combined-shape-pV1CiT"
+                  src="img/0-5-responsive-ui-combined-shape-F8E0C20E-D09E-4109-814F-ABE9D35E028A@2x.png"
                 />
-                <div class="value-cKs4LY">
-                  <div class="rectangle-U9cdjl"></div>
-                  <div class="value-U9cdjl font-class-3">780</div>
+                <div class="value-pV1CiT">
+                  <div class="value-9ieVhU font-class-3">800</div>
                 </div>
               </div>
-              <div class="ruler-i3PIfe">
+              <div class="x0-05-guide-reenwidth1-nfeCr5">
                 <img
-                  class="combined-shape-EGu9cg"
-                  src="img/0-5-responsive-ui-combined-shape-514C31CD-18E3-43EC-AAB9-4B024EBCB0C0@2x.png"
+                  class="combined-shape-rxhhox"
+                  src="img/0-5-responsive-ui-combined-shape-05575342-DEC4-402A-95E2-3E917220B597@2x.png"
                 />
-                <div class="value-EGu9cg">
-                  <div class="value-xZku8B font-class-3">40</div>
+                <div class="value-rxhhox">
+                  <div class="value-HdGvty font-class-3">807</div>
                 </div>
               </div>
-            </div>
-            <div class="winner2-landscape-DdyOA7">
-              <div class="winner-2-v1AWTS font-class-1">Winner 2</div>
-              <div class="landscape-v1AWTS font-class-1">landscape</div>
-              <div class="size-v1AWTS">
-                <div class="uce74uba54-widthuc5d0-kCgPQp font-class-1">카메라 영역<br />Screen width에 미포함</div>
-              </div>
-              <div class="winner2port-v1AWTS">
-                <div class="rectangle-kIghKG"></div>
-                <img class="oval-kIghKG" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-                <img class="oval-K9VIfk" src="img/0-5-responsive-ui-oval-519B5D8F-4D64-4A83-8121-4B7A6F2B9D69@2x.png" />
-                <img class="line-kIghKG" src="img/0-5-responsive-ui-line-DC506717-85B0-4F8C-A06E-26116413E9C7@2x.png" />
-              </div>
-              <div class="ruler-v1AWTS">
+              <div class="x0-05-guide-reenwidth1-xOdxyM">
                 <img
-                  class="combined-shape-C4NK0T"
-                  src="img/0-5-responsive-ui-combined-shape-84B0ED0B-244B-41E3-B303-F1244C32FDF7@2x.png"
+                  class="combined-shape-aZGEO1"
+                  src="img/0-5-responsive-ui-combined-shape-24D9DC6A-46C7-4B9F-9D61-CFC90F9268B2@2x.png"
                 />
-                <div class="value-C4NK0T">
-                  <div class="rectangle-twzVcc"></div>
-                  <div class="value-twzVcc font-class-3">38</div>
-                </div>
-              </div>
-              <div class="ruler-HvxCxk">
-                <img
-                  class="combined-shape-afxPwv"
-                  src="img/0-5-responsive-ui-combined-shape-2A8933DB-034F-472E-95AA-A019D00C06E7@2x.png"
-                />
-                <div class="value-afxPwv">
-                  <div class="rectangle-xOwDHJ"></div>
-                  <div class="value-xOwDHJ font-class-3">803</div>
+                <div class="value-aZGEO1">
+                  <div class="value-HyMeCx font-class-3">1280</div>
                 </div>
               </div>
             </div>
@@ -1057,6 +1166,17 @@
           Breakpoint range가 다를 수 있으므로 보다 상세한 사항은 해당 component의 가이드 내용을 확인한다.&nbsp;&nbsp;
         </div>
         <div class="responsive-ui-C61RwL font-class-5">Responsive UI</div>
+        <div class="tag-update-C61RwL">
+          <a href="history.html">
+            <div class="btn-xpyOiF anima-smart-layers-pointers">
+              <div class="group-U3E5ew">
+                <div class="version-N0mG4b font-class-4">1.1</div>
+                <div class="v-N0mG4b font-class-4">V</div>
+                <div class="updated-N0mG4b font-class-2">Updated</div>
+              </div>
+            </div></a
+          >
+        </div>
         <div class="gnb-bar00-overview-C61RwL">
           <div class="gnb-menu17-ste-normal-v1pbZ5">
             <a href="a171textselection.html">
@@ -1242,7 +1362,7 @@
                 <div class="gotohome-quwRun">
                   <div class="group-1HrZwx">
                     <div class="web-app-E5nOUr font-class-6">Web app</div>
-                    <div class="basic-component-gui-E5nOUr font-class-4">Basic component GUI V1.0.0</div>
+                    <div class="basic-component-gui-E5nOUr font-class-4">Basic component GUI V1.1.0</div>
                   </div>
                 </div></a
               >
@@ -1251,5 +1371,47 @@
         </div>
       </div>
     </div>
+    <style>
+      @font-face {
+        font-family: "SamsungOneKorean-600";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/None") format("None");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-700";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/None") format("None");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-300";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/None") format("None");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-400";
+        src: url("https://anima-uploads.s3.amazonaws.com/5d157e2887015e6431318dfb/None") format("None");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-500";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c481d13d7b7cc000a21576b/None") format("None");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-300";
+        src: url("./fonts/SamsungOneKorean-300.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-400";
+        src: url("./fonts/SamsungOneKorean-400.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-500";
+        src: url("./fonts/SamsungOneKorean-500.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-600";
+        src: url("./fonts/SamsungOneKorean-600.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "SamsungOneKorean-700";
+        src: url("./fonts/SamsungOneKorean-700.woff2") format("woff2");
+      }
+    </style>
   </body>
 </html>

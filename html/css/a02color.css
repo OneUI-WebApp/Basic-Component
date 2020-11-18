@@ -62,6 +62,21 @@
   white-space: nowrap;
   width: 91px;
 }
+.a02color .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 138px;
+}
+.a02color .btn-xpyOiF:hover {
+
+transform: scale(0.98);
+}
 .a02color .color-name-mvEyGv {
   background-color: transparent;
   color: var(--white);
@@ -215,7 +230,7 @@
 }
 .a02color .document-b-x-contents-MbT7Z9 {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 623px;
   left: 0px;
   position: absolute;
@@ -704,6 +719,14 @@
   top: 1190px;
   width: 1240px;
 }
+.a02color .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 118px;
+}
 .a02color .guide-VyzZeT {
   background-color: transparent;
   height: 536px;
@@ -740,8 +763,11 @@
 }
 .a02color .history-1wMrci {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -915,10 +941,21 @@
   top: 0px;
   width: 320px;
 }
+.a02color .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 558px;
+  position: absolute;
+  top: 81px;
+  width: 138px;
+}
 .a02color .text-22CVAR {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -928,8 +965,11 @@
 }
 .a02color .text-AFV95m {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -939,8 +979,11 @@
 }
 .a02color .text-Q0Et99 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -964,8 +1007,11 @@
 }
 .a02color .text-g1XkCO {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -975,8 +1021,11 @@
 }
 .a02color .text-ohoOCM {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 72px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1023,6 +1072,45 @@
   text-align: left;
   top: 83px;
   width: 1240px;
+}
+.a02color .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 42px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a02color .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a02color .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a02color .web-app-E5nOUr {
   background-color: transparent;
@@ -1190,8 +1278,11 @@
 }
 .a02color .x1-app-bar-DJGm0N {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1201,8 +1292,11 @@
 }
 .a02color .x10-search-ERHMN2 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1212,8 +1306,11 @@
 }
 .a02color .x11-toast-oIHfxk {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1223,8 +1320,11 @@
 }
 .a02color .x12-text-fields-DA36xP {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1234,8 +1334,11 @@
 }
 .a02color .x13-view-controls-ky1EdQ {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1245,8 +1348,11 @@
 }
 .a02color .x14-description-W4coIQ {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1256,8 +1362,11 @@
 }
 .a02color .x15-notification-bad-9eERd1 {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1267,8 +1376,11 @@
 }
 .a02color .x16-thumbnail-SoaRiD {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1278,8 +1390,11 @@
 }
 .a02color .x17-copy-paste-pQYUwC {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1289,8 +1404,11 @@
 }
 .a02color .x2-buttons-BFdIUo {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1300,8 +1418,11 @@
 }
 .a02color .x3-controllers-pxeSlG {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1350,8 +1471,11 @@
 }
 .a02color .x4-dialogs-BvVeeB {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1361,8 +1485,11 @@
 }
 .a02color .x5-dividers-pxNh8y {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1372,8 +1499,11 @@
 }
 .a02color .x6-lists-dCA1nJ {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1383,8 +1513,11 @@
 }
 .a02color .x7-no-item-P96hBM {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1394,8 +1527,11 @@
 }
 .a02color .x8-progress-cyx5tv {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1405,8 +1541,11 @@
 }
 .a02color .x9-scrolling-IbcISx {
   background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
   height: auto;
   left: 30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1424,10 +1563,7 @@
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
 }
 .font-class-2 {
-  color: var(--black);
   font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-  font-size: 15px;
-  line-height: 18px;
 }
 .font-class-3 {
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
@@ -1461,12 +1597,12 @@
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
   --black: rgba(0,0,0,1.0);
-  --brilliant-rose: rgba(245,82,175,1.0);
   --carnation: rgba(255,90,90,1.0);
   --gallery: rgba(237,237,237,1.0);
   --gunsmoke: rgba(132,131,131,1.0);
-  --perano: rgba(176,195,247,1.0);
+  --razzle-dazzle-rose: rgba(255,51,255,0.37);
   --sonic-silver: rgba(116,116,116,1.0);
   --suva-gray: rgba(135,135,135,1.0);
+  --titan-white: rgba(236,240,255,1.0);
   --white: rgba(255,255,255,1.0);
 }

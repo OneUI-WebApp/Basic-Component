@@ -2,7 +2,7 @@
 
 .a23floatingactionbutton {
   background-color: rgba(245,246,247,1.0);
-  height: 1602px;
+  height: 1835px;
   position: relative;
   width: 1680px;
 }
@@ -35,6 +35,21 @@
 
 transform: scale(0.98);
 }
+.a23floatingactionbutton .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 138px;
+}
+.a23floatingactionbutton .btn-xpyOiF:hover {
+
+transform: scale(0.98);
+}
 .a23floatingactionbutton .comment-5ATXsy {
   background-color: transparent;
   color: var(--gray);
@@ -48,10 +63,26 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a23floatingactionbutton .document-b-pdate-copy-iW85Z4 {
+  background-color: rgba(0,204,153,0.2);
+  height: 54px;
+  left: 26px;
+  position: absolute;
+  top: 25px;
+  width: 327px;
+}
+.a23floatingactionbutton .document-b-textupdate-cmvBWY {
+  background-color: rgba(0,204,153,0.2);
+  height: 54px;
+  left: 26px;
+  position: absolute;
+  top: 25px;
+  width: 327px;
+}
 .a23floatingactionbutton .document-b-x-contents-5iy7GR {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
-  height: 226px;
+  border: 2px solid rgba(0,204,153,1.0);
+  height: 459px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -59,7 +90,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .document-b-x-contents-PHONBE {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 1px solid rgba(227,227,227,1.0);
   height: 350px;
   left: 0px;
   position: absolute;
@@ -68,7 +99,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .document-b-x-contents-V6KZ2v {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -77,8 +108,8 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .document-b-x-contents-hh1Mvx {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
-  height: 596px;
+  border: 2px solid rgba(0,204,153,1.0);
+  height: 829px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -89,10 +120,10 @@ transform: scale(0.98);
   height: 45px;
   left: 863px;
   position: absolute;
-  top: 1477px;
+  top: 1710px;
   width: 274px;
 }
-.a23floatingactionbutton .fn-e74GgQ {
+.a23floatingactionbutton .fn-HjrBd9 {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -105,7 +136,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a23floatingactionbutton .fn-gxk9iq {
+.a23floatingactionbutton .fn-e74GgQ {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -133,10 +164,18 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .general-5iy7GR {
   background-color: transparent;
-  height: 109px;
+  height: 345px;
   left: 20px;
   position: absolute;
-  top: 87px;
+  top: 84px;
+  width: 465px;
+}
+.a23floatingactionbutton .general-ZtS6O8 {
+  background-color: transparent;
+  height: 134px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
   width: 465px;
 }
 .a23floatingactionbutton .gnb-bar02-buttons-C61RwL {
@@ -531,13 +570,13 @@ transform: scale(0.98);
   top: 0px;
   width: 106px;
 }
-.a23floatingactionbutton .group-0L9iTm {
+.a23floatingactionbutton .group-2-Blgiel {
   background-color: transparent;
   height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 106px;
+  left: 103px;
+  position: absolute;
+  top: 22px;
+  width: 198px;
 }
 .a23floatingactionbutton .group-2-FrfgJ2 {
   background-color: transparent;
@@ -555,7 +594,15 @@ transform: scale(0.98);
   top: 0px;
   width: 200px;
 }
-.a23floatingactionbutton .group-2-sG0EgU {
+.a23floatingactionbutton .group-2-Rmxsol {
+  background-color: transparent;
+  height: 22px;
+  left: 103px;
+  position: absolute;
+  top: 22px;
+  width: 212px;
+}
+.a23floatingactionbutton .group-2-dR07Vt {
   background-color: transparent;
   height: 22px;
   left: 0px;
@@ -565,13 +612,37 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .group-C61RwL {
   background-color: transparent;
-  height: 596px;
+  height: 829px;
   left: 380px;
   position: absolute;
   top: 801px;
   width: 1240px;
 }
-.a23floatingactionbutton .group-Px5YAv {
+.a23floatingactionbutton .group-Ci0onP {
+  background-color: transparent;
+  height: 44px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 315px;
+}
+.a23floatingactionbutton .group-Raf3b4 {
+  background-color: transparent;
+  height: 44px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 306px;
+}
+.a23floatingactionbutton .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 118px;
+}
+.a23floatingactionbutton .group-bod4UR {
   background-color: transparent;
   height: 22px;
   left: 0px;
@@ -595,6 +666,14 @@ transform: scale(0.98);
   top: 0px;
   width: 100px;
 }
+.a23floatingactionbutton .group-j9xErX {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 162px;
+}
 .a23floatingactionbutton .group-mHG0KU {
   background-color: transparent;
   height: 22px;
@@ -603,13 +682,13 @@ transform: scale(0.98);
   top: 0px;
   width: 178px;
 }
-.a23floatingactionbutton .group-t1YvkM {
+.a23floatingactionbutton .group-rnmSeP {
   background-color: transparent;
   height: 22px;
   left: 0px;
   position: relative;
   top: 0px;
-  width: 162px;
+  width: 106px;
 }
 .a23floatingactionbutton .group-w42Is4 {
   background-color: transparent;
@@ -621,11 +700,27 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-NOXmfT {
   background-color: transparent;
-  height: 596px;
+  height: 829px;
   left: 0px;
   position: absolute;
   top: 0px;
   width: 715px;
+}
+.a23floatingactionbutton .guide-form-1line-copy-cmvBWY {
+  background-color: transparent;
+  height: 44px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 315px;
+}
+.a23floatingactionbutton .guide-form-1line-copy-iW85Z4 {
+  background-color: transparent;
+  height: 44px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 306px;
 }
 .a23floatingactionbutton .guide-form-al1linecmt-PHONBE {
   background-color: transparent;
@@ -643,12 +738,12 @@ transform: scale(0.98);
   top: 295px;
   width: 200px;
 }
-.a23floatingactionbutton .guide-form-ction1line-ZtS6O8 {
+.a23floatingactionbutton .guide-form-ction1line-StZ1zy {
   background-color: transparent;
   height: 22px;
   left: 32px;
   position: absolute;
-  top: 84px;
+  top: 112px;
   width: 273px;
 }
 .a23floatingactionbutton .guide-form-ction1line-fhYGYA {
@@ -659,6 +754,22 @@ transform: scale(0.98);
   top: 155px;
   width: 349px;
 }
+.a23floatingactionbutton .guide-form-e-subtitle-cmvBWY {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 87px;
+}
+.a23floatingactionbutton .guide-form-e-subtitle-iW85Z4 {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 84px;
+}
 .a23floatingactionbutton .guide-form-me-imagebg-Gajm0e {
   background-color: rgba(255,102,255,1.0);
   height: 48px;
@@ -666,14 +777,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 48px;
-}
-.a23floatingactionbutton .guide-form-ormal1line-2fuXJs {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 28px;
-  width: 106px;
 }
 .a23floatingactionbutton .guide-form-ormal1line-MSX7mg {
   background-color: transparent;
@@ -691,21 +794,21 @@ transform: scale(0.98);
   top: 183px;
   width: 100px;
 }
-.a23floatingactionbutton .guide-form-ormal1line-ZCCKQX {
+.a23floatingactionbutton .guide-form-ormal1line-StZ1zy {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 100px;
+}
+.a23floatingactionbutton .guide-form-ormal1line-bQmiij {
   background-color: transparent;
   height: 22px;
   left: 32px;
   position: absolute;
   top: 56px;
-  width: 162px;
-}
-.a23floatingactionbutton .guide-form-ormal1line-ZtS6O8 {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 0px;
-  width: 100px;
+  width: 106px;
 }
 .a23floatingactionbutton .guide-form-ormal1line-fhYGYA {
   background-color: transparent;
@@ -714,6 +817,22 @@ transform: scale(0.98);
   position: absolute;
   top: 211px;
   width: 106px;
+}
+.a23floatingactionbutton .guide-form-ormal1line-uZAZAQ {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 84px;
+  width: 162px;
+}
+.a23floatingactionbutton .guide-form-title-copy-StZ1zy {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 57px;
 }
 .a23floatingactionbutton .guide-meas--spacing-1-HZAI7N {
   background-color: transparent;
@@ -733,7 +852,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-meas-e-vertical-k236Jm {
   background-color: transparent;
-  background-image: url(../img/2-3-floating-action-button-line-F38C4F22-6070-4D72-B4E1-C88D43976E0B@2x.png);
+  background-image: url(../img/2-3-floating-action-button-line-3390B143-49CC-46FD-868A-3B2932C524A4@2x.png);
   background-size: 100% 100%;
   height: 120px;
   left: 71px;
@@ -743,7 +862,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-meas-e-vertical-pjqr1P {
   background-color: transparent;
-  background-image: url(../img/2-3-floating-action-button-line-F38C4F22-6070-4D72-B4E1-C88D43976E0B@2x.png);
+  background-image: url(../img/2-3-floating-action-button-line-3390B143-49CC-46FD-868A-3B2932C524A4@2x.png);
   background-size: 100% 100%;
   height: 120px;
   left: 0px;
@@ -769,7 +888,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-meas-horizontal-k236Jm {
   background-color: transparent;
-  background-image: url(../img/2-3-floating-action-button-line-81133166-730C-44F0-8FF3-7B46687F13BE@2x.png);
+  background-image: url(../img/2-3-floating-action-button-line-982EB0C5-68A7-4F94-B339-62A8CC5D1070@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 72px;
@@ -779,7 +898,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-meas-horizontal-pjqr1P {
   background-color: transparent;
-  background-image: url(../img/2-3-floating-action-button-line-81133166-730C-44F0-8FF3-7B46687F13BE@2x.png);
+  background-image: url(../img/2-3-floating-action-button-line-982EB0C5-68A7-4F94-B339-62A8CC5D1070@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 72px;
@@ -837,7 +956,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-numb-ring-image-XjX2Of {
   background-color: transparent;
-  background-image: url(../img/2-3-floating-action-button-oval-024764DB-7183-4AED-88B8-754F33FFDC28@2x.png);
+  background-image: url(../img/2-3-floating-action-button-oval-063C4506-92E8-4A44-8FD3-256CF7D897CE@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 80px;
@@ -847,7 +966,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-numb-ring-shape-XjX2Of {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-48184F67-7982-478A-952D-7AB9672E1C11@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-73E66A9A-AD9B-451F-9AB9-1C16D0845CDE@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 58px;
@@ -857,7 +976,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-numbering-icon-13N3y0 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-48184F67-7982-478A-952D-7AB9672E1C11@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-73E66A9A-AD9B-451F-9AB9-1C16D0845CDE@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -867,7 +986,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-numbering-icon-mctxnR {
   background-color: transparent;
-  background-image: url(../img/2-3-floating-action-button-oval-024764DB-7183-4AED-88B8-754F33FFDC28@2x.png);
+  background-image: url(../img/2-3-floating-action-button-oval-063C4506-92E8-4A44-8FD3-256CF7D897CE@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -938,7 +1057,7 @@ transform: scale(0.98);
   height: 350px;
   left: 735px;
   position: absolute;
-  top: 246px;
+  top: 479px;
   width: 505px;
 }
 .a23floatingactionbutton .keyscreen-C61RwL {
@@ -949,23 +1068,52 @@ transform: scale(0.98);
   top: 194px;
   width: 1240px;
 }
+.a23floatingactionbutton .light-theme-ZtS6O8 {
+  background-color: transparent;
+  height: 79px;
+  left: 0px;
+  position: absolute;
+  top: 162px;
+  width: 465px;
+}
+.a23floatingactionbutton .light-theme-copy-ZtS6O8 {
+  background-color: transparent;
+  height: 79px;
+  left: 0px;
+  position: absolute;
+  top: 266px;
+  width: 465px;
+}
 .a23floatingactionbutton .measure-hh1Mvx {
   background-color: transparent;
   height: 316px;
   left: 207px;
   position: absolute;
-  top: 140px;
+  top: 257px;
   width: 309px;
 }
 .a23floatingactionbutton .mobile-lig--title-add-Gajm0e {
   background-color: transparent;
-  background-image: url(../img/2-3-floating-action-button-mobilelightthemeicon01actionbartitleadd-DA7656E7-04E6-4A3B-84E4-6AF86DCB26EA@2x.png);
+  background-image: url(../img/2-3-floating-action-button-mobilelightthemeicon01actionbartitleadd-AA566AED-0CEA-4CF0-95D0-4654B5B48E7D@2x.png);
   background-size: 100% 100%;
   height: 38px;
   left: 5px;
   position: absolute;
   top: 5px;
   width: 38px;
+}
+.a23floatingactionbutton .property-1PUxhD {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a23floatingactionbutton .property-2K5nfg {
   background-color: transparent;
@@ -1019,7 +1167,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a23floatingactionbutton .property-8E1LaF {
+.a23floatingactionbutton .property-Blgiel {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -1032,20 +1180,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a23floatingactionbutton .property-BC55rZ {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a23floatingactionbutton .property-NL4miy {
+.a23floatingactionbutton .property-Rmxsol {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -1071,6 +1206,32 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a23floatingactionbutton .property-fGsRLM {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .property-fMA0Sn {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a23floatingactionbutton .property-twbdQg {
   background-color: transparent;
   color: var(--masala);
@@ -1084,7 +1245,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a23floatingactionbutton .property-wE6sko {
+.a23floatingactionbutton .property-xBXTdx {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -1251,7 +1412,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .shape-NOXmfT {
   background-color: transparent;
-  height: 226px;
+  height: 459px;
   left: 735px;
   position: absolute;
   top: 0px;
@@ -1291,13 +1452,21 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .symbol-hh1Mvx {
   background-color: transparent;
-  background-image: url(../img/2-3-floating-action-button-2-03measurew360mpl023floatingactionbutton-C8DF4844-7580-4B73-AABB-56B421B493BC@2x.png);
+  background-image: url(../img/2-3-floating-action-button-2-03measurew360mpl023floatingactionbutton-58778A81-0C52-48D7-AB11-A48D739704EF@2x.png);
   background-size: 100% 100%;
   height: 240px;
-  left: 238px;
+  left: 226px;
   position: absolute;
-  top: 178px;
+  top: 286px;
   width: 240px;
+}
+.a23floatingactionbutton .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 1230px;
+  position: absolute;
+  top: 81px;
+  width: 138px;
 }
 .a23floatingactionbutton .text-94tRfz {
   background-color: transparent;
@@ -1341,6 +1510,20 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 218px;
 }
+.a23floatingactionbutton .text-P2WQVn {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a23floatingactionbutton .text-WvbxKh {
   background-color: transparent;
   color: var(--white);
@@ -1354,12 +1537,131 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a23floatingactionbutton .text-attwvW {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .text-cwySjD {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 42px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-1PUxhD {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 61px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-1line-Blgiel {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 103px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-1line-Rmxsol {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 103px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a23floatingactionbutton .value-2K5nfg {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
   height: auto;
   left: 61px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-2line-GS9xjH {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-2line-kvDKIM {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1396,33 +1698,12 @@ transform: scale(0.98);
   top: 0px;
   width: 169px;
 }
-.a23floatingactionbutton .value-8E1LaF {
-  background-color: transparent;
-  height: 22px;
-  left: 104px;
-  position: absolute;
-  top: 0px;
-  width: 169px;
-}
-.a23floatingactionbutton .value-BC55rZ {
+.a23floatingactionbutton .value-HjrBd9 {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
   height: auto;
-  left: 61px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a23floatingactionbutton .value-NL4miy {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 119px;
+  left: 32px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1464,12 +1745,25 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a23floatingactionbutton .value-gxk9iq {
+.a23floatingactionbutton .value-fGsRLM {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
   height: auto;
-  left: 32px;
+  left: 55px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .value-fMA0Sn {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 119px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1519,19 +1813,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a23floatingactionbutton .value-wE6sko {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 55px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a23floatingactionbutton .value-wTZ6v1 {
   background-color: transparent;
   height: 18px;
@@ -1539,6 +1820,27 @@ transform: scale(0.98);
   position: absolute;
   top: 27px;
   width: 17px;
+}
+.a23floatingactionbutton .value-xBXTdx {
+  background-color: transparent;
+  height: 22px;
+  left: 104px;
+  position: absolute;
+  top: 0px;
+  width: 169px;
+}
+.a23floatingactionbutton .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a23floatingactionbutton .web-app-mK9PxT {
   background-color: transparent;
@@ -1550,6 +1852,19 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: 260px;
+}
+.a23floatingactionbutton .x-1PUxhD {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 100px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a23floatingactionbutton .x-2K5nfg {
   background-color: transparent;
@@ -1577,25 +1892,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a23floatingactionbutton .x-BC55rZ {
+.a23floatingactionbutton .x-GS9xjH {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 100px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a23floatingactionbutton .x-GaHrzM {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 26px;
+  left: 192px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1616,6 +1918,19 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a23floatingactionbutton .x-HjrBd9 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 163px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a23floatingactionbutton .x-LygNNE {
   background-color: transparent;
   color: var(--masala);
@@ -1629,12 +1944,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a23floatingactionbutton .x-NL4miy {
+.a23floatingactionbutton .x-MTxxoP {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 156px;
+  left: 157px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1681,12 +1996,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a23floatingactionbutton .x-gxk9iq {
+.a23floatingactionbutton .x-eo2eh5 {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 163px;
+  left: 26px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1694,12 +2009,38 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a23floatingactionbutton .x-mfNoWj {
+.a23floatingactionbutton .x-fGsRLM {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 157px;
+  left: 94px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-fMA0Sn {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 156px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a23floatingactionbutton .x-kvDKIM {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 206px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1739,19 +2080,6 @@ transform: scale(0.98);
   font-size: 18px;
   height: auto;
   left: 26px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a23floatingactionbutton .x-wE6sko {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 94px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2204,10 +2532,10 @@ transform: scale(0.98);
   line-height: 18px;
 }
 :root {
+  --alabaster: rgba(250,250,250,1.0);
   --azure-radiance: rgba(0,153,255,1.0);
   --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
-  --ebb: rgba(227,227,227,1.0);
   --electric-violet: rgba(102,0,255,1.0);
   --gray: rgba(145,145,145,1.0);
   --masala: rgba(59,59,59,1.0);

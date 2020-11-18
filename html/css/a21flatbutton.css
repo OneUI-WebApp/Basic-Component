@@ -67,6 +67,21 @@
 
 transform: scale(0.98);
 }
+.a21flatbutton .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 138px;
+}
+.a21flatbutton .btn-xpyOiF:hover {
+
+transform: scale(0.98);
+}
 .a21flatbutton .comment-4PueZg {
   background-color: transparent;
   color: var(--gray);
@@ -155,7 +170,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .document-b-x-contents-Ab26Qr {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 1px solid rgba(227,227,227,1.0);
   height: 573px;
   left: 0px;
   position: absolute;
@@ -164,7 +179,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .document-b-x-contents-V6KZ2v {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -173,7 +188,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .document-b-x-contents-hh1Mvx {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 1px solid rgba(227,227,227,1.0);
   height: 573px;
   left: 0px;
   position: absolute;
@@ -203,7 +218,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .fn-ClUVJg {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -216,7 +231,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .fn-RYY6TO {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -712,6 +727,14 @@ transform: scale(0.98);
   top: 0px;
   width: 146px;
 }
+.a21flatbutton .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 118px;
+}
 .a21flatbutton .group-VYI10n {
   background-color: rgba(71,71,71,1.0);
   height: 22px;
@@ -930,7 +953,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .guide-meas-horizontal-THm08Q {
   background-color: transparent;
-  background-image: url(../img/2-1-flat-button-line-97A61298-EC51-46A1-BAA6-7A3634337587@2x.png);
+  background-image: url(../img/2-1-flat-button-line-49CA84A0-DC36-490A-BB19-FE92EDCEA9C9@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 81px;
@@ -940,7 +963,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .guide-meas-horizontal-rixyUT {
   background-color: transparent;
-  background-image: url(../img/2-1-flat-button-line-97A61298-EC51-46A1-BAA6-7A3634337587@2x.png);
+  background-image: url(../img/2-1-flat-button-line-49CA84A0-DC36-490A-BB19-FE92EDCEA9C9@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 81px;
@@ -990,7 +1013,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .guide-numbering-type-5enw91 {
   background-color: transparent;
-  background-image: url(../img/2-1-flat-button-oval-52230C3D-79F4-4FCC-BD60-3928B5356E04@2x.png);
+  background-image: url(../img/2-1-flat-button-oval-B457C66F-03F2-4DE4-9D87-94E9E33E9156@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1000,7 +1023,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .guide-numbering-type-XjX2Of {
   background-color: transparent;
-  background-image: url(../img/2-1-flat-button-oval-52230C3D-79F4-4FCC-BD60-3928B5356E04@2x.png);
+  background-image: url(../img/2-1-flat-button-oval-B457C66F-03F2-4DE4-9D87-94E9E33E9156@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 25px;
@@ -1381,13 +1404,21 @@ transform: scale(0.98);
 }
 .a21flatbutton .symbol-hh1Mvx {
   background-color: transparent;
-  background-image: url(../img/2-1-flat-button-2-01measurew360mpl021flatbutton-33DF98F4-8128-4C07-824C-4EF2699322F6@2x.png);
+  background-image: url(../img/2-1-flat-button-2-01measurew360mpl021flatbutton-7CE9776A-13C5-4BF5-9BBB-BDE023BF3FA5@2x.png);
   background-size: 100% 100%;
   height: 84px;
   left: 88px;
   position: absolute;
   top: 244px;
   width: 540px;
+}
+.a21flatbutton .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 887px;
+  position: absolute;
+  top: 81px;
+  width: 138px;
 }
 .a21flatbutton .text-94tRfz {
   background-color: transparent;
@@ -1493,6 +1524,32 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 505px;
+}
+.a21flatbutton .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 42px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a21flatbutton .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a21flatbutton .value-9gzg8T {
   background-color: transparent;
@@ -1693,6 +1750,19 @@ transform: scale(0.98);
   top: 0px;
   width: 212px;
 }
+.a21flatbutton .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a21flatbutton .web-app-mK9PxT {
   background-color: transparent;
   height: auto;
@@ -1745,7 +1815,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .x-BXq1YQ {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -1771,7 +1841,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .x-HmyCYx {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -1888,7 +1958,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .x-rpi2gr {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 200px;
@@ -1901,7 +1971,7 @@ transform: scale(0.98);
 }
 .a21flatbutton .x-tVzlja {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
   left: 200px;
@@ -2350,10 +2420,10 @@ transform: scale(0.98);
   line-height: 18px;
 }
 :root {
+  --alabaster: rgba(250,250,250,1.0);
   --azure-radiance: rgba(0,153,255,1.0);
   --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
-  --ebb: rgba(227,227,227,1.0);
   --electric-violet: rgba(102,0,255,1.0);
   --gray: rgba(145,145,145,1.0);
   --masala: rgba(59,59,59,1.0);

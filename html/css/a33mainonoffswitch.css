@@ -54,14 +54,6 @@
   top: 0px;
   width: 206px;
 }
-.a33mainonoffswitch .background-cei3kp {
-  background-color: rgba(242,242,242,1.0);
-  height: 22px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 212px;
-}
 .a33mainonoffswitch .background-iA9BSM {
   background-color: rgba(242,242,242,1.0);
   height: 22px;
@@ -129,6 +121,21 @@
 
 transform: scale(0.98);
 }
+.a33mainonoffswitch .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 138px;
+}
+.a33mainonoffswitch .btn-xpyOiF:hover {
+
+transform: scale(0.98);
+}
 .a33mainonoffswitch .btn-zOzqsC {
   background-color: rgba(102,102,204,1.0);
   border-radius: 5px;
@@ -149,7 +156,7 @@ transform: scale(0.98);
   color: rgba(145,145,145,1.0);
   font-size: 18px;
   height: auto;
-  left: 101px;
+  left: 110px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -313,7 +320,7 @@ transform: scale(0.98);
   height: 119px;
   left: 20px;
   position: absolute;
-  top: 363px;
+  top: 365px;
   width: 465px;
 }
 .a33mainonoffswitch .dark-theme-wvOevm {
@@ -321,7 +328,7 @@ transform: scale(0.98);
   height: 81px;
   left: 20px;
   position: absolute;
-  top: 322px;
+  top: 324px;
   width: 465px;
 }
 .a33mainonoffswitch .dark-theme-xTFK6L {
@@ -332,10 +339,34 @@ transform: scale(0.98);
   top: 294px;
   width: 465px;
 }
+.a33mainonoffswitch .document-b-textupdate-Ii5mZo {
+  background-color: rgba(0,204,153,0.2);
+  height: 28px;
+  left: 26px;
+  position: absolute;
+  top: 280px;
+  width: 220px;
+}
+.a33mainonoffswitch .document-b-textupdate-JZJqKW {
+  background-color: rgba(0,204,153,0.2);
+  height: 28px;
+  left: 26px;
+  position: absolute;
+  top: 25px;
+  width: 201px;
+}
+.a33mainonoffswitch .document-b-textupdate-wvOevm {
+  background-color: rgba(0,204,153,0.2);
+  height: 28px;
+  left: 45px;
+  position: absolute;
+  top: 377px;
+  width: 118px;
+}
 .a33mainonoffswitch .document-b-x-contents-7qIJSp {
   background-color: var(--white);
   border: 1px solid var(--ebb);
-  height: 140px;
+  height: 142px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -343,7 +374,7 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .document-b-x-contents-EJYwOj {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 1134px;
   left: 0px;
   position: absolute;
@@ -361,7 +392,7 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .document-b-x-contents-V6KZ2v {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -371,7 +402,7 @@ transform: scale(0.98);
 .a33mainonoffswitch .document-b-x-contents-cQNe9n {
   background-color: var(--white);
   border: 1px solid var(--ebb);
-  height: 512px;
+  height: 517px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -388,8 +419,8 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .document-b-x-contents-wvOevm {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
-  height: 433px;
+  border: 2px solid rgba(0,204,153,1.0);
+  height: 435px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -490,19 +521,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a33mainonoffswitch .fn-cei3kp {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a33mainonoffswitch .fn-iA9BSM {
   background-color: transparent;
   color: var(--masala);
@@ -547,7 +565,7 @@ transform: scale(0.98);
   height: 28px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a33mainonoffswitch .general-OxEYc6 {
@@ -563,7 +581,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a33mainonoffswitch .general-wvOevm {
@@ -571,7 +589,7 @@ transform: scale(0.98);
   height: 106px;
   left: 20px;
   position: absolute;
-  top: 82px;
+  top: 84px;
   width: 465px;
 }
 .a33mainonoffswitch .general-xTFK6L {
@@ -1068,7 +1086,7 @@ transform: scale(0.98);
   left: 67px;
   position: absolute;
   top: 0px;
-  width: 26px;
+  width: 35px;
 }
 .a33mainonoffswitch .group-1-C61RwL {
   background-color: transparent;
@@ -1093,14 +1111,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 366px;
-}
-.a33mainonoffswitch .group-2-9PUTY4 {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 322px;
 }
 .a33mainonoffswitch .group-2-9pZOqG {
   background-color: transparent;
@@ -1140,7 +1150,7 @@ transform: scale(0.98);
   left: 0px;
   position: relative;
   top: 0px;
-  width: 203px;
+  width: 212px;
 }
 .a33mainonoffswitch .group-2-DRQHcn {
   background-color: transparent;
@@ -1189,14 +1199,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 356px;
-}
-.a33mainonoffswitch .group-2-g3lAx3 {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 98px;
 }
 .a33mainonoffswitch .group-2-gX3O1a {
   background-color: transparent;
@@ -1294,6 +1296,14 @@ transform: scale(0.98);
   top: 0px;
   width: 69px;
 }
+.a33mainonoffswitch .group-Ih42o5 {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 188px;
+}
 .a33mainonoffswitch .group-Is2ju7 {
   background-color: transparent;
   height: 22px;
@@ -1325,6 +1335,14 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 246px;
+}
+.a33mainonoffswitch .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 118px;
 }
 .a33mainonoffswitch .group-UVYbK5 {
   background-color: rgba(71,71,71,1.0);
@@ -1406,14 +1424,6 @@ transform: scale(0.98);
   top: 22px;
   width: 260px;
 }
-.a33mainonoffswitch .group-xxtNiT {
-  background-color: rgba(242,242,242,1.0);
-  height: 22px;
-  left: 67px;
-  position: absolute;
-  top: 0px;
-  width: 25px;
-}
 .a33mainonoffswitch .guide-VyzZeT {
   background-color: transparent;
   height: 1134px;
@@ -1483,7 +1493,7 @@ transform: scale(0.98);
   height: 19px;
   left: 32px;
   position: absolute;
-  top: 0px;
+  top: 186px;
   width: 87px;
 }
 .a33mainonoffswitch .guide-form-e-subtitle-JZJqKW {
@@ -1555,7 +1565,7 @@ transform: scale(0.98);
   height: 22px;
   left: 32px;
   position: absolute;
-  top: 28px;
+  top: 214px;
   width: 356px;
 }
 .a33mainonoffswitch .guide-form-ht1linecmt-Ii5mZo {
@@ -1563,7 +1573,7 @@ transform: scale(0.98);
   height: 22px;
   left: 32px;
   position: absolute;
-  top: 69px;
+  top: 255px;
   width: 366px;
 }
 .a33mainonoffswitch .guide-form-l-lightcmt-7xolSN {
@@ -1579,8 +1589,8 @@ transform: scale(0.98);
   height: 22px;
   left: 32px;
   position: absolute;
-  top: 97px;
-  width: 203px;
+  top: 283px;
+  width: 212px;
 }
 .a33mainonoffswitch .guide-form-l-lightcmt-unsrTS {
   background-color: transparent;
@@ -1597,14 +1607,6 @@ transform: scale(0.98);
   position: absolute;
   top: 97px;
   width: 203px;
-}
-.a33mainonoffswitch .guide-form-light1line-JZJqKW {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 28px;
-  width: 322px;
 }
 .a33mainonoffswitch .guide-form-light1line-kRAyhs {
   background-color: transparent;
@@ -1627,7 +1629,7 @@ transform: scale(0.98);
   height: 1px;
   left: 32px;
   position: absolute;
-  top: 59px;
+  top: 245px;
   width: 401px;
 }
 .a33mainonoffswitch .guide-form-me-divider-nL2fq7 {
@@ -1685,6 +1687,14 @@ transform: scale(0.98);
   position: absolute;
   top: 84px;
   width: 122px;
+}
+.a33mainonoffswitch .guide-form-ormal1line-JZJqKW {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 188px;
 }
 .a33mainonoffswitch .guide-form-ormal1line-LKsN5X {
   background-color: transparent;
@@ -1798,14 +1808,6 @@ transform: scale(0.98);
   top: 69px;
   width: 305px;
 }
-.a33mainonoffswitch .guide-form-rmal-light-JZJqKW {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 56px;
-  width: 98px;
-}
 .a33mainonoffswitch .guide-meas--spacing-1-FAx870 {
   background-color: transparent;
   height: 30px;
@@ -1835,7 +1837,7 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .guide-meas-e-vertical-RVEe4B {
   background-color: transparent;
-  background-image: url(../img/3-3-main-onoff-switch-line-DAA6DE4D-BBA0-4B31-986D-F072EDCFFFCE@2x.png);
+  background-image: url(../img/3-3-main-onoff-switch-line-A347F92B-97A0-4E13-ADF9-B4A2B2518706@2x.png);
   background-size: 100% 100%;
   height: 30px;
   left: 0px;
@@ -1845,7 +1847,7 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .guide-meas-e-vertical-f9lBa2 {
   background-color: transparent;
-  background-image: url(../img/3-3-main-onoff-switch-line-DAA6DE4D-BBA0-4B31-986D-F072EDCFFFCE@2x.png);
+  background-image: url(../img/3-3-main-onoff-switch-line-A347F92B-97A0-4E13-ADF9-B4A2B2518706@2x.png);
   background-size: 100% 100%;
   height: 30px;
   left: 35px;
@@ -1855,7 +1857,7 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .guide-meas-e-vertical-j9L9ol {
   background-color: transparent;
-  background-image: url(../img/3-3-main-onoff-switch-line-DAA6DE4D-BBA0-4B31-986D-F072EDCFFFCE@2x.png);
+  background-image: url(../img/3-3-main-onoff-switch-line-A347F92B-97A0-4E13-ADF9-B4A2B2518706@2x.png);
   background-size: 100% 100%;
   height: 30px;
   left: 35px;
@@ -1865,7 +1867,7 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .guide-meas-e-vertical-wjtPqr {
   background-color: transparent;
-  background-image: url(../img/3-3-main-onoff-switch-line-DAA6DE4D-BBA0-4B31-986D-F072EDCFFFCE@2x.png);
+  background-image: url(../img/3-3-main-onoff-switch-line-A347F92B-97A0-4E13-ADF9-B4A2B2518706@2x.png);
   background-size: 100% 100%;
   height: 30px;
   left: 0px;
@@ -1925,7 +1927,7 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .guide-numb-ring-shape-5TtQRw {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-D941682E-A084-4A00-97D5-2E523FB354D6@2x.png);
+  background-image: url(../img/3-9-slider-oval-07005919-83A2-4DD6-BE00-F84AE744795C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 34px;
@@ -1935,7 +1937,7 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .guide-numb-ring-shape-MxozcD {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-D941682E-A084-4A00-97D5-2E523FB354D6@2x.png);
+  background-image: url(../img/3-9-slider-oval-07005919-83A2-4DD6-BE00-F84AE744795C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1945,7 +1947,7 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .guide-numb-ring-shape-gxtUO0 {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-D941682E-A084-4A00-97D5-2E523FB354D6@2x.png);
+  background-image: url(../img/3-9-slider-oval-07005919-83A2-4DD6-BE00-F84AE744795C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 466px;
@@ -1955,7 +1957,7 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .guide-numbering-icon-Pb2qyO {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-D941682E-A084-4A00-97D5-2E523FB354D6@2x.png);
+  background-image: url(../img/3-9-slider-oval-07005919-83A2-4DD6-BE00-F84AE744795C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1965,7 +1967,7 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .guide-numbering-icon-nt8ldM {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-D941682E-A084-4A00-97D5-2E523FB354D6@2x.png);
+  background-image: url(../img/3-9-slider-oval-07005919-83A2-4DD6-BE00-F84AE744795C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1975,7 +1977,7 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .guide-numbering-icon-ugRRzt {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-D941682E-A084-4A00-97D5-2E523FB354D6@2x.png);
+  background-image: url(../img/3-9-slider-oval-07005919-83A2-4DD6-BE00-F84AE744795C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1985,7 +1987,7 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .guide-numbering-type-5TtQRw {
   background-color: transparent;
-  background-image: url(../img/3-3-main-onoff-switch-oval-21F66B07-FD9E-48A5-BC63-58F28CEDAFA7@2x.png);
+  background-image: url(../img/3-3-main-onoff-switch-oval-7DF5E0D6-3E80-4F2B-A38A-655862EB7D5D@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 52px;
@@ -1995,7 +1997,7 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .guide-numbering-type-Bz05TB {
   background-color: transparent;
-  background-image: url(../img/3-3-main-onoff-switch-oval-21F66B07-FD9E-48A5-BC63-58F28CEDAFA7@2x.png);
+  background-image: url(../img/3-3-main-onoff-switch-oval-7DF5E0D6-3E80-4F2B-A38A-655862EB7D5D@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2005,7 +2007,7 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .guide-numbering-type-MxozcD {
   background-color: transparent;
-  background-image: url(../img/3-3-main-onoff-switch-oval-21F66B07-FD9E-48A5-BC63-58F28CEDAFA7@2x.png);
+  background-image: url(../img/3-3-main-onoff-switch-oval-7DF5E0D6-3E80-4F2B-A38A-655862EB7D5D@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 15px;
@@ -2013,9 +2015,9 @@ transform: scale(0.98);
   top: 36px;
   width: 22px;
 }
-.a33mainonoffswitch .guide-numbering-type-vEddK5 {
+.a33mainonoffswitch .guide-numbering-type-Yw6xl4 {
   background-color: transparent;
-  background-image: url(../img/3-3-main-onoff-switch-oval-21F66B07-FD9E-48A5-BC63-58F28CEDAFA7@2x.png);
+  background-image: url(../img/3-3-main-onoff-switch-oval-7DF5E0D6-3E80-4F2B-A38A-655862EB7D5D@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2038,6 +2040,20 @@ transform: scale(0.98);
   width: auto;
 }
 .a33mainonoffswitch .guide-property-Pb2qyO {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 32px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a33mainonoffswitch .guide-property-Yw6xl4 {
   background-color: transparent;
   color: var(--black);
   font-size: 22px;
@@ -2079,26 +2095,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a33mainonoffswitch .guide-property-vEddK5 {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
-  height: auto;
-  left: 32px;
-  line-height: 26px;
-  opacity: 0.8;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a33mainonoffswitch .guide-subject-shape-7qIJSp {
   background-color: transparent;
   height: 26px;
   left: 20px;
   position: absolute;
-  top: 30px;
+  top: 32px;
   width: 135px;
 }
 .a33mainonoffswitch .guide-subject-shape-wvOevm {
@@ -2106,7 +2108,7 @@ transform: scale(0.98);
   height: 26px;
   left: 20px;
   position: absolute;
-  top: 30px;
+  top: 32px;
   width: 135px;
 }
 .a33mainonoffswitch .guide-subject-shape-xTFK6L {
@@ -2117,15 +2119,15 @@ transform: scale(0.98);
   top: 30px;
   width: 135px;
 }
-.a33mainonoffswitch .guide-subject-type-OxEYc6 {
+.a33mainonoffswitch .guide-subject-type-Ii5mZo {
   background-color: transparent;
   height: 26px;
-  left: 20px;
+  left: 0px;
   position: absolute;
-  top: 30px;
+  top: 0px;
   width: 121px;
 }
-.a33mainonoffswitch .guide-subject-type-cQNe9n {
+.a33mainonoffswitch .guide-subject-type-OxEYc6 {
   background-color: transparent;
   height: 26px;
   left: 20px;
@@ -2173,18 +2175,18 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .light-theme-cQNe9n {
   background-color: transparent;
-  height: 119px;
+  height: 308px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 32px;
   width: 465px;
 }
 .a33mainonoffswitch .light-theme-wvOevm {
   background-color: transparent;
-  height: 78px;
+  height: 53px;
   left: 20px;
   position: absolute;
-  top: 216px;
+  top: 218px;
   width: 465px;
 }
 .a33mainonoffswitch .light-theme-xTFK6L {
@@ -2234,7 +2236,7 @@ transform: scale(0.98);
   font-family: 'Roboto', Helvetica, Arial, serif;
   font-size: 27px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   height: 32px;
   left: 0px;
   letter-spacing: 0.00px;
@@ -2520,7 +2522,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a33mainonoffswitch .property-d9omqq {
+.a33mainonoffswitch .property-dxLBIs {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2676,19 +2678,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a33mainonoffswitch .property-xxtNiT {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a33mainonoffswitch .property-yVEvjf {
   background-color: transparent;
   color: var(--masala);
@@ -2832,18 +2821,18 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .shape-VyzZeT {
   background-color: transparent;
-  height: 433px;
+  height: 435px;
   left: 735px;
   position: absolute;
-  top: 43px;
+  top: 41px;
   width: 505px;
 }
 .a33mainonoffswitch .shape-ri4jeA {
   background-color: transparent;
-  height: 140px;
+  height: 142px;
   left: 735px;
   position: absolute;
-  top: 1035px;
+  top: 1033px;
   width: 505px;
 }
 .a33mainonoffswitch .shape-zUixHA {
@@ -2930,7 +2919,7 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .symbol-EJYwOj {
   background-color: transparent;
-  background-image: url(../img/3-3-main-onoff-switch-3-03measurew360mpl033masteronoffswich1-56894D66-69C8-4352-80BB-CE86975E5EB7@2x.png);
+  background-image: url(../img/3-3-main-onoff-switch-3-03measurew360mpl033masteronoffswich1-59FCB57B-7E55-46E0-822F-09039F20687D@2x.png);
   background-size: 100% 100%;
   height: 126px;
   left: 88px;
@@ -2953,6 +2942,14 @@ transform: scale(0.98);
   position: absolute;
   top: 109px;
   width: 177px;
+}
+.a33mainonoffswitch .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 1127px;
+  position: absolute;
+  top: 75px;
+  width: 138px;
 }
 .a33mainonoffswitch .text-1kUsAP {
   background-color: transparent;
@@ -3271,10 +3268,10 @@ transform: scale(0.98);
 }
 .a33mainonoffswitch .type-VyzZeT {
   background-color: transparent;
-  height: 512px;
+  height: 517px;
   left: 735px;
   position: absolute;
-  top: 498px;
+  top: 496px;
   width: 505px;
 }
 .a33mainonoffswitch .type-zUixHA {
@@ -3284,6 +3281,32 @@ transform: scale(0.98);
   position: absolute;
   top: 470px;
   width: 505px;
+}
+.a33mainonoffswitch .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 42px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a33mainonoffswitch .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a33mainonoffswitch .value-00gOWb {
   background-color: transparent;
@@ -3567,12 +3590,12 @@ transform: scale(0.98);
   top: 0px;
   width: 212px;
 }
-.a33mainonoffswitch .value-cei3kp {
+.a33mainonoffswitch .value-dVVKVs {
   background-color: transparent;
-  color: var(--royal-blue);
+  color: rgba(193,206,254,1.0);
   font-size: 18px;
   height: auto;
-  left: 32px;
+  left: 0px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3580,20 +3603,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a33mainonoffswitch .value-d9omqq {
+.a33mainonoffswitch .value-dxLBIs {
   background-color: transparent;
-  height: 22px;
-  left: 104px;
-  position: absolute;
-  top: 0px;
-  width: 218px;
-}
-.a33mainonoffswitch .value-dVVKVs {
-  background-color: transparent;
-  color: rgba(193,206,254,1.0);
+  color: var(--royal-blue);
   font-size: 18px;
   height: auto;
-  left: 0px;
+  left: 104px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3628,19 +3643,6 @@ transform: scale(0.98);
   font-size: 18px;
   height: auto;
   left: 80px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a33mainonoffswitch .value-kDwwxl {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3805,6 +3807,19 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a33mainonoffswitch .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a33mainonoffswitch .web-app-tuZlmD {
   background-color: transparent;
   height: auto;
@@ -3847,7 +3862,7 @@ transform: scale(0.98);
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 93px;
+  left: 102px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4089,19 +4104,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a33mainonoffswitch .x-T11xCZ {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 26px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a33mainonoffswitch .x-UVYbK5 {
   background-color: transparent;
   color: var(--masala);
@@ -4180,12 +4182,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a33mainonoffswitch .x-cei3kp {
+.a33mainonoffswitch .x-dxLBIs {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 212px;
+  left: 182px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4414,19 +4416,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a33mainonoffswitch .x-xxtNiT {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 92px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a33mainonoffswitch .x-yVEvjf {
   background-color: transparent;
   color: var(--masala);
@@ -4472,19 +4461,6 @@ transform: scale(0.98);
   font-size: 18px;
   height: auto;
   left: 200px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a33mainonoffswitch .x-zdSEZt {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 206px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4600,7 +4576,7 @@ transform: scale(0.98);
   top: 0px;
   width: 22px;
 }
-.a33mainonoffswitch .x1-AJId07 {
+.a33mainonoffswitch .x1-ChtWBp {
   background-color: transparent;
   color: var(--white);
   font-size: 14px;
@@ -4612,7 +4588,7 @@ transform: scale(0.98);
   top: 0px;
   width: 22px;
 }
-.a33mainonoffswitch .x1-ChtWBp {
+.a33mainonoffswitch .x1-FQtXmR {
   background-color: transparent;
   color: var(--white);
   font-size: 14px;
@@ -4836,7 +4812,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.a33mainonoffswitch .x3-03-keysc-onoffswich-V6KZ2v {
+.a33mainonoffswitch .x3-03-keysc-noffswitch-V6KZ2v {
   background-color: transparent;
   height: 508px;
   left: 630px;
@@ -4844,7 +4820,7 @@ transform: scale(0.98);
   top: 40px;
   width: 240px;
 }
-.a33mainonoffswitch .x3-03-keysc-onoffswich-YbJGjS {
+.a33mainonoffswitch .x3-03-keysc-noffswitch-YbJGjS {
   background-color: transparent;
   height: 508px;
   left: 370px;
