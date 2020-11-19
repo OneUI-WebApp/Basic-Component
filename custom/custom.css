@@ -63,6 +63,13 @@ div[class^="btn-"]:hover,
 div[class^="btn-"] div[class^="text-"]:hover {
     transform: scale(0.98) !important;
 }
+
+div[class^="btn-"]:hover,
+div[class^="btn-mw"] div[class^="text-"]:hover {
+    transform: scale(1.0) !important;
+    transition: all 100ms ease !important;
+}
+
 /** Sticky Footer CSS **/
 div[class^="footercontainer"] {
     position: fixed !important;
