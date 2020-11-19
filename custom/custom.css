@@ -48,12 +48,16 @@ div[class^="gnb-submenu-normal"]:hover,
 div[class^="gotohome"]:hover {
     background: rgba(224, 224, 224, 0.5)!important;
 }
+/*
 div[class^="style-butt-solid-blue"]:hover div[class^="rectangle"] {
     background: #0174E6 !important;
 }
+*/
+/*
 div[class^="tag-refer"]:hover div[class^="rectangle"]  {
     background: #5959B3 !important;
     transition: all 100ms ease !important;
+*/
 }
 div[class^="tag-update"]:hover div[class^="rectangle"] {
     background: #00B386 !important;
