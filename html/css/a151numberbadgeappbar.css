@@ -2,17 +2,33 @@
 
 .a151numberbadgeappbar {
   background-color: rgba(245,246,247,1.0);
-  height: 3798px;
+  height: 4339px;
   position: relative;
   width: 1680px;
 }
-.a151numberbadgeappbar .area-Px4ZsW {
+.a151numberbadgeappbar .area-copy-VTQ817 {
+  background-color: transparent;
+  height: 300px;
+  left: 15px;
+  position: absolute;
+  top: 42px;
+  width: 252px;
+}
+.a151numberbadgeappbar .area-fVLTc3 {
   background-color: transparent;
   height: 300px;
   left: 0px;
   position: absolute;
   top: 43px;
   width: 252px;
+}
+.a151numberbadgeappbar .area-xC7OD1 {
+  background-color: transparent;
+  height: 336px;
+  left: 297px;
+  position: absolute;
+  top: 78px;
+  width: 282px;
 }
 .a151numberbadgeappbar .basic-aEElHb {
   background-color: transparent;
@@ -130,13 +146,14 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 91px;
 }
-.a151numberbadgeappbar .document-b-textupdate-vS6tQg {
-  background-color: rgba(0,204,153,0.2);
-  height: 18px;
-  left: 744px;
+.a151numberbadgeappbar .document-b-tents-copy-vS6tQg {
+  background-color: var(--white);
+  border: 2px solid rgba(0,204,153,1.0);
+  height: 487px;
+  left: 0px;
   position: absolute;
-  top: 427px;
-  width: 19px;
+  top: 0px;
+  width: 1240px;
 }
 .a151numberbadgeappbar .document-b-x-contents-3CJxSu {
   background-color: var(--white);
@@ -219,7 +236,7 @@ transform: scale(0.98);
   top: 0px;
   width: 715px;
 }
-.a151numberbadgeappbar .document-b-x-contents-vS6tQg {
+.a151numberbadgeappbar .document-b-x-contents-xC7OD1 {
   background-color: var(--white);
   border: 2px solid rgba(0,204,153,1.0);
   height: 487px;
@@ -233,7 +250,7 @@ transform: scale(0.98);
   height: 45px;
   left: 863px;
   position: absolute;
-  top: 3673px;
+  top: 4214px;
   width: 274px;
 }
 .a151numberbadgeappbar .fn-fW1hBx {
@@ -864,6 +881,14 @@ transform: scale(0.98);
 }
 .a151numberbadgeappbar .guide-9gsihU {
   background-color: transparent;
+  height: 521px;
+  left: 0px;
+  position: absolute;
+  top: 1197px;
+  width: 1240px;
+}
+.a151numberbadgeappbar .guide-cGCllR {
+  background-color: transparent;
   height: 487px;
   left: 0px;
   position: absolute;
@@ -1038,18 +1063,10 @@ transform: scale(0.98);
   top: 7px;
   width: 48px;
 }
-.a151numberbadgeappbar .guide-meas--spacing-2-ICg5sB {
+.a151numberbadgeappbar .guide-meas--spacing-2-dYxnSA {
   background-color: transparent;
   height: 29px;
-  left: 166px;
-  position: absolute;
-  top: 0px;
-  width: 24px;
-}
-.a151numberbadgeappbar .guide-meas--spacing-2-UDBoIY {
-  background-color: transparent;
-  height: 29px;
-  left: 216px;
+  left: 0px;
   position: absolute;
   top: 0px;
   width: 36px;
@@ -1062,31 +1079,65 @@ transform: scale(0.98);
   top: 7px;
   width: 48px;
 }
-.a151numberbadgeappbar .guide-meas--spacing-2-xqh9P0 {
+.a151numberbadgeappbar .guide-meas--spacing-2-oEcrPX {
   background-color: transparent;
   height: 29px;
-  left: 0px;
+  left: 166px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+.a151numberbadgeappbar .guide-meas--spacing-2-oKJJf1 {
+  background-color: transparent;
+  height: 29px;
+  left: 216px;
   position: absolute;
   top: 0px;
   width: 36px;
 }
-.a151numberbadgeappbar .guide-meas--spacing-3-Px4ZsW {
+.a151numberbadgeappbar .guide-meas--spacing-3-SyTF5C {
   background-color: transparent;
   height: 29px;
-  left: 251px;
+  left: 485px;
   position: absolute;
-  top: 369px;
+  top: 7px;
+  width: 113px;
+}
+.a151numberbadgeappbar .guide-meas--spacing-3-Ul3Zje {
+  background-color: transparent;
+  height: 29px;
+  left: 524px;
+  position: absolute;
+  top: 373px;
   width: 17px;
 }
-.a151numberbadgeappbar .guide-meas-e-vertical-9il3PU {
+.a151numberbadgeappbar .guide-meas--spacing-3-VTQ817 {
   background-color: transparent;
-  height: 50px;
+  height: 29px;
+  left: 267px;
+  position: absolute;
+  top: 368px;
+  width: 15px;
+}
+.a151numberbadgeappbar .guide-meas--spacing-3-fVLTc3 {
+  background-color: transparent;
+  height: 29px;
+  left: 252px;
+  position: absolute;
+  top: 369px;
+  width: 15px;
+}
+.a151numberbadgeappbar .guide-meas-e-vertical-O5eXpJ {
+  background-color: transparent;
+  background-image: url(../img/15-1-number-badgeapp-bar-line-F3788676-2A1E-448D-BD16-CCFB5CAB64EF@2x.png);
+  background-size: 100% 100%;
+  height: 87px;
   left: 0px;
   position: absolute;
-  top: 26px;
+  top: 51px;
   width: 1px;
 }
-.a151numberbadgeappbar .guide-meas-e-vertical-BsGxb0 {
+.a151numberbadgeappbar .guide-meas-e-vertical-W8Eygr {
   background-color: transparent;
   height: 50px;
   left: 25px;
@@ -1094,19 +1145,9 @@ transform: scale(0.98);
   top: 26px;
   width: 1px;
 }
-.a151numberbadgeappbar .guide-meas-e-vertical-O5eXpJ {
-  background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-line-D6B1BB80-8E23-42A6-8E3E-A38912D6ED53@2x.png);
-  background-size: 100% 100%;
-  height: 87px;
-  left: 0px;
-  position: absolute;
-  top: 51px;
-  width: 1px;
-}
 .a151numberbadgeappbar .guide-meas-e-vertical-cUdjy8 {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-line-D6B1BB80-8E23-42A6-8E3E-A38912D6ED53@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-line-F3788676-2A1E-448D-BD16-CCFB5CAB64EF@2x.png);
   background-size: 100% 100%;
   height: 87px;
   left: 50px;
@@ -1114,9 +1155,17 @@ transform: scale(0.98);
   top: 51px;
   width: 1px;
 }
+.a151numberbadgeappbar .guide-meas-e-vertical-oUhXjn {
+  background-color: transparent;
+  height: 50px;
+  left: 0px;
+  position: absolute;
+  top: 26px;
+  width: 1px;
+}
 .a151numberbadgeappbar .guide-meas-e-vertical-p6UQcq {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-line-C08C2900-D7DC-444D-B168-DC9B20D5518A@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-line-850ED6F8-ADCD-4214-A0A7-F6B7A47FCC03@2x.png);
   background-size: 100% 100%;
   height: 138px;
   left: 0px;
@@ -1126,7 +1175,7 @@ transform: scale(0.98);
 }
 .a151numberbadgeappbar .guide-meas-e-vertical-xNgwRd {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-line-C08C2900-D7DC-444D-B168-DC9B20D5518A@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-line-850ED6F8-ADCD-4214-A0A7-F6B7A47FCC03@2x.png);
   background-size: 100% 100%;
   height: 138px;
   left: 92px;
@@ -1134,13 +1183,29 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a151numberbadgeappbar .guide-meas-ght-size-1-9il3PU {
+.a151numberbadgeappbar .guide-meas-g-3-copy-2-VTQ817 {
   background-color: transparent;
-  height: 26px;
-  left: 82px;
+  height: 29px;
+  left: 0px;
   position: absolute;
-  top: 1px;
-  width: 26px;
+  top: 0px;
+  width: 282px;
+}
+.a151numberbadgeappbar .guide-meas-g-3-copy-3-VTQ817 {
+  background-color: transparent;
+  height: 24px;
+  left: 284px;
+  position: absolute;
+  top: 342px;
+  width: 27px;
+}
+.a151numberbadgeappbar .guide-meas-g-3-copy-4-VTQ817 {
+  background-color: transparent;
+  height: 18px;
+  left: 284px;
+  position: absolute;
+  top: 27px;
+  width: 21px;
 }
 .a151numberbadgeappbar .guide-meas-ght-size-1-O5eXpJ {
   background-color: transparent;
@@ -1158,6 +1223,14 @@ transform: scale(0.98);
   top: 31px;
   width: 26px;
 }
+.a151numberbadgeappbar .guide-meas-ght-size-1-oUhXjn {
+  background-color: transparent;
+  height: 26px;
+  left: 82px;
+  position: absolute;
+  top: 1px;
+  width: 26px;
+}
 .a151numberbadgeappbar .guide-meas-ght-size-1-p6UQcq {
   background-color: transparent;
   height: 51px;
@@ -1166,49 +1239,19 @@ transform: scale(0.98);
   top: 0px;
   width: 26px;
 }
-.a151numberbadgeappbar .guide-meas-horizontal-9il3PU {
+.a151numberbadgeappbar .guide-meas-horizontal-0xyyV2 {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-line-6FD020FD-D21C-4034-8BF7-AFD43140BDC2@2x.png);
-  background-size: 100% 100%;
-  height: 2px;
-  left: 26px;
-  position: absolute;
-  top: 0px;
-  width: 54px;
-}
-.a151numberbadgeappbar .guide-meas-horizontal-BsGxb0 {
-  background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-line-6FD020FD-D21C-4034-8BF7-AFD43140BDC2@2x.png);
-  background-size: 100% 100%;
-  height: 2px;
-  left: 26px;
-  position: absolute;
-  top: 25px;
-  width: 54px;
-}
-.a151numberbadgeappbar .guide-meas-horizontal-Di1sBI {
-  background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-line-864F9854-7476-40AB-918D-B12497A5EA18@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-line-61586BEC-3661-4487-AE19-74D7259C203B@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
   position: absolute;
-  top: 75px;
+  top: 0px;
   width: 252px;
 }
-.a151numberbadgeappbar .guide-meas-horizontal-O5eXpJ {
+.a151numberbadgeappbar .guide-meas-horizontal-2iW7JT {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-line-875E8D40-C319-4904-92A0-5AD22870D475@2x.png);
-  background-size: 100% 100%;
-  height: 1px;
-  left: 51px;
-  position: absolute;
-  top: 0px;
-  width: 48px;
-}
-.a151numberbadgeappbar .guide-meas-horizontal-aKqvUx {
-  background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-line-864F9854-7476-40AB-918D-B12497A5EA18@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-line-61586BEC-3661-4487-AE19-74D7259C203B@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1216,9 +1259,29 @@ transform: scale(0.98);
   top: 150px;
   width: 252px;
 }
+.a151numberbadgeappbar .guide-meas-horizontal-O5eXpJ {
+  background-color: transparent;
+  background-image: url(../img/15-1-number-badgeapp-bar-line-8AEBB2CE-E26B-412A-A727-88B5EF761FDF@2x.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 51px;
+  position: absolute;
+  top: 0px;
+  width: 48px;
+}
+.a151numberbadgeappbar .guide-meas-horizontal-W8Eygr {
+  background-color: transparent;
+  background-image: url(../img/15-1-number-badgeapp-bar-line-C048F55E-D504-4E5A-A304-A4EE55B1CE8E@2x.png);
+  background-size: 100% 100%;
+  height: 2px;
+  left: 26px;
+  position: absolute;
+  top: 25px;
+  width: 54px;
+}
 .a151numberbadgeappbar .guide-meas-horizontal-cUdjy8 {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-line-875E8D40-C319-4904-92A0-5AD22870D475@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-line-8AEBB2CE-E26B-412A-A727-88B5EF761FDF@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 51px;
@@ -1226,19 +1289,29 @@ transform: scale(0.98);
   top: 50px;
   width: 48px;
 }
-.a151numberbadgeappbar .guide-meas-horizontal-ljVvKd {
+.a151numberbadgeappbar .guide-meas-horizontal-dyPxds {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-line-864F9854-7476-40AB-918D-B12497A5EA18@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-line-61586BEC-3661-4487-AE19-74D7259C203B@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
   position: absolute;
-  top: 0px;
+  top: 75px;
   width: 252px;
+}
+.a151numberbadgeappbar .guide-meas-horizontal-oUhXjn {
+  background-color: transparent;
+  background-image: url(../img/15-1-number-badgeapp-bar-line-C048F55E-D504-4E5A-A304-A4EE55B1CE8E@2x.png);
+  background-size: 100% 100%;
+  height: 2px;
+  left: 26px;
+  position: absolute;
+  top: 0px;
+  width: 54px;
 }
 .a151numberbadgeappbar .guide-meas-horizontal-p6UQcq {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-line-B99492E8-5AC7-4EA9-AD2E-840B5BBFCBC7@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-line-49DA62B6-B9C6-4328-94EB-7D7D6012A055@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1248,7 +1321,7 @@ transform: scale(0.98);
 }
 .a151numberbadgeappbar .guide-meas-horizontal-xNgwRd {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-line-5162F0BE-CEB8-4D29-96C2-401FDF3D71F8@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-line-D1ADADD4-D2EA-469A-A8B1-1F2F5542EA19@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 3px;
@@ -1256,13 +1329,13 @@ transform: scale(0.98);
   top: 50px;
   width: 138px;
 }
-.a151numberbadgeappbar .guide-meas-tom-size-1-9il3PU {
+.a151numberbadgeappbar .guide-meas-ing-3-copy-VTQ817 {
   background-color: transparent;
   height: 29px;
   left: 0px;
   position: absolute;
-  top: 78px;
-  width: 26px;
+  top: 368px;
+  width: 15px;
 }
 .a151numberbadgeappbar .guide-meas-tom-size-1-O5eXpJ {
   background-color: transparent;
@@ -1272,6 +1345,14 @@ transform: scale(0.98);
   top: 140px;
   width: 51px;
 }
+.a151numberbadgeappbar .guide-meas-tom-size-1-oUhXjn {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 78px;
+  width: 26px;
+}
 .a151numberbadgeappbar .guide-meas-tom-size-1-p6UQcq {
   background-color: transparent;
   height: 29px;
@@ -1279,6 +1360,14 @@ transform: scale(0.98);
   position: absolute;
   top: 140px;
   width: 93px;
+}
+.a151numberbadgeappbar .guide-meas-top-size-1-Ul3Zje {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 540px;
 }
 .a151numberbadgeappbar .guide-meas-top-size-1-XcIhYw {
   background-color: transparent;
@@ -1297,7 +1386,7 @@ transform: scale(0.98);
   width: 68px;
 }
 .a151numberbadgeappbar .guide-measure-area-1IXQpV {
-  background-color: var(--azure-radiance-2);
+  background-color: rgba(0,153,255,0.37);
   height: 68px;
   left: 0px;
   position: absolute;
@@ -1305,7 +1394,7 @@ transform: scale(0.98);
   width: 12px;
 }
 .a151numberbadgeappbar .guide-measure-area-C8RIxi {
-  background-color: var(--azure-radiance-2);
+  background-color: rgba(0,153,255,0.37);
   height: 68px;
   left: 0px;
   position: absolute;
@@ -1321,7 +1410,7 @@ transform: scale(0.98);
   width: 26px;
 }
 .a151numberbadgeappbar .guide-measure-area-FqvbZV {
-  background-color: var(--azure-radiance-2);
+  background-color: rgba(0,153,255,0.37);
   height: 168px;
   left: 0px;
   position: absolute;
@@ -1343,6 +1432,14 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 51px;
+}
+.a151numberbadgeappbar .guide-measure-area-Px4ZsW {
+  background-color: rgba(0,153,255,0.37);
+  height: 333px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 15px;
 }
 .a151numberbadgeappbar .guide-measure-area-RBLVka {
   background-color: var(--razzle-dazzle-rose-2);
@@ -1384,6 +1481,14 @@ transform: scale(0.98);
   top: 0px;
   width: 100px;
 }
+.a151numberbadgeappbar .guide-measure-area-ghAtnw {
+  background-color: rgba(102,0,255,0.37);
+  height: 333px;
+  left: 15px;
+  position: absolute;
+  top: 0px;
+  width: 3px;
+}
 .a151numberbadgeappbar .guide-measure-area-iXxXh5 {
   background-color: rgba(51,204,0,0.37);
   height: 30px;
@@ -1401,7 +1506,7 @@ transform: scale(0.98);
   width: 192px;
 }
 .a151numberbadgeappbar .guide-measure-area-kZNpbP {
-  background-color: var(--azure-radiance-2);
+  background-color: rgba(0,153,255,0.37);
   height: 168px;
   left: 0px;
   position: absolute;
@@ -1426,7 +1531,7 @@ transform: scale(0.98);
 }
 .a151numberbadgeappbar .guide-numb-ring-shape-FJJ07p {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-oval-69E0A0DD-5D55-4BBC-987F-E7D3AA9392CA@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-oval-5A4BB069-A68B-4C7B-9CA4-5191C803C2D9@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 112px;
@@ -1436,7 +1541,7 @@ transform: scale(0.98);
 }
 .a151numberbadgeappbar .guide-numb-ring-shape-Qhsife {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-oval-69E0A0DD-5D55-4BBC-987F-E7D3AA9392CA@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-oval-5A4BB069-A68B-4C7B-9CA4-5191C803C2D9@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 57px;
@@ -1446,7 +1551,7 @@ transform: scale(0.98);
 }
 .a151numberbadgeappbar .guide-numbering-icon-KWDgJz {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-oval-69E0A0DD-5D55-4BBC-987F-E7D3AA9392CA@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-oval-5A4BB069-A68B-4C7B-9CA4-5191C803C2D9@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1456,7 +1561,7 @@ transform: scale(0.98);
 }
 .a151numberbadgeappbar .guide-numbering-icon-QhYOvQ {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-oval-69E0A0DD-5D55-4BBC-987F-E7D3AA9392CA@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-oval-5A4BB069-A68B-4C7B-9CA4-5191C803C2D9@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1466,7 +1571,7 @@ transform: scale(0.98);
 }
 .a151numberbadgeappbar .guide-numbering-type-FJJ07p {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-oval-BC9C5D3A-F12E-4476-85B4-B6D036915E1A@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-oval-6848BE0E-5D82-4DB3-9B08-802BC5891F31@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 1px;
@@ -1476,7 +1581,7 @@ transform: scale(0.98);
 }
 .a151numberbadgeappbar .guide-numbering-type-NEA85b {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-oval-BC9C5D3A-F12E-4476-85B4-B6D036915E1A@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-oval-6848BE0E-5D82-4DB3-9B08-802BC5891F31@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1486,7 +1591,7 @@ transform: scale(0.98);
 }
 .a151numberbadgeappbar .guide-numbering-type-Qhsife {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-oval-BC9C5D3A-F12E-4476-85B4-B6D036915E1A@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-oval-6848BE0E-5D82-4DB3-9B08-802BC5891F31@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 10px;
@@ -1496,7 +1601,7 @@ transform: scale(0.98);
 }
 .a151numberbadgeappbar .guide-numbering-type-pxi4Pa {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-oval-BC9C5D3A-F12E-4476-85B4-B6D036915E1A@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-oval-6848BE0E-5D82-4DB3-9B08-802BC5891F31@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1646,7 +1751,7 @@ transform: scale(0.98);
   top: 83px;
   width: 1240px;
 }
-.a151numberbadgeappbar .line-C06rH7 {
+.a151numberbadgeappbar .line-F7TzN3 {
   background-color: transparent;
   height: 49px;
   left: 0px;
@@ -1654,7 +1759,7 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a151numberbadgeappbar .line-dD2Xzk {
+.a151numberbadgeappbar .line-YdbQCE {
   background-color: transparent;
   height: 49px;
   left: 0px;
@@ -1708,10 +1813,26 @@ transform: scale(0.98);
   top: 170px;
   width: 79px;
 }
+.a151numberbadgeappbar .measure-s3Z5VG {
+  background-color: transparent;
+  height: 404px;
+  left: 297px;
+  position: absolute;
+  top: 48px;
+  width: 311px;
+}
 .a151numberbadgeappbar .measure-vS6tQg {
   background-color: transparent;
+  height: 333px;
+  left: 875px;
+  position: absolute;
+  top: 77px;
+  width: 18px;
+}
+.a151numberbadgeappbar .measure-xC7OD1 {
+  background-color: transparent;
   height: 405px;
-  left: 494px;
+  left: 702px;
   position: absolute;
   top: 47px;
   width: 298px;
@@ -1741,7 +1862,7 @@ transform: scale(0.98);
 }
 .a151numberbadgeappbar .mobile-lig--numbermin-BwrOAd {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-bg-2A5A209F-6B0A-4632-9E60-71DA942A7B6F@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-bg-325C37A7-29F9-4E14-9A5D-E32A7D92233C@2x.png);
   background-size: 100% 100%;
   height: 68px;
   left: 420px;
@@ -1787,7 +1908,7 @@ transform: scale(0.98);
 }
 .a151numberbadgeappbar .more-option-list-C61RwL {
   background-color: transparent;
-  height: 1177px;
+  height: 1718px;
   left: 380px;
   position: absolute;
   top: 2416px;
@@ -2049,13 +2170,21 @@ transform: scale(0.98);
   top: 4px;
   width: 93px;
 }
-.a151numberbadgeappbar .rectangle-2RxXna {
-  background-color: var(--azure-radiance);
-  height: 9px;
+.a151numberbadgeappbar .rectangle-1Po0u5 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a151numberbadgeappbar .rectangle-1q361P {
+  background-color: var(--electric-violet);
+  height: 1px;
   left: 0px;
   position: absolute;
-  top: 20px;
-  width: 1px;
+  top: 23px;
+  width: 9px;
 }
 .a151numberbadgeappbar .rectangle-31xQlu {
   background-color: var(--razzle-dazzle-rose);
@@ -2065,18 +2194,10 @@ transform: scale(0.98);
   top: 67px;
   width: 9px;
 }
-.a151numberbadgeappbar .rectangle-4bLeV8 {
-  background-color: var(--azure-radiance);
+.a151numberbadgeappbar .rectangle-4iIoWr {
+  background-color: var(--electric-violet);
   height: 9px;
-  left: 0px;
-  position: absolute;
-  top: 20px;
-  width: 1px;
-}
-.a151numberbadgeappbar .rectangle-4tu0rv {
-  background-color: var(--azure-radiance);
-  height: 9px;
-  left: 0px;
+  left: 55px;
   position: absolute;
   top: 20px;
   width: 1px;
@@ -2089,12 +2210,12 @@ transform: scale(0.98);
   top: 50px;
   width: 9px;
 }
-.a151numberbadgeappbar .rectangle-5ciujB {
-  background-color: var(--azure-radiance);
-  height: 9px;
-  left: 23px;
+.a151numberbadgeappbar .rectangle-69GVX9 {
+  background-color: var(--electric-violet);
+  height: 24px;
+  left: 4px;
   position: absolute;
-  top: 20px;
+  top: 0px;
   width: 1px;
 }
 .a151numberbadgeappbar .rectangle-6HpKAu {
@@ -2105,14 +2226,6 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
-.a151numberbadgeappbar .rectangle-6MeqKX {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 9px;
-}
 .a151numberbadgeappbar .rectangle-6WRnhy {
   background-color: var(--razzle-dazzle-rose);
   height: 1px;
@@ -2121,6 +2234,38 @@ transform: scale(0.98);
   top: 24px;
   width: 124px;
 }
+.a151numberbadgeappbar .rectangle-6x1s3q {
+  background-color: var(--electric-violet);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 15px;
+}
+.a151numberbadgeappbar .rectangle-6x459n {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a151numberbadgeappbar .rectangle-7569Zm {
+  background-color: var(--electric-violet);
+  height: 9px;
+  left: 14px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a151numberbadgeappbar .rectangle-8NSH4d {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
 .a151numberbadgeappbar .rectangle-8sRc8n {
   background-color: var(--razzle-dazzle-rose);
   height: 1px;
@@ -2128,6 +2273,14 @@ transform: scale(0.98);
   position: absolute;
   top: 4px;
   width: 51px;
+}
+.a151numberbadgeappbar .rectangle-8zx82c {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 25px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
 }
 .a151numberbadgeappbar .rectangle-9LFJ9j {
   background-color: var(--razzle-dazzle-rose);
@@ -2169,18 +2322,10 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a151numberbadgeappbar .rectangle-Ckxmnx {
-  background-color: rgba(102,0,255,1.0);
-  height: 1px;
-  left: 1px;
-  position: absolute;
-  top: 4px;
-  width: 15px;
-}
-.a151numberbadgeappbar .rectangle-EJwWI6 {
-  background-color: var(--azure-radiance);
+.a151numberbadgeappbar .rectangle-CquWfn {
+  background-color: var(--razzle-dazzle-rose);
   height: 9px;
-  left: 35px;
+  left: 0px;
   position: absolute;
   top: 20px;
   width: 1px;
@@ -2201,6 +2346,14 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
+.a151numberbadgeappbar .rectangle-Gb4s2Q {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
 .a151numberbadgeappbar .rectangle-HbldQR {
   background-color: var(--razzle-dazzle-rose);
   height: 9px;
@@ -2208,6 +2361,22 @@ transform: scale(0.98);
   position: absolute;
   top: 21px;
   width: 1px;
+}
+.a151numberbadgeappbar .rectangle-IGYjZv {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a151numberbadgeappbar .rectangle-JLOcxR {
+  background-color: var(--electric-violet);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 14px;
+  width: 9px;
 }
 .a151numberbadgeappbar .rectangle-JcjiDO {
   background-color: var(--azure-radiance);
@@ -2249,10 +2418,34 @@ transform: scale(0.98);
   top: 29px;
   width: 9px;
 }
+.a151numberbadgeappbar .rectangle-LzGB3V {
+  background-color: var(--electric-violet);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
 .a151numberbadgeappbar .rectangle-MeoWje {
   background-color: var(--harlequin);
   height: 29px;
   left: 23px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a151numberbadgeappbar .rectangle-MxcSzJ {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 25px;
+  width: 9px;
+}
+.a151numberbadgeappbar .rectangle-NRBxZB {
+  background-color: var(--electric-violet);
+  height: 9px;
+  left: 14px;
   position: absolute;
   top: 0px;
   width: 1px;
@@ -2281,26 +2474,10 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a151numberbadgeappbar .rectangle-PxZ25J {
+.a151numberbadgeappbar .rectangle-Pgpftv {
   background-color: var(--azure-radiance);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 24px;
-  width: 36px;
-}
-.a151numberbadgeappbar .rectangle-QxnWfN {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 4px;
-  width: 26px;
-}
-.a151numberbadgeappbar .rectangle-R7koCt {
-  background-color: var(--razzle-dazzle-rose);
   height: 9px;
-  left: 0px;
+  left: 1px;
   position: absolute;
   top: 0px;
   width: 1px;
@@ -2313,6 +2490,14 @@ transform: scale(0.98);
   top: 0px;
   width: 9px;
 }
+.a151numberbadgeappbar .rectangle-StbSoP {
+  background-color: var(--electric-violet);
+  height: 1px;
+  left: 55px;
+  position: absolute;
+  top: 24px;
+  width: 3px;
+}
 .a151numberbadgeappbar .rectangle-VP48xx {
   background-color: var(--harlequin);
   height: 1px;
@@ -2320,6 +2505,14 @@ transform: scale(0.98);
   position: absolute;
   top: 29px;
   width: 9px;
+}
+.a151numberbadgeappbar .rectangle-VfkLJ7 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 540px;
 }
 .a151numberbadgeappbar .rectangle-Vkt5de {
   background-color: var(--razzle-dazzle-rose);
@@ -2329,12 +2522,68 @@ transform: scale(0.98);
   top: 24px;
   width: 68px;
 }
+.a151numberbadgeappbar .rectangle-WScgGs {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a151numberbadgeappbar .rectangle-XS1rzB {
+  background-color: var(--electric-violet);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 3px;
+  width: 9px;
+}
+.a151numberbadgeappbar .rectangle-XX2hyx {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 23px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a151numberbadgeappbar .rectangle-ZHJAzf {
+  background-color: var(--electric-violet);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 15px;
+}
+.a151numberbadgeappbar .rectangle-aG5OcA {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 26px;
+}
+.a151numberbadgeappbar .rectangle-bixJDW {
+  background-color: var(--electric-violet);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 15px;
+}
 .a151numberbadgeappbar .rectangle-bohB0Q {
   background-color: var(--azure-radiance);
   height: 9px;
   left: 47px;
   position: absolute;
   top: 20px;
+  width: 1px;
+}
+.a151numberbadgeappbar .rectangle-bwy4Kp {
+  background-color: var(--electric-violet);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
   width: 1px;
 }
 .a151numberbadgeappbar .rectangle-cexx1U {
@@ -2345,6 +2594,30 @@ transform: scale(0.98);
   top: 0px;
   width: 9px;
 }
+.a151numberbadgeappbar .rectangle-d1EYps {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 35px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a151numberbadgeappbar .rectangle-dNITxY {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 36px;
+}
+.a151numberbadgeappbar .rectangle-ddVQwc {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 15px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
 .a151numberbadgeappbar .rectangle-e3AWSh {
   background-color: var(--razzle-dazzle-rose);
   height: 68px;
@@ -2353,37 +2626,37 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a151numberbadgeappbar .rectangle-g6Bda7 {
+.a151numberbadgeappbar .rectangle-f5yGcw {
   background-color: var(--azure-radiance);
+  height: 9px;
+  left: 35px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a151numberbadgeappbar .rectangle-fgk4Lr {
+  background-color: var(--razzle-dazzle-rose);
   height: 1px;
   left: 0px;
   position: absolute;
   top: 24px;
-  width: 36px;
+  width: 282px;
 }
-.a151numberbadgeappbar .rectangle-gxLfBw {
-  background-color: rgba(102,0,255,1.0);
+.a151numberbadgeappbar .rectangle-ibixb0 {
+  background-color: var(--electric-violet);
   height: 9px;
-  left: 15px;
+  left: 0px;
   position: absolute;
   top: 0px;
   width: 1px;
 }
-.a151numberbadgeappbar .rectangle-jqTwu3 {
-  background-color: var(--razzle-dazzle-rose);
-  height: 26px;
+.a151numberbadgeappbar .rectangle-k1kBcL {
+  background-color: var(--electric-violet);
+  height: 12px;
   left: 4px;
   position: absolute;
-  top: 0px;
+  top: 3px;
   width: 1px;
-}
-.a151numberbadgeappbar .rectangle-jrtucP {
-  background-color: var(--azure-radiance);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 24px;
-  width: 24px;
 }
 .a151numberbadgeappbar .rectangle-k6LQFY {
   background-color: var(--azure-radiance);
@@ -2425,13 +2698,13 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a151numberbadgeappbar .rectangle-oyHO78 {
-  background-color: var(--razzle-dazzle-rose);
-  height: 9px;
-  left: 25px;
+.a151numberbadgeappbar .rectangle-owGdnZ {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
   position: absolute;
-  top: 0px;
-  width: 1px;
+  top: 24px;
+  width: 36px;
 }
 .a151numberbadgeappbar .rectangle-ptnUhs {
   background-color: var(--azure-radiance);
@@ -2457,16 +2730,40 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a151numberbadgeappbar .rectangle-qae24a {
+.a151numberbadgeappbar .rectangle-qoiAqD {
   background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 24px;
+}
+.a151numberbadgeappbar .rectangle-qqrh6H {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a151numberbadgeappbar .rectangle-sD8O4j {
+  background-color: var(--razzle-dazzle-rose);
   height: 9px;
-  left: 35px;
+  left: 539px;
   position: absolute;
   top: 20px;
   width: 1px;
 }
-.a151numberbadgeappbar .rectangle-qqrh6H {
-  background-color: var(--razzle-dazzle-rose);
+.a151numberbadgeappbar .rectangle-u5WoFF {
+  background-color: var(--electric-violet);
+  height: 9px;
+  left: 14px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a151numberbadgeappbar .rectangle-uRAtcs {
+  background-color: var(--electric-violet);
   height: 1px;
   left: 0px;
   position: absolute;
@@ -2481,12 +2778,28 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
-.a151numberbadgeappbar .rectangle-wyaSc6 {
+.a151numberbadgeappbar .rectangle-x9NoAb {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 1px;
+  position: absolute;
+  top: 4px;
+  width: 15px;
+}
+.a151numberbadgeappbar .rectangle-xYUT8r {
+  background-color: var(--electric-violet);
+  height: 9px;
+  left: 57px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a151numberbadgeappbar .rectangle-xdPTZ1 {
   background-color: var(--razzle-dazzle-rose);
   height: 1px;
   left: 0px;
   position: absolute;
-  top: 25px;
+  top: 0px;
   width: 9px;
 }
 .a151numberbadgeappbar .rectangle-y2YL6F {
@@ -2497,12 +2810,12 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a151numberbadgeappbar .rectangle-zHr9xp {
-  background-color: rgba(102,0,255,1.0);
+.a151numberbadgeappbar .rectangle-y79sgo {
+  background-color: var(--razzle-dazzle-rose);
   height: 9px;
-  left: 1px;
+  left: 281px;
   position: absolute;
-  top: 0px;
+  top: 20px;
   width: 1px;
 }
 .a151numberbadgeappbar .shape-8rPyVA {
@@ -2537,14 +2850,6 @@ transform: scale(0.98);
   top: 0px;
   width: 68px;
 }
-.a151numberbadgeappbar .size-UDBoIY {
-  background-color: transparent;
-  height: 151px;
-  left: 0px;
-  position: absolute;
-  top: 118px;
-  width: 252px;
-}
 .a151numberbadgeappbar .size-cxTtI9 {
   background-color: transparent;
   height: 169px;
@@ -2552,6 +2857,14 @@ transform: scale(0.98);
   position: absolute;
   top: 68px;
   width: 169px;
+}
+.a151numberbadgeappbar .size-dYxnSA {
+  background-color: transparent;
+  height: 109px;
+  left: 190px;
+  position: absolute;
+  top: 291px;
+  width: 108px;
 }
 .a151numberbadgeappbar .size-n2GEyS {
   background-color: transparent;
@@ -2561,13 +2874,13 @@ transform: scale(0.98);
   top: 68px;
   width: 127px;
 }
-.a151numberbadgeappbar .size-xqh9P0 {
+.a151numberbadgeappbar .size-oKJJf1 {
   background-color: transparent;
-  height: 109px;
-  left: 190px;
+  height: 151px;
+  left: 0px;
   position: absolute;
-  top: 291px;
-  width: 108px;
+  top: 118px;
+  width: 252px;
 }
 .a151numberbadgeappbar .spacing-CNib97 {
   background-color: transparent;
@@ -2585,14 +2898,6 @@ transform: scale(0.98);
   top: 31px;
   width: 12px;
 }
-.a151numberbadgeappbar .spacing-Px4ZsW {
-  background-color: transparent;
-  height: 400px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 298px;
-}
 .a151numberbadgeappbar .spacing-cxTtI9 {
   background-color: transparent;
   height: 30px;
@@ -2600,6 +2905,14 @@ transform: scale(0.98);
   position: absolute;
   top: 38px;
   width: 230px;
+}
+.a151numberbadgeappbar .spacing-fVLTc3 {
+  background-color: transparent;
+  height: 400px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 298px;
 }
 .a151numberbadgeappbar .spacing-ix4bPU {
   background-color: transparent;
@@ -2659,13 +2972,21 @@ transform: scale(0.98);
 }
 .a151numberbadgeappbar .symbol-vS6tQg {
   background-color: transparent;
-  background-image: url(../img/15-1-number-badgeapp-bar-15-01measurew360mpl151numberbadgeappbar2-1F44FD75-6D32-421C-A07D-7DE882727506@2x.png);
+  background-image: url(../img/15-1-number-badgeapp-bar-15-01measurew360mpl151numberbadgeappbar2-copy-2-C74B61A2-BE5D-40F4-846A-45333B7935FA@2x.png);
   background-size: 100% 100%;
+  height: 333px;
+  left: 350px;
+  position: absolute;
+  top: 74px;
+  width: 543px;
+}
+.a151numberbadgeappbar .symbol-xC7OD1 {
+  background-color: transparent;
   height: 336px;
-  left: 476px;
+  left: 294px;
   position: absolute;
   top: 78px;
-  width: 288px;
+  width: 678px;
 }
 .a151numberbadgeappbar .tag-refer-AYWwYk {
   background-color: transparent;
@@ -2784,6 +3105,14 @@ transform: scale(0.98);
   top: 43px;
   width: 505px;
 }
+.a151numberbadgeappbar .type-vS6tQg {
+  background-color: transparent;
+  height: 402px;
+  left: 350px;
+  position: absolute;
+  top: 39px;
+  width: 598px;
+}
 .a151numberbadgeappbar .type-xvnQIZ {
   background-color: transparent;
   height: 224px;
@@ -2791,6 +3120,20 @@ transform: scale(0.98);
   position: absolute;
   top: 43px;
   width: 505px;
+}
+.a151numberbadgeappbar .uadf8ub9bc-0uc900-wid-vS6tQg {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 499px;
+  white-space: nowrap;
+  width: 1240px;
 }
 .a151numberbadgeappbar .updated-N0mG4b {
   background-color: transparent;
@@ -2818,29 +3161,13 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a151numberbadgeappbar .value-2RxXna {
+.a151numberbadgeappbar .value-4iIoWr {
   background-color: transparent;
   height: 18px;
-  left: 4px;
+  left: 1px;
   position: absolute;
   top: 0px;
-  width: 16px;
-}
-.a151numberbadgeappbar .value-4bLeV8 {
-  background-color: transparent;
-  height: 18px;
-  left: 9px;
-  position: absolute;
-  top: 0px;
-  width: 18px;
-}
-.a151numberbadgeappbar .value-4tu0rv {
-  background-color: transparent;
-  height: 18px;
-  left: 9px;
-  position: absolute;
-  top: 0px;
-  width: 18px;
+  width: 112px;
 }
 .a151numberbadgeappbar .value-6HpKAu {
   background-color: transparent;
@@ -2863,14 +3190,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a151numberbadgeappbar .value-6MeqKX {
-  background-color: transparent;
-  height: 18px;
-  left: 12px;
-  position: absolute;
-  top: 4px;
-  width: 14px;
-}
 .a151numberbadgeappbar .value-6maMYh {
   background-color: transparent;
   color: var(--royal-blue);
@@ -2884,6 +3203,14 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a151numberbadgeappbar .value-6x459n {
+  background-color: transparent;
+  height: 18px;
+  left: 9px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
 .a151numberbadgeappbar .value-739oKb {
   background-color: transparent;
   color: var(--royal-blue);
@@ -2896,6 +3223,14 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: auto;
+}
+.a151numberbadgeappbar .value-8NSH4d {
+  background-color: transparent;
+  height: 18px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 16px;
 }
 .a151numberbadgeappbar .value-9LFJ9j {
   background-color: transparent;
@@ -2912,6 +3247,14 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 16px;
+}
+.a151numberbadgeappbar .value-CquWfn {
+  background-color: transparent;
+  height: 18px;
+  left: 34px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
 }
 .a151numberbadgeappbar .value-Dv1tfm {
   background-color: transparent;
@@ -2946,6 +3289,22 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 16px;
+}
+.a151numberbadgeappbar .value-Gb4s2Q {
+  background-color: transparent;
+  height: 18px;
+  left: 226px;
+  position: absolute;
+  top: 0px;
+  width: 88px;
+}
+.a151numberbadgeappbar .value-IGYjZv {
+  background-color: transparent;
+  height: 18px;
+  left: 9px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
 }
 .a151numberbadgeappbar .value-L5Wxqs {
   background-color: transparent;
@@ -3022,6 +3381,14 @@ transform: scale(0.98);
   position: absolute;
   top: 6px;
   width: 16px;
+}
+.a151numberbadgeappbar .value-XS1rzB {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
 }
 .a151numberbadgeappbar .value-byb3Ex {
   background-color: transparent;
@@ -3120,6 +3487,14 @@ transform: scale(0.98);
   top: 0px;
   width: 151px;
 }
+.a151numberbadgeappbar .value-uRAtcs {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 3px;
+  width: 15px;
+}
 .a151numberbadgeappbar .value-vfh1cD {
   background-color: transparent;
   color: var(--royal-blue);
@@ -3145,6 +3520,14 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: auto;
+}
+.a151numberbadgeappbar .value-xdPTZ1 {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 4px;
+  width: 14px;
 }
 .a151numberbadgeappbar .version-N0mG4b {
   background-color: transparent;
@@ -3444,6 +3827,62 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a151numberbadgeappbar .x0-7FkKXG {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a151numberbadgeappbar .x0-A9a1SH {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a151numberbadgeappbar .x0-BEjkOg {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a151numberbadgeappbar .x0-Ifg4MO {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a151numberbadgeappbar .x0-JcjiDO {
   background-color: transparent;
   color: var(--black);
@@ -3483,6 +3922,20 @@ transform: scale(0.98);
   position: absolute;
   text-align: center;
   top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a151numberbadgeappbar .x0-LzGB3V {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
   white-space: nowrap;
   width: auto;
 }
@@ -3528,12 +3981,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a151numberbadgeappbar .x0-R7koCt {
+.a151numberbadgeappbar .x0-Pgpftv {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
   height: auto;
-  left: 5px;
+  left: 0px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3556,6 +4009,90 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a151numberbadgeappbar .x0-WScgGs {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 5px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a151numberbadgeappbar .x0-bwy4Kp {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a151numberbadgeappbar .x0-dJWSGL {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a151numberbadgeappbar .x0-edJPkk {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a151numberbadgeappbar .x0-gWQPdA {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a151numberbadgeappbar .x0-ibixb0 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: -1px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
 .a151numberbadgeappbar .x0-lzizpB {
   background-color: transparent;
   color: var(--black);
@@ -3570,7 +4107,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a151numberbadgeappbar .x0-oaVCGW {
+.a151numberbadgeappbar .x0-ohWlBj {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
@@ -3579,7 +4116,7 @@ transform: scale(0.98);
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
-  text-align: center;
+  text-align: left;
   top: 0px;
   white-space: nowrap;
   width: auto;
@@ -3598,20 +4135,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.a151numberbadgeappbar .x0-q9AC4F {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
-  height: auto;
-  left: 0px;
-  line-height: 18px;
-  opacity: 0.6;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a151numberbadgeappbar .x0-qVipuG {
   background-color: transparent;
   color: var(--black);
@@ -3626,7 +4149,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a151numberbadgeappbar .x0-wzdEjM {
+.a151numberbadgeappbar .x0-rcNLZ1 {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
@@ -3636,20 +4159,6 @@ transform: scale(0.98);
   opacity: 0.6;
   position: absolute;
   text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a151numberbadgeappbar .x0-x2EfRx {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
-  height: auto;
-  left: 0px;
-  line-height: 18px;
-  opacity: 0.6;
-  position: absolute;
-  text-align: center;
   top: 0px;
   white-space: nowrap;
   width: auto;
@@ -3693,20 +4202,6 @@ transform: scale(0.98);
   position: absolute;
   text-align: center;
   top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a151numberbadgeappbar .x0-zHr9xp {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
-  height: auto;
-  left: 0px;
-  line-height: 18px;
-  opacity: 0.6;
-  position: absolute;
-  text-align: center;
-  top: 11px;
   white-space: nowrap;
   width: auto;
 }
@@ -3954,6 +4449,22 @@ transform: scale(0.98);
   top: 0px;
   width: 120px;
 }
+.a151numberbadgeappbar .x15-01-meas-ge-appbar2-gIe7fh {
+  background-color: transparent;
+  height: 336px;
+  left: 390px;
+  position: absolute;
+  top: 0px;
+  width: 288px;
+}
+.a151numberbadgeappbar .x15-01-meas-pbar2-copy-gIe7fh {
+  background-color: transparent;
+  height: 336px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 288px;
+}
 .a151numberbadgeappbar .x15-1-numbe-ge-app-bar-C61RwL {
   background-color: transparent;
   height: auto;
@@ -4180,9 +4691,9 @@ transform: scale(0.98);
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
-  --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
   --ebb: rgba(227,227,227,1.0);
+  --electric-violet: rgba(102,0,255,1.0);
   --harlequin: rgba(51,204,0,1.0);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);

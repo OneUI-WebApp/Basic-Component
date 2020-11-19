@@ -60,14 +60,19 @@ div[class^="tag-update"]:hover div[class^="rectangle"] {
     transition: all 200ms ease !important;
 }
 div[class^="btn-"]:hover,
-div[class^="btn-"] div[class^="text-"]:hover {
+{
     transform: scale(0.98) !important;
 }
 
-div[class^="btn-"]:hover,
-div[class^="btn-mw"] div[class^="text-"]:hover {
-    transform: scale(1.0) !important;
-    transition: all 100ms ease !important;
+
+div[class^="btn-mwblLs"]:hover{
+    transform: none !important;
+    transition: none !important;
+}
+
+div[class^="text-WvbxKh"]:hover{
+    transform: none !important;
+    transition: none !important;
 }
 
 /** Sticky Footer CSS **/
