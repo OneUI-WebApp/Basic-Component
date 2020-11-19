@@ -57,11 +57,11 @@ div[class^="tag-refer"]:hover div[class^="rectangle"]  {
 }
 div[class^="tag-update"]:hover div[class^="rectangle"] {
     background: #00B386 !important;
-    transition: all 100ms ease !important;
+    transition: all 200ms ease !important;
 }
 div[class^="btn-"]:hover,
 div[class^="btn-"] div[class^="text-"]:hover {
-    transform: scale(1.0) !important;
+    transform: scale(0.98) !important;
 }
 /** Sticky Footer CSS **/
 div[class^="footercontainer"] {
