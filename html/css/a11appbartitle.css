@@ -14,14 +14,6 @@
   top: 0px;
   width: 145px;
 }
-.a11appbartitle .background-Rfl4Tt {
-  background-color: rgba(71,71,71,1.0);
-  height: 22px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 143px;
-}
 .a11appbartitle .background-n49lac {
   background-color: var(--white);
   height: 1252px;
@@ -30,7 +22,15 @@
   top: 0px;
   width: 320px;
 }
-.a11appbartitle .background-tlylZJ {
+.a11appbartitle .background-zVpv8z {
+  background-color: rgba(71,71,71,1.0);
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 143px;
+}
+.a11appbartitle .background-zZvuY0 {
   background-color: rgba(71,71,71,1.0);
   height: 22px;
   left: 0px;
@@ -84,14 +84,6 @@
   top: 0px;
   width: 412px;
 }
-.a11appbartitle .bg-PkxRG4 {
-  background-color: var(--white);
-  height: 58px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 412px;
-}
 .a11appbartitle .bg-RthaSX {
   background-color: var(--white);
   height: 58px;
@@ -99,6 +91,22 @@
   position: absolute;
   top: 0px;
   width: 412px;
+}
+.a11appbartitle .bg-SxZiCU {
+  background-color: var(--white);
+  height: 58px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 412px;
+}
+.a11appbartitle .bg-eYYriQ {
+  background-color: var(--white);
+  height: 58px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 422px;
 }
 .a11appbartitle .bg-jZLP5N {
   background-color: var(--white);
@@ -108,15 +116,7 @@
   top: 0px;
   width: 422px;
 }
-.a11appbartitle .bg-kBWLfe {
-  background-color: var(--white);
-  height: 58px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 422px;
-}
-.a11appbartitle .bg-lHlp1D {
+.a11appbartitle .bg-lvKDPz {
   background-color: var(--white);
   height: 58px;
   left: 0px;
@@ -140,7 +140,7 @@
   top: 0px;
   width: 412px;
 }
-.a11appbartitle .bottom-mar-12px-uc801-YkPeKl {
+.a11appbartitle .bottom-mar-12px-uc801-Rbg2Gw {
   background-color: transparent;
   color: var(--black);
   font-size: 22px;
@@ -154,7 +154,7 @@
   white-space: nowrap;
   width: 1240px;
 }
-.a11appbartitle .bottom-mar-uc801uc6a9-sxjkSD {
+.a11appbartitle .bottom-mar-uc801uc6a9-sYcyMG {
   background-color: transparent;
   color: var(--black);
   font-size: 22px;
@@ -166,15 +166,31 @@
   text-align: left;
   top: 0px;
   white-space: nowrap;
+  width: 1240px;
+}
+.a11appbartitle .bottommargin-5Q7Z4D {
+  background-color: transparent;
+  height: 312px;
+  left: 381px;
+  position: absolute;
+  top: 826px;
   width: 1240px;
 }
 .a11appbartitle .bottommargin-C61RwL {
   background-color: transparent;
   height: 1138px;
-  left: 379px;
+  left: -1px;
   position: absolute;
   top: 194px;
-  width: 1242px;
+  width: 1622px;
+}
+.a11appbartitle .bottommargin-agHMyK {
+  background-color: transparent;
+  height: 317px;
+  left: 381px;
+  position: absolute;
+  top: 449px;
+  width: 1240px;
 }
 .a11appbartitle .btn-mwblLs {
   background-color: rgba(3,129,254,1.0);
@@ -246,20 +262,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 370px;
 }
-.a11appbartitle .content-PkxRG4 {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
-  height: 26px;
-  left: 21px;
-  line-height: 26px;
-  opacity: 0.8;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 370px;
-}
 .a11appbartitle .content-RthaSX {
   background-color: transparent;
   color: var(--black);
@@ -274,6 +276,33 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 370px;
 }
+.a11appbartitle .content-SxZiCU {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: 26px;
+  left: 21px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  white-space: nowrap;
+  width: 370px;
+}
+.a11appbartitle .content-eYYriQ {
+  background-color: transparent;
+  color: rgba(255,90,90,1.0);
+  font-size: 16px;
+  height: 26px;
+  left: 21px;
+  line-height: 26px;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  white-space: nowrap;
+  width: 380px;
+}
 .a11appbartitle .content-jZLP5N {
   background-color: transparent;
   color: rgba(255,90,90,1.0);
@@ -287,20 +316,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 380px;
 }
-.a11appbartitle .content-kBWLfe {
-  background-color: transparent;
-  color: rgba(255,90,90,1.0);
-  font-size: 16px;
-  height: 26px;
-  left: 21px;
-  line-height: 26px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: 380px;
-}
-.a11appbartitle .content-lHlp1D {
+.a11appbartitle .content-lvKDPz {
   background-color: transparent;
   color: var(--black);
   font-size: 16px;
@@ -341,7 +357,15 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 370px;
 }
-.a11appbartitle .dark-theme-fd5REa {
+.a11appbartitle .dark-theme-IFlVv6 {
+  background-color: transparent;
+  height: 50px;
+  left: 20px;
+  position: absolute;
+  top: 160px;
+  width: 465px;
+}
+.a11appbartitle .dark-theme-TPfmKL {
   background-color: transparent;
   height: 50px;
   left: 20px;
@@ -365,7 +389,7 @@ transform: scale(0.98);
   top: 296px;
   width: 465px;
 }
-.a11appbartitle .dark-theme-luxupS {
+.a11appbartitle .dark-theme-vsYP5a {
   background-color: transparent;
   height: 50px;
   left: 20px;
@@ -373,13 +397,41 @@ transform: scale(0.98);
   top: 296px;
   width: 465px;
 }
-.a11appbartitle .dark-theme-vWvHc6 {
-  background-color: transparent;
-  height: 50px;
-  left: 20px;
+.a11appbartitle .document-b-x-contents-1azMNl {
+  background-color: var(--white);
+  border: 1px solid rgba(227,227,227,1.0);
+  height: 379px;
+  left: 0px;
   position: absolute;
-  top: 160px;
-  width: 465px;
+  top: 0px;
+  width: 715px;
+}
+.a11appbartitle .document-b-x-contents-2xiqis {
+  background-color: var(--white);
+  border: 1px solid rgba(227,227,227,1.0);
+  height: 212px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
+}
+.a11appbartitle .document-b-x-contents-8mEQgx {
+  background-color: var(--white);
+  border: 1px solid rgba(227,227,227,1.0);
+  height: 644px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 715px;
+}
+.a11appbartitle .document-b-x-contents-IFlVv6 {
+  background-color: var(--white);
+  border: 1px solid rgba(227,227,227,1.0);
+  height: 240px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 505px;
 }
 .a11appbartitle .document-b-x-contents-SZCBxl {
   background-color: var(--white);
@@ -390,16 +442,7 @@ transform: scale(0.98);
   top: 0px;
   width: 1240px;
 }
-.a11appbartitle .document-b-x-contents-fOgZ1c {
-  background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 644px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 715px;
-}
-.a11appbartitle .document-b-x-contents-fd5REa {
+.a11appbartitle .document-b-x-contents-TPfmKL {
   background-color: var(--white);
   border: 1px solid rgba(227,227,227,1.0);
   height: 376px;
@@ -407,15 +450,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 505px;
-}
-.a11appbartitle .document-b-x-contents-gMRJ0M {
-  background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 212px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 1240px;
 }
 .a11appbartitle .document-b-x-contents-jGO4Y7 {
   background-color: var(--white);
@@ -435,16 +469,7 @@ transform: scale(0.98);
   top: 0px;
   width: 505px;
 }
-.a11appbartitle .document-b-x-contents-luxupS {
-  background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 376px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 505px;
-}
-.a11appbartitle .document-b-x-contents-qaM4zH {
+.a11appbartitle .document-b-x-contents-oqTaoG {
   background-color: var(--white);
   border: 1px solid rgba(227,227,227,1.0);
   height: 206px;
@@ -462,23 +487,14 @@ transform: scale(0.98);
   top: 0px;
   width: 715px;
 }
-.a11appbartitle .document-b-x-contents-vWvHc6 {
+.a11appbartitle .document-b-x-contents-vsYP5a {
   background-color: var(--white);
   border: 1px solid rgba(227,227,227,1.0);
-  height: 240px;
+  height: 376px;
   left: 0px;
   position: absolute;
   top: 0px;
   width: 505px;
-}
-.a11appbartitle .document-b-x-contents-xKxJVl {
-  background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 379px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 715px;
 }
 .a11appbartitle .document-b-x-contents-xvhvNU {
   background-color: var(--white);
@@ -510,7 +526,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .fn-Rfl4Tt {
+.a11appbartitle .fn-zVpv8z {
   background-color: transparent;
   color: var(--alabaster);
   font-size: 18px;
@@ -523,7 +539,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .fn-tlylZJ {
+.a11appbartitle .fn-zZvuY0 {
   background-color: transparent;
   color: var(--alabaster);
   font-size: 18px;
@@ -536,7 +552,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .general-fd5REa {
+.a11appbartitle .general-TPfmKL {
   background-color: transparent;
   height: 106px;
   left: 20px;
@@ -560,7 +576,7 @@ transform: scale(0.98);
   top: 84px;
   width: 465px;
 }
-.a11appbartitle .general-luxupS {
+.a11appbartitle .general-vsYP5a {
   background-color: transparent;
   height: 106px;
   left: 20px;
@@ -1032,62 +1048,6 @@ transform: scale(0.98);
   top: 0px;
   width: 320px;
 }
-.a11appbartitle .group-0uglEX {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 246px;
-}
-.a11appbartitle .group-1-5Q7Z4D {
-  background-color: transparent;
-  height: 317px;
-  left: 1px;
-  position: absolute;
-  top: 449px;
-  width: 1240px;
-}
-.a11appbartitle .group-1-jggJH2 {
-  background-color: transparent;
-  height: 685px;
-  left: 0px;
-  position: absolute;
-  top: 761px;
-  width: 1240px;
-}
-.a11appbartitle .group-2-5Q7Z4D {
-  background-color: transparent;
-  height: 312px;
-  left: 1px;
-  position: absolute;
-  top: 826px;
-  width: 1240px;
-}
-.a11appbartitle .group-2-8dYYYk {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 125px;
-}
-.a11appbartitle .group-2-DT2JsQ {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 125px;
-}
-.a11appbartitle .group-2-Dys5vc {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 169px;
-}
 .a11appbartitle .group-2-Ix22Wo {
   background-color: transparent;
   height: 22px;
@@ -1096,21 +1056,21 @@ transform: scale(0.98);
   top: 0px;
   width: 127px;
 }
-.a11appbartitle .group-2-N6fYJc {
+.a11appbartitle .group-2-OZAjok {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 169px;
+}
+.a11appbartitle .group-2-U3wia6 {
   background-color: transparent;
   height: 22px;
   left: 0px;
   position: relative;
   top: 0px;
   width: 201px;
-}
-.a11appbartitle .group-2-RkncLS {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 125px;
 }
 .a11appbartitle .group-2-gACCCD {
   background-color: transparent;
@@ -1120,7 +1080,7 @@ transform: scale(0.98);
   top: 0px;
   width: 123px;
 }
-.a11appbartitle .group-2-hvxvAe {
+.a11appbartitle .group-2-hXrl9U {
   background-color: transparent;
   height: 22px;
   left: 0px;
@@ -1128,15 +1088,15 @@ transform: scale(0.98);
   top: 0px;
   width: 253px;
 }
-.a11appbartitle .group-2-jggJH2 {
-  background-color: transparent;
-  height: 420px;
-  left: 0px;
-  position: absolute;
-  top: 1506px;
-  width: 1240px;
-}
 .a11appbartitle .group-2-kASqgU {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 125px;
+}
+.a11appbartitle .group-2-mn2wfP {
   background-color: transparent;
   height: 22px;
   left: 0px;
@@ -1152,6 +1112,22 @@ transform: scale(0.98);
   top: 0px;
   width: 201px;
 }
+.a11appbartitle .group-2-wxwsoq {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 125px;
+}
+.a11appbartitle .group-2-xIxgpx {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 125px;
+}
 .a11appbartitle .group-3y2oU8 {
   background-color: transparent;
   height: 22px;
@@ -1160,15 +1136,15 @@ transform: scale(0.98);
   top: 0px;
   width: 123px;
 }
-.a11appbartitle .group-49rR2Z {
+.a11appbartitle .group-6hbSTg {
   background-color: transparent;
   height: 22px;
   left: 0px;
   position: relative;
   top: 0px;
-  width: 122px;
+  width: 246px;
 }
-.a11appbartitle .group-6hbSTg {
+.a11appbartitle .group-AUBuqR {
   background-color: transparent;
   height: 22px;
   left: 0px;
@@ -1184,7 +1160,7 @@ transform: scale(0.98);
   top: 690px;
   width: 1240px;
 }
-.a11appbartitle .group-KKNxVF {
+.a11appbartitle .group-Qn8N7e {
   background-color: rgba(242,242,242,1.0);
   height: 22px;
   left: 50px;
@@ -1200,23 +1176,23 @@ transform: scale(0.98);
   top: 0px;
   width: 122px;
 }
-.a11appbartitle .group-UJyS2g {
+.a11appbartitle .group-TulqgQ {
+  background-color: rgba(242,242,242,1.0);
+  height: 22px;
+  left: 104px;
+  position: absolute;
+  top: 0px;
+  width: 59px;
+}
+.a11appbartitle .group-YWpcQ7 {
   background-color: transparent;
   height: 22px;
   left: 0px;
   position: relative;
   top: 0px;
-  width: 123px;
+  width: 122px;
 }
-.a11appbartitle .group-Y8KkHu {
-  background-color: rgba(71,71,71,1.0);
-  height: 22px;
-  left: 50px;
-  position: absolute;
-  top: 0px;
-  width: 69px;
-}
-.a11appbartitle .group-YOBsxz {
+.a11appbartitle .group-abJ5FO {
   background-color: transparent;
   height: 22px;
   left: 0px;
@@ -1231,14 +1207,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 246px;
-}
-.a11appbartitle .group-bd2nd8 {
-  background-color: rgba(242,242,242,1.0);
-  height: 22px;
-  left: 50px;
-  position: absolute;
-  top: 0px;
-  width: 69px;
 }
 .a11appbartitle .group-caPqsf {
   background-color: rgba(71,71,71,1.0);
@@ -1256,13 +1224,21 @@ transform: scale(0.98);
   top: 0px;
   width: 123px;
 }
-.a11appbartitle .group-g5eQrn {
+.a11appbartitle .group-gBQg8b {
   background-color: transparent;
   height: 22px;
   left: 0px;
   position: relative;
   top: 0px;
-  width: 122px;
+  width: 246px;
+}
+.a11appbartitle .group-gkvlRq {
+  background-color: rgba(71,71,71,1.0);
+  height: 22px;
+  left: 50px;
+  position: absolute;
+  top: 0px;
+  width: 69px;
 }
 .a11appbartitle .group-mIoE41 {
   background-color: rgba(242,242,242,1.0);
@@ -1280,21 +1256,21 @@ transform: scale(0.98);
   top: 0px;
   width: 71px;
 }
-.a11appbartitle .group-pT0HN4 {
-  background-color: rgba(242,242,242,1.0);
-  height: 22px;
-  left: 104px;
-  position: absolute;
-  top: 0px;
-  width: 59px;
-}
-.a11appbartitle .group-sUnklj {
+.a11appbartitle .group-nuW2ij {
   background-color: transparent;
   height: 22px;
   left: 0px;
   position: relative;
   top: 0px;
-  width: 246px;
+  width: 122px;
+}
+.a11appbartitle .group-oPckxe {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 123px;
 }
 .a11appbartitle .group-w6TSjg {
   background-color: transparent;
@@ -1312,13 +1288,13 @@ transform: scale(0.98);
   top: 0px;
   width: 122px;
 }
-.a11appbartitle .guide-F9PPmx {
-  background-color: transparent;
-  height: 644px;
-  left: 0px;
+.a11appbartitle .group-xr26tT {
+  background-color: rgba(242,242,242,1.0);
+  height: 22px;
+  left: 50px;
   position: absolute;
-  top: 41px;
-  width: 715px;
+  top: 0px;
+  width: 69px;
 }
 .a11appbartitle .guide-IdTEx6 {
   background-color: transparent;
@@ -1328,21 +1304,21 @@ transform: scale(0.98);
   top: 0px;
   width: 715px;
 }
-.a11appbartitle .guide-VvOQgN {
-  background-color: transparent;
-  height: 379px;
-  left: 0px;
-  position: absolute;
-  top: 41px;
-  width: 715px;
-}
-.a11appbartitle .guide-YkPeKl {
+.a11appbartitle .guide-Rbg2Gw {
   background-color: transparent;
   height: 212px;
   left: 0px;
   position: absolute;
   top: 105px;
   width: 1240px;
+}
+.a11appbartitle .guide-form--dark1line-AhVr6s {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 253px;
 }
 .a11appbartitle .guide-form--dark1line-Nea3P9 {
   background-color: transparent;
@@ -1352,15 +1328,7 @@ transform: scale(0.98);
   top: 28px;
   width: 201px;
 }
-.a11appbartitle .guide-form--dark1line-hW7QKR {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 28px;
-  width: 253px;
-}
-.a11appbartitle .guide-form--dark1line-qtRmIl {
+.a11appbartitle .guide-form--dark1line-gYceua {
   background-color: transparent;
   height: 22px;
   left: 32px;
@@ -1384,6 +1352,30 @@ transform: scale(0.98);
   top: 0px;
   width: 57px;
 }
+.a11appbartitle .guide-form-e-subtitle-AhVr6s {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 84px;
+}
+.a11appbartitle .guide-form-e-subtitle-Dym5SI {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 84px;
+}
+.a11appbartitle .guide-form-e-subtitle-GfEP7e {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 87px;
+}
 .a11appbartitle .guide-form-e-subtitle-Nea3P9 {
   background-color: transparent;
   height: 19px;
@@ -1392,7 +1384,7 @@ transform: scale(0.98);
   top: 0px;
   width: 84px;
 }
-.a11appbartitle .guide-form-e-subtitle-OxLmxR {
+.a11appbartitle .guide-form-e-subtitle-ZweG0x {
   background-color: transparent;
   height: 19px;
   left: 32px;
@@ -1400,21 +1392,21 @@ transform: scale(0.98);
   top: 0px;
   width: 57px;
 }
-.a11appbartitle .guide-form-e-subtitle-UfsBqp {
-  background-color: transparent;
-  height: 19px;
-  left: 32px;
-  position: absolute;
-  top: 0px;
-  width: 57px;
-}
-.a11appbartitle .guide-form-e-subtitle-Y2jLjP {
+.a11appbartitle .guide-form-e-subtitle-blGicY {
   background-color: transparent;
   height: 19px;
   left: 32px;
   position: absolute;
   top: 0px;
   width: 87px;
+}
+.a11appbartitle .guide-form-e-subtitle-cvokPy {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 57px;
 }
 .a11appbartitle .guide-form-e-subtitle-dFSpt7 {
   background-color: transparent;
@@ -1424,7 +1416,7 @@ transform: scale(0.98);
   top: 0px;
   width: 84px;
 }
-.a11appbartitle .guide-form-e-subtitle-fXTKmP {
+.a11appbartitle .guide-form-e-subtitle-eNyPVg {
   background-color: transparent;
   height: 19px;
   left: 32px;
@@ -1440,37 +1432,13 @@ transform: scale(0.98);
   top: 0px;
   width: 57px;
 }
-.a11appbartitle .guide-form-e-subtitle-hW7QKR {
+.a11appbartitle .guide-form-e-subtitle-gYceua {
   background-color: transparent;
   height: 19px;
   left: 32px;
   position: absolute;
   top: 0px;
   width: 84px;
-}
-.a11appbartitle .guide-form-e-subtitle-i00xNP {
-  background-color: transparent;
-  height: 19px;
-  left: 32px;
-  position: absolute;
-  top: 0px;
-  width: 84px;
-}
-.a11appbartitle .guide-form-e-subtitle-qtRmIl {
-  background-color: transparent;
-  height: 19px;
-  left: 32px;
-  position: absolute;
-  top: 0px;
-  width: 84px;
-}
-.a11appbartitle .guide-form-e-subtitle-y4MV69 {
-  background-color: transparent;
-  height: 19px;
-  left: 32px;
-  position: absolute;
-  top: 0px;
-  width: 87px;
 }
 .a11appbartitle .guide-form-e-subtitle-zSkHoK {
   background-color: transparent;
@@ -1480,6 +1448,14 @@ transform: scale(0.98);
   top: 0px;
   width: 87px;
 }
+.a11appbartitle .guide-form-ormal-dark-Dym5SI {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 125px;
+}
 .a11appbartitle .guide-form-ormal-dark-dFSpt7 {
   background-color: transparent;
   height: 22px;
@@ -1488,13 +1464,13 @@ transform: scale(0.98);
   top: 28px;
   width: 123px;
 }
-.a11appbartitle .guide-form-ormal-dark-i00xNP {
+.a11appbartitle .guide-form-ormal1line-0Ot4AA {
   background-color: transparent;
   height: 22px;
   left: 32px;
   position: absolute;
-  top: 28px;
-  width: 125px;
+  top: 84px;
+  width: 122px;
 }
 .a11appbartitle .guide-form-ormal1line-2Vqpxq {
   background-color: transparent;
@@ -1503,14 +1479,6 @@ transform: scale(0.98);
   position: absolute;
   top: 56px;
   width: 123px;
-}
-.a11appbartitle .guide-form-ormal1line-6FgVsp {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 84px;
-  width: 122px;
 }
 .a11appbartitle .guide-form-ormal1line-9GOQU8 {
   background-color: transparent;
@@ -1528,22 +1496,6 @@ transform: scale(0.98);
   top: 28px;
   width: 246px;
 }
-.a11appbartitle .guide-form-ormal1line-M5E9rd {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 84px;
-  width: 122px;
-}
-.a11appbartitle .guide-form-ormal1line-OxLmxR {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 28px;
-  width: 246px;
-}
 .a11appbartitle .guide-form-ormal1line-Q9xhpN {
   background-color: transparent;
   height: 22px;
@@ -1552,7 +1504,23 @@ transform: scale(0.98);
   top: 84px;
   width: 122px;
 }
-.a11appbartitle .guide-form-ormal1line-UfsBqp {
+.a11appbartitle .guide-form-ormal1line-ShGS5N {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 56px;
+  width: 122px;
+}
+.a11appbartitle .guide-form-ormal1line-ZweG0x {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 246px;
+}
+.a11appbartitle .guide-form-ormal1line-cvokPy {
   background-color: transparent;
   height: 22px;
   left: 32px;
@@ -1576,21 +1544,21 @@ transform: scale(0.98);
   top: 56px;
   width: 123px;
 }
-.a11appbartitle .guide-form-ormal1line-m9iUVb {
+.a11appbartitle .guide-form-ormal1line-wxfoEb {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 84px;
+  width: 122px;
+}
+.a11appbartitle .guide-form-ormal1line-xmIN8z {
   background-color: transparent;
   height: 22px;
   left: 32px;
   position: absolute;
   top: 56px;
   width: 123px;
-}
-.a11appbartitle .guide-form-ormal1line-xWvrnA {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 56px;
-  width: 122px;
 }
 .a11appbartitle .guide-form-rmal-light-8p0Gs9 {
   background-color: transparent;
@@ -1600,29 +1568,29 @@ transform: scale(0.98);
   top: 28px;
   width: 127px;
 }
-.a11appbartitle .guide-form-rmal-light-Y2jLjP {
+.a11appbartitle .guide-form-rmal-light-GfEP7e {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 125px;
+}
+.a11appbartitle .guide-form-rmal-light-blGicY {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 125px;
+}
+.a11appbartitle .guide-form-rmal-light-eNyPVg {
   background-color: transparent;
   height: 22px;
   left: 32px;
   position: absolute;
   top: 28px;
   width: 169px;
-}
-.a11appbartitle .guide-form-rmal-light-fXTKmP {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 28px;
-  width: 125px;
-}
-.a11appbartitle .guide-form-rmal-light-y4MV69 {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 28px;
-  width: 125px;
 }
 .a11appbartitle .guide-form-rmal-light-zSkHoK {
   background-color: transparent;
@@ -1640,7 +1608,7 @@ transform: scale(0.98);
   top: 0px;
   width: 20px;
 }
-.a11appbartitle .guide-meas--spacing-1-5GFHrs {
+.a11appbartitle .guide-meas--spacing-1-5pKz4W {
   background-color: transparent;
   height: 18px;
   left: 542px;
@@ -1648,7 +1616,7 @@ transform: scale(0.98);
   top: 117px;
   width: 133px;
 }
-.a11appbartitle .guide-meas--spacing-1-Oab3UV {
+.a11appbartitle .guide-meas--spacing-1-Lnkn1N {
   background-color: transparent;
   height: 19px;
   left: 2px;
@@ -1656,7 +1624,7 @@ transform: scale(0.98);
   top: 0px;
   width: 130px;
 }
-.a11appbartitle .guide-meas--spacing-1-knAMS3 {
+.a11appbartitle .guide-meas--spacing-1-bVaPOL {
   background-color: transparent;
   height: 18px;
   left: 506px;
@@ -1664,7 +1632,7 @@ transform: scale(0.98);
   top: 0px;
   width: 21px;
 }
-.a11appbartitle .guide-meas--spacing-2-zoZkrM {
+.a11appbartitle .guide-meas--spacing-2-SWXweZ {
   background-color: transparent;
   height: 29px;
   left: 0px;
@@ -1672,7 +1640,7 @@ transform: scale(0.98);
   top: 98px;
   width: 36px;
 }
-.a11appbartitle .guide-meas-eft-size-1-Xo5xrT {
+.a11appbartitle .guide-meas-eft-size-1-SZV55z {
   background-color: transparent;
   height: 84px;
   left: 7px;
@@ -1680,7 +1648,7 @@ transform: scale(0.98);
   top: 0px;
   width: 29px;
 }
-.a11appbartitle .guide-meas-eft-size-1-ZJY5J3 {
+.a11appbartitle .guide-meas-eft-size-1-xS5w6X {
   background-color: transparent;
   height: 84px;
   left: 7px;
@@ -1688,7 +1656,7 @@ transform: scale(0.98);
   top: 0px;
   width: 29px;
 }
-.a11appbartitle .guide-meas-ght-size-1-5GFHrs {
+.a11appbartitle .guide-meas-ght-size-1-5pKz4W {
   background-color: transparent;
   height: 36px;
   left: 542px;
@@ -1696,15 +1664,15 @@ transform: scale(0.98);
   top: 0px;
   width: 72px;
 }
-.a11appbartitle .guide-meas-ght-size-1-Jm1fFx {
+.a11appbartitle .guide-meas-ght-size-1-8IOI6b {
   background-color: transparent;
-  height: 84px;
-  left: 542px;
-  position: absolute;
+  height: 36px;
+  left: 2px;
+  position: relative;
   top: 0px;
-  width: 29px;
+  width: 72px;
 }
-.a11appbartitle .guide-meas-ght-size-1-TxovoJ {
+.a11appbartitle .guide-meas-ght-size-1-AG85uE {
   background-color: transparent;
   height: 84px;
   left: 542px;
@@ -1720,17 +1688,17 @@ transform: scale(0.98);
   top: 0px;
   width: 29px;
 }
-.a11appbartitle .guide-meas-ght-size-1-xGdfY4 {
+.a11appbartitle .guide-meas-ght-size-1-oiR7uA {
   background-color: transparent;
-  height: 36px;
-  left: 2px;
-  position: relative;
+  height: 84px;
+  left: 542px;
+  position: absolute;
   top: 0px;
-  width: 72px;
+  width: 29px;
 }
 .a11appbartitle .guide-meas-horizontal-46g4Fd {
   background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-line-36E05ECD-9078-4095-A533-AF790CD27B43@2x.png);
+  background-image: url(../img/1-1-app-bartitle-line-AB22F9D8-DB17-42A3-B498-19227B5A543B@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1740,7 +1708,7 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-meas-horizontal-5ZtDto {
   background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-line-36E05ECD-9078-4095-A533-AF790CD27B43@2x.png);
+  background-image: url(../img/1-1-app-bartitle-line-AB22F9D8-DB17-42A3-B498-19227B5A543B@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1748,19 +1716,29 @@ transform: scale(0.98);
   top: 11px;
   width: 36px;
 }
-.a11appbartitle .guide-meas-horizontal-8dOmmu {
+.a11appbartitle .guide-meas-horizontal-6gGxtz {
   background-color: transparent;
-  background-image: url(../img/1-5-more-option-list-line-4C0F9083-95C8-4B61-821E-E5B604815366.png);
+  background-image: url(../img/1-1-app-bartitle-line-9D25C0A3-D914-4CE3-8C2E-DE3FEBE527AE.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
   position: absolute;
   top: 0px;
+  width: 540px;
+}
+.a11appbartitle .guide-meas-horizontal-AG85uE {
+  background-color: transparent;
+  background-image: url(../img/1-1-app-bartitle-line-9D25C0A3-D914-4CE3-8C2E-DE3FEBE527AE.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 83px;
   width: 540px;
 }
 .a11appbartitle .guide-meas-horizontal-CIeIT6 {
   background-color: transparent;
-  background-image: url(../img/1-5-more-option-list-line-4C0F9083-95C8-4B61-821E-E5B604815366.png);
+  background-image: url(../img/1-1-app-bartitle-line-9D25C0A3-D914-4CE3-8C2E-DE3FEBE527AE.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1768,39 +1746,19 @@ transform: scale(0.98);
   top: 0px;
   width: 540px;
 }
-.a11appbartitle .guide-meas-horizontal-Ggtoxe {
+.a11appbartitle .guide-meas-horizontal-N3nuBd {
   background-color: transparent;
-  background-image: url(../img/1-5-more-option-list-line-4C0F9083-95C8-4B61-821E-E5B604815366.png);
+  background-image: url(../img/1-1-app-bartitle-line-9D25C0A3-D914-4CE3-8C2E-DE3FEBE527AE.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
   position: absolute;
   top: 0px;
-  width: 540px;
-}
-.a11appbartitle .guide-meas-horizontal-Jm1fFx {
-  background-color: transparent;
-  background-image: url(../img/1-5-more-option-list-line-4C0F9083-95C8-4B61-821E-E5B604815366.png);
-  background-size: 100% 100%;
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 83px;
-  width: 540px;
-}
-.a11appbartitle .guide-meas-horizontal-TxovoJ {
-  background-color: transparent;
-  background-image: url(../img/1-5-more-option-list-line-4C0F9083-95C8-4B61-821E-E5B604815366.png);
-  background-size: 100% 100%;
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 83px;
   width: 540px;
 }
 .a11appbartitle .guide-meas-horizontal-mb7NFR {
   background-color: transparent;
-  background-image: url(../img/1-5-more-option-list-line-4C0F9083-95C8-4B61-821E-E5B604815366.png);
+  background-image: url(../img/1-1-app-bartitle-line-9D25C0A3-D914-4CE3-8C2E-DE3FEBE527AE.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1808,12 +1766,14 @@ transform: scale(0.98);
   top: 83px;
   width: 540px;
 }
-.a11appbartitle .guide-measure-area-1yXxTD {
-  background-color: rgba(51,204,0,0.37);
-  height: 12px;
+.a11appbartitle .guide-meas-horizontal-oiR7uA {
+  background-color: transparent;
+  background-image: url(../img/1-1-app-bartitle-line-9D25C0A3-D914-4CE3-8C2E-DE3FEBE527AE.png);
+  background-size: 100% 100%;
+  height: 1px;
   left: 0px;
-  position: relative;
-  top: 0px;
+  position: absolute;
+  top: 83px;
   width: 540px;
 }
 .a11appbartitle .guide-measure-area-46g4Fd {
@@ -1824,13 +1784,21 @@ transform: scale(0.98);
   top: 8px;
   width: 415px;
 }
-.a11appbartitle .guide-measure-area-5GFHrs {
+.a11appbartitle .guide-measure-area-5pKz4W {
   background-color: rgba(51,204,0,0.37);
   height: 12px;
   left: 0px;
   position: absolute;
   top: 120px;
   width: 540px;
+}
+.a11appbartitle .guide-measure-area-BQthpE {
+  background-color: rgba(255,204,0,0.37);
+  height: 33px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 357px;
 }
 .a11appbartitle .guide-measure-area-HxETNd {
   background-color: rgba(255,153,0,0.37);
@@ -1848,31 +1816,15 @@ transform: scale(0.98);
   top: 0px;
   width: 415px;
 }
-.a11appbartitle .guide-measure-area-M3wWCY {
-  background-color: rgba(255,204,0,0.37);
-  height: 60px;
+.a11appbartitle .guide-measure-area-SWXweZ {
+  background-color: var(--azure-radiance-2);
+  height: 96px;
   left: 0px;
-  position: relative;
-  top: 0px;
-  width: 415px;
-}
-.a11appbartitle .guide-measure-area-TJYTS9 {
-  background-color: rgba(255,204,0,0.37);
-  height: 33px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 357px;
-}
-.a11appbartitle .guide-measure-area-Xo5xrT {
-  background-color: rgba(255,51,255,0.37);
-  height: 84px;
-  left: 38px;
   position: absolute;
   top: 0px;
-  width: 540px;
+  width: 36px;
 }
-.a11appbartitle .guide-measure-area-ZJY5J3 {
+.a11appbartitle .guide-measure-area-SZV55z {
   background-color: rgba(255,51,255,0.37);
   height: 84px;
   left: 38px;
@@ -1888,7 +1840,15 @@ transform: scale(0.98);
   top: 0px;
   width: 540px;
 }
-.a11appbartitle .guide-measure-area-knAMS3 {
+.a11appbartitle .guide-measure-area-a53qkx {
+  background-color: rgba(51,204,0,0.37);
+  height: 12px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
+.a11appbartitle .guide-measure-area-bVaPOL {
   background-color: rgba(51,204,0,0.37);
   height: 12px;
   left: 0px;
@@ -1896,17 +1856,33 @@ transform: scale(0.98);
   top: 3px;
   width: 504px;
 }
-.a11appbartitle .guide-measure-area-zoZkrM {
-  background-color: var(--azure-radiance-2);
-  height: 96px;
+.a11appbartitle .guide-measure-area-rLRLUi {
+  background-color: rgba(255,204,0,0.37);
+  height: 60px;
   left: 0px;
+  position: relative;
+  top: 0px;
+  width: 415px;
+}
+.a11appbartitle .guide-measure-area-xS5w6X {
+  background-color: rgba(255,51,255,0.37);
+  height: 84px;
+  left: 38px;
   position: absolute;
   top: 0px;
-  width: 36px;
+  width: 540px;
 }
-.a11appbartitle .guide-numb-ring-shape-Byf4D4 {
+.a11appbartitle .guide-mxRdcu {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-5A82252D-798C-41FA-84CD-E8DA57E1FBEF@2x.png);
+  height: 644px;
+  left: 0px;
+  position: absolute;
+  top: 41px;
+  width: 715px;
+}
+.a11appbartitle .guide-numb-ring-shape-5tdKLh {
+  background-color: transparent;
+  background-image: url(../img/1-8-bottom-bar-oval-C20B6D08-B335-4055-A525-CCA733976F60@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1914,9 +1890,9 @@ transform: scale(0.98);
   top: 0px;
   width: 22px;
 }
-.a11appbartitle .guide-numbering-icon-UgfbN9 {
+.a11appbartitle .guide-numbering-icon-8ccIrI {
   background-color: transparent;
-  background-image: url(../img/1-2-expandable-app-bar-oval-5A82252D-798C-41FA-84CD-E8DA57E1FBEF@2x.png);
+  background-image: url(../img/1-8-bottom-bar-oval-C20B6D08-B335-4055-A525-CCA733976F60@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1924,39 +1900,9 @@ transform: scale(0.98);
   top: 2px;
   width: 22px;
 }
-.a11appbartitle .guide-numbering-type-6JpTUR {
+.a11appbartitle .guide-numbering-type-5tdKLh {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-400F55AC-DDA1-44CF-9759-BA64FB5C113B@2x.png);
-  background-size: 100% 100%;
-  height: 22px;
-  left: 0px;
-  position: absolute;
-  top: 3px;
-  width: 22px;
-}
-.a11appbartitle .guide-numbering-type-9AnZP8 {
-  background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-400F55AC-DDA1-44CF-9759-BA64FB5C113B@2x.png);
-  background-size: 100% 100%;
-  height: 22px;
-  left: 14px;
-  position: absolute;
-  top: 12px;
-  width: 22px;
-}
-.a11appbartitle .guide-numbering-type-9BWmnl {
-  background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-400F55AC-DDA1-44CF-9759-BA64FB5C113B@2x.png);
-  background-size: 100% 100%;
-  height: 22px;
-  left: 52px;
-  position: absolute;
-  top: 12px;
-  width: 22px;
-}
-.a11appbartitle .guide-numbering-type-Byf4D4 {
-  background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-400F55AC-DDA1-44CF-9759-BA64FB5C113B@2x.png);
+  background-image: url(../img/1-6-action-button-oval-F9171AD1-2CB1-43C4-BFE4-ACEDB65A7F08@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 23px;
@@ -1964,9 +1910,9 @@ transform: scale(0.98);
   top: 11px;
   width: 22px;
 }
-.a11appbartitle .guide-numbering-type-RIBxxj {
+.a11appbartitle .guide-numbering-type-6JpTUR {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-400F55AC-DDA1-44CF-9759-BA64FB5C113B@2x.png);
+  background-image: url(../img/1-6-action-button-oval-F9171AD1-2CB1-43C4-BFE4-ACEDB65A7F08@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1974,9 +1920,39 @@ transform: scale(0.98);
   top: 3px;
   width: 22px;
 }
-.a11appbartitle .guide-numbering-type-RV5uJi {
+.a11appbartitle .guide-numbering-type-9BWmnl {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-400F55AC-DDA1-44CF-9759-BA64FB5C113B@2x.png);
+  background-image: url(../img/1-6-action-button-oval-F9171AD1-2CB1-43C4-BFE4-ACEDB65A7F08@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 52px;
+  position: absolute;
+  top: 12px;
+  width: 22px;
+}
+.a11appbartitle .guide-numbering-type-Ddaq0U {
+  background-color: transparent;
+  background-image: url(../img/1-6-action-button-oval-F9171AD1-2CB1-43C4-BFE4-ACEDB65A7F08@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 3px;
+  width: 22px;
+}
+.a11appbartitle .guide-numbering-type-RBYPzH {
+  background-color: transparent;
+  background-image: url(../img/1-6-action-button-oval-F9171AD1-2CB1-43C4-BFE4-ACEDB65A7F08@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 22px;
+}
+.a11appbartitle .guide-numbering-type-RIBxxj {
+  background-color: transparent;
+  background-image: url(../img/1-6-action-button-oval-F9171AD1-2CB1-43C4-BFE4-ACEDB65A7F08@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1986,7 +1962,7 @@ transform: scale(0.98);
 }
 .a11appbartitle .guide-numbering-type-RxU8FV {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-400F55AC-DDA1-44CF-9759-BA64FB5C113B@2x.png);
+  background-image: url(../img/1-6-action-button-oval-F9171AD1-2CB1-43C4-BFE4-ACEDB65A7F08@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 52px;
@@ -1994,9 +1970,9 @@ transform: scale(0.98);
   top: 49px;
   width: 22px;
 }
-.a11appbartitle .guide-numbering-type-rTFnYe {
+.a11appbartitle .guide-numbering-type-kvmiSS {
   background-color: transparent;
-  background-image: url(../img/1-8-bottom-bar-oval-400F55AC-DDA1-44CF-9759-BA64FB5C113B@2x.png);
+  background-image: url(../img/1-6-action-button-oval-F9171AD1-2CB1-43C4-BFE4-ACEDB65A7F08@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2005,6 +1981,34 @@ transform: scale(0.98);
   width: 22px;
 }
 .a11appbartitle .guide-property-6JpTUR {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 32px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: auto;
+}
+.a11appbartitle .guide-property-8ccIrI {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 32px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a11appbartitle .guide-property-Ddaq0U {
   background-color: transparent;
   color: var(--black);
   font-size: 22px;
@@ -2032,7 +2036,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .guide-property-RV5uJi {
+.a11appbartitle .guide-property-kvmiSS {
   background-color: transparent;
   color: var(--black);
   font-size: 22px;
@@ -2046,35 +2050,15 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .guide-property-UgfbN9 {
+.a11appbartitle .guide-sYcyMG {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
-  height: auto;
-  left: 32px;
-  line-height: 26px;
-  opacity: 0.8;
+  height: 206px;
+  left: 0px;
   position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
+  top: 106px;
+  width: 1240px;
 }
-.a11appbartitle .guide-property-rTFnYe {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
-  height: auto;
-  left: 32px;
-  line-height: 26px;
-  opacity: 0.8;
-  position: absolute;
-  text-align: left;
-  top: 2px;
-  white-space: nowrap;
-  width: auto;
-}
-.a11appbartitle .guide-subject-shape-vWvHc6 {
+.a11appbartitle .guide-subject-shape-IFlVv6 {
   background-color: transparent;
   height: 26px;
   left: 20px;
@@ -2082,7 +2066,7 @@ transform: scale(0.98);
   top: 30px;
   width: 135px;
 }
-.a11appbartitle .guide-subject-type-fd5REa {
+.a11appbartitle .guide-subject-type-TPfmKL {
   background-color: transparent;
   height: 54px;
   left: 20px;
@@ -2106,7 +2090,7 @@ transform: scale(0.98);
   top: 30px;
   width: 465px;
 }
-.a11appbartitle .guide-subject-type-luxupS {
+.a11appbartitle .guide-subject-type-vsYP5a {
   background-color: transparent;
   height: 54px;
   left: 20px;
@@ -2114,13 +2098,13 @@ transform: scale(0.98);
   top: 30px;
   width: 465px;
 }
-.a11appbartitle .guide-sxjkSD {
+.a11appbartitle .guide-tOigLh {
   background-color: transparent;
-  height: 206px;
+  height: 379px;
   left: 0px;
   position: absolute;
-  top: 106px;
-  width: 1240px;
+  top: 41px;
+  width: 715px;
 }
 .a11appbartitle .history-JH8G1K {
   background-color: transparent;
@@ -2144,6 +2128,14 @@ transform: scale(0.98);
   top: 83px;
   width: 1240px;
 }
+.a11appbartitle .keyscreen-SZCBxl {
+  background-color: transparent;
+  height: 508px;
+  left: 70px;
+  position: absolute;
+  top: 40px;
+  width: 1100px;
+}
 .a11appbartitle .keyscreen-jggJH2 {
   background-color: transparent;
   height: 618px;
@@ -2152,7 +2144,15 @@ transform: scale(0.98);
   top: 83px;
   width: 1240px;
 }
-.a11appbartitle .light-theme-fd5REa {
+.a11appbartitle .light-theme-IFlVv6 {
+  background-color: transparent;
+  height: 50px;
+  left: 20px;
+  position: absolute;
+  top: 82px;
+  width: 465px;
+}
+.a11appbartitle .light-theme-TPfmKL {
   background-color: transparent;
   height: 50px;
   left: 20px;
@@ -2176,20 +2176,12 @@ transform: scale(0.98);
   top: 218px;
   width: 465px;
 }
-.a11appbartitle .light-theme-luxupS {
+.a11appbartitle .light-theme-vsYP5a {
   background-color: transparent;
   height: 50px;
   left: 20px;
   position: absolute;
   top: 218px;
-  width: 465px;
-}
-.a11appbartitle .light-theme-vWvHc6 {
-  background-color: transparent;
-  height: 50px;
-  left: 20px;
-  position: absolute;
-  top: 82px;
   width: 465px;
 }
 .a11appbartitle .main-title-C61RwL {
@@ -2236,18 +2228,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 240px;
 }
-.a11appbartitle .main-title2-line-VvOQgN {
+.a11appbartitle .main-title1line-jggJH2 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
-  height: auto;
+  height: 685px;
   left: 0px;
-  line-height: 26px;
-  opacity: 0.8;
   position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
+  top: 761px;
   width: 1240px;
 }
 .a11appbartitle .main-title2-line-hH973k {
@@ -2264,15 +2250,37 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 240px;
 }
-.a11appbartitle .measure-fOgZ1c {
+.a11appbartitle .main-title2-line-tOigLh {
   background-color: transparent;
-  height: 134px;
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 1240px;
+}
+.a11appbartitle .main-title2line-jggJH2 {
+  background-color: transparent;
+  height: 420px;
+  left: 0px;
+  position: absolute;
+  top: 1506px;
+  width: 1240px;
+}
+.a11appbartitle .measure-1azMNl {
+  background-color: transparent;
+  height: 96px;
   left: 88px;
   position: absolute;
-  top: 274px;
+  top: 142px;
   width: 578px;
 }
-.a11appbartitle .measure-gMRJ0M {
+.a11appbartitle .measure-2xiqis {
   background-color: transparent;
   height: 135px;
   left: 312px;
@@ -2280,7 +2288,15 @@ transform: scale(0.98);
   top: 40px;
   width: 713px;
 }
-.a11appbartitle .measure-qaM4zH {
+.a11appbartitle .measure-8mEQgx {
+  background-color: transparent;
+  height: 134px;
+  left: 88px;
+  position: absolute;
+  top: 274px;
+  width: 578px;
+}
+.a11appbartitle .measure-oqTaoG {
   background-color: transparent;
   height: 130px;
   left: 312px;
@@ -2296,26 +2312,13 @@ transform: scale(0.98);
   top: 341px;
   width: 616px;
 }
-.a11appbartitle .measure-xKxJVl {
+.a11appbartitle .number-JxpPvk {
   background-color: transparent;
-  height: 96px;
-  left: 88px;
+  height: 22px;
+  left: 14px;
   position: absolute;
-  top: 142px;
-  width: 578px;
-}
-.a11appbartitle .property-0n0MQL {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
+  top: 12px;
+  width: 22px;
 }
 .a11appbartitle .property-5MwKGh {
   background-color: transparent;
@@ -2330,20 +2333,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .property-6760hy {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a11appbartitle .property-7GFGpe {
+.a11appbartitle .property-8XxQFY {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2369,6 +2359,19 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a11appbartitle .property-EGX1Ve {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a11appbartitle .property-I538TC {
   background-color: transparent;
   color: var(--masala);
@@ -2382,7 +2385,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .property-KKNxVF {
+.a11appbartitle .property-PhPZuJ {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2395,20 +2398,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .property-L69S0R {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a11appbartitle .property-Opg0hp {
+.a11appbartitle .property-Qn8N7e {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2434,7 +2424,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .property-Y8KkHu {
+.a11appbartitle .property-TulqgQ {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2460,7 +2450,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .property-bd2nd8 {
+.a11appbartitle .property-ZE0Tdo {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2486,19 +2476,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .property-eCGYr4 {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a11appbartitle .property-eEadg3 {
   background-color: transparent;
   color: var(--masala);
@@ -2512,7 +2489,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .property-k8yzak {
+.a11appbartitle .property-gkvlRq {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2538,6 +2515,19 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a11appbartitle .property-mLnxKS {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a11appbartitle .property-mgwJ8H {
   background-color: transparent;
   color: var(--masala);
@@ -2551,7 +2541,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .property-oDufaC {
+.a11appbartitle .property-mmxVXh {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2564,7 +2554,33 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .property-pT0HN4 {
+.a11appbartitle .property-rOxfgt {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a11appbartitle .property-xr26tT {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a11appbartitle .property-xwT88I {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -2598,22 +2614,6 @@ transform: scale(0.98);
   top: 0px;
   width: 320px;
 }
-.a11appbartitle .rectangle-2j0jIX {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 9px;
-}
-.a11appbartitle .rectangle-33SmJx {
-  background-color: var(--harlequin);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 3px;
-  width: 9px;
-}
 .a11appbartitle .rectangle-3ORDcx {
   background-color: var(--white);
   height: 112px;
@@ -2621,6 +2621,14 @@ transform: scale(0.98);
   position: absolute;
   top: 1px;
   width: 410px;
+}
+.a11appbartitle .rectangle-3XQfJd {
+  background-color: var(--harlequin);
+  height: 12px;
+  left: 4px;
+  position: absolute;
+  top: 3px;
+  width: 1px;
 }
 .a11appbartitle .rectangle-3yRUXz {
   background-color: var(--razzle-dazzle-rose);
@@ -2638,20 +2646,52 @@ transform: scale(0.98);
   top: 0px;
   width: 9px;
 }
-.a11appbartitle .rectangle-4GtG6j {
+.a11appbartitle .rectangle-46zAy2 {
+  background-color: var(--harlequin);
+  height: 3px;
+  left: 4px;
+  position: absolute;
+  top: 8px;
+  width: 1px;
+}
+.a11appbartitle .rectangle-5TIRxj {
+  background-color: var(--harlequin);
+  height: 12px;
+  left: 4px;
+  position: absolute;
+  top: 3px;
+  width: 1px;
+}
+.a11appbartitle .rectangle-6z0Zbf {
   background-color: var(--azure-radiance);
+  height: 9px;
+  left: 35px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a11appbartitle .rectangle-77vrFn {
+  background-color: var(--razzle-dazzle-rose);
   height: 1px;
   left: 0px;
   position: absolute;
-  top: 4px;
-  width: 36px;
+  top: 35px;
+  width: 9px;
 }
-.a11appbartitle .rectangle-BTgjro {
+.a11appbartitle .rectangle-7XB6la {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a11appbartitle .rectangle-BABdzw {
   background-color: var(--harlequin);
   height: 1px;
   left: 0px;
   position: absolute;
-  top: 10px;
+  top: 8px;
   width: 9px;
 }
 .a11appbartitle .rectangle-DM7aKO {
@@ -2662,12 +2702,12 @@ transform: scale(0.98);
   top: 1px;
   width: 420px;
 }
-.a11appbartitle .rectangle-Dnsh9U {
+.a11appbartitle .rectangle-DUriKY {
   background-color: var(--razzle-dazzle-rose);
   height: 1px;
-  left: 20px;
+  left: 0px;
   position: absolute;
-  top: 83px;
+  top: 0px;
   width: 9px;
 }
 .a11appbartitle .rectangle-EZt7ax {
@@ -2686,14 +2726,6 @@ transform: scale(0.98);
   top: 8px;
   width: 1px;
 }
-.a11appbartitle .rectangle-F7adc6 {
-  background-color: var(--harlequin);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 3px;
-  width: 9px;
-}
 .a11appbartitle .rectangle-Fw2NEe {
   background-color: rgba(132,131,131,1.0);
   height: 82px;
@@ -2702,12 +2734,12 @@ transform: scale(0.98);
   top: 1px;
   width: 410px;
 }
-.a11appbartitle .rectangle-FzY1P3 {
+.a11appbartitle .rectangle-G3pshe {
   background-color: var(--razzle-dazzle-rose);
   height: 1px;
   left: 0px;
   position: absolute;
-  top: 0px;
+  top: 35px;
   width: 9px;
 }
 .a11appbartitle .rectangle-G4lkFP {
@@ -2726,37 +2758,45 @@ transform: scale(0.98);
   top: 1px;
   width: 410px;
 }
-.a11appbartitle .rectangle-LQdSVp {
+.a11appbartitle .rectangle-KbDrcq {
   background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 83px;
-  width: 9px;
-}
-.a11appbartitle .rectangle-Ofbjor {
-  background-color: var(--razzle-dazzle-rose);
-  height: 83px;
-  left: 24px;
+  height: 36px;
+  left: 4px;
   position: absolute;
   top: 0px;
   width: 1px;
 }
-.a11appbartitle .rectangle-PkxRG4 {
-  background-color: var(--white);
-  height: 56px;
-  left: 1px;
+.a11appbartitle .rectangle-OltgdP {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
   position: absolute;
-  top: 1px;
-  width: 410px;
+  top: 0px;
+  width: 9px;
 }
-.a11appbartitle .rectangle-QxOj14 {
-  background-color: var(--harlequin);
-  height: 12px;
-  left: 4px;
+.a11appbartitle .rectangle-OsPat8 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
   position: absolute;
-  top: 3px;
-  width: 1px;
+  top: 0px;
+  width: 9px;
+}
+.a11appbartitle .rectangle-QwU1es {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 36px;
+}
+.a11appbartitle .rectangle-RZHWl4 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 83px;
+  width: 9px;
 }
 .a11appbartitle .rectangle-RthaSX {
   background-color: var(--white);
@@ -2766,37 +2806,29 @@ transform: scale(0.98);
   top: 1px;
   width: 410px;
 }
-.a11appbartitle .rectangle-ScxTiY {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
+.a11appbartitle .rectangle-SxZiCU {
+  background-color: var(--white);
+  height: 56px;
+  left: 1px;
   position: absolute;
-  top: 35px;
-  width: 9px;
+  top: 1px;
+  width: 410px;
 }
-.a11appbartitle .rectangle-TRctfM {
+.a11appbartitle .rectangle-Trlhj0 {
   background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 83px;
-  width: 9px;
-}
-.a11appbartitle .rectangle-Ucba8d {
-  background-color: var(--azure-radiance);
-  height: 9px;
-  left: 0px;
+  height: 36px;
+  left: 4px;
   position: absolute;
   top: 0px;
   width: 1px;
 }
-.a11appbartitle .rectangle-VAUpKc {
+.a11appbartitle .rectangle-U9svsD {
   background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
+  height: 83px;
+  left: 24px;
   position: absolute;
   top: 0px;
-  width: 9px;
+  width: 1px;
 }
 .a11appbartitle .rectangle-VMIqPJ {
   background-color: rgba(116,116,116,1.0);
@@ -2806,55 +2838,47 @@ transform: scale(0.98);
   top: 0px;
   width: 412px;
 }
-.a11appbartitle .rectangle-VdKtvp {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 9px;
-}
-.a11appbartitle .rectangle-Vxiybw {
+.a11appbartitle .rectangle-WEqH1e {
   background-color: var(--harlequin);
   height: 1px;
   left: 0px;
   position: absolute;
-  top: 14px;
+  top: 3px;
   width: 9px;
 }
-.a11appbartitle .rectangle-YG8UIh {
+.a11appbartitle .rectangle-cOnKYX {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 3px;
+  width: 9px;
+}
+.a11appbartitle .rectangle-eFlhm1 {
   background-color: var(--razzle-dazzle-rose);
-  height: 36px;
-  left: 4px;
+  height: 1px;
+  left: 0px;
   position: absolute;
-  top: 0px;
-  width: 1px;
+  top: 83px;
+  width: 9px;
 }
-.a11appbartitle .rectangle-a2TspI {
-  background-color: var(--azure-radiance);
-  height: 9px;
-  left: 35px;
+.a11appbartitle .rectangle-eYYriQ {
+  background-color: var(--white);
+  height: 56px;
+  left: 1px;
   position: absolute;
-  top: 0px;
-  width: 1px;
+  top: 1px;
+  width: 420px;
 }
-.a11appbartitle .rectangle-cQIPfN {
+.a11appbartitle .rectangle-f6xdFT {
   background-color: var(--razzle-dazzle-rose);
-  height: 84px;
-  left: 4px;
+  height: 1px;
+  left: 20px;
   position: absolute;
   top: 0px;
-  width: 1px;
+  width: 9px;
 }
-.a11appbartitle .rectangle-djZjd1 {
-  background-color: var(--razzle-dazzle-rose);
-  height: 84px;
-  left: 4px;
-  position: absolute;
-  top: 0px;
-  width: 1px;
-}
-.a11appbartitle .rectangle-geZTiI {
+.a11appbartitle .rectangle-gWlt9o {
   background-color: var(--razzle-dazzle-rose);
   height: 1px;
   left: 20px;
@@ -2870,15 +2894,23 @@ transform: scale(0.98);
   top: 8px;
   width: 9px;
 }
-.a11appbartitle .rectangle-jZLP5N {
-  background-color: var(--white);
-  height: 56px;
-  left: 1px;
+.a11appbartitle .rectangle-hxPwpa {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 20px;
   position: absolute;
-  top: 1px;
-  width: 420px;
+  top: 83px;
+  width: 9px;
 }
-.a11appbartitle .rectangle-kBWLfe {
+.a11appbartitle .rectangle-i7TI97 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 84px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a11appbartitle .rectangle-jZLP5N {
   background-color: var(--white);
   height: 56px;
   left: 1px;
@@ -2894,14 +2926,6 @@ transform: scale(0.98);
   top: 0px;
   width: 412px;
 }
-.a11appbartitle .rectangle-kUiaFn {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 83px;
-  width: 9px;
-}
 .a11appbartitle .rectangle-l05vLn {
   background-color: rgba(132,131,131,1.0);
   height: 82px;
@@ -2910,21 +2934,37 @@ transform: scale(0.98);
   top: 1px;
   width: 410px;
 }
-.a11appbartitle .rectangle-l27TGU {
-  background-color: var(--harlequin);
-  height: 12px;
-  left: 4px;
+.a11appbartitle .rectangle-l0XB6B {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
   position: absolute;
-  top: 3px;
+  top: 0px;
   width: 1px;
 }
-.a11appbartitle .rectangle-lHlp1D {
+.a11appbartitle .rectangle-lvKDPz {
   background-color: var(--white);
   height: 56px;
   left: 1px;
   position: absolute;
   top: 1px;
   width: 410px;
+}
+.a11appbartitle .rectangle-mCRDHX {
+  background-color: var(--razzle-dazzle-rose);
+  height: 84px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a11appbartitle .rectangle-mlqAid {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 10px;
+  width: 9px;
 }
 .a11appbartitle .rectangle-nCv1bn {
   background-color: var(--harlequin);
@@ -2934,29 +2974,21 @@ transform: scale(0.98);
   top: 11px;
   width: 9px;
 }
-.a11appbartitle .rectangle-nxgog4 {
+.a11appbartitle .rectangle-oQ3Vpb {
   background-color: var(--razzle-dazzle-rose);
   height: 1px;
   left: 20px;
   position: absolute;
-  top: 0px;
+  top: 83px;
   width: 9px;
 }
-.a11appbartitle .rectangle-oRFcMj {
+.a11appbartitle .rectangle-oiW0iR {
   background-color: var(--razzle-dazzle-rose);
-  height: 36px;
-  left: 4px;
+  height: 83px;
+  left: 24px;
   position: absolute;
   top: 0px;
   width: 1px;
-}
-.a11appbartitle .rectangle-okwlcM {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 35px;
-  width: 9px;
 }
 .a11appbartitle .rectangle-pLjBUB {
   background-color: var(--white);
@@ -2966,14 +2998,6 @@ transform: scale(0.98);
   top: 1px;
   width: 420px;
 }
-.a11appbartitle .rectangle-qD8OuQ {
-  background-color: var(--harlequin);
-  height: 3px;
-  left: 4px;
-  position: absolute;
-  top: 8px;
-  width: 1px;
-}
 .a11appbartitle .rectangle-qFhadN {
   background-color: var(--white);
   height: 56px;
@@ -2981,6 +3005,14 @@ transform: scale(0.98);
   position: absolute;
   top: 1px;
   width: 410px;
+}
+.a11appbartitle .rectangle-rlUAxx {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 14px;
+  width: 9px;
 }
 .a11appbartitle .rectangle-wCQDiW {
   background-color: var(--razzle-dazzle-rose);
@@ -2990,7 +3022,7 @@ transform: scale(0.98);
   top: 83px;
   width: 9px;
 }
-.a11appbartitle .rectangle-xT6dUS {
+.a11appbartitle .rectangle-xIYCeu {
   background-color: var(--harlequin);
   height: 1px;
   left: 0px;
@@ -3006,26 +3038,10 @@ transform: scale(0.98);
   top: 0px;
   width: 422px;
 }
-.a11appbartitle .rectangle-xqyWYw {
-  background-color: var(--razzle-dazzle-rose);
-  height: 83px;
-  left: 24px;
-  position: absolute;
-  top: 0px;
-  width: 1px;
-}
-.a11appbartitle .rectangle-zxWCTO {
-  background-color: var(--harlequin);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 8px;
-  width: 9px;
-}
 .a11appbartitle .row-1-mY7Sra {
   background-color: transparent;
   height: 58px;
-  left: 0px;
+  left: 380px;
   position: absolute;
   top: 82px;
   width: 1242px;
@@ -3033,12 +3049,12 @@ transform: scale(0.98);
 .a11appbartitle .row-2-mY7Sra {
   background-color: transparent;
   height: 114px;
-  left: 0px;
+  left: 380px;
   position: absolute;
   top: 138px;
   width: 1242px;
 }
-.a11appbartitle .row-4-mY7Sra {
+.a11appbartitle .row-3-mY7Sra {
   background-color: transparent;
   height: 58px;
   left: 0px;
@@ -3046,7 +3062,7 @@ transform: scale(0.98);
   top: 250px;
   width: 1242px;
 }
-.a11appbartitle .shape-F9PPmx {
+.a11appbartitle .shape-mxRdcu {
   background-color: transparent;
   height: 240px;
   left: 735px;
@@ -3054,15 +3070,7 @@ transform: scale(0.98);
   top: 43px;
   width: 505px;
 }
-.a11appbartitle .size-5c3PPD {
-  background-color: transparent;
-  height: 36px;
-  left: 578px;
-  position: absolute;
-  top: 0px;
-  width: 74px;
-}
-.a11appbartitle .size-9AnZP8 {
+.a11appbartitle .size-5tdKLh {
   background-color: transparent;
   height: 84px;
   left: 0px;
@@ -3078,7 +3086,15 @@ transform: scale(0.98);
   top: 0px;
   width: 578px;
 }
-.a11appbartitle .size-Byf4D4 {
+.a11appbartitle .size-DfX4C0 {
+  background-color: transparent;
+  height: 36px;
+  left: 578px;
+  position: absolute;
+  top: 0px;
+  width: 74px;
+}
+.a11appbartitle .size-JxpPvk {
   background-color: transparent;
   height: 84px;
   left: 0px;
@@ -3086,7 +3102,7 @@ transform: scale(0.98);
   top: 0px;
   width: 578px;
 }
-.a11appbartitle .size-Reb6df {
+.a11appbartitle .size-gd0NHt {
   background-color: transparent;
   height: 84px;
   left: 0px;
@@ -3094,7 +3110,7 @@ transform: scale(0.98);
   top: 36px;
   width: 578px;
 }
-.a11appbartitle .size-fC07nE {
+.a11appbartitle .size-nCX6LL {
   background-color: transparent;
   height: 84px;
   left: 0px;
@@ -3102,21 +3118,13 @@ transform: scale(0.98);
   top: 36px;
   width: 578px;
 }
-.a11appbartitle .spacing-5c3PPD {
+.a11appbartitle .spacing-5tdKLh {
   background-color: transparent;
-  height: 19px;
-  left: 578px;
+  height: 18px;
+  left: 36px;
   position: absolute;
-  top: 111px;
-  width: 132px;
-}
-.a11appbartitle .spacing-9AnZP8 {
-  background-color: transparent;
-  height: 12px;
-  left: 0px;
-  position: absolute;
-  top: 84px;
-  width: 540px;
+  top: 81px;
+  width: 542px;
 }
 .a11appbartitle .spacing-9BWmnl {
   background-color: transparent;
@@ -3126,13 +3134,13 @@ transform: scale(0.98);
   top: 84px;
   width: 540px;
 }
-.a11appbartitle .spacing-Byf4D4 {
+.a11appbartitle .spacing-DfX4C0 {
   background-color: transparent;
-  height: 18px;
-  left: 36px;
+  height: 19px;
+  left: 578px;
   position: absolute;
-  top: 81px;
-  width: 542px;
+  top: 111px;
+  width: 132px;
 }
 .a11appbartitle .spacing-IJKdDu {
   background-color: transparent;
@@ -3142,6 +3150,14 @@ transform: scale(0.98);
   top: 36px;
   width: 36px;
 }
+.a11appbartitle .spacing-JxpPvk {
+  background-color: transparent;
+  height: 12px;
+  left: 0px;
+  position: absolute;
+  top: 84px;
+  width: 540px;
+}
 .a11appbartitle .spacing-RxU8FV {
   background-color: transparent;
   height: 20px;
@@ -3150,15 +3166,7 @@ transform: scale(0.98);
   top: 37px;
   width: 489px;
 }
-.a11appbartitle .spacing-fC07nE {
-  background-color: transparent;
-  height: 135px;
-  left: 38px;
-  position: absolute;
-  top: 0px;
-  width: 675px;
-}
-.a11appbartitle .spacing-oIptpF {
+.a11appbartitle .spacing-fwZdKO {
   background-color: transparent;
   height: 134px;
   left: 0px;
@@ -3166,19 +3174,13 @@ transform: scale(0.98);
   top: 0px;
   width: 36px;
 }
-.a11appbartitle .subtitle-F9PPmx {
+.a11appbartitle .spacing-nCX6LL {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
-  height: auto;
-  left: 0px;
-  line-height: 26px;
-  opacity: 0.8;
+  height: 135px;
+  left: 38px;
   position: absolute;
-  text-align: left;
   top: 0px;
-  white-space: nowrap;
-  width: 1240px;
+  width: 675px;
 }
 .a11appbartitle .subtitle-Fw2NEe {
   background-color: transparent;
@@ -3193,19 +3195,33 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 370px;
 }
-.a11appbartitle .symbol-fOgZ1c {
+.a11appbartitle .subtitle-mxRdcu {
   background-color: transparent;
-  background-image: url(../img/1-4-more-option-1-04measurew360mpl014moreoption2-96E256B4-31DE-45D8-ADAF-6DFFBEED5F38@2x.png);
+  color: var(--black);
+  font-size: 22px;
+  height: auto;
+  left: 0px;
+  line-height: 26px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 1240px;
+}
+.a11appbartitle .symbol-1azMNl {
+  background-color: transparent;
+  background-image: url(../img/1-1-app-bartitle-1-01measurew360mpl011appbartitle12-51BF94CB-2CA1-42DB-B29E-075255DB5302@2x.png);
   background-size: 100% 100%;
   height: 96px;
   left: 88px;
   position: absolute;
-  top: 274px;
+  top: 142px;
   width: 540px;
 }
-.a11appbartitle .symbol-gMRJ0M {
+.a11appbartitle .symbol-2xiqis {
   background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-1-01measurew360mpl011appbartitle1-0AAFA9F6-5BAC-411D-80C1-1D3D08B313DA@2x.png);
+  background-image: url(../img/1-1-app-bartitle-1-01measurew360mpl011appbartitle1-F1EC2510-EF56-40BF-9782-4AAED8DED7B0@2x.png);
   background-size: 100% 100%;
   height: 132px;
   left: 350px;
@@ -3213,9 +3229,19 @@ transform: scale(0.98);
   top: 40px;
   width: 540px;
 }
-.a11appbartitle .symbol-qaM4zH {
+.a11appbartitle .symbol-8mEQgx {
   background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-1-01measurew360mpl011appbartitle1-EDC57E72-36C9-4F03-A7FA-B9AE38FDE339@2x.png);
+  background-image: url(../img/1-1-app-bartitle-1-01measurew360mpl011appbartitle11-49CDDD49-55A6-49CF-877F-DFEC75FCC8D4@2x.png);
+  background-size: 100% 100%;
+  height: 96px;
+  left: 88px;
+  position: absolute;
+  top: 274px;
+  width: 540px;
+}
+.a11appbartitle .symbol-oqTaoG {
+  background-color: transparent;
+  background-image: url(../img/1-1-app-bartitle-1-01measurew360mpl011appbartitle1-E9568FC1-7660-407B-B828-7CF3310C05D1@2x.png);
   background-size: 100% 100%;
   height: 120px;
   left: 350px;
@@ -3225,22 +3251,12 @@ transform: scale(0.98);
 }
 .a11appbartitle .symbol-trDilk {
   background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-1-01measurew360mpl011appbartitle2-D33B2F04-831F-42CE-B950-D2E489500422@2x.png);
+  background-image: url(../img/1-1-app-bartitle-1-01measurew360mpl011appbartitle2-ACE93AB0-0E28-44A8-A549-C6CD64399791@2x.png);
   background-size: 100% 100%;
   height: 96px;
   left: 88px;
   position: absolute;
   top: 341px;
-  width: 540px;
-}
-.a11appbartitle .symbol-xKxJVl {
-  background-color: transparent;
-  background-image: url(../img/1-1-app-bartitle-1-01measurew360mpl011appbartitle12-6C6C5ECA-D82C-4830-ACF9-880CB06684CD@2x.png);
-  background-size: 100% 100%;
-  height: 96px;
-  left: 88px;
-  position: absolute;
-  top: 142px;
   width: 540px;
 }
 .a11appbartitle .table-5Q7Z4D {
@@ -3249,7 +3265,15 @@ transform: scale(0.98);
   left: 0px;
   position: absolute;
   top: 82px;
-  width: 1242px;
+  width: 1622px;
+}
+.a11appbartitle .table-gene-ight1style-56ndMj {
+  background-color: transparent;
+  height: 58px;
+  left: 410px;
+  position: absolute;
+  top: 0px;
+  width: 412px;
 }
 .a11appbartitle .table-gene-ight1style-7xGwtc {
   background-color: transparent;
@@ -3258,6 +3282,14 @@ transform: scale(0.98);
   position: absolute;
   top: 56px;
   width: 412px;
+}
+.a11appbartitle .table-gene-ight1style-EWYhyw {
+  background-color: transparent;
+  height: 58px;
+  left: 820px;
+  position: absolute;
+  top: 0px;
+  width: 422px;
 }
 .a11appbartitle .table-gene-ight1style-FNBtHH {
   background-color: transparent;
@@ -3275,14 +3307,6 @@ transform: scale(0.98);
   top: 0px;
   width: 422px;
 }
-.a11appbartitle .table-gene-ight1style-JkaVFd {
-  background-color: transparent;
-  height: 58px;
-  left: 410px;
-  position: absolute;
-  top: 0px;
-  width: 412px;
-}
 .a11appbartitle .table-gene-ight1style-T9aBdT {
   background-color: transparent;
   height: 58px;
@@ -3291,15 +3315,7 @@ transform: scale(0.98);
   top: 0px;
   width: 412px;
 }
-.a11appbartitle .table-gene-ight1style-UKODHc {
-  background-color: transparent;
-  height: 58px;
-  left: 820px;
-  position: absolute;
-  top: 0px;
-  width: 422px;
-}
-.a11appbartitle .table-gene-ight1style-bNxJ36 {
+.a11appbartitle .table-gene-ight1style-ZrOgVa {
   background-color: transparent;
   height: 58px;
   left: 0px;
@@ -3377,7 +3393,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .text-1Sbq6E {
+.a11appbartitle .text-28lzO9 {
   background-color: transparent;
   color: var(--black);
   font-size: 16px;
@@ -3391,21 +3407,15 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .text-2SvX9a {
+.a11appbartitle .text-5tdKLh {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
-  height: auto;
-  left: 0px;
-  line-height: 19px;
-  opacity: 0.35;
+  height: 33px;
+  left: 36px;
   position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
+  top: 24px;
+  width: 357px;
 }
-.a11appbartitle .text-2VPUVY {
+.a11appbartitle .text-5vx2Ks {
   background-color: transparent;
   color: var(--black);
   font-size: 16px;
@@ -3447,14 +3457,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .text-9AnZP8 {
-  background-color: transparent;
-  height: 60px;
-  left: 36px;
-  position: absolute;
-  top: 12px;
-  width: 415px;
-}
 .a11appbartitle .text-9BWmnl {
   background-color: transparent;
   height: 60px;
@@ -3462,14 +3464,6 @@ transform: scale(0.98);
   position: absolute;
   top: 12px;
   width: 451px;
-}
-.a11appbartitle .text-Byf4D4 {
-  background-color: transparent;
-  height: 33px;
-  left: 36px;
-  position: absolute;
-  top: 24px;
-  width: 357px;
 }
 .a11appbartitle .text-GcaIib {
   background-color: transparent;
@@ -3485,7 +3479,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .text-Jgnpt2 {
+.a11appbartitle .text-I9MXc2 {
   background-color: transparent;
   color: var(--black);
   font-size: 16px;
@@ -3498,6 +3492,28 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: auto;
+}
+.a11appbartitle .text-JDBknF {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a11appbartitle .text-JxpPvk {
+  background-color: transparent;
+  height: 60px;
+  left: 36px;
+  position: absolute;
+  top: 12px;
+  width: 415px;
 }
 .a11appbartitle .text-P2leby {
   background-color: transparent;
@@ -3535,7 +3551,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .text-WDaOJa {
+.a11appbartitle .text-UahaAX {
   background-color: transparent;
   color: var(--black);
   font-size: 16px;
@@ -3590,7 +3606,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 218px;
 }
-.a11appbartitle .text-bFvxxY {
+.a11appbartitle .text-kkPx3E {
   background-color: transparent;
   color: var(--black);
   font-size: 16px;
@@ -3618,20 +3634,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 218px;
 }
-.a11appbartitle .text-qTLvxV {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
-  height: auto;
-  left: 0px;
-  line-height: 19px;
-  opacity: 0.35;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a11appbartitle .text-s4QoFE {
   background-color: transparent;
   color: var(--black);
@@ -3645,6 +3647,20 @@ transform: scale(0.98);
   top: 12px;
   white-space: nowrap;
   width: 218px;
+}
+.a11appbartitle .text-sGFXzn {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a11appbartitle .text-sTfeh3 {
   background-color: transparent;
@@ -3688,7 +3704,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 218px;
 }
-.a11appbartitle .text-ygwxTx {
+.a11appbartitle .text-xsKiBb {
   background-color: transparent;
   color: var(--black);
   font-size: 16px;
@@ -3702,7 +3718,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .text-zJSyrx {
+.a11appbartitle .text-ygwxTx {
   background-color: transparent;
   color: var(--black);
   font-size: 16px;
@@ -3721,7 +3737,7 @@ transform: scale(0.98);
   color: var(--black);
   font-size: 44px;
   height: auto;
-  left: 1px;
+  left: 381px;
   line-height: 53px;
   opacity: 0.8;
   position: absolute;
@@ -3786,18 +3802,10 @@ transform: scale(0.98);
 .a11appbartitle .title-mY7Sra {
   background-color: transparent;
   height: 84px;
-  left: 0px;
+  left: 380px;
   position: absolute;
   top: 0px;
   width: 1242px;
-}
-.a11appbartitle .typeface-F9PPmx {
-  background-color: transparent;
-  height: 376px;
-  left: 735px;
-  position: absolute;
-  top: 306px;
-  width: 505px;
 }
 .a11appbartitle .typeface-IdTEx6 {
   background-color: transparent;
@@ -3807,12 +3815,12 @@ transform: scale(0.98);
   top: 399px;
   width: 505px;
 }
-.a11appbartitle .typeface-VvOQgN {
+.a11appbartitle .typeface-mxRdcu {
   background-color: transparent;
   height: 376px;
   left: 735px;
   position: absolute;
-  top: 41px;
+  top: 306px;
   width: 505px;
 }
 .a11appbartitle .typeface-o9xhem {
@@ -3823,34 +3831,13 @@ transform: scale(0.98);
   top: 0px;
   width: 505px;
 }
-.a11appbartitle .value-0n0MQL {
+.a11appbartitle .typeface-tOigLh {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 100px;
-  line-height: 22px;
+  height: 376px;
+  left: 735px;
   position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a11appbartitle .value-2j0jIX {
-  background-color: transparent;
-  height: 18px;
-  left: 12px;
-  position: absolute;
-  top: 33px;
-  width: 17px;
-}
-.a11appbartitle .value-33SmJx {
-  background-color: transparent;
-  height: 18px;
-  left: 12px;
-  position: absolute;
-  top: 0px;
-  width: 121px;
+  top: 41px;
+  width: 505px;
 }
 .a11appbartitle .value-44ssvx {
   background-color: transparent;
@@ -3867,14 +3854,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 151px;
-}
-.a11appbartitle .value-6760hy {
-  background-color: transparent;
-  height: 22px;
-  left: 104px;
-  position: absolute;
-  top: 0px;
-  width: 149px;
 }
 .a11appbartitle .value-7B25BF {
   background-color: transparent;
@@ -3902,7 +3881,15 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .value-7GFGpe {
+.a11appbartitle .value-7XB6la {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 33px;
+  width: 17px;
+}
+.a11appbartitle .value-8XxQFY {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
@@ -3928,29 +3915,60 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .value-Dnsh9U {
+.a11appbartitle .value-9RElz1 {
   background-color: transparent;
-  height: 19px;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
   left: 0px;
+  line-height: 22px;
   position: absolute;
-  top: 34px;
-  width: 17px;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
-.a11appbartitle .value-F7adc6 {
+.a11appbartitle .value-Am2EVh {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a11appbartitle .value-BABdzw {
   background-color: transparent;
   height: 18px;
   left: 12px;
   position: absolute;
   top: 0px;
-  width: 9px;
+  width: 118px;
 }
-.a11appbartitle .value-FzY1P3 {
+.a11appbartitle .value-DUriKY {
   background-color: transparent;
   height: 18px;
   left: 12px;
   position: absolute;
-  top: 9px;
-  width: 60px;
+  top: 33px;
+  width: 17px;
+}
+.a11appbartitle .value-EGX1Ve {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 80px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a11appbartitle .value-GcBFEv {
   background-color: transparent;
@@ -3978,12 +3996,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .value-L69S0R {
+.a11appbartitle .value-NF5wAq {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
   height: auto;
-  left: 88px;
+  left: 0px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3991,20 +4009,28 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .value-LQdSVp {
+.a11appbartitle .value-OltgdP {
   background-color: transparent;
-  height: 19px;
-  left: 0px;
+  height: 18px;
+  left: 12px;
   position: absolute;
-  top: 34px;
-  width: 17px;
+  top: 9px;
+  width: 60px;
 }
-.a11appbartitle .value-Opg0hp {
+.a11appbartitle .value-OsPat8 {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 9px;
+  width: 60px;
+}
+.a11appbartitle .value-PhPZuJ {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
   height: auto;
-  left: 88px;
+  left: 80px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4013,45 +4039,6 @@ transform: scale(0.98);
   width: auto;
 }
 .a11appbartitle .value-PxNcQd {
-  background-color: transparent;
-  color: rgba(193,206,254,1.0);
-  font-size: 18px;
-  height: auto;
-  left: 32px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a11appbartitle .value-QQhF4M {
-  background-color: transparent;
-  color: rgba(193,206,254,1.0);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a11appbartitle .value-QvF0eg {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a11appbartitle .value-Rfl4Tt {
   background-color: transparent;
   color: rgba(193,206,254,1.0);
   font-size: 18px;
@@ -4077,21 +4064,26 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .value-VAUpKc {
+.a11appbartitle .value-WEqH1e {
   background-color: transparent;
   height: 18px;
   left: 12px;
   position: absolute;
-  top: 33px;
-  width: 17px;
+  top: 0px;
+  width: 9px;
 }
-.a11appbartitle .value-VdKtvp {
+.a11appbartitle .value-XboAsz {
   background-color: transparent;
-  height: 18px;
-  left: 12px;
+  color: rgba(193,206,254,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
   position: absolute;
-  top: 9px;
-  width: 60px;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a11appbartitle .value-YXujgx {
   background-color: transparent;
@@ -4106,18 +4098,21 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .value-eCGYr4 {
+.a11appbartitle .value-ZE0Tdo {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 80px;
-  line-height: 22px;
+  height: 22px;
+  left: 50px;
   position: absolute;
-  text-align: left;
   top: 0px;
-  white-space: nowrap;
-  width: auto;
+  width: 151px;
+}
+.a11appbartitle .value-cOnKYX {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 0px;
+  width: 121px;
 }
 .a11appbartitle .value-eEadg3 {
   background-color: transparent;
@@ -4132,13 +4127,34 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .value-k8yzak {
+.a11appbartitle .value-hxPwpa {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 34px;
+  width: 17px;
+}
+.a11appbartitle .value-mLnxKS {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 88px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a11appbartitle .value-mmxVXh {
   background-color: transparent;
   height: 22px;
-  left: 50px;
+  left: 104px;
   position: absolute;
   top: 0px;
-  width: 151px;
+  width: 149px;
 }
 .a11appbartitle .value-nCv1bn {
   background-color: transparent;
@@ -4148,38 +4164,20 @@ transform: scale(0.98);
   top: 1px;
   width: 8px;
 }
-.a11appbartitle .value-oDufaC {
+.a11appbartitle .value-oQ3Vpb {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 80px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a11appbartitle .value-tlylZJ {
-  background-color: transparent;
-  color: rgba(193,206,254,1.0);
-  font-size: 18px;
-  height: auto;
-  left: 32px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a11appbartitle .value-xkHz5w {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
+  height: 19px;
   left: 0px;
+  position: absolute;
+  top: 34px;
+  width: 17px;
+}
+.a11appbartitle .value-rOxfgt {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 88px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4187,12 +4185,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .value-yNWdxZ {
+.a11appbartitle .value-xwT88I {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
   height: auto;
-  left: 0px;
+  left: 100px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4213,13 +4211,31 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .value-zxWCTO {
+.a11appbartitle .value-zVpv8z {
   background-color: transparent;
-  height: 18px;
-  left: 12px;
+  color: rgba(193,206,254,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 32px;
+  line-height: 22px;
   position: absolute;
+  text-align: left;
   top: 0px;
-  width: 118px;
+  white-space: nowrap;
+  width: auto;
+}
+.a11appbartitle .value-zZvuY0 {
+  background-color: transparent;
+  color: rgba(193,206,254,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 32px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a11appbartitle .web-app-ldhYbP {
   background-color: transparent;
@@ -4232,12 +4248,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.a11appbartitle .x-0n0MQL {
+.a11appbartitle .x-4WyQEt {
   background-color: transparent;
-  color: var(--masala);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
-  left: 240px;
+  left: 137px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4245,7 +4261,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x-3H4P9W {
+.a11appbartitle .x-4pLAlI {
   background-color: transparent;
   color: var(--alabaster);
   font-size: 18px;
@@ -4258,7 +4274,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x-7GFGpe {
+.a11appbartitle .x-8XxQFY {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -4284,12 +4300,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x-Gn3s1E {
+.a11appbartitle .x-EGX1Ve {
   background-color: transparent;
-  color: var(--alabaster);
+  color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 139px;
+  left: 117px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4298,32 +4314,6 @@ transform: scale(0.98);
   width: auto;
 }
 .a11appbartitle .x-I538TC {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 116px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a11appbartitle .x-KKNxVF {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 119px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a11appbartitle .x-L69S0R {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -4349,7 +4339,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x-Opg0hp {
+.a11appbartitle .x-PhPZuJ {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -4375,12 +4365,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x-Rfl4Tt {
+.a11appbartitle .x-Qn8N7e {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 143px;
+  left: 119px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4401,12 +4391,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x-Y8KkHu {
+.a11appbartitle .x-TulqgQ {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 119px;
+  left: 163px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4427,12 +4417,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x-bd2nd8 {
+.a11appbartitle .x-Zw75A5 {
   background-color: transparent;
-  color: var(--masala);
+  color: var(--alabaster);
   font-size: 18px;
   height: auto;
-  left: 119px;
+  left: 26px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4453,7 +4443,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x-eCGYr4 {
+.a11appbartitle .x-eEadg3 {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -4466,12 +4456,25 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x-eEadg3 {
+.a11appbartitle .x-gkvlRq {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 116px;
+  left: 119px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a11appbartitle .x-ieldmd {
+  background-color: transparent;
+  color: var(--alabaster);
+  font-size: 18px;
+  height: auto;
+  left: 139px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4492,6 +4495,19 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a11appbartitle .x-mLnxKS {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 116px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a11appbartitle .x-mgwJ8H {
   background-color: transparent;
   color: var(--masala);
@@ -4505,12 +4521,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x-oDufaC {
+.a11appbartitle .x-rOxfgt {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 117px;
+  left: 116px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4518,33 +4534,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x-pT0HN4 {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 163px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a11appbartitle .x-rSEEVR {
-  background-color: transparent;
-  color: var(--alabaster);
-  font-size: 18px;
-  height: auto;
-  left: 26px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a11appbartitle .x-screen-height-0-3-sxjkSD {
+.a11appbartitle .x-screen-height-0-3-sYcyMG {
   background-color: transparent;
   color: var(--black);
   font-size: 18px;
@@ -4557,7 +4547,7 @@ transform: scale(0.98);
   top: 36px;
   width: 1240px;
 }
-.a11appbartitle .x-screen-height-320-YkPeKl {
+.a11appbartitle .x-screen-height-320-Rbg2Gw {
   background-color: transparent;
   color: var(--black);
   font-size: 18px;
@@ -4569,19 +4559,6 @@ transform: scale(0.98);
   text-align: left;
   top: 36px;
   width: 1240px;
-}
-.a11appbartitle .x-tlylZJ {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 145px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
 }
 .a11appbartitle .x-x6dhtb {
   background-color: transparent;
@@ -4596,12 +4573,25 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x-xaADh8 {
+.a11appbartitle .x-xr26tT {
   background-color: transparent;
-  color: var(--alabaster);
+  color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 137px;
+  left: 119px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a11appbartitle .x-xwT88I {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 240px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4622,28 +4612,26 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x0-2oi1dW {
+.a11appbartitle .x-zVpv8z {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
+  color: var(--masala);
+  font-size: 18px;
   height: auto;
-  left: 0px;
-  line-height: 18px;
-  opacity: 0.6;
+  left: 143px;
+  line-height: 22px;
   position: absolute;
   text-align: left;
   top: 0px;
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x0-4PYIHk {
+.a11appbartitle .x-zZvuY0 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
+  color: var(--masala);
+  font-size: 18px;
   height: auto;
-  left: 0px;
-  line-height: 18px;
-  opacity: 0.6;
+  left: 145px;
+  line-height: 22px;
   position: absolute;
   text-align: left;
   top: 0px;
@@ -4651,20 +4639,6 @@ transform: scale(0.98);
   width: auto;
 }
 .a11appbartitle .x0-4fFQV5 {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
-  height: auto;
-  left: 0px;
-  line-height: 18px;
-  opacity: 0.6;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a11appbartitle .x0-5PutPx {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
@@ -4692,7 +4666,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x0-G7Tyk2 {
+.a11appbartitle .x0-F84IF6 {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
@@ -4706,7 +4680,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x0-OVjUKg {
+.a11appbartitle .x0-LjKfhM {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
@@ -4720,21 +4694,21 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x0-Ucba8d {
+.a11appbartitle .x0-MqK3Nk {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
   height: auto;
-  left: 9px;
+  left: 0px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
-  text-align: center;
-  top: 11px;
+  text-align: left;
+  top: 0px;
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x0-XtKjDg {
+.a11appbartitle .x0-Zxwdxr {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
@@ -4748,21 +4722,21 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x0-eSLwMt {
+.a11appbartitle .x0-l0XB6B {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
   height: auto;
-  left: 0px;
+  left: 9px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
-  text-align: left;
-  top: 0px;
+  text-align: center;
+  top: 11px;
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x0-hNvoJB {
+.a11appbartitle .x0-oSgDH4 {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
@@ -4790,7 +4764,49 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.a11appbartitle .x0-xyXUWx {
+.a11appbartitle .x0-q127KD {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a11appbartitle .x0-r5P2xo {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a11appbartitle .x0-rXJn85 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a11appbartitle .x0-yiUzSJ {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
@@ -4804,7 +4820,39 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x1-01-keysc-ar-title21-mA19qh {
+.a11appbartitle .x1-01-keysc-ar-title11-bHt5xy {
+  background-color: transparent;
+  height: 508px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 240px;
+}
+.a11appbartitle .x1-01-keysc-ar-title11-vcCbO5 {
+  background-color: transparent;
+  height: 508px;
+  left: 260px;
+  position: absolute;
+  top: 0px;
+  width: 240px;
+}
+.a11appbartitle .x1-01-keysc-ar-title12-bHt5xy {
+  background-color: transparent;
+  height: 508px;
+  left: 600px;
+  position: absolute;
+  top: 0px;
+  width: 240px;
+}
+.a11appbartitle .x1-01-keysc-ar-title12-vcCbO5 {
+  background-color: transparent;
+  height: 508px;
+  left: 860px;
+  position: absolute;
+  top: 0px;
+  width: 240px;
+}
+.a11appbartitle .x1-01-keysc-bar-title2-mA19qh {
   background-color: transparent;
   height: 508px;
   left: 630px;
@@ -4812,42 +4860,10 @@ transform: scale(0.98);
   top: 40px;
   width: 240px;
 }
-.a11appbartitle .x1-01-keysc-ar-title21-xvhvNU {
+.a11appbartitle .x1-01-keysc-bar-title2-xvhvNU {
   background-color: transparent;
   height: 508px;
   left: 370px;
-  position: absolute;
-  top: 40px;
-  width: 240px;
-}
-.a11appbartitle .x1-01-keysc-ar-title22-MObZxe {
-  background-color: transparent;
-  height: 508px;
-  left: 930px;
-  position: absolute;
-  top: 40px;
-  width: 240px;
-}
-.a11appbartitle .x1-01-keysc-ar-title22-SZCBxl {
-  background-color: transparent;
-  height: 508px;
-  left: 670px;
-  position: absolute;
-  top: 40px;
-  width: 240px;
-}
-.a11appbartitle .x1-01-keysc-bar-title1-MObZxe {
-  background-color: transparent;
-  height: 508px;
-  left: 330px;
-  position: absolute;
-  top: 40px;
-  width: 240px;
-}
-.a11appbartitle .x1-01-keysc-bar-title1-SZCBxl {
-  background-color: transparent;
-  height: 508px;
-  left: 70px;
   position: absolute;
   top: 40px;
   width: 240px;
@@ -4863,7 +4879,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a11appbartitle .x1-2AkUQc {
+.a11appbartitle .x1-36AnwQ {
   background-color: transparent;
   color: var(--white);
   font-size: 14px;
@@ -4875,19 +4891,7 @@ transform: scale(0.98);
   top: 0px;
   width: 22px;
 }
-.a11appbartitle .x1-WVObhK {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
-  height: 22px;
-  left: 0px;
-  line-height: 17px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  width: 22px;
-}
-.a11appbartitle .x1-Wl0z0I {
+.a11appbartitle .x1-4dcxx4 {
   background-color: transparent;
   color: var(--white);
   font-size: 15px;
@@ -4899,7 +4903,31 @@ transform: scale(0.98);
   top: 0px;
   width: 22px;
 }
-.a11appbartitle .x1-Y6tmBr {
+.a11appbartitle .x1-C6M4fZ {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: 22px;
+  left: 0px;
+  line-height: 17px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a11appbartitle .x1-QUMMjX {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 15px;
+  height: 22px;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a11appbartitle .x1-XdjDPx {
   background-color: transparent;
   color: var(--white);
   font-size: 14px;
@@ -4925,18 +4953,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.a11appbartitle .x1-bDBbH1 {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
-  height: 22px;
-  left: 0px;
-  line-height: 18px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  width: 22px;
-}
 .a11appbartitle .x1-g7ouXb {
   background-color: transparent;
   color: var(--white);
@@ -4961,7 +4977,7 @@ transform: scale(0.98);
   top: 0px;
   width: 22px;
 }
-.a11appbartitle .x1-qgiH9B {
+.a11appbartitle .x1-rtjxnp {
   background-color: transparent;
   color: var(--white);
   font-size: 14px;
@@ -4973,7 +4989,7 @@ transform: scale(0.98);
   top: 0px;
   width: 22px;
 }
-.a11appbartitle .x1-rtjxnp {
+.a11appbartitle .x1-xrWWme {
   background-color: transparent;
   color: var(--white);
   font-size: 14px;
@@ -5241,24 +5257,24 @@ transform: scale(0.98);
 }
 .font-class-5 {
   color: var(--black);
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-}
-.font-class-6 {
-  color: var(--black);
   font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
   font-size: 70px;
   line-height: 84px;
 }
-.font-class-7 {
+.font-class-6 {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
   letter-spacing: 0.30px;
   line-height: 18px;
+}
+.font-class-7 {
+  color: var(--black);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
 }
 :root {
   --alabaster: rgba(250,250,250,1.0);
