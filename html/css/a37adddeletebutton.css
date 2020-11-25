@@ -49,21 +49,6 @@
 
 transform: scale(0.98);
 }
-.a37adddeletebutton .btn-xpyOiF {
-  background-color: rgba(0,204,153,1.0);
-  border-radius: 5px;
-  height: 34px;
-  left: 0px;
-  pointer-events: auto;
-  position: relative;
-  top: 0px;
-  transition: all 0.2s ease-in-out;
-  width: 138px;
-}
-.a37adddeletebutton .btn-xpyOiF:hover {
-
-transform: scale(0.98);
-}
 .a37adddeletebutton .btn-zOzqsC {
   background-color: rgba(102,102,204,1.0);
   border-radius: 5px;
@@ -157,15 +142,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a37adddeletebutton .document-b-x-contents-NOXmfT {
-  background-color: var(--white);
-  border: 1px solid var(--ebb);
-  height: 828px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 715px;
-}
 .a37adddeletebutton .document-b-x-contents-PHONBE {
   background-color: var(--white);
   border: 1px solid var(--ebb);
@@ -177,7 +153,7 @@ transform: scale(0.98);
 }
 .a37adddeletebutton .document-b-x-contents-V6KZ2v {
   background-color: var(--white);
-  border: 2px solid rgba(0,204,153,1.0);
+  border: 1px solid var(--ebb);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -192,6 +168,15 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 505px;
+}
+.a37adddeletebutton .document-b-x-contents-hh1Mvx {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 828px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 715px;
 }
 .a37adddeletebutton .document-button-C61RwL {
   background-color: transparent;
@@ -779,14 +764,6 @@ transform: scale(0.98);
   top: 0px;
   width: 203px;
 }
-.a37adddeletebutton .group-U3E5ew {
-  background-color: transparent;
-  height: 24px;
-  left: 10px;
-  position: relative;
-  top: 5px;
-  width: 118px;
-}
 .a37adddeletebutton .group-VQsoaz {
   background-color: transparent;
   height: 22px;
@@ -861,11 +838,11 @@ transform: scale(0.98);
 }
 .a37adddeletebutton .guide-NOXmfT {
   background-color: transparent;
-  height: 246px;
-  left: 88px;
+  height: 828px;
+  left: 0px;
   position: absolute;
-  top: 291px;
-  width: 578px;
+  top: 0px;
+  width: 715px;
 }
 .a37adddeletebutton .guide-form-al1linecmt-0L1Ogu {
   background-color: transparent;
@@ -1047,7 +1024,7 @@ transform: scale(0.98);
 }
 .a37adddeletebutton .guide-meas-e-vertical-THm08Q {
   background-color: transparent;
-  background-image: url(../img/3-6-expand-button-line-A4252FDE-4756-40F1-9E1F-20D85C0035C0@2x.png);
+  background-image: url(../img/3-6-expand-button-line-682C4F2E-421B-47CE-BC14-5A59806CBEC3@2x.png);
   background-size: 100% 100%;
   height: 18px;
   left: 0px;
@@ -1057,7 +1034,7 @@ transform: scale(0.98);
 }
 .a37adddeletebutton .guide-meas-e-vertical-rixyUT {
   background-color: transparent;
-  background-image: url(../img/3-6-expand-button-line-A4252FDE-4756-40F1-9E1F-20D85C0035C0@2x.png);
+  background-image: url(../img/3-6-expand-button-line-682C4F2E-421B-47CE-BC14-5A59806CBEC3@2x.png);
   background-size: 100% 100%;
   height: 18px;
   left: 47px;
@@ -1074,9 +1051,19 @@ transform: scale(0.98);
   top: 56px;
   width: 38px;
 }
+.a37adddeletebutton .guide-meas-horizontal-R71val {
+  background-color: transparent;
+  background-image: url(../img/3-7-adddelete-button-line-5A9804BF-680A-477A-934B-15C9A24217C9.png);
+  background-size: 100% 100%;
+  height: 1px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 540px;
+}
 .a37adddeletebutton .guide-meas-horizontal-THm08Q {
   background-color: transparent;
-  background-image: url(../img/3-5-reorder-line-6E9C9E18-6D01-47E1-8A76-6921D97E32F8@2x.png);
+  background-image: url(../img/3-5-reorder-line-87D1A3F5-18D5-427B-B475-C216C9A3229C@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 48px;
@@ -1084,19 +1071,9 @@ transform: scale(0.98);
   top: 103px;
   width: 24px;
 }
-.a37adddeletebutton .guide-meas-horizontal-XjX2Of {
-  background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-2D3D25F5-46E0-4E02-9A71-4FBD48A52FA7.png);
-  background-size: 100% 100%;
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 122px;
-  width: 540px;
-}
 .a37adddeletebutton .guide-meas-horizontal-rixyUT {
   background-color: transparent;
-  background-image: url(../img/3-5-reorder-line-6E9C9E18-6D01-47E1-8A76-6921D97E32F8@2x.png);
+  background-image: url(../img/3-5-reorder-line-87D1A3F5-18D5-427B-B475-C216C9A3229C@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 48px;
@@ -1147,7 +1124,7 @@ transform: scale(0.98);
 }
 .a37adddeletebutton .guide-numb-ring-image-XjX2Of {
   background-color: transparent;
-  background-image: url(../img/3-6-expand-button-oval-DCF70CA9-58DA-4BB3-A621-03B899D9359B@2x.png);
+  background-image: url(../img/3-7-adddelete-button-oval-3A9644D9-4C22-44DF-9068-234F2F638A8F@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 457px;
@@ -1157,7 +1134,7 @@ transform: scale(0.98);
 }
 .a37adddeletebutton .guide-numb-ring-image-xUDzDj {
   background-color: transparent;
-  background-image: url(../img/3-6-expand-button-oval-DCF70CA9-58DA-4BB3-A621-03B899D9359B@2x.png);
+  background-image: url(../img/3-7-adddelete-button-oval-3A9644D9-4C22-44DF-9068-234F2F638A8F@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 457px;
@@ -1167,7 +1144,7 @@ transform: scale(0.98);
 }
 .a37adddeletebutton .guide-numbering-icon-mctxnR {
   background-color: transparent;
-  background-image: url(../img/3-6-expand-button-oval-DCF70CA9-58DA-4BB3-A621-03B899D9359B@2x.png);
+  background-image: url(../img/3-7-adddelete-button-oval-3A9644D9-4C22-44DF-9068-234F2F638A8F@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1177,7 +1154,7 @@ transform: scale(0.98);
 }
 .a37adddeletebutton .guide-numbering-icon-zv9Qex {
   background-color: transparent;
-  background-image: url(../img/3-6-expand-button-oval-DCF70CA9-58DA-4BB3-A621-03B899D9359B@2x.png);
+  background-image: url(../img/3-7-adddelete-button-oval-3A9644D9-4C22-44DF-9068-234F2F638A8F@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1267,17 +1244,25 @@ transform: scale(0.98);
   top: 194px;
   width: 1240px;
 }
+.a37adddeletebutton .line-XjX2Of {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 122px;
+  width: 540px;
+}
 .a37adddeletebutton .measure-hh1Mvx {
   background-color: transparent;
   height: 246px;
-  left: 0px;
+  left: 88px;
   position: absolute;
-  top: 0px;
+  top: 291px;
   width: 578px;
 }
 .a37adddeletebutton .mobile-lig-dd-del-add-7euK7r {
   background-color: transparent;
-  background-image: url(../img/3-7-adddelete-button-mobilelighttheme03controllersadddeladd-809613D8-C073-4547-AF9E-B2F56B2A79BB@2x.png);
+  background-image: url(../img/3-7-adddelete-button-mobilelighttheme03controllersadddeladd-0526A678-D6C2-4EA1-BB99-765EC8B97F38@2x.png);
   background-size: 100% 100%;
   height: 28px;
   left: 10px;
@@ -1287,7 +1272,7 @@ transform: scale(0.98);
 }
 .a37adddeletebutton .mobile-lig-del-delete-wvKeiV {
   background-color: transparent;
-  background-image: url(../img/3-7-adddelete-button-mobilelighttheme03controllersadddeldelete-DF4ED778-651C-432D-8188-CAD5A54D6706@2x.png);
+  background-image: url(../img/3-7-adddelete-button-mobilelighttheme03controllersadddeldelete-94D094CD-780F-4DD4-AB12-C233736DEB3E@2x.png);
   background-size: 100% 100%;
   height: 3px;
   left: 10px;
@@ -1620,12 +1605,12 @@ transform: scale(0.98);
 }
 .a37adddeletebutton .symbol-hh1Mvx {
   background-color: transparent;
-  background-image: url(../img/3-7-adddelete-button-3-07measurew360mpl037adddeletebutton-D3D0EBE5-D3AB-40B5-9CE0-EBCB4350308F@2x.png);
+  background-image: url(../img/3-7-adddelete-button-3-07measurew360mpl037adddeletebutton-43E9DE56-F02F-4BD2-87AB-D8F56A1FAB21@2x.png);
   background-size: 100% 100%;
   height: 170px;
-  left: 0px;
+  left: 88px;
   position: absolute;
-  top: 38px;
+  top: 329px;
   width: 540px;
 }
 .a37adddeletebutton .tag-refer-V6KZ2v {
@@ -1635,14 +1620,6 @@ transform: scale(0.98);
   position: absolute;
   top: 100px;
   width: 148px;
-}
-.a37adddeletebutton .tag-update-C61RwL {
-  background-color: transparent;
-  height: 34px;
-  left: 1126px;
-  position: absolute;
-  top: 81px;
-  width: 138px;
 }
 .a37adddeletebutton .text-1kUsAP {
   background-color: transparent;
@@ -1782,32 +1759,6 @@ transform: scale(0.98);
   top: 12px;
   white-space: nowrap;
   width: 218px;
-}
-.a37adddeletebutton .updated-N0mG4b {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 20px;
-  height: auto;
-  left: 42px;
-  line-height: 24px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a37adddeletebutton .v-N0mG4b {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 20px;
-  height: auto;
-  left: 0px;
-  line-height: 24px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
 }
 .a37adddeletebutton .value-0eC2VC {
   background-color: transparent;
@@ -2017,19 +1968,6 @@ transform: scale(0.98);
   height: auto;
   left: 31px;
   line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a37adddeletebutton .version-N0mG4b {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 20px;
-  height: auto;
-  left: 13px;
-  line-height: 24px;
   position: absolute;
   text-align: left;
   top: 0px;

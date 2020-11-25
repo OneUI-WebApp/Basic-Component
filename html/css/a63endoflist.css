@@ -116,24 +116,9 @@ transform: scale(0.98);
 
 transform: scale(0.98);
 }
-.a63endoflist .btn-xpyOiF {
-  background-color: rgba(0,204,153,1.0);
-  border-radius: 5px;
-  height: 34px;
-  left: 0px;
-  pointer-events: auto;
-  position: relative;
-  top: 0px;
-  transition: all 0.2s ease-in-out;
-  width: 138px;
-}
-.a63endoflist .btn-xpyOiF:hover {
-
-transform: scale(0.98);
-}
 .a63endoflist .document-b-x-contents-4TrGqS {
   background-color: var(--white);
-  border: 2px solid rgba(0,204,153,1.0);
+  border: 1px solid var(--ebb);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -151,7 +136,7 @@ transform: scale(0.98);
 }
 .a63endoflist .document-b-x-contents-aDCylr {
   background-color: var(--white);
-  border: 2px solid rgba(0,204,153,1.0);
+  border: 1px solid var(--ebb);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -160,7 +145,7 @@ transform: scale(0.98);
 }
 .a63endoflist .document-b-x-contents-qIvIBo {
   background-color: var(--white);
-  border: 2px solid rgba(0,204,153,1.0);
+  border: 1px solid var(--ebb);
   height: 363px;
   left: 0px;
   position: absolute;
@@ -653,14 +638,6 @@ transform: scale(0.98);
   top: 0px;
   width: 320px;
 }
-.a63endoflist .group-U3E5ew {
-  background-color: transparent;
-  height: 24px;
-  left: 10px;
-  position: relative;
-  top: 5px;
-  width: 118px;
-}
 .a63endoflist .group-g7Arx8 {
   background-color: transparent;
   height: 45px;
@@ -702,7 +679,7 @@ transform: scale(0.98);
   width: 29px;
 }
 .a63endoflist .guide-measure-area-OZc0xa {
-  background-color: var(--harlequin-2);
+  background-color: rgba(51,204,0,0.37);
   height: 124px;
   left: 0px;
   position: absolute;
@@ -710,7 +687,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a63endoflist .guide-measure-area-zIZKfr {
-  background-color: var(--harlequin-2);
+  background-color: rgba(51,204,0,0.37);
   height: 20px;
   left: 0px;
   position: absolute;
@@ -850,7 +827,7 @@ transform: scale(0.98);
 }
 .a63endoflist .symbol-L8tBdI {
   background-color: transparent;
-  background-image: url(../img/6-3-end-of-list-6-03measurew360mpl063endoflist1-BCB11C48-B1AD-42DD-9344-768F3374B673@2x.png);
+  background-image: url(../img/6-3-end-of-list-6-03measurew360mpl063endoflist1-CBA7F401-8D43-4B6E-BFB7-1CCECC3AEC9E@2x.png);
   background-size: 100% 100%;
   height: 447px;
   left: 450px;
@@ -860,7 +837,7 @@ transform: scale(0.98);
 }
 .a63endoflist .symbol-qIvIBo {
   background-color: transparent;
-  background-image: url(../img/6-3-end-of-list-6-03measurew360mpl063endoflist2-47A98D5F-AAA1-441C-9BF3-379086DB87C4@2x.png);
+  background-image: url(../img/6-3-end-of-list-6-03measurew360mpl063endoflist2-6C728338-FB92-4860-B2BB-16E8DEB749F6@2x.png);
   background-size: 100% 100%;
   height: 283px;
   left: 440px;
@@ -875,14 +852,6 @@ transform: scale(0.98);
   position: absolute;
   top: 499px;
   width: 230px;
-}
-.a63endoflist .tag-update-C61RwL {
-  background-color: transparent;
-  height: 34px;
-  left: 861px;
-  position: absolute;
-  top: 81px;
-  width: 138px;
 }
 .a63endoflist .text-5YI8Yt {
   background-color: transparent;
@@ -1009,32 +978,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 218px;
 }
-.a63endoflist .updated-N0mG4b {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 20px;
-  height: auto;
-  left: 42px;
-  line-height: 24px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a63endoflist .v-N0mG4b {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 20px;
-  height: auto;
-  left: 0px;
-  line-height: 24px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a63endoflist .value-mAtwFU {
   background-color: transparent;
   height: 18px;
@@ -1050,19 +993,6 @@ transform: scale(0.98);
   position: absolute;
   top: 1px;
   width: 17px;
-}
-.a63endoflist .version-N0mG4b {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 20px;
-  height: auto;
-  left: 13px;
-  line-height: 24px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
 }
 .a63endoflist .web-app-uWkrmC {
   background-color: transparent;
@@ -1463,9 +1393,9 @@ transform: scale(0.98);
   --black: rgba(0,0,0,1.0);
   --ebb: rgba(227,227,227,1.0);
   --harlequin: rgba(51,204,0,1.0);
-  --harlequin-2: rgba(51,204,0,0.37);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);
+  --razzle-dazzle-rose-2: rgba(255,51,255,0.37);
   --royal-blue: rgba(75,99,250,1.0);
   --white: rgba(255,255,255,1.0);
 }
