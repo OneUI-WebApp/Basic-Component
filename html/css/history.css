@@ -19,7 +19,7 @@
 }
 .history {
   background-color: rgba(245,246,247,1.0);
-  height: 1903px;
+  height: 2360px;
   position: relative;
   width: 1680px;
 }
@@ -52,6 +52,14 @@
   position: absolute;
   top: 20px;
   width: 715px;
+}
+.history .changes-n5uwbj {
+  background-color: transparent;
+  height: 416px;
+  left: 420px;
+  position: absolute;
+  top: 22px;
+  width: 627px;
 }
 .history .document-created-OxchCY {
   background-color: transparent;
@@ -409,9 +417,9 @@
   top: 0px;
   width: 1242px;
 }
-.history .highlight-lEVJ7x {
+.history .highlight-n5uwbj {
   background-color: var(--white);
-  height: 1496px;
+  height: 458px;
   left: 0px;
   opacity: 0.9;
   position: absolute;
@@ -451,6 +459,18 @@
   width: 260px;
 }
 .history .modified-sOobH5 {
+  background-color: transparent;
+  color: var(--black);
+  height: 26px;
+  left: 0px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 63px;
+}
+.history .modified-tWpLCk {
   background-color: transparent;
   color: var(--black);
   height: 26px;
@@ -552,6 +572,15 @@
   top: 1496px;
   width: 1240px;
 }
+.history .rectangle-n5uwbj {
+  background-color: var(--black);
+  height: 1px;
+  left: 0px;
+  opacity: 0.08;
+  position: absolute;
+  top: 458px;
+  width: 1240px;
+}
 .history .rectangle-oGRkcX {
   background-color: var(--gunsmoke);
   height: 52px;
@@ -570,7 +599,7 @@
 }
 .history .table-C61RwL {
   background-color: transparent;
-  height: 1616px;
+  height: 2073px;
   left: 411px;
   position: absolute;
   top: 206px;
@@ -681,7 +710,7 @@
   white-space: nowrap;
   width: 65px;
 }
-.history .uc724ubbfc-uc11cud76c-CRamO6 {
+.history .uc724ubbfc-uc9c0uc218-CRamO6 {
   background-color: transparent;
   color: var(--black);
   height: 26px;
@@ -693,7 +722,7 @@
   white-space: nowrap;
   width: 170px;
 }
-.history .uc724ubbfc-uc11cud76c-lEVJ7x {
+.history .uc724ubbfc-uc9c0uc218-lEVJ7x {
   background-color: transparent;
   color: var(--black);
   height: 26px;
@@ -702,6 +731,18 @@
   position: absolute;
   text-align: left;
   top: 20px;
+  white-space: nowrap;
+  width: 170px;
+}
+.history .uc724ubbfc-uc9c0uc218-n5uwbj {
+  background-color: transparent;
+  color: var(--black);
+  height: 26px;
+  left: 1050px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 22px;
   white-space: nowrap;
   width: 170px;
 }
@@ -710,7 +751,7 @@
   height: 67px;
   left: 1px;
   position: absolute;
-  top: 1550px;
+  top: 2007px;
   width: 1240px;
 }
 .history .v110-1JTV4m {
@@ -718,7 +759,15 @@
   height: 1497px;
   left: 1px;
   position: absolute;
-  top: 53px;
+  top: 510px;
+  width: 1240px;
+}
+.history .v120-1JTV4m {
+  background-color: transparent;
+  height: 460px;
+  left: 1px;
+  position: absolute;
+  top: 51px;
   width: 1240px;
 }
 .history .web-app-mtPIq7 {
@@ -737,9 +786,81 @@
   white-space: nowrap;
   width: 260px;
 }
+.history .x-responsiv-out-d-copy-tWpLCk {
+  background-color: transparent;
+  color: var(--fuchsia-pink);
+  height: auto;
+  left: 288px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 156px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x-responsive-layout-d-3Ivzye {
+  background-color: transparent;
+  color: var(--fuchsia-pink);
+  height: auto;
+  left: 230px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 182px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x-responsive-layout-d-4LggyK {
+  background-color: transparent;
+  color: var(--fuchsia-pink);
+  height: auto;
+  left: 272px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 364px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x-responsive-layout-d-6xVsXU {
+  background-color: transparent;
+  color: var(--fuchsia-pink);
+  height: auto;
+  left: 280px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 130px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x-responsive-layout-d-9U0HY6 {
+  background-color: transparent;
+  color: var(--fuchsia-pink);
+  height: auto;
+  left: 216px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 104px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x-responsive-layout-d-NS1trk {
+  background-color: transparent;
+  color: var(--fuchsia-pink);
+  height: auto;
+  left: 240px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 390px;
+  white-space: nowrap;
+  width: auto;
+}
 .history .x-responsive-layout-d-sOobH5 {
   background-color: transparent;
-  color: rgba(182,32,224,1.0);
+  color: var(--fuchsia-pink);
   height: 26px;
   left: 274px;
   opacity: 0.8;
@@ -749,15 +870,38 @@
   white-space: nowrap;
   width: auto;
 }
+.history .x-responsive-layout-d-tWpLCk {
+  background-color: transparent;
+  color: var(--fuchsia-pink);
+  height: auto;
+  left: 226px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 78px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x-responsive-layout-d-vC2x9w {
+  background-color: transparent;
+  color: var(--fuchsia-pink);
+  height: auto;
+  left: 342px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 234px;
+  white-space: nowrap;
+  width: auto;
+}
 .history .x0-2-color-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 0px;
   white-space: nowrap;
   width: auto;
@@ -765,12 +909,11 @@
 .history .x0-4-touch-feedback-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 26px;
   white-space: nowrap;
   width: auto;
@@ -778,12 +921,11 @@
 .history .x0-5-responsive-ui-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 52px;
   white-space: nowrap;
   width: auto;
@@ -799,7 +941,7 @@
   white-space: nowrap;
   width: 260px;
 }
-.history .x1-2-expandable-app-sOobH5 {
+.history .x1-2-expand-le-app-bar-tWpLCk {
   background-color: transparent;
   color: var(--black);
   height: auto;
@@ -808,6 +950,18 @@
   position: absolute;
   text-align: left;
   text-decoration: underline;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x1-2-expandable-app-sOobH5 {
+  background-color: transparent;
+  color: var(--black);
+  height: 26px;
+  left: 105px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
   top: 78px;
   white-space: nowrap;
   width: auto;
@@ -815,17 +969,16 @@
 .history .x1-5-more-option-li-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 104px;
   white-space: nowrap;
   width: auto;
 }
-.history .x1-7-edit-app-bar-sOobH5 {
+.history .x1-5-more-option-list-tWpLCk {
   background-color: transparent;
   color: var(--black);
   height: auto;
@@ -834,6 +987,18 @@
   position: absolute;
   text-align: left;
   text-decoration: underline;
+  top: 26px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x1-7-edit-app-bar-sOobH5 {
+  background-color: transparent;
+  color: var(--black);
+  height: 26px;
+  left: 105px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
   top: 130px;
   white-space: nowrap;
   width: auto;
@@ -841,12 +1006,11 @@
 .history .x1-8-bottom-bar-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 156px;
   white-space: nowrap;
   width: auto;
@@ -865,12 +1029,11 @@
 .history .x10-1-search-bar-wi-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 962px;
   white-space: nowrap;
   width: auto;
@@ -878,12 +1041,11 @@
 .history .x10-2-search-bar-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 988px;
   white-space: nowrap;
   width: auto;
@@ -891,12 +1053,11 @@
 .history .x10-3-search-bar-lo-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 1014px;
   white-space: nowrap;
   width: auto;
@@ -950,12 +1111,11 @@
 .history .x12-1-text-fields-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 1040px;
   white-space: nowrap;
   width: auto;
@@ -963,12 +1123,11 @@
 .history .x12-2-text-fields-w-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 1066px;
   white-space: nowrap;
   width: auto;
@@ -976,12 +1135,11 @@
 .history .x12-3-text-fields-i-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 1092px;
   white-space: nowrap;
   width: auto;
@@ -997,15 +1155,26 @@
   white-space: nowrap;
   width: 260px;
 }
+.history .x120-n5uwbj {
+  background-color: transparent;
+  color: var(--black);
+  height: 26px;
+  left: 210px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 22px;
+  white-space: nowrap;
+  width: 85px;
+}
 .history .x13-1-main-tab-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 1118px;
   white-space: nowrap;
   width: auto;
@@ -1013,12 +1182,11 @@
 .history .x13-2-sub-tab-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 1144px;
   white-space: nowrap;
   width: auto;
@@ -1026,17 +1194,16 @@
 .history .x13-3-spinner-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 1170px;
   white-space: nowrap;
   width: auto;
 }
-.history .x13-4-dropdown-list-sOobH5 {
+.history .x13-3-spinner-tWpLCk {
   background-color: transparent;
   color: var(--black);
   height: auto;
@@ -1045,7 +1212,32 @@
   position: absolute;
   text-align: left;
   text-decoration: underline;
+  top: 286px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x13-4-dropdown-list-sOobH5 {
+  background-color: transparent;
+  color: var(--black);
+  height: 26px;
+  left: 105px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
   top: 1196px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x13-4-dropdown-list-tWpLCk {
+  background-color: transparent;
+  color: var(--black);
+  height: auto;
+  left: 105px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  text-decoration: underline;
+  top: 312px;
   white-space: nowrap;
   width: auto;
 }
@@ -1063,12 +1255,11 @@
 .history .x14-2-descriptiont-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 1222px;
   white-space: nowrap;
   width: auto;
@@ -1084,7 +1275,7 @@
   white-space: nowrap;
   width: 260px;
 }
-.history .x15-1-number-badge-sOobH5 {
+.history .x15-1-numbe-ge-app-bar-tWpLCk {
   background-color: transparent;
   color: var(--black);
   height: auto;
@@ -1093,6 +1284,18 @@
   position: absolute;
   text-align: left;
   text-decoration: underline;
+  top: 338px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x15-1-number-badge-sOobH5 {
+  background-color: transparent;
+  color: var(--black);
+  height: 26px;
+  left: 105px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
   top: 1248px;
   white-space: nowrap;
   width: auto;
@@ -1100,12 +1303,11 @@
 .history .x15-2-number-badge-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 1274px;
   white-space: nowrap;
   width: auto;
@@ -1113,17 +1315,16 @@
 .history .x15-3-number-badge-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 1300px;
   white-space: nowrap;
   width: auto;
 }
-.history .x15-4-dot-badge-sOobH5 {
+.history .x15-3-number-badge-tWpLCk {
   background-color: transparent;
   color: var(--black);
   height: auto;
@@ -1132,7 +1333,32 @@
   position: absolute;
   text-align: left;
   text-decoration: underline;
+  top: 364px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x15-4-dot-badge-sOobH5 {
+  background-color: transparent;
+  color: var(--black);
+  height: 26px;
+  left: 105px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
   top: 1326px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x15-4-dot-badge-tWpLCk {
+  background-color: transparent;
+  color: var(--black);
+  height: auto;
+  left: 105px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  text-decoration: underline;
+  top: 390px;
   white-space: nowrap;
   width: auto;
 }
@@ -1161,12 +1387,11 @@
 .history .x17-1-text-selectio-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 1352px;
   white-space: nowrap;
   width: auto;
@@ -1174,12 +1399,11 @@
 .history .x17-2-copy-paste-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 1378px;
   white-space: nowrap;
   width: auto;
@@ -1187,12 +1411,11 @@
 .history .x17-3-more-pop-up-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 1404px;
   white-space: nowrap;
   width: auto;
@@ -1200,12 +1423,11 @@
 .history .x17-4-cursor-handler-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 1430px;
   white-space: nowrap;
   width: auto;
@@ -1224,12 +1446,11 @@
 .history .x2-1-flat-button-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 182px;
   white-space: nowrap;
   width: auto;
@@ -1237,17 +1458,16 @@
 .history .x2-2-contained-butt-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 208px;
   white-space: nowrap;
   width: auto;
 }
-.history .x2-3-floating-actio-sOobH5 {
+.history .x2-3-floati-ion-button-tWpLCk {
   background-color: transparent;
   color: var(--black);
   height: auto;
@@ -1256,6 +1476,18 @@
   position: absolute;
   text-align: left;
   text-decoration: underline;
+  top: 52px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x2-3-floating-actio-sOobH5 {
+  background-color: transparent;
+  color: var(--black);
+  height: 26px;
+  left: 105px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
   top: 234px;
   white-space: nowrap;
   width: auto;
@@ -1295,7 +1527,31 @@
   white-space: nowrap;
   width: 170px;
 }
+.history .x2020-11-27-n5uwbj {
+  background-color: transparent;
+  color: var(--black);
+  height: 26px;
+  left: 20px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 22px;
+  white-space: nowrap;
+  width: 170px;
+}
 .history .x3-1-checkbox-sOobH5 {
+  background-color: transparent;
+  color: var(--black);
+  height: 26px;
+  left: 105px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 260px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x3-1-checkbox-tWpLCk {
   background-color: transparent;
   color: var(--black);
   height: auto;
@@ -1304,19 +1560,18 @@
   position: absolute;
   text-align: left;
   text-decoration: underline;
-  top: 260px;
+  top: 78px;
   white-space: nowrap;
   width: auto;
 }
 .history .x3-2-radio-button-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 286px;
   white-space: nowrap;
   width: auto;
@@ -1324,12 +1579,11 @@
 .history .x3-3-main-onoff-sw-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 312px;
   white-space: nowrap;
   width: auto;
@@ -1337,12 +1591,11 @@
 .history .x3-4-onoff-switch-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 338px;
   white-space: nowrap;
   width: auto;
@@ -1350,17 +1603,16 @@
 .history .x3-5-reorder-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 364px;
   white-space: nowrap;
   width: auto;
 }
-.history .x3-6-expand-button-sOobH5 {
+.history .x3-5-reorder-tWpLCk {
   background-color: transparent;
   color: var(--black);
   height: auto;
@@ -1369,6 +1621,18 @@
   position: absolute;
   text-align: left;
   text-decoration: underline;
+  top: 104px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x3-6-expand-button-sOobH5 {
+  background-color: transparent;
+  color: var(--black);
+  height: 26px;
+  left: 105px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
   top: 390px;
   white-space: nowrap;
   width: auto;
@@ -1376,12 +1640,11 @@
 .history .x3-7-add-delete-but-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 416px;
   white-space: nowrap;
   width: auto;
@@ -1400,12 +1663,11 @@
 .history .x4-17-date-picker-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 442px;
   white-space: nowrap;
   width: auto;
@@ -1413,12 +1675,11 @@
 .history .x4-18-date-time-p-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 468px;
   white-space: nowrap;
   width: auto;
@@ -1426,12 +1687,11 @@
 .history .x4-21-image-dialog-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 494px;
   white-space: nowrap;
   width: auto;
@@ -1447,7 +1707,7 @@
   white-space: nowrap;
   width: 260px;
 }
-.history .x5-1-divider-basic-sOobH5 {
+.history .x5-1-divide-basic-list-tWpLCk {
   background-color: transparent;
   color: var(--black);
   height: auto;
@@ -1456,19 +1716,43 @@
   position: absolute;
   text-align: left;
   text-decoration: underline;
+  top: 130px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x5-1-divider-basic-sOobH5 {
+  background-color: transparent;
+  color: var(--black);
+  height: 26px;
+  left: 105px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
   top: 520px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x5-2-divide-image-list-tWpLCk {
+  background-color: transparent;
+  color: var(--black);
+  height: auto;
+  left: 105px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  text-decoration: underline;
+  top: 156px;
   white-space: nowrap;
   width: auto;
 }
 .history .x5-2-divider-image-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 546px;
   white-space: nowrap;
   width: auto;
@@ -1476,12 +1760,11 @@
 .history .x5-3-divider-switch-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 572px;
   white-space: nowrap;
   width: auto;
@@ -1500,12 +1783,11 @@
 .history .x6-2-list-contents-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 598px;
   white-space: nowrap;
   width: auto;
@@ -1513,17 +1795,16 @@
 .history .x6-3-end-of-list-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 624px;
   white-space: nowrap;
   width: auto;
 }
-.history .x6-4-basic-list-sOobH5 {
+.history .x6-3-end-of-list-tWpLCk {
   background-color: transparent;
   color: var(--black);
   height: auto;
@@ -1532,6 +1813,18 @@
   position: absolute;
   text-align: left;
   text-decoration: underline;
+  top: 182px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x6-4-basic-list-sOobH5 {
+  background-color: transparent;
+  color: var(--black);
+  height: 26px;
+  left: 105px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
   top: 650px;
   white-space: nowrap;
   width: auto;
@@ -1539,12 +1832,11 @@
 .history .x6-5-image-list-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 676px;
   white-space: nowrap;
   width: auto;
@@ -1552,12 +1844,11 @@
 .history .x6-6-subheader-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 702px;
   white-space: nowrap;
   width: auto;
@@ -1565,12 +1856,11 @@
 .history .x6-7-expandable-lis-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 728px;
   white-space: nowrap;
   width: auto;
@@ -1578,12 +1868,11 @@
 .history .x6-8-multiple-selec-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 754px;
   white-space: nowrap;
   width: auto;
@@ -1602,12 +1891,11 @@
 .history .x7-2-no-results-fou-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 780px;
   white-space: nowrap;
   width: auto;
@@ -1626,17 +1914,16 @@
 .history .x8-2-progress-circl-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 806px;
   white-space: nowrap;
   width: auto;
 }
-.history .x8-5-progress-botto-sOobH5 {
+.history .x8-2-progress-circle-tWpLCk {
   background-color: transparent;
   color: var(--black);
   height: auto;
@@ -1645,6 +1932,18 @@
   position: absolute;
   text-align: left;
   text-decoration: underline;
+  top: 208px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x8-5-progress-botto-sOobH5 {
+  background-color: transparent;
+  color: var(--black);
+  height: 26px;
+  left: 105px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
   top: 832px;
   white-space: nowrap;
   width: auto;
@@ -1652,30 +1951,41 @@
 .history .x8-6-progress-list-sOobH5 {
   background-color: transparent;
   color: var(--black);
+  height: 26px;
+  left: 105px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 858px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x8-7-progre-ton-switch-tWpLCk {
+  background-color: transparent;
+  color: var(--black);
   height: auto;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
   text-decoration: underline;
-  top: 858px;
+  top: 234px;
   white-space: nowrap;
   width: auto;
 }
 .history .x8-7-progress-butto-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 884px;
   white-space: nowrap;
   width: auto;
 }
-.history .x8-8-pull-down-refr-sOobH5 {
+.history .x8-8-pull-d-wn-refresh-tWpLCk {
   background-color: transparent;
   color: var(--black);
   height: auto;
@@ -1684,6 +1994,18 @@
   position: absolute;
   text-align: left;
   text-decoration: underline;
+  top: 260px;
+  white-space: nowrap;
+  width: auto;
+}
+.history .x8-8-pull-down-refr-sOobH5 {
+  background-color: transparent;
+  color: var(--black);
+  height: 26px;
+  left: 105px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
   top: 910px;
   white-space: nowrap;
   width: auto;
@@ -1702,12 +2024,11 @@
 .history .x9-1-scroll-bar-sOobH5 {
   background-color: transparent;
   color: var(--black);
-  height: auto;
+  height: 26px;
   left: 105px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
-  text-decoration: underline;
   top: 936px;
   white-space: nowrap;
   width: auto;
@@ -1725,6 +2046,7 @@
 }
 :root {
   --black: rgba(0,0,0,1.0);
+  --fuchsia-pink: rgba(182,32,224,1.0);
   --gunsmoke: rgba(132,131,131,1.0);
   --sonic-silver: rgba(116,116,116,1.0);
   --suva-gray: rgba(135,135,135,1.0);

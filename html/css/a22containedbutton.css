@@ -94,6 +94,20 @@
   top: 0px;
   width: 145px;
 }
+.a22containedbutton .basic-X8GHNy {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: auto;
+  left: 10px;
+  line-height: 17px;
+  opacity: 0.8;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .basic-component-gui-mK9PxT {
   background-color: transparent;
   color: rgba(37,37,37,1.0);
@@ -107,20 +121,6 @@
   top: 21px;
   white-space: nowrap;
   width: 260px;
-}
-.a22containedbutton .basic-kTpozU {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
-  height: auto;
-  left: 10px;
-  line-height: 17px;
-  opacity: 0.8;
-  position: absolute;
-  text-align: left;
-  top: 6px;
-  white-space: nowrap;
-  width: auto;
 }
 .a22containedbutton .basic-x7YbIq {
   background-color: transparent;
@@ -195,6 +195,21 @@
 
 transform: scale(0.98);
 }
+.a22containedbutton .btn-bb5EzT {
+  background-color: rgba(102,102,204,1.0);
+  border-radius: 5px;
+  height: 29px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 142px;
+}
+.a22containedbutton .btn-bb5EzT:hover {
+
+transform: scale(0.98);
+}
 .a22containedbutton .btn-mwblLs {
   background-color: rgba(3,129,254,1.0);
   border-radius: 22.5px;
@@ -207,36 +222,6 @@ transform: scale(0.98);
   width: 274px;
 }
 .a22containedbutton .btn-mwblLs:hover {
-
-transform: scale(0.98);
-}
-.a22containedbutton .btn-ndccQg {
-  background-color: rgba(102,102,204,1.0);
-  border-radius: 5px;
-  height: 29px;
-  left: 0px;
-  pointer-events: auto;
-  position: relative;
-  top: 0px;
-  transition: all 0.2s ease-in-out;
-  width: 142px;
-}
-.a22containedbutton .btn-ndccQg:hover {
-
-transform: scale(0.98);
-}
-.a22containedbutton .btn-xpyOiF {
-  background-color: rgba(0,204,153,1.0);
-  border-radius: 5px;
-  height: 34px;
-  left: 0px;
-  pointer-events: auto;
-  position: relative;
-  top: 0px;
-  transition: all 0.2s ease-in-out;
-  width: 138px;
-}
-.a22containedbutton .btn-xpyOiF:hover {
 
 transform: scale(0.98);
 }
@@ -274,7 +259,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 108px;
 }
-.a22containedbutton .case-1-high-emphasis-Yv8bnx {
+.a22containedbutton .case-1-high-emphasis-D7jZB9 {
   background-color: transparent;
   color: var(--black);
   font-size: 16px;
@@ -287,7 +272,7 @@ transform: scale(0.98);
   top: 509px;
   width: 216px;
 }
-.a22containedbutton .case-2-medium-emphas-Yv8bnx {
+.a22containedbutton .case-2-medium-emphas-D7jZB9 {
   background-color: transparent;
   color: var(--black);
   font-size: 16px;
@@ -300,7 +285,7 @@ transform: scale(0.98);
   top: 509px;
   width: 216px;
 }
-.a22containedbutton .case-3-medium-emphas-Yv8bnx {
+.a22containedbutton .case-3-medium-emphas-D7jZB9 {
   background-color: transparent;
   color: var(--black);
   font-size: 16px;
@@ -313,7 +298,7 @@ transform: scale(0.98);
   top: 509px;
   width: 216px;
 }
-.a22containedbutton .case-4-medium-high-Yv8bnx {
+.a22containedbutton .case-4-medium-high-D7jZB9 {
   background-color: transparent;
   color: var(--black);
   font-size: 16px;
@@ -326,7 +311,7 @@ transform: scale(0.98);
   top: 509px;
   width: 216px;
 }
-.a22containedbutton .case-5-medium-high-Yv8bnx {
+.a22containedbutton .case-5-medium-high-D7jZB9 {
   background-color: transparent;
   color: var(--black);
   font-size: 16px;
@@ -345,6 +330,19 @@ transform: scale(0.98);
   font-size: 18px;
   height: auto;
   left: 101px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .comment-68L2n0 {
+  background-color: transparent;
+  color: var(--gray);
+  font-size: 18px;
+  height: auto;
+  left: 318px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -378,38 +376,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .comment-AtmlwI {
-  background-color: transparent;
-  color: var(--gray);
-  font-size: 18px;
-  height: auto;
-  left: 101px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a22containedbutton .comment-J2jO8L {
   background-color: transparent;
   color: var(--gray);
   font-size: 18px;
   height: auto;
   left: 101px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .comment-KRxw9J {
-  background-color: transparent;
-  color: var(--gray);
-  font-size: 18px;
-  height: auto;
-  left: 318px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -521,6 +493,19 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a22containedbutton .comment-dnxbT8 {
+  background-color: transparent;
+  color: var(--gray);
+  font-size: 18px;
+  height: auto;
+  left: 101px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .comment-kbMKnW {
   background-color: transparent;
   color: var(--gray);
@@ -540,6 +525,19 @@ transform: scale(0.98);
   font-size: 18px;
   height: auto;
   left: 127px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .comment-ojGuhJ {
+  background-color: transparent;
+  color: var(--gray);
+  font-size: 18px;
+  height: auto;
+  left: 318px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -592,19 +590,6 @@ transform: scale(0.98);
   font-size: 18px;
   height: auto;
   left: 122px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .comment-y5JAm7 {
-  background-color: transparent;
-  color: var(--gray);
-  font-size: 18px;
-  height: auto;
-  left: 318px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -670,15 +655,15 @@ transform: scale(0.98);
   top: 335px;
   width: 465px;
 }
-.a22containedbutton .default-width-nlnVUM {
+.a22containedbutton .default-width-TQDiaI {
   background-color: transparent;
-  height: 957px;
+  height: 636px;
   left: 0px;
   position: absolute;
-  top: 647px;
+  top: 657px;
   width: 1240px;
 }
-.a22containedbutton .default-width-so3dQ0 {
+.a22containedbutton .default-width-ZbRg96 {
   background-color: transparent;
   color: var(--black);
   font-size: 22px;
@@ -690,6 +675,14 @@ transform: scale(0.98);
   text-align: left;
   top: 0px;
   white-space: nowrap;
+  width: 1240px;
+}
+.a22containedbutton .default-width-nlnVUM {
+  background-color: transparent;
+  height: 957px;
+  left: 0px;
+  position: absolute;
+  top: 647px;
   width: 1240px;
 }
 .a22containedbutton .default-width-tUw3jX {
@@ -742,7 +735,7 @@ transform: scale(0.98);
   top: 1664px;
   width: 1240px;
 }
-.a22containedbutton .do-Yv8bnx {
+.a22containedbutton .do-D7jZB9 {
   background-color: transparent;
   color: var(--black);
   font-size: 22px;
@@ -756,50 +749,9 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .document-b-pdate-copy-CRAk3m {
-  background-color: rgba(0,204,153,0.2);
-  height: 27px;
-  left: 100px;
-  position: absolute;
-  top: 2px;
-  width: 40px;
-}
-.a22containedbutton .document-b-pdate-copy-ZY1B5N {
-  background-color: rgba(0,204,153,0.2);
-  height: 27px;
-  left: 227px;
-  position: absolute;
-  top: 2px;
-  width: 40px;
-}
-.a22containedbutton .document-b-pdate-copy-b7lr6t {
-  background-color: rgba(0,204,153,0.2);
-  height: 27px;
-  left: 109px;
-  position: absolute;
-  top: 36px;
-  width: 158px;
-}
-.a22containedbutton .document-b-pdate-copy-pOY9o1 {
-  background-color: rgba(0,204,153,0.2);
-  height: 27px;
-  left: 109px;
-  position: absolute;
-  top: 36px;
-  width: 158px;
-}
-.a22containedbutton .document-b-x-contents-16PBHL {
-  background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 275px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 505px;
-}
 .a22containedbutton .document-b-x-contents-1OxNzI {
   background-color: var(--white);
-  border: 2px solid rgba(0,204,153,1.0);
+  border: 1px solid var(--ebb);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -808,7 +760,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-4GnsOa {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 301px;
   left: 0px;
   position: absolute;
@@ -817,7 +769,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-5XslZR {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 1054px;
   left: 0px;
   position: absolute;
@@ -826,8 +778,17 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-85cEAC {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 379px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 505px;
+}
+.a22containedbutton .document-b-x-contents-8reExx {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 275px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -835,7 +796,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-A9aoxY {
   background-color: var(--white);
-  border: 2px solid rgba(0,204,153,1.0);
+  border: 1px solid var(--ebb);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -844,7 +805,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-BdsFKW {
   background-color: var(--white);
-  border: 2px solid rgba(0,204,153,1.0);
+  border: 1px solid var(--ebb);
   height: 326px;
   left: 0px;
   position: absolute;
@@ -853,7 +814,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-I9jW9q {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 517px;
   left: 0px;
   position: absolute;
@@ -862,7 +823,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-IVNWh6 {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 303px;
   left: 0px;
   position: absolute;
@@ -871,25 +832,16 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-L2ylWz {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 200px;
   left: 0px;
   position: absolute;
   top: 0px;
   width: 1240px;
 }
-.a22containedbutton .document-b-x-contents-PVNDSN {
-  background-color: var(--white);
-  border: 2px solid rgba(0,204,153,1.0);
-  height: 558px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 715px;
-}
 .a22containedbutton .document-b-x-contents-Rz1z7J {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 515px;
   left: 0px;
   position: absolute;
@@ -898,25 +850,16 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-YOVf0a {
   background-color: var(--white);
-  border: 2px solid rgba(0,204,153,1.0);
+  border: 1px solid var(--ebb);
   height: 238px;
   left: 0px;
   position: absolute;
   top: 0px;
   width: 1240px;
 }
-.a22containedbutton .document-b-x-contents-YS4HFf {
-  background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 1201px;
-  left: 0px;
-  position: absolute;
-  top: 83px;
-  width: 1240px;
-}
 .a22containedbutton .document-b-x-contents-YpxXkC {
   background-color: var(--white);
-  border: 2px solid rgba(0,204,153,1.0);
+  border: 1px solid var(--ebb);
   height: 916px;
   left: 0px;
   position: absolute;
@@ -925,7 +868,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-bhBWwg {
   background-color: var(--white);
-  border: 2px solid rgba(0,204,153,1.0);
+  border: 1px solid var(--ebb);
   height: 326px;
   left: 0px;
   position: absolute;
@@ -934,7 +877,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-bz3uxC {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 219px;
   left: 0px;
   position: absolute;
@@ -943,7 +886,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-dPpKsx {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 512px;
   left: 0px;
   position: absolute;
@@ -952,34 +895,52 @@ transform: scale(0.98);
 }
 .a22containedbutton .document-b-x-contents-g5wJq4 {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 238px;
   left: 0px;
   position: absolute;
   top: 0px;
   width: 1240px;
 }
-.a22containedbutton .document-b-x-contents-n8NrV0 {
+.a22containedbutton .document-b-x-contents-k8OmBS {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
-  height: 259px;
+  border: 1px solid var(--ebb);
+  height: 558px;
   left: 0px;
   position: absolute;
   top: 0px;
-  width: 505px;
+  width: 715px;
+}
+.a22containedbutton .document-b-x-contents-lRJkoe {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 1201px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1240px;
 }
 .a22containedbutton .document-b-x-contents-rZOiIF {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 1px solid var(--ebb);
   height: 257px;
   left: 0px;
   position: absolute;
   top: 0px;
   width: 1240px;
 }
+.a22containedbutton .document-b-x-contents-xKTa7F {
+  background-color: var(--white);
+  border: 1px solid var(--ebb);
+  height: 249px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 505px;
+}
 .a22containedbutton .document-b-x-contents-xTGskI {
   background-color: var(--white);
-  border: 2px solid rgba(0,204,153,1.0);
+  border: 1px solid var(--ebb);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -994,7 +955,7 @@ transform: scale(0.98);
   top: 10191px;
   width: 274px;
 }
-.a22containedbutton .dont-Yv8bnx {
+.a22containedbutton .dont-D7jZB9 {
   background-color: transparent;
   color: var(--black);
   font-size: 22px;
@@ -1018,7 +979,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .fn-1xAWQD {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -1031,7 +992,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .fn-4AjWZx {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -1042,7 +1003,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .fn-CGC3KY {
+.a22containedbutton .fn-AKeHU5 {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -1057,20 +1018,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .fn-GBv7Lx {
   background-color: transparent;
-  color: var(--alabaster);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .fn-GpV6Id {
-  background-color: transparent;
-  color: var(--masala);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -1094,7 +1042,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .fn-YasVxU {
+.a22containedbutton .fn-WrgYIK {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -1122,7 +1070,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .fn-dxp46S {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -1135,7 +1083,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .fn-eus53X {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -1161,7 +1109,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .fn-o8Wt6m {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -1187,7 +1135,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .fn-u2sHH3 {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 0px;
@@ -1198,13 +1146,18 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .general-16PBHL {
+.a22containedbutton .fn-zJTe4x {
   background-color: transparent;
-  height: 163px;
-  left: 20px;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
   position: absolute;
-  top: 82px;
-  width: 465px;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a22containedbutton .general-4GnsOa {
   background-color: transparent;
@@ -1222,12 +1175,12 @@ transform: scale(0.98);
   top: 84px;
   width: 465px;
 }
-.a22containedbutton .general-8wJXGe {
+.a22containedbutton .general-8reExx {
   background-color: transparent;
-  height: 28px;
+  height: 163px;
   left: 20px;
   position: absolute;
-  top: 201px;
+  top: 82px;
   width: 465px;
 }
 .a22containedbutton .general-I9jW9q {
@@ -1246,14 +1199,6 @@ transform: scale(0.98);
   top: 82px;
   width: 465px;
 }
-.a22containedbutton .general-cwv61G {
-  background-color: transparent;
-  height: 53px;
-  left: 20px;
-  position: absolute;
-  top: 218px;
-  width: 465px;
-}
 .a22containedbutton .general-dPpKsx {
   background-color: transparent;
   height: 50px;
@@ -1262,7 +1207,7 @@ transform: scale(0.98);
   top: 82px;
   width: 465px;
 }
-.a22containedbutton .general-n8NrV0 {
+.a22containedbutton .general-xKTa7F {
   background-color: transparent;
   height: 137px;
   left: 20px;
@@ -1654,6 +1599,14 @@ transform: scale(0.98);
   top: 0px;
   width: 320px;
 }
+.a22containedbutton .group-0YlT4b {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 122px;
+}
 .a22containedbutton .group-2-1cKyI2 {
   background-color: transparent;
   height: 22px;
@@ -1718,14 +1671,6 @@ transform: scale(0.98);
   top: 0px;
   width: 229px;
 }
-.a22containedbutton .group-2-MjelZi {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 410px;
-}
 .a22containedbutton .group-2-QcDxuW {
   background-color: transparent;
   height: 22px;
@@ -1742,14 +1687,6 @@ transform: scale(0.98);
   top: 0px;
   width: 253px;
 }
-.a22containedbutton .group-2-Tdg1Sd {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 420px;
-}
 .a22containedbutton .group-2-VQxeng {
   background-color: transparent;
   height: 22px;
@@ -1765,6 +1702,14 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 204px;
+}
+.a22containedbutton .group-2-YDxGIj {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 410px;
 }
 .a22containedbutton .group-2-ay6J41 {
   background-color: transparent;
@@ -1797,14 +1742,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 255px;
-}
-.a22containedbutton .group-2-gjon5A {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 201px;
 }
 .a22containedbutton .group-2-hfyacu {
   background-color: transparent;
@@ -1862,6 +1799,14 @@ transform: scale(0.98);
   top: 0px;
   width: 286px;
 }
+.a22containedbutton .group-2-sGuB6a {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 201px;
+}
 .a22containedbutton .group-2-xaKyvD {
   background-color: transparent;
   height: 22px;
@@ -1869,6 +1814,14 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 349px;
+}
+.a22containedbutton .group-2-yAS3wH {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 420px;
 }
 .a22containedbutton .group-2-yPheAx {
   background-color: transparent;
@@ -1902,6 +1855,14 @@ transform: scale(0.98);
   top: 78px;
   width: 1240px;
 }
+.a22containedbutton .group-8j8f1a {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 146px;
+}
 .a22containedbutton .group-DBvHBn {
   background-color: transparent;
   height: 22px;
@@ -1925,6 +1886,22 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 146px;
+}
+.a22containedbutton .group-HX3G1G {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 248px;
+}
+.a22containedbutton .group-HYQTY0 {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 203px;
 }
 .a22containedbutton .group-IdjW02 {
   background-color: transparent;
@@ -1982,22 +1959,6 @@ transform: scale(0.98);
   top: 0px;
   width: 26px;
 }
-.a22containedbutton .group-TQDiaI {
-  background-color: transparent;
-  height: 636px;
-  left: 0px;
-  position: absolute;
-  top: 657px;
-  width: 1240px;
-}
-.a22containedbutton .group-U3E5ew {
-  background-color: transparent;
-  height: 24px;
-  left: 10px;
-  position: relative;
-  top: 5px;
-  width: 118px;
-}
 .a22containedbutton .group-VBMVZz {
   background-color: rgba(242,242,242,1.0);
   height: 22px;
@@ -2014,14 +1975,6 @@ transform: scale(0.98);
   top: 0px;
   width: 187px;
 }
-.a22containedbutton .group-X0CeBB {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 163px;
-}
 .a22containedbutton .group-X3tfEW {
   background-color: transparent;
   height: 22px;
@@ -2029,14 +1982,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 123px;
-}
-.a22containedbutton .group-XUh9u4 {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 146px;
 }
 .a22containedbutton .group-YiRqHl {
   background-color: rgba(71,71,71,1.0);
@@ -2046,14 +1991,6 @@ transform: scale(0.98);
   top: 0px;
   width: 32px;
 }
-.a22containedbutton .group-Ywhxcx {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 248px;
-}
 .a22containedbutton .group-ZXK5xr {
   background-color: transparent;
   height: 22px;
@@ -2061,22 +1998,6 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 146px;
-}
-.a22containedbutton .group-bSTeSk {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 203px;
-}
-.a22containedbutton .group-iUPxmw {
-  background-color: transparent;
-  height: 22px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 122px;
 }
 .a22containedbutton .group-kbMKnW {
   background-color: rgba(242,242,242,1.0);
@@ -2093,6 +2014,14 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 37px;
+}
+.a22containedbutton .group-n7M86Y {
+  background-color: transparent;
+  height: 22px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 163px;
 }
 .a22containedbutton .group-nqXgqO {
   background-color: rgba(242,242,242,1.0);
@@ -2214,6 +2143,14 @@ transform: scale(0.98);
   top: 78px;
   width: 1240px;
 }
+.a22containedbutton .guide-ZbRg96 {
+  background-color: transparent;
+  height: 558px;
+  left: 0px;
+  position: absolute;
+  top: 78px;
+  width: 715px;
+}
 .a22containedbutton .guide-b7lr6t {
   background-color: transparent;
   height: 326px;
@@ -2270,7 +2207,7 @@ transform: scale(0.98);
   top: 56px;
   width: 209px;
 }
-.a22containedbutton .guide-form-al1linecmt-7xUtb1 {
+.a22containedbutton .guide-form-al1linecmt-N2rJKN {
   background-color: transparent;
   height: 22px;
   left: 32px;
@@ -2286,7 +2223,7 @@ transform: scale(0.98);
   top: 56px;
   width: 286px;
 }
-.a22containedbutton .guide-form-ction1line-q0oDTC {
+.a22containedbutton .guide-form-ction1line-lq4Cec {
   background-color: transparent;
   height: 22px;
   left: 32px;
@@ -2295,14 +2232,6 @@ transform: scale(0.98);
   width: 201px;
 }
 .a22containedbutton .guide-form-e-subtitle-2l9W8x {
-  background-color: transparent;
-  height: 19px;
-  left: 32px;
-  position: absolute;
-  top: 0px;
-  width: 57px;
-}
-.a22containedbutton .guide-form-e-subtitle-7xUtb1 {
   background-color: transparent;
   height: 19px;
   left: 32px;
@@ -2358,6 +2287,22 @@ transform: scale(0.98);
   top: 0px;
   width: 84px;
 }
+.a22containedbutton .guide-form-e-subtitle-N2rJKN {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 57px;
+}
+.a22containedbutton .guide-form-e-subtitle-NPxZA9 {
+  background-color: transparent;
+  height: 19px;
+  left: 32px;
+  position: absolute;
+  top: 0px;
+  width: 35px;
+}
 .a22containedbutton .guide-form-e-subtitle-WEWpXg {
   background-color: transparent;
   height: 19px;
@@ -2382,14 +2327,6 @@ transform: scale(0.98);
   top: 0px;
   width: 57px;
 }
-.a22containedbutton .guide-form-e-subtitle-kuEFR2 {
-  background-color: transparent;
-  height: 19px;
-  left: 32px;
-  position: absolute;
-  top: 0px;
-  width: 35px;
-}
 .a22containedbutton .guide-form-e-subtitle-lpYnsh {
   background-color: transparent;
   height: 19px;
@@ -2398,7 +2335,7 @@ transform: scale(0.98);
   top: 0px;
   width: 87px;
 }
-.a22containedbutton .guide-form-e-subtitle-nj3Aft {
+.a22containedbutton .guide-form-e-subtitle-lq4Cec {
   background-color: transparent;
   height: 19px;
   left: 32px;
@@ -2406,7 +2343,7 @@ transform: scale(0.98);
   top: 0px;
   width: 57px;
 }
-.a22containedbutton .guide-form-e-subtitle-q0oDTC {
+.a22containedbutton .guide-form-e-subtitle-nj3Aft {
   background-color: transparent;
   height: 19px;
   left: 32px;
@@ -2422,7 +2359,7 @@ transform: scale(0.98);
   top: 0px;
   width: 84px;
 }
-.a22containedbutton .guide-form-escription-kuEFR2 {
+.a22containedbutton .guide-form-escription-NPxZA9 {
   background-color: transparent;
   height: 22px;
   left: 32px;
@@ -2518,15 +2455,7 @@ transform: scale(0.98);
   top: 28px;
   width: 253px;
 }
-.a22containedbutton .guide-form-me-divider-7xUtb1 {
-  background-color: rgba(0,0,0,0.08);
-  height: 1px;
-  left: 32px;
-  position: absolute;
-  top: 100px;
-  width: 401px;
-}
-.a22containedbutton .guide-form-me-divider-8u4ZhV {
+.a22containedbutton .guide-form-me-divider-0OAGxn {
   background-color: rgba(0,0,0,0.08);
   height: 1px;
   left: 32px;
@@ -2566,6 +2495,14 @@ transform: scale(0.98);
   top: 87px;
   width: 401px;
 }
+.a22containedbutton .guide-form-me-divider-N2rJKN {
+  background-color: rgba(0,0,0,0.08);
+  height: 1px;
+  left: 32px;
+  position: absolute;
+  top: 100px;
+  width: 401px;
+}
 .a22containedbutton .guide-form-me-divider-bqiphq {
   background-color: rgba(0,0,0,0.08);
   height: 1px;
@@ -2582,21 +2519,21 @@ transform: scale(0.98);
   top: 59px;
   width: 401px;
 }
-.a22containedbutton .guide-form-on1linecmt-7xUtb1 {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 69px;
-  width: 410px;
-}
-.a22containedbutton .guide-form-on1linecmt-8u4ZhV {
+.a22containedbutton .guide-form-on1linecmt-0OAGxn {
   background-color: transparent;
   height: 22px;
   left: 32px;
   position: absolute;
   top: 110px;
   width: 420px;
+}
+.a22containedbutton .guide-form-on1linecmt-N2rJKN {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 69px;
+  width: 410px;
 }
 .a22containedbutton .guide-form-ormal-dark-qeCDSx {
   background-color: transparent;
@@ -2622,15 +2559,7 @@ transform: scale(0.98);
   top: 56px;
   width: 123px;
 }
-.a22containedbutton .guide-form-ormal1line-7xUtb1 {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 28px;
-  width: 163px;
-}
-.a22containedbutton .guide-form-ormal1line-8ioeKI {
+.a22containedbutton .guide-form-ormal1line-9BklyN {
   background-color: transparent;
   height: 22px;
   left: 32px;
@@ -2638,7 +2567,7 @@ transform: scale(0.98);
   top: 84px;
   width: 146px;
 }
-.a22containedbutton .guide-form-ormal1line-9BklyN {
+.a22containedbutton .guide-form-ormal1line-9W2X64 {
   background-color: transparent;
   height: 22px;
   left: 32px;
@@ -2662,6 +2591,14 @@ transform: scale(0.98);
   top: 28px;
   width: 163px;
 }
+.a22containedbutton .guide-form-ormal1line-N2rJKN {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 163px;
+}
 .a22containedbutton .guide-form-ormal1line-WEWpXg {
   background-color: transparent;
   height: 22px;
@@ -2669,14 +2606,6 @@ transform: scale(0.98);
   position: absolute;
   top: 28px;
   width: 248px;
-}
-.a22containedbutton .guide-form-ormal1line-b3yO8g {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 56px;
-  width: 122px;
 }
 .a22containedbutton .guide-form-ormal1line-hFYqb9 {
   background-color: transparent;
@@ -2686,6 +2615,22 @@ transform: scale(0.98);
   top: 28px;
   width: 201px;
 }
+.a22containedbutton .guide-form-ormal1line-jKVDrr {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 56px;
+  width: 122px;
+}
+.a22containedbutton .guide-form-ormal1line-lq4Cec {
+  background-color: transparent;
+  height: 22px;
+  left: 32px;
+  position: absolute;
+  top: 28px;
+  width: 248px;
+}
 .a22containedbutton .guide-form-ormal1line-nj3Aft {
   background-color: transparent;
   height: 22px;
@@ -2693,14 +2638,6 @@ transform: scale(0.98);
   position: absolute;
   top: 28px;
   width: 163px;
-}
-.a22containedbutton .guide-form-ormal1line-q0oDTC {
-  background-color: transparent;
-  height: 22px;
-  left: 32px;
-  position: absolute;
-  top: 28px;
-  width: 248px;
 }
 .a22containedbutton .guide-form-ormal1line-yXNI98 {
   background-color: transparent;
@@ -2782,7 +2719,7 @@ transform: scale(0.98);
   top: 0px;
   width: 21px;
 }
-.a22containedbutton .guide-meas--spacing-1-ZBzmzx {
+.a22containedbutton .guide-meas--spacing-1-ZmPNhl {
   background-color: transparent;
   height: 19px;
   left: 542px;
@@ -2806,7 +2743,7 @@ transform: scale(0.98);
   top: 0px;
   width: 27px;
 }
-.a22containedbutton .guide-meas--spacing-1-jYxvDZ {
+.a22containedbutton .guide-meas--spacing-1-kDPyZm {
   background-color: transparent;
   height: 19px;
   left: 542px;
@@ -2838,14 +2775,6 @@ transform: scale(0.98);
   top: 7px;
   width: 24px;
 }
-.a22containedbutton .guide-meas--spacing-2-9YFSXm {
-  background-color: transparent;
-  height: 29px;
-  left: 0px;
-  position: absolute;
-  top: 7px;
-  width: 36px;
-}
 .a22containedbutton .guide-meas--spacing-2-AOKm56 {
   background-color: transparent;
   height: 29px;
@@ -2853,6 +2782,22 @@ transform: scale(0.98);
   position: absolute;
   top: 52px;
   width: 24px;
+}
+.a22containedbutton .guide-meas--spacing-2-B4lx7L {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 36px;
+}
+.a22containedbutton .guide-meas--spacing-2-CpMX5C {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 12px;
 }
 .a22containedbutton .guide-meas--spacing-2-ECr4tH {
   background-color: transparent;
@@ -2878,6 +2823,14 @@ transform: scale(0.98);
   top: 90px;
   width: 36px;
 }
+.a22containedbutton .guide-meas--spacing-2-LrobYn {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 36px;
+}
 .a22containedbutton .guide-meas--spacing-2-M1kXLP {
   background-color: transparent;
   height: 29px;
@@ -2894,7 +2847,7 @@ transform: scale(0.98);
   top: 74px;
   width: 36px;
 }
-.a22containedbutton .guide-meas--spacing-2-Oxa3xx {
+.a22containedbutton .guide-meas--spacing-2-NFp0UZ {
   background-color: transparent;
   height: 47px;
   left: 0px;
@@ -2910,7 +2863,7 @@ transform: scale(0.98);
   top: 7px;
   width: 45px;
 }
-.a22containedbutton .guide-meas--spacing-2-UAUJrD {
+.a22containedbutton .guide-meas--spacing-2-T5WndJ {
   background-color: transparent;
   height: 47px;
   left: 0px;
@@ -2950,14 +2903,6 @@ transform: scale(0.98);
   top: 170px;
   width: 12px;
 }
-.a22containedbutton .guide-meas--spacing-2-ahtQb7 {
-  background-color: transparent;
-  height: 29px;
-  left: 0px;
-  position: absolute;
-  top: 7px;
-  width: 12px;
-}
 .a22containedbutton .guide-meas--spacing-2-ewanmT {
   background-color: transparent;
   height: 29px;
@@ -2982,22 +2927,6 @@ transform: scale(0.98);
   top: 7px;
   width: 144px;
 }
-.a22containedbutton .guide-meas--spacing-2-jxtGMV {
-  background-color: transparent;
-  height: 47px;
-  left: 0px;
-  position: absolute;
-  top: 77px;
-  width: 36px;
-}
-.a22containedbutton .guide-meas--spacing-2-mAgzIW {
-  background-color: transparent;
-  height: 47px;
-  left: 0px;
-  position: absolute;
-  top: 77px;
-  width: 36px;
-}
 .a22containedbutton .guide-meas--spacing-2-nxONSt {
   background-color: transparent;
   height: 29px;
@@ -3014,12 +2943,12 @@ transform: scale(0.98);
   top: 7px;
   width: 144px;
 }
-.a22containedbutton .guide-meas--spacing-2-rApWCU {
+.a22containedbutton .guide-meas--spacing-2-sXdMr4 {
   background-color: transparent;
-  height: 29px;
+  height: 47px;
   left: 0px;
   position: absolute;
-  top: 7px;
+  top: 77px;
   width: 36px;
 }
 .a22containedbutton .guide-meas--spacing-2-uShj4Y {
@@ -3029,6 +2958,14 @@ transform: scale(0.98);
   position: absolute;
   top: 7px;
   width: 240px;
+}
+.a22containedbutton .guide-meas--spacing-2-xJqqp3 {
+  background-color: transparent;
+  height: 47px;
+  left: 0px;
+  position: absolute;
+  top: 77px;
+  width: 36px;
 }
 .a22containedbutton .guide-meas--spacing-2-xnxeL2 {
   background-color: transparent;
@@ -3126,9 +3063,19 @@ transform: scale(0.98);
   top: 46px;
   width: 36px;
 }
+.a22containedbutton .guide-meas-e-vertical-0zOVyc {
+  background-color: transparent;
+  background-image: url(../img/2-2-contained-button-line-CE5734E7-9714-4B3F-B84C-0AB74BB40EDC@2x.png);
+  background-size: 100% 100%;
+  height: 9px;
+  left: 227px;
+  position: absolute;
+  top: 38px;
+  width: 1px;
+}
 .a22containedbutton .guide-meas-e-vertical-2Ma41A {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-DC8FEC9C-0ECD-4AD4-8BB5-2BAAE48BDB65@2x.png);
+  background-image: url(../img/2-2-contained-button-line-136E6675-2C14-45EA-A753-AA226F6290EB@2x.png);
   background-size: 100% 100%;
   height: 114px;
   left: 31px;
@@ -3136,19 +3083,9 @@ transform: scale(0.98);
   top: 38px;
   width: 1px;
 }
-.a22containedbutton .guide-meas-e-vertical-3XlFDH {
-  background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9A34521D-A25C-41E9-99F9-4D5A06D99647@2x.png);
-  background-size: 100% 100%;
-  height: 9px;
-  left: 29px;
-  position: absolute;
-  top: 66px;
-  width: 1px;
-}
 .a22containedbutton .guide-meas-e-vertical-6mBDAv {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-626C8589-A2F3-40EA-BE8C-DFD4C1422FB3@2x.png);
+  background-image: url(../img/2-2-contained-button-line-FEB2C501-FF27-4EB4-A25C-3CE7C35577C8@2x.png);
   background-size: 100% 100%;
   height: 63px;
   left: 269px;
@@ -3158,7 +3095,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-BG5kti {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-626C8589-A2F3-40EA-BE8C-DFD4C1422FB3@2x.png);
+  background-image: url(../img/2-2-contained-button-line-FEB2C501-FF27-4EB4-A25C-3CE7C35577C8@2x.png);
   background-size: 100% 100%;
   height: 63px;
   left: 0px;
@@ -3168,7 +3105,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-CRAk3m {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-E694AD60-A3BA-42EC-B47E-47B3123F42B6@2x.png);
+  background-image: url(../img/2-2-contained-button-line-AE88B19D-960D-4682-AA89-CAB8C3720FF8@2x.png);
   background-size: 100% 100%;
   height: 44px;
   left: 239px;
@@ -3178,7 +3115,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-Ct0JYP {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-E694AD60-A3BA-42EC-B47E-47B3123F42B6@2x.png);
+  background-image: url(../img/2-2-contained-button-line-AE88B19D-960D-4682-AA89-CAB8C3720FF8@2x.png);
   background-size: 100% 100%;
   height: 44px;
   left: 431px;
@@ -3188,7 +3125,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-FKG83Z {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-E694AD60-A3BA-42EC-B47E-47B3123F42B6@2x.png);
+  background-image: url(../img/2-2-contained-button-line-AE88B19D-960D-4682-AA89-CAB8C3720FF8@2x.png);
   background-size: 100% 100%;
   height: 44px;
   left: 0px;
@@ -3196,9 +3133,19 @@ transform: scale(0.98);
   top: 37px;
   width: 1px;
 }
+.a22containedbutton .guide-meas-e-vertical-GFRURl {
+  background-color: transparent;
+  background-image: url(../img/2-2-contained-button-line-BC13026F-4468-4672-A93A-C374954E461A@2x.png);
+  background-size: 100% 100%;
+  height: 9px;
+  left: 29px;
+  position: absolute;
+  top: 66px;
+  width: 1px;
+}
 .a22containedbutton .guide-meas-e-vertical-GKxlL3 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-E694AD60-A3BA-42EC-B47E-47B3123F42B6@2x.png);
+  background-image: url(../img/2-2-contained-button-line-AE88B19D-960D-4682-AA89-CAB8C3720FF8@2x.png);
   background-size: 100% 100%;
   height: 44px;
   left: 0px;
@@ -3208,7 +3155,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-HN7bnx {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-DC8FEC9C-0ECD-4AD4-8BB5-2BAAE48BDB65@2x.png);
+  background-image: url(../img/2-2-contained-button-line-136E6675-2C14-45EA-A753-AA226F6290EB@2x.png);
   background-size: 100% 100%;
   height: 114px;
   left: 0px;
@@ -3216,29 +3163,9 @@ transform: scale(0.98);
   top: 38px;
   width: 1px;
 }
-.a22containedbutton .guide-meas-e-vertical-JSGdxZ {
-  background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-ACAA8A21-EC03-4103-BF45-CC0ADB9B768B@2x.png);
-  background-size: 100% 100%;
-  height: 9px;
-  left: 227px;
-  position: absolute;
-  top: 38px;
-  width: 1px;
-}
-.a22containedbutton .guide-meas-e-vertical-Ki0PhN {
-  background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9A34521D-A25C-41E9-99F9-4D5A06D99647@2x.png);
-  background-size: 100% 100%;
-  height: 9px;
-  left: 29px;
-  position: absolute;
-  top: 66px;
-  width: 1px;
-}
 .a22containedbutton .guide-meas-e-vertical-LAr2Wv {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-626C8589-A2F3-40EA-BE8C-DFD4C1422FB3@2x.png);
+  background-image: url(../img/2-2-contained-button-line-FEB2C501-FF27-4EB4-A25C-3CE7C35577C8@2x.png);
   background-size: 100% 100%;
   height: 63px;
   left: 431px;
@@ -3248,7 +3175,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-MrnsUJ {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-44951507-6186-4A19-AC7E-5D3371DB413D@2x.png);
+  background-image: url(../img/2-2-contained-button-line-3A236AC7-9557-41D6-9DB7-8957F273CF49@2x.png);
   background-size: 100% 100%;
   height: 38px;
   left: 719px;
@@ -3258,7 +3185,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-NF1KYc {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-E694AD60-A3BA-42EC-B47E-47B3123F42B6@2x.png);
+  background-image: url(../img/2-2-contained-button-line-AE88B19D-960D-4682-AA89-CAB8C3720FF8@2x.png);
   background-size: 100% 100%;
   height: 44px;
   left: 269px;
@@ -3266,39 +3193,9 @@ transform: scale(0.98);
   top: 38px;
   width: 1px;
 }
-.a22containedbutton .guide-meas-e-vertical-OduDyD {
+.a22containedbutton .guide-meas-e-vertical-NFp0UZ {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-ACAA8A21-EC03-4103-BF45-CC0ADB9B768B@2x.png);
-  background-size: 100% 100%;
-  height: 9px;
-  left: 0px;
-  position: absolute;
-  top: 38px;
-  width: 1px;
-}
-.a22containedbutton .guide-meas-e-vertical-RqosVm {
-  background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-44951507-6186-4A19-AC7E-5D3371DB413D@2x.png);
-  background-size: 100% 100%;
-  height: 38px;
-  left: 719px;
-  position: absolute;
-  top: 0px;
-  width: 1px;
-}
-.a22containedbutton .guide-meas-e-vertical-Ty810Y {
-  background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-44951507-6186-4A19-AC7E-5D3371DB413D@2x.png);
-  background-size: 100% 100%;
-  height: 38px;
-  left: 719px;
-  position: absolute;
-  top: 0px;
-  width: 1px;
-}
-.a22containedbutton .guide-meas-e-vertical-UAUJrD {
-  background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9A34521D-A25C-41E9-99F9-4D5A06D99647@2x.png);
+  background-image: url(../img/2-2-contained-button-line-BC13026F-4468-4672-A93A-C374954E461A@2x.png);
   background-size: 100% 100%;
   height: 9px;
   left: 6px;
@@ -3306,9 +3203,39 @@ transform: scale(0.98);
   top: 66px;
   width: 1px;
 }
+.a22containedbutton .guide-meas-e-vertical-RqosVm {
+  background-color: transparent;
+  background-image: url(../img/2-2-contained-button-line-3A236AC7-9557-41D6-9DB7-8957F273CF49@2x.png);
+  background-size: 100% 100%;
+  height: 38px;
+  left: 719px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a22containedbutton .guide-meas-e-vertical-T5WndJ {
+  background-color: transparent;
+  background-image: url(../img/2-2-contained-button-line-BC13026F-4468-4672-A93A-C374954E461A@2x.png);
+  background-size: 100% 100%;
+  height: 9px;
+  left: 6px;
+  position: absolute;
+  top: 66px;
+  width: 1px;
+}
+.a22containedbutton .guide-meas-e-vertical-Ty810Y {
+  background-color: transparent;
+  background-image: url(../img/2-2-contained-button-line-3A236AC7-9557-41D6-9DB7-8957F273CF49@2x.png);
+  background-size: 100% 100%;
+  height: 38px;
+  left: 719px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
 .a22containedbutton .guide-meas-e-vertical-XHTR58 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-44951507-6186-4A19-AC7E-5D3371DB413D@2x.png);
+  background-image: url(../img/2-2-contained-button-line-3A236AC7-9557-41D6-9DB7-8957F273CF49@2x.png);
   background-size: 100% 100%;
   height: 38px;
   left: 0px;
@@ -3318,7 +3245,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-YvoMCx {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-626C8589-A2F3-40EA-BE8C-DFD4C1422FB3@2x.png);
+  background-image: url(../img/2-2-contained-button-line-FEB2C501-FF27-4EB4-A25C-3CE7C35577C8@2x.png);
   background-size: 100% 100%;
   height: 63px;
   left: 0px;
@@ -3326,49 +3253,9 @@ transform: scale(0.98);
   top: 31px;
   width: 1px;
 }
-.a22containedbutton .guide-meas-e-vertical-gbXo0R {
+.a22containedbutton .guide-meas-e-vertical-aAUppx {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-44951507-6186-4A19-AC7E-5D3371DB413D@2x.png);
-  background-size: 100% 100%;
-  height: 38px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 1px;
-}
-.a22containedbutton .guide-meas-e-vertical-iXLekp {
-  background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-ACAA8A21-EC03-4103-BF45-CC0ADB9B768B@2x.png);
-  background-size: 100% 100%;
-  height: 9px;
-  left: 227px;
-  position: absolute;
-  top: 38px;
-  width: 1px;
-}
-.a22containedbutton .guide-meas-e-vertical-jlTKEY {
-  background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-E694AD60-A3BA-42EC-B47E-47B3123F42B6@2x.png);
-  background-size: 100% 100%;
-  height: 44px;
-  left: 0px;
-  position: absolute;
-  top: 38px;
-  width: 1px;
-}
-.a22containedbutton .guide-meas-e-vertical-jxtGMV {
-  background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9A34521D-A25C-41E9-99F9-4D5A06D99647@2x.png);
-  background-size: 100% 100%;
-  height: 9px;
-  left: 6px;
-  position: absolute;
-  top: 66px;
-  width: 1px;
-}
-.a22containedbutton .guide-meas-e-vertical-lcItWt {
-  background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9A34521D-A25C-41E9-99F9-4D5A06D99647@2x.png);
+  background-image: url(../img/2-2-contained-button-line-BC13026F-4468-4672-A93A-C374954E461A@2x.png);
   background-size: 100% 100%;
   height: 9px;
   left: 29px;
@@ -3376,19 +3263,49 @@ transform: scale(0.98);
   top: 66px;
   width: 1px;
 }
-.a22containedbutton .guide-meas-e-vertical-mAgzIW {
+.a22containedbutton .guide-meas-e-vertical-bQ8eD6 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9A34521D-A25C-41E9-99F9-4D5A06D99647@2x.png);
+  background-image: url(../img/2-2-contained-button-line-BC13026F-4468-4672-A93A-C374954E461A@2x.png);
   background-size: 100% 100%;
   height: 9px;
-  left: 6px;
+  left: 29px;
   position: absolute;
   top: 66px;
   width: 1px;
 }
+.a22containedbutton .guide-meas-e-vertical-gbXo0R {
+  background-color: transparent;
+  background-image: url(../img/2-2-contained-button-line-3A236AC7-9557-41D6-9DB7-8957F273CF49@2x.png);
+  background-size: 100% 100%;
+  height: 38px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a22containedbutton .guide-meas-e-vertical-jlTKEY {
+  background-color: transparent;
+  background-image: url(../img/2-2-contained-button-line-AE88B19D-960D-4682-AA89-CAB8C3720FF8@2x.png);
+  background-size: 100% 100%;
+  height: 44px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 1px;
+}
+.a22containedbutton .guide-meas-e-vertical-ks5xSM {
+  background-color: transparent;
+  background-image: url(../img/2-2-contained-button-line-CE5734E7-9714-4B3F-B84C-0AB74BB40EDC@2x.png);
+  background-size: 100% 100%;
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 1px;
+}
 .a22containedbutton .guide-meas-e-vertical-nYe3AS {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-DC8FEC9C-0ECD-4AD4-8BB5-2BAAE48BDB65@2x.png);
+  background-image: url(../img/2-2-contained-button-line-136E6675-2C14-45EA-A753-AA226F6290EB@2x.png);
   background-size: 100% 100%;
   height: 114px;
   left: 719px;
@@ -3398,7 +3315,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-e-vertical-nq3RbY {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-DC8FEC9C-0ECD-4AD4-8BB5-2BAAE48BDB65@2x.png);
+  background-image: url(../img/2-2-contained-button-line-136E6675-2C14-45EA-A753-AA226F6290EB@2x.png);
   background-size: 100% 100%;
   height: 114px;
   left: 750px;
@@ -3406,19 +3323,29 @@ transform: scale(0.98);
   top: 38px;
   width: 1px;
 }
-.a22containedbutton .guide-meas-e-vertical-tnnjol {
+.a22containedbutton .guide-meas-e-vertical-pod62j {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-ACAA8A21-EC03-4103-BF45-CC0ADB9B768B@2x.png);
+  background-image: url(../img/2-2-contained-button-line-BC13026F-4468-4672-A93A-C374954E461A@2x.png);
   background-size: 100% 100%;
   height: 9px;
-  left: 0px;
+  left: 29px;
   position: absolute;
-  top: 38px;
+  top: 66px;
+  width: 1px;
+}
+.a22containedbutton .guide-meas-e-vertical-sXdMr4 {
+  background-color: transparent;
+  background-image: url(../img/2-2-contained-button-line-BC13026F-4468-4672-A93A-C374954E461A@2x.png);
+  background-size: 100% 100%;
+  height: 9px;
+  left: 6px;
+  position: absolute;
+  top: 66px;
   width: 1px;
 }
 .a22containedbutton .guide-meas-e-vertical-uPxfGl {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-44951507-6186-4A19-AC7E-5D3371DB413D@2x.png);
+  background-image: url(../img/2-2-contained-button-line-3A236AC7-9557-41D6-9DB7-8957F273CF49@2x.png);
   background-size: 100% 100%;
   height: 38px;
   left: 0px;
@@ -3426,25 +3353,43 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a22containedbutton .guide-meas-e-vertical-uSbxxm {
+.a22containedbutton .guide-meas-e-vertical-xJqqp3 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9A34521D-A25C-41E9-99F9-4D5A06D99647@2x.png);
+  background-image: url(../img/2-2-contained-button-line-BC13026F-4468-4672-A93A-C374954E461A@2x.png);
   background-size: 100% 100%;
   height: 9px;
-  left: 314px;
+  left: 6px;
   position: absolute;
-  top: 113px;
+  top: 66px;
   width: 1px;
 }
-.a22containedbutton .guide-meas-e-vertical-uXOxnd {
+.a22containedbutton .guide-meas-e-vertical-xZMHgW {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-9A34521D-A25C-41E9-99F9-4D5A06D99647@2x.png);
+  background-image: url(../img/2-2-contained-button-line-CE5734E7-9714-4B3F-B84C-0AB74BB40EDC@2x.png);
   background-size: 100% 100%;
   height: 9px;
-  left: 337px;
+  left: 0px;
   position: absolute;
-  top: 113px;
+  top: 38px;
   width: 1px;
+}
+.a22containedbutton .guide-meas-e-vertical-zBh5Lb {
+  background-color: transparent;
+  background-image: url(../img/2-2-contained-button-line-CE5734E7-9714-4B3F-B84C-0AB74BB40EDC@2x.png);
+  background-size: 100% 100%;
+  height: 9px;
+  left: 227px;
+  position: absolute;
+  top: 38px;
+  width: 1px;
+}
+.a22containedbutton .guide-meas-eft-size-1-0Q3mb2 {
+  background-color: transparent;
+  height: 84px;
+  left: 7px;
+  position: absolute;
+  top: 0px;
+  width: 29px;
 }
 .a22containedbutton .guide-meas-eft-size-1-2Ma41A {
   background-color: transparent;
@@ -3462,14 +3407,6 @@ transform: scale(0.98);
   top: 0px;
   width: 29px;
 }
-.a22containedbutton .guide-meas-eft-size-1-TyrDZ3 {
-  background-color: transparent;
-  height: 84px;
-  left: 7px;
-  position: absolute;
-  top: 0px;
-  width: 29px;
-}
 .a22containedbutton .guide-meas-eft-size-1-ZY1B5N {
   background-color: transparent;
   height: 88px;
@@ -3478,7 +3415,7 @@ transform: scale(0.98);
   top: 38px;
   width: 29px;
 }
-.a22containedbutton .guide-meas-eft-size-1-uR4pQu {
+.a22containedbutton .guide-meas-eft-size-1-lk4gga {
   background-color: transparent;
   height: 84px;
   left: 7px;
@@ -3510,7 +3447,7 @@ transform: scale(0.98);
   top: 0px;
   width: 29px;
 }
-.a22containedbutton .guide-meas-ght-size-1-uR4pQu {
+.a22containedbutton .guide-meas-ght-size-1-lk4gga {
   background-color: transparent;
   height: 66px;
   left: 580px;
@@ -3520,7 +3457,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-horizontal-2Ma41A {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-A64FD196-D851-42F2-A400-8AC0470FF754@2x.png);
+  background-image: url(../img/2-2-contained-button-line-8B243776-85BE-4E7B-BD2F-E798A08ABED2@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 727px;
@@ -3530,7 +3467,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-horizontal-DFbugx {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-A64FD196-D851-42F2-A400-8AC0470FF754@2x.png);
+  background-image: url(../img/2-2-contained-button-line-8B243776-85BE-4E7B-BD2F-E798A08ABED2@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 734px;
@@ -3540,7 +3477,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-horizontal-KxHwaI {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-A64FD196-D851-42F2-A400-8AC0470FF754@2x.png);
+  background-image: url(../img/2-2-contained-button-line-8B243776-85BE-4E7B-BD2F-E798A08ABED2@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 734px;
@@ -3550,7 +3487,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-horizontal-OgMj7u {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-0D98181F-E82A-42E6-9120-26362025DB49@2x.png);
+  background-image: url(../img/2-2-contained-button-line-AC1B2515-553D-446C-8D3D-0C2775EB3F8D@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 129px;
@@ -3560,7 +3497,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-meas-horizontal-ZzJSId {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-0D98181F-E82A-42E6-9120-26362025DB49@2x.png);
+  background-image: url(../img/2-2-contained-button-line-AC1B2515-553D-446C-8D3D-0C2775EB3F8D@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 129px;
@@ -3568,19 +3505,19 @@ transform: scale(0.98);
   top: 53px;
   width: 36px;
 }
-.a22containedbutton .guide-meas-horizontal-eYmTgQ {
+.a22containedbutton .guide-meas-horizontal-lk4gga {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-0D98181F-E82A-42E6-9120-26362025DB49@2x.png);
+  background-image: url(../img/2-2-contained-button-line-AC1B2515-553D-446C-8D3D-0C2775EB3F8D@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 542px;
   position: absolute;
-  top: 74px;
+  top: 9px;
   width: 36px;
 }
 .a22containedbutton .guide-meas-horizontal-nq3RbY {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-A64FD196-D851-42F2-A400-8AC0470FF754@2x.png);
+  background-image: url(../img/2-2-contained-button-line-8B243776-85BE-4E7B-BD2F-E798A08ABED2@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 727px;
@@ -3588,14 +3525,14 @@ transform: scale(0.98);
   top: 201px;
   width: 24px;
 }
-.a22containedbutton .guide-meas-horizontal-uR4pQu {
+.a22containedbutton .guide-meas-horizontal-y3b7ht {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-line-0D98181F-E82A-42E6-9120-26362025DB49@2x.png);
+  background-image: url(../img/2-2-contained-button-line-AC1B2515-553D-446C-8D3D-0C2775EB3F8D@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 542px;
   position: absolute;
-  top: 9px;
+  top: 74px;
   width: 36px;
 }
 .a22containedbutton .guide-meas-tom-size-1-475SPX {
@@ -3670,14 +3607,6 @@ transform: scale(0.98);
   top: 7px;
   width: 720px;
 }
-.a22containedbutton .guide-meas-top-size-1-OduDyD {
-  background-color: transparent;
-  height: 29px;
-  left: 0px;
-  position: absolute;
-  top: 7px;
-  width: 228px;
-}
 .a22containedbutton .guide-meas-top-size-1-ZY1B5N {
   background-color: transparent;
   height: 29px;
@@ -3686,7 +3615,15 @@ transform: scale(0.98);
   top: 7px;
   width: 431px;
 }
-.a22containedbutton .guide-meas-top-size-1-tnnjol {
+.a22containedbutton .guide-meas-top-size-1-ks5xSM {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 7px;
+  width: 228px;
+}
+.a22containedbutton .guide-meas-top-size-1-xZMHgW {
   background-color: transparent;
   height: 29px;
   left: 0px;
@@ -3733,6 +3670,14 @@ transform: scale(0.98);
   position: absolute;
   top: 7px;
   width: 270px;
+}
+.a22containedbutton .guide-measure-area-0Q3mb2 {
+  background-color: rgba(255,51,255,0.37);
+  height: 66px;
+  left: 74px;
+  position: absolute;
+  top: 9px;
+  width: 228px;
 }
 .a22containedbutton .guide-measure-area-0VT7o0 {
   background-color: var(--azure-radiance-2);
@@ -3782,14 +3727,6 @@ transform: scale(0.98);
   top: 0px;
   width: 16px;
 }
-.a22containedbutton .guide-measure-area-9YFSXm {
-  background-color: var(--azure-radiance-2);
-  height: 66px;
-  left: 0px;
-  position: absolute;
-  top: 47px;
-  width: 36px;
-}
 .a22containedbutton .guide-measure-area-AOKm56 {
   background-color: var(--azure-radiance-2);
   height: 44px;
@@ -3805,6 +3742,22 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 108px;
+}
+.a22containedbutton .guide-measure-area-B4lx7L {
+  background-color: var(--azure-radiance-2);
+  height: 66px;
+  left: 0px;
+  position: absolute;
+  top: 47px;
+  width: 36px;
+}
+.a22containedbutton .guide-measure-area-CpMX5C {
+  background-color: var(--azure-radiance-2);
+  height: 66px;
+  left: 0px;
+  position: absolute;
+  top: 47px;
+  width: 12px;
 }
 .a22containedbutton .guide-measure-area-ECr4tH {
   background-color: var(--azure-radiance-2);
@@ -3846,6 +3799,14 @@ transform: scale(0.98);
   top: 0px;
   width: 32px;
 }
+.a22containedbutton .guide-measure-area-LrobYn {
+  background-color: var(--azure-radiance-2);
+  height: 66px;
+  left: 0px;
+  position: absolute;
+  top: 47px;
+  width: 36px;
+}
 .a22containedbutton .guide-measure-area-M1kXLP {
   background-color: var(--azure-radiance-2);
   height: 44px;
@@ -3862,6 +3823,14 @@ transform: scale(0.98);
   top: 0px;
   width: 32px;
 }
+.a22containedbutton .guide-measure-area-NFp0UZ {
+  background-color: var(--azure-radiance-2);
+  height: 66px;
+  left: 6px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
 .a22containedbutton .guide-measure-area-NpbtmJ {
   background-color: rgba(102,0,255,0.37);
   height: 63px;
@@ -3869,14 +3838,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 16px;
-}
-.a22containedbutton .guide-measure-area-OduDyD {
-  background-color: rgba(255,153,0,0.37);
-  height: 30px;
-  left: 24px;
-  position: absolute;
-  top: 65px;
-  width: 180px;
 }
 .a22containedbutton .guide-measure-area-OgMj7u {
   background-color: rgba(255,51,255,0.37);
@@ -3886,13 +3847,13 @@ transform: scale(0.98);
   top: 0px;
   width: 129px;
 }
-.a22containedbutton .guide-measure-area-Oxa3xx {
-  background-color: var(--azure-radiance-2);
+.a22containedbutton .guide-measure-area-QpP63r {
+  background-color: rgba(255,51,255,0.37);
   height: 66px;
-  left: 6px;
+  left: 314px;
   position: absolute;
-  top: 0px;
-  width: 24px;
+  top: 9px;
+  width: 228px;
 }
 .a22containedbutton .guide-measure-area-SbOEaL {
   background-color: var(--azure-radiance-2);
@@ -3902,15 +3863,7 @@ transform: scale(0.98);
   top: 38px;
   width: 45px;
 }
-.a22containedbutton .guide-measure-area-TyrDZ3 {
-  background-color: rgba(255,51,255,0.37);
-  height: 66px;
-  left: 74px;
-  position: absolute;
-  top: 9px;
-  width: 228px;
-}
-.a22containedbutton .guide-measure-area-UAUJrD {
+.a22containedbutton .guide-measure-area-T5WndJ {
   background-color: var(--azure-radiance-2);
   height: 66px;
   left: 6px;
@@ -3950,7 +3903,7 @@ transform: scale(0.98);
   top: 38px;
   width: 45px;
 }
-.a22containedbutton .guide-measure-area-ZBzmzx {
+.a22containedbutton .guide-measure-area-ZmPNhl {
   background-color: rgba(51,204,0,0.37);
   height: 9px;
   left: 0px;
@@ -3964,14 +3917,6 @@ transform: scale(0.98);
   left: 0px;
   position: absolute;
   top: 0px;
-  width: 12px;
-}
-.a22containedbutton .guide-measure-area-ahtQb7 {
-  background-color: var(--azure-radiance-2);
-  height: 66px;
-  left: 0px;
-  position: absolute;
-  top: 47px;
   width: 12px;
 }
 .a22containedbutton .guide-measure-area-atXUK2 {
@@ -4062,15 +4007,7 @@ transform: scale(0.98);
   top: 0px;
   width: 16px;
 }
-.a22containedbutton .guide-measure-area-jWClEu {
-  background-color: rgba(255,51,255,0.37);
-  height: 66px;
-  left: 314px;
-  position: absolute;
-  top: 9px;
-  width: 228px;
-}
-.a22containedbutton .guide-measure-area-jYxvDZ {
+.a22containedbutton .guide-measure-area-kDPyZm {
   background-color: rgba(51,204,0,0.37);
   height: 9px;
   left: 0px;
@@ -4078,13 +4015,13 @@ transform: scale(0.98);
   top: 5px;
   width: 540px;
 }
-.a22containedbutton .guide-measure-area-jxtGMV {
-  background-color: var(--azure-radiance-2);
-  height: 66px;
-  left: 6px;
+.a22containedbutton .guide-measure-area-ks5xSM {
+  background-color: rgba(255,204,0,0.37);
+  height: 30px;
+  left: 24px;
   position: absolute;
-  top: 0px;
-  width: 24px;
+  top: 65px;
+  width: 180px;
 }
 .a22containedbutton .guide-measure-area-lT2kMW {
   background-color: rgba(255,204,0,0.37);
@@ -4101,14 +4038,6 @@ transform: scale(0.98);
   position: absolute;
   top: 50px;
   width: 720px;
-}
-.a22containedbutton .guide-measure-area-mAgzIW {
-  background-color: var(--azure-radiance-2);
-  height: 66px;
-  left: 6px;
-  position: absolute;
-  top: 0px;
-  width: 24px;
 }
 .a22containedbutton .guide-measure-area-niStiO {
   background-color: rgba(102,0,255,0.37);
@@ -4166,14 +4095,6 @@ transform: scale(0.98);
   top: 38px;
   width: 144px;
 }
-.a22containedbutton .guide-measure-area-rApWCU {
-  background-color: var(--azure-radiance-2);
-  height: 66px;
-  left: 0px;
-  position: absolute;
-  top: 47px;
-  width: 36px;
-}
 .a22containedbutton .guide-measure-area-rSMh8X {
   background-color: rgba(255,204,0,0.37);
   height: 20px;
@@ -4190,13 +4111,13 @@ transform: scale(0.98);
   top: 0px;
   width: 108px;
 }
-.a22containedbutton .guide-measure-area-tnnjol {
-  background-color: rgba(255,204,0,0.37);
-  height: 30px;
-  left: 24px;
+.a22containedbutton .guide-measure-area-sXdMr4 {
+  background-color: var(--azure-radiance-2);
+  height: 66px;
+  left: 6px;
   position: absolute;
-  top: 65px;
-  width: 180px;
+  top: 0px;
+  width: 24px;
 }
 .a22containedbutton .guide-measure-area-uShj4Y {
   background-color: var(--azure-radiance-2);
@@ -4213,6 +4134,22 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 324px;
+}
+.a22containedbutton .guide-measure-area-xJqqp3 {
+  background-color: var(--azure-radiance-2);
+  height: 66px;
+  left: 6px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+.a22containedbutton .guide-measure-area-xZMHgW {
+  background-color: rgba(255,153,0,0.37);
+  height: 30px;
+  left: 24px;
+  position: absolute;
+  top: 65px;
+  width: 180px;
 }
 .a22containedbutton .guide-measure-area-xZqTmR {
   background-color: rgba(102,0,255,0.37);
@@ -4248,7 +4185,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numb-ring-shape-3lcOVf {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F20FDC04-F17D-47D8-9108-5668A12FFCB8@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-8CDDB4F0-5EBF-4B1D-9A35-63817B53A300@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 25px;
@@ -4258,7 +4195,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numb-ring-shape-IVNWh6 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F20FDC04-F17D-47D8-9108-5668A12FFCB8@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-8CDDB4F0-5EBF-4B1D-9A35-63817B53A300@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 253px;
@@ -4266,19 +4203,9 @@ transform: scale(0.98);
   top: 114px;
   width: 22px;
 }
-.a22containedbutton .guide-numb-ring-shape-i61Uqa {
+.a22containedbutton .guide-numb-ring-shape-KEKDSX {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F20FDC04-F17D-47D8-9108-5668A12FFCB8@2x.png);
-  background-size: 100% 100%;
-  height: 22px;
-  left: 2px;
-  position: absolute;
-  top: 0px;
-  width: 22px;
-}
-.a22containedbutton .guide-numb-ring-shape-xJF9iY {
-  background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F20FDC04-F17D-47D8-9108-5668A12FFCB8@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-8CDDB4F0-5EBF-4B1D-9A35-63817B53A300@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 314px;
@@ -4286,9 +4213,19 @@ transform: scale(0.98);
   top: 47px;
   width: 22px;
 }
-.a22containedbutton .guide-numbering-icon-j3aFZz {
+.a22containedbutton .guide-numb-ring-shape-i61Uqa {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F20FDC04-F17D-47D8-9108-5668A12FFCB8@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-8CDDB4F0-5EBF-4B1D-9A35-63817B53A300@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  left: 2px;
+  position: absolute;
+  top: 0px;
+  width: 22px;
+}
+.a22containedbutton .guide-numbering-icon-L2nMDQ {
+  background-color: transparent;
+  background-image: url(../img/2-2-contained-button-oval-8CDDB4F0-5EBF-4B1D-9A35-63817B53A300@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4298,7 +4235,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-icon-tSbidp {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F20FDC04-F17D-47D8-9108-5668A12FFCB8@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-8CDDB4F0-5EBF-4B1D-9A35-63817B53A300@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4308,7 +4245,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-icon-xsiLM2 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F20FDC04-F17D-47D8-9108-5668A12FFCB8@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-8CDDB4F0-5EBF-4B1D-9A35-63817B53A300@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4318,7 +4255,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-icon-zYBxRV {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F20FDC04-F17D-47D8-9108-5668A12FFCB8@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-8CDDB4F0-5EBF-4B1D-9A35-63817B53A300@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4328,7 +4265,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-type-3lcOVf {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F5650BCE-03A6-4773-8200-5CB19AE8A579@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-F97997E3-8D1F-49A2-9345-802C4D97F8EF@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 51px;
@@ -4338,7 +4275,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-type-BUufxp {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F5650BCE-03A6-4773-8200-5CB19AE8A579@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-F97997E3-8D1F-49A2-9345-802C4D97F8EF@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4346,9 +4283,9 @@ transform: scale(0.98);
   top: 1px;
   width: 22px;
 }
-.a22containedbutton .guide-numbering-type-g5BcN4 {
+.a22containedbutton .guide-numbering-type-gWZ8gx {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F5650BCE-03A6-4773-8200-5CB19AE8A579@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-F97997E3-8D1F-49A2-9345-802C4D97F8EF@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4358,7 +4295,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-type-i61Uqa {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F5650BCE-03A6-4773-8200-5CB19AE8A579@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-F97997E3-8D1F-49A2-9345-802C4D97F8EF@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 34px;
@@ -4366,9 +4303,9 @@ transform: scale(0.98);
   top: 18px;
   width: 22px;
 }
-.a22containedbutton .guide-numbering-type-uSbxxm {
+.a22containedbutton .guide-numbering-type-pXmil6 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F5650BCE-03A6-4773-8200-5CB19AE8A579@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-F97997E3-8D1F-49A2-9345-802C4D97F8EF@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 327px;
@@ -4378,7 +4315,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .guide-numbering-type-x1TmZy {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F5650BCE-03A6-4773-8200-5CB19AE8A579@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-F97997E3-8D1F-49A2-9345-802C4D97F8EF@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4408,7 +4345,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .guide-property-g5BcN4 {
+.a22containedbutton .guide-property-L2nMDQ {
   background-color: transparent;
   color: var(--black);
   font-size: 22px;
@@ -4422,7 +4359,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .guide-property-j3aFZz {
+.a22containedbutton .guide-property-gWZ8gx {
   background-color: transparent;
   color: var(--black);
   font-size: 22px;
@@ -4492,22 +4429,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .guide-so3dQ0 {
-  background-color: transparent;
-  height: 558px;
-  left: 0px;
-  position: absolute;
-  top: 78px;
-  width: 715px;
-}
-.a22containedbutton .guide-subject-shape-16PBHL {
-  background-color: transparent;
-  height: 26px;
-  left: 20px;
-  position: absolute;
-  top: 30px;
-  width: 135px;
-}
 .a22containedbutton .guide-subject-shape-4GnsOa {
   background-color: transparent;
   height: 26px;
@@ -4522,6 +4443,14 @@ transform: scale(0.98);
   left: 20px;
   position: absolute;
   top: 32px;
+  width: 135px;
+}
+.a22containedbutton .guide-subject-shape-8reExx {
+  background-color: transparent;
+  height: 26px;
+  left: 20px;
+  position: absolute;
+  top: 30px;
   width: 135px;
 }
 .a22containedbutton .guide-subject-shape-dPpKsx {
@@ -4548,7 +4477,7 @@ transform: scale(0.98);
   top: 30px;
   width: 121px;
 }
-.a22containedbutton .guide-subject-type-n8NrV0 {
+.a22containedbutton .guide-subject-type-xKTa7F {
   background-color: transparent;
   height: 26px;
   left: 20px;
@@ -4584,6 +4513,14 @@ transform: scale(0.98);
   left: 0px;
   position: absolute;
   top: 0px;
+  width: 1240px;
+}
+.a22containedbutton .keyscreen-YS4HFf {
+  background-color: transparent;
+  height: 1201px;
+  left: 0px;
+  position: absolute;
+  top: 83px;
   width: 1240px;
 }
 .a22containedbutton .keyscreen-nlnVUM {
@@ -4716,7 +4653,7 @@ transform: scale(0.98);
   top: 329px;
   width: 215px;
 }
-.a22containedbutton .measure-1-PVNDSN {
+.a22containedbutton .measure-1-k8OmBS {
   background-color: transparent;
   height: 127px;
   left: 50px;
@@ -4732,7 +4669,7 @@ transform: scale(0.98);
   top: 615px;
   width: 212px;
 }
-.a22containedbutton .measure-2-PVNDSN {
+.a22containedbutton .measure-2-k8OmBS {
   background-color: transparent;
   height: 171px;
   left: 50px;
@@ -4890,7 +4827,15 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 1240px;
 }
-.a22containedbutton .note-9eAt2k {
+.a22containedbutton .note-4GnsOa {
+  background-color: transparent;
+  height: 53px;
+  left: 20px;
+  position: absolute;
+  top: 218px;
+  width: 465px;
+}
+.a22containedbutton .note-t7yGdo {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -4903,7 +4848,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 401px;
 }
-.a22containedbutton .page-name-kTpozU {
+.a22containedbutton .page-name-X8GHNy {
   background-color: transparent;
   color: var(--white);
   font-size: 14px;
@@ -4929,7 +4874,46 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a22containedbutton .property-2xnWEV {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .property-4GmTTf {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .property-4hiChJ {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .property-68L2n0 {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -4969,45 +4953,6 @@ transform: scale(0.98);
   width: auto;
 }
 .a22containedbutton .property-AXvbH6 {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .property-AtmlwI {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .property-BkxvDU {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .property-Bxs0sj {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -5060,19 +5005,6 @@ transform: scale(0.98);
   width: auto;
 }
 .a22containedbutton .property-J2jO8L {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .property-KRxw9J {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -5228,19 +5160,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .property-ZPxOQ4 {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a22containedbutton .property-ZWaOPq {
   background-color: transparent;
   color: var(--masala);
@@ -5267,7 +5186,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .property-f6iRec {
+.a22containedbutton .property-dnxbT8 {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -5319,6 +5238,19 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a22containedbutton .property-mBwNJK {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .property-nDZtxz {
   background-color: transparent;
   color: var(--masala);
@@ -5333,6 +5265,19 @@ transform: scale(0.98);
   width: auto;
 }
 .a22containedbutton .property-nqXgqO {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .property-ojGuhJ {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -5423,6 +5368,19 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a22containedbutton .property-tiEcJF {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .property-vFM2AB {
   background-color: transparent;
   color: var(--masala);
@@ -5436,7 +5394,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .property-y5JAm7 {
+.a22containedbutton .property-xq2nNr {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -5463,19 +5421,6 @@ transform: scale(0.98);
   width: auto;
 }
 .a22containedbutton .property-ynVlqS {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .property-zW7qaO {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -5540,6 +5485,14 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
+.a22containedbutton .rectangle-1GiV4R {
+  background-color: var(--razzle-dazzle-rose);
+  height: 83px;
+  left: 24px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
 .a22containedbutton .rectangle-1Rpk8N {
   background-color: var(--razzle-dazzle-rose);
   height: 1px;
@@ -5547,14 +5500,6 @@ transform: scale(0.98);
   position: absolute;
   top: 4px;
   width: 324px;
-}
-.a22containedbutton .rectangle-1e8pj6 {
-  background-color: rgba(51,204,0,1.0);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 13px;
-  width: 9px;
 }
 .a22containedbutton .rectangle-2DVcU3 {
   background-color: var(--razzle-dazzle-rose);
@@ -5604,6 +5549,14 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
+.a22containedbutton .rectangle-4Pw0Du {
+  background-color: rgba(51,204,0,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 5px;
+  width: 9px;
+}
 .a22containedbutton .rectangle-4xnvn7 {
   background-color: var(--electric-violet);
   height: 9px;
@@ -5644,13 +5597,13 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
-.a22containedbutton .rectangle-5oUupv {
+.a22containedbutton .rectangle-5qIw8y {
   background-color: var(--azure-radiance);
-  height: 9px;
-  left: 0px;
+  height: 1px;
+  left: 6px;
   position: absolute;
-  top: 20px;
-  width: 1px;
+  top: 4px;
+  width: 24px;
 }
 .a22containedbutton .rectangle-5x5Qhm {
   background-color: var(--azure-radiance);
@@ -5660,14 +5613,6 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
-.a22containedbutton .rectangle-68CExn {
-  background-color: var(--azure-radiance);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 24px;
-  width: 36px;
-}
 .a22containedbutton .rectangle-6Tuhww {
   background-color: var(--azure-radiance);
   height: 1px;
@@ -5676,7 +5621,7 @@ transform: scale(0.98);
   top: 4px;
   width: 32px;
 }
-.a22containedbutton .rectangle-6kfHdS {
+.a22containedbutton .rectangle-6ZGgYf {
   background-color: var(--razzle-dazzle-rose);
   height: 1px;
   left: 0px;
@@ -5708,7 +5653,7 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a22containedbutton .rectangle-7Wm3Pz {
+.a22containedbutton .rectangle-7UsdRB {
   background-color: var(--azure-radiance);
   height: 9px;
   left: 29px;
@@ -5731,14 +5676,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 1px;
-}
-.a22containedbutton .rectangle-8OUDfC {
-  background-color: var(--azure-radiance);
-  height: 1px;
-  left: 6px;
-  position: absolute;
-  top: 4px;
-  width: 24px;
 }
 .a22containedbutton .rectangle-8UW8cm {
   background-color: var(--electric-violet);
@@ -5780,14 +5717,6 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a22containedbutton .rectangle-AMf4pf {
-  background-color: var(--razzle-dazzle-rose);
-  height: 9px;
-  left: 227px;
-  position: absolute;
-  top: 20px;
-  width: 1px;
-}
 .a22containedbutton .rectangle-Ara5fq {
   background-color: rgba(255,0,204,1.0);
   height: 9px;
@@ -5795,6 +5724,22 @@ transform: scale(0.98);
   position: absolute;
   top: 20px;
   width: 1px;
+}
+.a22containedbutton .rectangle-B0kXTl {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a22containedbutton .rectangle-BGkN9e {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 36px;
 }
 .a22containedbutton .rectangle-BRpmA9 {
   background-color: var(--razzle-dazzle-rose);
@@ -5812,14 +5757,6 @@ transform: scale(0.98);
   top: 4px;
   width: 241px;
 }
-.a22containedbutton .rectangle-Bt8mEI {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 9px;
-}
 .a22containedbutton .rectangle-C3tMJV {
   background-color: var(--electric-violet);
   height: 9px;
@@ -5828,13 +5765,13 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a22containedbutton .rectangle-CUw8cs {
-  background-color: var(--azure-radiance);
+.a22containedbutton .rectangle-CTNxD3 {
+  background-color: rgba(51,204,0,1.0);
   height: 1px;
   left: 0px;
   position: absolute;
-  top: 24px;
-  width: 12px;
+  top: 5px;
+  width: 9px;
 }
 .a22containedbutton .rectangle-CdS2AL {
   background-color: rgba(255,0,204,1.0);
@@ -5868,6 +5805,14 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
+.a22containedbutton .rectangle-DfX1xL {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 20px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
 .a22containedbutton .rectangle-DkBBfI {
   background-color: rgba(51,204,0,1.0);
   height: 1px;
@@ -5876,12 +5821,28 @@ transform: scale(0.98);
   top: 0px;
   width: 9px;
 }
+.a22containedbutton .rectangle-Du6kqD {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 6px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
 .a22containedbutton .rectangle-Dyrwj0 {
   background-color: var(--electric-violet);
   height: 9px;
   left: 10px;
   position: absolute;
   top: 0px;
+  width: 1px;
+}
+.a22containedbutton .rectangle-E8xtcB {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 227px;
+  position: absolute;
+  top: 20px;
   width: 1px;
 }
 .a22containedbutton .rectangle-F03Hd2 {
@@ -5908,6 +5869,14 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
+.a22containedbutton .rectangle-F8YS0Z {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 228px;
+}
 .a22containedbutton .rectangle-F9KGRC {
   background-color: var(--azure-radiance);
   height: 9px;
@@ -5931,22 +5900,6 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 1px;
-}
-.a22containedbutton .rectangle-GDT2jz {
-  background-color: var(--azure-radiance);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 24px;
-  width: 36px;
-}
-.a22containedbutton .rectangle-GQcf6U {
-  background-color: rgba(51,204,0,1.0);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 13px;
-  width: 9px;
 }
 .a22containedbutton .rectangle-Gv75tl {
   background-color: var(--razzle-dazzle-rose);
@@ -5980,6 +5933,22 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
+.a22containedbutton .rectangle-IPtnsD {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
+.a22containedbutton .rectangle-IZUywE {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 20px;
+  position: absolute;
+  top: 83px;
+  width: 9px;
+}
 .a22containedbutton .rectangle-IdHZum {
   background-color: var(--azure-radiance);
   height: 9px;
@@ -6004,14 +5973,6 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
-.a22containedbutton .rectangle-IvyrZq {
-  background-color: rgba(51,204,0,1.0);
-  height: 9px;
-  left: 4px;
-  position: absolute;
-  top: 5px;
-  width: 1px;
-}
 .a22containedbutton .rectangle-IwTe9q {
   background-color: var(--electric-violet);
   height: 1px;
@@ -6026,22 +5987,6 @@ transform: scale(0.98);
   left: 2px;
   position: absolute;
   top: 0px;
-  width: 1px;
-}
-.a22containedbutton .rectangle-J5MN4h {
-  background-color: var(--azure-radiance);
-  height: 9px;
-  left: 29px;
-  position: absolute;
-  top: 0px;
-  width: 1px;
-}
-.a22containedbutton .rectangle-J9an5l {
-  background-color: var(--razzle-dazzle-rose);
-  height: 9px;
-  left: 0px;
-  position: absolute;
-  top: 20px;
   width: 1px;
 }
 .a22containedbutton .rectangle-J9r8Sh {
@@ -6068,6 +6013,14 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
+.a22containedbutton .rectangle-K5310W {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 6px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
 .a22containedbutton .rectangle-KB2nnj {
   background-color: var(--electric-violet);
   height: 9px;
@@ -6084,28 +6037,12 @@ transform: scale(0.98);
   top: 4px;
   width: 24px;
 }
-.a22containedbutton .rectangle-KbxFm1 {
-  background-color: var(--azure-radiance);
-  height: 9px;
-  left: 11px;
-  position: absolute;
-  top: 20px;
-  width: 1px;
-}
 .a22containedbutton .rectangle-KeGFLa {
   background-color: var(--razzle-dazzle-rose);
   height: 55px;
   left: 24px;
   position: absolute;
   top: 0px;
-  width: 1px;
-}
-.a22containedbutton .rectangle-LJHF0I {
-  background-color: var(--razzle-dazzle-rose);
-  height: 9px;
-  left: 0px;
-  position: absolute;
-  top: 20px;
   width: 1px;
 }
 .a22containedbutton .rectangle-M12vat {
@@ -6115,6 +6052,14 @@ transform: scale(0.98);
   position: absolute;
   top: 23px;
   width: 9px;
+}
+.a22containedbutton .rectangle-MClsu5 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 83px;
+  left: 24px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
 }
 .a22containedbutton .rectangle-MOLTgt {
   background-color: var(--azure-radiance);
@@ -6140,13 +6085,13 @@ transform: scale(0.98);
   top: 24px;
   width: 144px;
 }
-.a22containedbutton .rectangle-OFvxSE {
+.a22containedbutton .rectangle-NvR0SI {
   background-color: var(--razzle-dazzle-rose);
-  height: 83px;
-  left: 24px;
+  height: 1px;
+  left: 20px;
   position: absolute;
   top: 0px;
-  width: 1px;
+  width: 9px;
 }
 .a22containedbutton .rectangle-OMrbC8 {
   background-color: var(--razzle-dazzle-rose);
@@ -6156,7 +6101,7 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
-.a22containedbutton .rectangle-OXMO3Y {
+.a22containedbutton .rectangle-Oi4aJx {
   background-color: var(--azure-radiance);
   height: 1px;
   left: 6px;
@@ -6212,14 +6157,6 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
-.a22containedbutton .rectangle-Qr09za {
-  background-color: var(--razzle-dazzle-rose);
-  height: 66px;
-  left: 4px;
-  position: absolute;
-  top: 0px;
-  width: 1px;
-}
 .a22containedbutton .rectangle-QyNoIt {
   background-color: var(--electric-violet);
   height: 1px;
@@ -6236,13 +6173,13 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
-.a22containedbutton .rectangle-Se2z2t {
-  background-color: var(--azure-radiance);
-  height: 9px;
-  left: 6px;
+.a22containedbutton .rectangle-TJ2DNV {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
   position: absolute;
-  top: 0px;
-  width: 1px;
+  top: 65px;
+  width: 9px;
 }
 .a22containedbutton .rectangle-UIO7r8 {
   background-color: var(--azure-radiance);
@@ -6283,14 +6220,6 @@ transform: scale(0.98);
   position: absolute;
   top: 4px;
   width: 324px;
-}
-.a22containedbutton .rectangle-VuIvOS {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 83px;
-  width: 9px;
 }
 .a22containedbutton .rectangle-VwH9jk {
   background-color: var(--azure-radiance);
@@ -6340,14 +6269,6 @@ transform: scale(0.98);
   top: 0px;
   width: 9px;
 }
-.a22containedbutton .rectangle-XwY4Zj {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 65px;
-  width: 9px;
-}
 .a22containedbutton .rectangle-YZ7G5g {
   background-color: var(--razzle-dazzle-rose);
   height: 9px;
@@ -6372,14 +6293,6 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a22containedbutton .rectangle-YuWPBj {
-  background-color: rgba(51,204,0,1.0);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 5px;
-  width: 9px;
-}
 .a22containedbutton .rectangle-Yz2fts {
   background-color: var(--azure-radiance);
   height: 9px;
@@ -6388,13 +6301,21 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
-.a22containedbutton .rectangle-ZoEx9a {
-  background-color: var(--azure-radiance);
-  height: 9px;
-  left: 6px;
+.a22containedbutton .rectangle-Z5bqma {
+  background-color: rgba(51,204,0,1.0);
+  height: 1px;
+  left: 0px;
   position: absolute;
-  top: 0px;
-  width: 1px;
+  top: 13px;
+  width: 9px;
+}
+.a22containedbutton .rectangle-Zo2xci {
+  background-color: rgba(51,204,0,1.0);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 13px;
+  width: 9px;
 }
 .a22containedbutton .rectangle-agJkYk {
   background-color: var(--azure-radiance);
@@ -6411,6 +6332,22 @@ transform: scale(0.98);
   position: absolute;
   top: 20px;
   width: 1px;
+}
+.a22containedbutton .rectangle-aiMhE5 {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 29px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a22containedbutton .rectangle-ar9phs {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 6px;
+  position: absolute;
+  top: 4px;
+  width: 24px;
 }
 .a22containedbutton .rectangle-bQo7PT {
   background-color: rgba(51,204,0,1.0);
@@ -6434,14 +6371,6 @@ transform: scale(0.98);
   left: 44px;
   position: absolute;
   top: 20px;
-  width: 1px;
-}
-.a22containedbutton .rectangle-bhwUdA {
-  background-color: var(--azure-radiance);
-  height: 9px;
-  left: 6px;
-  position: absolute;
-  top: 0px;
   width: 1px;
 }
 .a22containedbutton .rectangle-bqG3YK {
@@ -6484,6 +6413,14 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
+.a22containedbutton .rectangle-cFS02m {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 36px;
+}
 .a22containedbutton .rectangle-cFiSLO {
   background-color: rgba(51,204,0,1.0);
   height: 1px;
@@ -6499,6 +6436,14 @@ transform: scale(0.98);
   position: absolute;
   top: 4px;
   width: 24px;
+}
+.a22containedbutton .rectangle-cxSzOC {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 35px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
 }
 .a22containedbutton .rectangle-cxql8g {
   background-color: var(--razzle-dazzle-rose);
@@ -6522,14 +6467,6 @@ transform: scale(0.98);
   left: 33px;
   position: absolute;
   top: 0px;
-  width: 1px;
-}
-.a22containedbutton .rectangle-dpHDjb {
-  background-color: rgba(51,204,0,1.0);
-  height: 9px;
-  left: 4px;
-  position: absolute;
-  top: 5px;
   width: 1px;
 }
 .a22containedbutton .rectangle-dybx3T {
@@ -6556,6 +6493,14 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
+.a22containedbutton .rectangle-eEqecX {
+  background-color: rgba(51,204,0,1.0);
+  height: 9px;
+  left: 4px;
+  position: absolute;
+  top: 5px;
+  width: 1px;
+}
 .a22containedbutton .rectangle-eKhftf {
   background-color: var(--razzle-dazzle-rose);
   height: 1px;
@@ -6572,7 +6517,7 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a22containedbutton .rectangle-eXRSfw {
+.a22containedbutton .rectangle-ewbQbv {
   background-color: var(--azure-radiance);
   height: 9px;
   left: 29px;
@@ -6588,6 +6533,14 @@ transform: scale(0.98);
   top: 24px;
   width: 45px;
 }
+.a22containedbutton .rectangle-fPSE0s {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
 .a22containedbutton .rectangle-fhupAH {
   background-color: var(--razzle-dazzle-rose);
   height: 9px;
@@ -6596,12 +6549,12 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
-.a22containedbutton .rectangle-fy1HnQ {
+.a22containedbutton .rectangle-g65Ttq {
   background-color: var(--azure-radiance);
   height: 9px;
-  left: 29px;
+  left: 11px;
   position: absolute;
-  top: 0px;
+  top: 20px;
   width: 1px;
 }
 .a22containedbutton .rectangle-gN2urx {
@@ -6620,12 +6573,44 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
+.a22containedbutton .rectangle-gcT8jW {
+  background-color: var(--razzle-dazzle-rose);
+  height: 66px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a22containedbutton .rectangle-grxnpo {
+  background-color: rgba(51,204,0,1.0);
+  height: 9px;
+  left: 4px;
+  position: absolute;
+  top: 5px;
+  width: 1px;
+}
+.a22containedbutton .rectangle-h89krc {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 20px;
+  position: absolute;
+  top: 83px;
+  width: 9px;
+}
 .a22containedbutton .rectangle-hANxs8 {
   background-color: var(--azure-radiance);
   height: 9px;
   left: 0px;
   position: absolute;
   top: 20px;
+  width: 1px;
+}
+.a22containedbutton .rectangle-hBpMKo {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 6px;
+  position: absolute;
+  top: 0px;
   width: 1px;
 }
 .a22containedbutton .rectangle-hODPSU {
@@ -6676,12 +6661,28 @@ transform: scale(0.98);
   top: 24px;
   width: 45px;
 }
+.a22containedbutton .rectangle-jIB4Sb {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 6px;
+  position: absolute;
+  top: 4px;
+  width: 24px;
+}
 .a22containedbutton .rectangle-jh9A0a {
   background-color: var(--razzle-dazzle-rose);
   height: 9px;
   left: 719px;
   position: absolute;
   top: 0px;
+  width: 1px;
+}
+.a22containedbutton .rectangle-jp5mWP {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
   width: 1px;
 }
 .a22containedbutton .rectangle-jzzq21 {
@@ -6692,14 +6693,6 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
-.a22containedbutton .rectangle-kD4Acj {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 83px;
-  width: 9px;
-}
 .a22containedbutton .rectangle-kdRT7T {
   background-color: rgba(255,0,204,1.0);
   height: 1px;
@@ -6708,26 +6701,10 @@ transform: scale(0.98);
   top: 24px;
   width: 270px;
 }
-.a22containedbutton .rectangle-lQkOL7 {
-  background-color: var(--azure-radiance);
-  height: 1px;
-  left: 6px;
-  position: absolute;
-  top: 4px;
-  width: 24px;
-}
-.a22containedbutton .rectangle-lRZa62 {
-  background-color: var(--azure-radiance);
+.a22containedbutton .rectangle-lBh5iv {
+  background-color: var(--razzle-dazzle-rose);
   height: 9px;
-  left: 0px;
-  position: absolute;
-  top: 20px;
-  width: 1px;
-}
-.a22containedbutton .rectangle-lX8lmk {
-  background-color: var(--azure-radiance);
-  height: 9px;
-  left: 0px;
+  left: 227px;
   position: absolute;
   top: 20px;
   width: 1px;
@@ -6748,6 +6725,14 @@ transform: scale(0.98);
   top: 4px;
   width: 16px;
 }
+.a22containedbutton .rectangle-m8tjyP {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 35px;
+  position: absolute;
+  top: 20px;
+  width: 1px;
+}
 .a22containedbutton .rectangle-mI7wCU {
   background-color: var(--azure-radiance);
   height: 1px;
@@ -6755,14 +6740,6 @@ transform: scale(0.98);
   position: absolute;
   top: 24px;
   width: 144px;
-}
-.a22containedbutton .rectangle-mjAxGs {
-  background-color: var(--razzle-dazzle-rose);
-  height: 83px;
-  left: 24px;
-  position: absolute;
-  top: 0px;
-  width: 1px;
 }
 .a22containedbutton .rectangle-mrbwau {
   background-color: var(--razzle-dazzle-rose);
@@ -6804,13 +6781,13 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
-.a22containedbutton .rectangle-nrKUE5 {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 20px;
+.a22containedbutton .rectangle-nfyTbc {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 29px;
   position: absolute;
   top: 0px;
-  width: 9px;
+  width: 1px;
 }
 .a22containedbutton .rectangle-nxe2Vx {
   background-color: var(--electric-violet);
@@ -6868,22 +6845,6 @@ transform: scale(0.98);
   top: 24px;
   width: 240px;
 }
-.a22containedbutton .rectangle-qZTXS2 {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 24px;
-  width: 228px;
-}
-.a22containedbutton .rectangle-qqpu1l {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 20px;
-  position: absolute;
-  top: 0px;
-  width: 9px;
-}
 .a22containedbutton .rectangle-r2P5px {
   background-color: var(--azure-radiance);
   height: 9px;
@@ -6899,22 +6860,6 @@ transform: scale(0.98);
   position: absolute;
   top: 24px;
   width: 144px;
-}
-.a22containedbutton .rectangle-rbQEXs {
-  background-color: var(--azure-radiance);
-  height: 1px;
-  left: 6px;
-  position: absolute;
-  top: 4px;
-  width: 24px;
-}
-.a22containedbutton .rectangle-rkL6Uj {
-  background-color: rgba(51,204,0,1.0);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 5px;
-  width: 9px;
 }
 .a22containedbutton .rectangle-rqM2ST {
   background-color: rgba(51,204,0,1.0);
@@ -6948,12 +6893,28 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
+.a22containedbutton .rectangle-s5q0Vj {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 24px;
+  width: 12px;
+}
 .a22containedbutton .rectangle-t6m2tD {
   background-color: var(--electric-violet);
   height: 9px;
   left: 25px;
   position: absolute;
   top: 0px;
+  width: 1px;
+}
+.a22containedbutton .rectangle-tg41f8 {
+  background-color: var(--razzle-dazzle-rose);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
   width: 1px;
 }
 .a22containedbutton .rectangle-thl3SX {
@@ -6996,28 +6957,12 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a22containedbutton .rectangle-uyzksR {
-  background-color: var(--azure-radiance);
-  height: 9px;
-  left: 6px;
-  position: absolute;
-  top: 0px;
-  width: 1px;
-}
 .a22containedbutton .rectangle-v8EGAj {
   background-color: var(--azure-radiance);
   height: 9px;
   left: 2px;
   position: absolute;
   top: 0px;
-  width: 1px;
-}
-.a22containedbutton .rectangle-vPJQIv {
-  background-color: var(--azure-radiance);
-  height: 9px;
-  left: 35px;
-  position: absolute;
-  top: 20px;
   width: 1px;
 }
 .a22containedbutton .rectangle-vUHoxA {
@@ -7027,6 +6972,14 @@ transform: scale(0.98);
   position: absolute;
   top: 24px;
   width: 45px;
+}
+.a22containedbutton .rectangle-vUaqKy {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 6px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
 }
 .a22containedbutton .rectangle-vqWR49 {
   background-color: var(--razzle-dazzle-rose);
@@ -7108,14 +7061,6 @@ transform: scale(0.98);
   top: 0px;
   width: 9px;
 }
-.a22containedbutton .rectangle-xL4gpO {
-  background-color: var(--razzle-dazzle-rose);
-  height: 9px;
-  left: 227px;
-  position: absolute;
-  top: 20px;
-  width: 1px;
-}
 .a22containedbutton .rectangle-xQaFKI {
   background-color: var(--azure-radiance);
   height: 1px;
@@ -7172,6 +7117,14 @@ transform: scale(0.98);
   top: 20px;
   width: 1px;
 }
+.a22containedbutton .rectangle-yCWuZS {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
 .a22containedbutton .rectangle-yHNxkS {
   background-color: var(--razzle-dazzle-rose);
   height: 9px;
@@ -7200,14 +7153,6 @@ transform: scale(0.98);
   background-color: var(--razzle-dazzle-rose);
   height: 9px;
   left: 719px;
-  position: absolute;
-  top: 20px;
-  width: 1px;
-}
-.a22containedbutton .rectangle-z9X68c {
-  background-color: var(--azure-radiance);
-  height: 9px;
-  left: 35px;
   position: absolute;
   top: 20px;
   width: 1px;
@@ -7304,7 +7249,7 @@ transform: scale(0.98);
   top: 0px;
   width: 505px;
 }
-.a22containedbutton .shape-so3dQ0 {
+.a22containedbutton .shape-ZbRg96 {
   background-color: transparent;
   height: 275px;
   left: 735px;
@@ -7335,6 +7280,14 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 270px;
+}
+.a22containedbutton .size-7NXk75 {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 609px;
 }
 .a22containedbutton .size-Cxx0Na {
   background-color: transparent;
@@ -7368,6 +7321,14 @@ transform: scale(0.98);
   top: 7px;
   width: 270px;
 }
+.a22containedbutton .size-KEKDSX {
+  background-color: transparent;
+  height: 84px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 542px;
+}
 .a22containedbutton .size-KqngHL {
   background-color: transparent;
   height: 88px;
@@ -7375,14 +7336,6 @@ transform: scale(0.98);
   position: absolute;
   top: 158px;
   width: 324px;
-}
-.a22containedbutton .size-QEVPxH {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  position: absolute;
-  top: 38px;
-  width: 609px;
 }
 .a22containedbutton .size-VHiQZZ {
   background-color: transparent;
@@ -7448,23 +7401,7 @@ transform: scale(0.98);
   top: 101px;
   width: 720px;
 }
-.a22containedbutton .size-uPpuyQ {
-  background-color: transparent;
-  height: 76px;
-  left: 0px;
-  position: absolute;
-  top: 82px;
-  width: 720px;
-}
-.a22containedbutton .size-uSbxxm {
-  background-color: transparent;
-  height: 95px;
-  left: 314px;
-  position: absolute;
-  top: 0px;
-  width: 228px;
-}
-.a22containedbutton .size-uXOxnd {
+.a22containedbutton .size-owotGH {
   background-color: transparent;
   height: 95px;
   left: 74px;
@@ -7472,13 +7409,21 @@ transform: scale(0.98);
   top: 0px;
   width: 228px;
 }
-.a22containedbutton .size-xJF9iY {
+.a22containedbutton .size-pXmil6 {
   background-color: transparent;
-  height: 84px;
+  height: 95px;
+  left: 314px;
+  position: absolute;
+  top: 0px;
+  width: 228px;
+}
+.a22containedbutton .size-uPpuyQ {
+  background-color: transparent;
+  height: 76px;
   left: 0px;
   position: absolute;
-  top: 38px;
-  width: 542px;
+  top: 82px;
+  width: 720px;
 }
 .a22containedbutton .spacing-1Jfc70 {
   background-color: transparent;
@@ -7535,6 +7480,14 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 144px;
+}
+.a22containedbutton .spacing-7NXk75 {
+  background-color: transparent;
+  height: 124px;
+  left: 68px;
+  position: absolute;
+  top: 47px;
+  width: 36px;
 }
 .a22containedbutton .spacing-CDxFtK {
   background-color: transparent;
@@ -7600,6 +7553,14 @@ transform: scale(0.98);
   top: 38px;
   width: 36px;
 }
+.a22containedbutton .spacing-KEKDSX {
+  background-color: transparent;
+  height: 113px;
+  left: 38px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
 .a22containedbutton .spacing-KqngHL {
   background-color: transparent;
   height: 56px;
@@ -7608,20 +7569,12 @@ transform: scale(0.98);
   top: 152px;
   width: 720px;
 }
-.a22containedbutton .spacing-Nnqhji {
+.a22containedbutton .spacing-N51xsA {
   background-color: transparent;
-  height: 19px;
-  left: 38px;
+  height: 113px;
+  left: 542px;
   position: absolute;
-  top: 33px;
-  width: 578px;
-}
-.a22containedbutton .spacing-QEVPxH {
-  background-color: transparent;
-  height: 124px;
-  left: 68px;
-  position: absolute;
-  top: 47px;
+  top: 0px;
   width: 36px;
 }
 .a22containedbutton .spacing-SdDyJq {
@@ -7639,6 +7592,14 @@ transform: scale(0.98);
   position: absolute;
   top: 38px;
   width: 16px;
+}
+.a22containedbutton .spacing-VToG3W {
+  background-color: transparent;
+  height: 19px;
+  left: 38px;
+  position: absolute;
+  top: 33px;
+  width: 578px;
 }
 .a22containedbutton .spacing-Vv3WLf {
   background-color: transparent;
@@ -7704,6 +7665,14 @@ transform: scale(0.98);
   top: 54px;
   width: 178px;
 }
+.a22containedbutton .spacing-jQx7dQ {
+  background-color: transparent;
+  height: 124px;
+  left: 308px;
+  position: absolute;
+  top: 47px;
+  width: 36px;
+}
 .a22containedbutton .spacing-l7whEC {
   background-color: transparent;
   height: 101px;
@@ -7712,26 +7681,10 @@ transform: scale(0.98);
   top: 0px;
   width: 45px;
 }
-.a22containedbutton .spacing-mMagKa {
-  background-color: transparent;
-  height: 19px;
-  left: 38px;
-  position: absolute;
-  top: 108px;
-  width: 578px;
-}
 .a22containedbutton .spacing-meuS22 {
   background-color: transparent;
   height: 121px;
   left: 140px;
-  position: absolute;
-  top: 0px;
-  width: 36px;
-}
-.a22containedbutton .spacing-nOyTxc {
-  background-color: transparent;
-  height: 113px;
-  left: 542px;
   position: absolute;
   top: 0px;
   width: 36px;
@@ -7751,6 +7704,30 @@ transform: scale(0.98);
   position: absolute;
   top: 38px;
   width: 16px;
+}
+.a22containedbutton .spacing-owotGH {
+  background-color: transparent;
+  height: 124px;
+  left: 512px;
+  position: absolute;
+  top: 47px;
+  width: 36px;
+}
+.a22containedbutton .spacing-pXmil6 {
+  background-color: transparent;
+  height: 124px;
+  left: 272px;
+  position: absolute;
+  top: 47px;
+  width: 36px;
+}
+.a22containedbutton .spacing-peVWA5 {
+  background-color: transparent;
+  height: 19px;
+  left: 38px;
+  position: absolute;
+  top: 108px;
+  width: 578px;
 }
 .a22containedbutton .spacing-rFNL5j {
   background-color: transparent;
@@ -7776,14 +7753,6 @@ transform: scale(0.98);
   top: 38px;
   width: 36px;
 }
-.a22containedbutton .spacing-rjoXrW {
-  background-color: transparent;
-  height: 113px;
-  left: 302px;
-  position: absolute;
-  top: 0px;
-  width: 12px;
-}
 .a22containedbutton .spacing-uPpuyQ {
   background-color: transparent;
   height: 82px;
@@ -7791,22 +7760,6 @@ transform: scale(0.98);
   position: absolute;
   top: 38px;
   width: 16px;
-}
-.a22containedbutton .spacing-uSbxxm {
-  background-color: transparent;
-  height: 124px;
-  left: 272px;
-  position: absolute;
-  top: 47px;
-  width: 36px;
-}
-.a22containedbutton .spacing-uXOxnd {
-  background-color: transparent;
-  height: 124px;
-  left: 512px;
-  position: absolute;
-  top: 47px;
-  width: 36px;
 }
 .a22containedbutton .spacing-vw12cP {
   background-color: transparent;
@@ -7816,14 +7769,6 @@ transform: scale(0.98);
   top: 0px;
   width: 45px;
 }
-.a22containedbutton .spacing-wDOuh4 {
-  background-color: transparent;
-  height: 124px;
-  left: 308px;
-  position: absolute;
-  top: 47px;
-  width: 36px;
-}
 .a22containedbutton .spacing-xBQvcl {
   background-color: transparent;
   height: 137px;
@@ -7832,13 +7777,13 @@ transform: scale(0.98);
   top: 38px;
   width: 36px;
 }
-.a22containedbutton .spacing-xJF9iY {
+.a22containedbutton .spacing-xY8rDz {
   background-color: transparent;
   height: 113px;
-  left: 38px;
+  left: 302px;
   position: absolute;
   top: 0px;
-  width: 36px;
+  width: 12px;
 }
 .a22containedbutton .spacing-zX8CDf {
   background-color: transparent;
@@ -7858,7 +7803,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .symbol-BdsFKW {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton33-C11AF6AA-4C3F-4B83-8638-EAA47BA9FAEB@2x.png);
+  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton33-F8701EB4-C47E-4DF6-A273-9A70E315CC6B@2x.png);
   background-size: 100% 100%;
   height: 170px;
   left: 220px;
@@ -7868,7 +7813,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .symbol-IVNWh6 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-2-02measurew360mpl022containedbutton3-C9D173AF-33EA-4B46-81BD-326227E1B8E7@2x.png);
+  background-image: url(../img/2-2-contained-button-2-02measurew360mpl022containedbutton3-3FCC89CF-5A09-44D7-A063-CD3CA9566C79@2x.png);
   background-size: 100% 100%;
   height: 112px;
   left: 232px;
@@ -7878,7 +7823,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .symbol-L2ylWz {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-2-02measurew360mpl022containedbutton311-8245E2DB-DA52-4D0B-91E5-623BC51DDD02@2x.png);
+  background-image: url(../img/2-2-contained-button-2-02measurew360mpl022containedbutton311-5F3C0FE1-6D25-470C-BD8B-E9DBB8E6A514@2x.png);
   background-size: 100% 100%;
   height: 44px;
   left: 440px;
@@ -7886,17 +7831,9 @@ transform: scale(0.98);
   top: 78px;
   width: 360px;
 }
-.a22containedbutton .symbol-PVNDSN {
-  background-color: transparent;
-  height: 266px;
-  left: 88px;
-  position: absolute;
-  top: 146px;
-  width: 540px;
-}
 .a22containedbutton .symbol-YOVf0a {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton311-144A70E1-1CB0-4FC1-B9A1-2E49D1ACF617@2x.png);
+  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton311-262783B6-B6FB-42AE-AC41-E799293AED6C@2x.png);
   background-size: 100% 100%;
   height: 44px;
   left: 220px;
@@ -7914,7 +7851,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .symbol-bhBWwg {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton32-582D8037-5787-4634-BC35-8E1110C929C2@2x.png);
+  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton32-034F51D8-3373-4B10-AEB7-F8940BF1E08E@2x.png);
   background-size: 100% 100%;
   height: 170px;
   left: 220px;
@@ -7924,7 +7861,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .symbol-bz3uxC {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-2-02measurew360mpl022containedbutton312-767EFD2D-26CF-40F6-8268-0463DDDC645E@2x.png);
+  background-image: url(../img/2-2-contained-button-2-02measurew360mpl022containedbutton312-4F85ECC5-B8BF-4541-A38F-768EF8380CAB@2x.png);
   background-size: 100% 100%;
   height: 63px;
   left: 440px;
@@ -7934,7 +7871,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .symbol-g5wJq4 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton312-AEDAA1D7-CA2F-4CB4-BD10-BC87CDB4D253@2x.png);
+  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton312-EA591E62-ED98-4579-989F-B571D67E0241@2x.png);
   background-size: 100% 100%;
   height: 44px;
   left: 220px;
@@ -7942,9 +7879,17 @@ transform: scale(0.98);
   top: 78px;
   width: 800px;
 }
+.a22containedbutton .symbol-k8OmBS {
+  background-color: transparent;
+  height: 266px;
+  left: 88px;
+  position: absolute;
+  top: 146px;
+  width: 540px;
+}
 .a22containedbutton .symbol-rZOiIF {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton313-781F9425-27A8-4869-BD40-A3D4C23C17AF@2x.png);
+  background-image: url(../img/2-2-contained-button-2-02measurew800tpl022containedbutton313-3288C93E-3B2F-4E83-B32A-B55DF9733ADD@2x.png);
   background-size: 100% 100%;
   height: 63px;
   left: 220px;
@@ -7960,12 +7905,12 @@ transform: scale(0.98);
   top: 1436px;
   width: 1240px;
 }
-.a22containedbutton .tag-refer-YS4HFf {
+.a22containedbutton .tag-refer-lRJkoe {
   background-color: transparent;
   height: 29px;
   left: 82px;
   position: absolute;
-  top: 123px;
+  top: 40px;
   width: 142px;
 }
 .a22containedbutton .tag-refer-xTGskI {
@@ -7975,14 +7920,6 @@ transform: scale(0.98);
   position: absolute;
   top: 234px;
   width: 159px;
-}
-.a22containedbutton .tag-update-C61RwL {
-  background-color: transparent;
-  height: 34px;
-  left: 1086px;
-  position: absolute;
-  top: 81px;
-  width: 138px;
 }
 .a22containedbutton .text-1BxB6q {
   background-color: transparent;
@@ -8012,6 +7949,20 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a22containedbutton .text-2QincZ {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .text-3lcOVf {
   background-color: transparent;
   height: 40px;
@@ -8019,6 +7970,20 @@ transform: scale(0.98);
   position: absolute;
   top: 62px;
   width: 367px;
+}
+.a22containedbutton .text-4Y7mj9 {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a22containedbutton .text-51Ic38 {
   background-color: transparent;
@@ -8043,20 +8008,6 @@ transform: scale(0.98);
   width: 218px;
 }
 .a22containedbutton .text-AxQYF1 {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
-  height: auto;
-  left: 0px;
-  line-height: 19px;
-  opacity: 0.35;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .text-BKghVP {
   background-color: transparent;
   color: var(--black);
   font-size: 16px;
@@ -8134,20 +8085,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .text-LSrUaG {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
-  height: auto;
-  left: 0px;
-  line-height: 19px;
-  opacity: 0.35;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a22containedbutton .text-Lrpeyl {
   background-color: transparent;
   color: var(--black);
@@ -8212,20 +8149,6 @@ transform: scale(0.98);
   top: 50px;
   width: 400px;
 }
-.a22containedbutton .text-Wobvfa {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
-  height: auto;
-  left: 0px;
-  line-height: 19px;
-  opacity: 0.35;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a22containedbutton .text-WvbxKh {
   background-color: transparent;
   color: var(--white);
@@ -8253,13 +8176,19 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .text-YS4HFf {
+.a22containedbutton .text-eGK17b {
   background-color: transparent;
-  height: 647px;
-  left: 40px;
+  color: var(--black);
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  line-height: 19px;
+  opacity: 0.35;
   position: absolute;
-  top: 126px;
-  width: 1160px;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a22containedbutton .text-ixPGZX {
   background-color: transparent;
@@ -8288,6 +8217,14 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: auto;
+}
+.a22containedbutton .text-lRJkoe {
+  background-color: transparent;
+  height: 647px;
+  left: 40px;
+  position: absolute;
+  top: 43px;
+  width: 1160px;
 }
 .a22containedbutton .text-uPpuyQ {
   background-color: transparent;
@@ -8355,9 +8292,9 @@ transform: scale(0.98);
   top: 399px;
   width: 505px;
 }
-.a22containedbutton .typeface-so3dQ0 {
+.a22containedbutton .typeface-ZbRg96 {
   background-color: transparent;
-  height: 259px;
+  height: 249px;
   left: 735px;
   position: absolute;
   top: 377px;
@@ -8405,32 +8342,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 1240px;
 }
-.a22containedbutton .updated-N0mG4b {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 20px;
-  height: auto;
-  left: 42px;
-  line-height: 24px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .v-N0mG4b {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 20px;
-  height: auto;
-  left: 0px;
-  line-height: 24px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a22containedbutton .value-08DUJb {
   background-color: transparent;
   height: 18px;
@@ -8460,6 +8371,19 @@ transform: scale(0.98);
   top: 0px;
   width: 24px;
 }
+.a22containedbutton .value-2xnWEV {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 119px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .value-3VetXH {
   background-color: transparent;
   height: 18px;
@@ -8481,6 +8405,22 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a22containedbutton .value-4GmTTf {
+  background-color: transparent;
+  height: 22px;
+  left: 50px;
+  position: absolute;
+  top: 0px;
+  width: 151px;
+}
+.a22containedbutton .value-4Pw0Du {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 1px;
+  width: 9px;
+}
 .a22containedbutton .value-5a3RwT {
   background-color: transparent;
   height: 18px;
@@ -8489,13 +8429,13 @@ transform: scale(0.98);
   top: 0px;
   width: 26px;
 }
-.a22containedbutton .value-5oUupv {
+.a22containedbutton .value-68L2n0 {
   background-color: transparent;
-  height: 18px;
-  left: 9px;
+  height: 22px;
+  left: 104px;
   position: absolute;
   top: 0px;
-  width: 18px;
+  width: 212px;
 }
 .a22containedbutton .value-7DQRMu {
   background-color: transparent;
@@ -8518,62 +8458,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .value-AXvbH6 {
-  background-color: transparent;
-  height: 22px;
-  left: 50px;
-  position: absolute;
-  top: 0px;
-  width: 151px;
-}
-.a22containedbutton .value-AtmlwI {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 67px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .value-BkxvDU {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 80px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .value-Bt8mEI {
-  background-color: transparent;
-  height: 18px;
-  left: 12px;
-  position: absolute;
-  top: 24px;
-  width: 17px;
-}
-.a22containedbutton .value-Bxs0sj {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 88px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .value-CGC3KY {
+.a22containedbutton .value-AKeHU5 {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
@@ -8585,6 +8470,30 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: auto;
+}
+.a22containedbutton .value-AXvbH6 {
+  background-color: transparent;
+  height: 22px;
+  left: 50px;
+  position: absolute;
+  top: 0px;
+  width: 151px;
+}
+.a22containedbutton .value-B0kXTl {
+  background-color: transparent;
+  height: 18px;
+  left: 9px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a22containedbutton .value-CTNxD3 {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 1px;
+  width: 9px;
 }
 .a22containedbutton .value-DkBBfI {
   background-color: transparent;
@@ -8644,19 +8553,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .value-GpV6Id {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 32px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a22containedbutton .value-HAz0Rz {
   background-color: transparent;
   height: 18px;
@@ -8678,6 +8574,22 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a22containedbutton .value-IPtnsD {
+  background-color: transparent;
+  height: 18px;
+  left: 99px;
+  position: absolute;
+  top: 0px;
+  width: 30px;
+}
+.a22containedbutton .value-IZUywE {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 34px;
+  width: 17px;
+}
 .a22containedbutton .value-Inx4S2 {
   background-color: transparent;
   color: rgba(193,206,254,1.0);
@@ -8690,30 +8602,6 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: auto;
-}
-.a22containedbutton .value-J9an5l {
-  background-color: transparent;
-  height: 18px;
-  left: 99px;
-  position: absolute;
-  top: 0px;
-  width: 30px;
-}
-.a22containedbutton .value-KRxw9J {
-  background-color: transparent;
-  height: 22px;
-  left: 104px;
-  position: absolute;
-  top: 0px;
-  width: 212px;
-}
-.a22containedbutton .value-LJHF0I {
-  background-color: transparent;
-  height: 18px;
-  left: 99px;
-  position: absolute;
-  top: 0px;
-  width: 30px;
 }
 .a22containedbutton .value-Mw34F5 {
   background-color: transparent;
@@ -8799,23 +8687,7 @@ transform: scale(0.98);
   top: 0px;
   width: 151px;
 }
-.a22containedbutton .value-VuIvOS {
-  background-color: transparent;
-  height: 19px;
-  left: 0px;
-  position: absolute;
-  top: 34px;
-  width: 17px;
-}
-.a22containedbutton .value-XnClb2 {
-  background-color: transparent;
-  height: 18px;
-  left: 12px;
-  position: absolute;
-  top: 0px;
-  width: 9px;
-}
-.a22containedbutton .value-YasVxU {
+.a22containedbutton .value-WrgYIK {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
@@ -8828,12 +8700,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .value-YuWPBj {
+.a22containedbutton .value-XnClb2 {
   background-color: transparent;
   height: 18px;
   left: 12px;
   position: absolute;
-  top: 1px;
+  top: 0px;
   width: 9px;
 }
 .a22containedbutton .value-Yz2fts {
@@ -8850,19 +8722,6 @@ transform: scale(0.98);
   font-size: 18px;
   height: auto;
   left: 63px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .value-ZPxOQ4 {
-  background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
-  height: auto;
-  left: 100px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8954,6 +8813,19 @@ transform: scale(0.98);
   top: 0px;
   width: 151px;
 }
+.a22containedbutton .value-dnxbT8 {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 67px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .value-dxp46S {
   background-color: transparent;
   color: rgba(193,206,254,1.0);
@@ -9014,14 +8886,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .value-f6iRec {
-  background-color: transparent;
-  height: 22px;
-  left: 50px;
-  position: absolute;
-  top: 0px;
-  width: 151px;
-}
 .a22containedbutton .value-fAx7pT {
   background-color: transparent;
   color: rgba(193,206,254,1.0);
@@ -9034,6 +8898,22 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: auto;
+}
+.a22containedbutton .value-fPSE0s {
+  background-color: transparent;
+  height: 18px;
+  left: 9px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.a22containedbutton .value-h89krc {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 34px;
+  width: 17px;
 }
 .a22containedbutton .value-hANxs8 {
   background-color: transparent;
@@ -9051,13 +8931,13 @@ transform: scale(0.98);
   top: 0px;
   width: 194px;
 }
-.a22containedbutton .value-kD4Acj {
+.a22containedbutton .value-jp5mWP {
   background-color: transparent;
-  height: 19px;
-  left: 0px;
+  height: 18px;
+  left: 1px;
   position: absolute;
-  top: 34px;
-  width: 17px;
+  top: 0px;
+  width: 10px;
 }
 .a22containedbutton .value-kTPVxX {
   background-color: transparent;
@@ -9098,23 +8978,20 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .value-lRZa62 {
-  background-color: transparent;
-  height: 18px;
-  left: 1px;
-  position: absolute;
-  top: 0px;
-  width: 10px;
-}
-.a22containedbutton .value-lX8lmk {
-  background-color: transparent;
-  height: 18px;
-  left: 9px;
-  position: absolute;
-  top: 0px;
-  width: 18px;
-}
 .a22containedbutton .value-ltanVB {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 88px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .value-mBwNJK {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
@@ -9184,6 +9061,14 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: auto;
+}
+.a22containedbutton .value-ojGuhJ {
+  background-color: transparent;
+  height: 22px;
+  left: 104px;
+  position: absolute;
+  top: 0px;
+  width: 212px;
 }
 .a22containedbutton .value-p8TVuP {
   background-color: transparent;
@@ -9261,14 +9146,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .value-rkL6Uj {
-  background-color: transparent;
-  height: 18px;
-  left: 12px;
-  position: absolute;
-  top: 1px;
-  width: 9px;
-}
 .a22containedbutton .value-rwyvtw {
   background-color: transparent;
   height: 22px;
@@ -9299,6 +9176,27 @@ transform: scale(0.98);
   font-size: 18px;
   height: auto;
   left: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .value-tg41f8 {
+  background-color: transparent;
+  height: 18px;
+  left: 99px;
+  position: absolute;
+  top: 0px;
+  width: 30px;
+}
+.a22containedbutton .value-tiEcJF {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 100px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9356,6 +9254,19 @@ transform: scale(0.98);
   top: 18px;
   width: 17px;
 }
+.a22containedbutton .value-xq2nNr {
+  background-color: transparent;
+  color: var(--royal-blue);
+  font-size: 18px;
+  height: auto;
+  left: 80px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .value-xxYIxI {
   background-color: transparent;
   height: 18px;
@@ -9372,13 +9283,13 @@ transform: scale(0.98);
   top: 0px;
   width: 66px;
 }
-.a22containedbutton .value-y5JAm7 {
+.a22containedbutton .value-yCWuZS {
   background-color: transparent;
-  height: 22px;
-  left: 104px;
+  height: 18px;
+  left: 12px;
   position: absolute;
-  top: 0px;
-  width: 212px;
+  top: 24px;
+  width: 17px;
 }
 .a22containedbutton .value-yLW63O {
   background-color: transparent;
@@ -9401,26 +9312,13 @@ transform: scale(0.98);
   top: 0px;
   width: 149px;
 }
-.a22containedbutton .value-zW7qaO {
+.a22containedbutton .value-zJTe4x {
   background-color: transparent;
   color: var(--royal-blue);
   font-size: 18px;
   height: auto;
-  left: 119px;
+  left: 32px;
   line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .version-N0mG4b {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 20px;
-  height: auto;
-  left: 13px;
-  line-height: 24px;
   position: absolute;
   text-align: left;
   top: 0px;
@@ -9438,7 +9336,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.a22containedbutton .when-the-button-is-m-so3dQ0 {
+.a22containedbutton .when-the-button-is-m-ZbRg96 {
   background-color: transparent;
   color: var(--black);
   font-size: 18px;
@@ -9465,9 +9363,9 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x-2Ldb6F {
+.a22containedbutton .x-1y5mxD {
   background-color: transparent;
-  color: var(--alabaster);
+  color: var(--masala);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -9478,9 +9376,35 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a22containedbutton .x-2Ldb6F {
+  background-color: transparent;
+  color: rgba(250,250,250,1.0);
+  font-size: 18px;
+  height: auto;
+  left: 26px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .x-2xnWEV {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 157px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .x-3JNEci {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -9504,6 +9428,19 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a22containedbutton .x-4TDQsS {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 26px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .x-4hiChJ {
   background-color: transparent;
   color: var(--masala);
@@ -9519,20 +9456,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-7YgAfV {
   background-color: transparent;
-  color: var(--alabaster);
-  font-size: 18px;
-  height: auto;
-  left: 26px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .x-85Cc6l {
-  background-color: transparent;
-  color: var(--masala);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -9569,12 +9493,25 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x-AtmlwI {
+.a22containedbutton .x-AKeHU5 {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 93px;
+  left: 145px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .x-AeGaOz {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 200px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9584,59 +9521,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-AysNMl {
   background-color: transparent;
-  color: var(--alabaster);
-  font-size: 18px;
-  height: auto;
-  left: 139px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .x-BkxvDU {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 116px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .x-Bxs0sj {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 140px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .x-CGC3KY {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 206px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .x-DySN7I {
-  background-color: transparent;
-  color: var(--masala);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -9673,22 +9558,9 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x-GpV6Id {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 145px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a22containedbutton .x-HxJ6M9 {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -9818,7 +9690,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-RFbpxM {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -9842,9 +9714,35 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a22containedbutton .x-RnD6xV {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 26px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .x-U8GSEa {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 139px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .x-URi5Ak {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -9896,7 +9794,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-W9D03M {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -9907,7 +9805,20 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x-YasVxU {
+.a22containedbutton .x-WJZqYn {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 200px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .x-WrgYIK {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -9946,19 +9857,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x-ZPxOQ4 {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 242px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a22containedbutton .x-ZWaOPq {
   background-color: transparent;
   color: var(--masala);
@@ -9974,36 +9872,10 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-alnvTU {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 139px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .x-b8BxG4 {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 200px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .x-bfxkay {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 26px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10037,6 +9909,19 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a22containedbutton .x-dnxbT8 {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 93px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .x-dxp46S {
   background-color: transparent;
   color: var(--masala);
@@ -10063,22 +9948,9 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x-gBRLQE {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 26px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a22containedbutton .x-gZcn12 {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -10117,7 +9989,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-ke6JIS {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
@@ -10141,19 +10013,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x-lk0tvY {
-  background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
-  height: auto;
-  left: 200px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a22containedbutton .x-lnB1px {
   background-color: transparent;
   color: var(--masala);
@@ -10168,6 +10027,19 @@ transform: scale(0.98);
   width: auto;
 }
 .a22containedbutton .x-ltanVB {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 140px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .x-mBwNJK {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
@@ -10273,7 +10145,7 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-t6rqTe {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 139px;
@@ -10286,10 +10158,23 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-t8rirx {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 26px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .x-tiEcJF {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 242px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10325,10 +10210,23 @@ transform: scale(0.98);
 }
 .a22containedbutton .x-x3XrIk {
   background-color: transparent;
-  color: var(--alabaster);
+  color: rgba(250,250,250,1.0);
   font-size: 18px;
   height: auto;
   left: 139px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .x-xq2nNr {
+  background-color: transparent;
+  color: var(--masala);
+  font-size: 18px;
+  height: auto;
+  left: 116px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10362,12 +10260,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x-zW7qaO {
+.a22containedbutton .x-zJTe4x {
   background-color: transparent;
   color: var(--masala);
   font-size: 18px;
   height: auto;
-  left: 157px;
+  left: 206px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10402,16 +10300,16 @@ transform: scale(0.98);
   top: 11px;
   width: auto;
 }
-.a22containedbutton .x0-2PY53U {
+.a22containedbutton .x0-2YWoh7 {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
   height: auto;
-  left: -2px;
+  left: 0px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
-  text-align: right;
+  text-align: left;
   top: 0px;
   white-space: nowrap;
   width: auto;
@@ -10500,7 +10398,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x0-9PM2ML {
+.a22containedbutton .x0-9mKB2x {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
@@ -10514,7 +10412,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x0-9mKB2x {
+.a22containedbutton .x0-AXyN95 {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
@@ -10556,6 +10454,20 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a22containedbutton .x0-D5dUrl {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .x0-DE8m6m {
   background-color: transparent;
   color: var(--black);
@@ -10568,6 +10480,19 @@ transform: scale(0.98);
   text-align: center;
   top: 11px;
   white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .x0-Du6kqD {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
   width: auto;
 }
 .a22containedbutton .x0-Dyrwj0 {
@@ -10593,6 +10518,20 @@ transform: scale(0.98);
   opacity: 0.6;
   position: absolute;
   text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .x0-EzJD1k {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
   top: 0px;
   white-space: nowrap;
   width: auto;
@@ -10666,20 +10605,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x0-HSWfn8 {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
-  height: auto;
-  left: -2px;
-  line-height: 18px;
-  opacity: 0.6;
-  position: absolute;
-  text-align: right;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a22containedbutton .x0-ICWgck {
   background-color: transparent;
   color: var(--black);
@@ -10735,6 +10660,20 @@ transform: scale(0.98);
   top: 11px;
   width: auto;
 }
+.a22containedbutton .x0-JCDgIi {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .x0-JQsXRN {
   background-color: transparent;
   color: var(--black);
@@ -10749,6 +10688,19 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a22containedbutton .x0-K5310W {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  width: auto;
+}
 .a22containedbutton .x0-KB2nnj {
   background-color: transparent;
   color: var(--black);
@@ -10760,6 +10712,20 @@ transform: scale(0.98);
   position: absolute;
   text-align: center;
   top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a22containedbutton .x0-KJbERi {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
   white-space: nowrap;
   width: auto;
 }
@@ -10818,53 +10784,12 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x0-Se2z2t {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
-  height: auto;
-  left: 0px;
-  line-height: 18px;
-  opacity: 0.6;
-  position: absolute;
-  text-align: center;
-  top: 11px;
-  width: auto;
-}
-.a22containedbutton .x0-TJEd3d {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
-  height: auto;
-  left: 0px;
-  line-height: 18px;
-  opacity: 0.6;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a22containedbutton .x0-TqboTd {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
   height: auto;
   left: -1px;
-  line-height: 18px;
-  opacity: 0.6;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .x0-VE725K {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
-  height: auto;
-  left: 0px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10901,16 +10826,16 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x0-Z6DuLe {
+.a22containedbutton .x0-YsVrDf {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
   height: auto;
-  left: 0px;
+  left: -2px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
-  text-align: center;
+  text-align: right;
   top: 0px;
   white-space: nowrap;
   width: auto;
@@ -10929,19 +10854,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x0-ZoEx9a {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
-  height: auto;
-  left: 0px;
-  line-height: 18px;
-  opacity: 0.6;
-  position: absolute;
-  text-align: center;
-  top: 11px;
-  width: auto;
-}
 .a22containedbutton .x0-aDMG6z {
   background-color: transparent;
   color: var(--black);
@@ -10954,19 +10866,6 @@ transform: scale(0.98);
   text-align: left;
   top: 0px;
   white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .x0-bhwUdA {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
-  height: auto;
-  left: 0px;
-  line-height: 18px;
-  opacity: 0.6;
-  position: absolute;
-  text-align: center;
-  top: 11px;
   width: auto;
 }
 .a22containedbutton .x0-bm4ggF {
@@ -11025,7 +10924,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x0-fPiOmU {
+.a22containedbutton .x0-hBpMKo {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
@@ -11035,22 +10934,7 @@ transform: scale(0.98);
   opacity: 0.6;
   position: absolute;
   text-align: center;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a22containedbutton .x0-gQ6Xlz {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
-  height: auto;
-  left: 0px;
-  line-height: 18px;
-  opacity: 0.6;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
+  top: 11px;
   width: auto;
 }
 .a22containedbutton .x0-hODPSU {
@@ -11109,20 +10993,6 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.a22containedbutton .x0-pYMBFz {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
-  height: auto;
-  left: 0px;
-  line-height: 18px;
-  opacity: 0.6;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a22containedbutton .x0-pfhnbp {
   background-color: transparent;
   color: var(--black);
@@ -11151,6 +11021,20 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a22containedbutton .x0-tiMT4V {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .x0-uXLsfV {
   background-color: transparent;
   color: var(--black);
@@ -11165,7 +11049,7 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x0-uyzksR {
+.a22containedbutton .x0-v8EGAj {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
@@ -11178,7 +11062,7 @@ transform: scale(0.98);
   top: 11px;
   width: auto;
 }
-.a22containedbutton .x0-v8EGAj {
+.a22containedbutton .x0-vUaqKy {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
@@ -11275,6 +11159,20 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a22containedbutton .x0-xO3Pqa {
+  background-color: transparent;
+  color: var(--black);
+  font-size: 15px;
+  height: auto;
+  left: 0px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a22containedbutton .x0-xYVUsP {
   background-color: transparent;
   color: var(--black);
@@ -11329,16 +11227,16 @@ transform: scale(0.98);
   top: 11px;
   width: auto;
 }
-.a22containedbutton .x0-yfM190 {
+.a22containedbutton .x0-z3TZxk {
   background-color: transparent;
   color: var(--black);
   font-size: 15px;
   height: auto;
-  left: 0px;
+  left: -2px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
-  text-align: left;
+  text-align: right;
   top: 0px;
   white-space: nowrap;
   width: auto;
@@ -11357,13 +11255,13 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a22containedbutton .x1-2xxw1u {
+.a22containedbutton .x1-31hBF5 {
   background-color: transparent;
   color: var(--white);
-  font-size: 14px;
+  font-size: 15px;
   height: 22px;
   left: 0px;
-  line-height: 17px;
+  line-height: 18px;
   position: absolute;
   text-align: center;
   top: 0px;
@@ -11393,7 +11291,19 @@ transform: scale(0.98);
   top: 0px;
   width: 22px;
 }
-.a22containedbutton .x1-JJG0Dv {
+.a22containedbutton .x1-Lk6n9r {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: 22px;
+  left: 0px;
+  line-height: 17px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a22containedbutton .x1-RZaQGF {
   background-color: transparent;
   color: var(--white);
   font-size: 15px;
@@ -11424,30 +11334,6 @@ transform: scale(0.98);
   height: 22px;
   left: 0px;
   line-height: 17px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  width: 22px;
-}
-.a22containedbutton .x1-WsxWbZ {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
-  height: 22px;
-  left: 0px;
-  line-height: 17px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  width: 22px;
-}
-.a22containedbutton .x1-YwJRZ9 {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
-  height: 22px;
-  left: 0px;
-  line-height: 18px;
   position: absolute;
   text-align: center;
   top: 0px;
@@ -11504,6 +11390,18 @@ transform: scale(0.98);
   width: 22px;
 }
 .a22containedbutton .x1-lRrdMo {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 14px;
+  height: 22px;
+  left: 0px;
+  line-height: 17px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 22px;
+}
+.a22containedbutton .x1-qLBPYi {
   background-color: transparent;
   color: var(--white);
   font-size: 14px;
@@ -11651,111 +11549,111 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.a22containedbutton .x2-02-keysc-edbutton11-YS4HFf {
+.a22containedbutton .x2-02-case--nedbutton1-lRJkoe {
   background-color: transparent;
   height: 457px;
   left: 40px;
   position: absolute;
-  top: 167px;
+  top: 84px;
   width: 216px;
 }
-.a22containedbutton .x2-02-keysc-edbutton12-YS4HFf {
+.a22containedbutton .x2-02-case--nedbutton2-lRJkoe {
   background-color: transparent;
   height: 457px;
   left: 276px;
   position: absolute;
-  top: 167px;
+  top: 84px;
   width: 216px;
 }
-.a22containedbutton .x2-02-keysc-edbutton13-YS4HFf {
+.a22containedbutton .x2-02-case--nedbutton3-lRJkoe {
   background-color: transparent;
   height: 457px;
   left: 512px;
   position: absolute;
-  top: 167px;
+  top: 84px;
   width: 216px;
 }
-.a22containedbutton .x2-02-keysc-edbutton14-YS4HFf {
+.a22containedbutton .x2-02-case--nedbutton4-lRJkoe {
   background-color: transparent;
   height: 457px;
   left: 748px;
   position: absolute;
-  top: 167px;
+  top: 84px;
   width: 216px;
 }
-.a22containedbutton .x2-02-keysc-edbutton15-YS4HFf {
+.a22containedbutton .x2-02-case--nedbutton5-lRJkoe {
   background-color: transparent;
   height: 457px;
   left: 984px;
   position: absolute;
-  top: 167px;
+  top: 84px;
   width: 216px;
 }
-.a22containedbutton .x2-02-keysc-edbutton31-XDa6Jn {
-  background-color: transparent;
-  height: 508px;
-  left: 630px;
-  position: absolute;
-  top: 40px;
-  width: 240px;
-}
-.a22containedbutton .x2-02-keysc-edbutton31-xTGskI {
-  background-color: transparent;
-  height: 508px;
-  left: 370px;
-  position: absolute;
-  top: 40px;
-  width: 240px;
-}
-.a22containedbutton .x2-02-keysc-edbutton32-6Qj0Em {
-  background-color: transparent;
-  height: 508px;
-  left: 630px;
-  position: absolute;
-  top: 40px;
-  width: 240px;
-}
-.a22containedbutton .x2-02-keysc-edbutton32-A9aoxY {
-  background-color: transparent;
-  height: 508px;
-  left: 370px;
-  position: absolute;
-  top: 40px;
-  width: 240px;
-}
-.a22containedbutton .x2-02-keysc-n11-copy-2-YS4HFf {
-  background-color: transparent;
-  height: 457px;
-  left: 276px;
-  position: absolute;
-  top: 788px;
-  width: 216px;
-}
-.a22containedbutton .x2-02-keysc-nedbutton2-1OxNzI {
-  background-color: transparent;
-  height: 508px;
-  left: 370px;
-  position: absolute;
-  top: 40px;
-  width: 240px;
-}
-.a22containedbutton .x2-02-keysc-nedbutton2-hSj6xB {
-  background-color: transparent;
-  height: 508px;
-  left: 630px;
-  position: absolute;
-  top: 40px;
-  width: 240px;
-}
-.a22containedbutton .x2-02-keysc-ton11-copy-YS4HFf {
+.a22containedbutton .x2-02-case--nedbutton6-lRJkoe {
   background-color: transparent;
   height: 457px;
   left: 40px;
   position: absolute;
-  top: 788px;
+  top: 705px;
   width: 216px;
 }
-.a22containedbutton .x2-02-measu-edbutton32-xfhrql {
+.a22containedbutton .x2-02-case--nedbutton7-lRJkoe {
+  background-color: transparent;
+  height: 457px;
+  left: 276px;
+  position: absolute;
+  top: 705px;
+  width: 216px;
+}
+.a22containedbutton .x2-02-keysc-edbutton31-6Qj0Em {
+  background-color: transparent;
+  height: 508px;
+  left: 630px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a22containedbutton .x2-02-keysc-edbutton31-A9aoxY {
+  background-color: transparent;
+  height: 508px;
+  left: 370px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a22containedbutton .x2-02-keysc-nedbutton1-1OxNzI {
+  background-color: transparent;
+  height: 508px;
+  left: 370px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a22containedbutton .x2-02-keysc-nedbutton1-hSj6xB {
+  background-color: transparent;
+  height: 508px;
+  left: 630px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a22containedbutton .x2-02-keysc-nedbutton2-XDa6Jn {
+  background-color: transparent;
+  height: 508px;
+  left: 630px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a22containedbutton .x2-02-keysc-nedbutton2-xTGskI {
+  background-color: transparent;
+  height: 508px;
+  left: 370px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+}
+.a22containedbutton .x2-02-measu-edbutton32-CFKUOv {
   background-color: transparent;
   height: 84px;
   left: 0px;
@@ -11763,7 +11661,7 @@ transform: scale(0.98);
   top: 182px;
   width: 540px;
 }
-.a22containedbutton .x2-02-measu-edbutton32-xjTkXw {
+.a22containedbutton .x2-02-measu-edbutton32-vecCVq {
   background-color: transparent;
   height: 84px;
   left: 0px;
@@ -11928,10 +11826,10 @@ transform: scale(0.98);
   line-height: 18px;
 }
 :root {
-  --alabaster: rgba(250,250,250,1.0);
   --azure-radiance: rgba(0,153,255,1.0);
   --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
+  --ebb: rgba(227,227,227,1.0);
   --electric-violet: rgba(102,0,255,1.0);
   --gray: rgba(145,145,145,1.0);
   --masala: rgba(59,59,59,1.0);
