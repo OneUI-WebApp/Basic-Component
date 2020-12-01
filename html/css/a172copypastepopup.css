@@ -2,7 +2,7 @@
 
 .a172copypastepopup {
   background-color: rgba(245,246,247,1.0);
-  height: 4348px;
+  height: 4512px;
   position: relative;
   width: 1680px;
 }
@@ -41,9 +41,11 @@
 .a172copypastepopup .basic-component-gui-xrpEuL {
   background-color: transparent;
   color: rgba(37,37,37,1.0);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -55,9 +57,11 @@
 .a172copypastepopup .bottom-7YEL5c {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 44px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 53px;
   opacity: 0.8;
   position: absolute;
@@ -68,10 +72,10 @@
 }
 .a172copypastepopup .bottom-C61RwL {
   background-color: transparent;
-  height: 1128px;
+  height: 1184px;
   left: 380px;
   position: absolute;
-  top: 3015px;
+  top: 3123px;
   width: 1240px;
 }
 .a172copypastepopup .btn-mwblLs {
@@ -86,6 +90,21 @@
   width: 274px;
 }
 .a172copypastepopup .btn-mwblLs:hover {
+
+transform: scale(0.98);
+}
+.a172copypastepopup .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 156px;
+}
+.a172copypastepopup .btn-xpyOiF:hover {
 
 transform: scale(0.98);
 }
@@ -120,6 +139,22 @@ transform: scale(0.98);
   position: absolute;
   top: 291px;
   width: 465px;
+}
+.a172copypastepopup .document-b-textupdate-FzGLDt {
+  background-color: rgba(0,204,153,0.2);
+  height: 44px;
+  left: 0px;
+  position: absolute;
+  top: 430px;
+  width: 382px;
+}
+.a172copypastepopup .document-b-textupdate-t8BqPq {
+  background-color: rgba(0,204,153,0.2);
+  height: 44px;
+  left: 0px;
+  position: absolute;
+  top: 450px;
+  width: 382px;
 }
 .a172copypastepopup .document-b-x-contents-3IaCX8 {
   background-color: var(--white);
@@ -207,15 +242,14 @@ transform: scale(0.98);
   height: 45px;
   left: 863px;
   position: absolute;
-  top: 4223px;
+  top: 4387px;
   width: 274px;
 }
 .a172copypastepopup .fn-U0xCY8 {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -225,10 +259,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .fn-fFdMUG {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -238,10 +271,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .fn-jgPye0 {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -683,10 +715,10 @@ transform: scale(0.98);
 }
 .a172copypastepopup .group-2-7AdSuJ {
   background-color: transparent;
-  height: 418px;
+  height: 474px;
   left: 0px;
   position: absolute;
-  top: 2352px;
+  top: 2295px;
   width: 1240px;
 }
 .a172copypastepopup .group-2-9izOqx {
@@ -787,7 +819,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .group-7YEL5c {
   background-color: transparent;
-  height: 438px;
+  height: 494px;
   left: 0px;
   position: absolute;
   top: 690px;
@@ -832,6 +864,14 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 100px;
+}
+.a172copypastepopup .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 136px;
 }
 .a172copypastepopup .group-Yo4Vxm {
   background-color: rgba(71,71,71,1.0);
@@ -925,7 +965,7 @@ transform: scale(0.98);
   background-color: transparent;
   height: 418px;
   left: 0px;
-  position: relative;
+  position: absolute;
   top: 0px;
   width: 1240px;
 }
@@ -1331,7 +1371,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-e-vertical-1LnxJD {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-E08104AA-646B-4D3C-AAC6-26F08CDA3BE3@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-F1C9FD38-E535-4538-8FD3-AF4FE8AE7EB6@2x.png);
   background-size: 100% 100%;
   height: 34px;
   left: 19px;
@@ -1341,7 +1381,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-e-vertical-2AKulx {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-3B3CA801-1A5E-46C4-A32A-14F49065C936@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-7E2AF2DF-0152-4DC2-BCC8-72219CD8A38B@2x.png);
   background-size: 100% 100%;
   height: 48px;
   left: 0px;
@@ -1351,7 +1391,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-e-vertical-43p9wZ {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-C343B96D-DE5C-4572-98DD-18EE0A7628B2@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-B26EFEAF-96F2-4C08-8160-16467E5F2AE8@2x.png);
   background-size: 100% 100%;
   height: 16px;
   left: 0px;
@@ -1361,7 +1401,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-e-vertical-9NUFud {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-BFEB333B-94FB-4FD6-94AF-99394F9362E8@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-6AC042D5-5F81-4D38-8224-BF6BDCCE56CC@2x.png);
   background-size: 100% 100%;
   height: 58px;
   left: 35px;
@@ -1371,7 +1411,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-e-vertical-F8fS26 {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-BFEB333B-94FB-4FD6-94AF-99394F9362E8@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-6AC042D5-5F81-4D38-8224-BF6BDCCE56CC@2x.png);
   background-size: 100% 100%;
   height: 58px;
   left: 0px;
@@ -1381,7 +1421,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-e-vertical-J6bDaA {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-BFEB333B-94FB-4FD6-94AF-99394F9362E8@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-6AC042D5-5F81-4D38-8224-BF6BDCCE56CC@2x.png);
   background-size: 100% 100%;
   height: 58px;
   left: 35px;
@@ -1391,7 +1431,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-e-vertical-PYdNF0 {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-C343B96D-DE5C-4572-98DD-18EE0A7628B2@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-B26EFEAF-96F2-4C08-8160-16467E5F2AE8@2x.png);
   background-size: 100% 100%;
   height: 16px;
   left: 0px;
@@ -1401,7 +1441,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-e-vertical-QK1NiU {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-0A2994DB-6630-49FA-9EEE-A8FB6F70929C@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-62E1E424-F9E4-472E-9FCC-C66F6103A685@2x.png);
   background-size: 100% 100%;
   height: 32px;
   left: 29px;
@@ -1411,7 +1451,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-e-vertical-QvxAvJ {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-152FED32-312E-4CCD-A9B2-7E4E24358B7D@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-6EA4AD34-3256-4E07-A1C6-F52A396B36AE@2x.png);
   background-size: 100% 100%;
   height: 50px;
   left: 47px;
@@ -1421,7 +1461,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-e-vertical-UH2V63 {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-BFEB333B-94FB-4FD6-94AF-99394F9362E8@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-6AC042D5-5F81-4D38-8224-BF6BDCCE56CC@2x.png);
   background-size: 100% 100%;
   height: 58px;
   left: 0px;
@@ -1431,7 +1471,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-e-vertical-bBSQho {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-BFEB333B-94FB-4FD6-94AF-99394F9362E8@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-6AC042D5-5F81-4D38-8224-BF6BDCCE56CC@2x.png);
   background-size: 100% 100%;
   height: 58px;
   left: 35px;
@@ -1441,7 +1481,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-e-vertical-bkdi6S {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-152FED32-312E-4CCD-A9B2-7E4E24358B7D@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-6EA4AD34-3256-4E07-A1C6-F52A396B36AE@2x.png);
   background-size: 100% 100%;
   height: 50px;
   left: 0px;
@@ -1451,7 +1491,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-e-vertical-kfKxHt {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-BFEB333B-94FB-4FD6-94AF-99394F9362E8@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-6AC042D5-5F81-4D38-8224-BF6BDCCE56CC@2x.png);
   background-size: 100% 100%;
   height: 58px;
   left: 0px;
@@ -1461,7 +1501,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-e-vertical-p6nPkR {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-BFEB333B-94FB-4FD6-94AF-99394F9362E8@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-6AC042D5-5F81-4D38-8224-BF6BDCCE56CC@2x.png);
   background-size: 100% 100%;
   height: 58px;
   left: 35px;
@@ -1471,7 +1511,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-e-vertical-thmUJm {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-C343B96D-DE5C-4572-98DD-18EE0A7628B2@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-B26EFEAF-96F2-4C08-8160-16467E5F2AE8@2x.png);
   background-size: 100% 100%;
   height: 16px;
   left: 19px;
@@ -1481,7 +1521,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-e-vertical-wxYscL {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-BFEB333B-94FB-4FD6-94AF-99394F9362E8@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-6AC042D5-5F81-4D38-8224-BF6BDCCE56CC@2x.png);
   background-size: 100% 100%;
   height: 58px;
   left: 0px;
@@ -1525,7 +1565,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-horizontal-0Ed4wd {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-D3C577F2-0B91-4DCF-A33D-7FBAAB7DACBE.png);
+  background-image: url(../img/17-3-more-pop-up-line-B3C6E96C-F8E0-46E6-86ED-ED2BB5AC35F8.png);
   background-size: 100% 100%;
   height: 1px;
   left: 29px;
@@ -1535,7 +1575,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-horizontal-4NnWU3 {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-2A3E0914-1411-4CC8-9442-F518C0E9C9C9@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-BE769649-7D22-4FB4-9E49-B27E0CC603C5@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1545,7 +1585,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-horizontal-9AQ4kK {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-0B29D205-D8F3-49E7-9D8B-F4E9EB4AB1FB.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-2BCB5E01-E230-4F42-9ABF-5F5F8C016FA0.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1555,7 +1595,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-horizontal-M7PKLD {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-83891D25-737B-4504-AC74-397C8B6F5324@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-77EEC92E-12E3-4277-B84C-C85E75532EF6@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1565,7 +1605,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-horizontal-MMOh9h {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-83891D25-737B-4504-AC74-397C8B6F5324@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-77EEC92E-12E3-4277-B84C-C85E75532EF6@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1575,7 +1615,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-horizontal-NtuF2b {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-2A3E0914-1411-4CC8-9442-F518C0E9C9C9@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-BE769649-7D22-4FB4-9E49-B27E0CC603C5@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1585,7 +1625,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-horizontal-QvxAvJ {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-2F4D1D49-D86C-467B-B42A-DC047782737C@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-C8F1656A-602F-488F-95FA-9EC7F39B1E3D@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 48px;
@@ -1595,7 +1635,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-horizontal-TwKs5y {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-0B29D205-D8F3-49E7-9D8B-F4E9EB4AB1FB.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-2BCB5E01-E230-4F42-9ABF-5F5F8C016FA0.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1605,7 +1645,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-horizontal-bkdi6S {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-2F4D1D49-D86C-467B-B42A-DC047782737C@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-C8F1656A-602F-488F-95FA-9EC7F39B1E3D@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 48px;
@@ -1615,7 +1655,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-horizontal-mZTx9k {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-83891D25-737B-4504-AC74-397C8B6F5324@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-77EEC92E-12E3-4277-B84C-C85E75532EF6@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1625,7 +1665,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-horizontal-n7xIw6 {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-D3C577F2-0B91-4DCF-A33D-7FBAAB7DACBE.png);
+  background-image: url(../img/17-3-more-pop-up-line-B3C6E96C-F8E0-46E6-86ED-ED2BB5AC35F8.png);
   background-size: 100% 100%;
   height: 1px;
   left: 29px;
@@ -1635,7 +1675,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-meas-horizontal-tVmb0N {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-line-83891D25-737B-4504-AC74-397C8B6F5324@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-line-77EEC92E-12E3-4277-B84C-C85E75532EF6@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1710,7 +1750,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-numb-ring-image-xCVXqU {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-oval-C180B95F-8DDE-40F4-947D-D63B7B06899E@2x.png);
+  background-image: url(../img/17-4-cursor-handler-oval-BBF24C9E-E149-442C-A4D4-690231FE13C7@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 552px;
@@ -1720,7 +1760,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-numb-ring-shape-iqsSDg {
   background-color: transparent;
-  background-image: url(../img/17-3-more-pop-up-oval-DF73D095-42A6-4F33-BB11-69E21690ED24@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-oval-2C63BE1F-35C5-40F5-AEBD-7F6FB4ABD246@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 346px;
@@ -1730,7 +1770,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-numb-ring-shape-xCVXqU {
   background-color: transparent;
-  background-image: url(../img/17-3-more-pop-up-oval-DF73D095-42A6-4F33-BB11-69E21690ED24@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-oval-2C63BE1F-35C5-40F5-AEBD-7F6FB4ABD246@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 526px;
@@ -1740,7 +1780,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-numbering-icon-KW3Mxm {
   background-color: transparent;
-  background-image: url(../img/17-3-more-pop-up-oval-DF73D095-42A6-4F33-BB11-69E21690ED24@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-oval-2C63BE1F-35C5-40F5-AEBD-7F6FB4ABD246@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1750,7 +1790,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-numbering-icon-uGdTXj {
   background-color: transparent;
-  background-image: url(../img/17-3-more-pop-up-oval-DF73D095-42A6-4F33-BB11-69E21690ED24@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-oval-2C63BE1F-35C5-40F5-AEBD-7F6FB4ABD246@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1760,7 +1800,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-numbering-icon-xN59vm {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-oval-C180B95F-8DDE-40F4-947D-D63B7B06899E@2x.png);
+  background-image: url(../img/17-4-cursor-handler-oval-BBF24C9E-E149-442C-A4D4-690231FE13C7@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1770,7 +1810,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-numbering-type-6WzdKV {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-oval-D5AAEAFA-8070-4715-819D-604CD13E7C55@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-oval-52FFE310-5CAB-47DB-9F2B-6CD651A00179@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1780,7 +1820,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-numbering-type-xCVXqU {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-oval-D5AAEAFA-8070-4715-819D-604CD13E7C55@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-oval-52FFE310-5CAB-47DB-9F2B-6CD651A00179@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 82px;
@@ -1790,10 +1830,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-property-6WzdKV {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1804,10 +1843,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-property-KW3Mxm {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1818,10 +1856,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-property-uGdTXj {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1832,10 +1869,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .guide-property-xN59vm {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1880,16 +1916,15 @@ transform: scale(0.98);
   background-color: transparent;
   height: 438px;
   left: 0px;
-  position: relative;
+  position: absolute;
   top: 0px;
   width: 1240px;
 }
 .a172copypastepopup .history-RVdlM9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1996,7 +2031,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .mobile-lig-title-more-ZvV5VM {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-mobilelightthemeicon01actionbartitlemore-E98D14F2-6E33-43D1-9FFF-D14AAEA7ACB9@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-mobilelightthemeicon01actionbartitlemore-E5950218-BA57-484C-A6DF-8B85F4BD6B19@2x.png);
   background-size: 100% 100%;
   height: 32px;
   left: 21px;
@@ -2006,10 +2041,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-0xMv09 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2019,10 +2053,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-DvdDkP {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2032,10 +2065,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-Flc7Gh {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2045,10 +2077,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-HTwBUa {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2058,10 +2089,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-Oara3W {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2071,10 +2101,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-OgXUiv {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2084,10 +2113,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-PivS6q {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2097,10 +2125,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-SfBMv4 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2110,10 +2137,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-Yo4Vxm {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2123,10 +2149,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-ZxorBn {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2136,10 +2161,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-d3zxJ1 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2149,10 +2173,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-rBuBaR {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2162,10 +2185,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-uKaxs1 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2175,10 +2197,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-uS9uGP {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2188,10 +2209,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-xbP4I6 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2201,10 +2221,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-xxta4h {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2214,10 +2233,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-yRMvEe {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2227,10 +2245,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .property-zskm0c {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3008,7 +3025,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .symbol-XKRuRT {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-17-02measurew360mpl172copypastepopup12-A66D8102-F834-4059-AC20-58C11A955B2F@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-17-02measurew360mpl172copypastepopup12-19ADF556-EA24-4DFA-B05A-EB8540434691@2x.png);
   background-size: 100% 100%;
   height: 300px;
   left: 260px;
@@ -3018,7 +3035,7 @@ transform: scale(0.98);
 }
 .a172copypastepopup .symbol-q5xS0o {
   background-color: transparent;
-  background-image: url(../img/17-2-copy--paste-pop-up-17-02measurew360mpl172copypastepopup2-C3864619-CDC3-4A5F-B195-A1A091691D48@2x.png);
+  background-image: url(../img/17-2-copy--paste-pop-up-17-02measurew360mpl172copypastepopup2-3A6ACCD7-82ED-4D8F-9AEC-E52DBDBACB7A@2x.png);
   background-size: 100% 100%;
   height: 320px;
   left: 260px;
@@ -3026,12 +3043,19 @@ transform: scale(0.98);
   top: 40px;
   width: 720px;
 }
+.a172copypastepopup .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 1213px;
+  position: absolute;
+  top: 81px;
+  width: 156px;
+}
 .a172copypastepopup .text-2lk965 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -3042,10 +3066,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .text-3kEgiO {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3056,10 +3079,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .text-5T2Hop {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -3070,10 +3092,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .text-C1A0E6 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3084,10 +3105,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .text-ESb0Wx {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -3098,10 +3118,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .text-HZL1k7 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -3112,10 +3131,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .text-LYExnJ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -3127,9 +3145,11 @@ transform: scale(0.98);
 .a172copypastepopup .text-WvbxKh {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 31px;
+  letter-spacing: 0.00px;
   line-height: 28.6px;
   position: absolute;
   text-align: center;
@@ -3139,10 +3159,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .text-X79Kze {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -3153,10 +3172,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .text-ZUtjZa {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -3167,10 +3185,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .text-bGEFPJ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3181,10 +3198,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .text-gLmQ27 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -3203,10 +3219,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .text-jdOfb5 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -3217,10 +3232,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .text-luvLxU {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -3231,10 +3245,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .text-vYxAAI {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -3245,10 +3258,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .text-xnMSvL {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -3260,9 +3272,11 @@ transform: scale(0.98);
 .a172copypastepopup .top-7AdSuJ {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 44px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 53px;
   opacity: 0.8;
   position: absolute;
@@ -3273,11 +3287,71 @@ transform: scale(0.98);
 }
 .a172copypastepopup .top-C61RwL {
   background-color: transparent;
-  height: 2770px;
+  height: 2769px;
   left: 380px;
   position: absolute;
   top: 194px;
   width: 1240px;
+}
+.a172copypastepopup .uadf8ub9bc-0uc900-scr-FzGLDt {
+  background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 430px;
+  width: 1240px;
+}
+.a172copypastepopup .uadf8ub9bc-0uc900-scr-t8BqPq {
+  background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 450px;
+  width: 1240px;
+}
+.a172copypastepopup .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 60px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a172copypastepopup .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a172copypastepopup .value-0xMv09 {
   background-color: transparent;
@@ -3289,10 +3363,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .value-1NxR9g {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3302,10 +3375,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .value-1line-Oara3W {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 103px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3315,10 +3387,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .value-1line-OgXUiv {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 103px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3336,10 +3407,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .value-2line-HqV7GJ {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3349,10 +3419,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .value-2line-iuiajv {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3387,9 +3456,11 @@ transform: scale(0.98);
 .a172copypastepopup .value-CfiGUx {
   background-color: transparent;
   color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3399,10 +3470,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .value-Datkc2 {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3412,10 +3482,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .value-DvdDkP {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 55px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3433,10 +3502,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .value-EKHiDE {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3446,10 +3514,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .value-Flc7Gh {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 88px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3460,9 +3527,11 @@ transform: scale(0.98);
 .a172copypastepopup .value-GsxJzd {
   background-color: transparent;
   color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3489,9 +3558,11 @@ transform: scale(0.98);
 .a172copypastepopup .value-U0xCY8 {
   background-color: transparent;
   color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3509,10 +3580,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .value-WXEGcp {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3522,10 +3592,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .value-ZxorBn {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 61px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3535,10 +3604,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .value-fFdMUG {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 29px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3549,9 +3617,11 @@ transform: scale(0.98);
 .a172copypastepopup .value-jgPye0 {
   background-color: transparent;
   color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3562,9 +3632,11 @@ transform: scale(0.98);
 .a172copypastepopup .value-oJGMtN {
   background-color: transparent;
   color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3574,10 +3646,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .value-rBuBaR {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3635,10 +3706,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .value-xbP4I6 {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 80px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3648,11 +3718,25 @@ transform: scale(0.98);
 }
 .a172copypastepopup .value-xxta4h {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 119px;
+  letter-spacing: 0.00px;
   line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a172copypastepopup .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
   position: absolute;
   text-align: left;
   top: 0px;
@@ -3663,6 +3747,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 0px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3672,10 +3758,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-BTK5ly {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 26px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3685,10 +3770,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-DvdDkP {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 94px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3698,10 +3782,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-Flc7Gh {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 140px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3711,10 +3794,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-HqV7GJ {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 195px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3724,10 +3806,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-PivS6q {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 160px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3737,10 +3818,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-SfBMv4 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 221px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3750,10 +3830,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-U0xCY8 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 145px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3763,10 +3842,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-Yo4Vxm {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 176px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3776,10 +3854,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-ZxorBn {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3789,10 +3866,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-d3zxJ1 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 119px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3802,10 +3878,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-fFdMUG {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 251px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3815,10 +3890,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-hJxjQP {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 139px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3828,10 +3902,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-iuiajv {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 208px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3841,10 +3914,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-jgPye0 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 145px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3854,10 +3926,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-loLhNs {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 23px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3867,10 +3938,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-oBxjJx {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 26px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3880,10 +3950,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-pDLx4l {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 245px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3893,10 +3962,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-rBuBaR {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 242px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3906,10 +3974,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-uKaxs1 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3919,10 +3986,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-xbP4I6 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 117px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3932,10 +3998,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-xhTYqV {
   background-color: transparent;
-  color: rgba(250,250,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 139px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3945,10 +4010,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-xxta4h {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 149px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3958,10 +4022,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-yRMvEe {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3971,10 +4034,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x-zskm0c {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 226px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3984,10 +4046,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-0BDiPG {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3998,10 +4059,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-3qhHDS {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 9px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4012,10 +4072,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-5h0fxu {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 6px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4026,10 +4085,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-66hlkv {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4040,10 +4098,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-8uhDDe {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 9px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4054,10 +4111,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-CgV329 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 9px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4068,10 +4124,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-CoC0m9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 1px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4082,10 +4137,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-EIqJ8R {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 4px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4096,10 +4150,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-JzDyrK {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 1px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4110,10 +4163,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-KL0agm {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -1px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4124,10 +4176,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-Nx8D8I {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4138,10 +4189,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-OgVHjJ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 1px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4152,10 +4202,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-WFeWJQ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4166,10 +4215,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-ZzLcT0 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 9px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4180,10 +4228,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-bEEOMg {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4194,10 +4241,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-gyQIcd {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 15px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4208,10 +4254,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-hBt0AB {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4222,10 +4267,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-hLr9K1 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4236,10 +4280,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-mjIgop {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4250,10 +4293,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-overview-A5cskn {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4264,10 +4306,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-ox6jGE {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 1px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4278,10 +4319,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-qZixDQ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 4px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4292,10 +4332,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-rDhQxd {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -1px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4306,10 +4345,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-sQn5va {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4320,10 +4358,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x0-vlmce9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4334,10 +4371,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x1-2x9idx {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -4346,10 +4382,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x1-EA78GV {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -4358,10 +4393,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x1-FUcZ1g {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -4370,10 +4404,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x1-NOUAeU {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -4382,10 +4415,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x1-QoBezj {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -4394,10 +4426,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x1-WNQWvi {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -4406,10 +4437,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x1-app-bar-63MTsw {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4420,10 +4450,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x1-ctdVVt {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -4432,10 +4461,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x1-feIwtL {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -4444,10 +4472,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x10-search-iekNtx {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4458,10 +4485,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x11-toast-ehdyP3 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4472,10 +4498,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x12-text-fields-0Lh7Ph {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4486,10 +4511,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x13-view-controls-Laj2ls {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4500,10 +4524,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x14-description-T60wnb {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4514,10 +4537,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x15-notification-bad-BNozCf {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4528,8 +4550,13 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x16-1-thumbnaillist-C61RwL {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
   height: auto;
   left: 380px;
+  letter-spacing: 0.00px;
+  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -4539,10 +4566,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x16-thumbnail-RxcTBF {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4609,10 +4635,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x17-copy-paste-Ayzyix {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -4623,10 +4648,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x2-buttons-44xtxe {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4637,10 +4661,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x3-controllers-ssJOrS {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4651,10 +4674,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x4-dialogs-0QWcbc {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4665,10 +4687,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x5-dividers-IHUpXZ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4679,10 +4700,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x6-lists-Hst7wS {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4693,10 +4713,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x7-no-item-bNGzb0 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4707,10 +4726,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x8-progress-mVn42z {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4721,10 +4739,9 @@ transform: scale(0.98);
 }
 .a172copypastepopup .x9-scrolling-XINVgB {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4733,38 +4750,55 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.font-class-1 {
+.samsungonekorean-400-normal-alabaster-18px {
+  color: rgba(250,250,250,1.0);
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
 }
-.font-class-2 {
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-}
-.font-class-3 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
-}
-.font-class-4 {
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-}
-.font-class-5 {
+.samsungonekorean-400-normal-black-15px {
   color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
-  line-height: 84px;
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 15px;
 }
-.font-class-6 {
+.samsungonekorean-400-normal-masala-18px {
+  color: var(--masala);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-royal-blue-18px {
+  color: var(--royal-blue);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-500-normal-black-15px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 15px;
+}
+.samsungonekorean-600-normal-black-15px {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
 }
-.font-class-7 {
-  color: rgba(37,37,37,1.0);
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 33px;
+.samsungonekorean-700-normal-black-16px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 16px;
+}
+.samsungonekorean-700-normal-black-22px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 22px;
+}
+.samsungonekorean-700-normal-white-14px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 14px;
+}
+.samsungonekorean-700-normal-white-15px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 15px;
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);

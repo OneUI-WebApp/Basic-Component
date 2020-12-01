@@ -2,7 +2,7 @@
 
 .a23floatingactionbutton {
   background-color: rgba(245,246,247,1.0);
-  height: 1835px;
+  height: 1892px;
   position: relative;
   width: 1680px;
 }
@@ -17,9 +17,11 @@
 .a23floatingactionbutton .basic-component-gui-mK9PxT {
   background-color: transparent;
   color: rgba(37,37,37,1.0);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -60,10 +62,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .comment-Q8Yv1e {
   background-color: transparent;
-  color: var(--gray);
-  font-size: 18px;
   height: auto;
   left: 125px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -82,7 +83,7 @@ transform: scale(0.98);
 .a23floatingactionbutton .document-b-textupdate-4tJnfx {
   background-color: rgba(0,204,153,0.2);
   height: 20px;
-  left: 287px;
+  left: 288px;
   position: absolute;
   top: 215px;
   width: 20px;
@@ -102,6 +103,14 @@ transform: scale(0.98);
   position: absolute;
   top: 180px;
   width: 12px;
+}
+.a23floatingactionbutton .document-b-textupdate-hh1Mvx {
+  background-color: rgba(0,204,153,0.2);
+  height: 44px;
+  left: 0px;
+  position: absolute;
+  top: 841px;
+  width: 370px;
 }
 .a23floatingactionbutton .document-b-x-contents-5iy7GR {
   background-color: var(--white);
@@ -144,15 +153,14 @@ transform: scale(0.98);
   height: 45px;
   left: 863px;
   position: absolute;
-  top: 1710px;
+  top: 1767px;
   width: 274px;
 }
 .a23floatingactionbutton .fn-bcoe3P {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -162,10 +170,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .fn-cdz5Mj {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -175,10 +182,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .fn-gxk9iq {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -644,7 +650,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .group-C61RwL {
   background-color: transparent;
-  height: 830px;
+  height: 886px;
   left: 380px;
   position: absolute;
   top: 801px;
@@ -724,11 +730,11 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-NOXmfT {
   background-color: transparent;
-  height: 829px;
+  height: 885px;
   left: 0px;
   position: absolute;
   top: 1px;
-  width: 715px;
+  width: 1240px;
 }
 .a23floatingactionbutton .guide-form-al1linecmt-ks8pr1 {
   background-color: transparent;
@@ -908,7 +914,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-meas-e-vertical-k236Jm {
   background-color: transparent;
-  background-image: url(../img/2-3-floating-action-button-line-6AFD7587-ABB9-4D9A-BBC8-7060A00C9557@2x.png);
+  background-image: url(../img/2-3-floating-action-button-line-08DB1567-DDEF-48C6-A2B8-6F081F760F7A@2x.png);
   background-size: 100% 100%;
   height: 117px;
   left: 71px;
@@ -918,7 +924,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-meas-e-vertical-pjqr1P {
   background-color: transparent;
-  background-image: url(../img/2-3-floating-action-button-line-6AFD7587-ABB9-4D9A-BBC8-7060A00C9557@2x.png);
+  background-image: url(../img/2-3-floating-action-button-line-08DB1567-DDEF-48C6-A2B8-6F081F760F7A@2x.png);
   background-size: 100% 100%;
   height: 117px;
   left: 0px;
@@ -944,7 +950,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-meas-horizontal-k236Jm {
   background-color: transparent;
-  background-image: url(../img/2-3-floating-action-button-line-6A1026CD-AF21-4E8F-90E0-AA7E666BEAF6@2x.png);
+  background-image: url(../img/2-3-floating-action-button-line-DFA436C9-0FFB-437D-A9DC-06E0DAAC3ED1@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 73px;
@@ -954,7 +960,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-meas-horizontal-pjqr1P {
   background-color: transparent;
-  background-image: url(../img/2-3-floating-action-button-line-6A1026CD-AF21-4E8F-90E0-AA7E666BEAF6@2x.png);
+  background-image: url(../img/2-3-floating-action-button-line-DFA436C9-0FFB-437D-A9DC-06E0DAAC3ED1@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 73px;
@@ -988,7 +994,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-numb-ring-image-XjX2Of {
   background-color: transparent;
-  background-image: url(../img/2-3-floating-action-button-oval-7E992C76-7D11-4382-9672-D84B62C54FE4@2x.png);
+  background-image: url(../img/2-3-floating-action-button-oval-AE53E54A-67B5-4288-A058-E1B6C9174CA5@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 86px;
@@ -998,7 +1004,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-numb-ring-shape-XjX2Of {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F165AB3B-59C4-4814-B6EB-93BC5A50E72D@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-4C30588B-7998-4258-A378-E83D134EDA46@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 59px;
@@ -1008,7 +1014,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-numbering-icon-13N3y0 {
   background-color: transparent;
-  background-image: url(../img/2-2-contained-button-oval-F165AB3B-59C4-4814-B6EB-93BC5A50E72D@2x.png);
+  background-image: url(../img/2-2-contained-button-oval-4C30588B-7998-4258-A378-E83D134EDA46@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1018,7 +1024,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .guide-numbering-icon-mctxnR {
   background-color: transparent;
-  background-image: url(../img/2-3-floating-action-button-oval-7E992C76-7D11-4382-9672-D84B62C54FE4@2x.png);
+  background-image: url(../img/2-3-floating-action-button-oval-AE53E54A-67B5-4288-A058-E1B6C9174CA5@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1029,9 +1035,11 @@ transform: scale(0.98);
 .a23floatingactionbutton .guide-property-13N3y0 {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1043,9 +1051,11 @@ transform: scale(0.98);
 .a23floatingactionbutton .guide-property-mctxnR {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1072,10 +1082,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .history-k5CNv8 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1118,7 +1127,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .mobile-lig--title-add-Gajm0e {
   background-color: transparent;
-  background-image: url(../img/2-3-floating-action-button-mobilelightthemeicon01actionbartitleadd-A0F25BAC-0C29-4F96-A63D-7E1CFC9E00D7@2x.png);
+  background-image: url(../img/2-3-floating-action-button-mobilelightthemeicon01actionbartitleadd-B4C0A541-B477-4BC2-9704-EEFFC765D7E4@2x.png);
   background-size: 100% 100%;
   height: 38px;
   left: 5px;
@@ -1128,10 +1137,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .property-8E1LaF {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1141,10 +1149,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .property-8rxBDj {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1154,10 +1161,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .property-BC55rZ {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1167,10 +1173,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .property-CfpA4R {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1180,10 +1185,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .property-NL4miy {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1193,10 +1197,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .property-Q8Yv1e {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1206,10 +1209,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .property-Vcx2nk {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1219,10 +1221,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .property-gdGgp2 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1232,10 +1233,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .property-j1Itqd {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1245,10 +1245,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .property-qi2wZK {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1258,10 +1257,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .property-wE6sko {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1271,10 +1269,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .property-y3DrUd {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1572,7 +1569,7 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .symbol-hh1Mvx {
   background-color: transparent;
-  background-image: url(../img/2-3-floating-action-button-2-03measurew360mpl023floatingactionbutton-5EDE7526-259E-4CD9-9DAC-30BAC2583274@2x.png);
+  background-image: url(../img/2-3-floating-action-button-2-03measurew360mpl023floatingactionbutton-A852CB0F-3A6A-42A4-978A-73AAEC5B698D@2x.png);
   background-size: 100% 100%;
   height: 249px;
   left: 232px;
@@ -1590,10 +1587,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .text-94tRfz {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1605,9 +1601,11 @@ transform: scale(0.98);
 .a23floatingactionbutton .text-EEe8Q9 {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -1618,10 +1616,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .text-Lrpeyl {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1633,9 +1630,11 @@ transform: scale(0.98);
 .a23floatingactionbutton .text-WvbxKh {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 31px;
+  letter-spacing: 0.00px;
   line-height: 28.6px;
   position: absolute;
   text-align: center;
@@ -1645,10 +1644,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .text-jsxPBh {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -1659,10 +1657,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .text-mzoW6Q {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -1673,10 +1670,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .text-wjU5ux {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -1688,17 +1684,34 @@ transform: scale(0.98);
 .a23floatingactionbutton .textupdate-XjX2Of {
   background-color: transparent;
   height: 235px;
-  left: 7px;
+  left: 6px;
   position: absolute;
   top: 33px;
-  width: 307px;
+  width: 308px;
+}
+.a23floatingactionbutton .uadf8ub9bc-0uc900-nav-hh1Mvx {
+  background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 841px;
+  width: 1240px;
 }
 .a23floatingactionbutton .updated-N0mG4b {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 60px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   position: absolute;
   text-align: left;
@@ -1709,9 +1722,11 @@ transform: scale(0.98);
 .a23floatingactionbutton .v-N0mG4b {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   position: absolute;
   text-align: left;
@@ -1721,10 +1736,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .value-1line-8rxBDj {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 103px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1734,10 +1748,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .value-1line-Vcx2nk {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 103px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1747,10 +1760,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .value-2line-J0iXTD {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1760,10 +1772,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .value-2line-xT3YZS {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1781,10 +1792,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .value-BC55rZ {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 61px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1810,10 +1820,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .value-NL4miy {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 119px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1831,10 +1840,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .value-Q8Yv1e {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 66px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1844,10 +1852,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .value-bcoe3P {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1857,10 +1864,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .value-cdz5Mj {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 29px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1870,10 +1876,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .value-gdGgp2 {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 61px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1883,10 +1888,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .value-gxk9iq {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1896,10 +1900,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .value-j1Itqd {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 116px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1925,10 +1928,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .value-qi2wZK {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 55px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1954,10 +1956,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .value-wE6sko {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 55px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1992,9 +1993,11 @@ transform: scale(0.98);
 .a23floatingactionbutton .version-N0mG4b {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 13px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   position: absolute;
   text-align: left;
@@ -2004,8 +2007,13 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .web-app-mK9PxT {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2015,10 +2023,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-BC55rZ {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2028,10 +2035,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-FMScmA {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 233px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2041,10 +2047,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-GaHrzM {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 26px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2054,10 +2059,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-GaqsYK {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 23px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2067,10 +2071,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-J0iXTD {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 192px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2080,10 +2083,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-Jgwktu {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 157px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2093,10 +2095,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-NL4miy {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 156px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2106,10 +2107,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-Q8Yv1e {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 117px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2119,10 +2119,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-anST8v {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 26px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2132,10 +2131,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-bcoe3P {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 163px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2145,10 +2143,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-cdz5Mj {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 239px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2158,10 +2155,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-gdGgp2 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2171,10 +2167,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-gxk9iq {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 163px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2184,10 +2179,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-j1Itqd {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 172px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2197,10 +2191,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-mfNoWj {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 157px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2210,10 +2203,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-qi2wZK {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 94px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2223,10 +2215,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-wE6sko {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 94px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2236,10 +2227,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x-xT3YZS {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 206px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2249,10 +2239,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x0-8lgNXR {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2263,10 +2252,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x0-9bg0BZ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2277,10 +2265,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x0-Aql15e {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2291,10 +2278,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x0-BY6o98 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2305,10 +2291,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x0-Funbio {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 27px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2319,10 +2304,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x0-aQHb0y {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2333,10 +2317,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x0-kx75ra {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2347,10 +2330,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x0-mPxmtz {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2361,10 +2343,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x0-overview-WS6WQj {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2375,10 +2356,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x0-tsGs8D {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2389,10 +2369,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x0-xTtMG3 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 21px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2403,10 +2382,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x1-0adN7T {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -2415,10 +2393,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x1-LGtOaX {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -2427,10 +2404,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x1-app-bar-eLzewR {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2441,10 +2417,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x1-cOfhEx {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -2453,10 +2428,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x1-waTHvH {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -2465,10 +2439,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x10-search-YPkNvM {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2479,10 +2452,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x11-toast-xiTBtP {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2493,10 +2465,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x12-text-fields-dExET3 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2507,10 +2478,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x13-view-controls-MTh05c {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2521,10 +2491,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x14-description-ln0S8c {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2535,10 +2504,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x15-notification-bad-Nlwdug {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2549,10 +2517,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x16-thumbnail-be2hM8 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2563,10 +2530,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x17-copy-paste-034OGS {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2601,8 +2567,13 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x2-3-floating-actio-C61RwL {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
   height: auto;
   left: 380px;
+  letter-spacing: 0.00px;
+  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -2613,9 +2584,11 @@ transform: scale(0.98);
 .a23floatingactionbutton .x2-buttons-0lS04a {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -2626,10 +2599,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x3-controllers-h9KJK1 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2640,10 +2612,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x4-dialogs-gagmKd {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2654,10 +2625,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x5-dividers-OzTxVf {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2668,10 +2638,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x6-lists-4BRmK3 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2682,10 +2651,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x7-no-item-sh6abE {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2696,10 +2664,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x8-progress-xvOUMU {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2710,10 +2677,9 @@ transform: scale(0.98);
 }
 .a23floatingactionbutton .x9-scrolling-qxqUQ7 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2722,30 +2688,55 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.font-class-1 {
+.samsungonekorean-400-normal-alabaster-18px {
+  color: rgba(250,250,250,1.0);
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
 }
-.font-class-2 {
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-}
-.font-class-3 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
-}
-.font-class-4 {
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-}
-.font-class-5 {
+.samsungonekorean-400-normal-black-15px {
   color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
-  line-height: 84px;
-}
-.font-class-6 {
-  color: var(--black);
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 15px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
+}
+.samsungonekorean-400-normal-gray-18px {
+  color: var(--gray);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-masala-18px {
+  color: var(--masala);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-periwinkle-18px {
+  color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-royal-blue-18px {
+  color: var(--royal-blue);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-500-normal-black-15px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 15px;
+}
+.samsungonekorean-600-normal-black-22px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 22px;
+}
+.samsungonekorean-700-normal-black-16px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 16px;
+}
+.samsungonekorean-700-normal-white-15px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 15px;
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);

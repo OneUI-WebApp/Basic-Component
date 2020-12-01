@@ -2,7 +2,7 @@
 
 .a88pulldownrefresh {
   background-color: rgba(245,246,247,1.0);
-  height: 2319px;
+  height: 2363px;
   position: relative;
   width: 1680px;
 }
@@ -25,9 +25,11 @@
 .a88pulldownrefresh .basic-component-gui-GGUEFV {
   background-color: transparent;
   color: rgba(37,37,37,1.0);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -116,10 +118,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .content-0FeROT {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: 26px;
   left: 21px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -130,10 +131,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .content-2Z1oJd {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: 26px;
   left: 21px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -144,10 +144,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .content-5JxvsV {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: 26px;
   left: 21px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -158,10 +157,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .content-Nb9IJG {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: 26px;
   left: 21px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -172,10 +170,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .content-kOst3x {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: 26px;
   left: 21px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -186,10 +183,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .content-xn3l05 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: 26px;
   left: 21px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -221,6 +217,30 @@ transform: scale(0.98);
   position: absolute;
   top: 190px;
   width: 31px;
+}
+.a88pulldownrefresh .document-b-textupdate-aVdMYM {
+  background-color: rgba(0,204,153,0.2);
+  height: 20px;
+  left: 63px;
+  position: absolute;
+  top: 61px;
+  width: 31px;
+}
+.a88pulldownrefresh .document-b-textupdate-prkPkj {
+  background-color: rgba(0,204,153,0.2);
+  height: 20px;
+  left: 267px;
+  position: absolute;
+  top: 61px;
+  width: 31px;
+}
+.a88pulldownrefresh .document-b-textupdate-uLrGAS {
+  background-color: rgba(0,204,153,0.2);
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: 292px;
+  width: 364px;
 }
 .a88pulldownrefresh .document-b-x-contents-OjvgA6 {
   background-color: var(--white);
@@ -260,7 +280,7 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .document-b-x-contents-uLrGAS {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 280px;
   left: 0px;
   position: absolute;
@@ -272,15 +292,14 @@ transform: scale(0.98);
   height: 45px;
   left: 863px;
   position: absolute;
-  top: 2194px;
+  top: 2238px;
   width: 274px;
 }
 .a88pulldownrefresh .fn-FjNSMC {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -290,10 +309,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .fn-xylo7i {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -906,15 +924,15 @@ transform: scale(0.98);
   height: 773px;
   left: 380px;
   position: absolute;
-  top: 1101px;
+  top: 811px;
   width: 715px;
 }
 .a88pulldownrefresh .guide-VMr6Om {
   background-color: transparent;
-  height: 280px;
+  height: 314px;
   left: 380px;
   position: absolute;
-  top: 801px;
+  top: 1604px;
   width: 1240px;
 }
 .a88pulldownrefresh .guide-form-ction1line-95noeH {
@@ -1029,13 +1047,29 @@ transform: scale(0.98);
   top: 56px;
   width: 322px;
 }
-.a88pulldownrefresh .guide-meas--spacing-1-aVdMYM {
+.a88pulldownrefresh .guide-meas--spacing-1-HxtRrt {
   background-color: transparent;
   height: 62px;
   left: 8px;
   position: absolute;
   top: 0px;
   width: 28px;
+}
+.a88pulldownrefresh .guide-meas--spacing-2-aVdMYM {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 50px;
+  width: 156px;
+}
+.a88pulldownrefresh .guide-meas--spacing-2-prkPkj {
+  background-color: transparent;
+  height: 29px;
+  left: 204px;
+  position: absolute;
+  top: 50px;
+  width: 156px;
 }
 .a88pulldownrefresh .guide-meas--spacing-3-3UK9QV {
   background-color: transparent;
@@ -1085,7 +1119,7 @@ transform: scale(0.98);
   top: 95px;
   width: 29px;
 }
-.a88pulldownrefresh .guide-meas-ght-size-1-HxtRrt {
+.a88pulldownrefresh .guide-meas-ght-size-1-5zRzB2 {
   background-color: transparent;
   height: 64px;
   left: 362px;
@@ -1117,10 +1151,18 @@ transform: scale(0.98);
   top: 84px;
   width: 96px;
 }
-.a88pulldownrefresh .guide-measure-area-HxtRrt {
+.a88pulldownrefresh .guide-measure-area-5zRzB2 {
   background-color: rgba(255,51,255,0.37);
   height: 64px;
   left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 360px;
+}
+.a88pulldownrefresh .guide-measure-area-HxtRrt {
+  background-color: rgba(51,204,0,0.37);
+  height: 62px;
+  left: 38px;
   position: absolute;
   top: 0px;
   width: 360px;
@@ -1134,16 +1176,24 @@ transform: scale(0.98);
   width: 48px;
 }
 .a88pulldownrefresh .guide-measure-area-aVdMYM {
-  background-color: rgba(51,204,0,0.37);
-  height: 62px;
-  left: 38px;
+  background-color: rgba(0,153,255,0.37);
+  height: 48px;
+  left: 0px;
   position: absolute;
   top: 0px;
-  width: 360px;
+  width: 156px;
+}
+.a88pulldownrefresh .guide-measure-area-prkPkj {
+  background-color: rgba(0,153,255,0.37);
+  height: 48px;
+  left: 204px;
+  position: absolute;
+  top: 0px;
+  width: 156px;
 }
 .a88pulldownrefresh .guide-numb-ring-image-L0qIW4 {
   background-color: transparent;
-  background-image: url(../img/8-8-pull-down-refresh-oval-A2797E0C-0F2E-4A7C-9016-DBB3CB4A2CD1@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-oval-705C0692-A491-45F5-920A-8266467DE62C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1153,7 +1203,7 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .guide-numb-ring-shape-U4gIgV {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-oval-D977AB36-7C06-435F-A25A-E9DA3E717872@2x.png);
+  background-image: url(../img/8-2-progress-circle-oval-1588CADB-037F-4628-B6BB-D10449ABE3C4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 86px;
@@ -1163,7 +1213,7 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .guide-numbering-icon-DgygFN {
   background-color: transparent;
-  background-image: url(../img/8-2-progress-circle-oval-D977AB36-7C06-435F-A25A-E9DA3E717872@2x.png);
+  background-image: url(../img/8-2-progress-circle-oval-1588CADB-037F-4628-B6BB-D10449ABE3C4@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1173,7 +1223,7 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .guide-numbering-icon-QqyTst {
   background-color: transparent;
-  background-image: url(../img/8-8-pull-down-refresh-oval-A2797E0C-0F2E-4A7C-9016-DBB3CB4A2CD1@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-oval-705C0692-A491-45F5-920A-8266467DE62C@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1184,9 +1234,11 @@ transform: scale(0.98);
 .a88pulldownrefresh .guide-property-DgygFN {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1198,9 +1250,11 @@ transform: scale(0.98);
 .a88pulldownrefresh .guide-property-QqyTst {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1235,10 +1289,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .history-vfQm5X {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1252,7 +1305,7 @@ transform: scale(0.98);
   height: 266px;
   left: 1115px;
   position: absolute;
-  top: 1608px;
+  top: 1318px;
   width: 505px;
 }
 .a88pulldownrefresh .keyscreen-C61RwL {
@@ -1289,7 +1342,7 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .measure-uLrGAS {
   background-color: transparent;
-  height: 174px;
+  height: 212px;
   left: 402px;
   position: absolute;
   top: 64px;
@@ -1297,7 +1350,7 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .mobile-lig--refresh01-IsisxD {
   background-color: transparent;
-  background-image: url(../img/8-8-pull-down-refresh-mobilelightthemeicon08progressrefresh01-76228C33-39AB-4C5F-BBCB-D61C44B3A666@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-mobilelightthemeicon08progressrefresh01-90A7B1B7-B685-4D56-920D-22913074A7B9@2x.png);
   background-size: 100% 100%;
   height: 34px;
   left: 6px;
@@ -1307,7 +1360,7 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .mobile-lig--refresh01-JxpuZO {
   background-color: transparent;
-  background-image: url(../img/8-8-pull-down-refresh-mobilelightthemeicon08progressrefresh01-FA204E04-5C99-4BE7-855A-DFF7EBFFD992@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-mobilelightthemeicon08progressrefresh01-78805819-7F5B-483F-97AA-68F90FB5DE14@2x.png);
   background-size: 100% 100%;
   height: 30px;
   left: 645px;
@@ -1317,7 +1370,7 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .mobile-lig--refresh01-rsXP17 {
   background-color: transparent;
-  background-image: url(../img/8-8-pull-down-refresh-mobilelightthemeicon08progressrefresh01-6C4EF009-C9D4-4882-82C0-780C2FD38D56@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-mobilelightthemeicon08progressrefresh01-83F8EB10-48AE-4ABE-8047-A80F3326F01F@2x.png);
   background-size: 100% 100%;
   height: 30px;
   left: 645px;
@@ -1327,10 +1380,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .property-DUB3i6 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1340,10 +1392,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .property-LNB6cz {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1353,10 +1404,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .property-MH1635 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1366,10 +1416,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .property-awoAxl {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1379,10 +1428,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .property-eJxxdp {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1392,10 +1440,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .property-nCazz9 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1405,10 +1452,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .property-qRCiMe {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1418,10 +1464,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .property-wTtVPG {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1431,10 +1476,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .property-waDYEa {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1444,10 +1488,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .property-xZSEol {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1487,6 +1530,14 @@ transform: scale(0.98);
   top: 4px;
   width: 32px;
 }
+.a88pulldownrefresh .rectangle-5FtzO9 {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 155px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
 .a88pulldownrefresh .rectangle-5JxvsV {
   background-color: var(--white);
   height: 82px;
@@ -1502,14 +1553,6 @@ transform: scale(0.98);
   position: absolute;
   top: 1px;
   width: 420px;
-}
-.a88pulldownrefresh .rectangle-7JN0Pk {
-  background-color: var(--harlequin);
-  height: 61px;
-  left: 23px;
-  position: absolute;
-  top: 0px;
-  width: 1px;
 }
 .a88pulldownrefresh .rectangle-9acgRe {
   background-color: var(--electric-violet);
@@ -1567,14 +1610,6 @@ transform: scale(0.98);
   top: 0px;
   width: 9px;
 }
-.a88pulldownrefresh .rectangle-GpKO5z {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 63px;
-  width: 9px;
-}
 .a88pulldownrefresh .rectangle-HivWol {
   background-color: rgba(132,131,131,1.0);
   height: 56px;
@@ -1582,6 +1617,22 @@ transform: scale(0.98);
   position: absolute;
   top: 1px;
   width: 85px;
+}
+.a88pulldownrefresh .rectangle-Jy7k9Z {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
+}
+.a88pulldownrefresh .rectangle-LxdT0Y {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 156px;
 }
 .a88pulldownrefresh .rectangle-MMs34T {
   background-color: var(--razzle-dazzle-rose);
@@ -1598,14 +1649,6 @@ transform: scale(0.98);
   position: absolute;
   top: 24px;
   width: 160px;
-}
-.a88pulldownrefresh .rectangle-MyJ6bE {
-  background-color: var(--harlequin);
-  height: 1px;
-  left: 19px;
-  position: absolute;
-  top: 0px;
-  width: 9px;
 }
 .a88pulldownrefresh .rectangle-Nb9IJG {
   background-color: var(--white);
@@ -1639,14 +1682,6 @@ transform: scale(0.98);
   top: 21px;
   width: 9px;
 }
-.a88pulldownrefresh .rectangle-R9zIxS {
-  background-color: var(--razzle-dazzle-rose);
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 9px;
-}
 .a88pulldownrefresh .rectangle-RwCOHk {
   background-color: var(--razzle-dazzle-rose);
   height: 1px;
@@ -1663,13 +1698,13 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a88pulldownrefresh .rectangle-T4ufKW {
-  background-color: var(--harlequin);
-  height: 1px;
-  left: 19px;
+.a88pulldownrefresh .rectangle-TRsq0T {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
   position: absolute;
-  top: 61px;
-  width: 9px;
+  top: 0px;
+  width: 1px;
 }
 .a88pulldownrefresh .rectangle-TYBSVI {
   background-color: rgba(116,116,116,1.0);
@@ -1679,6 +1714,22 @@ transform: scale(0.98);
   top: 0px;
   width: 737px;
 }
+.a88pulldownrefresh .rectangle-WJYSCQ {
+  background-color: var(--razzle-dazzle-rose);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 63px;
+  width: 9px;
+}
+.a88pulldownrefresh .rectangle-Y3UxHh {
+  background-color: var(--razzle-dazzle-rose);
+  height: 64px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
 .a88pulldownrefresh .rectangle-ZFIPgm {
   background-color: var(--razzle-dazzle-rose);
   height: 1px;
@@ -1686,6 +1737,14 @@ transform: scale(0.98);
   position: absolute;
   top: 95px;
   width: 9px;
+}
+.a88pulldownrefresh .rectangle-boCEZL {
+  background-color: var(--azure-radiance);
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 156px;
 }
 .a88pulldownrefresh .rectangle-bxUJxz {
   background-color: rgba(116,116,116,1.0);
@@ -1703,14 +1762,6 @@ transform: scale(0.98);
   top: 0px;
   width: 87px;
 }
-.a88pulldownrefresh .rectangle-dHNV1W {
-  background-color: var(--razzle-dazzle-rose);
-  height: 64px;
-  left: 4px;
-  position: absolute;
-  top: 0px;
-  width: 1px;
-}
 .a88pulldownrefresh .rectangle-hUNMQc {
   background-color: var(--razzle-dazzle-rose);
   height: 159px;
@@ -1719,13 +1770,13 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a88pulldownrefresh .rectangle-kOst3x {
-  background-color: var(--white);
-  height: 82px;
-  left: 1px;
+.a88pulldownrefresh .rectangle-innQyi {
+  background-color: var(--harlequin);
+  height: 61px;
+  left: 23px;
   position: absolute;
-  top: 1px;
-  width: 735px;
+  top: 0px;
+  width: 1px;
 }
 .a88pulldownrefresh .rectangle-kPL3AI {
   background-color: var(--electric-violet);
@@ -1743,6 +1794,22 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
+.a88pulldownrefresh .rectangle-lFZyx5 {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.a88pulldownrefresh .rectangle-lLNkIB {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 19px;
+  position: absolute;
+  top: 61px;
+  width: 9px;
+}
 .a88pulldownrefresh .rectangle-oAnRx3 {
   background-color: var(--razzle-dazzle-rose);
   height: 9px;
@@ -1750,6 +1817,14 @@ transform: scale(0.98);
   position: absolute;
   top: 20px;
   width: 1px;
+}
+.a88pulldownrefresh .rectangle-ogD0qG {
+  background-color: var(--harlequin);
+  height: 1px;
+  left: 19px;
+  position: absolute;
+  top: 0px;
+  width: 9px;
 }
 .a88pulldownrefresh .rectangle-pGPeh5 {
   background-color: var(--electric-violet);
@@ -1791,13 +1866,13 @@ transform: scale(0.98);
   top: 0px;
   width: 1px;
 }
-.a88pulldownrefresh .rectangle-xn3l05 {
-  background-color: var(--white);
-  height: 82px;
-  left: 1px;
+.a88pulldownrefresh .rectangle-xY4qvY {
+  background-color: var(--azure-radiance);
+  height: 9px;
+  left: 155px;
   position: absolute;
-  top: 1px;
-  width: 85px;
+  top: 0px;
+  width: 1px;
 }
 .a88pulldownrefresh .shadow-U4gIgV {
   background-color: transparent;
@@ -1812,7 +1887,7 @@ transform: scale(0.98);
   height: 487px;
   left: 1115px;
   position: absolute;
-  top: 1101px;
+  top: 811px;
   width: 505px;
 }
 .a88pulldownrefresh .size-L0qIW4 {
@@ -1849,6 +1924,14 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .spacing-cBpY94 {
   background-color: transparent;
+  height: 62px;
+  left: 0px;
+  position: absolute;
+  top: 64px;
+  width: 398px;
+}
+.a88pulldownrefresh .spacing-hXXpeJ {
+  background-color: transparent;
   height: 64px;
   left: 38px;
   position: absolute;
@@ -1857,11 +1940,11 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .spacing-pZbqyC {
   background-color: transparent;
-  height: 62px;
-  left: 0px;
+  height: 86px;
+  left: 38px;
   position: absolute;
-  top: 64px;
-  width: 398px;
+  top: 126px;
+  width: 360px;
 }
 .a88pulldownrefresh .symbol-Uixoni {
   background-color: transparent;
@@ -1873,7 +1956,7 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .symbol-uLrGAS {
   background-color: transparent;
-  background-image: url(../img/8-8-pull-down-refresh-8-08measurew360mpl0811pulldownrefresh-3F07D8A2-9CB7-4495-BD76-F7F38E642933@2x.png);
+  background-image: url(../img/8-8-pull-down-refresh-8-08measurew360mpl0811pulldownrefresh-30B3F006-FBB6-4A24-8C15-2E40099673D1@2x.png);
   background-size: 100% 100%;
   height: 205px;
   left: 440px;
@@ -1886,11 +1969,11 @@ transform: scale(0.98);
   height: 222px;
   left: 379px;
   position: absolute;
-  top: 1893px;
+  top: 1937px;
   width: 1242px;
 }
 .a88pulldownrefresh .table-gene-ight1style-JhgMi3 {
-  background-color: transparent;
+  background-color: var(--white);
   height: 84px;
   left: 505px;
   position: absolute;
@@ -1898,7 +1981,7 @@ transform: scale(0.98);
   width: 737px;
 }
 .a88pulldownrefresh .table-gene-ight1style-JxpuZO {
-  background-color: transparent;
+  background-color: var(--white);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -1971,10 +2054,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .text-5JJlQH {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -1985,10 +2067,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .text-5xwGX0 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -1999,10 +2080,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .text-IFLkzz {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2013,10 +2093,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .text-LugM2v {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2027,10 +2106,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .text-Q03UO4 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2042,9 +2120,11 @@ transform: scale(0.98);
 .a88pulldownrefresh .text-WvbxKh {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 31px;
+  letter-spacing: 0.00px;
   line-height: 28.6px;
   position: absolute;
   text-align: center;
@@ -2054,10 +2134,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .text-XzHYEI {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2068,10 +2147,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .text-hn7fDE {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2082,10 +2160,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .text-nZqi4I {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2096,10 +2173,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .text-ns96ut {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2110,10 +2186,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .text-sPpalD {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2124,10 +2199,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .text-wvPFyP {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2147,9 +2221,11 @@ transform: scale(0.98);
 .a88pulldownrefresh .title-5zLBGI {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 16px;
   height: 26px;
   left: 21px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   position: absolute;
   text-align: center;
@@ -2160,9 +2236,11 @@ transform: scale(0.98);
 .a88pulldownrefresh .title-FFxZh5 {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 16px;
   height: 26px;
   left: 21px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   position: absolute;
   text-align: center;
@@ -2173,9 +2251,11 @@ transform: scale(0.98);
 .a88pulldownrefresh .title-HivWol {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 16px;
   height: 26px;
   left: 21px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   position: absolute;
   text-align: center;
@@ -2183,12 +2263,27 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 45px;
 }
+.a88pulldownrefresh .uadf8ub9bc-0uc900-app-uLrGAS {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 292px;
+  white-space: nowrap;
+  width: 1240px;
+}
 .a88pulldownrefresh .updated-N0mG4b {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 60px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   position: absolute;
   text-align: left;
@@ -2199,9 +2294,11 @@ transform: scale(0.98);
 .a88pulldownrefresh .v-N0mG4b {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   position: absolute;
   text-align: left;
@@ -2211,10 +2308,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .value-1line-DUB3i6 {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 103px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2224,10 +2320,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .value-1line-wTtVPG {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 103px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2245,10 +2340,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .value-2line-3OEgzb {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2258,10 +2352,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .value-2line-Lhz7If {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2287,10 +2380,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .value-FjNSMC {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2298,12 +2390,19 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a88pulldownrefresh .value-Jy7k9Z {
+  background-color: transparent;
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 23px;
+  width: 99px;
+}
 .a88pulldownrefresh .value-LNB6cz {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 55px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2313,10 +2412,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .value-MH1635 {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 119px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2343,23 +2441,17 @@ transform: scale(0.98);
 .a88pulldownrefresh .value-P304jY {
   background-color: transparent;
   color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
   top: 0px;
   white-space: nowrap;
   width: auto;
-}
-.a88pulldownrefresh .value-R9zIxS {
-  background-color: transparent;
-  height: 18px;
-  left: 12px;
-  position: absolute;
-  top: 23px;
-  width: 99px;
 }
 .a88pulldownrefresh .value-RwCOHk {
   background-color: transparent;
@@ -2369,20 +2461,11 @@ transform: scale(0.98);
   top: 73px;
   width: 18px;
 }
-.a88pulldownrefresh .value-T4ufKW {
-  background-color: transparent;
-  height: 19px;
-  left: 0px;
-  position: absolute;
-  top: 22px;
-  width: 16px;
-}
 .a88pulldownrefresh .value-eJxxdp {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 55px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2390,12 +2473,19 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a88pulldownrefresh .value-lLNkIB {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  position: absolute;
+  top: 22px;
+  width: 16px;
+}
 .a88pulldownrefresh .value-nCazz9 {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 61px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2413,10 +2503,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .value-waDYEa {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 61px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2434,10 +2523,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .value-xylo7i {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 29px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2448,9 +2536,11 @@ transform: scale(0.98);
 .a88pulldownrefresh .version-N0mG4b {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 13px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   position: absolute;
   text-align: left;
@@ -2462,6 +2552,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 0px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2471,10 +2563,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x-3OEgzb {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 207px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2484,10 +2575,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x-Dln20G {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 23px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2497,10 +2587,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x-FjNSMC {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 145px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2510,10 +2599,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x-JOL0xk {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 26px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2523,10 +2611,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x-LNB6cz {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 96px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2536,10 +2623,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x-Lhz7If {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 194px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2549,10 +2635,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x-MH1635 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 156px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2562,10 +2647,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x-awoAxl {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 173px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2575,10 +2659,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x-eJxxdp {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 94px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2588,10 +2671,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x-nCazz9 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2601,10 +2683,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x-oHETdx {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 269px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2614,10 +2695,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x-sxWjgc {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 139px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2627,10 +2707,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x-waDYEa {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 102px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2640,10 +2719,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x-xylo7i {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 275px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2653,10 +2731,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x0-1lvi3i {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2667,24 +2744,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x0-5BLCHf {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
-  line-height: 18px;
-  opacity: 0.6;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a88pulldownrefresh .x0-5QqYZH {
-  background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
-  height: auto;
-  left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2695,10 +2757,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x0-AY7zso {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2709,10 +2770,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x0-CM4jrb {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -1px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2721,12 +2781,24 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a88pulldownrefresh .x0-Lb1P3R {
+  background-color: transparent;
+  height: auto;
+  left: -2px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: right;
+  top: 1px;
+  white-space: nowrap;
+  width: auto;
+}
 .a88pulldownrefresh .x0-PpbbVl {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 11px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2737,10 +2809,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x0-Qqg4NJ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2749,26 +2820,50 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
-.a88pulldownrefresh .x0-ZDxF3k {
+.a88pulldownrefresh .x0-TRsq0T {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
-  left: -2px;
+  left: 63px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
-  text-align: right;
-  top: 1px;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.a88pulldownrefresh .x0-k0brHT {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a88pulldownrefresh .x0-lFZyx5 {
+  background-color: transparent;
+  height: auto;
+  left: 63px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 11px;
   white-space: nowrap;
   width: auto;
 }
 .a88pulldownrefresh .x0-overview-ySaWBr {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2779,10 +2874,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x0-vtyklu {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 11px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2793,10 +2887,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x0-xjMZo0 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2807,10 +2900,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x1-1Sz3wV {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -2819,10 +2911,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x1-UcxPUE {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -2831,10 +2922,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x1-app-bar-D217x5 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2845,10 +2935,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x1-gGiSF8 {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -2857,10 +2946,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x1-uXWNW0 {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -2869,10 +2957,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x10-search-909tqK {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2883,10 +2970,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x11-toast-X67QKm {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2897,10 +2983,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x12-text-fields-D7G6gw {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2911,10 +2996,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x13-view-controls-NSlb9H {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2925,10 +3009,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x14-description-APLBIe {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2939,10 +3022,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x15-notification-bad-fRGouw {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2953,10 +3035,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x16-thumbnail-vgZhnl {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2967,10 +3048,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x17-copy-paste-h6xD0e {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2989,10 +3069,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x2-buttons-rJFMk4 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3011,10 +3090,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x3-controllers-AjK9c9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3025,10 +3103,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x4-dialogs-kamJWo {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3039,10 +3116,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x5-dividers-9PGoXU {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3053,10 +3129,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x6-lists-Ldvsg9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3067,10 +3142,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x7-no-item-A7G5Kr {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3121,8 +3195,13 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x8-11-pull--wn-refresh-C61RwL {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
   height: auto;
   left: 380px;
+  letter-spacing: 0.00px;
+  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -3132,10 +3211,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x8-progress-SI8NPk {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -3146,10 +3224,9 @@ transform: scale(0.98);
 }
 .a88pulldownrefresh .x9-scrolling-KnkDrT {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3164,30 +3241,55 @@ transform: scale(0.98);
 .border-class-2 {
   border: 1px solid rgba(135,135,135,1.0);
 }
-.font-class-1 {
-  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
-}
-.font-class-2 {
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-}
-.font-class-3 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
-}
-.font-class-4 {
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-}
-.font-class-5 {
+.samsungonekorean-400-normal-black-15px {
   color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
-  line-height: 84px;
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 15px;
 }
-.font-class-6 {
+.samsungonekorean-400-normal-black-16px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 16px;
+}
+.samsungonekorean-400-normal-masala-18px {
+  color: var(--masala);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-royal-blue-18px {
+  color: var(--royal-blue);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-500-normal-black-15px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 15px;
+}
+.samsungonekorean-500-normal-white-14px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 14px;
+}
+.samsungonekorean-600-normal-black-15px {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
+}
+.samsungonekorean-700-normal-black-16px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 16px;
+}
+.samsungonekorean-700-normal-white-14px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 14px;
+}
+.samsungonekorean-700-normal-white-15px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 15px;
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
