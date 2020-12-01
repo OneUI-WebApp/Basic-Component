@@ -94,7 +94,7 @@ div.topbtn {
     width: 50px;
     height: 50px;
     border-radius: 25px;
-    background-color: #0381FE;
+    background-color: #0381fe;
     position: fixed;
     bottom: 50px;
     right: 50px;
@@ -103,8 +103,7 @@ div.topbtn {
     visibility: hidden;
     transition: all 500ms ease;
     cursor: pointer;
-    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.15);
-    box-shadow: 0 0px 1px 0 rgba(0,0,0,0.04);
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.15);
 }
 div.topbtn-arw {
     width: 50px;
@@ -115,8 +114,7 @@ div.topbtn-arw {
     background-size: cover;
 }
 div.topbtn:hover {
-    background-color: #036ED9;
-
+    background-color: #0072de;
 }
 div.topbtn.show {
     opacity: 1 !important;
