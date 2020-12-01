@@ -9,9 +9,11 @@
 .a153numberbadge .basic-component-gui-lDbNsr {
   background-color: transparent;
   color: rgba(37,37,37,1.0);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -22,10 +24,9 @@
 }
 .a153numberbadge .basic-xisH65 {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 10px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   opacity: 0.8;
   position: absolute;
@@ -61,21 +62,6 @@ transform: scale(0.98);
   width: 274px;
 }
 .a153numberbadge .btn-mwblLs:hover {
-
-transform: scale(0.98);
-}
-.a153numberbadge .btn-xpyOiF {
-  background-color: rgba(0,204,153,1.0);
-  border-radius: 5px;
-  height: 34px;
-  left: 0px;
-  pointer-events: auto;
-  position: relative;
-  top: 0px;
-  transition: all 0.2s ease-in-out;
-  width: 156px;
-}
-.a153numberbadge .btn-xpyOiF:hover {
 
 transform: scale(0.98);
 }
@@ -505,14 +491,6 @@ transform: scale(0.98);
   top: 0px;
   width: 320px;
 }
-.a153numberbadge .group-U3E5ew {
-  background-color: transparent;
-  height: 24px;
-  left: 10px;
-  position: relative;
-  top: 5px;
-  width: 136px;
-}
 .a153numberbadge .group-z9r67O {
   background-color: transparent;
   height: 45px;
@@ -563,7 +541,7 @@ transform: scale(0.98);
 }
 .a153numberbadge .guide-meas-e-vertical-BIA8KX {
   background-color: transparent;
-  background-image: url(../img/15-3-number-badge-line-77C64381-735F-4388-9A94-1930E6A382FC@2x.png);
+  background-image: url(../img/15-3-number-badge-line-AE076F3E-90DB-4C25-8E30-199280AA8034@2x.png);
   background-size: 100% 100%;
   height: 96px;
   left: 92px;
@@ -573,7 +551,7 @@ transform: scale(0.98);
 }
 .a153numberbadge .guide-meas-e-vertical-JXSsNB {
   background-color: transparent;
-  background-image: url(../img/15-3-number-badge-line-77C64381-735F-4388-9A94-1930E6A382FC@2x.png);
+  background-image: url(../img/15-3-number-badge-line-AE076F3E-90DB-4C25-8E30-199280AA8034@2x.png);
   background-size: 100% 100%;
   height: 96px;
   left: 0px;
@@ -583,7 +561,7 @@ transform: scale(0.98);
 }
 .a153numberbadge .guide-meas-e-vertical-aoAig8 {
   background-color: transparent;
-  background-image: url(../img/15-3-number-badge-line-77C64381-735F-4388-9A94-1930E6A382FC@2x.png);
+  background-image: url(../img/15-3-number-badge-line-AE076F3E-90DB-4C25-8E30-199280AA8034@2x.png);
   background-size: 100% 100%;
   height: 96px;
   left: 0px;
@@ -593,7 +571,7 @@ transform: scale(0.98);
 }
 .a153numberbadge .guide-meas-e-vertical-hpgPxn {
   background-color: transparent;
-  background-image: url(../img/15-3-number-badge-line-77C64381-735F-4388-9A94-1930E6A382FC@2x.png);
+  background-image: url(../img/15-3-number-badge-line-AE076F3E-90DB-4C25-8E30-199280AA8034@2x.png);
   background-size: 100% 100%;
   height: 96px;
   left: 50px;
@@ -619,7 +597,7 @@ transform: scale(0.98);
 }
 .a153numberbadge .guide-meas-horizontal-BIA8KX {
   background-color: transparent;
-  background-image: url(../img/15-3-number-badge-line-65B52DA7-DB47-4BE9-923A-5384C0D7B4A9@2x.png);
+  background-image: url(../img/15-3-number-badge-line-E365007A-79A7-4E46-AF83-CBC815CDE62C@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 93px;
@@ -629,7 +607,7 @@ transform: scale(0.98);
 }
 .a153numberbadge .guide-meas-horizontal-JXSsNB {
   background-color: transparent;
-  background-image: url(../img/15-3-number-badge-line-CD134185-0F28-464A-8347-35356413F337@2x.png);
+  background-image: url(../img/15-3-number-badge-line-D66A2A83-C37F-4238-81C7-B6308699D901@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 51px;
@@ -639,7 +617,7 @@ transform: scale(0.98);
 }
 .a153numberbadge .guide-meas-horizontal-aoAig8 {
   background-color: transparent;
-  background-image: url(../img/15-3-number-badge-line-65B52DA7-DB47-4BE9-923A-5384C0D7B4A9@2x.png);
+  background-image: url(../img/15-3-number-badge-line-E365007A-79A7-4E46-AF83-CBC815CDE62C@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 93px;
@@ -649,7 +627,7 @@ transform: scale(0.98);
 }
 .a153numberbadge .guide-meas-horizontal-hpgPxn {
   background-color: transparent;
-  background-image: url(../img/15-3-number-badge-line-CD134185-0F28-464A-8347-35356413F337@2x.png);
+  background-image: url(../img/15-3-number-badge-line-D66A2A83-C37F-4238-81C7-B6308699D901@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 51px;
@@ -739,10 +717,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .history-bC8BY6 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -761,10 +738,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .max-ixi6Eu {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 118px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -791,10 +767,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .min-Lrxx7q {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 104px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -813,10 +788,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .page-name-xisH65 {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 48px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: left;
@@ -1088,20 +1062,11 @@ transform: scale(0.98);
   top: 478px;
   width: 153px;
 }
-.a153numberbadge .tag-update-C61RwL {
-  background-color: transparent;
-  height: 34px;
-  left: 1046px;
-  position: absolute;
-  top: 81px;
-  width: 156px;
-}
 .a153numberbadge .text-3GjPvu {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1112,10 +1077,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .text-3dbF9p {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1134,10 +1098,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .text-MpJWK4 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1149,9 +1112,11 @@ transform: scale(0.98);
 .a153numberbadge .text-WvbxKh {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 31px;
+  letter-spacing: 0.00px;
   line-height: 28.6px;
   position: absolute;
   text-align: center;
@@ -1161,10 +1126,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .text-g5IeH1 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -1180,32 +1144,6 @@ transform: scale(0.98);
   position: absolute;
   top: 123px;
   width: 92px;
-}
-.a153numberbadge .updated-N0mG4b {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 20px;
-  height: auto;
-  left: 60px;
-  line-height: 24px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
-.a153numberbadge .v-N0mG4b {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 20px;
-  height: auto;
-  left: 0px;
-  line-height: 24px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
 }
 .a153numberbadge .value-2jKLNw {
   background-color: transparent;
@@ -1255,23 +1193,12 @@ transform: scale(0.98);
   top: 0px;
   width: 10px;
 }
-.a153numberbadge .version-N0mG4b {
-  background-color: transparent;
-  color: var(--white);
-  font-size: 20px;
-  height: auto;
-  left: 13px;
-  line-height: 24px;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  white-space: nowrap;
-  width: auto;
-}
 .a153numberbadge .web-app-lDbNsr {
   background-color: transparent;
   height: auto;
   left: 0px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1281,10 +1208,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x0-3PJEwf {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1295,10 +1221,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x0-GvNqZ2 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1309,10 +1234,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x0-K4CLhP {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -1px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1323,10 +1247,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x0-MNxr4T {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -1px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1337,10 +1260,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x0-Sb9xHY {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 18px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1351,10 +1273,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x0-isMOTp {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1365,10 +1286,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x0-overview-nArk66 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1379,10 +1299,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x0-tRvE7x {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1393,10 +1312,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x0-ug3mnU {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 38px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1407,10 +1325,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x1-app-bar-XWVevb {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1421,10 +1338,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x10-search-xF3Iav {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1435,10 +1351,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x11-toast-soJeAh {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1449,10 +1364,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x12-text-fields-ZLEfMr {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1463,10 +1377,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x13-view-controls-gRJBid {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1477,10 +1390,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x14-description-G5jxxk {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1523,8 +1435,13 @@ transform: scale(0.98);
 }
 .a153numberbadge .x15-3-number-badge-C61RwL {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
   height: auto;
   left: 380px;
+  letter-spacing: 0.00px;
+  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -1534,10 +1451,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x15-notification-bad-Ni6qxb {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -1548,10 +1464,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x16-thumbnail-6HF8OG {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1562,10 +1477,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x17-copy-paste-lgIE5R {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1576,10 +1490,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x2-buttons-ALeFg1 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1590,10 +1503,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x3-controllers-7W07bU {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1604,10 +1516,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x4-dialogs-KFxzhP {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1618,10 +1529,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x5-dividers-QGIQGE {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1632,10 +1542,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x6-lists-tX89s4 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1646,10 +1555,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x7-no-item-HpEEGW {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1660,10 +1568,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x8-progress-71BTkx {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1674,10 +1581,9 @@ transform: scale(0.98);
 }
 .a153numberbadge .x9-scrolling-HGhyhP {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1686,30 +1592,55 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.font-class-1 {
-  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
-}
-.font-class-2 {
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-}
-.font-class-3 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
-}
-.font-class-4 {
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-}
-.font-class-5 {
+.samsungonekorean-400-normal-black-15px {
   color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
-  line-height: 84px;
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 15px;
 }
-.font-class-6 {
+.samsungonekorean-400-normal-black-16px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 16px;
+}
+.samsungonekorean-400-normal-masala-18px {
+  color: var(--masala);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-royal-blue-18px {
+  color: var(--royal-blue);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-500-normal-black-15px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 15px;
+}
+.samsungonekorean-500-normal-white-14px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 14px;
+}
+.samsungonekorean-600-normal-black-15px {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
+}
+.samsungonekorean-700-normal-black-22px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 22px;
+}
+.samsungonekorean-700-normal-white-14px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 14px;
+}
+.samsungonekorean-700-normal-white-15px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 15px;
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
