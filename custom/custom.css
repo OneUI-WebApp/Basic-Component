@@ -23,7 +23,7 @@ div[class*="gnb-bar"]::-webkit-scrollbar-track {
 }
 div[class*="gnb-bar"]::-webkit-scrollbar-thumb {
     border-radius: 20px;
-    background-color: rgba(0,0,0,0.25);
+    background-color: #dedede;
     border-style: solid;
     border-color: transparent;
     border-width: 0px;
@@ -33,7 +33,6 @@ div[class*="gnb-bar"]::-webkit-scrollbar-button,
 div[class*="gnb-bar"]::-webkit-scrollbar-track-piece,
 div[class*="gnb-bar"]::-webkit-scrollbar-corner,
 div[class*="gnb-bar"]::-webkit-resizer { display: none;}
-
 
 /** Hover **/
 
