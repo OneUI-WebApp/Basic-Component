@@ -124,9 +124,24 @@ transform: scale(0.98);
 
 transform: scale(0.98);
 }
+.a63endoflist .btn-xpyOiF {
+  background-color: var(--caribbean-green);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 156px;
+}
+.a63endoflist .btn-xpyOiF:hover {
+
+transform: scale(0.98);
+}
 .a63endoflist .document-b-x-contents-4TrGqS {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid var(--caribbean-green);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -135,7 +150,7 @@ transform: scale(0.98);
 }
 .a63endoflist .document-b-x-contents-L8tBdI {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid var(--caribbean-green);
   height: 527px;
   left: 0px;
   position: absolute;
@@ -144,7 +159,7 @@ transform: scale(0.98);
 }
 .a63endoflist .document-b-x-contents-aDCylr {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid var(--caribbean-green);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -648,6 +663,14 @@ transform: scale(0.98);
   top: 0px;
   width: 320px;
 }
+.a63endoflist .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 136px;
+}
 .a63endoflist .group-g7Arx8 {
   background-color: transparent;
   height: 45px;
@@ -689,7 +712,7 @@ transform: scale(0.98);
   width: 29px;
 }
 .a63endoflist .guide-measure-area-OZc0xa {
-  background-color: var(--harlequin-2);
+  background-color: rgba(51,204,0,0.37);
   height: 124px;
   left: 0px;
   position: absolute;
@@ -697,7 +720,7 @@ transform: scale(0.98);
   width: 360px;
 }
 .a63endoflist .guide-measure-area-zIZKfr {
-  background-color: var(--harlequin-2);
+  background-color: rgba(51,204,0,0.37);
   height: 20px;
   left: 0px;
   position: absolute;
@@ -835,7 +858,7 @@ transform: scale(0.98);
 }
 .a63endoflist .symbol-L8tBdI {
   background-color: transparent;
-  background-image: url(../img/6-3-end-of-list-6-03measurew360mpl063endoflist1-355372F8-A06C-46EC-B31E-BE1857D95814@2x.png);
+  background-image: url(../img/6-3-end-of-list-6-03measurew360mpl063endoflist1-9C22683C-95A8-40AB-AD99-33C82158187F@2x.png);
   background-size: 100% 100%;
   height: 447px;
   left: 450px;
@@ -845,7 +868,7 @@ transform: scale(0.98);
 }
 .a63endoflist .symbol-qIvIBo {
   background-color: transparent;
-  background-image: url(../img/6-3-end-of-list-6-03measurew360mpl063endoflist2-B93CFFA0-7D09-4DA1-9DAA-331804A1ACC1@2x.png);
+  background-image: url(../img/6-3-end-of-list-6-03measurew360mpl063endoflist2-4CBE1CC4-32E0-4241-B762-D5FDC2D8AD93@2x.png);
   background-size: 100% 100%;
   height: 283px;
   left: 440px;
@@ -860,6 +883,14 @@ transform: scale(0.98);
   position: absolute;
   top: 499px;
   width: 230px;
+}
+.a63endoflist .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 861px;
+  position: absolute;
+  top: 81px;
+  width: 156px;
 }
 .a63endoflist .text-5YI8Yt {
   background-color: transparent;
@@ -980,6 +1011,36 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 218px;
 }
+.a63endoflist .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 60px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a63endoflist .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a63endoflist .value-mAtwFU {
   background-color: transparent;
   height: 18px;
@@ -995,6 +1056,21 @@ transform: scale(0.98);
   position: absolute;
   top: 1px;
   width: 17px;
+}
+.a63endoflist .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a63endoflist .web-app-uWkrmC {
   background-color: transparent;
@@ -1403,9 +1479,9 @@ transform: scale(0.98);
   --azure-radiance: rgba(0,153,255,1.0);
   --azure-radiance-2: rgba(0,153,255,0.37);
   --black: rgba(0,0,0,1.0);
+  --caribbean-green: rgba(0,204,153,1.0);
   --ebb: rgba(227,227,227,1.0);
   --harlequin: rgba(51,204,0,1.0);
-  --harlequin-2: rgba(51,204,0,0.37);
   --masala: rgba(59,59,59,1.0);
   --razzle-dazzle-rose: rgba(255,51,255,1.0);
   --royal-blue: rgba(75,99,250,1.0);

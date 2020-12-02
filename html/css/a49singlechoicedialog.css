@@ -8,10 +8,9 @@
 }
 .a49singlechoicedialog .basic-ImyUki {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 10px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   opacity: 0.8;
   position: absolute;
@@ -23,9 +22,11 @@
 .a49singlechoicedialog .basic-component-gui-OB1SiY {
   background-color: transparent;
   color: rgba(37,37,37,1.0);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -36,10 +37,9 @@
 }
 .a49singlechoicedialog .basic-q9zEDy {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 10px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   opacity: 0.8;
   position: absolute;
@@ -50,10 +50,9 @@
 }
 .a49singlechoicedialog .basic-zQwrwQ {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 10px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   opacity: 0.8;
   position: absolute;
@@ -122,12 +121,29 @@ transform: scale(0.98);
 
 transform: scale(0.98);
 }
+.a49singlechoicedialog .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 156px;
+}
+.a49singlechoicedialog .btn-xpyOiF:hover {
+
+transform: scale(0.98);
+}
 .a49singlechoicedialog .description-list-EscdkY {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 44px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 53px;
   opacity: 0.8;
   position: absolute;
@@ -146,7 +162,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .document-b-x-contents-1LyZ3d {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 606px;
   left: 0px;
   position: absolute;
@@ -155,7 +171,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .document-b-x-contents-7lnjrF {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -164,7 +180,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .document-b-x-contents-GvrLj7 {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 475px;
   left: 0px;
   position: absolute;
@@ -173,7 +189,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .document-b-x-contents-ZKMt1f {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 167px;
   left: 0px;
   position: absolute;
@@ -182,7 +198,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .document-b-x-contents-Zx0TSD {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -885,6 +901,14 @@ transform: scale(0.98);
   top: 0px;
   width: 68px;
 }
+.a49singlechoicedialog .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 136px;
+}
 .a49singlechoicedialog .group-gBrDRH {
   background-color: transparent;
   height: 45px;
@@ -1031,7 +1055,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .guide-meas-e-vertical-6kfQxM {
   background-color: transparent;
-  background-image: url(../img/4-10-multi-choice-dialog-line-20B0E3F9-2A31-4B8A-8D0F-31DC57353896@2x.png);
+  background-image: url(../img/4-10-multi-choice-dialog-line-1644D582-8594-4006-BEB0-6B876ACCDFA4@2x.png);
   background-size: 100% 100%;
   height: 92px;
   left: 31px;
@@ -1041,7 +1065,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .guide-meas-e-vertical-9Rgbb8 {
   background-color: transparent;
-  background-image: url(../img/4-9-single-choice-dialog-line-7F3D5F8D-55D4-4DD1-875A-48638F86F024@2x.png);
+  background-image: url(../img/4-9-single-choice-dialog-line-01F346B9-4301-4658-BC93-ABD047B4CE04@2x.png);
   background-size: 100% 100%;
   height: 80px;
   left: 17px;
@@ -1051,7 +1075,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .guide-meas-e-vertical-FS75RL {
   background-color: transparent;
-  background-image: url(../img/4-9-single-choice-dialog-line-7F3D5F8D-55D4-4DD1-875A-48638F86F024@2x.png);
+  background-image: url(../img/4-9-single-choice-dialog-line-01F346B9-4301-4658-BC93-ABD047B4CE04@2x.png);
   background-size: 100% 100%;
   height: 80px;
   left: 0px;
@@ -1061,7 +1085,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .guide-meas-e-vertical-HQ34U4 {
   background-color: transparent;
-  background-image: url(../img/4-9-single-choice-dialog-line-7F3D5F8D-55D4-4DD1-875A-48638F86F024@2x.png);
+  background-image: url(../img/4-9-single-choice-dialog-line-01F346B9-4301-4658-BC93-ABD047B4CE04@2x.png);
   background-size: 100% 100%;
   height: 80px;
   left: 17px;
@@ -1071,7 +1095,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .guide-meas-e-vertical-SJcvEy {
   background-color: transparent;
-  background-image: url(../img/4-9-single-choice-dialog-line-7F3D5F8D-55D4-4DD1-875A-48638F86F024@2x.png);
+  background-image: url(../img/4-9-single-choice-dialog-line-01F346B9-4301-4658-BC93-ABD047B4CE04@2x.png);
   background-size: 100% 100%;
   height: 80px;
   left: 0px;
@@ -1081,7 +1105,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .guide-meas-e-vertical-XlJCJv {
   background-color: transparent;
-  background-image: url(../img/4-10-multi-choice-dialog-line-20B0E3F9-2A31-4B8A-8D0F-31DC57353896@2x.png);
+  background-image: url(../img/4-10-multi-choice-dialog-line-1644D582-8594-4006-BEB0-6B876ACCDFA4@2x.png);
   background-size: 100% 100%;
   height: 92px;
   left: 31px;
@@ -1091,7 +1115,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .guide-meas-e-vertical-ld8wxa {
   background-color: transparent;
-  background-image: url(../img/4-10-multi-choice-dialog-line-20B0E3F9-2A31-4B8A-8D0F-31DC57353896@2x.png);
+  background-image: url(../img/4-10-multi-choice-dialog-line-1644D582-8594-4006-BEB0-6B876ACCDFA4@2x.png);
   background-size: 100% 100%;
   height: 92px;
   left: 0px;
@@ -1101,7 +1125,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .guide-meas-e-vertical-o5lqwz {
   background-color: transparent;
-  background-image: url(../img/4-10-multi-choice-dialog-line-20B0E3F9-2A31-4B8A-8D0F-31DC57353896@2x.png);
+  background-image: url(../img/4-10-multi-choice-dialog-line-1644D582-8594-4006-BEB0-6B876ACCDFA4@2x.png);
   background-size: 100% 100%;
   height: 92px;
   left: 0px;
@@ -1111,7 +1135,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .guide-meas-horizontal-OxMxou {
   background-color: transparent;
-  background-image: url(../img/4-8-select-dialog-line-DEB328D1-A3F1-4822-B5A5-45F02F2899B6.png);
+  background-image: url(../img/4-9-single-choice-dialog-line-ED7A81CE-E77E-47F9-AC3A-3A5A4B293481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1121,7 +1145,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .guide-meas-horizontal-RZdnI6 {
   background-color: transparent;
-  background-image: url(../img/4-8-select-dialog-line-DEB328D1-A3F1-4822-B5A5-45F02F2899B6.png);
+  background-image: url(../img/4-9-single-choice-dialog-line-ED7A81CE-E77E-47F9-AC3A-3A5A4B293481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1131,7 +1155,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .guide-meas-horizontal-b16rEg {
   background-color: transparent;
-  background-image: url(../img/4-8-select-dialog-line-DEB328D1-A3F1-4822-B5A5-45F02F2899B6.png);
+  background-image: url(../img/4-9-single-choice-dialog-line-ED7A81CE-E77E-47F9-AC3A-3A5A4B293481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1141,7 +1165,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .guide-meas-horizontal-vfO8fE {
   background-color: transparent;
-  background-image: url(../img/4-8-select-dialog-line-DEB328D1-A3F1-4822-B5A5-45F02F2899B6.png);
+  background-image: url(../img/4-9-single-choice-dialog-line-ED7A81CE-E77E-47F9-AC3A-3A5A4B293481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1151,7 +1175,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .guide-meas-horizontal-zRkQPC {
   background-color: transparent;
-  background-image: url(../img/4-8-select-dialog-line-DEB328D1-A3F1-4822-B5A5-45F02F2899B6.png);
+  background-image: url(../img/4-9-single-choice-dialog-line-ED7A81CE-E77E-47F9-AC3A-3A5A4B293481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1337,7 +1361,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .guide-numb-ring-image-8q6TIT {
   background-color: transparent;
-  background-image: url(../img/4-13-date-picker-dialog-1-oval-23528F77-0F95-40F1-8DF6-56D8BD8606BE@2x.png);
+  background-image: url(../img/4-10-multi-choice-dialog-oval-D41DEB2D-163A-4915-836D-8898CF05E256@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 7px;
@@ -1347,7 +1371,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .guide-numbering-icon-V6rOAO {
   background-color: transparent;
-  background-image: url(../img/4-13-date-picker-dialog-1-oval-23528F77-0F95-40F1-8DF6-56D8BD8606BE@2x.png);
+  background-image: url(../img/4-10-multi-choice-dialog-oval-D41DEB2D-163A-4915-836D-8898CF05E256@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1357,10 +1381,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .guide-property-V6rOAO {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1379,10 +1402,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .history-lZqxZq {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1442,9 +1464,11 @@ transform: scale(0.98);
 .a49singlechoicedialog .link-to-scJTzt {
   background-color: transparent;
   color: rgba(145,145,145,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1456,9 +1480,11 @@ transform: scale(0.98);
 .a49singlechoicedialog .list-5dZqGE {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 44px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 53px;
   opacity: 0.8;
   position: absolute;
@@ -1501,10 +1527,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .page-name-ImyUki {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 48px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: left;
@@ -1514,10 +1539,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .page-name-q9zEDy {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 48px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: left;
@@ -1527,10 +1551,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .page-name-zQwrwQ {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 48px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: left;
@@ -1884,10 +1907,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .refer-to-v1ntsz {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2009,7 +2031,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .symbol-1LyZ3d {
   background-color: transparent;
-  background-image: url(../img/4-9-single-choice-dialog-4-09measurew360mpl049singlechoicedialog2-78836A96-9A27-4204-851C-13029F52530F@2x.png);
+  background-image: url(../img/4-9-single-choice-dialog-4-09measurew360mpl049singlechoicedialog2-10EF397A-E99C-4B61-B4D3-26E4C1AD6E98@2x.png);
   background-size: 100% 100%;
   height: 450px;
   left: 421px;
@@ -2019,7 +2041,7 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .symbol-GvrLj7 {
   background-color: transparent;
-  background-image: url(../img/4-9-single-choice-dialog-4-09measurew360mpl049singlechoicedialog1-BE8F30AF-ABB0-406C-9984-49A24B68941C@2x.png);
+  background-image: url(../img/4-9-single-choice-dialog-4-09measurew360mpl049singlechoicedialog1-3E96C7F8-1A8F-4DAD-95A3-681D58FB8C8D@2x.png);
   background-size: 100% 100%;
   height: 317px;
   left: 158px;
@@ -2051,12 +2073,19 @@ transform: scale(0.98);
   top: 310px;
   width: 172px;
 }
+.a49singlechoicedialog .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 1164px;
+  position: absolute;
+  top: 81px;
+  width: 156px;
+}
 .a49singlechoicedialog .text-2csiWw {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2067,10 +2096,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-2lOLH2 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2081,10 +2109,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-6uCC6P {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2095,10 +2122,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-AWDxxq {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2109,10 +2135,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-Cbf5Ak {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2131,10 +2156,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-IO2tex {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -2145,10 +2169,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-OMlONZ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2159,10 +2182,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-U20oLU {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2173,10 +2195,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-UMYCxX {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2187,10 +2208,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-VOdO0e {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2201,10 +2221,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-WARxJW {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2215,10 +2234,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-WZpIBy {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2230,9 +2248,11 @@ transform: scale(0.98);
 .a49singlechoicedialog .text-WvbxKh {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 31px;
+  letter-spacing: 0.00px;
   line-height: 28.6px;
   position: absolute;
   text-align: center;
@@ -2242,10 +2262,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-XBX3Ee {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2256,10 +2275,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-cwWTW2 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2270,10 +2288,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-i6zolW {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2284,10 +2301,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-ioVmyo {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2298,10 +2314,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-jGLpQR {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2312,10 +2327,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-mLjtxZ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2326,10 +2340,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-rgBiVC {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2340,10 +2353,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-xY88zE {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2354,10 +2366,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-xZDVfu {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2368,10 +2379,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .text-zLkuOD {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2379,6 +2389,36 @@ transform: scale(0.98);
   top: 12px;
   white-space: nowrap;
   width: 218px;
+}
+.a49singlechoicedialog .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 60px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a49singlechoicedialog .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a49singlechoicedialog .value-9ZG6xY {
   background-color: transparent;
@@ -2444,10 +2484,27 @@ transform: scale(0.98);
   top: 0px;
   width: 18px;
 }
+.a49singlechoicedialog .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a49singlechoicedialog .web-app-OB1SiY {
   background-color: transparent;
   height: auto;
   left: 0px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2457,10 +2514,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x0-3vQgM4 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2471,10 +2527,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x0-9n6Z5l {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2485,10 +2540,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x0-AY7uOm {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2499,10 +2553,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x0-BUH1EY {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2513,10 +2566,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x0-I5ndSd {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2527,10 +2579,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x0-XwKezP {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2541,10 +2592,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x0-Y5IEwN {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 7px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2555,10 +2605,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x0-YnUkrw {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2569,10 +2618,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x0-bNkNNx {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2583,10 +2631,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x0-overview-A0NNx1 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2597,10 +2644,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x0-pCRG2p {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2611,10 +2657,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x0-sqJAym {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2625,10 +2670,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x0-vTNpBi {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 7px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2639,10 +2683,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x0-xcl9xl {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2653,10 +2696,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x0-xxIA9L {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2668,9 +2710,11 @@ transform: scale(0.98);
 .a49singlechoicedialog .x1-NqbiOK {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -2679,10 +2723,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x1-app-bar-mSO44p {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2694,9 +2737,11 @@ transform: scale(0.98);
 .a49singlechoicedialog .x1-fx9Svm {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -2705,10 +2750,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x10-search-ys4Eef {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2719,10 +2763,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x11-toast-ZxS0T9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2733,10 +2776,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x12-text-fields-vgc3Vu {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2747,10 +2789,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x13-view-controls-94MaWS {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2761,10 +2802,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x14-description-Vh3Boh {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2775,10 +2815,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x15-notification-bad-AmUiok {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2789,10 +2828,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x16-thumbnail-7oeGf9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2803,10 +2841,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x17-copy-paste-HD1MSG {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2817,10 +2854,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x2-buttons-Rhulji {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2831,10 +2867,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x3-controllers-XGvGsa {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2877,8 +2912,13 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x4-9-single-choice-C61RwL {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
   height: auto;
   left: 380px;
+  letter-spacing: 0.00px;
+  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -2888,10 +2928,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x4-dialogs-XfJia9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -2902,10 +2941,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x5-dividers-jYs5wP {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2916,10 +2954,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x6-lists-CY9yOk {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2930,10 +2967,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x7-no-item-6wC6Jq {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2944,10 +2980,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x8-progress-TIxFq4 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2958,10 +2993,9 @@ transform: scale(0.98);
 }
 .a49singlechoicedialog .x9-scrolling-QBf695 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2976,30 +3010,55 @@ transform: scale(0.98);
 .border-class-2 {
   border: 1px solid rgba(135,135,135,1.0);
 }
-.font-class-1 {
-  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
-}
-.font-class-2 {
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-}
-.font-class-3 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
-}
-.font-class-4 {
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-}
-.font-class-5 {
+.samsungonekorean-400-normal-black-15px {
   color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
-  line-height: 84px;
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 15px;
 }
-.font-class-6 {
+.samsungonekorean-400-normal-masala-18px {
+  color: var(--masala);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-periwinkle-18px {
+  color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-royal-blue-18px {
+  color: var(--royal-blue);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-500-normal-black-15px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 15px;
+}
+.samsungonekorean-500-normal-white-14px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 14px;
+}
+.samsungonekorean-600-normal-black-15px {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
+}
+.samsungonekorean-700-normal-black-16px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 16px;
+}
+.samsungonekorean-700-normal-black-22px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 22px;
+}
+.samsungonekorean-700-normal-white-14px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 14px;
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);

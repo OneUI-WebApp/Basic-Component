@@ -8,10 +8,9 @@
 }
 .a421imagedialog .basic-4AP6SO {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 10px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   opacity: 0.8;
   position: absolute;
@@ -23,9 +22,11 @@
 .a421imagedialog .basic-component-gui-OB1SiY {
   background-color: transparent;
   color: rgba(37,37,37,1.0);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -36,10 +37,9 @@
 }
 .a421imagedialog .basic-gij6aI {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 10px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   opacity: 0.8;
   position: absolute;
@@ -93,6 +93,21 @@ transform: scale(0.98);
 
 transform: scale(0.98);
 }
+.a421imagedialog .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 156px;
+}
+.a421imagedialog .btn-xpyOiF:hover {
+
+transform: scale(0.98);
+}
 .a421imagedialog .document-b-x-contents-C7AF8h {
   background-color: var(--white);
   border: 1px solid var(--ebb);
@@ -113,7 +128,7 @@ transform: scale(0.98);
 }
 .a421imagedialog .document-b-x-contents-LpuWsq {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 611px;
   left: 0px;
   position: absolute;
@@ -122,7 +137,7 @@ transform: scale(0.98);
 }
 .a421imagedialog .document-b-x-contents-jk4meR {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -835,6 +850,14 @@ transform: scale(0.98);
   top: 0px;
   width: 168px;
 }
+.a421imagedialog .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 136px;
+}
 .a421imagedialog .group-aocLk7 {
   background-color: transparent;
   height: 22px;
@@ -1045,7 +1068,7 @@ transform: scale(0.98);
 }
 .a421imagedialog .guide-numb-ring-shape-aY603U {
   background-color: transparent;
-  background-image: url(../img/4-15-time-picker-dialog-oval-D7780806-B6C7-4CFB-A38E-363B692816AF@2x.png);
+  background-image: url(../img/4-21-image-dialog-oval-798A8B51-8782-4616-A6FC-02615D5A775A@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 111px;
@@ -1055,7 +1078,7 @@ transform: scale(0.98);
 }
 .a421imagedialog .guide-numb-ring-shape-fM952u {
   background-color: transparent;
-  background-image: url(../img/4-15-time-picker-dialog-oval-D7780806-B6C7-4CFB-A38E-363B692816AF@2x.png);
+  background-image: url(../img/4-21-image-dialog-oval-798A8B51-8782-4616-A6FC-02615D5A775A@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 113px;
@@ -1065,7 +1088,7 @@ transform: scale(0.98);
 }
 .a421imagedialog .guide-numbering-icon-BecK9q {
   background-color: transparent;
-  background-image: url(../img/4-15-time-picker-dialog-oval-D7780806-B6C7-4CFB-A38E-363B692816AF@2x.png);
+  background-image: url(../img/4-21-image-dialog-oval-798A8B51-8782-4616-A6FC-02615D5A775A@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1075,7 +1098,7 @@ transform: scale(0.98);
 }
 .a421imagedialog .guide-numbering-icon-jLiXve {
   background-color: transparent;
-  background-image: url(../img/4-15-time-picker-dialog-oval-D7780806-B6C7-4CFB-A38E-363B692816AF@2x.png);
+  background-image: url(../img/4-21-image-dialog-oval-798A8B51-8782-4616-A6FC-02615D5A775A@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1085,10 +1108,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .guide-property-BecK9q {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1099,10 +1121,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .guide-property-jLiXve {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1129,10 +1150,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .history-lZqxZq {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1207,10 +1227,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .page-name-4AP6SO {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 48px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: left;
@@ -1220,10 +1239,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .page-name-gij6aI {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 48px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: left;
@@ -1233,10 +1251,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .property-3b2pQb {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1246,10 +1263,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .property-azsVHg {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1587,7 +1603,7 @@ transform: scale(0.98);
 }
 .a421imagedialog .symbol-JLz9qM {
   background-color: transparent;
-  background-image: url(../img/4-21-image-dialog-4-21measurew360mpl0421imagedialog1-1C2513C6-DC46-408D-AC5F-32F9CFD5FC90@2x.png);
+  background-image: url(../img/4-21-image-dialog-4-21measurew360mpl0421imagedialog1-20841E39-436C-4D8D-955C-B747855A0904@2x.png);
   background-size: 100% 100%;
   height: 371px;
   left: 177px;
@@ -1597,7 +1613,7 @@ transform: scale(0.98);
 }
 .a421imagedialog .symbol-LpuWsq {
   background-color: transparent;
-  background-image: url(../img/4-21-image-dialog-4-21measurew360mpl0421imagedialog2-082D7389-739E-40C8-8F6F-27AFFD9D0C6E@2x.png);
+  background-image: url(../img/4-21-image-dialog-4-21measurew360mpl0421imagedialog2-77A53A28-56CD-43F3-A094-784217F4A659@2x.png);
   background-size: 100% 100%;
   height: 493px;
   left: 178px;
@@ -1621,12 +1637,19 @@ transform: scale(0.98);
   top: 417px;
   width: 210px;
 }
+.a421imagedialog .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 981px;
+  position: absolute;
+  top: 81px;
+  width: 156px;
+}
 .a421imagedialog .text-2csiWw {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1637,10 +1660,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-2lOLH2 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1651,10 +1673,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-6uCC6P {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1665,10 +1686,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-AWDxxq {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -1679,10 +1699,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-Cbf5Ak {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1693,10 +1712,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-IO2tex {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1707,10 +1725,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-OMlONZ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1721,10 +1738,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-U20oLU {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1735,10 +1751,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-UMYCxX {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1749,10 +1764,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-VOdO0e {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1763,10 +1777,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-WARxJW {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1777,10 +1790,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-WZpIBy {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1792,9 +1804,11 @@ transform: scale(0.98);
 .a421imagedialog .text-WvbxKh {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 31px;
+  letter-spacing: 0.00px;
   line-height: 28.6px;
   position: absolute;
   text-align: center;
@@ -1804,10 +1818,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-cwWTW2 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1818,10 +1831,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-i6zolW {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1832,10 +1844,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-ioVmyo {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1846,10 +1857,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-jGLpQR {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1860,10 +1870,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-mLjtxZ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1874,10 +1883,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-rgBiVC {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1888,10 +1896,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-xY88zE {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1902,10 +1909,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-xZDVfu {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1916,10 +1922,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .text-zLkuOD {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1931,9 +1936,11 @@ transform: scale(0.98);
 .a421imagedialog .title-hJ7irb {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 44px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 53px;
   opacity: 0.8;
   position: absolute;
@@ -1945,9 +1952,11 @@ transform: scale(0.98);
 .a421imagedialog .title-kFNl8t {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 44px;
   height: auto;
   left: 9px;
+  letter-spacing: 0.00px;
   line-height: 53px;
   opacity: 0.8;
   position: absolute;
@@ -1955,6 +1964,36 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: 1240px;
+}
+.a421imagedialog .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 60px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a421imagedialog .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a421imagedialog .value-0SeDBZ {
   background-color: transparent;
@@ -1974,10 +2013,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .value-3b2pQb {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 119px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2011,10 +2049,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .value-azsVHg {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 119px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2030,10 +2067,27 @@ transform: scale(0.98);
   top: 0px;
   width: 9px;
 }
+.a421imagedialog .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a421imagedialog .web-app-OB1SiY {
   background-color: transparent;
   height: auto;
   left: 0px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2043,10 +2097,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x-3b2pQb {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 162px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2056,10 +2109,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x-azsVHg {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 162px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2069,10 +2121,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x0-GkjvHD {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -1px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2083,10 +2134,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x0-IeLRL4 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2097,10 +2147,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x0-K69uO1 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -1px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2111,10 +2160,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x0-lWjDwp {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2125,10 +2173,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x0-li0Nxx {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2139,10 +2186,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x0-overview-A0NNx1 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2153,10 +2199,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x0-p506xB {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2167,10 +2212,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x0-t07cgK {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -1px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2181,10 +2225,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x0-t0EKA2 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2195,10 +2238,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x0-uEhsAQ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -1px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2209,10 +2251,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x0-x5cqtp {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2224,9 +2265,11 @@ transform: scale(0.98);
 .a421imagedialog .x1-D2SxdV {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -2236,9 +2279,11 @@ transform: scale(0.98);
 .a421imagedialog .x1-SkgYyZ {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -2248,9 +2293,11 @@ transform: scale(0.98);
 .a421imagedialog .x1-XVpQqv {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -2259,10 +2306,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x1-app-bar-mSO44p {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2274,9 +2320,11 @@ transform: scale(0.98);
 .a421imagedialog .x1-etRpq1 {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -2285,10 +2333,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x10-search-ys4Eef {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2299,10 +2346,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x11-toast-ZxS0T9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2313,10 +2359,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x12-text-fields-vgc3Vu {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2327,10 +2372,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x13-view-controls-94MaWS {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2341,10 +2385,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x14-description-Vh3Boh {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2355,10 +2398,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x15-notification-bad-AmUiok {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2369,10 +2411,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x16-thumbnail-7oeGf9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2383,10 +2424,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x17-copy-paste-HD1MSG {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2397,10 +2437,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x2-buttons-Rhulji {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2411,10 +2450,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x3-controllers-XGvGsa {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2425,8 +2463,13 @@ transform: scale(0.98);
 }
 .a421imagedialog .x4-21-image-dialog-C61RwL {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
   height: auto;
   left: 380px;
+  letter-spacing: 0.00px;
+  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -2468,10 +2511,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x4-dialogs-XfJia9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -2482,10 +2524,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x5-dividers-jYs5wP {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2496,10 +2537,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x6-lists-CY9yOk {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2510,10 +2550,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x7-no-item-6wC6Jq {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2524,10 +2563,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x8-progress-TIxFq4 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2538,10 +2576,9 @@ transform: scale(0.98);
 }
 .a421imagedialog .x9-scrolling-QBf695 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2556,30 +2593,55 @@ transform: scale(0.98);
 .border-class-2 {
   border: 1px solid rgba(135,135,135,1.0);
 }
-.font-class-1 {
-  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
-}
-.font-class-2 {
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-}
-.font-class-3 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
-}
-.font-class-4 {
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-}
-.font-class-5 {
+.samsungonekorean-400-normal-black-15px {
   color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
-  line-height: 84px;
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 15px;
 }
-.font-class-6 {
+.samsungonekorean-400-normal-masala-18px {
+  color: var(--masala);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-periwinkle-18px {
+  color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-royal-blue-18px {
+  color: var(--royal-blue);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-500-normal-black-15px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 15px;
+}
+.samsungonekorean-500-normal-white-14px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 14px;
+}
+.samsungonekorean-600-normal-black-15px {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
+}
+.samsungonekorean-700-normal-black-16px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 16px;
+}
+.samsungonekorean-700-normal-black-22px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 22px;
+}
+.samsungonekorean-700-normal-white-14px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 14px;
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);

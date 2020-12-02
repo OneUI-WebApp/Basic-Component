@@ -172,7 +172,7 @@
   width: 270px;
 }
 .a31checkbox .bg-gAJaKL {
-  background-color: var(--white);
+  background-color: rgba(0,204,153,0.2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -196,7 +196,7 @@
   width: 170px;
 }
 .a31checkbox .bg-sRZqxL {
-  background-color: var(--white);
+  background-color: rgba(0,204,153,0.2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -275,6 +275,21 @@ transform: scale(0.98);
   width: 192px;
 }
 .a31checkbox .btn-ut8jFR:hover {
+
+transform: scale(0.98);
+}
+.a31checkbox .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 156px;
+}
+.a31checkbox .btn-xpyOiF:hover {
 
 transform: scale(0.98);
 }
@@ -551,7 +566,7 @@ transform: scale(0.98);
 }
 .a31checkbox .document-b-x-contents-0omq4n {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -560,7 +575,7 @@ transform: scale(0.98);
 }
 .a31checkbox .document-b-x-contents-47fPpr {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 368px;
   left: 0px;
   position: absolute;
@@ -578,7 +593,7 @@ transform: scale(0.98);
 }
 .a31checkbox .document-b-x-contents-9VH9Ns {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 328px;
   left: 0px;
   position: absolute;
@@ -641,7 +656,7 @@ transform: scale(0.98);
 }
 .a31checkbox .document-b-x-contents-dJM0r0 {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -650,7 +665,7 @@ transform: scale(0.98);
 }
 .a31checkbox .document-b-x-contents-l6mNXx {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -659,7 +674,7 @@ transform: scale(0.98);
 }
 .a31checkbox .document-b-x-contents-oaan6z {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 383px;
   left: 0px;
   position: absolute;
@@ -677,7 +692,7 @@ transform: scale(0.98);
 }
 .a31checkbox .document-b-x-contents-xqjxMB {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 301px;
   left: 0px;
   position: absolute;
@@ -828,7 +843,7 @@ transform: scale(0.98);
 }
 .a31checkbox .gallerybtn-heckbgmtrl-6Yc0l0 {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-5FFF9FB8-99F7-455A-ACFA-CF90F3E1B6A2@2x.png);
+  background-image: url(../img/3-1-checkbox-shape-9A583490-9929-43C3-9080-2F2E1E56BCAE@2x.png);
   background-size: 100% 100%;
   height: 32px;
   left: 8px;
@@ -1473,7 +1488,7 @@ transform: scale(0.98);
   left: 21px;
   position: absolute;
   top: 16px;
-  width: 88px;
+  width: 93px;
 }
 .a31checkbox .group-2-lSlN18 {
   background-color: transparent;
@@ -1489,7 +1504,7 @@ transform: scale(0.98);
   left: 21px;
   position: absolute;
   top: 16px;
-  width: 88px;
+  width: 93px;
 }
 .a31checkbox .group-2-uZ1nCy {
   background-color: transparent;
@@ -1617,7 +1632,7 @@ transform: scale(0.98);
   left: 28px;
   position: absolute;
   top: 0px;
-  width: 55px;
+  width: 60px;
 }
 .a31checkbox .group-HxkXnK {
   background-color: transparent;
@@ -1642,6 +1657,14 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 106px;
+}
+.a31checkbox .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 136px;
 }
 .a31checkbox .group-UvxW6r {
   background-color: transparent;
@@ -1697,7 +1720,7 @@ transform: scale(0.98);
   left: 28px;
   position: absolute;
   top: 0px;
-  width: 55px;
+  width: 60px;
 }
 .a31checkbox .group-lA4cvB {
   background-color: transparent;
@@ -1861,7 +1884,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-form-e-imageold-KAXuLG {
   background-color: rgba(255,0,255,1.0);
-  background-image: url(../img/3-1-checkbox-resource-2882F915-EE1A-4A5E-84CA-CEA631F94280.png);
+  background-image: url(../img/3-1-checkbox-resource-C36D5529-B462-427B-B4B4-BAC9FD862185.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 46px;
@@ -2179,7 +2202,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-e-vertical-6oDxBw {
   background-color: transparent;
-  background-image: url(../img/3-2-radio-button-line-7E19F5D7-15D3-4B96-AD5F-91C31162B8AE@2x.png);
+  background-image: url(../img/3-2-radio-button-line-DE0441AE-5077-4A4D-ADD0-A46593E0A633@2x.png);
   background-size: 100% 100%;
   height: 10px;
   left: 56px;
@@ -2189,7 +2212,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-e-vertical-YiUWkY {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-A5D9BDDD-B671-4DD4-8A8E-B0D3C36FBC32@2x.png);
+  background-image: url(../img/3-1-checkbox-line-207974C2-F209-494C-A503-2D6B855549D9@2x.png);
   background-size: 100% 100%;
   height: 12px;
   left: 47px;
@@ -2199,7 +2222,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-e-vertical-ji42y2 {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-A5D9BDDD-B671-4DD4-8A8E-B0D3C36FBC32@2x.png);
+  background-image: url(../img/3-1-checkbox-line-207974C2-F209-494C-A503-2D6B855549D9@2x.png);
   background-size: 100% 100%;
   height: 12px;
   left: 0px;
@@ -2209,7 +2232,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-e-vertical-vY6h9S {
   background-color: transparent;
-  background-image: url(../img/3-2-radio-button-line-7E19F5D7-15D3-4B96-AD5F-91C31162B8AE@2x.png);
+  background-image: url(../img/3-2-radio-button-line-DE0441AE-5077-4A4D-ADD0-A46593E0A633@2x.png);
   background-size: 100% 100%;
   height: 10px;
   left: 87px;
@@ -2255,7 +2278,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-19nsWP {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-9DB5E4AC-207C-4084-AD53-552A8073D862.png);
+  background-image: url(../img/3-2-radio-button-line-67C7BE17-9C50-41FB-9CFC-8B39E3DC17E1.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -2265,7 +2288,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-6oDxBw {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-D609B284-F178-4328-BB1C-C2639A0C8FB9@2x.png);
+  background-image: url(../img/3-2-radio-button-line-98793E6B-0D6E-4E2B-9C16-6D60FCC18777@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -2275,7 +2298,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-YiUWkY {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-E5C72B2F-A24B-4BE3-A4C5-0E08FBDDD7A7.png);
+  background-image: url(../img/3-1-checkbox-line-AAB1333E-2FC0-4BF7-9C70-9A1B49591547.png);
   background-size: 100% 100%;
   height: 1px;
   left: 48px;
@@ -2285,7 +2308,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-ji42y2 {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-E5C72B2F-A24B-4BE3-A4C5-0E08FBDDD7A7.png);
+  background-image: url(../img/3-1-checkbox-line-AAB1333E-2FC0-4BF7-9C70-9A1B49591547.png);
   background-size: 100% 100%;
   height: 1px;
   left: 48px;
@@ -2295,7 +2318,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-vY6h9S {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-D609B284-F178-4328-BB1C-C2639A0C8FB9@2x.png);
+  background-image: url(../img/3-2-radio-button-line-98793E6B-0D6E-4E2B-9C16-6D60FCC18777@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -2305,7 +2328,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-vmt2lu {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-9DB5E4AC-207C-4084-AD53-552A8073D862.png);
+  background-image: url(../img/3-2-radio-button-line-67C7BE17-9C50-41FB-9CFC-8B39E3DC17E1.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -2315,7 +2338,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-xdbX6J {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-9DB5E4AC-207C-4084-AD53-552A8073D862.png);
+  background-image: url(../img/3-2-radio-button-line-67C7BE17-9C50-41FB-9CFC-8B39E3DC17E1.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -2325,7 +2348,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-xxMNu9 {
   background-color: transparent;
-  background-image: url(../img/3-4-onoff-switch-line-AD68A7F8-E9F0-4A7F-B552-E7050FF6CDEC.png);
+  background-image: url(../img/3-7-adddelete-button-line-B32A44EA-1CF7-4AA8-92F3-5F8F44F3F075.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -2335,7 +2358,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-meas-horizontal-yQ0xub {
   background-color: transparent;
-  background-image: url(../img/3-4-onoff-switch-line-AD68A7F8-E9F0-4A7F-B552-E7050FF6CDEC.png);
+  background-image: url(../img/3-7-adddelete-button-line-B32A44EA-1CF7-4AA8-92F3-5F8F44F3F075.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -2565,7 +2588,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-image-ASyKzm {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-C18B9469-6185-4A2B-8440-B8F5F2D48C33@2x.png);
+  background-image: url(../img/3-8-chips-oval-33382741-BC7B-49DB-900E-EB7768319A66@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2575,7 +2598,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-image-Msx9Cl {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-C18B9469-6185-4A2B-8440-B8F5F2D48C33@2x.png);
+  background-image: url(../img/3-8-chips-oval-33382741-BC7B-49DB-900E-EB7768319A66@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2585,7 +2608,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-image-bozKek {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-C18B9469-6185-4A2B-8440-B8F5F2D48C33@2x.png);
+  background-image: url(../img/3-8-chips-oval-33382741-BC7B-49DB-900E-EB7768319A66@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 185px;
@@ -2595,7 +2618,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-image-jTpKu6 {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-C18B9469-6185-4A2B-8440-B8F5F2D48C33@2x.png);
+  background-image: url(../img/3-8-chips-oval-33382741-BC7B-49DB-900E-EB7768319A66@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 99px;
@@ -2605,7 +2628,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-image-teDpwS {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-C18B9469-6185-4A2B-8440-B8F5F2D48C33@2x.png);
+  background-image: url(../img/3-8-chips-oval-33382741-BC7B-49DB-900E-EB7768319A66@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 185px;
@@ -2615,7 +2638,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-image-vWVlo5 {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-C18B9469-6185-4A2B-8440-B8F5F2D48C33@2x.png);
+  background-image: url(../img/3-8-chips-oval-33382741-BC7B-49DB-900E-EB7768319A66@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 311px;
@@ -2625,7 +2648,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-image-wJJzGR {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-C18B9469-6185-4A2B-8440-B8F5F2D48C33@2x.png);
+  background-image: url(../img/3-8-chips-oval-33382741-BC7B-49DB-900E-EB7768319A66@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 311px;
@@ -2635,7 +2658,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-image-x6DYQK {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-C18B9469-6185-4A2B-8440-B8F5F2D48C33@2x.png);
+  background-image: url(../img/3-8-chips-oval-33382741-BC7B-49DB-900E-EB7768319A66@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 99px;
@@ -2645,7 +2668,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-shape-8FcDQf {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-098CF0B6-C93D-40B4-ABE2-EF037378C1BD@2x.png);
+  background-image: url(../img/3-9-slider-oval-EFEAE439-C569-435B-8CC7-138E5FB941B7@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2655,7 +2678,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numb-ring-shape-GpxYCS {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-098CF0B6-C93D-40B4-ABE2-EF037378C1BD@2x.png);
+  background-image: url(../img/3-9-slider-oval-EFEAE439-C569-435B-8CC7-138E5FB941B7@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 212px;
@@ -2665,7 +2688,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numbering-icon-PEKlVJ {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-C18B9469-6185-4A2B-8440-B8F5F2D48C33@2x.png);
+  background-image: url(../img/3-8-chips-oval-33382741-BC7B-49DB-900E-EB7768319A66@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2675,7 +2698,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numbering-icon-QJ8ieg {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-098CF0B6-C93D-40B4-ABE2-EF037378C1BD@2x.png);
+  background-image: url(../img/3-9-slider-oval-EFEAE439-C569-435B-8CC7-138E5FB941B7@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2685,7 +2708,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numbering-icon-YA78CZ {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-C18B9469-6185-4A2B-8440-B8F5F2D48C33@2x.png);
+  background-image: url(../img/3-8-chips-oval-33382741-BC7B-49DB-900E-EB7768319A66@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2695,7 +2718,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numbering-icon-cU9ElS {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-C18B9469-6185-4A2B-8440-B8F5F2D48C33@2x.png);
+  background-image: url(../img/3-8-chips-oval-33382741-BC7B-49DB-900E-EB7768319A66@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2705,7 +2728,7 @@ transform: scale(0.98);
 }
 .a31checkbox .guide-numbering-icon-xJj5cn {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-098CF0B6-C93D-40B4-ABE2-EF037378C1BD@2x.png);
+  background-image: url(../img/3-9-slider-oval-EFEAE439-C569-435B-8CC7-138E5FB941B7@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4018,7 +4041,7 @@ transform: scale(0.98);
 }
 .a31checkbox .semchecked-oonmtrl000-B0ZS8r {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-7E540EC5-8B0D-43D2-9D7C-E289C15F9DDB@2x.png);
+  background-image: url(../img/3-2-radio-button-x3000-11AE4EEF-C083-473D-9D4A-B03E771898C7@2x.png);
   background-size: 100% 100%;
   height: 31px;
   left: 9px;
@@ -4028,7 +4051,7 @@ transform: scale(0.98);
 }
 .a31checkbox .semchecked-oonmtrl000-ToyfrD {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-7E540EC5-8B0D-43D2-9D7C-E289C15F9DDB@2x.png);
+  background-image: url(../img/3-2-radio-button-x3000-11AE4EEF-C083-473D-9D4A-B03E771898C7@2x.png);
   background-size: 100% 100%;
   height: 31px;
   left: 9px;
@@ -4038,7 +4061,7 @@ transform: scale(0.98);
 }
 .a31checkbox .semchecked-oonmtrl026-Zu2eGa {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-23708C3E-C013-4DA9-90FF-8DCE8E650BA0@2x.png);
+  background-image: url(../img/3-1-checkbox-shape-3C568FE0-902C-4F54-A382-788AA67D29D4@2x.png);
   background-size: 100% 100%;
   height: 31px;
   left: 9px;
@@ -4048,7 +4071,7 @@ transform: scale(0.98);
 }
 .a31checkbox .semchecked-oonmtrl026-b0serO {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-23708C3E-C013-4DA9-90FF-8DCE8E650BA0@2x.png);
+  background-image: url(../img/3-1-checkbox-shape-3C568FE0-902C-4F54-A382-788AA67D29D4@2x.png);
   background-size: 100% 100%;
   height: 31px;
   left: 9px;
@@ -4249,7 +4272,7 @@ transform: scale(0.98);
 }
 .a31checkbox .symbol-47fPpr {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-3-01measurew360mpl031checkbox32-570D2941-6EDD-4874-A23E-DC94C07040FA@2x.png);
+  background-image: url(../img/3-1-checkbox-3-01measurew360mpl031checkbox32-ADAA94C8-23D1-4880-8A2E-89238ACE675F@2x.png);
   background-size: 100% 100%;
   height: 212px;
   left: 369px;
@@ -4259,7 +4282,7 @@ transform: scale(0.98);
 }
 .a31checkbox .symbol-9VH9Ns {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-3-01measurew360mpl031checkbox31-FD777DC4-0913-440E-B204-5956C7B42CD3@2x.png);
+  background-image: url(../img/3-1-checkbox-3-01measurew360mpl031checkbox31-4AF9F866-234A-447A-B2AD-B5A7F08F7DA6@2x.png);
   background-size: 100% 100%;
   height: 170px;
   left: 369px;
@@ -4269,7 +4292,7 @@ transform: scale(0.98);
 }
 .a31checkbox .symbol-BgvBDS {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-3-01measurew360mpl031checkbox4-52D0B4B4-36E9-473A-BA99-C58ED216B39C@2x.png);
+  background-image: url(../img/3-1-checkbox-3-01measurew360mpl031checkbox4-866150B3-E011-4B12-9676-7C64F3418F88@2x.png);
   background-size: 100% 100%;
   height: 258px;
   left: 88px;
@@ -4279,7 +4302,7 @@ transform: scale(0.98);
 }
 .a31checkbox .symbol-oaan6z {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-3-01measurew360mpl031checkbox1-8C4D84D4-9D1C-4834-9AC4-3740529BD3D0@2x.png);
+  background-image: url(../img/3-1-checkbox-3-01measurew360mpl031checkbox1-F4C49955-6C7F-4209-910A-329FF21E43FE@2x.png);
   background-size: 100% 100%;
   height: 227px;
   left: 267px;
@@ -4297,7 +4320,7 @@ transform: scale(0.98);
 }
 .a31checkbox .symbol-xqjxMB {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-3-01measurew360mpl031checkbox2-749D401E-9EF6-4D13-96B8-3F67DBA16815@2x.png);
+  background-image: url(../img/3-1-checkbox-3-01measurew360mpl031checkbox2-3899DFAC-95B4-4B83-8BE2-EFDF70A4AD03@2x.png);
   background-size: 100% 100%;
   height: 171px;
   left: 88px;
@@ -4464,6 +4487,14 @@ transform: scale(0.98);
   position: absolute;
   top: 157px;
   width: 148px;
+}
+.a31checkbox .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 844px;
+  position: absolute;
+  top: 81px;
+  width: 156px;
 }
 .a31checkbox .text-1kUsAP {
   background-color: transparent;
@@ -4780,6 +4811,36 @@ transform: scale(0.98);
   top: 0px;
   white-space: nowrap;
   width: 1240px;
+}
+.a31checkbox .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 60px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a31checkbox .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a31checkbox .value-1line-EFryas {
   background-color: transparent;
@@ -5295,6 +5356,21 @@ transform: scale(0.98);
   top: 15px;
   width: 16px;
 }
+.a31checkbox .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a31checkbox .web-app-tuZlmD {
   background-color: transparent;
   color: var(--black);
@@ -5412,7 +5488,7 @@ transform: scale(0.98);
 .a31checkbox .x-EVEy24 {
   background-color: transparent;
   height: auto;
-  left: 83px;
+  left: 88px;
   letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
@@ -5731,7 +5807,7 @@ transform: scale(0.98);
 .a31checkbox .x-itr1SC {
   background-color: transparent;
   height: auto;
-  left: 83px;
+  left: 88px;
   letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
@@ -6517,7 +6593,7 @@ transform: scale(0.98);
   left: 0px;
   position: absolute;
   top: 0px;
-  width: 88px;
+  width: 93px;
 }
 .a31checkbox .x1line-QzOyml {
   background-color: transparent;
@@ -6525,7 +6601,7 @@ transform: scale(0.98);
   left: 0px;
   position: absolute;
   top: 0px;
-  width: 88px;
+  width: 93px;
 }
 .a31checkbox .x1line-Wh7RUZ {
   background-color: transparent;

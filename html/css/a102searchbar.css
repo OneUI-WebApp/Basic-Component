@@ -8,10 +8,9 @@
 }
 .a102searchbar .auto-complete-sugges-AUnqTe {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 600px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -23,9 +22,11 @@
 .a102searchbar .auto-complete-sugges-GmcpkT {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 22px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -37,9 +38,11 @@
 .a102searchbar .auto-complete-sugges-ZvWa0I {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 22px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -50,10 +53,9 @@
 }
 .a102searchbar .auto-complete-sugges-xQPWqi {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -113,9 +115,11 @@
 .a102searchbar .basic-0V720h {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size: 14px;
   height: auto;
   left: 10px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   opacity: 0.8;
   position: absolute;
@@ -127,9 +131,11 @@
 .a102searchbar .basic-TRo57D {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size: 14px;
   height: auto;
   left: 10px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   opacity: 0.8;
   position: absolute;
@@ -141,9 +147,11 @@
 .a102searchbar .basic-component-gui-MP1pJx {
   background-color: transparent;
   color: rgba(37,37,37,1.0);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -155,9 +163,11 @@
 .a102searchbar .basic-tJXI2F {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size: 14px;
   height: auto;
   left: 10px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   opacity: 0.8;
   position: absolute;
@@ -169,9 +179,11 @@
 .a102searchbar .basic-wHfQ55 {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size: 14px;
   height: auto;
   left: 10px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   opacity: 0.8;
   position: absolute;
@@ -237,6 +249,21 @@ transform: scale(0.98);
   width: 274px;
 }
 .a102searchbar .btn-mwblLs:hover {
+
+transform: scale(0.98);
+}
+.a102searchbar .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 156px;
+}
+.a102searchbar .btn-xpyOiF:hover {
 
 transform: scale(0.98);
 }
@@ -327,9 +354,17 @@ transform: scale(0.98);
   top: 392px;
   width: 465px;
 }
+.a102searchbar .document-b-textupdate-MCs901 {
+  background-color: rgba(0,204,153,0.2);
+  height: 28px;
+  left: 32px;
+  position: absolute;
+  top: 25px;
+  width: 132px;
+}
 .a102searchbar .document-b-x-contents-2uj0JH {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 167px;
   left: 0px;
   position: absolute;
@@ -347,7 +382,7 @@ transform: scale(0.98);
 }
 .a102searchbar .document-b-x-contents-5apo68 {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 436px;
   left: 0px;
   position: absolute;
@@ -455,7 +490,7 @@ transform: scale(0.98);
 }
 .a102searchbar .document-b-x-contents-ZwCh4Z {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 379px;
   left: 0px;
   position: absolute;
@@ -464,7 +499,7 @@ transform: scale(0.98);
 }
 .a102searchbar .document-b-x-contents-aAafGP {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 812px;
   left: 0px;
   position: absolute;
@@ -482,7 +517,7 @@ transform: scale(0.98);
 }
 .a102searchbar .document-b-x-contents-d1Qoyl {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 618px;
   left: 0px;
   position: absolute;
@@ -491,7 +526,7 @@ transform: scale(0.98);
 }
 .a102searchbar .document-b-x-contents-ddGQlc {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 1040px;
   left: 0px;
   position: absolute;
@@ -500,7 +535,7 @@ transform: scale(0.98);
 }
 .a102searchbar .document-b-x-contents-gX7bWj {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -527,7 +562,7 @@ transform: scale(0.98);
 }
 .a102searchbar .document-b-x-contents-j9xnqX {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 630px;
   left: 0px;
   position: absolute;
@@ -545,7 +580,7 @@ transform: scale(0.98);
 }
 .a102searchbar .document-b-x-contents-pknIWk {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -599,9 +634,11 @@ transform: scale(0.98);
 .a102searchbar .fn-ASnmSY {
   background-color: transparent;
   color: rgba(250,250,250,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -611,10 +648,9 @@ transform: scale(0.98);
 }
 .a102searchbar .fn-L9fNxv {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -624,10 +660,9 @@ transform: scale(0.98);
 }
 .a102searchbar .fn-MjjVqg {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -637,10 +672,9 @@ transform: scale(0.98);
 }
 .a102searchbar .fn-PuI7pr {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -650,10 +684,9 @@ transform: scale(0.98);
 }
 .a102searchbar .fn-SV1TAr {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -663,10 +696,9 @@ transform: scale(0.98);
 }
 .a102searchbar .fn-TVJnSh {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -676,10 +708,9 @@ transform: scale(0.98);
 }
 .a102searchbar .fn-dQVA2P {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -690,9 +721,11 @@ transform: scale(0.98);
 .a102searchbar .fn-j7huCP {
   background-color: transparent;
   color: rgba(250,250,250,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -702,10 +735,9 @@ transform: scale(0.98);
 }
 .a102searchbar .fn-rnrkkV {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -715,10 +747,9 @@ transform: scale(0.98);
 }
 .a102searchbar .fn-t5VP5t {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -728,10 +759,9 @@ transform: scale(0.98);
 }
 .a102searchbar .fn-uwOhtR {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -750,9 +780,11 @@ transform: scale(0.98);
 .a102searchbar .focused-cXMpmH {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 44px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 53px;
   opacity: 0.8;
   position: absolute;
@@ -1431,7 +1463,7 @@ transform: scale(0.98);
   left: 0px;
   position: relative;
   top: 0px;
-  width: 130px;
+  width: 124px;
 }
 .a102searchbar .group-2-nubtxJ {
   background-color: transparent;
@@ -1559,7 +1591,7 @@ transform: scale(0.98);
   left: 50px;
   position: absolute;
   top: 0px;
-  width: 74px;
+  width: 68px;
 }
 .a102searchbar .group-BxbaFf {
   background-color: transparent;
@@ -1704,6 +1736,14 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 36px;
+}
+.a102searchbar .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 136px;
 }
 .a102searchbar .group-U7qPT0 {
   background-color: transparent;
@@ -2815,7 +2855,7 @@ transform: scale(0.98);
   left: 32px;
   position: absolute;
   top: 28px;
-  width: 130px;
+  width: 124px;
 }
 .a102searchbar .guide-form-rmal-light-WxFpd3 {
   background-color: transparent;
@@ -3088,7 +3128,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-meas-e-vertical-10qyqC {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-line-34389C70-7AB0-4C8B-AF14-2311A985429B@2x.png);
+  background-image: url(../img/10-2-search-bar-line-39965301-FA07-478D-ADA8-D67F8AF3733B@2x.png);
   background-size: 100% 100%;
   height: 23px;
   left: 120px;
@@ -3098,7 +3138,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-meas-e-vertical-D6qpy0 {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-line-C67606EC-64F3-4E5D-B7A1-C41AB38CA325@2x.png);
+  background-image: url(../img/10-2-search-bar-line-0EF40F6D-B962-4D85-AC1C-9A1E53F93639@2x.png);
   background-size: 100% 100%;
   height: 24px;
   left: 0px;
@@ -3108,7 +3148,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-meas-e-vertical-O8GKic {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-line-34389C70-7AB0-4C8B-AF14-2311A985429B@2x.png);
+  background-image: url(../img/10-2-search-bar-line-39965301-FA07-478D-ADA8-D67F8AF3733B@2x.png);
   background-size: 100% 100%;
   height: 23px;
   left: 122px;
@@ -3118,7 +3158,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-meas-e-vertical-i2tMWF {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-line-C67606EC-64F3-4E5D-B7A1-C41AB38CA325@2x.png);
+  background-image: url(../img/10-2-search-bar-line-0EF40F6D-B962-4D85-AC1C-9A1E53F93639@2x.png);
   background-size: 100% 100%;
   height: 24px;
   left: 35px;
@@ -3146,7 +3186,7 @@ transform: scale(0.98);
 .a102searchbar .guide-meas-eft-size-2-rabKbu {
   background-color: transparent;
   height: 36px;
-  left: 7px;
+  left: 0px;
   position: absolute;
   top: 55px;
   width: 29px;
@@ -3233,7 +3273,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-meas-horizontal-10qyqC {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-line-C579C490-55EC-4A6D-8D2B-38A3D0BADCDC@2x.png);
+  background-image: url(../img/10-2-search-bar-line-9D1070FA-BE79-4326-8B44-39D0872133FE@2x.png);
   background-size: 100% 100%;
   height: 2px;
   left: 30px;
@@ -3243,7 +3283,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-meas-horizontal-5sc0CO {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-line-3E5477F2-E911-4EAB-B4DC-0A5680DFE858@2x.png);
+  background-image: url(../img/10-2-search-bar-line-7BF41033-D9C0-41F9-B27B-F538639AEF8A@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -3253,7 +3293,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-meas-horizontal-9Nu2aV {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-line-28F9C000-68E7-40A4-BA99-E86C36C3A611.png);
+  background-image: url(../img/10-2-search-bar-line-4B9C31FC-35B3-4904-9AD8-FE0B3EF63ABC.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -3263,7 +3303,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-meas-horizontal-C4j4kf {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-line-05ADAE4F-0150-49CD-A48D-89423697D11A.png);
+  background-image: url(../img/10-2-search-bar-line-9D7BA18C-4CBD-4DF7-B743-00EDD0DBD493.png);
   background-size: 100% 100%;
   height: 1px;
   left: 68px;
@@ -3273,7 +3313,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-meas-horizontal-GkephY {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-line-28F9C000-68E7-40A4-BA99-E86C36C3A611.png);
+  background-image: url(../img/10-2-search-bar-line-4B9C31FC-35B3-4904-9AD8-FE0B3EF63ABC.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -3283,7 +3323,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-meas-horizontal-LvNIDF {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-line-28F9C000-68E7-40A4-BA99-E86C36C3A611.png);
+  background-image: url(../img/10-2-search-bar-line-4B9C31FC-35B3-4904-9AD8-FE0B3EF63ABC.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -3293,7 +3333,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-meas-horizontal-O8GKic {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-line-C579C490-55EC-4A6D-8D2B-38A3D0BADCDC@2x.png);
+  background-image: url(../img/10-2-search-bar-line-9D1070FA-BE79-4326-8B44-39D0872133FE@2x.png);
   background-size: 100% 100%;
   height: 2px;
   left: 30px;
@@ -3303,7 +3343,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-meas-horizontal-Vj5mhr {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-line-28F9C000-68E7-40A4-BA99-E86C36C3A611.png);
+  background-image: url(../img/10-2-search-bar-line-4B9C31FC-35B3-4904-9AD8-FE0B3EF63ABC.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -3313,7 +3353,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-meas-horizontal-XfhxFI {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-line-05ADAE4F-0150-49CD-A48D-89423697D11A.png);
+  background-image: url(../img/10-2-search-bar-line-9D7BA18C-4CBD-4DF7-B743-00EDD0DBD493.png);
   background-size: 100% 100%;
   height: 1px;
   left: 68px;
@@ -3323,7 +3363,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-meas-horizontal-ZTUTEI {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-line-3E5477F2-E911-4EAB-B4DC-0A5680DFE858@2x.png);
+  background-image: url(../img/10-2-search-bar-line-7BF41033-D9C0-41F9-B27B-F538639AEF8A@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -3333,20 +3373,20 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-meas-horizontal-rabKbu {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-line-4021FE51-D3E9-4E4F-9063-3426619B1DAB@2x.png);
+  background-image: url(../img/10-2-search-bar-line-AF715FE3-A4DC-4648-B7C2-DD0107140AF8@2x.png);
   background-size: 100% 100%;
   height: 1px;
-  left: 38px;
+  left: 31px;
   position: absolute;
   top: 90px;
   width: 30px;
 }
 .a102searchbar .guide-meas-horizontal-xGe4Lx {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-line-4021FE51-D3E9-4E4F-9063-3426619B1DAB@2x.png);
+  background-image: url(../img/10-2-search-bar-line-AF715FE3-A4DC-4648-B7C2-DD0107140AF8@2x.png);
   background-size: 100% 100%;
   height: 1px;
-  left: 38px;
+  left: 31px;
   position: absolute;
   top: 55px;
   width: 30px;
@@ -3389,7 +3429,7 @@ transform: scale(0.98);
 .a102searchbar .guide-meas-top-size-2-rabKbu {
   background-color: transparent;
   height: 29px;
-  left: 68px;
+  left: 61px;
   position: absolute;
   top: 0px;
   width: 36px;
@@ -3797,7 +3837,7 @@ transform: scale(0.98);
 .a102searchbar .guide-measure-area-rabKbu {
   background-color: rgba(255,0,204,0.37);
   height: 36px;
-  left: 68px;
+  left: 61px;
   position: absolute;
   top: 55px;
   width: 36px;
@@ -3876,7 +3916,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numb-ring-image-2TZDPW {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-BA782D5A-0BE6-47BB-901C-F2B7AB20442B@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-117691DC-D523-4623-AAF8-DC4CFC23DA1E@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 57px;
@@ -3886,7 +3926,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numb-ring-image-AJi6lb {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-BA782D5A-0BE6-47BB-901C-F2B7AB20442B@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-117691DC-D523-4623-AAF8-DC4CFC23DA1E@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 501px;
@@ -3896,7 +3936,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numb-ring-image-bj65nA {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-BA782D5A-0BE6-47BB-901C-F2B7AB20442B@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-117691DC-D523-4623-AAF8-DC4CFC23DA1E@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 57px;
@@ -3906,7 +3946,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numb-ring-image-xYX6pR {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-BA782D5A-0BE6-47BB-901C-F2B7AB20442B@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-117691DC-D523-4623-AAF8-DC4CFC23DA1E@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 503px;
@@ -3916,7 +3956,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numb-ring-image-y4yO36 {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-BA782D5A-0BE6-47BB-901C-F2B7AB20442B@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-117691DC-D523-4623-AAF8-DC4CFC23DA1E@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 397px;
@@ -3926,7 +3966,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numb-ring-shape-5vvlRx {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-C25C6E52-CBED-4C7C-AB72-6B380A290B40@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-3849C69D-9D83-4DA0-84D6-2D8A413F18C1@2x.png);
   background-size: 100% 100%;
   height: 23px;
   left: 244px;
@@ -3936,7 +3976,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numb-ring-shape-8x1mzA {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-C25C6E52-CBED-4C7C-AB72-6B380A290B40@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-3849C69D-9D83-4DA0-84D6-2D8A413F18C1@2x.png);
   background-size: 100% 100%;
   height: 23px;
   left: 244px;
@@ -3946,7 +3986,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numb-ring-shape-Vuj0WN {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-C25C6E52-CBED-4C7C-AB72-6B380A290B40@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-3849C69D-9D83-4DA0-84D6-2D8A413F18C1@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 98px;
@@ -3956,7 +3996,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numb-ring-shape-aAjvxZ {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-C25C6E52-CBED-4C7C-AB72-6B380A290B40@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-3849C69D-9D83-4DA0-84D6-2D8A413F18C1@2x.png);
   background-size: 100% 100%;
   height: 23px;
   left: 493px;
@@ -3966,7 +4006,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numb-ring-shape-xILWRz {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-C25C6E52-CBED-4C7C-AB72-6B380A290B40@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-3849C69D-9D83-4DA0-84D6-2D8A413F18C1@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 419px;
@@ -3976,7 +4016,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numb-ring-shape-xYX6pR {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-C25C6E52-CBED-4C7C-AB72-6B380A290B40@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-3849C69D-9D83-4DA0-84D6-2D8A413F18C1@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 286px;
@@ -3986,7 +4026,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-icon-1KAkAn {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-BA782D5A-0BE6-47BB-901C-F2B7AB20442B@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-117691DC-D523-4623-AAF8-DC4CFC23DA1E@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -3996,7 +4036,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-icon-5F2v1f {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-BA782D5A-0BE6-47BB-901C-F2B7AB20442B@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-117691DC-D523-4623-AAF8-DC4CFC23DA1E@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4006,7 +4046,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-icon-IW0pgN {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-C25C6E52-CBED-4C7C-AB72-6B380A290B40@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-3849C69D-9D83-4DA0-84D6-2D8A413F18C1@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4016,7 +4056,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-icon-RKhnzN {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-C25C6E52-CBED-4C7C-AB72-6B380A290B40@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-3849C69D-9D83-4DA0-84D6-2D8A413F18C1@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4026,7 +4066,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-icon-jMdMLV {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-C25C6E52-CBED-4C7C-AB72-6B380A290B40@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-3849C69D-9D83-4DA0-84D6-2D8A413F18C1@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4036,7 +4076,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-icon-nWf6Ps {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-BA782D5A-0BE6-47BB-901C-F2B7AB20442B@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-117691DC-D523-4623-AAF8-DC4CFC23DA1E@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4046,7 +4086,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-icon-tUCcGf {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-C25C6E52-CBED-4C7C-AB72-6B380A290B40@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-3849C69D-9D83-4DA0-84D6-2D8A413F18C1@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4056,7 +4096,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-icon-wzBjo8 {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-C25C6E52-CBED-4C7C-AB72-6B380A290B40@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-3849C69D-9D83-4DA0-84D6-2D8A413F18C1@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4066,7 +4106,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-icon-xH8Anr {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-BA782D5A-0BE6-47BB-901C-F2B7AB20442B@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-117691DC-D523-4623-AAF8-DC4CFC23DA1E@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4076,7 +4116,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-2TZDPW {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 408px;
@@ -4086,7 +4126,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-5hZ3VX {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4096,7 +4136,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-7DKGRc {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4106,7 +4146,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-8x1mzA {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4116,7 +4156,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-DrGcxg {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4126,7 +4166,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-IHyK12 {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4136,7 +4176,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-JHdJRj {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4146,7 +4186,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-TQBjJc {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4156,7 +4196,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-Upj7L0 {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 169px;
@@ -4166,7 +4206,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-Vuj0WN {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 219px;
@@ -4176,7 +4216,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-XIc7Qi {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4186,7 +4226,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-aAjvxZ {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 244px;
@@ -4196,7 +4236,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-bj65nA {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 234px;
@@ -4206,7 +4246,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-oCA7vq {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 262px;
@@ -4216,7 +4256,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-t3VdKc {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4226,7 +4266,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-uF9Y2X {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4236,7 +4276,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-xYX6pR {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 421px;
@@ -4246,7 +4286,7 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-numbering-type-y4yO36 {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-oval-5237FCA6-AD90-4743-BB8F-10F328919529@2x.png);
+  background-image: url(../img/10-2-search-bar-oval-53F0F2A5-6146-4B9E-8DFC-E90B4C770F16@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4256,10 +4296,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-1KAkAn {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4270,10 +4309,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-5F2v1f {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4284,10 +4322,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-5hZ3VX {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4298,10 +4335,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-7DKGRc {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4312,10 +4348,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-DrGcxg {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4326,10 +4361,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-IHyK12 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4340,10 +4374,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-IW0pgN {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4354,10 +4387,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-JHdJRj {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4368,10 +4400,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-RKhnzN {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4382,10 +4413,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-TQBjJc {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4396,10 +4426,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-XIc7Qi {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4410,10 +4439,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-jMdMLV {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4424,10 +4452,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-nWf6Ps {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4438,10 +4465,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-t3VdKc {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4452,10 +4478,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-tUCcGf {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4466,10 +4491,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-uF9Y2X {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4480,10 +4504,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-wzBjo8 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4494,10 +4517,9 @@ transform: scale(0.98);
 }
 .a102searchbar .guide-property-xH8Anr {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -4676,10 +4698,9 @@ transform: scale(0.98);
 }
 .a102searchbar .history-RS6j6x {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4842,7 +4863,7 @@ transform: scale(0.98);
 }
 .a102searchbar .light-theme-ZwCh4Z {
   background-color: transparent;
-  height: 50px;
+  height: 53px;
   left: 20px;
   position: absolute;
   top: 218px;
@@ -4859,9 +4880,11 @@ transform: scale(0.98);
 .a102searchbar .link-to-A8e6el {
   background-color: transparent;
   color: rgba(145,145,145,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4873,9 +4896,11 @@ transform: scale(0.98);
 .a102searchbar .link-to-ATXCY0 {
   background-color: transparent;
   color: rgba(145,145,145,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4887,9 +4912,11 @@ transform: scale(0.98);
 .a102searchbar .link-to-KMaxx4 {
   background-color: transparent;
   color: rgba(145,145,145,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4901,9 +4928,11 @@ transform: scale(0.98);
 .a102searchbar .link-to-KuIQ2u {
   background-color: transparent;
   color: rgba(145,145,145,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4915,9 +4944,11 @@ transform: scale(0.98);
 .a102searchbar .link-to-REeARJ {
   background-color: transparent;
   color: rgba(145,145,145,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4929,9 +4960,11 @@ transform: scale(0.98);
 .a102searchbar .link-to-iYzs3J {
   background-color: transparent;
   color: rgba(145,145,145,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -4970,7 +5003,7 @@ transform: scale(0.98);
   left: 50px;
   position: absolute;
   top: 451px;
-  width: 616px;
+  width: 609px;
 }
 .a102searchbar .measure-3-ddGQlc {
   background-color: transparent;
@@ -5022,7 +5055,7 @@ transform: scale(0.98);
 }
 .a102searchbar .mobile-lig-arch-close-vLiy6O {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-mobilelightthemeicon10searchsearchclose-508D757F-1FBB-400F-B6DB-36BE95983B59@2x.png);
+  background-image: url(../img/10-2-search-bar-mobilelightthemeicon10searchsearchclose-BE3E9612-5811-4091-9165-67CBF3E996B1@2x.png);
   background-size: 100% 100%;
   height: 30px;
   left: 9px;
@@ -5032,7 +5065,7 @@ transform: scale(0.98);
 }
 .a102searchbar .mobile-lig-arch-close-xkx6un {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-mobilelightthemeicon10searchsearchclose-508D757F-1FBB-400F-B6DB-36BE95983B59@2x.png);
+  background-image: url(../img/10-2-search-bar-mobilelightthemeicon10searchsearchclose-BE3E9612-5811-4091-9165-67CBF3E996B1@2x.png);
   background-size: 100% 100%;
   height: 30px;
   left: 9px;
@@ -5042,7 +5075,7 @@ transform: scale(0.98);
 }
 .a102searchbar .mobile-lig-arch-voice-C1cVy0 {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-mobilelightthemeicon10searchsearchvoice-70F75800-C6DB-4F6C-8F1E-2AB27CA3E855@2x.png);
+  background-image: url(../img/10-3-search-barlocation-mobilelightthemeicon10searchsearchvoice-8C06F00A-EABC-49CA-BACB-2A795190D82D@2x.png);
   background-size: 100% 100%;
   height: 40px;
   left: 9px;
@@ -5052,7 +5085,7 @@ transform: scale(0.98);
 }
 .a102searchbar .mobile-lig-earch-back-9Pu9BO {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-mobilelightthemeicon10searchsearchback-4D257712-F57D-4111-8E13-840F52B40406@2x.png);
+  background-image: url(../img/10-2-search-bar-mobilelightthemeicon10searchsearchback-59057E9B-C184-4410-BDDF-6C94FFA7AF4A@2x.png);
   background-size: 100% 100%;
   height: 38px;
   left: 12px;
@@ -5110,10 +5143,9 @@ transform: scale(0.98);
 }
 .a102searchbar .page-name-0V720h {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 48px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: left;
@@ -5123,10 +5155,9 @@ transform: scale(0.98);
 }
 .a102searchbar .page-name-TRo57D {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 48px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: left;
@@ -5136,10 +5167,9 @@ transform: scale(0.98);
 }
 .a102searchbar .page-name-tJXI2F {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 48px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: left;
@@ -5149,10 +5179,9 @@ transform: scale(0.98);
 }
 .a102searchbar .page-name-wHfQ55 {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 48px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: left;
@@ -5162,10 +5191,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-0AAG7Z {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5175,10 +5203,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-0HFsPI {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5188,10 +5215,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-1xf09H {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5201,10 +5227,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-2NhZEd {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5214,10 +5239,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-3ckfrT {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5227,10 +5251,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-AMlHJc {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5240,10 +5263,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-APqxlt {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5253,10 +5275,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-APxUI2 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5266,10 +5287,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-ARuKxO {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5279,10 +5299,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-F4iHDU {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5292,10 +5311,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-IiU32Y {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5305,10 +5323,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-J1BUF4 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5318,10 +5335,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-JKxN0I {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5331,10 +5347,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-KA0Wmq {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5344,10 +5359,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-KUx7nP {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5357,10 +5371,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-L1lmPY {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5370,10 +5383,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-Mknfxt {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5383,10 +5395,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-O2wR6S {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5396,10 +5407,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-OrCe0w {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5409,10 +5419,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-PrQCyB {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5422,10 +5431,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-PvChnr {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5435,10 +5443,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-RYN9Pe {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5448,10 +5455,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-Rgxe9h {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5461,10 +5467,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-SvUTtT {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5474,10 +5479,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-TQODpM {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5487,10 +5491,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-TuMCuh {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5500,10 +5503,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-Uzmjy7 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5513,10 +5515,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-V0sHIr {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5526,10 +5527,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-WnZyDo {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5539,10 +5539,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-XcxSJx {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5552,10 +5551,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-XxfXrV {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5565,10 +5563,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-YjdAZo {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5578,10 +5575,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-ZBJ3Ot {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5591,10 +5587,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-ZdQbXg {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5604,10 +5599,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-Znh6UU {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5617,10 +5611,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-ad26VJ {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5630,10 +5623,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-c5MHTx {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5643,10 +5635,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-cklpkx {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5656,10 +5647,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-dsXx2w {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5669,10 +5659,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-eR5AzL {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5682,10 +5671,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-gEQVNM {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5695,10 +5683,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-gxlMhM {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5708,10 +5695,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-iPXYHL {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5721,10 +5707,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-jtKC0l {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5734,10 +5719,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-kgtxfA {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5747,10 +5731,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-kmLDHr {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5760,10 +5743,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-kuj0wb {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5773,10 +5755,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-liybmc {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5786,10 +5767,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-qQH056 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5799,10 +5779,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-qnK75t {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5812,10 +5791,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-vBgx4O {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5825,10 +5803,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-vFcVvU {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5838,10 +5815,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-wZ3FPf {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5851,10 +5827,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-x4LS4t {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5864,10 +5839,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-xGCA9d {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5877,10 +5851,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-xfxogk {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5890,10 +5863,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-xvRyQw {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5903,10 +5875,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-xyiiCG {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5916,10 +5887,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-yhQe4K {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -5929,10 +5899,9 @@ transform: scale(0.98);
 }
 .a102searchbar .property-zu3QRb {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -6910,10 +6879,9 @@ transform: scale(0.98);
 }
 .a102searchbar .refer-to-2CRUNy {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -6923,10 +6891,9 @@ transform: scale(0.98);
 }
 .a102searchbar .refer-to-GY8TNo {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -6936,10 +6903,9 @@ transform: scale(0.98);
 }
 .a102searchbar .refer-to-RpMxlm {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -6949,10 +6915,9 @@ transform: scale(0.98);
 }
 .a102searchbar .refer-to-m8eW0Q {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -6962,10 +6927,9 @@ transform: scale(0.98);
 }
 .a102searchbar .refer-to-mvIWwu {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -6975,10 +6939,9 @@ transform: scale(0.98);
 }
 .a102searchbar .refer-to-p9jhyF {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -6988,7 +6951,7 @@ transform: scale(0.98);
 }
 .a102searchbar .searchicsquarclebg-fKarvh {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-fill-EAC75309-956C-4314-950F-223C0132E767@2x.png);
+  background-image: url(../img/10-2-search-bar-fill-33DB3763-2791-444E-9B80-441065F015B9@2x.png);
   background-size: 100% 100%;
   height: 48px;
   left: 0px;
@@ -7031,10 +6994,10 @@ transform: scale(0.98);
 .a102searchbar .size-PrsUBh {
   background-color: transparent;
   height: 91px;
-  left: 0px;
+  left: 7px;
   position: absolute;
   top: 0px;
-  width: 104px;
+  width: 97px;
 }
 .a102searchbar .size-RUO1i5 {
   background-color: transparent;
@@ -7082,7 +7045,7 @@ transform: scale(0.98);
   left: 38px;
   position: absolute;
   top: 46px;
-  width: 578px;
+  width: 571px;
 }
 .a102searchbar .size-bom7sH {
   background-color: transparent;
@@ -7335,9 +7298,11 @@ transform: scale(0.98);
 .a102searchbar .suggested-aCpWRx {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 44px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 53px;
   opacity: 0.8;
   position: absolute;
@@ -7348,7 +7313,7 @@ transform: scale(0.98);
 }
 .a102searchbar .symbol-5apo68 {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-10-01measurew360mpl101searchbar1-7F1F2BA5-993B-409E-A304-CA6E8848C9AB@2x.png);
+  background-image: url(../img/10-2-search-bar-10-01measurew360mpl101searchbar1-D3B62D10-024E-4700-90C7-1BBF0D9754A8@2x.png);
   background-size: 100% 100%;
   height: 357px;
   left: 177px;
@@ -7366,7 +7331,7 @@ transform: scale(0.98);
 }
 .a102searchbar .symbol-aAafGP {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-10-02measurew360mpl102searchbar33-CE5D7BBB-62A5-48C9-8400-969320843DAB@2x.png);
+  background-image: url(../img/10-2-search-bar-10-02measurew360mpl102searchbar33-DF73CBBD-5C08-484B-8021-545A8A013239@2x.png);
   background-size: 100% 100%;
   height: 309px;
   left: 88px;
@@ -7392,7 +7357,7 @@ transform: scale(0.98);
 }
 .a102searchbar .symbol-wEeA5q {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-10-02measurew360mpl102searchbar12-8DBF4995-E5B8-46F6-806A-9F12E621CF76@2x.png);
+  background-image: url(../img/10-2-search-bar-10-02measurew360mpl102searchbar12-5E5AA4BE-CC10-4A48-A747-25BD45B88387@2x.png);
   background-size: 100% 100%;
   height: 332px;
   left: 88px;
@@ -7402,7 +7367,7 @@ transform: scale(0.98);
 }
 .a102searchbar .symbol-xjtPrZ {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-10-02measurew360mpl102searchbar21-FD7CC8F0-DEE1-44EC-A7C9-A71759D20CAB@2x.png);
+  background-image: url(../img/10-2-search-bar-10-02measurew360mpl102searchbar21-E6888237-146E-4A9B-8456-4BE15522FA50@2x.png);
   background-size: 100% 100%;
   height: 84px;
   left: 88px;
@@ -7412,7 +7377,7 @@ transform: scale(0.98);
 }
 .a102searchbar .symbol-zxgoXN {
   background-color: transparent;
-  background-image: url(../img/10-2-search-bar-10-02measurew360mpl102searchbar32-FF60E688-E7F2-458A-8BF5-24B3A8FE0C21@2x.png);
+  background-image: url(../img/10-2-search-bar-10-02measurew360mpl102searchbar32-20864D76-5995-4629-9B16-94CE114ABA0A@2x.png);
   background-size: 100% 100%;
   height: 84px;
   left: 88px;
@@ -7452,12 +7417,19 @@ transform: scale(0.98);
   top: 147px;
   width: 148px;
 }
+.a102searchbar .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 916px;
+  position: absolute;
+  top: 81px;
+  width: 156px;
+}
 .a102searchbar .text-0MOSI8 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7468,10 +7440,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-1nnj2g {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7482,10 +7453,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-1xMK3g {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7496,10 +7466,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-1xykr7 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7510,10 +7479,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-21q4W2 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -7532,10 +7500,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-5ecr5j {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7554,10 +7521,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-6U2Sd4 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7576,10 +7542,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-BiP3d1 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7590,10 +7555,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-ByWvlF {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -7604,10 +7568,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-CgQYPg {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7618,10 +7581,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-DR4KN5 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7632,10 +7594,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-DqSnb1 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7646,10 +7607,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-F6xwpW {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7661,9 +7621,11 @@ transform: scale(0.98);
 .a102searchbar .text-GExEQT {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -7674,10 +7636,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-HdZknb {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7688,10 +7649,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-IjYMux {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7702,10 +7662,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-LQxnEm {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7716,10 +7675,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-LRMxBs {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7730,10 +7688,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-Ldmw3x {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7744,10 +7701,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-NICwM6 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7758,10 +7714,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-NQd9R8 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7772,10 +7727,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-NeeeKy {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7786,10 +7740,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-P1Xp3K {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7800,10 +7753,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-Pq3orK {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7814,10 +7766,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-Vc0Ad9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7836,10 +7787,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-WWi0QC {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7851,9 +7801,11 @@ transform: scale(0.98);
 .a102searchbar .text-WvbxKh {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 31px;
+  letter-spacing: 0.00px;
   line-height: 28.6px;
   position: absolute;
   text-align: center;
@@ -7863,10 +7815,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-Z78FyI {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7909,10 +7860,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-fpelEg {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7923,10 +7873,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-gmaKUR {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7937,10 +7886,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-gruO9x {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7959,10 +7907,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-jePyOT {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7981,10 +7928,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-moeZJ1 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -7995,10 +7941,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-nGWCS1 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -8017,10 +7962,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-r1P9JJ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -8031,10 +7975,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-tPDh9M {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -8045,10 +7988,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-u5ijxS {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -8067,10 +8009,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-xjkS5E {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -8089,10 +8030,9 @@ transform: scale(0.98);
 }
 .a102searchbar .text-zxiqTE {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -8184,9 +8124,11 @@ transform: scale(0.98);
 .a102searchbar .typing-ry0RNl {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 44px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 53px;
   opacity: 0.8;
   position: absolute;
@@ -8195,12 +8137,41 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 1240px;
 }
+.a102searchbar .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 60px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a102searchbar .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a102searchbar .value-1line-TIYL8u {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 6px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8218,10 +8189,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-2line-KZWm9M {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8239,10 +8209,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-3ckfrT {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 80px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8260,10 +8229,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-AMlHJc {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8273,10 +8241,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-APqxlt {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 116px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8286,10 +8253,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-ARuKxO {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 55px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8299,10 +8265,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-ASnmSY {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
-  font-size: 18px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8312,10 +8277,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-AhmUnc {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8325,10 +8289,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-CVSd02 {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8354,10 +8317,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-GW15Im {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8367,10 +8329,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-HyxuzS {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8388,10 +8349,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-IiU32Y {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8401,10 +8361,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-JKxN0I {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8422,10 +8381,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-KA0Wmq {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 119px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8435,10 +8393,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-KBFlMD {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8448,10 +8405,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-KK6AKi {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8461,10 +8417,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-KUx7nP {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 116px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8482,10 +8437,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-L9fNxv {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 29px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8503,10 +8457,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-MjjVqg {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 29px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8516,10 +8469,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-Mknfxt {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 88px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8545,10 +8497,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-OrCe0w {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 98px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8566,10 +8517,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-PrQCyB {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 55px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8579,10 +8529,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-PuI7pr {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8592,10 +8541,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-PvChnr {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8621,10 +8569,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-Rgxe9h {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 116px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8634,10 +8581,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-SV1TAr {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8647,10 +8593,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-TVJnSh {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 29px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8668,10 +8613,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-Uzmjy7 {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 88px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8681,10 +8625,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-V0sHIr {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 88px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8702,10 +8645,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-VRUzJb {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8731,10 +8673,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-WxyfzV {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8760,10 +8701,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-XxfXrV {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 80px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8773,10 +8713,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-ZBJ3Ot {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8786,10 +8725,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-ZdQbXg {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 134px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8799,10 +8737,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-Znh6UU {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 88px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8836,10 +8773,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-c5MHTx {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 80px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8857,10 +8793,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-cklpkx {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 88px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8870,10 +8805,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-dQVA2P {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 29px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8883,10 +8817,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-dpHPXb {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8896,10 +8829,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-dsXx2w {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 61px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8909,10 +8841,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-eR5AzL {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 88px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8930,10 +8861,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-gEQVNM {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 55px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8943,10 +8873,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-gTQGH6 {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8956,10 +8885,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-gxlMhM {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 80px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8969,10 +8897,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-j7huCP {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
-  font-size: 18px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -8998,10 +8925,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-kmLDHr {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 55px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9011,10 +8937,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-liybmc {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 61px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9024,10 +8949,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-mQd46b {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9069,10 +8993,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-qnK75t {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 61px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9082,10 +9005,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-rNcIbI {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9095,10 +9017,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-rnrkkV {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9124,10 +9045,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-t5VP5t {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9145,10 +9065,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-uTf8xI {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9158,10 +9077,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-vBgx4O {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9171,10 +9089,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-vFcVvU {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 116px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9184,10 +9101,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-wZ3FPf {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 80px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9205,10 +9121,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-x0FFIU {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9250,10 +9165,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-xfxogk {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 61px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9271,10 +9185,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-xvRyQw {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 80px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9284,10 +9197,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-y3i9Rj {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9297,10 +9209,9 @@ transform: scale(0.98);
 }
 .a102searchbar .value-zN4fpC {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9316,6 +9227,21 @@ transform: scale(0.98);
   top: 0px;
   width: 149px;
 }
+.a102searchbar .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a102searchbar .vertical-3eO97r {
   background-color: transparent;
   height: 62px;
@@ -9326,8 +9252,13 @@ transform: scale(0.98);
 }
 .a102searchbar .web-app-MP1pJx {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -9337,10 +9268,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-0AAG7Z {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 121px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9350,10 +9280,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-0HFsPI {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 106px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9363,10 +9292,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-1AVeF8 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 292px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9376,10 +9304,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-1E2jGf {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 23px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9389,10 +9316,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-1xf09H {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 106px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9402,10 +9328,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-2NhZEd {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 121px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9415,10 +9340,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-3ckfrT {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 120px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9429,9 +9353,11 @@ transform: scale(0.98);
 .a102searchbar .x-4unBAr {
   background-color: transparent;
   color: rgba(250,250,250,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 26px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9441,10 +9367,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-5l4hPP {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 26px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9454,10 +9379,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-8NkGKy {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 137px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9468,9 +9392,11 @@ transform: scale(0.98);
 .a102searchbar .x-9S48Oe {
   background-color: transparent;
   color: rgba(250,250,250,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 139px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9480,10 +9406,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-AMlHJc {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 242px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9493,10 +9418,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-APqxlt {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 172px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9506,10 +9430,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-APxUI2 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
-  left: 124px;
+  left: 118px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9519,10 +9442,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-ARuKxO {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 94px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9532,10 +9454,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-ASnmSY {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 145px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9545,10 +9466,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-BC4njt {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 23px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9558,10 +9478,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-BfLgbo {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 26px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9571,10 +9490,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-IiU32Y {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 242px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9584,10 +9502,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-J1BUF4 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 99px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9597,10 +9514,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-JBBNQ5 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 39px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9610,10 +9526,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-JKxN0I {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 242px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9623,10 +9538,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-KA0Wmq {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 157px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9636,10 +9550,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-KMqW0X {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 23px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9649,10 +9562,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-KUx7nP {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 172px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9662,10 +9574,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-KZWm9M {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 45px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9675,10 +9586,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-L9fNxv {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 316px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9688,10 +9598,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-MjjVqg {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 298px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9701,10 +9610,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-Mknfxt {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 116px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9714,10 +9622,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-O2wR6S {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9727,10 +9634,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-OGY814 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 26px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9740,10 +9646,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-OrCe0w {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 137px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9753,10 +9658,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-PrQCyB {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 94px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9766,10 +9670,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-PuI7pr {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 212px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9779,10 +9682,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-PvChnr {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 239px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9792,10 +9694,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-RV32fO {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 206px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9805,10 +9706,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-Rgxe9h {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 172px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9818,10 +9718,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-SV1TAr {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 143px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9831,10 +9730,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-SvUTtT {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 99px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9844,10 +9742,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-TIYL8u {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9857,10 +9754,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-TQODpM {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9870,10 +9766,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-TVJnSh {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 316px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9883,10 +9778,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-TuMCuh {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 103px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9896,10 +9790,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-Uzmjy7 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 140px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9909,10 +9802,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-V0sHIr {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 116px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9922,10 +9814,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-WnZyDo {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 119px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9935,10 +9826,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-Wsfcmx {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 310px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9948,10 +9838,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-XKGtxY {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 310px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9961,10 +9850,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-XxfXrV {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 120px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9974,10 +9862,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-ZBJ3Ot {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 239px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -9987,10 +9874,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-ZdQbXg {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 211px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10000,10 +9886,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-Znh6UU {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 116px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10014,9 +9899,11 @@ transform: scale(0.98);
 .a102searchbar .x-Zqok6x {
   background-color: transparent;
   color: rgba(250,250,250,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 139px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10026,10 +9913,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-c5MHTx {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 117px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10039,10 +9925,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-cklpkx {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 116px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10052,10 +9937,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-dQVA2P {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 246px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10065,10 +9949,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-dsXx2w {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10078,10 +9961,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-eR5AzL {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 116px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10091,10 +9973,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-gEQVNM {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 94px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10104,10 +9985,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-gxlMhM {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 117px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10117,10 +9997,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-iPXYHL {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 106px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10130,10 +10009,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-j7huCP {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 145px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10143,10 +10021,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-kmLDHr {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 94px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10156,10 +10033,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-kuj0wb {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 116px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10169,10 +10045,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-liybmc {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10182,10 +10057,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-prAur1 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 157px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10195,10 +10069,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-qnK75t {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10208,10 +10081,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-rnrkkV {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 163px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10221,10 +10093,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-t5VP5t {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 206px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10234,10 +10105,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-uWGaGE {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 200px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10247,10 +10117,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-un6maL {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 240px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10260,10 +10129,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-vBgx4O {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 239px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10273,10 +10141,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-vFcVvU {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 172px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10286,10 +10153,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-wZ3FPf {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 118px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10300,9 +10166,11 @@ transform: scale(0.98);
 .a102searchbar .x-x0Sndn {
   background-color: transparent;
   color: rgba(250,250,250,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 26px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10312,10 +10180,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-xGCA9d {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 121px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10325,10 +10192,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-xfxogk {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10338,10 +10204,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-xvRyQw {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 120px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10351,10 +10216,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-xyiiCG {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 116px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10364,10 +10228,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-yYbfZn {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 26px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10377,10 +10240,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-yhQe4K {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 121px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10390,10 +10252,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x-zG0zbG {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 23px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -10403,10 +10264,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-2LrOEi {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10417,10 +10277,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-2tGHxf {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10431,10 +10290,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-4xxRJQ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 4px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10445,10 +10303,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-66XsxY {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 6px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10459,10 +10316,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-6HhK2x {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10473,10 +10329,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-9FTYUA {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10486,10 +10341,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-Ad9bOX {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10500,10 +10354,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-Bo8bLa {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 6px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10514,10 +10367,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-D3wZtb {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10528,10 +10380,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-FxFg41 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10542,10 +10393,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-G1T2GF {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10556,10 +10406,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-G6cw69 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10570,10 +10419,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-ICepUk {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10584,10 +10432,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-LMZxoM {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10598,10 +10445,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-MmS6Rx {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10612,10 +10458,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-PhxGOo {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 4px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10626,10 +10471,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-UFsmMo {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10640,10 +10484,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-XRxD0k {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10654,10 +10497,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-aZAtkp {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10667,10 +10509,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-bnHrN8 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10681,10 +10522,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-dlbiIq {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 6px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10695,10 +10535,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-eFiLpc {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10709,10 +10548,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-evM9Mv {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10723,10 +10561,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-g7xkpx {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 4px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10737,10 +10574,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-gP3hGK {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10751,10 +10587,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-grbc5n {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10765,10 +10600,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-hlUINx {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 6px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10779,10 +10613,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-j1euwH {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10792,10 +10625,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-jGSfaw {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 35px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10806,10 +10638,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-josFVi {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10820,10 +10651,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-jzNhA8 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10834,10 +10664,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-ko0hIK {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10848,10 +10677,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-lESz30 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -1px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10862,10 +10690,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-mulfsP {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10876,10 +10703,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-obI0bJ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 6px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10890,10 +10716,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-overview-3MhQ2z {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10904,10 +10729,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-qEeLe2 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10918,10 +10742,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-rmt0ud {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10932,10 +10755,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-ut9Nex {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10946,10 +10768,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-xQBY75 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10960,10 +10781,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x0-xRoAXU {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -10974,10 +10794,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-48bswl {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -10986,10 +10805,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-52KeqM {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -10998,10 +10816,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-7pvOgX {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11010,10 +10827,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-988JYQ {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11022,10 +10838,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-AR1iTX {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11034,10 +10849,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-AX826n {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11046,10 +10860,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-Cksc7t {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11058,10 +10871,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-DDOHMS {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11070,10 +10882,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-F1Ekcb {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11082,10 +10893,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-FGfqrJ {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11094,10 +10904,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-FRU1Vp {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11106,10 +10915,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-GsKPBc {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11118,10 +10926,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-H5LDcE {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11130,10 +10937,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-I0XVmP {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11142,10 +10948,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-INmjMx {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11154,10 +10959,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-IsTYpc {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11166,10 +10970,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-KtQUXX {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11178,10 +10981,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-Mzizyw {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11190,10 +10992,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-N8xCbI {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11202,10 +11003,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-PFRVOr {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11214,10 +11014,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-UDx3U6 {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11226,10 +11025,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-UL2NGs {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11238,10 +11036,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-YsfpIB {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11250,10 +11047,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-app-bar-ZUeuXe {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -11264,10 +11060,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-c1hT4o {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11276,10 +11071,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-eukzVD {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11288,10 +11082,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-g6A3tu {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11300,10 +11093,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-gCo8eZ {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11312,10 +11104,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-gxTOIv {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11324,10 +11115,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-iQgrR6 {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11336,10 +11126,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-in0YqM {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11348,10 +11137,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-jyLdBC {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11360,10 +11148,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-k3i7TE {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11372,10 +11159,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-kkk7PY {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -11384,10 +11170,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-q42bJJ {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11396,10 +11181,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-qO4PcT {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11408,10 +11192,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-vr4fn7 {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11420,10 +11203,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-xsxwPa {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11432,10 +11214,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x1-yAo9YU {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -11604,8 +11385,13 @@ transform: scale(0.98);
 }
 .a102searchbar .x10-1-persi-search-bar-C61RwL {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
   height: auto;
   left: 380px;
+  letter-spacing: 0.00px;
+  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -11616,9 +11402,11 @@ transform: scale(0.98);
 .a102searchbar .x10-search-POaNx4 {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -11629,10 +11417,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x11-toast-qNbHXx {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -11643,10 +11430,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x12-text-fields-ggxFRc {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -11657,10 +11443,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x13-view-controls-VWDnvD {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -11671,10 +11456,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x14-description-Es48Cs {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -11685,10 +11469,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x15-notification-bad-hqEM8M {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -11699,10 +11482,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x16-thumbnail-i9Tf6I {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -11713,10 +11495,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x17-copy-paste-WZXiY6 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -11727,10 +11508,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x2-buttons-QzHJwZ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -11741,10 +11521,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x3-controllers-ABqx3H {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -11755,10 +11534,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x4-dialogs-ZeLxg4 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -11769,10 +11547,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x5-dividers-Sj9PMj {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -11783,10 +11560,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x6-lists-pqHbwZ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -11797,10 +11573,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x7-no-item-izHn4i {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -11811,10 +11586,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x8-progress-nrAIju {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -11825,10 +11599,9 @@ transform: scale(0.98);
 }
 .a102searchbar .x9-scrolling-yDmeBk {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -11843,30 +11616,55 @@ transform: scale(0.98);
 .border-class-2 {
   border: 1px solid rgba(135,135,135,1.0);
 }
-.font-class-1 {
+.samsungonekorean-400-normal-black-15px {
+  color: var(--black);
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
-}
-.font-class-2 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
-}
-.font-class-3 {
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-}
-.font-class-4 {
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-}
-.font-class-5 {
-  color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
-  line-height: 84px;
-}
-.font-class-6 {
-  color: var(--black);
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
+}
+.samsungonekorean-400-normal-black-16px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 16px;
+}
+.samsungonekorean-400-normal-masala-18px {
+  color: var(--masala);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-periwinkle-18px {
+  color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-royal-blue-18px {
+  color: var(--royal-blue);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-500-normal-black-15px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 15px;
+}
+.samsungonekorean-700-normal-black-16px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 16px;
+}
+.samsungonekorean-700-normal-black-22px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 22px;
+}
+.samsungonekorean-700-normal-white-14px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 14px;
+}
+.samsungonekorean-700-normal-white-15px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 15px;
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);

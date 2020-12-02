@@ -55,7 +55,7 @@
   width: 270px;
 }
 .a32radiobutton .bg-Hl7gTH {
-  background-color: var(--white);
+  background-color: rgba(0,204,153,0.2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -63,7 +63,7 @@
   width: 270px;
 }
 .a32radiobutton .bg-Mm3nvq {
-  background-color: var(--white);
+  background-color: rgba(0,204,153,0.2);
   height: 84px;
   left: 0px;
   position: absolute;
@@ -130,6 +130,21 @@
   width: 274px;
 }
 .a32radiobutton .btn-mwblLs:hover {
+
+transform: scale(0.98);
+}
+.a32radiobutton .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 156px;
+}
+.a32radiobutton .btn-xpyOiF:hover {
 
 transform: scale(0.98);
 }
@@ -285,7 +300,7 @@ transform: scale(0.98);
 }
 .a32radiobutton .document-b-x-contents-V6KZ2v {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -294,7 +309,7 @@ transform: scale(0.98);
 }
 .a32radiobutton .document-b-x-contents-hh1Mvx {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 383px;
   left: 0px;
   position: absolute;
@@ -857,7 +872,7 @@ transform: scale(0.98);
   left: 21px;
   position: absolute;
   top: 16px;
-  width: 88px;
+  width: 93px;
 }
 .a32radiobutton .group-2-Mm3nvq {
   background-color: transparent;
@@ -865,7 +880,7 @@ transform: scale(0.98);
   left: 21px;
   position: absolute;
   top: 16px;
-  width: 88px;
+  width: 93px;
 }
 .a32radiobutton .group-2-pPSjuz {
   background-color: transparent;
@@ -929,7 +944,7 @@ transform: scale(0.98);
   left: 28px;
   position: absolute;
   top: 0px;
-  width: 55px;
+  width: 60px;
 }
 .a32radiobutton .group-LoYUBJ {
   background-color: transparent;
@@ -938,6 +953,14 @@ transform: scale(0.98);
   position: absolute;
   top: 0px;
   width: 248px;
+}
+.a32radiobutton .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 136px;
 }
 .a32radiobutton .group-VQsoaz {
   background-color: transparent;
@@ -977,7 +1000,7 @@ transform: scale(0.98);
   left: 28px;
   position: absolute;
   top: 0px;
-  width: 55px;
+  width: 60px;
 }
 .a32radiobutton .group-wX20mz {
   background-color: transparent;
@@ -1072,7 +1095,7 @@ transform: scale(0.98);
 }
 .a32radiobutton .guide-meas-e-vertical-THm08Q {
   background-color: transparent;
-  background-image: url(../img/3-2-radio-button-line-7E19F5D7-15D3-4B96-AD5F-91C31162B8AE@2x.png);
+  background-image: url(../img/3-2-radio-button-line-DE0441AE-5077-4A4D-ADD0-A46593E0A633@2x.png);
   background-size: 100% 100%;
   height: 10px;
   left: 56px;
@@ -1082,7 +1105,7 @@ transform: scale(0.98);
 }
 .a32radiobutton .guide-meas-e-vertical-rixyUT {
   background-color: transparent;
-  background-image: url(../img/3-2-radio-button-line-7E19F5D7-15D3-4B96-AD5F-91C31162B8AE@2x.png);
+  background-image: url(../img/3-2-radio-button-line-DE0441AE-5077-4A4D-ADD0-A46593E0A633@2x.png);
   background-size: 100% 100%;
   height: 10px;
   left: 87px;
@@ -1101,7 +1124,7 @@ transform: scale(0.98);
 }
 .a32radiobutton .guide-meas-horizontal-AwQiiK {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-9DB5E4AC-207C-4084-AD53-552A8073D862.png);
+  background-image: url(../img/3-2-radio-button-line-67C7BE17-9C50-41FB-9CFC-8B39E3DC17E1.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1111,7 +1134,7 @@ transform: scale(0.98);
 }
 .a32radiobutton .guide-meas-horizontal-Fx9gwz {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-9DB5E4AC-207C-4084-AD53-552A8073D862.png);
+  background-image: url(../img/3-2-radio-button-line-67C7BE17-9C50-41FB-9CFC-8B39E3DC17E1.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1121,7 +1144,7 @@ transform: scale(0.98);
 }
 .a32radiobutton .guide-meas-horizontal-MvzifR {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-9DB5E4AC-207C-4084-AD53-552A8073D862.png);
+  background-image: url(../img/3-2-radio-button-line-67C7BE17-9C50-41FB-9CFC-8B39E3DC17E1.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1131,7 +1154,7 @@ transform: scale(0.98);
 }
 .a32radiobutton .guide-meas-horizontal-THm08Q {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-D609B284-F178-4328-BB1C-C2639A0C8FB9@2x.png);
+  background-image: url(../img/3-2-radio-button-line-98793E6B-0D6E-4E2B-9C16-6D60FCC18777@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1141,7 +1164,7 @@ transform: scale(0.98);
 }
 .a32radiobutton .guide-meas-horizontal-rixyUT {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-line-D609B284-F178-4328-BB1C-C2639A0C8FB9@2x.png);
+  background-image: url(../img/3-2-radio-button-line-98793E6B-0D6E-4E2B-9C16-6D60FCC18777@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 38px;
@@ -1216,7 +1239,7 @@ transform: scale(0.98);
 }
 .a32radiobutton .guide-numb-ring-image-XjX2Of {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-C18B9469-6185-4A2B-8440-B8F5F2D48C33@2x.png);
+  background-image: url(../img/3-8-chips-oval-33382741-BC7B-49DB-900E-EB7768319A66@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 185px;
@@ -1226,7 +1249,7 @@ transform: scale(0.98);
 }
 .a32radiobutton .guide-numb-ring-image-xUDzDj {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-C18B9469-6185-4A2B-8440-B8F5F2D48C33@2x.png);
+  background-image: url(../img/3-8-chips-oval-33382741-BC7B-49DB-900E-EB7768319A66@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 185px;
@@ -1236,7 +1259,7 @@ transform: scale(0.98);
 }
 .a32radiobutton .guide-numbering-icon-mctxnR {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-oval-C18B9469-6185-4A2B-8440-B8F5F2D48C33@2x.png);
+  background-image: url(../img/3-8-chips-oval-33382741-BC7B-49DB-900E-EB7768319A66@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1734,7 +1757,7 @@ transform: scale(0.98);
 }
 .a32radiobutton .sembtnradi-oonmtrl000-LKekKi {
   background-color: transparent;
-  background-image: url(../img/3-1-checkbox-shape-7E540EC5-8B0D-43D2-9D7C-E289C15F9DDB@2x.png);
+  background-image: url(../img/3-2-radio-button-x3000-11AE4EEF-C083-473D-9D4A-B03E771898C7@2x.png);
   background-size: 100% 100%;
   height: 31px;
   left: 9px;
@@ -1744,7 +1767,7 @@ transform: scale(0.98);
 }
 .a32radiobutton .sembtnradi-oonmtrl026-si7MSv {
   background-color: transparent;
-  background-image: url(../img/3-2-radio-button-shape-679D22F2-34A9-4DF6-82D0-943298DE9C5D@2x.png);
+  background-image: url(../img/3-2-radio-button-shape-575613F1-37B9-4063-B1B2-A5EED0584773@2x.png);
   background-size: 100% 100%;
   height: 31px;
   left: 9px;
@@ -1794,7 +1817,7 @@ transform: scale(0.98);
 }
 .a32radiobutton .symbol-hh1Mvx {
   background-color: transparent;
-  background-image: url(../img/3-2-radio-button-3-02measurew360mpl032radiobutton-960288F3-941A-4C93-954E-7E76DE795CBC@2x.png);
+  background-image: url(../img/3-2-radio-button-3-02measurew360mpl032radiobutton-52ACEBDC-C9C1-4A74-827C-4CBDB3D6863E@2x.png);
   background-size: 100% 100%;
   height: 227px;
   left: 267px;
@@ -1937,6 +1960,14 @@ transform: scale(0.98);
   position: absolute;
   top: 159px;
   width: 148px;
+}
+.a32radiobutton .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 949px;
+  position: absolute;
+  top: 81px;
+  width: 156px;
 }
 .a32radiobutton .text-1kUsAP {
   background-color: transparent;
@@ -2156,6 +2187,36 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 228px;
 }
+.a32radiobutton .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 60px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a32radiobutton .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a32radiobutton .value-0eC2VC {
   background-color: transparent;
   height: auto;
@@ -2332,6 +2393,21 @@ transform: scale(0.98);
   top: 7px;
   width: 16px;
 }
+.a32radiobutton .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a32radiobutton .web-app-tuZlmD {
   background-color: transparent;
   color: var(--black);
@@ -2476,7 +2552,7 @@ transform: scale(0.98);
 .a32radiobutton .x-LWKore {
   background-color: transparent;
   height: auto;
-  left: 83px;
+  left: 88px;
   letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
@@ -2540,7 +2616,7 @@ transform: scale(0.98);
 .a32radiobutton .x-pfO90V {
   background-color: transparent;
   height: auto;
-  left: 83px;
+  left: 88px;
   letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
@@ -2805,7 +2881,7 @@ transform: scale(0.98);
   left: 0px;
   position: absolute;
   top: 0px;
-  width: 88px;
+  width: 93px;
 }
 .a32radiobutton .x1line-P58MIr {
   background-color: transparent;
@@ -2813,7 +2889,7 @@ transform: scale(0.98);
   left: 0px;
   position: absolute;
   top: 0px;
-  width: 88px;
+  width: 93px;
 }
 .a32radiobutton .x2-buttons-vJb7j6 {
   background-color: transparent;

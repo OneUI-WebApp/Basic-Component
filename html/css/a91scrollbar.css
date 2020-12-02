@@ -9,9 +9,11 @@
 .a91scrollbar .basic-component-gui-XPalTL {
   background-color: transparent;
   color: rgba(37,37,37,1.0);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -35,6 +37,21 @@
 
 transform: scale(0.98);
 }
+.a91scrollbar .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 156px;
+}
+.a91scrollbar .btn-xpyOiF:hover {
+
+transform: scale(0.98);
+}
 .a91scrollbar .dark-theme-PHONBE {
   background-color: transparent;
   height: 53px;
@@ -54,7 +71,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .document-b-x-contents-V6KZ2v {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -63,7 +80,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .document-b-x-contents-hh1Mvx {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 681px;
   left: 0px;
   position: absolute;
@@ -510,6 +527,14 @@ transform: scale(0.98);
   top: 0px;
   width: 71px;
 }
+.a91scrollbar .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 136px;
+}
 .a91scrollbar .group-VQsoaz {
   background-color: transparent;
   height: 22px;
@@ -616,17 +641,17 @@ transform: scale(0.98);
 }
 .a91scrollbar .guide-meas-e-vertical-OgM7RX {
   background-color: transparent;
-  background-image: url(../img/9-1-scroll-bar-line-2BA8DC70-6E86-4F32-AA5D-FCAEFFDC15A7@2x.png);
+  background-image: url(../img/9-1-scroll-bar-line-A5D8D211-B087-42EF-9DB7-617071F40DAB@2x.png);
   background-size: 100% 100%;
   height: 40px;
   left: 40px;
   position: absolute;
-  top: 38px;
+  top: 31px;
   width: 1px;
 }
 .a91scrollbar .guide-meas-e-vertical-fweJf5 {
   background-color: transparent;
-  background-image: url(../img/9-1-scroll-bar-line-DE1743A2-07FC-4D3C-A7A5-796F3734634C@2x.png);
+  background-image: url(../img/9-1-scroll-bar-line-A762451C-EB8B-4C46-A9CA-D8AD1DEBF92E@2x.png);
   background-size: 100% 100%;
   height: 52px;
   left: 23px;
@@ -636,7 +661,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .guide-meas-e-vertical-xMtxpl {
   background-color: transparent;
-  background-image: url(../img/9-1-scroll-bar-line-DE1743A2-07FC-4D3C-A7A5-796F3734634C@2x.png);
+  background-image: url(../img/9-1-scroll-bar-line-A762451C-EB8B-4C46-A9CA-D8AD1DEBF92E@2x.png);
   background-size: 100% 100%;
   height: 52px;
   left: 0px;
@@ -646,12 +671,12 @@ transform: scale(0.98);
 }
 .a91scrollbar .guide-meas-e-vertical-xYMsNr {
   background-color: transparent;
-  background-image: url(../img/9-1-scroll-bar-line-2BA8DC70-6E86-4F32-AA5D-FCAEFFDC15A7@2x.png);
+  background-image: url(../img/9-1-scroll-bar-line-A5D8D211-B087-42EF-9DB7-617071F40DAB@2x.png);
   background-size: 100% 100%;
   height: 40px;
   left: 55px;
   position: absolute;
-  top: 38px;
+  top: 31px;
   width: 1px;
 }
 .a91scrollbar .guide-meas-tom-size-1-OgM7RX {
@@ -659,7 +684,7 @@ transform: scale(0.98);
   height: 29px;
   left: 0px;
   position: absolute;
-  top: 217px;
+  top: 210px;
   width: 96px;
 }
 .a91scrollbar .guide-meas-tom-size-1-xMtxpl {
@@ -675,7 +700,7 @@ transform: scale(0.98);
   height: 29px;
   left: 40px;
   position: absolute;
-  top: 7px;
+  top: 0px;
   width: 16px;
 }
 .a91scrollbar .guide-measure-area-5Yv3mN {
@@ -691,7 +716,7 @@ transform: scale(0.98);
   height: 97px;
   left: 40px;
   position: absolute;
-  top: 78px;
+  top: 71px;
   width: 16px;
 }
 .a91scrollbar .guide-measure-area-xMtxpl {
@@ -712,17 +737,17 @@ transform: scale(0.98);
 }
 .a91scrollbar .guide-numb-ring-shape-xRkPbj {
   background-color: transparent;
-  background-image: url(../img/9-1-scroll-bar-oval-CCC16F61-2B4C-4554-9EDC-213E80ADFAD9@2x.png);
+  background-image: url(../img/9-1-scroll-bar-oval-75DD4ACD-285E-4A74-92B0-919B9B1986BA@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 18px;
   position: absolute;
-  top: 116px;
+  top: 109px;
   width: 22px;
 }
 .a91scrollbar .guide-numbering-icon-ia9Mkk {
   background-color: transparent;
-  background-image: url(../img/9-1-scroll-bar-oval-CCC16F61-2B4C-4554-9EDC-213E80ADFAD9@2x.png);
+  background-image: url(../img/9-1-scroll-bar-oval-75DD4ACD-285E-4A74-92B0-919B9B1986BA@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -733,9 +758,11 @@ transform: scale(0.98);
 .a91scrollbar .guide-property-ia9Mkk {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -756,6 +783,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -797,18 +826,17 @@ transform: scale(0.98);
 }
 .a91scrollbar .measure-2-hh1Mvx {
   background-color: transparent;
-  height: 246px;
+  height: 239px;
   left: 310px;
   position: absolute;
-  top: 388px;
+  top: 395px;
   width: 134px;
 }
 .a91scrollbar .property-0eC2VC {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -818,10 +846,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .property-10cxLn {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -831,10 +858,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .property-58bbrx {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -844,10 +870,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .property-Hgc456 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -857,10 +882,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .property-U2mCZa {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -998,7 +1022,7 @@ transform: scale(0.98);
 }
 .a91scrollbar .size-xRkPbj {
   background-color: transparent;
-  height: 246px;
+  height: 239px;
   left: 0px;
   position: absolute;
   top: 0px;
@@ -1009,7 +1033,7 @@ transform: scale(0.98);
   height: 40px;
   left: 0px;
   position: absolute;
-  top: 175px;
+  top: 168px;
   width: 134px;
 }
 .a91scrollbar .spacing-xRkPbj {
@@ -1017,7 +1041,7 @@ transform: scale(0.98);
   height: 40px;
   left: 0px;
   position: absolute;
-  top: 38px;
+  top: 31px;
   width: 134px;
 }
 .a91scrollbar .symbol-hh1Mvx {
@@ -1028,12 +1052,22 @@ transform: scale(0.98);
   top: 40px;
   width: 360px;
 }
+.a91scrollbar .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 841px;
+  position: absolute;
+  top: 81px;
+  width: 156px;
+}
 .a91scrollbar .text-WvbxKh {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 31px;
+  letter-spacing: 0.00px;
   line-height: 28.6px;
   position: absolute;
   text-align: center;
@@ -1043,10 +1077,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .text-eByNc5 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -1057,10 +1090,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .text-gEesEN {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -1071,10 +1103,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .text-sWvHHh {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -1085,10 +1116,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .text-wUsuP1 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -1101,6 +1131,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1108,12 +1140,41 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 218px;
 }
+.a91scrollbar .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 60px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a91scrollbar .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a91scrollbar .value-0eC2VC {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 61px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1123,10 +1184,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .value-10cxLn {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 119px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1136,10 +1196,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .value-A6wkdH {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1149,10 +1208,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .value-Hgc456 {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 55px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1186,11 +1244,25 @@ transform: scale(0.98);
 }
 .a91scrollbar .value-xHaPnc {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a91scrollbar .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
   position: absolute;
   text-align: left;
   top: 0px;
@@ -1199,9 +1271,6 @@ transform: scale(0.98);
 }
 .a91scrollbar .web-app-XPalTL {
   background-color: transparent;
-  color: var(--black);
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-  font-size: 15px;
   height: auto;
   left: 0px;
   letter-spacing: 0.30px;
@@ -1215,10 +1284,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .x-0eC2VC {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 160px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1228,10 +1296,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .x-10cxLn {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 148px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1241,10 +1308,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .x-58bbrx {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 175px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1254,10 +1320,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .x-Hgc456 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 85px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1267,10 +1332,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .x-U2mCZa {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 175px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1280,10 +1344,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .x0-6LSvFH {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1294,10 +1357,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .x0-IPfxSb {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1308,10 +1370,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .x0-Q611GV {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1322,10 +1383,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .x0-fTis6x {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 3px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1338,6 +1398,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1347,10 +1409,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .x0-t6do3b {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 39px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1361,10 +1422,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .x1-9HkSla {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -1373,10 +1433,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .x1-J8rZBT {
   background-color: transparent;
-  color: var(--white);
-  font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -1387,6 +1446,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1398,6 +1459,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1409,6 +1472,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1420,6 +1485,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1431,6 +1498,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1442,6 +1511,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1453,6 +1524,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1464,6 +1537,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1475,6 +1550,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1486,6 +1563,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1497,6 +1576,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1508,6 +1589,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1519,6 +1602,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1530,6 +1615,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1557,6 +1644,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1568,6 +1657,8 @@ transform: scale(0.98);
   background-color: transparent;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -1609,10 +1700,9 @@ transform: scale(0.98);
 }
 .a91scrollbar .x9-scrolling-ghUwrY {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -1621,20 +1711,50 @@ transform: scale(0.98);
   white-space: nowrap;
   width: 260px;
 }
-.font-class-1 {
+.samsungonekorean-400-normal-alabaster-18px {
+  color: rgba(250,250,250,1.0);
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
 }
-.font-class-2 {
+.samsungonekorean-400-normal-black-15px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 15px;
+}
+.samsungonekorean-400-normal-masala-18px {
+  color: var(--masala);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-periwinkle-18px {
+  color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-royal-blue-18px {
+  color: var(--royal-blue);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-500-normal-black-15px {
   color: var(--black);
   font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size: 15px;
-  line-height: 18px;
 }
-.font-class-3 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
-}
-.font-class-4 {
+.samsungonekorean-600-normal-black-15px {
+  color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
+}
+.samsungonekorean-700-normal-black-16px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 16px;
+}
+.samsungonekorean-700-normal-white-15px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 15px;
 }
 :root {
   --black: rgba(0,0,0,1.0);

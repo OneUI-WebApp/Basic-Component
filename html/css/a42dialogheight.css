@@ -9,9 +9,11 @@
 .a42dialogheight .basic-component-gui-OB1SiY {
   background-color: transparent;
   color: rgba(37,37,37,1.0);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -23,9 +25,11 @@
 .a42dialogheight .bottom-line-2y4Gsv {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 16px;
   height: auto;
   left: 837px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -37,9 +41,11 @@
 .a42dialogheight .bottom-line-Yxq76f {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 16px;
   height: auto;
   left: 837px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -60,6 +66,21 @@
   width: 274px;
 }
 .a42dialogheight .btn-mwblLs:hover {
+
+transform: scale(0.98);
+}
+.a42dialogheight .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 156px;
+}
+.a42dialogheight .btn-xpyOiF:hover {
 
 transform: scale(0.98);
 }
@@ -109,7 +130,7 @@ transform: scale(0.98);
 }
 .a42dialogheight .document-b-x-contents-Yxq76f {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 623px;
   left: 0px;
   position: absolute;
@@ -127,7 +148,7 @@ transform: scale(0.98);
 }
 .a42dialogheight .document-b-x-contents-nTj8Oc {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 667px;
   left: 0px;
   position: absolute;
@@ -870,6 +891,14 @@ transform: scale(0.98);
   top: 0px;
   width: 34px;
 }
+.a42dialogheight .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 136px;
+}
 .a42dialogheight .group-YRsrbF {
   background-color: rgba(71,71,71,1.0);
   height: 22px;
@@ -1232,7 +1261,7 @@ transform: scale(0.98);
 }
 .a42dialogheight .guide-numb-ring-shape-70vK0O {
   background-color: transparent;
-  background-image: url(../img/4-15-time-picker-dialog-oval-D7780806-B6C7-4CFB-A38E-363B692816AF@2x.png);
+  background-image: url(../img/4-21-image-dialog-oval-798A8B51-8782-4616-A6FC-02615D5A775A@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 297px;
@@ -1242,7 +1271,7 @@ transform: scale(0.98);
 }
 .a42dialogheight .guide-numb-ring-shape-sHJoxe {
   background-color: transparent;
-  background-image: url(../img/4-15-time-picker-dialog-oval-D7780806-B6C7-4CFB-A38E-363B692816AF@2x.png);
+  background-image: url(../img/4-21-image-dialog-oval-798A8B51-8782-4616-A6FC-02615D5A775A@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 297px;
@@ -1252,7 +1281,7 @@ transform: scale(0.98);
 }
 .a42dialogheight .guide-numbering-icon-44XIf8 {
   background-color: transparent;
-  background-image: url(../img/4-15-time-picker-dialog-oval-D7780806-B6C7-4CFB-A38E-363B692816AF@2x.png);
+  background-image: url(../img/4-21-image-dialog-oval-798A8B51-8782-4616-A6FC-02615D5A775A@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1262,10 +1291,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .guide-property-44XIf8 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1300,10 +1328,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .history-lZqxZq {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1355,9 +1382,11 @@ transform: scale(0.98);
 .a42dialogheight .max-height-fsFGXY {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 44px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 53px;
   opacity: 0.8;
   position: absolute;
@@ -1401,9 +1430,11 @@ transform: scale(0.98);
 .a42dialogheight .middle-line-2y4Gsv {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 16px;
   height: auto;
   left: 579px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -1415,9 +1446,11 @@ transform: scale(0.98);
 .a42dialogheight .middle-line-Yxq76f {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 16px;
   height: auto;
   left: 579px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -1437,9 +1470,11 @@ transform: scale(0.98);
 .a42dialogheight .mobilelandscape-rszRFR {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 22px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1450,10 +1485,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .property-4Xep2N {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1463,10 +1497,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .property-5Rx9KL {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1476,10 +1509,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .property-JzJBvK {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1489,10 +1521,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .property-YRsrbF {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1943,9 +1974,11 @@ transform: scale(0.98);
 .a42dialogheight .screen-hei-0-479uc774-rszRFR {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 27px;
   opacity: 0.6;
   position: absolute;
@@ -1965,9 +1998,11 @@ transform: scale(0.98);
 .a42dialogheight .scrolling-risVud {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 44px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 53px;
   opacity: 0.8;
   position: absolute;
@@ -2130,7 +2165,7 @@ transform: scale(0.98);
 }
 .a42dialogheight .symbol-3YQ8HM {
   background-color: transparent;
-  background-image: url(../img/4-2-dialogheight-4-02measurew712mll042dialogheight11-811B82A5-37EA-44FD-B371-62CC4387D727@2x.png);
+  background-image: url(../img/4-2-dialogheight-4-02measurew712mll042dialogheight11-79C1E756-89F9-4BAD-BAE9-E623935EB511@2x.png);
   background-size: 100% 100%;
   height: 360px;
   left: 240px;
@@ -2140,7 +2175,7 @@ transform: scale(0.98);
 }
 .a42dialogheight .symbol-YEfSji {
   background-color: transparent;
-  background-image: url(../img/4-2-dialogheight-4-02keyscreenw360mpl042dialogheight1-18D0D921-12B3-4B2E-893C-DEC2B3364DDA@2x.png);
+  background-image: url(../img/4-2-dialogheight-4-02keyscreenw360mpl042dialogheight1-598CF57C-CAC1-4CEA-A8FF-063F4E6B7A9D@2x.png);
   background-size: 100% 100%;
   height: 760px;
   left: 440px;
@@ -2156,12 +2191,19 @@ transform: scale(0.98);
   top: 40px;
   width: 540px;
 }
+.a42dialogheight .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 998px;
+  position: absolute;
+  top: 81px;
+  width: 156px;
+}
 .a42dialogheight .text-2csiWw {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2172,10 +2214,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-2lOLH2 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2186,10 +2227,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-6uCC6P {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2200,10 +2240,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-AWDxxq {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2214,10 +2253,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-Cbf5Ak {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2228,10 +2266,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-IO2tex {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2242,10 +2279,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-OMlONZ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2256,10 +2292,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-QxzBpm {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2270,10 +2305,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-U20oLU {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2284,10 +2318,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-UMYCxX {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2298,10 +2331,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-VOdO0e {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2312,10 +2344,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-WARxJW {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2326,10 +2357,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-WZpIBy {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2341,9 +2371,11 @@ transform: scale(0.98);
 .a42dialogheight .text-WvbxKh {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 31px;
+  letter-spacing: 0.00px;
   line-height: 28.6px;
   position: absolute;
   text-align: center;
@@ -2353,10 +2385,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-crCcjc {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2367,10 +2398,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-cwWTW2 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2381,10 +2411,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-i6zolW {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -2395,10 +2424,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-ioVmyo {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2409,10 +2437,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-jGLpQR {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2423,10 +2450,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-mLjtxZ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2437,10 +2463,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-rgBiVC {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2451,10 +2476,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-vbg7l9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2465,10 +2489,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-xY88zE {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2479,10 +2502,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-xZDVfu {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2493,10 +2515,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .text-zLkuOD {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2508,9 +2529,11 @@ transform: scale(0.98);
 .a42dialogheight .top-line-2y4Gsv {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 16px;
   height: auto;
   left: 331px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -2522,14 +2545,46 @@ transform: scale(0.98);
 .a42dialogheight .top-line-Yxq76f {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 16px;
   height: auto;
   left: 331px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
   text-align: center;
   top: 559px;
+  white-space: nowrap;
+  width: auto;
+}
+.a42dialogheight .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 60px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a42dialogheight .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
   white-space: nowrap;
   width: auto;
 }
@@ -2559,10 +2614,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .value-JzJBvK {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 66px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2652,10 +2706,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .value-gudNw3 {
   background-color: transparent;
-  color: var(--royal-blue);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2681,10 +2734,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .value-rUwSoz {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2694,10 +2746,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .value-sw9qCX {
   background-color: transparent;
-  color: rgba(193,206,254,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2713,10 +2764,27 @@ transform: scale(0.98);
   top: 0px;
   width: 14px;
 }
+.a42dialogheight .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a42dialogheight .web-app-OB1SiY {
   background-color: transparent;
   height: auto;
   left: 0px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2727,9 +2795,11 @@ transform: scale(0.98);
 .a42dialogheight .when-scrolling-the-risVud {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 27px;
   opacity: 0.6;
   position: absolute;
@@ -2740,10 +2810,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x-4Xep2N {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 226px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2753,10 +2822,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x-5Rx9KL {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 101px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2766,10 +2834,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x-JzJBvK {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 121px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2779,10 +2846,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x-YRsrbF {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 226px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2792,10 +2858,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-8JqZq2 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2806,10 +2871,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-HKS0TN {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2820,10 +2884,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-LEmRyB {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 6px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2834,10 +2897,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-OcWQ6C {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2848,10 +2910,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-PxJUWc {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2861,10 +2922,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-VLfpq4 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2875,10 +2935,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-b5rZdg {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2889,10 +2948,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-hSXxWF {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2903,10 +2961,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-jsdc0j {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2917,10 +2974,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-lx3ChY {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2931,10 +2987,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-ncfIRz {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2945,10 +3000,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-ndrnsw {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2959,10 +3013,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-overview-A0NNx1 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2973,10 +3026,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-pLtwu2 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2987,10 +3039,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-qx6DVv {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3000,10 +3051,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-tVy0Y8 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3014,10 +3064,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-uXAxrj {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3028,10 +3077,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-zab1dy {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 6px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3042,10 +3090,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x0-ziPJ4W {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3057,9 +3104,11 @@ transform: scale(0.98);
 .a42dialogheight .x1-Yg5F5U {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -3068,10 +3117,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x1-app-bar-mSO44p {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3083,9 +3131,11 @@ transform: scale(0.98);
 .a42dialogheight .x1-ladkMH {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -3095,9 +3145,11 @@ transform: scale(0.98);
 .a42dialogheight .x1-ykHpFh {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 15px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -3106,10 +3158,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x10-search-ys4Eef {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3120,10 +3171,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x11-toast-ZxS0T9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3134,10 +3184,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x12-text-fields-vgc3Vu {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3148,10 +3197,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x13-view-controls-94MaWS {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3162,10 +3210,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x14-description-Vh3Boh {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3176,10 +3223,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x15-notification-bad-AmUiok {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3190,10 +3236,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x16-thumbnail-7oeGf9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3204,10 +3249,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x17-copy-paste-HD1MSG {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3218,10 +3262,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x2-buttons-Rhulji {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3232,10 +3275,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x3-controllers-XGvGsa {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3326,8 +3368,13 @@ transform: scale(0.98);
 }
 .a42dialogheight .x4-2-dialog-height-C61RwL {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
   height: auto;
   left: 380px;
+  letter-spacing: 0.00px;
+  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -3337,10 +3384,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x4-dialogs-XfJia9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -3351,10 +3397,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x5-dividers-jYs5wP {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3365,10 +3410,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x6-lists-CY9yOk {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3379,10 +3423,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x7-no-item-6wC6Jq {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3393,10 +3436,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x8-progress-TIxFq4 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3407,10 +3449,9 @@ transform: scale(0.98);
 }
 .a42dialogheight .x9-scrolling-QBf695 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3425,30 +3466,55 @@ transform: scale(0.98);
 .border-class-2 {
   border: 1px solid rgba(135,135,135,1.0);
 }
-.font-class-1 {
-  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
-}
-.font-class-2 {
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-}
-.font-class-3 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
-}
-.font-class-4 {
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-}
-.font-class-5 {
+.samsungonekorean-400-normal-black-15px {
   color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
-  line-height: 84px;
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 15px;
 }
-.font-class-6 {
+.samsungonekorean-400-normal-masala-18px {
+  color: var(--masala);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-periwinkle-18px {
+  color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-royal-blue-18px {
+  color: var(--royal-blue);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-500-normal-black-15px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 15px;
+}
+.samsungonekorean-500-normal-white-14px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 14px;
+}
+.samsungonekorean-600-normal-black-15px {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
+}
+.samsungonekorean-700-normal-black-16px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 16px;
+}
+.samsungonekorean-700-normal-black-22px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 22px;
+}
+.samsungonekorean-700-normal-white-14px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 14px;
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);

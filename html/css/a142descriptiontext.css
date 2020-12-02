@@ -25,9 +25,11 @@
 .a142descriptiontext .basic-81eALL {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size: 14px;
   height: auto;
   left: 10px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   opacity: 0.8;
   position: absolute;
@@ -39,9 +41,11 @@
 .a142descriptiontext .basic-component-gui-cCgjMp {
   background-color: transparent;
   color: rgba(37,37,37,1.0);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -53,9 +57,11 @@
 .a142descriptiontext .basic-rGhoFL {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
   font-size: 14px;
   height: auto;
   left: 10px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   opacity: 0.8;
   position: absolute;
@@ -74,10 +80,9 @@
 }
 .a142descriptiontext .body-text-xxYZFi {
   background-color: transparent;
-  color: var(--black);
-  font-size: 44px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 53px;
   opacity: 0.8;
   position: absolute;
@@ -131,6 +136,21 @@ transform: scale(0.98);
 
 transform: scale(0.98);
 }
+.a142descriptiontext .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 156px;
+}
+.a142descriptiontext .btn-xpyOiF:hover {
+
+transform: scale(0.98);
+}
 .a142descriptiontext .dark-theme-P0EfWc {
   background-color: transparent;
   height: 53px;
@@ -174,7 +194,7 @@ transform: scale(0.98);
 }
 .a142descriptiontext .document-b-x-contents-9fTehp {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -183,7 +203,7 @@ transform: scale(0.98);
 }
 .a142descriptiontext .document-b-x-contents-IaYLbU {
   background-color: var(--white);
-  border: 1px solid rgba(227,227,227,1.0);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 862px;
   left: 0px;
   position: absolute;
@@ -255,9 +275,11 @@ transform: scale(0.98);
 .a142descriptiontext .fn-2xTwVw {
   background-color: transparent;
   color: rgba(250,250,250,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -268,9 +290,11 @@ transform: scale(0.98);
 .a142descriptiontext .fn-Z1GWcG {
   background-color: transparent;
   color: rgba(250,250,250,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -837,6 +861,14 @@ transform: scale(0.98);
   position: relative;
   top: 0px;
   width: 143px;
+}
+.a142descriptiontext .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 136px;
 }
 .a142descriptiontext .group-WJPVFy {
   background-color: transparent;
@@ -1584,7 +1616,7 @@ transform: scale(0.98);
 }
 .a142descriptiontext .guide-numbering-type-4nDP1E {
   background-color: transparent;
-  background-image: url(../img/14-2-descriptiontext-oval-484EA257-034B-4534-8B9E-8B433D738796@2x.png);
+  background-image: url(../img/14-2-descriptiontext-oval-BB1DEC73-0BAC-49FB-8808-97A4B356A2DB@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1594,7 +1626,7 @@ transform: scale(0.98);
 }
 .a142descriptiontext .guide-numbering-type-E9i3ty {
   background-color: transparent;
-  background-image: url(../img/14-2-descriptiontext-oval-484EA257-034B-4534-8B9E-8B433D738796@2x.png);
+  background-image: url(../img/14-2-descriptiontext-oval-BB1DEC73-0BAC-49FB-8808-97A4B356A2DB@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1604,7 +1636,7 @@ transform: scale(0.98);
 }
 .a142descriptiontext .guide-numbering-type-EJ4uwJ {
   background-color: transparent;
-  background-image: url(../img/14-2-descriptiontext-oval-484EA257-034B-4534-8B9E-8B433D738796@2x.png);
+  background-image: url(../img/14-2-descriptiontext-oval-BB1DEC73-0BAC-49FB-8808-97A4B356A2DB@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 290px;
@@ -1614,7 +1646,7 @@ transform: scale(0.98);
 }
 .a142descriptiontext .guide-numbering-type-HRo05Y {
   background-color: transparent;
-  background-image: url(../img/14-2-descriptiontext-oval-484EA257-034B-4534-8B9E-8B433D738796@2x.png);
+  background-image: url(../img/14-2-descriptiontext-oval-BB1DEC73-0BAC-49FB-8808-97A4B356A2DB@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1624,7 +1656,7 @@ transform: scale(0.98);
 }
 .a142descriptiontext .guide-numbering-type-YADlV7 {
   background-color: transparent;
-  background-image: url(../img/14-2-descriptiontext-oval-484EA257-034B-4534-8B9E-8B433D738796@2x.png);
+  background-image: url(../img/14-2-descriptiontext-oval-BB1DEC73-0BAC-49FB-8808-97A4B356A2DB@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1634,7 +1666,7 @@ transform: scale(0.98);
 }
 .a142descriptiontext .guide-numbering-type-gXtrCF {
   background-color: transparent;
-  background-image: url(../img/14-2-descriptiontext-oval-484EA257-034B-4534-8B9E-8B433D738796@2x.png);
+  background-image: url(../img/14-2-descriptiontext-oval-BB1DEC73-0BAC-49FB-8808-97A4B356A2DB@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -1644,7 +1676,7 @@ transform: scale(0.98);
 }
 .a142descriptiontext .guide-numbering-type-oohpNF {
   background-color: transparent;
-  background-image: url(../img/14-2-descriptiontext-oval-484EA257-034B-4534-8B9E-8B433D738796@2x.png);
+  background-image: url(../img/14-2-descriptiontext-oval-BB1DEC73-0BAC-49FB-8808-97A4B356A2DB@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 136px;
@@ -1654,7 +1686,7 @@ transform: scale(0.98);
 }
 .a142descriptiontext .guide-numbering-type-zjt2AW {
   background-color: transparent;
-  background-image: url(../img/14-2-descriptiontext-oval-484EA257-034B-4534-8B9E-8B433D738796@2x.png);
+  background-image: url(../img/14-2-descriptiontext-oval-BB1DEC73-0BAC-49FB-8808-97A4B356A2DB@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 278px;
@@ -1665,9 +1697,11 @@ transform: scale(0.98);
 .a142descriptiontext .guide-property-E9i3ty {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1679,9 +1713,11 @@ transform: scale(0.98);
 .a142descriptiontext .guide-property-HRo05Y {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1693,9 +1729,11 @@ transform: scale(0.98);
 .a142descriptiontext .guide-property-YADlV7 {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1707,9 +1745,11 @@ transform: scale(0.98);
 .a142descriptiontext .guide-property-gXtrCF {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 22px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -1760,10 +1800,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .history-CkZ2ZQ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1846,10 +1885,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .page-name-81eALL {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 48px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: left;
@@ -1859,10 +1897,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .page-name-rGhoFL {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 48px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: left;
@@ -1872,10 +1909,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-09f2lO {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1885,10 +1921,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-0UpHo7 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1898,10 +1933,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-0xUyxm {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1911,10 +1945,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-2FfQ73 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1924,10 +1957,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-2RMiEk {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1937,10 +1969,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-95U9BX {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1950,10 +1981,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-C32Two {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1963,10 +1993,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-CEFrIr {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1976,10 +2005,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-CK4HeG {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -1989,10 +2017,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-CTmWYx {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2002,10 +2029,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-CUxcBx {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2015,10 +2041,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-DKUyxT {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2028,10 +2053,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-GF6Svg {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2041,10 +2065,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-M9I78y {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2054,10 +2077,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-PzFqd9 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2067,10 +2089,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-TCPybR {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2080,10 +2101,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-VQOLAk {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2093,10 +2113,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-eDYtxx {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2106,10 +2125,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-ehBiCY {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2119,10 +2137,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-tZhBMb {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2132,10 +2149,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-uE9oxv {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2145,10 +2161,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-wr6yuC {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2158,10 +2173,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-yaHtrT {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2171,10 +2185,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-ynH45t {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2184,10 +2197,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .property-zOt99l {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -2653,10 +2665,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .subtitle-bullet-li-jrJo2C {
   background-color: transparent;
-  color: var(--black);
-  font-size: 44px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 53px;
   opacity: 0.8;
   position: absolute;
@@ -2675,7 +2686,7 @@ transform: scale(0.98);
 }
 .a142descriptiontext .symbol-8q0ZBT {
   background-color: transparent;
-  background-image: url(../img/14-2-descriptiontext-14-02measurew360mpl142descriptiontext21-3FE85EDB-2721-42A8-9DC0-BA2FB577EF57@2x.png);
+  background-image: url(../img/14-2-descriptiontext-14-02measurew360mpl142descriptiontext21-0690902A-2AA9-495F-9E48-BB184B9350EF@2x.png);
   background-size: 100% 100%;
   height: 531px;
   left: 178px;
@@ -2685,7 +2696,7 @@ transform: scale(0.98);
 }
 .a142descriptiontext .symbol-IaYLbU {
   background-color: transparent;
-  background-image: url(../img/14-2-descriptiontext-14-02measurew360mpl141descriptionwidth1-59CEC6A0-DC2E-4B4F-8604-2FBA26F63F64@2x.png);
+  background-image: url(../img/14-2-descriptiontext-14-02measurew360mpl141descriptionwidth1-C411EA13-D569-4741-8733-39E53BE56641@2x.png);
   background-size: 100% 100%;
   height: 331px;
   left: 178px;
@@ -2695,7 +2706,7 @@ transform: scale(0.98);
 }
 .a142descriptiontext .symbol-vgRzlS {
   background-color: transparent;
-  background-image: url(../img/14-2-descriptiontext-14-02measurew360mpl142descriptiontext22-5D240F98-0AF1-4839-886A-A926C11E185F@2x.png);
+  background-image: url(../img/14-2-descriptiontext-14-02measurew360mpl142descriptiontext22-A6F1ADFD-AE4C-4BE9-85AD-1C0F2354A9CC@2x.png);
   background-size: 100% 100%;
   height: 96px;
   left: 482px;
@@ -2719,12 +2730,19 @@ transform: scale(0.98);
   top: 40px;
   width: 87px;
 }
+.a142descriptiontext .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 1107px;
+  position: absolute;
+  top: 81px;
+  width: 156px;
+}
 .a142descriptiontext .text-0viP4S {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2743,10 +2761,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .text-6v2xZz {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2757,10 +2774,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .text-Bn7RMv {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2771,10 +2787,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .text-IJ8SPX {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2793,10 +2808,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .text-VZXFST {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2807,10 +2821,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .text-WVNCxU {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2821,10 +2834,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .text-WXs0eQ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2836,9 +2848,11 @@ transform: scale(0.98);
 .a142descriptiontext .text-WvbxKh {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 31px;
+  letter-spacing: 0.00px;
   line-height: 28.6px;
   position: absolute;
   text-align: center;
@@ -2848,10 +2862,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .text-fUqkCN {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2870,10 +2883,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .text-j883oO {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2884,10 +2896,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .text-m0tU7K {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2906,10 +2917,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .text-uH7BaW {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2928,10 +2938,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .text-ygkDr2 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2942,10 +2951,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .text-z9nQEQ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 16px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 19px;
   opacity: 0.35;
   position: absolute;
@@ -2956,10 +2964,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .text-zEzHqx {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2971,9 +2978,11 @@ transform: scale(0.98);
 .a142descriptiontext .text-zb8uVS {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -3014,6 +3023,36 @@ transform: scale(0.98);
   top: 429px;
   width: 505px;
 }
+.a142descriptiontext .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 60px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a142descriptiontext .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a142descriptiontext .value-09VYrV {
   background-color: transparent;
   height: 18px;
@@ -3024,10 +3063,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-09f2lO {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3037,10 +3075,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-0UpHo7 {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3050,10 +3087,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-0cLS3r {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3063,10 +3099,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-0xUyxm {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 88px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3077,9 +3112,11 @@ transform: scale(0.98);
 .a142descriptiontext .value-2xTwVw {
   background-color: transparent;
   color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3097,10 +3134,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-95U9BX {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 98px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3110,10 +3146,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-APPxkM {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3131,10 +3166,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-CEFrIr {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3144,10 +3178,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-CK4HeG {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 88px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3157,10 +3190,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-CTmWYx {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 80px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3170,10 +3202,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-CUxcBx {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 80px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3199,10 +3230,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-GF6Svg {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 134px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3220,10 +3250,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-M9I78y {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 88px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3233,10 +3262,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-PzFqd9 {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 98px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3246,10 +3274,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-TCPybR {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 88px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3259,10 +3286,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-VQOLAk {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 80px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3273,9 +3299,11 @@ transform: scale(0.98);
 .a142descriptiontext .value-Z1GWcG {
   background-color: transparent;
   color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 32px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3301,10 +3329,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-ehBiCY {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 80px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3315,9 +3342,11 @@ transform: scale(0.98);
 .a142descriptiontext .value-gycA08 {
   background-color: transparent;
   color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3335,10 +3364,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-qgxRT2 {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3349,9 +3377,11 @@ transform: scale(0.98);
 .a142descriptiontext .value-sBjWY8 {
   background-color: transparent;
   color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3361,10 +3391,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-tZhBMb {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 98px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3382,10 +3411,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-yaHtrT {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 100px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3395,10 +3423,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-zGlI5v {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3408,11 +3435,25 @@ transform: scale(0.98);
 }
 .a142descriptiontext .value-zOt99l {
   background-color: transparent;
-  color: rgba(75,99,250,1.0);
-  font-size: 18px;
   height: auto;
   left: 98px;
+  letter-spacing: 0.00px;
   line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a142descriptiontext .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
   position: absolute;
   text-align: left;
   top: 0px;
@@ -3421,8 +3462,13 @@ transform: scale(0.98);
 }
 .a142descriptiontext .web-app-cCgjMp {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -3432,10 +3478,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-09f2lO {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 242px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3445,10 +3490,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-0UpHo7 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 240px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3458,10 +3502,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-0xUyxm {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 116px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3471,10 +3514,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-2FfQ73 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 122px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3484,10 +3526,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-2RMiEk {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 124px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3497,10 +3538,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-2xTwVw {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 145px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3510,10 +3550,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-95U9BX {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 137px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3523,10 +3562,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-C32Two {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 121px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3536,10 +3574,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-CEFrIr {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 242px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3549,10 +3586,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-CK4HeG {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 116px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3562,10 +3598,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-CTmWYx {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 117px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3575,10 +3610,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-CUxcBx {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 117px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3588,10 +3622,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-GF6Svg {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 211px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3602,9 +3635,11 @@ transform: scale(0.98);
 .a142descriptiontext .x-LQP9vR {
   background-color: transparent;
   color: rgba(250,250,250,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 139px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3614,10 +3649,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-M9I78y {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 116px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3627,10 +3661,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-PzFqd9 {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 137px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3640,10 +3673,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-TCPybR {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 116px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3653,10 +3685,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-VQOLAk {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 117px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3666,10 +3697,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-Z1GWcG {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 145px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3679,10 +3709,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-ehBiCY {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 117px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3693,9 +3722,11 @@ transform: scale(0.98);
 .a142descriptiontext .x-jRRYAD {
   background-color: transparent;
   color: rgba(250,250,250,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 139px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3706,9 +3737,11 @@ transform: scale(0.98);
 .a142descriptiontext .x-rrUOmr {
   background-color: transparent;
   color: rgba(250,250,250,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 26px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3718,10 +3751,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-tZhBMb {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 137px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3731,10 +3763,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-uE9oxv {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 119px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3744,10 +3775,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-wr6yuC {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 119px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3758,9 +3788,11 @@ transform: scale(0.98);
 .a142descriptiontext .x-yRBWzQ {
   background-color: transparent;
   color: rgba(250,250,250,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 26px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3770,10 +3802,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-yaHtrT {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 240px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3783,10 +3814,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-ynH45t {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 112px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3796,10 +3826,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x-zOt99l {
   background-color: transparent;
-  color: var(--masala);
-  font-size: 18px;
   height: auto;
   left: 137px;
+  letter-spacing: 0.00px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -3809,10 +3838,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x0-0DeVVK {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3823,10 +3851,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x0-6fvprm {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3837,10 +3864,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x0-AuANSM {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3851,10 +3877,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x0-JJatPr {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3865,10 +3890,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x0-JkkFVQ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 3px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3879,10 +3903,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x0-Jx1Fg6 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 3px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3893,10 +3916,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x0-VfDnLn {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 3px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3907,10 +3929,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x0-YqXW9A {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3921,10 +3942,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x0-ZFOtjn {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3935,10 +3955,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x0-jbxHwu {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3949,10 +3968,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x0-lUcx6s {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 3px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3963,10 +3981,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x0-overview-M9MoLx {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3977,10 +3994,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x0-uDhwst {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -3991,10 +4007,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x0-x2ayhv {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -1px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4005,10 +4020,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x0-zOvXWX {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4019,10 +4033,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x1-9xpKuf {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -4031,10 +4044,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x1-GoS5l2 {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -4043,10 +4055,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x1-IxrKHt {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -4055,10 +4066,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x1-WeHHWx {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -4067,10 +4077,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x1-ZTex72 {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -4079,10 +4088,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x1-app-bar-ZdvCD5 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4093,10 +4101,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x1-dbxMAa {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -4105,10 +4112,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x1-w0ATn6 {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -4117,10 +4123,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x1-x6CkX2 {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: 22px;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: center;
@@ -4129,10 +4134,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x10-search-gl2xPr {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4143,10 +4147,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x11-toast-l9EcOX {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4157,10 +4160,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x12-text-fields-3eZrVr {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4171,10 +4173,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x13-view-controls-UWtFqo {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4218,9 +4219,11 @@ transform: scale(0.98);
 .a142descriptiontext .x14-description-RVk4q5 {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -4231,10 +4234,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x15-notification-bad-gcuhXr {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4245,10 +4247,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x16-thumbnail-UFRTMe {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4259,10 +4260,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x17-copy-paste-TsEcbL {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4273,10 +4273,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x2-buttons-iHs0ju {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4287,10 +4286,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x3-controllers-wIwBzr {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4301,10 +4299,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x4-dialogs-qryX2c {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4315,10 +4312,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x5-dividers-QXP3GA {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4329,10 +4325,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x6-lists-TCY2u8 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4343,8 +4338,13 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x7-1-no-itembutton-C61RwL {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
   height: auto;
   left: 380px;
+  letter-spacing: 0.00px;
+  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -4354,10 +4354,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x7-no-item-UUsuJT {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4368,10 +4367,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x8-progress-qMjz7F {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4382,10 +4380,9 @@ transform: scale(0.98);
 }
 .a142descriptiontext .x9-scrolling-8qcIpY {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -4400,30 +4397,55 @@ transform: scale(0.98);
 .border-class-2 {
   border: 1px solid rgba(135,135,135,1.0);
 }
-.font-class-1 {
+.samsungonekorean-400-normal-black-15px {
+  color: var(--black);
   font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
-}
-.font-class-2 {
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-}
-.font-class-3 {
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-}
-.font-class-4 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
-}
-.font-class-5 {
-  color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
-  line-height: 84px;
-}
-.font-class-6 {
-  color: var(--black);
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
+}
+.samsungonekorean-400-normal-black-16px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 16px;
+}
+.samsungonekorean-400-normal-black-44px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 44px;
+}
+.samsungonekorean-400-normal-masala-18px {
+  color: var(--masala);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-royal-blue-18px {
+  color: rgba(75,99,250,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-500-normal-black-15px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 15px;
+}
+.samsungonekorean-600-normal-black-22px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 22px;
+}
+.samsungonekorean-600-normal-carnation-16px {
+  color: rgba(255,90,90,1.0);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
+  font-size: 16px;
+}
+.samsungonekorean-700-normal-black-16px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 16px;
+}
+.samsungonekorean-700-normal-white-14px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 14px;
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);

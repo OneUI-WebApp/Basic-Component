@@ -111,7 +111,7 @@
   width: 268px;
 }
 .a34onoffswitch .bg-LWugDX {
-  background-color: var(--white);
+  background-color: rgba(0,204,153,0.2);
   height: 110px;
   left: 0px;
   position: absolute;
@@ -159,7 +159,7 @@
   width: 286px;
 }
 .a34onoffswitch .bg-TQIxgs {
-  background-color: var(--white);
+  background-color: rgba(0,204,153,0.2);
   height: 110px;
   left: 0px;
   position: absolute;
@@ -183,7 +183,7 @@
   width: 268px;
 }
 .a34onoffswitch .bg-aHbhWC {
-  background-color: var(--white);
+  background-color: rgba(0,204,153,0.2);
   height: 110px;
   left: 0px;
   position: absolute;
@@ -306,6 +306,21 @@
   width: 274px;
 }
 .a34onoffswitch .btn-mwblLs:hover {
+
+transform: scale(0.98);
+}
+.a34onoffswitch .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 156px;
+}
+.a34onoffswitch .btn-xpyOiF:hover {
 
 transform: scale(0.98);
 }
@@ -680,7 +695,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .document-b-x-contents-EJYwOj {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 326px;
   left: 0px;
   position: absolute;
@@ -689,7 +704,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .document-b-x-contents-I55xPr {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 556px;
   left: 0px;
   position: absolute;
@@ -707,7 +722,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .document-b-x-contents-V6KZ2v {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -1463,7 +1478,7 @@ transform: scale(0.98);
   left: 21px;
   position: absolute;
   top: 29px;
-  width: 152px;
+  width: 157px;
 }
 .a34onoffswitch .group-2-NFUSzc {
   background-color: transparent;
@@ -1697,6 +1712,14 @@ transform: scale(0.98);
   top: 0px;
   width: 182px;
 }
+.a34onoffswitch .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 136px;
+}
 .a34onoffswitch .group-VzYntK {
   background-color: transparent;
   height: 26px;
@@ -1807,7 +1830,7 @@ transform: scale(0.98);
   left: 92px;
   position: absolute;
   top: 0px;
-  width: 55px;
+  width: 60px;
 }
 .a34onoffswitch .group-k92UtA {
   background-color: transparent;
@@ -1823,7 +1846,7 @@ transform: scale(0.98);
   left: 93px;
   position: absolute;
   top: 0px;
-  width: 55px;
+  width: 60px;
 }
 .a34onoffswitch .group-nrVJp8 {
   background-color: transparent;
@@ -1903,7 +1926,7 @@ transform: scale(0.98);
   left: 98px;
   position: absolute;
   top: 0px;
-  width: 55px;
+  width: 60px;
 }
 .a34onoffswitch .guide-VyzZeT {
   background-color: transparent;
@@ -2262,7 +2285,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-meas-e-vertical-CtqKZu {
   background-color: transparent;
-  background-image: url(../img/3-4-onoff-switch-line-98DA3DEE-A262-444E-A508-809891FE3199@2x.png);
+  background-image: url(../img/3-4-onoff-switch-line-2244946B-22BB-43DF-B14E-6A3020BD966A@2x.png);
   background-size: 100% 100%;
   height: 23px;
   left: 0px;
@@ -2272,7 +2295,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-meas-e-vertical-epxDqM {
   background-color: transparent;
-  background-image: url(../img/3-4-onoff-switch-line-98DA3DEE-A262-444E-A508-809891FE3199@2x.png);
+  background-image: url(../img/3-4-onoff-switch-line-2244946B-22BB-43DF-B14E-6A3020BD966A@2x.png);
   background-size: 100% 100%;
   height: 23px;
   left: 64px;
@@ -2354,7 +2377,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-meas-horizontal-6UVFzR {
   background-color: transparent;
-  background-image: url(../img/3-4-onoff-switch-line-B681219A-2C80-470B-A8AD-A8E135AF4E24@2x.png);
+  background-image: url(../img/3-4-onoff-switch-line-6FD2F822-ACF6-497C-A589-F1F34ABEDDD3@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 88px;
@@ -2372,7 +2395,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-meas-horizontal-CtqKZu {
   background-color: transparent;
-  background-image: url(../img/3-4-onoff-switch-guidemeasurelinehorizontal-2CA7F2FF-220A-4CC9-9BC1-D3C43126906D@2x.png);
+  background-image: url(../img/3-4-onoff-switch-guidemeasurelinehorizontal-6B48463E-2A92-40A8-A6B8-5EC3527233F1@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -2390,7 +2413,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-meas-horizontal-OcdHsU {
   background-color: transparent;
-  background-image: url(../img/3-4-onoff-switch-line-B681219A-2C80-470B-A8AD-A8E135AF4E24@2x.png);
+  background-image: url(../img/3-4-onoff-switch-line-6FD2F822-ACF6-497C-A589-F1F34ABEDDD3@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 88px;
@@ -2400,7 +2423,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-meas-horizontal-epxDqM {
   background-color: transparent;
-  background-image: url(../img/3-4-onoff-switch-guidemeasurelinehorizontal-2CA7F2FF-220A-4CC9-9BC1-D3C43126906D@2x.png);
+  background-image: url(../img/3-4-onoff-switch-guidemeasurelinehorizontal-6B48463E-2A92-40A8-A6B8-5EC3527233F1@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -2410,7 +2433,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-meas-horizontal-iVkPHB {
   background-color: transparent;
-  background-image: url(../img/3-4-onoff-switch-line-AD68A7F8-E9F0-4A7F-B552-E7050FF6CDEC.png);
+  background-image: url(../img/3-7-adddelete-button-line-B32A44EA-1CF7-4AA8-92F3-5F8F44F3F075.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -2683,7 +2706,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-numb-ring-shape-5TtQRw {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-098CF0B6-C93D-40B4-ABE2-EF037378C1BD@2x.png);
+  background-image: url(../img/3-9-slider-oval-EFEAE439-C569-435B-8CC7-138E5FB941B7@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 434px;
@@ -2693,7 +2716,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-numb-ring-shape-KS0owf {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-098CF0B6-C93D-40B4-ABE2-EF037378C1BD@2x.png);
+  background-image: url(../img/3-9-slider-oval-EFEAE439-C569-435B-8CC7-138E5FB941B7@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 219px;
@@ -2703,7 +2726,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-numb-ring-shape-Ym9FsH {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-098CF0B6-C93D-40B4-ABE2-EF037378C1BD@2x.png);
+  background-image: url(../img/3-9-slider-oval-EFEAE439-C569-435B-8CC7-138E5FB941B7@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 159px;
@@ -2713,7 +2736,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-numb-ring-shape-kjFlKv {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-098CF0B6-C93D-40B4-ABE2-EF037378C1BD@2x.png);
+  background-image: url(../img/3-9-slider-oval-EFEAE439-C569-435B-8CC7-138E5FB941B7@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 159px;
@@ -2723,7 +2746,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-numb-ring-shape-qTKWQz {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-098CF0B6-C93D-40B4-ABE2-EF037378C1BD@2x.png);
+  background-image: url(../img/3-9-slider-oval-EFEAE439-C569-435B-8CC7-138E5FB941B7@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 159px;
@@ -2733,7 +2756,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-numbering-icon-61YKAr {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-098CF0B6-C93D-40B4-ABE2-EF037378C1BD@2x.png);
+  background-image: url(../img/3-9-slider-oval-EFEAE439-C569-435B-8CC7-138E5FB941B7@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2743,7 +2766,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-numbering-icon-A3s70X {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-098CF0B6-C93D-40B4-ABE2-EF037378C1BD@2x.png);
+  background-image: url(../img/3-9-slider-oval-EFEAE439-C569-435B-8CC7-138E5FB941B7@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2753,7 +2776,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-numbering-icon-DVhUIE {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-098CF0B6-C93D-40B4-ABE2-EF037378C1BD@2x.png);
+  background-image: url(../img/3-9-slider-oval-EFEAE439-C569-435B-8CC7-138E5FB941B7@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2763,7 +2786,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-numbering-icon-TOZHwn {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-098CF0B6-C93D-40B4-ABE2-EF037378C1BD@2x.png);
+  background-image: url(../img/3-9-slider-oval-EFEAE439-C569-435B-8CC7-138E5FB941B7@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -2773,7 +2796,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .guide-numbering-icon-nt8ldM {
   background-color: transparent;
-  background-image: url(../img/3-9-slider-oval-098CF0B6-C93D-40B4-ABE2-EF037378C1BD@2x.png);
+  background-image: url(../img/3-9-slider-oval-EFEAE439-C569-435B-8CC7-138E5FB941B7@2x.png);
   background-size: 100% 100%;
   height: 22px;
   left: 0px;
@@ -4920,7 +4943,7 @@ transform: scale(0.98);
 }
 .a34onoffswitch .symbol-EJYwOj {
   background-color: transparent;
-  background-image: url(../img/3-4-onoff-switch-3-04measurew360mpl033masteronoffswich2-63EA3814-938B-4337-8A89-3E925563764A@2x.png);
+  background-image: url(../img/3-4-onoff-switch-3-04measurew360mpl033masteronoffswich2-A1CD656D-7212-40F7-904A-C9E9F8A7E9E1@2x.png);
   background-size: 100% 100%;
   height: 170px;
   left: 88px;
@@ -5256,6 +5279,14 @@ transform: scale(0.98);
   top: 160px;
   width: 148px;
 }
+.a34onoffswitch .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 979px;
+  position: absolute;
+  top: 81px;
+  width: 156px;
+}
 .a34onoffswitch .text-1kUsAP {
   background-color: transparent;
   height: auto;
@@ -5513,6 +5544,36 @@ transform: scale(0.98);
   position: absolute;
   text-align: left;
   top: 43px;
+  white-space: nowrap;
+  width: auto;
+}
+.a34onoffswitch .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 60px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a34onoffswitch .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
   white-space: nowrap;
   width: auto;
 }
@@ -6384,6 +6445,21 @@ transform: scale(0.98);
   white-space: nowrap;
   width: auto;
 }
+.a34onoffswitch .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a34onoffswitch .web-app-tuZlmD {
   background-color: transparent;
   color: var(--black);
@@ -7074,7 +7150,7 @@ transform: scale(0.98);
 .a34onoffswitch .x-j0MqHA {
   background-color: transparent;
   height: auto;
-  left: 147px;
+  left: 152px;
   letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
@@ -7139,7 +7215,7 @@ transform: scale(0.98);
 .a34onoffswitch .x-mczJ5b {
   background-color: transparent;
   height: auto;
-  left: 148px;
+  left: 153px;
   letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
@@ -7318,7 +7394,7 @@ transform: scale(0.98);
 .a34onoffswitch .x-zyY43B {
   background-color: transparent;
   height: auto;
-  left: 153px;
+  left: 158px;
   letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
@@ -8016,7 +8092,7 @@ transform: scale(0.98);
   left: 0px;
   position: absolute;
   top: 0px;
-  width: 152px;
+  width: 157px;
 }
 .a34onoffswitch .x1line-7ZG19f {
   background-color: transparent;
@@ -8189,7 +8265,7 @@ transform: scale(0.98);
   left: 0px;
   position: absolute;
   top: 26px;
-  width: 158px;
+  width: 163px;
 }
 .a34onoffswitch .x2line-hRxxFb {
   background-color: transparent;
@@ -8237,7 +8313,7 @@ transform: scale(0.98);
   left: 0px;
   position: absolute;
   top: 26px;
-  width: 153px;
+  width: 158px;
 }
 .a34onoffswitch .x2line-xMAXOx {
   background-color: transparent;

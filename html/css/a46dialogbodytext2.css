@@ -8,10 +8,9 @@
 }
 .a46dialogbodytext2 .basic-P35TuO {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 10px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   opacity: 0.8;
   position: absolute;
@@ -23,9 +22,11 @@
 .a46dialogbodytext2 .basic-component-gui-OB1SiY {
   background-color: transparent;
   color: rgba(37,37,37,1.0);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
   font-size: 20px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 24px;
   opacity: 0.8;
   position: absolute;
@@ -36,10 +37,9 @@
 }
 .a46dialogbodytext2 .basic-q9zEDy {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 10px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   opacity: 0.8;
   position: absolute;
@@ -93,12 +93,29 @@ transform: scale(0.98);
 
 transform: scale(0.98);
 }
+.a46dialogbodytext2 .btn-xpyOiF {
+  background-color: rgba(0,204,153,1.0);
+  border-radius: 5px;
+  height: 34px;
+  left: 0px;
+  pointer-events: auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 156px;
+}
+.a46dialogbodytext2 .btn-xpyOiF:hover {
+
+transform: scale(0.98);
+}
 .a46dialogbodytext2 .detail-view-mZhJxs {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 44px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 53px;
   opacity: 0.8;
   position: absolute;
@@ -117,7 +134,7 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .document-b-x-contents-GtWEP6 {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 617px;
   left: 0px;
   position: absolute;
@@ -126,7 +143,7 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .document-b-x-contents-ONzRNL {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 463px;
   left: 0px;
   position: absolute;
@@ -135,7 +152,7 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .document-b-x-contents-WlGoWp {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 264px;
   left: 0px;
   position: absolute;
@@ -144,7 +161,7 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .document-b-x-contents-Zx0TSD {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -153,7 +170,7 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .document-b-x-contents-tycfG5 {
   background-color: var(--white);
-  border: 1px solid var(--ebb);
+  border: 2px solid rgba(0,204,153,1.0);
   height: 587px;
   left: 0px;
   position: absolute;
@@ -856,6 +873,14 @@ transform: scale(0.98);
   top: 1367px;
   width: 1240px;
 }
+.a46dialogbodytext2 .group-U3E5ew {
+  background-color: transparent;
+  height: 24px;
+  left: 10px;
+  position: relative;
+  top: 5px;
+  width: 136px;
+}
 .a46dialogbodytext2 .group-gBrDRH {
   background-color: transparent;
   height: 45px;
@@ -1010,7 +1035,7 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .guide-meas-horizontal-21AsTX {
   background-color: transparent;
-  background-image: url(../img/4-8-select-dialog-line-DEB328D1-A3F1-4822-B5A5-45F02F2899B6.png);
+  background-image: url(../img/4-9-single-choice-dialog-line-ED7A81CE-E77E-47F9-AC3A-3A5A4B293481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1020,7 +1045,7 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .guide-meas-horizontal-I0jhXD {
   background-color: transparent;
-  background-image: url(../img/4-6-dialogbody-text-2-line-5E308FA7-A503-4A51-96A8-39E9B5376AAF@2x.png);
+  background-image: url(../img/4-6-dialogbody-text-2-line-E9D631FE-43D3-4E89-86C0-FAA6D153F73F@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 39px;
@@ -1030,7 +1055,7 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .guide-meas-horizontal-UO0AvA {
   background-color: transparent;
-  background-image: url(../img/4-8-select-dialog-line-DEB328D1-A3F1-4822-B5A5-45F02F2899B6.png);
+  background-image: url(../img/4-9-single-choice-dialog-line-ED7A81CE-E77E-47F9-AC3A-3A5A4B293481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1040,7 +1065,7 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .guide-meas-horizontal-Vtlv0T {
   background-color: transparent;
-  background-image: url(../img/4-8-select-dialog-line-DEB328D1-A3F1-4822-B5A5-45F02F2899B6.png);
+  background-image: url(../img/4-9-single-choice-dialog-line-ED7A81CE-E77E-47F9-AC3A-3A5A4B293481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1050,7 +1075,7 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .guide-meas-horizontal-YyonU7 {
   background-color: transparent;
-  background-image: url(../img/4-6-dialogbody-text-2-line-5E308FA7-A503-4A51-96A8-39E9B5376AAF@2x.png);
+  background-image: url(../img/4-6-dialogbody-text-2-line-E9D631FE-43D3-4E89-86C0-FAA6D153F73F@2x.png);
   background-size: 100% 100%;
   height: 1px;
   left: 39px;
@@ -1060,7 +1085,7 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .guide-meas-horizontal-qiVPn7 {
   background-color: transparent;
-  background-image: url(../img/4-8-select-dialog-line-DEB328D1-A3F1-4822-B5A5-45F02F2899B6.png);
+  background-image: url(../img/4-9-single-choice-dialog-line-ED7A81CE-E77E-47F9-AC3A-3A5A4B293481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1070,7 +1095,7 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .guide-meas-horizontal-su1I0O {
   background-color: transparent;
-  background-image: url(../img/4-8-select-dialog-line-DEB328D1-A3F1-4822-B5A5-45F02F2899B6.png);
+  background-image: url(../img/4-9-single-choice-dialog-line-ED7A81CE-E77E-47F9-AC3A-3A5A4B293481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1080,7 +1105,7 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .guide-meas-horizontal-vhyS9c {
   background-color: transparent;
-  background-image: url(../img/4-8-select-dialog-line-DEB328D1-A3F1-4822-B5A5-45F02F2899B6.png);
+  background-image: url(../img/4-9-single-choice-dialog-line-ED7A81CE-E77E-47F9-AC3A-3A5A4B293481.png);
   background-size: 100% 100%;
   height: 1px;
   left: 0px;
@@ -1202,10 +1227,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .history-lZqxZq {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1249,9 +1273,11 @@ transform: scale(0.98);
 .a46dialogbodytext2 .list-5dZqGE {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 44px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 53px;
   opacity: 0.8;
   position: absolute;
@@ -1302,10 +1328,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .page-name-P35TuO {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 48px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: left;
@@ -1315,10 +1340,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .page-name-q9zEDy {
   background-color: transparent;
-  color: var(--white);
-  font-size: 14px;
   height: auto;
   left: 48px;
+  letter-spacing: 0.00px;
   line-height: 17px;
   position: absolute;
   text-align: left;
@@ -1816,7 +1840,7 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .symbol-1j1wQ2 {
   background-color: transparent;
-  background-image: url(../img/4-6-dialogbody-text-2-4-06measurew360mpl046dialogbodytext22-84269954-8572-4D00-B806-C8828DB40D0C@2x.png);
+  background-image: url(../img/4-6-dialogbody-text-2-4-06measurew360mpl046dialogbodytext22-96CB440D-E42E-4A6B-A202-B115FD750584@2x.png);
   background-size: 100% 100%;
   height: 499px;
   left: 0px;
@@ -1826,7 +1850,7 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .symbol-ONzRNL {
   background-color: transparent;
-  background-image: url(../img/4-6-dialogbody-text-2-4-06measurew360mpl046dialogbodytext21-EF3A9C7C-BB05-494A-BE83-8EEBF11E4A87@2x.png);
+  background-image: url(../img/4-6-dialogbody-text-2-4-06measurew360mpl046dialogbodytext21-FB6EC012-DC29-4BE6-B888-92EB9ED005D2@2x.png);
   background-size: 100% 100%;
   height: 345px;
   left: 421px;
@@ -1858,12 +1882,19 @@ transform: scale(0.98);
   top: 322px;
   width: 148px;
 }
+.a46dialogbodytext2 .tag-update-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 1140px;
+  position: absolute;
+  top: 81px;
+  width: 156px;
+}
 .a46dialogbodytext2 .text-2csiWw {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1874,10 +1905,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-2lOLH2 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1888,10 +1918,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-6uCC6P {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1902,10 +1931,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-AWDxxq {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1916,10 +1944,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-Cbf5Ak {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1930,10 +1957,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-IO2tex {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1944,10 +1970,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-OMlONZ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1958,10 +1983,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-U20oLU {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1972,10 +1996,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-UMYCxX {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -1986,10 +2009,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-VOdO0e {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2000,10 +2022,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-WARxJW {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2014,10 +2035,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-WZpIBy {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2029,9 +2049,11 @@ transform: scale(0.98);
 .a46dialogbodytext2 .text-WvbxKh {
   background-color: transparent;
   color: var(--white);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 31px;
+  letter-spacing: 0.00px;
   line-height: 28.6px;
   position: absolute;
   text-align: center;
@@ -2041,10 +2063,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-cwWTW2 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2055,10 +2076,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-i6zolW {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2069,10 +2089,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-ioVmyo {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2083,10 +2102,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-jGLpQR {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2097,10 +2115,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-mLjtxZ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -2111,10 +2128,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-rgBiVC {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2125,10 +2141,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-xY88zE {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2139,10 +2154,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-xZDVfu {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2153,10 +2167,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .text-zLkuOD {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 72px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2168,9 +2181,11 @@ transform: scale(0.98);
 .a46dialogbodytext2 .ud14duc2a4--listuc758-F8qG9F {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
   font-size: 18px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 27px;
   opacity: 0.6;
   position: absolute;
@@ -2178,6 +2193,36 @@ transform: scale(0.98);
   top: 36px;
   white-space: nowrap;
   width: 1240px;
+}
+.a46dialogbodytext2 .updated-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 60px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.a46dialogbodytext2 .v-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
 }
 .a46dialogbodytext2 .value-7XxQLU {
   background-color: transparent;
@@ -2259,10 +2304,27 @@ transform: scale(0.98);
   top: 3px;
   width: 85px;
 }
+.a46dialogbodytext2 .version-N0mG4b {
+  background-color: transparent;
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 20px;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
 .a46dialogbodytext2 .web-app-OB1SiY {
   background-color: transparent;
   height: auto;
   left: 0px;
+  letter-spacing: 0.30px;
+  line-height: 18px;
   opacity: 0.6;
   position: absolute;
   text-align: left;
@@ -2272,10 +2334,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x0-4WuVvJ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2286,10 +2347,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x0-9Fgdpa {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2300,10 +2360,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x0-ARs1e3 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2314,10 +2373,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x0-E0lSYt {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 3px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2328,10 +2386,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x0-EBulrY {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 15px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2342,10 +2399,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x0-EVfswS {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2356,10 +2412,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x0-Ic8aAb {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2370,10 +2425,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x0-SWrx7L {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2384,10 +2438,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x0-WHLg1c {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2398,10 +2451,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x0-cpZetG {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 3px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2412,10 +2464,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x0-gppjQB {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 3px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2426,10 +2477,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x0-jpx8h9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2440,10 +2490,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x0-kx9cmb {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2454,10 +2503,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x0-overview-A0NNx1 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2468,10 +2516,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x0-qCPYxJ {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 3px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2482,10 +2529,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x0-t2pp0w {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: -2px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2496,10 +2542,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x1-app-bar-mSO44p {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2510,10 +2555,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x10-search-ys4Eef {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2524,10 +2568,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x11-toast-ZxS0T9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2538,10 +2581,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x12-text-fields-vgc3Vu {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2552,10 +2594,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x13-view-controls-94MaWS {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2566,10 +2607,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x14-description-Vh3Boh {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2580,10 +2620,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x15-notification-bad-AmUiok {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2594,10 +2633,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x16-thumbnail-7oeGf9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2608,10 +2646,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x17-copy-paste-HD1MSG {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2622,10 +2659,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x2-buttons-Rhulji {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2637,9 +2673,11 @@ transform: scale(0.98);
 .a46dialogbodytext2 .x2-line-list-F8qG9F {
   background-color: transparent;
   color: var(--black);
+  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 22px;
   height: auto;
   left: 0px;
+  letter-spacing: 0.00px;
   line-height: 26px;
   opacity: 0.8;
   position: absolute;
@@ -2650,10 +2688,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x3-controllers-XGvGsa {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2696,8 +2733,13 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x4-6-dialog-body-te-C61RwL {
   background-color: transparent;
+  color: var(--black);
+  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
+  font-size: 70px;
   height: auto;
   left: 380px;
+  letter-spacing: 0.00px;
+  line-height: 84px;
   opacity: 0.8;
   position: absolute;
   text-align: left;
@@ -2707,10 +2749,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x4-dialogs-XfJia9 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.8;
   position: absolute;
@@ -2721,10 +2762,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x5-dividers-jYs5wP {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2735,10 +2775,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x6-lists-CY9yOk {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2749,10 +2788,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x7-no-item-6wC6Jq {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2763,10 +2801,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x8-progress-TIxFq4 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2777,10 +2814,9 @@ transform: scale(0.98);
 }
 .a46dialogbodytext2 .x9-scrolling-QBf695 {
   background-color: transparent;
-  color: var(--black);
-  font-size: 15px;
   height: auto;
   left: 30px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   opacity: 0.6;
   position: absolute;
@@ -2795,30 +2831,55 @@ transform: scale(0.98);
 .border-class-2 {
   border: 1px solid rgba(135,135,135,1.0);
 }
-.font-class-1 {
-  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
-}
-.font-class-2 {
-  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
-}
-.font-class-3 {
-  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
-}
-.font-class-4 {
-  font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
-}
-.font-class-5 {
+.samsungonekorean-400-normal-black-15px {
   color: var(--black);
-  font-family: "SamsungOneKorean-300", Helvetica, Arial, serif;
-  font-size: 70px;
-  line-height: 84px;
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 15px;
 }
-.font-class-6 {
+.samsungonekorean-400-normal-masala-18px {
+  color: var(--masala);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-periwinkle-18px {
+  color: rgba(193,206,254,1.0);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-400-normal-royal-blue-18px {
+  color: var(--royal-blue);
+  font-family: "SamsungOneKorean-400", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.samsungonekorean-500-normal-black-15px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 15px;
+}
+.samsungonekorean-500-normal-white-14px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-500", Helvetica, Arial, serif;
+  font-size: 14px;
+}
+.samsungonekorean-600-normal-black-15px {
   color: var(--black);
   font-family: "SamsungOneKorean-600", Helvetica, Arial, serif;
   font-size: 15px;
-  letter-spacing: 0.30px;
-  line-height: 18px;
+}
+.samsungonekorean-700-normal-black-16px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 16px;
+}
+.samsungonekorean-700-normal-black-22px {
+  color: var(--black);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 22px;
+}
+.samsungonekorean-700-normal-white-14px {
+  color: var(--white);
+  font-family: "SamsungOneKorean-700", Helvetica, Arial, serif;
+  font-size: 14px;
 }
 :root {
   --azure-radiance: rgba(0,153,255,1.0);
